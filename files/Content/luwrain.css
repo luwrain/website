@@ -1,0 +1,82 @@
+.hidden { display: none; }
+.clearBoth {clear:both;}
+.right{float:right;}
+.left{float:left;}
+.bold{font-weight:bold;}
+
+body { 
+	padding: 0; 
+	margin: 0; 
+	background: center repeat-y #ffffff; 
+	font-family: Myriad Pro; 
+	font-size: 16px; 
+	color:2e2e2e;
+}
+#wrapper {
+	overflow:hidden;
+	position:relative;
+}
+#main {
+	width:1200px;
+	margin:0 auto;
+}
+table, div {
+	text-align: left;
+	border-collapse:collapse;
+	border-spacing:0;
+}
+td, th { 
+	vertical-align: top; 
+}
+a { 
+	color: #2e2e2e; 
+	text-decoration: none;}
+a:visited 
+{
+    color: #2e2e2e; 
+   } 
+a:hover {
+    color: #26c3d8;   
+   }
+button {
+	cursor:pointer;
+}
+img{
+	border-style:none;
+}
+#topPart {
+	height:300px;
+	width:100%;
+	font-size: 20px; 
+}
+#topPart li {
+	list-style: none outside none;
+}
+#topPart .topMenu {
+    margin: 0;
+    padding: 55px 0px 0px 310px;
+    position: relativ;
+}
+#topPart .topMenu  .sectionMenu{
+	float:left;
+}
+#topPart .topMenu  .sectionMenu div{
+	width:240px;
+}
+#topPart .topMenu  .sectionMenu div .linkMenu{
+	margin-bottom:10px;
+}
+#topPart .topMenu  .sectionMenu div .subMenu{
+	padding:0px;
+}
+#topPart .topMenu  .sectionMenu div .subMenuSmall{
+	padding:0px 0px 0px 20px;
+	font-size: 16px; 
+}
+#menuSwitch {
+	height:50px;
+	width:100%;
+}
+#menuSwitch  .menuButton{
+	padding: 30px 0 0 580px;
+}
