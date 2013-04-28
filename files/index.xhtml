@@ -17,7 +17,6 @@
 			$('#closeMenu').addClass('hidden');
 			$('#openMenu').click(function (e) {
 				e.preventDefault();
-				//$('#topPart').removeClass('hidden');
 				$('#topPart').slideDown('slow');
 				$('#openMenu').addClass('hidden');
 				$('#closeMenu').removeClass('hidden');
@@ -25,11 +24,37 @@
 			$('#closeMenu').click(function (e) {
 				e.preventDefault();
 				$('#topPart').slideUp('slow');
-				//$('#topPart').addClass('hidden');
 				$('#closeMenu').addClass('hidden');
 				$('#openMenu').removeClass('hidden');
 			});
+			$('#closeLanguageMenu').click(function (e) {
+				e.preventDefault();
+				$('#languageMenu').addClass('hidden');
+				$('#languageSelected').removeClass('hidden');
+			});
+			$('#selectedLanguageName').click(function (e) {
+				e.preventDefault();
+				$('#languageMenu').removeClass('hidden');
+				$('#languageSelected').addClass('hidden');
+			});
+			$('#russianLang').click(function (e) {
+				ChangeLanguage('russianLang');
+			});
+			$('#engLang').click(function (e) {
+				ChangeLanguage('engLang');
+			});
+			$('#deutschLang').click(function (e) {
+				ChangeLanguage('deutschLang');
+			});
+			$('#franceLang').click(function (e) {
+				ChangeLanguage('franceLang');
+			});
         });
+		function ChangeLanguage(langName) {
+			$('#selectedLanguageName').html($('#'+langName).html());
+			$('#languageSelected').removeClass('hidden');
+			$('#languageMenu').addClass('hidden');
+		};
     </script>
 </head>
 <body>
@@ -110,6 +135,75 @@
 				<div id = "closeMenu" class = "menuButton">
 					<a href="#">CLOSE</a>
 				</div>
+			</div>
+			<div id = "headerPart">
+				<ul class="headerList">
+					<li class="sectionHeader">
+						<div id = "leftMenu">
+							<ul class="subMenu">
+								<li class="linkMenu">
+									<a href="#">Adapted version</a>
+								</li>
+								<span id = "languageSelected">
+									<li class="linkMenu">
+										<a href="#" class="font14" id = "selectedLanguageName">English</a>
+									</li>
+								</span>
+								<span id = "languageMenu" class="hidden">
+									<li class="linkMenu">
+										<a href="#" class="font14" id = "closeLanguageMenu">Close</a>
+									</li>
+									<li class="linkMenu">
+										<a href="#" id="russianLang">Русский</a>
+									</li>
+									<li class="linkMenu">
+										<a href="#" id="engLang">English</a>
+									</li>
+									<li class="linkMenu">
+										<a href="#" id="deutschLang">Deutsch</a>
+									</li>
+									<li class="linkMenu">
+										<a href="#" id="franceLang">Français</a>
+									</li>
+								</span>
+							</ul>
+						</div>
+					</li>
+					<li class="sectionHeader">
+						<div id = "logo">
+							<a href="#" id = "logoLink">
+								<ul class="subMenu">
+									<li>
+										<span class="font30 bold">LUWRAIN</span>
+									</li>
+									<li>
+										<span class="italic font14">The territory</span>
+									</li>
+									<li>
+										<span class="italic font14">of a compelling accessibility</span>
+									</li>
+								</ul>
+							</a>
+						</div>
+					</li>
+					<li class="sectionHeader">
+						<div id="mainMenu">
+							<div id="mainMenuBorder">
+								<ul class="subMenu" id="mainMenuList">
+									<li class="linkMenu">
+										<a href="#" class="bold font18">DOWNLOAD</a>
+									</li>
+									<li class="linkMenu">
+										<a href="#">Documentation</a>
+									</li>
+									<li class="linkMenu">
+										<a href="#">Community</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>

@@ -3,6 +3,10 @@
 .right{float:right;}
 .left{float:left;}
 .bold{font-weight:bold;}
+.font14 {font-size: 14px; }
+.font18 {font-size: 18px; }
+.font30 {font-size: 30px; }
+.italic{font-style:italic;}
 
 body { 
 	padding: 0; 
@@ -79,4 +83,54 @@ img{
 }
 #menuSwitch  .menuButton{
 	padding: 30px 0 0 580px;
+}
+#headerPart {
+	height:180px;
+	width:100%;
+	font-size: 16px; 
+}
+#headerPart li {
+	list-style: none outside none;
+}
+#headerPart .headerList {
+    margin: 0;
+    padding: 50px 0px 0px 120px;
+    position: relativ;
+}
+#headerPart .headerList  .sectionHeader{
+	float:left;
+}
+#headerPart .headerList  .sectionHeader div .linkMenu{
+	margin-bottom:10px;
+}
+#headerPart .headerList  .sectionHeader div .subMenu{
+	padding:0px;
+}
+#headerPart .headerList  .sectionHeader div .subMenuSmall{
+	padding:0px 0px 0px 20px;
+	font-size: 16px; 
+}
+#headerPart .headerList  .sectionHeader #leftMenu{
+	width:390px;
+}
+#headerPart .headerList  .sectionHeader #logo{
+	width:190px;
+}
+#headerPart .headerList  .sectionHeader #logo li {
+    text-align: center;
+}
+#headerPart .headerList  .sectionHeader #logoLink:hover {
+	color: #2e2e2e; 
+}
+#headerPart .headerList  .sectionHeader #mainMenu{
+	width:500px;
+}
+#headerPart .headerList  .sectionHeader #mainMenuBorder{
+	border:5px solid #e1e1e2;
+	width:155px;
+	height:120px;
+	margin:0px 0px 0px 215px;
+}
+#headerPart .headerList  .sectionHeader #mainMenuList{
+	margin:20px 0px 0px 20px;
 }
