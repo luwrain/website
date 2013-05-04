@@ -1,12 +1,14 @@
-.hidden { display: none; }
-.clearBoth {clear:both;}
-.right{float:right;}
-.left{float:left;}
-.bold{font-weight:bold;}
-.font14 {font-size: 14px; }
-.font18 {font-size: 18px; }
-.font30 {font-size: 30px; }
-.italic{font-style:italic;}
+.hidden { display: none!important;}
+.clearBoth {clear:both!important;}
+.right{float:right!important;}
+.left{float:left!important;}
+.bold{font-weight:bold!important;}
+.font14 {font-size: 14px!important;}
+.font16 {font-size: 16px!important;}
+.font18 {font-size: 18px!important;}
+.font30 {font-size: 30px!important;}
+.italic{font-style:italic!important;}
+.blueColor {color: #26c3d8!important;}
 
 body { 
 	padding: 0; 
@@ -133,4 +135,39 @@ img{
 }
 #headerPart .headerList  .sectionHeader #mainMenuList{
 	margin:20px 0px 0px 20px;
+}
+#footerPart {
+	height:70px;
+	width:100%;
+	font-size: 14px; 
+}
+#footerPart li {
+	list-style: none outside none;
+}
+#footerPart .footerList {
+    margin: 0;
+    padding: 0px 0px 0px 120px;
+    position: relativ;
+}
+#footerPart .footerList  .sectionFooter{
+	float:left;
+}
+#footerPart .footerList  .sectionFooter #copyright{
+	width:120px;
+}
+#footerPart .footerList  .sectionFooter #terms{
+	padding-top: 3px;
+	width:720px;
+}
+#footerPart .footerList  .sectionFooter #design{
+	padding-top: 3px;
+	width:115px;
+}
+#footerPart .footerList  .sectionFooter #mainMenuList{
+	margin:20px 0px 0px 20px;
+}
+#mainPart {
+	height:700px;
+	width:100%;
+	text-align: center;
 }

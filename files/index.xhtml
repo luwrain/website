@@ -10,51 +10,11 @@
 	<link type="image/x-icon" href="Images/favicon.ico" rel="icon"/>
     <link media="all" rel="stylesheet" type="text/css" href="Content/luwrain.css" />
 	<script type="text/javascript" src="Scripts/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="Scripts/Luwrain.Index.js"></script>
+	<script type="text/javascript" src="Scripts/index.js"></script>
 	   <script type="text/javascript">
         jQuery(document).ready(function () {
-			$('#topPart').addClass('hidden');
-			$('#closeMenu').addClass('hidden');
-			$('#openMenu').click(function (e) {
-				e.preventDefault();
-				$('#topPart').slideDown('slow');
-				$('#openMenu').addClass('hidden');
-				$('#closeMenu').removeClass('hidden');
-			});
-			$('#closeMenu').click(function (e) {
-				e.preventDefault();
-				$('#topPart').slideUp('slow');
-				$('#closeMenu').addClass('hidden');
-				$('#openMenu').removeClass('hidden');
-			});
-			$('#closeLanguageMenu').click(function (e) {
-				e.preventDefault();
-				$('#languageMenu').addClass('hidden');
-				$('#languageSelected').removeClass('hidden');
-			});
-			$('#selectedLanguageName').click(function (e) {
-				e.preventDefault();
-				$('#languageMenu').removeClass('hidden');
-				$('#languageSelected').addClass('hidden');
-			});
-			$('#russianLang').click(function (e) {
-				ChangeLanguage('russianLang');
-			});
-			$('#engLang').click(function (e) {
-				ChangeLanguage('engLang');
-			});
-			$('#deutschLang').click(function (e) {
-				ChangeLanguage('deutschLang');
-			});
-			$('#franceLang').click(function (e) {
-				ChangeLanguage('franceLang');
-			});
+			OnReady();
         });
-		function ChangeLanguage(langName) {
-			$('#selectedLanguageName').html($('#'+langName).html());
-			$('#languageSelected').removeClass('hidden');
-			$('#languageMenu').addClass('hidden');
-		};
     </script>
 </head>
 <body>
@@ -171,7 +131,7 @@
 					</li>
 					<li class="sectionHeader">
 						<div id = "logo">
-							<a href="#" id = "logoLink">
+							<a href="http://www.luwrain.com" id = "logoLink">
 								<ul class="subMenu">
 									<li>
 										<span class="font30 bold">LUWRAIN</span>
@@ -201,6 +161,28 @@
 									</li>
 								</ul>
 							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div id = "mainPart">
+			<img src="Images/2.gif"></img>
+			</div>
+			<div id = "footerPart">
+				<ul class="footerList">
+					<li class="sectionFooter">
+						<div id = "copyright">
+							<span class="font16">© Luwrain 2013</span>
+						</div>
+					</li>
+					<li class="sectionFooter">
+						<div id = "terms" class="blueColor">
+							<a href="#" class="blueColor">Terms of use</a>
+						</div>
+					</li>
+					<li class="sectionFooter">
+						<div id="design">
+							Design by <a href="#"><span class="blueColor">Strash</span></a>
 						</div>
 					</li>
 				</ul>
