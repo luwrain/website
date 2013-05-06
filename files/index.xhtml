@@ -11,7 +11,7 @@
     <link media="all" rel="stylesheet" type="text/css" href="Content/luwrain.css" />
 	<script type="text/javascript" src="Scripts/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="Scripts/index.js"></script>
-	   <script type="text/javascript">
+	<script type="text/javascript">
         jQuery(document).ready(function () {
 			OnReady();
         });
@@ -90,13 +90,13 @@
 			</div>
 			<div id="menuSwitch">
 				<div id = "openMenu" class = "menuButton">
-					<a href="#">MENU</a>
+					<a href="#">MENU &#9652;</a>
 				</div>
 				<div id = "closeMenu" class = "menuButton">
-					<a href="#">CLOSE</a>
+					<a href="#">CLOSE &#9662;</a>
 				</div>
 			</div>
-			<div id = "headerPart">
+			<div id = "headerPart">		
 				<ul class="headerList">
 					<li class="sectionHeader">
 						<div id = "leftMenu">
@@ -128,10 +128,13 @@
 								</span>
 							</ul>
 						</div>
+						<div id = "leftArrow">
+							<a href="#" class="font35 bold">&#60;</a>
+						</div>
 					</li>
 					<li class="sectionHeader">
 						<div id = "logo">
-							<a href="http://www.luwrain.com" id = "logoLink">
+							<a href="#" id = "logoLink">
 								<ul class="subMenu">
 									<li>
 										<span class="font30 bold">LUWRAIN</span>
@@ -144,6 +147,68 @@
 									</li>
 								</ul>
 							</a>
+						</div>
+						<div id = "mainPart">
+							<input class="hidden" id="hiddenPartNumber"></input>
+							<div id ="accEnvir" class="font20">
+								The accessible environment Luwrain
+							</div>
+							<div id = "picContent">
+								<!--    1    -->
+								<div id = "part1">
+									<img id="accImg" src="Images/acc.png" alt="The accessible platform" height="300" width="489"></img>
+									<div id ="textUnderPic">The accessible platform</div>
+								</div>
+								<!--    1 more   -->
+								<div id = "part1more" class="">
+									<div id ="accPlatform">
+										The accessible platform
+									</div>
+									<div id="text1more" class="darkGrey">
+										With accessible environment Luwrain blind and visually-impaired persons 
+										<br/>get one more way to be involved in the incredible world of information 
+										<br/>>technologies. Luwrain doesn't take a lot of time to study and aims to be 
+										<br/>useful on laptops as well as on usual desktop computers. You can treat our
+										<br/>new idea as one more solution for everybody who needs reliable and 
+										<br/>accessible companion for various types of work. The product is designed
+										<br/>as new platform for creating speech-enabled applications with set of 
+										<br/>standard tools for easy web access, mail and news reading, etc.
+									</div>
+								</div>
+							</div>
+							<div id="buttonContent">
+								<ul>
+									<li>
+										<button class="twoButton heavyButton" id = "firstButton" >
+											<span><img src="Images/down.png" alt="" height="18" width="15"></img>&nbsp;&nbsp;TRY IT NOW</span>
+										</button>
+									</li>
+									<li id = "orLi">
+										<span>or</span>
+									</li>
+									<li>
+										<button class="twoButton lightButton" id = "secondButton" onclick="SecondButtonOnClick();">
+											<span>Read more</span>
+										</button>
+									</li>
+								</ul>
+							</div>
+							<div id = "navigation">
+								<ul>
+									<li>
+										<a href="#" class="blueColor">&#9899;</a>
+									</li>
+									<li>
+										<a href="#" class="lightGrey">&#9899;</a>
+									</li>
+									<li>
+										<a href="#" class="lightGrey">&#9899;</a>
+									</li>
+									<li>
+										<a href="#" class="lightGrey">&#9899;</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</li>
 					<li class="sectionHeader">
@@ -162,12 +227,13 @@
 								</ul>
 							</div>
 						</div>
+						<div id="rightArrow">
+							<a href="#" class="font35 bold">&#62;</a>
+						</div>
 					</li>
 				</ul>
 			</div>
-			<div id = "mainPart">
-			<img src="Images/2.gif"></img>
-			</div>
+			<div class="clearBoth"></div>
 			<div id = "footerPart">
 				<ul class="footerList">
 					<li class="sectionFooter">

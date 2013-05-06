@@ -1,4 +1,12 @@
 function OnReady(langName) {
+	$('#hiddenPartNumber').val(1);
+	
+	$('#part1more').addClass('hidden');
+	$('#leftArrow').addClass('hidden');
+	$('#part1').addClass('hidden');
+	
+	$('#part1').slideDown('slow');
+
 	$('#topPart').addClass('hidden');
 	$('#closeMenu').addClass('hidden');
 	$('#openMenu').click(function (e) {
@@ -35,6 +43,18 @@ function OnReady(langName) {
 	$('#franceLang').click(function (e) {
 		ChangeLanguage('franceLang');
 	});
+};
+function SecondButtonOnClick() {
+	switch ($('#hiddenPartNumber').val()) {
+		case "1": 
+			$('#hiddenPartNumber').val(10);
+			$('#part1').slideUp('slow');
+			//$('#part1more').removeClass('hidden');
+			$('#part1more').slideDown('slow');
+			break;
+	 }
+};
+function ChangeContentPart(currentPart,toPart) {
 };
 function ChangeLanguage(langName) {
 	$('#selectedLanguageName').html($('#'+langName).html());
