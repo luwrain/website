@@ -303,3 +303,39 @@ img{
 	float:left;
 	text-align: center;
 }
+#headerPart .headerList  .sectionHeader #mainPart #insidePageText {
+	width:540px;
+	padding-top:90px;
+}
+#headerPart .headerList  .sectionHeader #mainPart #insidePageText  h1{
+	font-size: 36px;
+	text-decoration:none;
+	font-weight: normal;
+}
+#headerPart .headerList  .sectionHeader #mainPart #insidePageText  h2{
+	font-size: 20px;
+	color:#2e2e2e;
+	text-decoration:none;
+	font-weight: normal;
+}
+#headerPart .headerList  .sectionHeader #mainPart #insidePageText  h3{
+	font-size: 14px;
+	color:#a8a9aa;
+	text-decoration:none;
+	font-weight: normal;
+}
+#headerPart .headerList  .sectionHeader #mainPart #insidePageText  p{
+	font-size: 14px;
+	color:#7c7c7c;
+	text-decoration:none;
+	font-weight: normal;
+}
+#headerPart .headerList  .sectionHeader #mainPart #insidePageText  ul{
+	font-size: 14px;
+	color:#a8a9aa;
+	text-decoration:none;
+	font-weight: normal;
+}
+#headerPart .headerList  .sectionHeader #mainPart #insidePageText  li{
+	list-style: decimal outside none;
+}
