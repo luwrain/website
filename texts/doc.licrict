@@ -1,0 +1,24 @@
+
+We have documentation sections on~this website divided onto several groups.
+First of~all there are the~links to~the~pages with  material 
+covering various technical details of~Luwrain environment.
+All of~them are purposed for real or coming users as~well as~for~developers of~any~kind.
+If you would like to read developer documentation you may want to read sections about developing of~Luwrain environment itself  
+or about creating new application for~it.
+In~addition we have one~more group below dedicated to~Luwrain developing process fundamentals.
+
+Choose technical documentation section you need:
+
+* [users/ Luwrain users documentation] 
+* [devel/ Luwrain developing documentation]
+* [apps/ Luwrain applications creation documentation]
+
+Luwrain fundamentals describes its legal status,  general design essentials and some collaboration invitations.
+You can also read these pages if you would like to~get complete project overview at~a~glance.
+
+* overview/ What is Luwrain and why do we think blind users need it?]
+* [legal/ Legal notes]
+* [faq/ Frequently asked questions]
+* [hardware/ Hardware support policy]
+* [partners/ Be our partner and let do something together] 
+* [sponsors/ Be our sponsor and support our work] 
