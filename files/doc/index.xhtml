@@ -6,16 +6,16 @@
 	<meta property="og:description" content="Luwrain" />
 	<meta property="og:type" content="company" />
 	<meta property="og:url" content="http://www.luwrain.com"/>
-    <title>Luwrain</title>
-	<link type="image/x-icon" href="Images/favicon.ico" rel="icon"/>
-    <link media="all" rel="stylesheet" type="text/css" href="Content/luwrain.css" />
-	<script type="text/javascript" src="Scripts/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="Scripts/index.js"></script>
-	<script type="text/javascript" src="Scripts/core.js"></script>
+    <title>Documentation - Luwrain</title>
+	<link type="image/x-icon" href="/Images/favicon.ico" rel="icon"/>
+    <link media="all" rel="stylesheet" type="text/css" href="/Content/luwrain.css" />
+	<script type="text/javascript" src="/Scripts/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="/Scripts/docs.js"></script>
+	<script type="text/javascript" src="/Scripts/core.js"></script>
 	<script type="text/javascript">
         jQuery(document).ready(function () {
 			OnReady();
-			OnReadyIndex();
+			OnReadyDocs();
         });
     </script>
 </head>
@@ -130,7 +130,7 @@
 								</span>
 							</ul>
 						</div>
-						<div id = "leftArrow">
+						<div id = "leftArrow" class="">
 							<a href="#" class="font35 bold" id="leftArrowLink">&#60;</a>
 						</div>
 					</li>
@@ -151,57 +151,38 @@
 							</a>
 						</div>
 						<div id = "mainPart">
-							<input class="hidden" id="hiddenPartNumber"></input>
-							<div id ="accEnvir" class="font20">
-								The accessible environment Luwrain
+							<div id = "insidePageText">
+							  <h1>Luwrain documentation</h1>
+							  <p>
+							    We have documentation sections on this website divided onto several groups. First of all
+							    there are the links to the pages with material covering various technical details of Luwrain
+							    environment. All of them are purposed for real or coming users as well as for developers
+							    of any kind. If you would like to read developer documentation you may want to read sections
+							    about developing of Luwrain environment itself or about creating new application for it.
+							    In addition we have one more group below dedicated to Luwrain developing process fundamentals.
+							  </p>
+							  <p>Choose technical documentation section you need:</p>
+							  <ul>
+							    <li><a href="users/">Luwrain users documentation</a></li>
+							    <li><a href="devel/">Luwrain developing documentation</a></li>
+							    <li><a href="apps/">Luwrain applications creation documentation</a></li>
+							  </ul>
+							  <p>
+							    Luwrain fundamentals describes its legal status, general design essentials and some collaboration
+							    invitations. You can also read these pages if you would like to get complete project overview
+							    at a glance.
+							  </p>
+							  <ul>
+							    <li><a href="overview/">What is Luwrain and why do we think blind users need it?</a></li>
+							    <li><a href="legal/">Legal notes</a></li>
+							    <li><a href="faq/">Frequently asked questions</a></li>
+							    <li><a href="hardware/">Hardware support policy</a></li>
+							    <li><a href="partners/">Be our partner and let do something together</a></li>
+							    <li><a href="sponsors/">Be our sponsor and support our work</a></li>
+							  </ul>
+
 							</div>
-							<div id = "picContent">
-								<!--    1    -->
-								<div id = "part1">
-									<div id = "imageDiv">
-									</div>
-									<div id ="textUnderPic"></div>
-								</div> 
-								<!--    1 more   -->
-								<div id = "part1more" class="">
-									<div id ="accPlatform">
-									</div>
-									<div id="text1more" class="darkGrey">
-									</div>
-								</div> 
-							</div>
-							<div id="buttonContent">
-								<ul>
-									<li>
-										<button class="twoButton heavyButton" id = "firstButton" >
-										</button>
-									</li>
-									<li id = "orLi">
-										<span>or</span>
-									</li>
-									<li>
-										<button class="twoButton lightButton" id = "secondButton" onclick="SecondButtonOnClick();">
-											<span></span>
-										</button>
-									</li>
-								</ul>
-							</div>
-							<div id = "navigation">
-								<ul>
-									<li>
-										<a href="#" class="blueColor" id="nav1">&#9899;</a>
-									</li>
-									<li>
-										<a href="#" class="lightGrey" id="nav2">&#9899;</a>
-									</li>
-									<li>
-										<a href="#" class="lightGrey" id="nav3">&#9899;</a>
-									</li>
-									<li>
-										<a href="#" class="lightGrey" id="nav4">&#9899;</a>
-									</li>
-								</ul>
-							</div>
+							<!--fixme-->
 						</div>
 					</li>
 					<li class="sectionHeader">
@@ -209,18 +190,18 @@
 							<div id="mainMenuBorder">
 								<ul class="subMenu" id="mainMenuList">
 									<li class="linkMenu">
-										<a href="#" class="bold font18">DOWNLOAD</a>
+										<a href="/download/" class="bold font18">DOWNLOAD</a>
 									</li>
 									<li class="linkMenu">
 										<a href="/doc/">Documentation</a>
 									</li>
 									<li class="linkMenu">
-										<a href="#">Community</a>
+										<a href="/community/">Community</a>
 									</li>
 								</ul>
 							</div>
 						</div>
-						<div id="rightArrow">
+						<div id="rightArrow" class="">
 							<a href="#" class="font35 bold" id="rightArrowLink">&#62;</a>
 						</div>
 					</li>
