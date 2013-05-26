@@ -10,9 +10,11 @@
 .font30 {font-size: 30px!important;}
 .font35 {font-size: 35px!important;}
 .italic{font-style:italic!important;}
-.blueColor {color: #26c3d8!important;}
+.blueColor {color: #0060ff!important;}
+.lightBlueColor {color: #00bed5!important;}
 .lightGrey{color: #c0c0c0!important;}
 .darkGrey{color: #303030!important;}
+.arial{font-family: Arial; }
 
 body { 
 	padding: 0; 
@@ -66,6 +68,7 @@ img{
     margin: 0;
     padding: 55px 0px 0px 310px;
     position: relativ;
+	line-height: 1.5em;
 }
 #topPart .topMenu  .sectionMenu{
 	float:left;
@@ -76,19 +79,23 @@ img{
 #topPart .topMenu  .sectionMenu div .linkMenu{
 	margin-bottom:10px;
 }
+#topPart .topMenu  .sectionMenu div .linkMenuLast{
+	margin-bottom:5px;
+}
 #topPart .topMenu  .sectionMenu div .subMenu{
 	padding:0px;
 }
 #topPart .topMenu  .sectionMenu div .subMenuSmall{
 	padding:0px 0px 0px 20px;
 	font-size: 16px; 
+	line-height: 1.25em;
 }
 #menuSwitch {
 	height:50px;
 	width:100%;
 }
 #menuSwitch  .menuButton{
-	padding: 30px 0 0 580px;
+	padding: 35px 0 0 580px;
 }
 #headerPart {
 	height:100%;
@@ -114,18 +121,22 @@ img{
 #headerPart .headerList  .sectionHeader div .subMenu{
 	padding:0px;
 }
-#headerPart .headerList  .sectionHeader div .subMenuSmall{
+#headerPart .headerList  .sectionHeader div .subMenu{
+	padding:0px;
+}
+#headerPart .headerList  .sectionHeader div  #logoLink #logoLinkUl{
 	padding:0px 0px 0px 20px;
 	font-size: 16px; 
+	line-height: 1.05em;
 }
 #headerPart .headerList  .sectionHeader #leftMenu{
-	height:490px;
+	height: 425px;
 	width:170px;
-	margin: 50px 0px 0px 120px;
+	margin: 67px 0 0 90px;
 }
 #headerPart .headerList  .sectionHeader #logo{
-	width:540px;
-	margin: 50px 0px 0px 0px;
+	width: 605px;
+	margin: 68px -9px 0;
 }
 #headerPart .headerList  .sectionHeader #logo li {
     text-align: center;
@@ -134,13 +145,12 @@ img{
 	color: #2e2e2e; 
 }
 #headerPart .headerList  .sectionHeader #mainMenu{
-	margin: 50px 0px 0px 0px;
-	height:490px;
-	width:320px;
+	height: 450px;
+    margin: 41px -16px 0;
+    width: 290px;
 }
 #headerPart .headerList  .sectionHeader #rightArrow{
     text-align: right;
-	padding-right:40px;
 }
 #headerPart .headerList  .sectionHeader #mainMenuBorder{
 	border:5px solid #e1e1e2;
@@ -149,7 +159,7 @@ img{
 	margin:0px 0px 0px 50px;
 }
 #headerPart .headerList  .sectionHeader #mainMenuList{
-	margin:20px 0px 0px 20px;
+	margin: 20px 0 0 24px;
 }
 #footerPart {
 	padding-top:70px;
@@ -162,9 +172,10 @@ img{
 }
 #footerPart .footerList {
     margin: 0;
-    padding: 0px 0px 0px 120px;
+    padding: 6px 0 0 132px;
     position: relativ;
 	width:100%;	
+	color: #2e2e2e;
 }
 #footerPart .footerList  .sectionFooter{
 	float:left;
@@ -174,7 +185,7 @@ img{
 }
 #footerPart .footerList  .sectionFooter #terms{
 	padding-top: 3px;
-	width:720px;
+	width: 723px;
 }
 #footerPart .footerList  .sectionFooter #design{
 	padding-top: 3px;
@@ -184,52 +195,57 @@ img{
 	margin:20px 0px 0px 20px;
 }
 #headerPart .headerList  .sectionHeader #mainPart #accEnvir{
-	padding-top:100px;
+	padding: 70px 0 0 15px;
 	text-align: center;
 	color: #808080;
 }
 #headerPart .headerList  .sectionHeader #mainPart #picContent{
-	height:440px;
-	width:537px;
+	height: 402px;
+	width:586px;
 	text-align: center;
 }
 #headerPart .headerList  .sectionHeader #mainPart #picContent #imageDiv{
 	height:300px;
 }
 #headerPart .headerList  .sectionHeader #mainPart #picContent #textBasedImg{
-	padding-top:130px;
+	padding-left: 28px;
+    padding-top: 131px;
 }
 #headerPart .headerList  .sectionHeader #mainPart #picContent #accImg{
-	padding-top:45px;
-	padding-right: 27px;
+	padding-left: 35px;
+    padding-top: 38px;
 }
 #headerPart .headerList  .sectionHeader #mainPart #picContent #javaImg{
-	padding-top:110px;
-	padding-left: 105px;
+	padding-left: 148px;
+    padding-top: 89px;
 }
 #headerPart .headerList  .sectionHeader #mainPart #picContent #fossImg{
 	padding-top:95px;
-	padding-left: 150px;
+	padding-left: 191px;
 }
 
 #headerPart .headerList  .sectionHeader #mainPart #picContent #accPlatform{
-	padding-top:175px;
+	padding-top:171px;
+	padding-left: 20px;
 	text-align: center;
 	font-size: 36px;
 }
 #headerPart .headerList  .sectionHeader #mainPart #picContent #text1more{
-	padding-top:25px;
+	padding-top: 14px;
 	text-align: center;
 	font-size: 14px;
+	line-height: 1.4em;
+	color: #656565;
 }
 #headerPart .headerList  .sectionHeader #mainPart #picContent #textUnderPic{
 	font-size: 36px;
-	padding-top:40px;
-	text-align: center;
+    padding-left: 20px;
+    padding-top: 54px;
+    text-align: center;
 }
 #headerPart .headerList  .sectionHeader #mainPart #buttonContent {
-	padding-left:45px;
-	height:140px;
+	padding-left: 78px;
+	height: 144px;
 	width:100%;
 }
 #headerPart .headerList  .sectionHeader #mainPart #buttonContent ul {
@@ -241,7 +257,7 @@ img{
 	text-align: center;
 }
 #headerPart .headerList  .sectionHeader #mainPart .twoButton{
-	width:205px;
+	width: 196px;
 	height:50px;
 }
 #headerPart .headerList  .sectionHeader #mainPart .twoButton span{
@@ -255,6 +271,10 @@ img{
 	width:55px;
 	color:#808080;
 	font-size: 18px;
+}
+#headerPart .headerList  .sectionHeader #mainPart button {
+	font-size: 18px;
+	font-family: Myriad Pro; 
 }
 #headerPart .headerList  .sectionHeader #mainPart .heavyButton{
 	background-color:#0060ff;
@@ -295,7 +315,8 @@ img{
 	background-color:black;
 }
 #headerPart .headerList  .sectionHeader #mainPart #navigation {
-	padding: 0px 0px 0px 189px;
+	padding: 0 0 0 212px;
+	font-family: Arial;
 }
 #headerPart .headerList  .sectionHeader #mainPart #navigation li {
 	width:25px;
@@ -304,49 +325,54 @@ img{
 	text-align: center;
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText {
-	width:540px;
-	padding-top:90px;
+	width:587px;
+	padding-top:77px;
+	font-family: Arial;
+	color: #303030;
+	line-height: 1.25em;
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText  h1{
 	font-size: 36px;
 	text-decoration:none;
 	font-weight: normal;
+	color: #000000;
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText  h2{
 	font-size: 20px;
 	color:#2e2e2e;
+	padding-top: 20px;
 	text-decoration:none;
 	font-weight: normal;
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText  h3{
 	font-size: 14px;
-	color:#a8a9aa;
+	color:#818284;
 	text-decoration:none;
 	font-weight: normal;
+	padding-top: 5px;
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText  p{
 	font-size: 14px;
-	color:#7c7c7c;
+	color:#303030;
 	text-decoration:none;
 	font-weight: normal;
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText  ul{
+	padding-left: 20px; 
+	padding-top: 5px;
 	font-size: 14px;
-	color:#a8a9aa;
+	color:#303030;
 	text-decoration:none;
 	font-weight: normal;
+}
+#headerPart .headerList  .sectionHeader #mainPart #insidePageText  ul li span {
+	color:#707070;
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText  ul a{
 	font-size: 14px;
-	color:#a8a9aa;
-	text-decoration:none;
+	color:#0060ff;
 	font-weight: normal;
-}
-#headerPart .headerList  .sectionHeader #mainPart #insidePageText  ul a:hover{
-	font-size: 14px;
-	color: #26c3d8;   
-	text-decoration:none;
-	font-weight: normal;
+	text-decoration:underline;
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText  li{
 	list-style: decimal outside none;

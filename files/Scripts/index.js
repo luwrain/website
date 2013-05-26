@@ -1,7 +1,7 @@
 function OnReadyIndex() {
 
-	$('#rightArrow').html('<a href="#" class="font35 bold" id="rightArrowLink">&#62;</a>');	
-	$('#leftArrow').html('<a href="#" class="font35 bold" id="leftArrowLink">&#60;</a>');
+	$('#rightArrow').html('<a href="#" class="font35 bold arial" id="rightArrowLink">&#10095;</a>');	
+	$('#leftArrow').html('<a href="#" class="font35 bold arial" id="leftArrowLink">&#10094;</a>');
 	
 	$('#hiddenPartNumber').val(1);
 	
@@ -51,7 +51,7 @@ function ShowPart1(){
 	$('#secondButton').removeClass('lightSolidButton');
 	
 	$('#hiddenPartNumber').val('1');
-	$('#imageDiv').html('<img id="accImg" src="Images/acc.png" alt="The accessible platform" height="300" width="489"></img>');
+	$('#imageDiv').html('<img id="accImg" src="Images/acc.png" alt="The accessible platform" height="303" width="523"></img>');
 	$('#textUnderPic').html('The accessible platform');
 	$('#accPlatform').html('The accessible platform');
 	$('#text1more').html('With accessible environment Luwrain blind and visually-impaired persons '+
@@ -118,7 +118,7 @@ function ShowPart3(){
 										'<br/>in any choice of SQL server which has proper JDBC interface. For low-vision'+ 
 										'<br/>users Luwrain opens full-screen window with all corresponding textual'+ 
 										'<br/>data written in contrast colours. That window is drawn by X.org server'+
-										'using special window manager created as a part of Luwrain project.');
+										'<br/>using special window manager created as a part of Luwrain project.');
 	$('#firstButton').html('<span>Our community</span>');
 	$('#secondButton').html('<span>Read more</span>');
 };

@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -33,7 +33,7 @@
 								<li class="linkMenu">
 									<a href="#">User manual</a>
 								</li>
-								<li class="linkMenu">
+								<li class="linkMenuLast">
 									<a href="#">For developers</a>
 								</li>
 								<li class="">
@@ -108,12 +108,12 @@
 								</li>
 								<span id = "languageSelected">
 									<li class="linkMenu">
-										<a href="#" class="font14" id = "selectedLanguageName">English</a>
+										<a href="#" class="font14" id = "selectedLanguageName">English &#9662;</a>
 									</li>
 								</span>
 								<span id = "languageMenu" class="hidden">
 									<li class="linkMenu">
-										<a href="#" class="font14" id = "closeLanguageMenu">Close</a>
+										<a href="#" class="font14" id = "closeLanguageMenu">Close &#9652;</a>
 									</li>
 									<li class="linkMenu">
 										<a href="#" id="russianLang">Русский</a>
@@ -131,13 +131,12 @@
 							</ul>
 						</div>
 						<div id = "leftArrow">
-							<a href="#" class="font35 bold" id="leftArrowLink">&#60;</a>
 						</div>
 					</li>
 					<li class="sectionHeader">
 						<div id = "logo">
 							<a href="index.xhtml" id = "logoLink">
-								<ul class="subMenu">
+								<ul class="subMenu" id = "logoLinkUl">
 									<li>
 										<span class="font30 bold">LUWRAIN</span>
 									</li>
@@ -209,10 +208,10 @@
 							<div id="mainMenuBorder">
 								<ul class="subMenu" id="mainMenuList">
 									<li class="linkMenu">
-										<a href="#" class="bold font18">DOWNLOAD</a>
+										<a id = "downLoadLink" href="#" class="bold font18">DOWNLOAD</a>
 									</li>
 									<li class="linkMenu">
-										<a href="/doc/">Documentation</a>
+										<a id = "docsLink" href="docs.xhtml">Documentation</a>
 									</li>
 									<li class="linkMenu">
 										<a href="#">Community</a>
@@ -221,7 +220,6 @@
 							</div>
 						</div>
 						<div id="rightArrow">
-							<a href="#" class="font35 bold" id="rightArrowLink">&#62;</a>
 						</div>
 					</li>
 				</ul>

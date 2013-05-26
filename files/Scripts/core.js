@@ -1,5 +1,4 @@
-function OnReady() {
-
+function OnReady() {		
 	$('#topPart').addClass('hidden');
 	$('#closeMenu').addClass('hidden');
 	$('#openMenu').click(function (e) {
@@ -39,7 +38,7 @@ function OnReady() {
 };
 
 function ChangeLanguage(langName) {
-	$('#selectedLanguageName').html($('#'+langName).html());
+	$('#selectedLanguageName').html($('#'+langName +'&#9662;').html());
 	$('#languageSelected').removeClass('hidden');
 	$('#languageMenu').addClass('hidden');
 };
