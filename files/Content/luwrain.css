@@ -336,6 +336,18 @@ img{
 	text-decoration:none;
 	font-weight: normal;
 }
+#headerPart .headerList  .sectionHeader #mainPart #insidePageText  ul a{
+	font-size: 14px;
+	color:#a8a9aa;
+	text-decoration:none;
+	font-weight: normal;
+}
+#headerPart .headerList  .sectionHeader #mainPart #insidePageText  ul a:hover{
+	font-size: 14px;
+	color: #26c3d8;   
+	text-decoration:none;
+	font-weight: normal;
+}
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText  li{
 	list-style: decimal outside none;
 }

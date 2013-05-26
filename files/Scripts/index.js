@@ -1,4 +1,8 @@
 function OnReadyIndex() {
+
+	$('#rightArrow').html('<a href="#" class="font35 bold" id="rightArrowLink">&#62;</a>');	
+	$('#leftArrow').html('<a href="#" class="font35 bold" id="leftArrowLink">&#60;</a>');
+	
 	$('#hiddenPartNumber').val(1);
 	
 	$('#part1more').addClass('hidden');
