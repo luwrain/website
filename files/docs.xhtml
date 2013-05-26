@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -6,15 +6,16 @@
 	<meta property="og:description" content="Luwrain" />
 	<meta property="og:type" content="company" />
 	<meta property="og:url" content="http://www.luwrain.com"/>
-    <title>Documentation - Luwrain</title>
-	<link type="image/x-icon" href="/Images/favicon.ico" rel="icon"/>
-    <link media="all" rel="stylesheet" type="text/css" href="/Content/luwrain.css" />
-	<script type="text/javascript" src="/Scripts/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="/Scripts/core.js"></script>
+    <title>Luwrain</title>
+	<link type="image/x-icon" href="Images/favicon.ico" rel="icon"/>
+    <link media="all" rel="stylesheet" type="text/css" href="Content/luwrain.css" />
+	<script type="text/javascript" src="Scripts/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="Scripts/index.js"></script>
+	<script type="text/javascript" src="Scripts/core.js"></script>
 	<script type="text/javascript">
         jQuery(document).ready(function () {
 			OnReady();
-			OnReadyDocs();
+			$('#docsLink').addClass("lightBlueColor");
         });
     </script>
 </head>
@@ -32,7 +33,7 @@
 								<li class="linkMenu">
 									<a href="#">User manual</a>
 								</li>
-								<li class="linkMenu">
+								<li class="linkMenuLast">
 									<a href="#">For developers</a>
 								</li>
 								<li class="">
@@ -124,18 +125,18 @@
 										<a href="#" id="deutschLang">Deutsch</a>
 									</li>
 									<li class="linkMenu">
-										<a href="#" id="franceLang">Français</a>
+										<a href="#" id="franceLang">Francais</a>
 									</li>
 								</span>
 							</ul>
 						</div>
-						<div id = "leftArrow" class="">
+						<div id = "leftArrow">
 						</div>
 					</li>
 					<li class="sectionHeader">
 						<div id = "logo">
 							<a href="index.xhtml" id = "logoLink">
-								<ul class="subMenu">
+								<ul class="subMenu" id = "logoLinkUl">
 									<li>
 										<span class="font30 bold">LUWRAIN</span>
 									</li>
@@ -150,35 +151,61 @@
 						</div>
 						<div id = "mainPart">
 							<div id = "insidePageText">
-							  <h1>Luwrain documentation</h1>
-							  <p>
-							    We have documentation sections on this website divided onto several groups. First of all
-							    there are the links to the pages with material covering various technical details of Luwrain
-							    environment. All of them are purposed for real or coming users as well as for developers
-							    of any kind. If you would like to read developer documentation you may want to read sections
-							    about developing of Luwrain environment itself or about creating new application for it.
-							    In addition we have one more group below dedicated to Luwrain developing process fundamentals.
-							  </p>
-							  <p>Choose technical documentation section you need:</p>
-							  <ul>
-							    <li><a href="users/">Luwrain users documentation</a></li>
-							    <li><a href="devel/">Luwrain developing documentation</a></li>
-							    <li><a href="apps/">Luwrain applications creation documentation</a></li>
-							  </ul>
-							  <p>
-							    Luwrain fundamentals describes its legal status, general design essentials and some collaboration
-							    invitations. You can also read these pages if you would like to get complete project overview
-							    at a glance.
-							  </p>
-							  <ul>
-							    <li><a href="overview/">What is Luwrain and why do we think blind users need it?</a></li>
-							    <li><a href="legal/">Legal notes</a></li>
-							    <li><a href="faq/">Frequently asked questions</a></li>
-							    <li><a href="hardware/">Hardware support policy</a></li>
-							    <li><a href="partners/">Be our partner and let do something together</a></li>
-							    <li><a href="sponsors/">Be our sponsor and support our work</a></li>
-							  </ul>
-
+								<h1>Documentation. H1</h1>
+								<h2>Documentation. H2</h2>
+								<h3>20.04.2013. H3</h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Etiam tempus, leo id condimentum imperdiet, urna massa varius orci, 
+									id vulputate nisl erat eget velit. Vivamus ut metus nibh, sit amet 
+									venenatis ipsum. Nulla at augue sed eros elementum porta non eu quam.
+									Nunc porttitor egestas magna non rutrum. Quisque blandit est a eros 
+									lacinia nec auctor libero tristique. Mauris at lobortis ante. Praesent 
+									eros tortor, pulvinar at convallis id, blandit at augue. Nullam interdum 
+									arcu ut nisl adipiscing rutrum. In magna diam, luctus nec interdum nec, 
+									ultrices id neque. Fusce dictum egestas dolor, ac feugiat massa commodo nec. 
+									Aliquam a neque dolor, non malesuada nisl. Duis leo ligula, vulputate non 
+									rutrum eget, auctor ac eros.
+								</p>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Etiam tempus, leo id condimentum imperdiet, urna massa varius orci, 
+									id vulputate nisl erat eget velit. Vivamus ut metus nibh, sit amet 
+									venenatis ipsum. Nulla at augue sed eros elementum porta non eu quam.
+									Nunc porttitor egestas magna non rutrum. Quisque blandit est a eros 
+									lacinia nec auctor libero tristique. Mauris at lobortis ante. Praesent 
+									eros tortor, pulvinar at convallis id, blandit at augue. Nullam interdum 
+									arcu ut nisl adipiscing rutrum. In magna diam, luctus nec interdum nec, 
+									ultrices id neque. Fusce dictum egestas dolor, ac feugiat massa commodo nec. 
+									Aliquam a neque dolor, non malesuada nisl. Duis leo ligula, vulputate non 
+									rutrum eget, auctor ac eros.
+								</p>
+								<ul>
+									<li>
+										<span>Duis pulvinar, augue eu tristique lobortis, ligula orci euismod lacus, nec molestie est lorem eu risus. 
+										Aliquam eros mauris, hendrerit a lacinia id, pellentesque ut ligula. Quisque fermentum interdum viverra.
+										</span>
+									</li>
+									<li>
+										<span>
+										<a href = "#">Sed purus magna, laoreet convallis malesuada sit amet, convallis at ligula.</a>
+										</span>
+									</li>
+								</ul>
+								<h2>Documentation. H2</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+									Etiam tempus, leo id condimentum imperdiet, urna massa varius orci, 
+									id vulputate nisl erat eget velit. Vivamus ut metus nibh, sit amet 
+									venenatis ipsum. Nulla at augue sed eros elementum porta non eu quam.
+									Nunc porttitor egestas magna non rutrum. Quisque blandit est a eros 
+									lacinia nec auctor libero tristique. Mauris at lobortis ante. Praesent 
+									eros tortor, pulvinar at convallis id, blandit at augue. Nullam interdum 
+									arcu ut nisl adipiscing rutrum. In magna diam, luctus nec interdum nec, 
+									ultrices id neque. Fusce dictum egestas dolor, ac feugiat massa commodo nec. 
+									Aliquam a neque dolor, non malesuada nisl. Duis leo ligula, vulputate non 
+									rutrum eget, auctor ac eros.
+								</p>
 							</div>
 							<!--fixme-->
 						</div>
@@ -188,18 +215,18 @@
 							<div id="mainMenuBorder">
 								<ul class="subMenu" id="mainMenuList">
 									<li class="linkMenu">
-										<a href="/download/" class="bold font18">DOWNLOAD</a>
+										<a id = "downLoadLink" href="#" class="bold font18">DOWNLOAD</a>
 									</li>
 									<li class="linkMenu">
-										<a href="/doc/">Documentation</a>
+										<a id = "docsLink" href="docs.xhtml">Documentation</a>
 									</li>
 									<li class="linkMenu">
-										<a href="/community/">Community</a>
+										<a href="#">Community</a>
 									</li>
 								</ul>
 							</div>
 						</div>
-						<div id="rightArrow" class="">
+						<div id="rightArrow">
 						</div>
 					</li>
 				</ul>
