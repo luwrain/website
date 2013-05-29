@@ -1,7 +1,7 @@
 function OnReadyIndex() {
 
-	$('#rightArrow').html('<a href="#" class="font35 bold arial" id="rightArrowLink">&#10095;</a>');	
-	$('#leftArrow').html('<a href="#" class="font35 bold arial" id="leftArrowLink">&#10094;</a>');
+	$('#rightArrow').html('<a href="#" class="font35 bold arial" id="rightArrowLink">&#62;</a>');	
+	$('#leftArrow').html('<a href="#" class="font35 bold arial" id="leftArrowLink">&#60;</a>');
 	
 	$('#hiddenPartNumber').val(1);
 	
@@ -166,16 +166,12 @@ function SecondButtonOnClick() {
 	$('#secondButton').html('<span>Next</span>');
 	switch ($('#hiddenPartNumber').val()) {
 		case "1": 
-			//$('#hiddenPartNumber').val(10);
 			break;
 		case "2": 
-			//$('#hiddenPartNumber').val(20);
 			break;
 		case "3": 
-			//$('#hiddenPartNumber').val(30);
 			break;
 		case "4": 
-			//$('#hiddenPartNumber').val(40);
 			$('#secondButton').html('<span>Be a sponsor</span>');
 			$('#secondButton').removeClass('lightButton');
 			$('#secondButton').addClass('lightSolidButton');
