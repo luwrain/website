@@ -15,12 +15,12 @@ function OnReady() {
 	});
 	$('#closeLanguageMenu').click(function (e) {
 		e.preventDefault();
-		$('#languageMenu').addClass('hidden');
+		HideLangMenuItem();
 		$('#languageSelected').removeClass('hidden');
 	});
 	$('#selectedLanguageName').click(function (e) {
 		e.preventDefault();
-		$('#languageMenu').removeClass('hidden');
+		ShowLangMenuItem();
 		$('#languageSelected').addClass('hidden');
 	});
 	$('#russianLang').click(function (e) {
@@ -36,6 +36,13 @@ function OnReady() {
 		ChangeLanguage('franceLang');
 	});
 };
+function ShowLangMenuItem(){
+	$(".languageMenuItem").removeClass('hidden');
+}
+
+function HideLangMenuItem(){
+	$(".languageMenuItem").addClass('hidden');
+}
 
 function ChangeLanguage(langName) {
 	$('#selectedLanguageName').html($('#'+langName).html()+'&#9662;');
