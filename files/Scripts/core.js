@@ -38,7 +38,7 @@ function OnReady() {
 };
 
 function ChangeLanguage(langName) {
-	$('#selectedLanguageName').html($('#'+langName +'&#9662;').html());
+	$('#selectedLanguageName').html($('#'+langName).html()+'&#9662;');
 	$('#languageSelected').removeClass('hidden');
 	$('#languageMenu').addClass('hidden');
 };
