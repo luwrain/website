@@ -2,9 +2,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta property="og:description" content="Luwrain" />
-	<meta property="og:type" content="company" />
-	<meta property="og:url" content="http://www.luwrain.com"/>
     <title>Luwrain</title>
 	<link type="image/x-icon" href="Images/favicon.ico" rel="icon"/>
     <link media="all" rel="stylesheet" type="text/css" href="Content/luwrain.css" />
@@ -105,12 +102,12 @@
 								<li class="linkMenu">
 									<a href="#">Adapted version</a>
 								</li>
-								<span id = "languageSelected">
+								<div id = "languageSelected">
 									<li class="linkMenu">
 										<a href="#" class="font14" id = "selectedLanguageName">English &#9662;</a>
 									</li>
-								</span>
-								<span id = "languageMenu" class="hidden">
+								</div>
+								<div id = "languageMenu" class="hidden">
 									<li class="linkMenu">
 										<a href="#" class="font14" id = "closeLanguageMenu">Close &#9652;</a>
 									</li>
@@ -126,7 +123,7 @@
 									<li class="linkMenu">
 										<a href="#" id="franceLang">Français</a>
 									</li>
-								</span>
+								</div>
 							</ul>
 						</div>
 						<div id = "leftArrow">
@@ -134,7 +131,7 @@
 					</li>
 					<li class="sectionHeader">
 						<div id = "logo">
-							<a href="index.xhtml" id = "logoLink">
+							<div onclick = "document.location = 'index.xhtml';" id = "logoLink">
 								<ul class="subMenu" id = "logoLinkUl">
 									<li>
 										<span class="font30 bold">LUWRAIN</span>
@@ -146,7 +143,7 @@
 										<span class="italic font14">of a compelling accessibility</span>
 									</li>
 								</ul>
-							</a>
+							</div>
 						</div>
 						<div id = "mainPart">
 							<input class="hidden" id="hiddenPartNumber"></input>

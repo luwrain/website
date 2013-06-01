@@ -122,14 +122,8 @@ img{
 #headerPart .headerList  .sectionHeader div .subMenu{
 	padding:0px;
 }
-#headerPart .headerList  .sectionHeader div .subMenu #languageSelected{
-	display: block;
-}
-#headerPart .headerList  .sectionHeader div .subMenu #languageMenu{
-	display: block;
-}
-#headerPart .headerList  .sectionHeader div  #logoLink {
-	display: block;
+#headerPart .headerList  .sectionHeader div  #logoLink{
+	cursor:pointer;
 }
 #headerPart .headerList  .sectionHeader div  #logoLink #logoLinkUl{
 	padding:0px 0px 0px 20px;
