@@ -1,7 +1,7 @@
 function OnReadyIndex() {
 
-	$('#rightArrow').html('<a href="#" class="font35 bold arial" id="rightArrowLink">&#62;</a>');	
-	$('#leftArrow').html('<a href="#" class="font35 bold arial" id="leftArrowLink">&#60;</a>');
+	$('#rightArrow').html('<button href="#" class="font35 bold arial" id="rightArrowLink"></button>');	
+	$('#leftArrow').html('<button href="#" class="font35 bold arial" id="leftArrowLink"></button>');
 	
 	$('#hiddenPartNumber').val(1);
 	

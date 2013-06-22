@@ -131,9 +131,9 @@ img{
 	line-height: 1.05em;
 }
 #headerPart .headerList  .sectionHeader #leftMenu{
-	height: 425px;
-	width:170px;
-	margin: 67px 0 0 90px;
+	height: 442px;
+    margin: 67px 0 0 90px;
+    width: 170px;
 }
 #headerPart .headerList  .sectionHeader #logo{
 	width: 605px;
@@ -146,12 +146,36 @@ img{
 	color: #2e2e2e; 
 }
 #headerPart .headerList  .sectionHeader #mainMenu{
-	height: 450px;
+	height: 466px;
     margin: 41px -16px 0;
-    width: 290px;
+    width: 300px;
 }
 #headerPart .headerList  .sectionHeader #rightArrow{
     text-align: right;
+}
+#headerPart .headerList  .sectionHeader #rightArrowLink{
+    background:url('../Images/rightArrowBlack.png') no-repeat scroll 0 0px; 
+	height: 31px;
+    width: 22px;
+	border:none;
+}
+#headerPart .headerList  .sectionHeader #rightArrowLink:hover {
+    background:url('../Images/rightArrowBlue.png') no-repeat scroll 0 0px; 
+	height: 31px;
+    width: 22px;
+	border:none;
+}
+#headerPart .headerList  .sectionHeader #leftArrowLink{
+    background:url('../Images/leftArrowBlack.png') no-repeat scroll 0 0px; 
+	height: 31px;
+    width: 22px;
+	border:none;
+}
+#headerPart .headerList  .sectionHeader #leftArrowLink:hover {
+    background:url('../Images/leftArrowBlue.png') no-repeat scroll 0 0px; 
+	height: 31px;
+    width: 22px;
+	border:none;
 }
 #headerPart .headerList  .sectionHeader #mainMenuBorder{
 	border:5px solid #e1e1e2;
@@ -163,7 +187,7 @@ img{
 	margin: 20px 0 0 24px;
 }
 #footerPart {
-	padding-top:55px;
+	padding-top: 60px;
 	height:70px;
 	width:100%;
 	font-size: 14px; 
@@ -327,16 +351,18 @@ img{
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText {
 	width:587px;
-	padding-top:77px;
+	padding-top: 73px;
 	font-family: Arial;
 	color: #303030;
 	line-height: 1.25em;
+	letter-spacing: -0.0035em;
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText  h1{
 	font-size: 36px;
 	text-decoration:none;
 	font-weight: normal;
 	color: #000000;
+	letter-spacing: -0.02em;
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText  h2{
 	font-size: 20px;
@@ -344,6 +370,7 @@ img{
 	padding-top: 20px;
 	text-decoration:none;
 	font-weight: normal;
+	letter-spacing: -0.02em;
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText  h3{
 	font-size: 14px;
