@@ -1,0 +1,12 @@
+
+After including {{luwrain.jar}} file to your class path
+you can use several Luwrain core classes for creating your own Luwrain application.
+First~of~all it is a~{{org.luwrain.core.Dispatcher}} class.
+Methods of~this class you need are static.
+You may think of~this class as~of~a~single static  class in~Luwrain API
+but actually there are some others accessible as~static just for your convenience.
+For~instance, it~is~a~{{org.luwrain.core.Speech}} class.
+
+The~[[org.luwrain.core.Dispatcher}} class is~a~main access point to~entire Luwrain core.
+It has the~following methods:
+
