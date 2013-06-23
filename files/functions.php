@@ -1,5 +1,5 @@
 <?php
-  function luwrain_begin_page()
+  function luwrain_begin_page($title)
   {	   
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
@@ -10,12 +10,14 @@
     <meta property="og:description" content="Luwrain" />
     <meta property="og:type" content="company" />
     <meta property="og:url" content="http://www.luwrain.com"/>
-    <title>Luwrain</title>
-    <link type="image/x-icon" href="Images/favicon.ico" rel="icon"/>
-    <link media="all" rel="stylesheet" type="text/css" href="Content/luwrain.css" />
-    <script type="text/javascript" src="Scripts/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="Scripts/index.js"></script>
-    <script type="text/javascript" src="Scripts/core.js"></script>
+<?php
+    echo '    <title>'.$title.' - The accessible environment Luwrain</title>'."\n";
+?>
+    <link type="image/x-icon" href="/Images/favicon.ico" rel="icon"/>
+    <link media="all" rel="stylesheet" type="text/css" href="/Content/luwrain.css" />
+    <script type="text/javascript" src="/Scripts/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/Scripts/index.js"></script>
+    <script type="text/javascript" src="/Scripts/core.js"></script>
     <script type="text/javascript">
       jQuery(document).ready(function () {
       OnReady();
@@ -32,30 +34,30 @@
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="#">Try now</a>
+		    <a href="/doc/start/">Getting started</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="#">User manual</a>
+		    <a href="/doc/faq/">FAQ</a>
 		  </li>
 		  <li class="linkMenuLast">
-		    <a href="#">For developers</a>
+		    <a href="/doc/resources/">Resources</a>
 		  </li>
 		  <li class="">
 		    <ul class="subMenuSmall">
 		      <li>
-			<a href="#">Source code</a>
+			<a href="/api/">API</a>
 		      </li>
 		      <li>
-			<a href="#">New application</a>
+			<a href="/community/mailing-list/">Mailing list</a>
 		      </li>
 		      <li>
-			<a href="#">Get involved</a>
+			<a href="/community/bugs/">Report a bug</a>
 		      </li>
 		      <li>
-			<a href="#">Web services support</a>
+			<a href="/download/sources/">Source code</a>
 		      </li>
 		      <li>
-			<a href="#">API</a>
+			<a href="/doc/new-app/">Your own application</a>
 		      </li>
 		    </ul>
 		  </li>
@@ -66,13 +68,13 @@
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="#">Philosophy</a>
+		    <a href="/doc/partners/">Be a partner</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="#">Inspiration</a>
+		    <a href="/doc/sponsors/">Be a sponsor</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="#">FAQ</a>
+		    <a href="/doc/legal/">Legal notice</a>
 		  </li>
 		</ul>
 	      </div>
@@ -81,13 +83,13 @@
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="#">Be a partner</a>
+		    <a href="/doc/about/">About</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="#">Be a sponsor</a>
+		    <a href="/doc/authors/">Authors</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="#">Contact us</a>
+		    <a href="/doc/contacts/">Contact us</a>
 		  </li>
 		</ul>
 	      </div>
