@@ -1,33 +1,9 @@
 <?php
-  function luwrain_begin_page($title)
-  {	   
+
+  function luwrain_top_menu()
+  {
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta property="og:title" content="Luwrain" />
-    <meta property="og:description" content="Luwrain" />
-    <meta property="og:type" content="company" />
-    <meta property="og:url" content="http://www.luwrain.com"/>
-<?php
-    echo '    <title>'.$title.' - The accessible environment Luwrain</title>'."\n";
-?>
-    <link type="image/x-icon" href="/Images/favicon.ico" rel="icon"/>
-    <link media="all" rel="stylesheet" type="text/css" href="/Content/luwrain.css" />
-    <script type="text/javascript" src="/Scripts/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="/Scripts/index.js"></script>
-    <script type="text/javascript" src="/Scripts/core.js"></script>
-    <script type="text/javascript">
-      jQuery(document).ready(function () {
-      OnReady();
-      $('#docsLink').addClass("lightBlueColor");
-      });
-    </script>
-  </head>
-  <body>
-    <div id ="wrapper">
-      <div id="main">
+
 	<div id = "topPart">
 	  <ul class="topMenu">
 	    <li class="sectionMenu">
@@ -74,7 +50,7 @@
 		    <a href="/doc/sponsors/">Be a sponsor</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="/doc/legal/">Legal notice</a>
+		    <a href="/doc/legal/">Legal notes</a>
 		  </li>
 		</ul>
 	      </div>
@@ -96,6 +72,41 @@
 	    </li>
 	  </ul>
 	</div>
+<?php
+  }
+
+  function luwrain_begin_page($path, $title)
+  {	   
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta property="og:title" content="Luwrain" />
+    <meta property="og:description" content="Luwrain" />
+    <meta property="og:type" content="company" />
+    <meta property="og:url" content="http://www.luwrain.com"/>
+<?php
+    echo '    <title>'.$title.' - The accessible environment Luwrain</title>'."\n";
+?>
+    <link type="image/x-icon" href="/Images/favicon.ico" rel="icon"/>
+    <link media="all" rel="stylesheet" type="text/css" href="/Content/luwrain.css" />
+    <script type="text/javascript" src="/Scripts/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/Scripts/index.js"></script>
+    <script type="text/javascript" src="/Scripts/core.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function () {
+      OnReady();
+      $('#docsLink').addClass("lightBlueColor");
+      });
+    </script>
+  </head>
+  <body>
+    <div id ="wrapper">
+      <div id="main">
+<?php
+    luwrain_top_menu();
+?>
 	<div id="menuSwitch">
 	  <div id = "openMenu" class = "menuButton">
 	    <a href="#">MENU &#9652;</a>

@@ -1,8 +1,9 @@
+<?php include "functions.php";?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Luwrain</title>
+    <title>The accessible environment Luwrain</title>
     <link type="image/x-icon" href="Images/favicon.ico" rel="icon"/>
     <link media="all" rel="stylesheet" type="text/css" href="Content/luwrain.css" />
     <script type="text/javascript" src="Scripts/jquery-1.8.3.min.js"></script>
@@ -18,74 +19,9 @@
   <body>
     <div id ="wrapper">
       <div id="main">
-	<div id = "topPart">
-	  <ul class="topMenu">
-	    <li class="sectionMenu">
-	      <div>
-		<ul class="subMenu">
-		  <li class="linkMenu">
-		    <a href="#">Try now</a>
-		  </li>
-		  <li class="linkMenu">
-		    <a href="#">User manual</a>
-		  </li>
-		  <li class="linkMenuLast">
-		    <a href="#">For developers</a>
-		  </li>
-		  <li class="">
-		    <ul class="subMenuSmall">
-		      <li>
-			<a href="#">Source code</a>
-		      </li>
-		      <li>
-			<a href="#">New application</a>
-		      </li>
-		      <li>
-			<a href="#">Get involved</a>
-		      </li>
-		      <li>
-			<a href="#">Web services support</a>
-		      </li>
-		      <li>
-			<a href="#">API</a>
-		      </li>
-		    </ul>
-		  </li>
-		</ul>
-	      </div>
-	    </li>
-	    <li class="sectionMenu">
-	      <div>
-		<ul class="subMenu">
-		  <li class="linkMenu">
-		    <a href="#">Philosophy</a>
-		  </li>
-		  <li class="linkMenu">
-		    <a href="#">Inspiration</a>
-		  </li>
-		  <li class="linkMenu">
-		    <a href="#">FAQ</a>
-		  </li>
-		</ul>
-	      </div>
-	    </li>
-	    <li class="sectionMenu">
-	      <div>
-		<ul class="subMenu">
-		  <li class="linkMenu">
-		    <a href="#">Be a partner</a>
-		  </li>
-		  <li class="linkMenu">
-		    <a href="#">Be a sponsor</a>
-		  </li>
-		  <li class="linkMenu">
-		    <a href="#">Contact us</a>
-		  </li>
-		</ul>
-	      </div>
-	    </li>
-	  </ul>
-	</div>
+<?php
+  luwrain_top_menu();
+?>
 	<div id="menuSwitch">
 	  <div id = "openMenu" class = "menuButton">
 	    <a href="#">MENU &#9652;</a>
@@ -202,13 +138,13 @@
 		<div id="mainMenuBorder">
 		  <ul class="subMenu" id="mainMenuList">
 		    <li class="linkMenu">
-		      <a id = "downLoadLink" href="#" class="bold font18">DOWNLOAD</a>
+		      <a id = "downLoadLink" href="/download/" class="bold font18">DOWNLOAD</a>
 		    </li>
 		    <li class="linkMenu">
-		      <a id = "docsLink" href="docs.xhtml">Documentation</a>
+		      <a id = "docsLink" href="/doc/">Documentation</a>
 		    </li>
 		    <li class="linkMenu">
-		      <a href="#">Community</a>
+		      <a href="/community/">Community</a>
 		    </li>
 		  </ul>
 		</div>

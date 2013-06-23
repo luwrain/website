@@ -1,4 +1,4 @@
-<?php include "../functions.php"; luwrain_begin_page('Documentation');?>
+<?php include "../functions.php"; luwrain_begin_page('/doc/index.php', 'Documentation');?>
 
                   <p>
                     We have documentation sections on&nbsp;this website divided onto several groups. First
