@@ -1,5 +1,6 @@
-<?php include "../functions.php"; luwrain_begin_page('/doc/index.php', 'Documentation');?>
+<?php include "../functions.php"; luwrain_begin_page('/doc/index.php', luwrain_current_lang() == 'ru'?'Документация':'Documentation');?>
 
+                  <h1>Documentation</h1>
                   <p>
                     We have documentation sections on&nbsp;this website divided onto several groups. First
                     of&nbsp;all there are the&nbsp;links to&nbsp;the&nbsp;pages with material covering various

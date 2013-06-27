@@ -1,4 +1,5 @@
 <?php include "functions.php";?>
+<?php if (luwrain_current_mode() == 'adapted') luwrain_adapted_main_page(); else { ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -24,10 +25,10 @@
 ?>
 	<div id="menuSwitch">
 	  <div id = "openMenu" class = "menuButton">
-	    <a href="#">MENU &#9652;</a>
+	    <a href="#"><?php echo luwrain_current_lang() == 'ru'?'МЕНЮ':'MENU';?> &#9652;</a>
 	  </div>
 	  <div id = "closeMenu" class = "menuButton">
-	    <a href="#">CLOSE &#9662;</a>
+	    <a href="#"><?php echo luwrain_current_lang() == 'ru'?'ЗАКРЫТЬ':'CLOSE';?> &#9662;</a>
 	  </div>
 	</div>
 	<div id = "headerPart">		
@@ -36,27 +37,23 @@
 	      <div id = "leftMenu">
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="#">Adapted version</a>
+<?php
+  echo '		    <a href="'.luwrain_link_ext1('/index.php', luwrain_current_lang(), 'adapted').'">'.(luwrain_current_lang() == 'ru'?'Версия для слабовидящих':'Adapted/mobile version')."</a>\n";
+?>
 		  </li>
 		  <li class="linkMenu">
 		    <div id = "languageSelected">
-		      <a href="#" class="font14" id = "selectedLanguageName">English &#9662;</a>
+		      <a href="#" class="font14" id = "selectedLanguageName"><?php echo luwrain_current_lang() == 'ru'?'Русский':'English';?> &#9662;</a>
 		    </div>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="#" class="font14 languageMenuItem hidden" id = "closeLanguageMenu">Close &#9652;</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a class="languageMenuItem hidden" href="#" id="russianLang">Русский</a>
+		    <a class="languageMenuItem hidden" href="<?php echo luwrain_link_ext1('/index.php', 'en', luwrain_current_mode());?>" id="engLang">English</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a class="languageMenuItem hidden" href="#" id="engLang">English</a>
-		  </li>
-		  <li class="linkMenu">
-		    <a class="languageMenuItem hidden" href="#" id="deutschLang">Deutsch</a>
-		  </li>
-		  <li class="linkMenu">
-		    <a class="languageMenuItem hidden" href="#" id="franceLang">Français</a>
+		    <a class="languageMenuItem hidden" href="<?php echo luwrain_link_ext1('/index.php', 'ru', luwrain_current_mode());?>>" id="russianLang">Russian</a>
 		  </li>
 		</ul>
 	      </div>
@@ -82,7 +79,7 @@
 	      <div id = "mainPart">
 		<input class="hidden" id="hiddenPartNumber"></input>
 		<div id ="accEnvir" class="font20">
-		  The accessible environment Luwrain
+		  <?php echo luwrain_current_lang() == 'ru'?'Адаптированная среда Luwrain':'The accessible environment Luwrain';?>
 		</div>
 		<div id = "picContent">
 		  <!--    1    -->
@@ -138,13 +135,13 @@
 		<div id="mainMenuBorder">
 		  <ul class="subMenu" id="mainMenuList">
 		    <li class="linkMenu">
-		      <a id = "downLoadLink" href="/download/" class="bold font18">DOWNLOAD</a>
+		      <a id = "downLoadLink" href="<?php echo luwrain_link('/download/');?>" class="bold font18"><?php echo luwrain_current_lang() == 'ru'?'Загрузить':'Download';?></a>
 		    </li>
 		    <li class="linkMenu">
-		      <a id = "docsLink" href="/doc/">Documentation</a>
+		      <a id = "docsLink" href="<?php echo luwrain_link('/doc/');?>"><?php echo luwrain_current_lang() == 'ru'?'Документация':'Documentation'?></a>
 		    </li>
 		    <li class="linkMenu">
-		      <a href="/community/">Community</a>
+		      <a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Сообщество':'Community';?></a>
 		    </li>
 		  </ul>
 		</div>
@@ -169,7 +166,7 @@
 	    </li>
 	    <li class="sectionFooter">
 	      <div id="design">
-		Design by <a href="#"><span class="blueColor">Strash</span></a>
+		Design by <a href="http://strash.ru"><span class="blueColor">Strash</span></a>
 	      </div>
 	    </li>
 	  </ul>
@@ -178,3 +175,6 @@
     </div>
   </body>
 </html>
+<?php 
+}
+?>
