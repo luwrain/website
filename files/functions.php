@@ -151,7 +151,7 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="/doc/about/">About</a>
+		    <a href="/doc/about/">About the project</a>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="/doc/authors/">Authors</a>
