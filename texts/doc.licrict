@@ -9,16 +9,16 @@ In~addition we have one~more group below dedicated to~Luwrain developing process
 
 Choose technical documentation section you need:
 
-* [users/ Luwrain users documentation] 
-* [devel/ Luwrain developing documentation]
-* [apps/ Luwrain applications creation documentation]
+* [local:users/ Luwrain users documentation] 
+* [local:devel/ Luwrain developing documentation]
+* [local:apps/ Luwrain applications creation documentation]
 
 Luwrain fundamentals describes its legal status,  general design essentials and some collaboration invitations.
 You can also read these pages if you would like to~get complete project overview at~a~glance.
 
-* overview/ Free story what is Luwrain and why do we think blind users need it?]
-* [legal/ Legal notes]
-* [faq/ Frequently asked questions]
-* [hardware/ Hardware support policy]
-* [partners/ Be our partner and let do something together] 
-* [sponsors/ Be our sponsor and support our work] 
+* [local:about/ The~free story what is Luwrain and why do we think blind users need it?]
+* [local:legal/ Legal notes]
+* [local:faq/ Frequently asked questions]
+* [local:hardware/ Hardware support policy]
+* [local:partners/ Be our partner and let do something together] 
+* [local:sponsors/ Be our sponsor and support our work] 

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+[ -z "$1" ] && echo "${0##*/}:no input file" >&2 && exit 1
+
+subst s/'href="local:\(.*\)"'/'href="<?echo luwrain_link('\''\1'\'');?>"'/g "$1"
