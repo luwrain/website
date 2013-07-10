@@ -280,7 +280,7 @@ function luwrain_link($path)
 <?php
   }
 
-  function luwrain_end_page()
+  function luwrain_end_page($path)
   { 
     if (luwrain_current_mode() == 'adapted')
     {
@@ -320,18 +320,18 @@ function luwrain_link($path)
 	<div id = "footerPart">
 	  <ul class="footerList">
 	    <li class="sectionFooter">
-	      <div id = "copyright">
-		<span class="font16">© Luwrain 2013</span>
+	      <div id = "footer1">
+		<span class="font16"><?php echo luwrain_current_lang() == 'ru'?'Сайт находится в разработке':'This website is still under construction';?></span>
 	      </div>
 	    </li>
 	    <li class="sectionFooter">
-	      <div id = "terms" class="blueColor">
-		<a href="#" class="blueColor">Terms of use</a>
+	      <div id = "footer2" class="blueColor">
+				<?php echo luwrain_current_lang() == 'ru'?'Пишите нам! E-mail: luwrain (собачка) gmail (точка) com':'Waiting your messages! E-mail: luwrain (at) gmail (dot) com';?>
 	      </div>
 	    </li>
 	    <li class="sectionFooter">
 	      <div id="design">
-		Design by <a href="http://strash.ru"><span class="blueColor">Strash</span></a>
+		<?php echo luwrain_current_lang() == 'ru'?'Дизайн от':'Design by';?> <a href="http://strash.ru"><span class="blueColor">Strash</span></a>
 	      </div>
 	    </li>
 	  </ul>

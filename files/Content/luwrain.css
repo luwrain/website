@@ -205,10 +205,10 @@ img{
 #footerPart .footerList  .sectionFooter{
 	float:left;
 }
-#footerPart .footerList  .sectionFooter #copyright{
+#footerPart .footerList  .sectionFooter #footer1{
 	width:120px;
 }
-#footerPart .footerList  .sectionFooter #terms{
+#footerPart .footerList  .sectionFooter #footer2{
 	padding-top: 3px;
 	width: 723px;
 }

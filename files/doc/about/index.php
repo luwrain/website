@@ -75,4 +75,4 @@
 
 
 
-<?php luwrain_end_page();?>
+<?php luwrain_end_page('/doc/about/index.php');?>
