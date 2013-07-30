@@ -30,13 +30,13 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="/doc/start/">С чего начать?</a>
+		    <a href="<?php echo luwrain_link('/doc/user/try/');?>">С чего начать?</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="/doc/faq/">FAQ</a>
+		    <a href="<?php echo luwrain_link('/doc/faq/');?>">FAQ</a>
 		  </li>
 		  <li class="linkMenuLast">
-		    <a href="/doc/resources/">Материалы</a>
+		    <a href="<?php echo luwrain_link('/doc/resources/');?>">Материалы</a>
 		  </li>
 		  <li class="">
 		    <ul class="subMenuSmall">
@@ -44,16 +44,16 @@ function luwrain_link($path)
 			<a href="/api/">API</a>
 		      </li>
 		      <li>
-			<a href="/community/mailing-list/">Дискуссионный лист</a>
+			<a href="<?php echo luwrain_link('/community/mailing-list/');?>">Дискуссионный лист</a>
 		      </li>
 		      <li>
-			<a href="/community/bugs/">Сообщить об ошибке</a>
+			<a href="<?php echo luwrain_link('/community/bugs/');?>">Сообщить об ошибке</a>
 		      </li>
 		      <li>
-			<a href="/download/sources/">Исходный код</a>
+			<a href="<?php echo luwrain_link('/download/sources/');?>">Исходный код</a>
 		      </li>
 		      <li>
-			<a href="/doc/new-app/">Создать новое приложение</a>
+			<a href="<?php echo luwrain_link('/doc/new-app/');?>">Создать новое приложение</a>
 		      </li>
 		    </ul>
 		  </li>
@@ -64,13 +64,13 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="/doc/partners/">Для партнёров</a>
+		    <a href="<?php echo luwrain_link('/doc/partners/');?>">Для партнёров</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="/doc/sponsors/">Для спонсоров</a>
+		    <a href="<?php echo luwrain_link('/doc/sponsors/');?>">Для спонсоров</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="/doc/legal/">Лицензия</a>
+		    <a href="<?php echo luwrain_link('/doc/legal/');?>">Лицензия</a>
 		  </li>
 		</ul>
 	      </div>
@@ -79,13 +79,13 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="/doc/about/">О проекте</a>
+		    <a href="<?php echo luwrain_link('/doc/about/');?>">О проекте</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="/doc/authors/">Авторы</a>
+		    <a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="/doc/contacts/">Контакты</a>
+		    <a href="<?php echo luwrain_link('/doc/contacts/');?>">Контакты</a>
 		  </li>
 		</ul>
 	      </div>
@@ -102,13 +102,13 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="/doc/start/">Getting started</a>
+		    <a href="<?php echo luwrain_link('/doc/user/try/');?>">Getting started</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="/doc/faq/">FAQ</a>
+		    <a href="<?php echo luwrain_link('/doc/faq/');?>">FAQ</a>
 		  </li>
 		  <li class="linkMenuLast">
-		    <a href="/doc/resources/">Resources</a>
+		    <a href="<?php echo luwrain_link('/doc/resources/');?>">Resources</a>
 		  </li>
 		  <li class="">
 		    <ul class="subMenuSmall">
@@ -116,16 +116,16 @@ function luwrain_link($path)
 			<a href="/api/">API</a>
 		      </li>
 		      <li>
-			<a href="/community/mailing-list/">Mailing list</a>
+			<a href="<?php echo luwrain_link('/community/mailing-list/');?>">Mailing list</a>
 		      </li>
 		      <li>
-			<a href="/community/bugs/">Report a bug</a>
+			<a href="<?php echo luwrain_link('/community/bugs/');?>">Report a bug</a>
 		      </li>
 		      <li>
-			<a href="/download/sources/">Source code</a>
+			<a href="<?php echo luwrain_link('/download/sources/');?>">Source code</a>
 		      </li>
 		      <li>
-			<a href="/doc/new-app/">Your own application</a>
+			<a href="<?php echo luwrain_link('/doc/new-app/');?>">Your own application</a>
 		      </li>
 		    </ul>
 		  </li>
@@ -136,13 +136,13 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="/doc/partners/">Be a partner</a>
+		    <a href="<?php echo luwrain_link('/doc/partners/');?>">Be a partner</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="/doc/sponsors/">Be a sponsor</a>
+		    <a href="<?php echo luwrain_link('/doc/sponsors/');?>">Be a sponsor</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="/doc/legal/">Legal notes</a>
+		    <a href="<?php echo luwrain_link('/doc/legal/');?>">Legal notes</a>
 		  </li>
 		</ul>
 	      </div>
@@ -151,13 +151,13 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="/doc/about/">About the project</a>
+		    <a href="<?php echo luwrain_link('/doc/about/');?>">About the project</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="/doc/authors/">Authors</a>
+		    <a href="<?php echo luwrain_link('/doc/authors/');?>">Authors</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="/doc/contacts/">Contact us</a>
+		    <a href="<?php echo luwrain_link('/doc/contacts/');?>">Contact us</a>
 		  </li>
 		</ul>
 	      </div>
@@ -361,6 +361,7 @@ function luwrain_link($path)
     <a href="<?php echo luwrain_link_ext1('/index.php', 'en', luwrain_current_mode());?>">EN</a> |
     <a href="<?php echo luwrain_link_ext1('/index.php', 'ru', luwrain_current_mode());?>">RU</a><br/>
     <div style="height: 16px;"></div>
+<?php if (luwrain_current_lang() == 'en') {?>
     <p>
       With accessible operating system Luwrain blind and visually-impaired persons get one more
       way to be involved in the incredible world of information technologies. Luwrain doesn&apos;t
@@ -398,8 +399,57 @@ function luwrain_link($path)
       to related social and distribution organizations. The team of developers hopes Luwrain
       can increase the integration of disabled persons into social life.
     </p>
+<?php }?>
+<?php if (luwrain_current_lang() == 'ru') {?>
+    <p>
+      При&#160;помощи операционной системы Luwrain люди с&#160;нарушениями зрения могут расширить
+      границы своего&#160;доступа к&#160;невероятному миру информационных технологий. Luwrain
+      не&#160;требует много времени для освоения и будет одинаково полезной на&#160;мобильных
+      и настольных компьютерах. Мы хотели&#160;бы, чтобы наш проект стал ещё одним решением для&#160;всех,
+      кто нуждается в&#160;надёжном и доступном инструменте, пригодном для&#160;решения различных
+      задач. Он проектируется как платформа для&#160;создания речевых приложений с&#160;набором
+      стандартных утилит, предназначенных для&#160;доступа к веб, электронной почте, новостным
+      ресурсам и&#160;т.&#160;д.
+    </p>
+    <p>
+      Luwrain использует ядро Linux и основан на&#160;специальном типе пользовательского интерфейса,
+      созданного с&#160;применением инструментов Java. В&#160;отличие от&#160;экранных чтецов,
+      функционирующихв&#160;оконном окружении, ориентированного на&#160;работу при&#160;помощи
+      мыши, Luwrain придерживается метода изначального представления всех&#160;рабочих объектов
+      в&#160;текстовой форме. Это&#160;означает, что на&#160;работу в&#160;Luwrain пользователю
+      требуется времени существенно меньше, чем в&#160;озвученном оконном интерфейсе. Мы&#160;создаём
+      нашу&#160;систему для&#160;тех, кто ведёт активный образ жизни и способен оценить экономию
+      времени.
+    </p>
+    <p>
+      В&#160;Luwrain интерфейс пользователя, работающий внутри виртуальной машины Java, функционирует
+      поверх ряда системных сервисов, призванных обеспечить необходимый уровень надёжности и
+      гибкости. Передача информации между ними осуществляется преимущественнопри&#160;помощи
+      шин D-Bus. D-Bus предоставляет доступ всем приложениям Java к&#160;информации о&#160;сетевых
+      подключениях, полученной от&#160;Network manager, передаёт команды в&#160;службу вывода
+      речи и&#160;т.&#160;д. Персональные данные пользователей могут храниться в&#160;сервере
+      OpenLDAP или любой реляционнйо СУБД, для&#160;которой подготовлен JDBC-интерфейс. Для&#160;слабовидящих
+      людей Luwrain выводит текстовую информацию контрастным шрифтом в&#160;окне, отображаемом
+      на&#160;экране при&#160;помощи сервера X.org и легковесного оконного менеджера.
+    </p>
+    <p>
+      Luwrain &#x2014; это полностью свободный проект. Использование Luwrain не&#160;подразумевает
+      оплаты и может выполняться без&#160;ограничений, если это не&#160;нарушает требований GNU&#160;Public
+      Licenseверсии&#160;3. Тем&#160;не&#160;менее, авторы проекта были&#160;бы очень рады любой
+      финансовой поддержке, поскольку она может помочь шире представить Luwrain среди мировых
+      общественных организаций.
+    </p>
+<?php }?>
   </body>
 </html>
 <?php
+  }
+
+  function luwrain_content_not_written()
+  {
+    if (luwrain_current_lang() == 'en')
+      echo '                  <p>We apologize, but this page does not have any content yet. Please, try visit it later.</p>'."\n";
+    if (luwrain_current_lang() == 'ru')
+      echo '                  <p>Мы приносим свои извинения, но текст этой страницы в настоящий момент не подготовлен.</p>'."\n";
   }
 ?>

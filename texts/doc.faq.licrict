@@ -1,0 +1,89 @@
+
+= Frequently asked questions =
+
+== Why do you work on isolated environment although you know that restricts a~user? == 
+
+We could talk about any restrictions only in~case of using Luwrain instead of~any other operating system but mostly it~is not~the~case.
+ very likely the~best role Luwrain can play 
+is~to~be a~operating system for~various supplementary devices including laptops now or light ARM computers later.
+Meantime The Pareto rule states only 20\% features are needed to cover 80\% user needs 
+and this fact is applicable here,
+so we can believe Luwrain will be very useful for wide range of users even on~supplementary machines.
+If Luwrain functions are insufficient 
+a~user can easily have main desktop PC with fully functional operating system such  as Microsoft Windows
+and use it for~main work he~needs.
+
+== Is it Linux? ==
+
+Yes, it is Linux.
+Luwrain uses Linux kernel with wide range of~GNU utilities.
+However, the word "Linux" is not present in the title of our project.
+That means Luwrain is not~a~one more GNU/Linux distribution inits~~usual sense.
+Normally in~Luwrain user do~not need to~deal with any Linux specific features or configuration tasks.
+Our user interface tries to~obscure them every time it~is possible.
+
+== Can I run it on~Microsoft WIndows? ==
+
+Yes in~general but in~practice our code needs some additional features for~launch on~Microsoft Windows 
+and we do~not plan to~do~it ourselves. 
+Luwrain environment is~written on~Java and that allows easy porting to~other  operating system 
+which has Java virtual machine including Microsoft Windows.
+But it also has some platform specific code for interaction with system services and they should be~disabled or modified to~be capable with Microsoft Windows.
+
+== May I create my custom version? ==
+
+Yes, no problems.
+All necessary materials for that are opened and accessible publicly.
+Any additional information can be provided through our [local:/community/ community].
+Also be~aware of~[local:/doc/legal/ legal notes] of~Luwrain project and of~any projects derived  from Luwrain.
+
+== Is it a commercial project? == 
+
+No, Luwrain is a~non-profitable project.
+We would like to~create long-term platform resistant to world financial climate as~GNU/Linux itself is.
+However, some  commercial activity remains still possible by~Luwrain authors as~well as~ any third-part companies.
+
+= Часто задаваемые вопросы =
+
+== Почему вы разрабатываете изолированную среду, хотя должны знать, что это ограничивает возможности пользователей? == 
+
+Ограничения возможны только в~том случае, если речь идёт об~использовании Luwrain взамен всех других операционных систем, хотя в~большинстве случаев это~не~так.
+Наиболее вероятно, что в~основном  Luwrain будет полезна пользователям как~система на~различных дополнительных устройствах,
+таких~как~мобильные компьютеры в~наши дни или компактные ARM-системы в~будущем.
+Помимо этого, правило Парето утверждает, что 80\% задач пользователей может быть решено при~помощи 20\% возможностей системы,
+так что даже на~дополнительных вспомогательных устройствах Luwrain может быть очень полезна.
+Если возможностей Luwrain окажется недостаточно, 
+каждый пользователь может по-прежнему работать на~своём основном настольном компьютере в~другой операционной системе, например, в~Microsoft Windows.
+
+== Luwrain --- это Linux? ==
+
+Да, это Linux.
+Luwrain использует ядро Linux и большое количество утилит GNU.
+Тем~не~менее, слово "Linux отсутствует в~названии нашего проекта.
+Это объясняется  тем, что Luwrain не~является дистрибутивом Linux в~привычном смысле этого слова.
+При~стандартной работе пользователю нет~необходимости иметь дело с~особенностями  ядра Linux.
+Предложенное окружение пользователя максимально скрывает все~технические детали внутренней реализации.
+
+== Могу~ли я запустить Luwrain на~Microsoft Windows? ==
+
+Да в~теории, но на~практике код Luwrain требует некоторой доработки для~запуска поверх Microsoft Windows,
+и мы не~планируем делать эту~работу самостоятельно.
+Основная часть Luwrain реализована на~Java,
+что обеспечивает лёгкую переносимость на~любую другую операционную систему, 
+для~которой доступна виртуальная машина Java, включая Microsoft Windows.
+При~этом в~реализации задействованы некоторые системнозависимые возможности,
+которые должны быть либо отключены, либо переработаны для~запуска в~Microsoft Windows.
+
+== Могу~ли я сделать мою собственную модификацию Luwrain? ==
+
+Да, пожалуйста.
+Все~необходимые материалы для~этого открыты и находятся в~публичном доступе.
+По~всем дополнительным вопросам Вы можете обращаться в~наше [local:/community/ сообщество].
+Также необходимо ознакомиться с~[local:/doc/legal/ правовым статусом] Luwrain и продуктов на~его основе. 
+
+== Luwrain --- это коммерческий проект? == 
+
+Нет, разработка Luwrain ведётся без~цели получения прибыли.
+Мы хотели~бы создать долгосрочную платформу, развитие которой велось~бы без~влияния мирового финансового климата.
+Тем~не~менее, некоторая коммерческая деятельность остаётся возможной как~со~стороны авторов проекта,
+так и со~стороны других компаний.

@@ -1,0 +1,37 @@
+= Luwrain downloading =
+
+There~are three  options of~downloading you may want to~continue with.
+If you are new to~Luwrain or just need a~distribution for work very likely you  should take the~first one.
+This~option  provides binary distribution prepared in~form of~bootable CD.
+
+A~couple of~other alternatives  are purposed for~developing tasks.
+Which one of~them is suitable for~you is~dependent on~sort of~work you are interested~in.
+Source materials usually serve for~exploring of~software internal implementation or for~developing of~Luwrain itself.
+Binary package includes Luwrain main jar-file and all auxiliary libraries for using on~various Linux systems although 
+this way is preferable for~experienced users only.
+
+Choose the~exact option you need:
+
+* [local:distr/ The~Luwrain distributions as~bootable ISO]
+* [local:sources/ The~Luwrain sources]
+* [local:binary/ The~Luwrain binary package]
+
+= Загрузка Luwrain  =
+
+Для~загрузки Luwrain доступен ввиде загрузочного ISO-образа,
+в~виде бинарного пакета с~главным jar-файлом и вспомогательными библиотеками,
+а~также в~виде исходных текстов.
+Если Вас интересует дистрибутив для~работы, в~том числе и для~первого знакомтсва с~ДLuwrain,
+Вам необходимо выбрать первую опцию.
+
+Luwrain в~виде бинарного пакета и пакета с~исходными текстами подходит дя~работы только опытными пользователями.
+Они необходимы для участия в~разработке самой среды и приложений для~неё.
+Дополнительно с~их~помощью возможен запуск Luwrain на~сторонних дистрибутивах GNU/Linux.
+
+Выберите интересующий Вас вариант загрузки Luwrain:
+
+
+* [local:distr/ The~Luwrain distributions as~bootable ISO]
+* [local:sources/ The~Luwrain sources]
+* [local:binary/ The~Luwrain binary package]
+
