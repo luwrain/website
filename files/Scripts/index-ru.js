@@ -54,14 +54,14 @@ function ShowPart1(){
 	$('#imageDiv').html('<img id="accImg" src="Images/acc.png" alt="The accessible platform" height="303" width="523"></img>');
 	$('#textUnderPic').html('The accessible platform');
 	$('#accPlatform').html('The accessible platform');
-	$('#text1more').html('With accessible environment Luwrain blind and visually-impaired persons '+
-										'<br/>get one more way to be involved in the incredible world of information'+
-										'<br/>technologies. Luwrain does not take a lot of time to study and aims to be'+ 
-										'<br/>useful on laptops as well as on usual desktop computers. You can treat our'+
-										'<br/>new idea as one more solution for everybody who needs reliable and'+ 
-										'<br/>accessible companion for various types of work. The product is designed'+
-										'<br/>as new platform for creating speech-enabled applications with set of'+ 
-										'<br/>standard tools for easy web access, mail and news reading, etc.');
+	$('#text1more').html('При помощи операционной системы Luwrain люди с нарушениями зрения могут расширить'+
+			     '<br/>границы своего доступа к невероятному миру информационных технологий. Luwrain'+
+			     '<br/>не требует много времени для освоения и будет одинаково полезной на мобильных и'+
+			     '<br/>настольных компьютерах. Мы хотели бы, чтобы наш проект стал ещё одним решением'+
+			     '<br/>для всех, кто нуждается в надёжном и доступном инструменте, пригодном для решения'+
+			     '<br/>различных задач. Он проектируется как платформа для создания речевых приложений '+
+			     '<br/>с набором стандартных утилит, предназначенных для доступа к веб, электронной почте,'+
+			     '<br/>новостным ресурсам и т. д.');
 	$('#firstButton').html('<span><img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img>TRY IT NOW</span>');
 	$('#secondButton').html('<span>Read more</span>');
 };
@@ -81,15 +81,14 @@ function ShowPart2(){
 	$('#imageDiv').html('<img id="textBasedImg" src="Images/textBased.png" alt="Text-based environment" height="162" width="532"></img>');
 	$('#textUnderPic').html('Text-based environment');
 	$('#accPlatform').html('Text-based environment');
-	$('#text1more').html('Luwrain is a linux-based system with special type of user interface'+
-										'<br/>constructed on Java technologies. In contrast with widely popular screen'+
-										'<br/>reading solutions for graphical desktops which actually were designed for'+
-										'<br/>control basically by mouse and other pointing devices, Luwrain follows'+
-										'<br/>special conception offering representation of every working object from'+
-										'<br/>scratch in text form. That means in Luwrain user will always spend'+ 
-										'<br/>significantly less time than in an adapted GUI. We have created our'+ 
-										'<br/>environment for people with active style of life who appreciate time'+ 
-										'<br/>economy getting their job done.');
+	$('#text1more').html('Luwrain использует ядро Linux и основан на специальном типе пользовательского'+
+			     '<br/>интерфейса, созданного с применением инструментов Java. В отличие от экранных'+
+			     '<br/>чтецов, функционирующих в оконном окружении, ориентированного на работу'+
+			     '<br/>при помощи мыши, Luwrain придерживается метода изначального представления' +
+			     '<br/>всех рабочих объектов в текстовой форме. Это означает, что на работу'+
+			     '<br/>в Luwrain пользователю требуется времени существенно меньше, чем в озвученном'+
+			     '<br/>оконном интерфейсе. Мы создаём нашу систему для тех, кто ведёт активный образ'+
+			     '<br/>жизни и способен оценить экономию времени.');
 	$('#firstButton').html('<span>Read documentation</span>');
 	$('#secondButton').html('<span>Read more</span>');
 };
@@ -109,16 +108,16 @@ function ShowPart3(){
 	$('#imageDiv').html('<img id="javaImg" src="Images/java.png" alt="Java on Linux" height="199" width="332"></img>');
 	$('#textUnderPic').html('Java on Linux');
 	$('#accPlatform').html('Java on Linux');
-	$('#text1more').html('In Luwrain Java user space gathers together a number of system services'+
-										'<br/>taken for providing flexible core and good level of compatibility. Information'+
-										'<br/>exchanging between them is performed mostly through D-Bus activity. It'+
-										'<br/>brings to a user information about network structure from Network Manager'+
-										'<br/>and transmits commands to speech server purposed for Text-To-Speech'+
-										'<br/>engines manipulating. Personal user data can be stored in OpenLDAP or'+ 
-										'<br/>in any choice of SQL server which has proper JDBC interface. For low-vision'+ 
-										'<br/>users Luwrain opens full-screen window with all corresponding textual'+ 
-										'<br/>data written in contrast colours. That window is drawn by X.org server'+
-										'<br/>using special window manager created as a part of Luwrain project.');
+	$('#text1more').html('В Luwrain интерфейс пользователя, работающий внутри виртуальной машины Java,'+
+			     '<br/>функционирует поверх ряда системных сервисов, призванных обеспечить необходимый'+
+			     '<br/>уровень надёжности и гибкости. Передача информации между ними осуществляется' +
+			     '<br/>преимущественно при помощи шин D-Bus. D-Bus предоставляет доступ всем'+
+			     '<br/>приложениям Java к информации о сетевых подключениях, полученной от Network'+
+			     '<br/>manager, передаёт команды в службу вывода речи и т. д. Персональные данные'+
+			     '<br/>пользователей могут храниться в сервере OpenLDAP или любой реляционной'+
+			     '<br/>СУБД, для которой подготовлен JDBC-интерфейс. Для слабовидящих людей'+
+			     '<br/>Luwrain выводит текстовую информацию контрастным шрифтом в окне, отображаемом'+
+			     '<br/>на экране при помощи сервера X.org и легковесного оконного менеджера.');
 	$('#firstButton').html('<span>Our community</span>');
 	$('#secondButton').html('<span>Read more</span>');
 };
@@ -138,13 +137,11 @@ function ShowPart4(){
 	$('#imageDiv').html('<img id="fossImg" src="Images/toss.png" alt="toss" height="229" width="254"></img>');
 	$('#textUnderPic').html('FOSS');
 	$('#accPlatform').html('FOSS');
-	$('#text1more').html('Luwrain is a completely Free Software project, no fee is implied, no restrictions'+
-										'<br/>of using and distribution are present, except of cases explicitly violating'+
-										'<br/>the terms of GNU Public License ver. 3 as it was published by Free'+
-										'<br/>Software Foundation. However, money donations are still required to help'+
-										'<br/>us present our product wider over the world and introduce it to related'+
-										'<br/>social and distribution organizations. The team of developers hopes'+ 
-										'<br/>Luwrain can increase the integration of disabled persons into social life.');
+	$('#text1more').html('Luwrain - это полностью свободный проект. Использование Luwrain не подразумевает'+
+			     '<br/>оплаты и может выполняться без ограничений, если это не нарушает требований'+
+			     '<br/>GNU Public License версии 3. Тем не менее, авторы проекта были бы очень рады'+
+			     '<br/>любой финансовой поддержке, поскольку она может помочь шире представить'+
+			     '<br/>Luwrain  среди мировых общественных организаций.');
 	$('#firstButton').html('<span>Be a partner</span>');
 	$('#secondButton').html('<span>Read more</span>');
 };
