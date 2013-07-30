@@ -8,7 +8,7 @@
     <link type="image/x-icon" href="Images/favicon.ico" rel="icon"/>
     <link media="all" rel="stylesheet" type="text/css" href="Content/luwrain.css" />
     <script type="text/javascript" src="Scripts/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="Scripts/index.js"></script>
+    <script type="text/javascript" src="Scripts/<?php if (luwrain_current_lang() == 'en') echo 'index-en.js'; if (luwrain_current_lang() == 'ru') echo 'index-ru.js'; ?>"></script>
     <script type="text/javascript" src="Scripts/core.js"></script>
     <script type="text/javascript">
       jQuery(document).ready(function () {
