@@ -261,16 +261,16 @@ function luwrain_link($path)
 	    </li>
 	    <li class="sectionHeader">
 	      <div id = "logo">
-		<div onclick = "document.location = 'index.xhtml';" id = "logoLink">
+		<div onclick = "document.location = '<?php echo Luwrain_link('/index.php');?>';" id = "logoLink">
 		  <ul class="subMenu" id = "logoLinkUl">
 		    <li>
 		      <span class="font30 bold">LUWRAIN</span>
 		    </li>
 		    <li>
-		      <span class="italic font14">The territory</span>
+		      <span class="italic font14"><?php echo luwrain_current_lang() == 'ru'?'Мир доступных технологий!':'The territory';?></span>
 		    </li>
 		    <li>
-		      <span class="italic font14">of a compelling accessibility</span>
+		      <span class="italic font14"><?php if (luwrain_current_lang() == 'en') echo 'of a compelling accessibility';?></span>
 		    </li>
 		  </ul>
 		</div>

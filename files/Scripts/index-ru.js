@@ -52,8 +52,8 @@ function ShowPart1(){
 	
 	$('#hiddenPartNumber').val('1');
 	$('#imageDiv').html('<img id="accImg" src="Images/acc.png" alt="The accessible platform" height="303" width="523"></img>');
-	$('#textUnderPic').html('The accessible platform');
-	$('#accPlatform').html('The accessible platform');
+	$('#textUnderPic').html('Доступная операционная система');
+	$('#accPlatform').html('Доступная операционная система');
 	$('#text1more').html('При помощи операционной системы Luwrain люди с нарушениями зрения могут расширить'+
 			     '<br/>границы своего доступа к невероятному миру информационных технологий. Luwrain'+
 			     '<br/>не требует много времени для освоения и будет одинаково полезной на мобильных и'+
@@ -62,8 +62,8 @@ function ShowPart1(){
 			     '<br/>различных задач. Он проектируется как платформа для создания речевых приложений '+
 			     '<br/>с набором стандартных утилит, предназначенных для доступа к веб, электронной почте,'+
 			     '<br/>новостным ресурсам и т. д.');
-	$('#firstButton').html('<span><img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img>TRY IT NOW</span>');
-	$('#secondButton').html('<span>Read more</span>');
+	$('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/download/distr/?mode=normal&lang=ru"><span>ISO-образ</span></a>');
+	$('#secondButton').html('<span>Узнать больше</span>');
 };
 function ShowPart2(){
 	ChangeNavigationColor(2);
@@ -79,8 +79,8 @@ function ShowPart2(){
 	
 	$('#hiddenPartNumber').val('2');
 	$('#imageDiv').html('<img id="textBasedImg" src="Images/textBased.png" alt="Text-based environment" height="162" width="532"></img>');
-	$('#textUnderPic').html('Text-based environment');
-	$('#accPlatform').html('Text-based environment');
+	$('#textUnderPic').html('Работа только с текстом');
+	$('#accPlatform').html('Работа только с текстом');
 	$('#text1more').html('Luwrain использует ядро Linux и основан на специальном типе пользовательского'+
 			     '<br/>интерфейса, созданного с применением инструментов Java. В отличие от экранных'+
 			     '<br/>чтецов, функционирующих в оконном окружении, ориентированного на работу'+
@@ -89,8 +89,8 @@ function ShowPart2(){
 			     '<br/>в Luwrain пользователю требуется времени существенно меньше, чем в озвученном'+
 			     '<br/>оконном интерфейсе. Мы создаём нашу систему для тех, кто ведёт активный образ'+
 			     '<br/>жизни и способен оценить экономию времени.');
-	$('#firstButton').html('<span>Read documentation</span>');
-	$('#secondButton').html('<span>Read more</span>');
+	$('#firstButton').html('<a href="/doc/about/?mode=normal&lang=ru"><span>Основные идеи</span></a>');
+	$('#secondButton').html('<span>Узнать больше</span>');
 };
 function ShowPart3(){
 	ChangeNavigationColor(3);
@@ -106,8 +106,8 @@ function ShowPart3(){
 	
 	$('#hiddenPartNumber').val('3');
 	$('#imageDiv').html('<img id="javaImg" src="Images/java.png" alt="Java on Linux" height="199" width="332"></img>');
-	$('#textUnderPic').html('Java on Linux');
-	$('#accPlatform').html('Java on Linux');
+	$('#textUnderPic').html('Java и Linux');
+	$('#accPlatform').html('Java и Linux');
 	$('#text1more').html('В Luwrain интерфейс пользователя, работающий внутри виртуальной машины Java,'+
 			     '<br/>функционирует поверх ряда системных сервисов, призванных обеспечить необходимый'+
 			     '<br/>уровень надёжности и гибкости. Передача информации между ними осуществляется' +
@@ -118,8 +118,8 @@ function ShowPart3(){
 			     '<br/>СУБД, для которой подготовлен JDBC-интерфейс. Для слабовидящих людей'+
 			     '<br/>Luwrain выводит текстовую информацию контрастным шрифтом в окне, отображаемом'+
 			     '<br/>на экране при помощи сервера X.org и легковесного оконного менеджера.');
-	$('#firstButton').html('<span>Our community</span>');
-	$('#secondButton').html('<span>Read more</span>');
+	$('#firstButton').html('<a href="/doc/devel/?mode=normal&lang=ru"><span>Для разработчиков</span></a>');
+	$('#secondButton').html('<span>Узнать больше</span>');
 };
 function ShowPart4(){
 	ChangeNavigationColor(4);
@@ -135,15 +135,15 @@ function ShowPart4(){
 	
 	$('#hiddenPartNumber').val('4');
 	$('#imageDiv').html('<img id="fossImg" src="Images/toss.png" alt="toss" height="229" width="254"></img>');
-	$('#textUnderPic').html('FOSS');
-	$('#accPlatform').html('FOSS');
+	$('#textUnderPic').html('Свободное ПО');
+	$('#accPlatform').html('Свободное ПО');
 	$('#text1more').html('Luwrain - это полностью свободный проект. Использование Luwrain не подразумевает'+
 			     '<br/>оплаты и может выполняться без ограничений, если это не нарушает требований'+
 			     '<br/>GNU Public License версии 3. Тем не менее, авторы проекта были бы очень рады'+
 			     '<br/>любой финансовой поддержке, поскольку она может помочь шире представить'+
 			     '<br/>Luwrain  среди мировых общественных организаций.');
-	$('#firstButton').html('<span>Be a partner</span>');
-	$('#secondButton').html('<span>Read more</span>');
+	$('#firstButton').html('<a href="/doc/partners/?mode=normal&lang=ru"><span>Для партнёров</span></a>');
+	$('#secondButton').html('<span>Узнать больше</span>');
 };
 function ChangeNavigationColor(selected){
 	$('#nav1').addClass('lightGrey');
@@ -160,7 +160,7 @@ function ChangeNavigationColor(selected){
 function SecondButtonOnClick() {
 	$('#part1').slideUp('slow');
 	$('#part1more').slideDown('slow');
-	$('#secondButton').html('<span>Next</span>');
+	$('#secondButton').html('<span>Далее...</span>');
 	switch ($('#hiddenPartNumber').val()) {
 		case "1": 
 			break;
@@ -169,7 +169,7 @@ function SecondButtonOnClick() {
 		case "3": 
 			break;
 		case "4": 
-			$('#secondButton').html('<span>Be a sponsor</span>');
+			$('#secondButton').html('<a href="/doc/sponsors/?mode=normal&lang=ru"><span>Для спонсоров</span></a>');
 			$('#secondButton').removeClass('lightButton');
 			$('#secondButton').addClass('lightSolidButton');
 			break;
