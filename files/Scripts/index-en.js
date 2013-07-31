@@ -62,7 +62,7 @@ function ShowPart1(){
 										'<br/>accessible companion for various types of work. The product is designed'+
 										'<br/>as new platform for creating speech-enabled applications with set of'+ 
 										'<br/>standard tools for easy web access, mail and news reading, etc.');
-	$('#firstButton').html('<span><img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img>TRY IT NOW</span>');
+	$('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/download/distr/?mode=normal&lang=en"><span>ISO-images</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
 function ShowPart2(){
@@ -90,7 +90,7 @@ function ShowPart2(){
 										'<br/>significantly less time than in an adapted GUI. We have created our'+ 
 										'<br/>environment for people with active style of life who appreciate time'+ 
 										'<br/>economy getting their job done.');
-	$('#firstButton').html('<span>Read documentation</span>');
+	$('#firstButton').html('<a href="/doc/about/?mode=normal&lang=en"><span>Our basic ideas</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
 function ShowPart3(){
@@ -119,7 +119,7 @@ function ShowPart3(){
 										'<br/>users Luwrain opens full-screen window with all corresponding textual'+ 
 										'<br/>data written in contrast colours. That window is drawn by X.org server'+
 										'<br/>using special window manager created as a part of Luwrain project.');
-	$('#firstButton').html('<span>Our community</span>');
+	$('#firstButton').html('<a href="/doc/devel/?mode=normal&lang=en"><span>For developers</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
 function ShowPart4(){
@@ -145,7 +145,7 @@ function ShowPart4(){
 										'<br/>us present our product wider over the world and introduce it to related'+
 										'<br/>social and distribution organizations. The team of developers hopes'+ 
 										'<br/>Luwrain can increase the integration of disabled persons into social life.');
-	$('#firstButton').html('<span>Be a partner</span>');
+	$('#firstButton').html('<a href="/doc/partners/?mode=normal&lang=en"><span>Be a partner</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
 function ChangeNavigationColor(selected){
@@ -160,55 +160,87 @@ function ChangeNavigationColor(selected){
 	$('#nav'+selected).addClass('blueColor');
 	$('#nav'+selected).removeClass('lightGrey');
 }
+
 function SecondButtonOnClick() {
+    var partNumber = $('#hiddenPartNumber').val();
+    if(partNumber == 1 || partNumber == 2 || partNumber == 3 ||
+       partNumber == 4) {
 	$('#part1').slideUp('slow');
 	$('#part1more').slideDown('slow');
 	$('#secondButton').html('<span>Next</span>');
-	switch ($('#hiddenPartNumber').val()) {
-		case "1": 
-			break;
-		case "2": 
-			break;
-		case "3": 
-			break;
-		case "4": 
-			$('#secondButton').html('<span>Be a sponsor</span>');
-			$('#secondButton').removeClass('lightButton');
-			$('#secondButton').addClass('lightSolidButton');
-			break;
-	 }
-};
-function ChangeContentPart(direction) {
-	switch (direction) {
-		case 1: //left
-			switch ($('#hiddenPartNumber').val()) {
-				case "1": 
-					break;
-				case "2": 
-					ShowPart1();
-					break;
-				case "3": 
-					ShowPart2();
-					break;
-				case "4": 
-					ShowPart3();
-					break;
-			 }
-			break;
-		case 2: //right
-			switch ($('#hiddenPartNumber').val()) {
-				case "1": 
-					ShowPart2();
-					break;
-				case "2": 
-					ShowPart3();
-					break;
-				case "3": 
-					ShowPart4();
-					break;
-				case "4": 
-					break;
-			 }
-			break;
+	switch (partNumber) {
+	case "1": 
+	    $('#hiddenPartNumber').val('12');
+	    break;
+	case "2":
+	    $('#hiddenPartNumber').val('22');
+	    break;
+	case "3":
+	    $('#hiddenPartNumber').val('32');
+	    break;
+	case "4": 
+	    $('#hiddenPartNumber').val('42');
+	    $('#secondButton').html('<a href="/doc/sponsors/?mode=normal&lang=en"><span>Be a sponsor</span></a>');
+	    $('#secondButton').removeClass('lightButton');
+	    $('#secondButton').addClass('lightSolidButton');
+	    break;
 	}
+	return;
+    }
+    switch (partNumber) {
+    case "12": 
+	ShowPart2();
+	break;
+    case "22":
+	ShowPart3();
+	break;
+    case "32":
+	ShowPart4();
+	break;
+    case "4":
+	break;
+    }
+};
+
+function ChangeContentPart(direction) {
+    switch (direction) {
+    case 1: //left
+	switch ($('#hiddenPartNumber').val()) {
+	case "1": 
+	case "12": 
+	    break;
+	case "2": 
+	case "22": 
+	    ShowPart1();
+	    break;
+	case "3": 
+	case "32": 
+	    ShowPart2();
+	    break;
+	case "4": 
+	case "42": 
+	    ShowPart3();
+	    break;
+	}
+	break;
+    case 2: //right
+	switch ($('#hiddenPartNumber').val()) {
+	case "1":
+	case "12":
+	    ShowPart2();
+	    break;
+	case "2":
+	case "22":
+	    ShowPart3();
+	    break;
+	case "3":
+	case "32":
+	    ShowPart4();
+	    break;
+	case "4":
+	case "42":
+	    break;
+	}
+	break;
+    }
 };

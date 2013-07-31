@@ -157,55 +157,87 @@ function ChangeNavigationColor(selected){
 	$('#nav'+selected).addClass('blueColor');
 	$('#nav'+selected).removeClass('lightGrey');
 }
+
 function SecondButtonOnClick() {
+    var partNumber = $('#hiddenPartNumber').val();
+    if(partNumber == 1 || partNumber == 2 || partNumber == 3 ||
+       partNumber == 4) {
 	$('#part1').slideUp('slow');
 	$('#part1more').slideDown('slow');
-	$('#secondButton').html('<span>Далее...</span>');
-	switch ($('#hiddenPartNumber').val()) {
-		case "1": 
-			break;
-		case "2": 
-			break;
-		case "3": 
-			break;
-		case "4": 
-			$('#secondButton').html('<a href="/doc/sponsors/?mode=normal&lang=ru"><span>Для спонсоров</span></a>');
-			$('#secondButton').removeClass('lightButton');
-			$('#secondButton').addClass('lightSolidButton');
-			break;
-	 }
-};
-function ChangeContentPart(direction) {
-	switch (direction) {
-		case 1: //left
-			switch ($('#hiddenPartNumber').val()) {
-				case "1": 
-					break;
-				case "2": 
-					ShowPart1();
-					break;
-				case "3": 
-					ShowPart2();
-					break;
-				case "4": 
-					ShowPart3();
-					break;
-			 }
-			break;
-		case 2: //right
-			switch ($('#hiddenPartNumber').val()) {
-				case "1": 
-					ShowPart2();
-					break;
-				case "2": 
-					ShowPart3();
-					break;
-				case "3": 
-					ShowPart4();
-					break;
-				case "4": 
-					break;
-			 }
-			break;
+	$('#secondButton').html('<span>Далее</span>');
+	switch (partNumber) {
+	case "1": 
+	    $('#hiddenPartNumber').val('12');
+	    break;
+	case "2":
+	    $('#hiddenPartNumber').val('22');
+	    break;
+	case "3":
+	    $('#hiddenPartNumber').val('32');
+	    break;
+	case "4": 
+	    $('#hiddenPartNumber').val('42');
+	    $('#secondButton').html('<a href="/doc/sponsors/?mode=normal&lang=ru"><span>Для спонсоров</span></a>');
+	    $('#secondButton').removeClass('lightButton');
+	    $('#secondButton').addClass('lightSolidButton');
+	    break;
 	}
+	return;
+    }
+    switch (partNumber) {
+    case "12": 
+	ShowPart2();
+	break;
+    case "22":
+	ShowPart3();
+	break;
+    case "32":
+	ShowPart4();
+	break;
+    case "4":
+	break;
+    }
+};
+
+function ChangeContentPart(direction) {
+    switch (direction) {
+    case 1: //left
+	switch ($('#hiddenPartNumber').val()) {
+	case "1": 
+	case "12": 
+	    break;
+	case "2": 
+	case "22": 
+	    ShowPart1();
+	    break;
+	case "3": 
+	case "32": 
+	    ShowPart2();
+	    break;
+	case "4": 
+	case "42": 
+	    ShowPart3();
+	    break;
+	}
+	break;
+    case 2: //right
+	switch ($('#hiddenPartNumber').val()) {
+	case "1":
+	case "12":
+	    ShowPart2();
+	    break;
+	case "2":
+	case "22":
+	    ShowPart3();
+	    break;
+	case "3":
+	case "32":
+	    ShowPart4();
+	    break;
+	case "4":
+	case "42":
+	    break;
+	}
+	break;
+    }
 };
