@@ -1,0 +1,56 @@
+
+= Luwrain community =
+
+We invide everybody who is~interested in~Luwrain using or developing to~be a~member of~our community.
+Even if you want just to~chat about assistive  technologies 
+or to~suggest any new ideas fill free to~subscribe to~our mailing list and discuss that there.
+
+The~main purpose of~the~community is an~exchanging of~users experience.
+It~is very important thing as~we~need to~know any~valuable feedback about our~product.
+It allows us make  corresponding improvements in~our future releases and track known issues.
+However, this community is~also a~proper place for~everybody 
+who has intentions to~participate in~Luwrain developing.
+Generally, community help in~the~following tasks will be definitely appreciated:
+
+* [local:bugs Bugs reporting ] (provided patch makes fix noticeably quick)
+* Testing Luwrain on various hardware to~build list of supported and recommended PC models
+* Implementing interaction with other projects for easy access (especially with numerous web services)
+
+If you are interested in~more serious developing with~Luwrain, please, visit our [local:/doc/devel/ resources for~developers].
+
+Every community in~the~Internet is a~place gathering together 
+large number of people so everybody is~urged to be~polite and respect other members.
+You can subscribe to~our mailing list or simply provide a~technical report with the~following links":
+
+* [local:mailing-list/ Luwrain mailing list information]
+* [local:bugs Provide a~technical report about a~bug in~Luwrain]
+
+=Сообщество Luwrain  =
+
+Мы приглашаем всех, кто заинтересован в~использовании или разработке Luwrain, присоединиться к~нашему сообществу.
+Даже если Вы намерены просто пообщаться на~темы вспомогательных технологий или предложить какие-то свои идеи,
+то нет~никаких возражений против того, чтобы делать это в~нашем списке рассылки.
+
+Наше сообщество создано для того, чтобы обеспечить пользователям возможность обмениваться своим опытом.
+Это очень важно, поскольку нам необходимо знать мнение наших пользователей.
+С~их помощью мы сможем вносить улучшения в~будущие версии и отслеживать появившиеся ошибки.
+Тем~не~менее, сообщество также хорошо подходит и для~обсуждения всех вопросов,
+связанных с~непосредственным участием в~процессе разработки Luwrain.
+Участие сообщества особенно важно при~решении следующих задач:
+
+* [local:bugs предоставление отчётов об~ошибках] (подготовка патча заметно ускоряет их~устранение);
+* тестирование Luwrain на~различном оборудовании для~составления перечня подходящих и рекомендуемых моделей компьютеров; 
+* реализация взаимодействия с~возможностями других проектов для~облегчения их~использования (особенно с~веб-сервисами).
+
+Если Вы хотели~бы принять более серьёзное участие в~разработке Luwrain, 
+то посетите наш~[local:/doc/devel/ раздел с~ресурсами для~разработчиков].
+
+Любое сообщество в~Интернете --- это место, 
+где встречаются вместе большое количество людей,
+поэтому убедительная просьба во~всех обсуждениях придерживаться правил вежливости и уважения,
+чтобы дискуссии были~бы приятны для~всех.
+Подписывайтесь на~наш список!
+
+# [local:mailing-list/ Информация о~списке рассылки Luwrain].
+# [local:bugs Сообщить о~найденной ошибке].
+

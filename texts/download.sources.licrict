@@ -1,39 +1,69 @@
 = Luwrain source code =
 
-Luwrain source  code is published in~form of~tarball packages widely popular in~the~world of~GNU/Linux systems as~well 
-as~it is~accessible in~project GIT repository.
-Actually there~is~no big difference which way you should prefer 
-but with GIT resources you can get more materials and easily follow all updates 
-in~the~meantime tarball packages contain 
-only sources  of~main Luwrain distribution including Luwrain core, a~set of~basic applications, etc.
-
+Luwrain source  code is published in~form of~tarball archives widely popular in~the~world of~GNU/Linux as~well 
+as~it is~accessible through a~set of~git-repositories.
+The~range of~available data in~archives and in~git is not the~same.
+Multimedia files are never put in~git 
+but in~opposite Luwrain website sources  can be retrieved  only through git.
 All materials are provided under the~legal terms described 
-on~the~[/doc/legal/ corresponding page] 
+on~the~[/local:doc/legal/ corresponding page] 
 of~this website.
-
-== Sources tarball ==
-
-Use the~link below to~get Luwrain sources packaged in~a~single tarball.
-Please, be~aware that This package doesn't include auxiliary libraries needed for~compilation neither in~source nor~in~binary form. 
-
-*[ftp://ftp.altlinux.org/pub/people/msp/src/luwrain/0.x.x/luwrain-0.1.10.tar.gz luwrain-0.1.10.tar.gz]
 
 == Luwrain GIT repositories ==
 
 All Luwrain GIT repositories are hosted on~[[http://github.com/luwrain/ github.com]] service.  
 These repositories are:
 
-* [[http://github.com/luwrain/luwrain.git http://github.com/luwrain/luwrain.git]]:
+* [[http://github.com/luwrain/luwrain.git git://github.com/luwrain/luwrain.git]]:
 main Luwrain GIT repository.
 
-* [[http://github.com/luwrain/luwrain-website.git http://github.com/luwrain/luwrain-website .git]]:
-the~GIT repository with all~materials of~project website.
+* [[http://github.com/luwrain/extensions.git git://github.com/luwrain/extensions.git]]:
+Luwrain extensions.
 
-* [[http://github.com/luwrain/voiceman.git http://github.com/luwrain/voiceman.git]]:
-the~GIT repository  with speech server VoiceMan 
-used in~the~Luwrain distribution for~real-time speech output.
+* [[http://github.com/luwrain/luwrain-website.git git://github.com/luwrain/luwrain-website .git]]:
+Luwrain website sources.
 
+== Sources tarball ==
 
+Use the~link below to~get main Luwrain sources tarball.
+Please, be~aware that This package doesn't include auxiliary libraries needed for~compilation neither in~source nor~in~binary form. 
 
+*[ftp://ftp.altlinux.org/pub/people/msp/src/luwrain/0.x.x/luwrain-0.2.0.tar.gz luwrain-0.2.0.tar.gz]
 
- 
+Various additional materials for~Luwrain are publicly available on~this ftp-resource:
+
+* [ftp://ftp.altlinux.org/pub/people/msp/luwrain/ ftp://ftp.altlinux.org/pub/people/msp/luwrain/ ]
+
+= Исходные тексты Luwrain  =
+
+Исходные тексты Luwrain публикуются в~виде tar-архивов, широко распространённых в~мире GNU/Linux,
+а~также через git-репозитории проекта.
+Набор материалов, доступных  при~помощи архивов и git различается:
+в~git не~помещаются мультимедийные файлы, а в~виде архива, в~свою очередь,  недоступны исходные тексты веб-сайта Luwrain.
+Правовая основа представленных материалов описана  на~[local:/doc/legal/ соответствующей странице].
+
+==  git-репозитории Luwrain ==
+
+Все git-репозитории проекта размещены на~сайте [[http://github.com/luwrain/ github.com]].  
+Ниже приведены ссылки на~них:
+
+* [[http://github.com/luwrain/luwrain.git git://github.com/luwrain/luwrain.git]]:
+основной репозиторий проекта.
+
+* [[http://github.com/luwrain/extensions.git git://github.com/luwrain/extensions.git]]:
+репозиторий с~исходными текстами расширений.
+
+* [[http://github.com/luwrain/luwrain-website.git git://github.com/luwrain/luwrain-website .git]]:
+исходные текста веб-сайта Luwrain.
+
+== tar-архив  ==
+
+По~ссылке ниже Вы можете загрузить основной архив с~исходными текстами.
+Пожалуйста, обратите внимание, что он не~включает в~себя вспомогательные библиотеки нив~бинарной форме, нив~форме исходных текстов.
+
+*[ftp://ftp.altlinux.org/pub/people/msp/src/luwrain/0.x.x/luwrain-0.2.0.tar.gz luwrain-0.2.0.tar.gz]
+
+Различные дополнительные материалы доступны  на~ftp-ресурсе по~этой ссылке:
+
+* [ftp://ftp.altlinux.org/pub/people/msp/luwrain/ ftp://ftp.altlinux.org/pub/people/msp/luwrain/ ]
+

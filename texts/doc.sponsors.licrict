@@ -1,2 +1,45 @@
 
-The~main thing the~project is~experiencing a~lack~of is a~
+= Financial support =
+
+The~Luwrain project itself is non-profitable and for~successful ~ evolution it~needs for~external financial  help.
+Any funding can   make life better for~large groups of~wanting people as~Luwrain pursuits a~significant number of~social aims.
+There~are two types of~things Luwrain seeks money donations for:
+
+# For~hardware of~various types including embedded systems and mobile computers 
+to test Luwrain compatibility with and develop new approaches to~interaction for~blind people.
+
+# For~participation in related conferences and exhibitions over the~world.
+
+== New hardware for Luwrain ==
+
+Linux kernel and Java, which are two~major components of~Luwrain, got  good chances for~portability across different architectures.
+Although general development process is~performed on usual x86 machines 
+in~most cases prepared environment  can be launched also on~other types of~hardware.
+The~most interesting devices for~our tasks  are various ARM-computers including embedded systems and mobile gadgets. 
+Both of~them are very important since they are cheap and quite suitable for~purposes Luwrain is created for.
+
+Meantime general user interface conception taken in~Luwrain has some valuable perspectives 
+to be~adapted for~other types of~user interaction in~addition to~ideas considered for~implementation initially.
+We are~talking mostly about tablet computers which have some noticeable advantages 
+although in~global sense they can not be taken as~most suitable PCs for~blind users.
+Simplicity of~Luwrain objects and rules probably is~able to~make tablets  
+more useful for~blind persons than they are now.
+
+All of~these tasks require some research and hardware  accessible  for~developers for~experiments.
+In~addition  usual popular mobile laptops can be still useful for~testing 
+and building lists of~exact models compatible with Luwrain releases according to~acquired experience conclusions.
+
+== Conferences and exhibitions == 
+
+Luwrain ideas are~not restricted by~borders of~any particular country 
+and everybody welcomed [local:/doc/partners/ for~cooperation]. 
+We believe that there are people sharing with us our aspiration and convinced of~same ideas as we do 
+in~every part of~the~world. 
+We'd like to~find each  other 
+but in~most cases conferences and exhibitions usually used for~new contacts  establishing remain still inaccessible 
+whereas they require significant amount of~money for~travel and participation.
+Any~help making that possible would be~definitely appreciated!
+
+If you have any financing offerings for~our project
+you can use any option from our [local:/doc/contacts/ contacts] page to~discuss them  with us.
+We will wait your help!
