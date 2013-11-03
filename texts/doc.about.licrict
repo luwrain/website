@@ -3,86 +3,82 @@
 
 == What are we working on? ==
 
-First of~all, Luwrain is an~operating system with an attempt to~apply some new ideas  and any available  experience in~area of~OS design  for~needs of~blind persons.
-Current time to do this work is very fortunate 
-as Android, Tizen and FirefoxOS made it easy to~realize 
-that Linux turned~out as~a~wonderful base for~popular devices and in~same time it~remains  publicly available for~using by~everybody.
-Once you get proper understanding of~LInux world
-you get a~clew what you should do if you'd like to~create cutting-edge technology.
-We'd like to~treat that fact as~a~good chance for~solution of~rather  difficult problems in~area of~assistive technologies 
-as we never had before.
+First of~all, Luwrain is a~Linux-based specialized OS and a~place to~apply any new ideas  and experience.
+Android, Tizen and FirefoxOS show that Linux turned~out as~a~wonderful base for~popular devices,
+so current time to do this work is very fortunate. 
+Once you get a~proper understanding of~LInux world you get a~clew what you should do if you'd like to~create new~cutting-edge technology.
+We sure it~is a~chance as~we never had before to~solve rather  difficult problems in~area of~assistive technologies.
 
-Meantime one important thing should be clarified especially detailly.
-a~lot of~usual gadgets based on popular mobile OS like Android or  something like that 
-very often  eventually are~considered   by~their users  as~not~more valuable than some sort of~modern toys.
+Meantime, one important thing should have additional clarification.
+a~lot of~usual gadgets often  eventually considered   as~not~more valuable as~toys.
 In case of assistive  technologies any doubts 
-what exactly devices~are:   an~irreplaceable tool or an~item for~entertainment, are   completely improper.
-They are always the~former because disabled persons are not~able to~do~without them.
-Such helpful things are not able to become boring and users will not give~up them.
+what exactly devices~are,   an~irreplaceable tool or an~item for~entertainment, are   completely improper.
+They are always the~former as disabled persons are not~able to~do~without them.
 
-Finally, we guess we~are able to~describe the~project philosophy  precisely  
-with the~following 10 brief statements:
+We gathered our~project philosophy in~following ten brief statements:
 
-# It is an OS completely designed for blind and visually impaired persons.
-# It must be convenient, fast and clearly understandable.
-# It~has~to support various languages and localizations.
-# It aims to be~sutable for~desktop computers as~well~as for mobile work.
-# It is~based on~the~Linux kernel and other FOSS software.
-# No any bias towards any particular  hardware type.
-# It~is non-profitable project.
-# Its auditory is all users who need it.
-No~matter what experience  they got, 
+# It is an OS completely designed for blind and visually impaired persons
+# It must be convenient, fast and clearly understandable
+# It~has~to support various languages and localizations
+# It aims to be~sutable for~desktop computers as~well~as for mobile devices
+# It is~based on~the~Linux kernel and other FOSS software
+# No bias towards any particular  hardware type
+# It~is a~non-profitable project
+# Its auditory is all users who need it;
+no~matter what experience  they got, 
 what country are they from,
-what profession are they occupied~in and so~on.
-# Everybody is~able to~participate in~its development.
-but authors want to~keep high quality and urge everybody to~respect accepted quality requirements for~all incoming patches.
-# We believe available experience in~GNU/Linux world is~enough at~least to~start this work and gives good base for~success.
+what profession are they occupied~in and so~on
+# Everybody is~able to~participate in~its development,
+but authors urge everybody to~respect accepted quality requirements for~all incoming patches
+# We believe available experience in~GNU/Linux world is~enough at~least to~start this work and gives good base for~success
 
 The~following additional sections of~this website can be
-also useful for~overhaul understanding what Luwrain is:
+useful for~overhaul understanding what Luwrain is:
 
-* [local:/doc/devel/design Exact technical design details of the~Luwrain distribution.]
+* [local:/doc/devel/design Exact technical design details of the~Luwrain distribution]
 * [local:/doc/authors/ Who are the~authors of~the~Luwrain project?]
 
 == But it should be nice! ==
 
 By~the~way we would like to notice that Luwrain does not want to~be~an~ordinary project.
-We have~to~do~everything possible to~make it~interesting and attractive.
+We have~to~do~everything possible to~make it~intriguing and attractive.
 In~pursuit of~that aim any~ideas  how~to~improve user impressions,
 how~to~make usage easier 
 or how~to~eliminate one more boring and time consuming thing 
-will be definitely appreciated here.
-If once Luwrain users fill themselves  using 
-something that is not a~accessibility technology anymore 
-we will treat such moment as~a~real success 
-making Luwrain itself something very close to a~state of~the~art.
+would be definitely appreciated here.
+If Luwrain consumers once  would be~able to fill themselves  using 
+something that actually is not a~accessibility technology,
+we could treat this moment as~a~real success 
+making Luwrain itself very close to a~state of~the~art.
 
 Luwrain is rather specific  in~this sense as~it has such intention 
-being not a~commercial product. 
-That has corresponding explanation:
+being not a~commercial product 
+and that has corresponding explanation:
 commercial companies  always are not free from the~one serious problem:
 all products they  originate usually die at~the~moment of their fault
 or at~the moment when their products do not yield gain any more.
-It is a~really serious problem because in~these circumstances 
+It is a~really serious problem because with~these circumstances 
 a~lot of users can be left without a~tool they really need.
 
 == Research part ==
 
 Another important part of~Luwrain idea is an~acceptance of~results 
-given by~modern scientific research in~relevant areas if there are any.
-The~world of~information technologies is not frozen.
-It~changes permanently  and Luwrain should reflect such changes properly.
-So everybody can fill himself completely free to~propose new ideas to~Luwrain for~experimental implementation if that does not violate ten terms stated at~the~top of this page.
+given by~modern scientific research in~relevant areas.
+The~world of~information technologies is not frozen,
+it~changes permanently  and Luwrain should reflect that properly.
+Thus everybody can fill himself completely free to~propose new ideas 
+if that does not violate ten terms stated above.
 
 == By the author ==
 
-At~the end of~this free story what Luwrain is I'd like to write a~few words as~some kind of~personal notes.
-I have~to use screen reading software since 2001 and never from that moment was satisfied by~tools I~got.
-The~closest package to~my~understanding what is the~most suitable software for~blind users is [[http://emacspeak.sourceforge.net emacspeak].
-But none of~my previous attempts to~help other people improve their lifes using emacspeak was successful.
-After precise analysis what are the~problems Luwrain was created
-and  all of~Luwrain ideas are  exactly conclusions of~my~analysis.
-Anyway I am very grateful to~all emacspeak authors 
-because the~results of~their work gave me reliable tool  and a~lot of~ideas!
+At~the end of~this free story what Luwrain is,
+ I'd like to write a~few words as~some kind of~personal notes.
+I had~to use screen reading software since 2001 and never from that moment was satisfied by~tools I~got.
+The~closest package to~my~understanding what is the~most suitable software for~blind users is [[http://emacspeak.sourceforge.net emacspeak],
+but none of~my previous attempts to~help other people improve their lifes using emacspeak was successful.
+After precise analysis what the~problems are, Luwrain has been  created
+and  allits ideas are  exactly the~conclusions of~my~analysis.
+Anyway, I am very grateful to~all emacspeak authors 
+because the~results of~their work gave me reliable tool  and a~lot of~useful thoughts!
 
 With the~warmest wishes, Michael Pozhidaev.
