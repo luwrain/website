@@ -363,41 +363,44 @@ function luwrain_link($path)
     <div style="height: 16px;"></div>
 <?php if (luwrain_current_lang() == 'en') {?>
     <p>
-      With accessible operating system Luwrain blind and visually-impaired persons get one more
-      way to be involved in the incredible world of information technologies. Luwrain doesn&apos;t
-      take a lot of time to study and aims to be useful on laptops as well as on usual desktop
-      computers. You can treat our new idea as one more solution for everybody who needs reliable
-      and accessible companion for various types of work. The product is designed as new platform
-      for creating speech-enabled applications with set of standard tools for easy web access,
-      mail and news reading , etc.
+      With&#160;accessible OS Luwrain the&#160;blind and visually-impaired persons get the&#160;new&#160;way
+      to&#160;be&#160;involved in&#160;the&#160;incredible world of&#160;information technologies.
+      Luwrain doesn&#x27;t take a lot of time to&#160;study and aims to&#160;be&#160;useful on&#160;
+      laptops, as&#160;well as&#160;on&#160;usual desktop computers. You can treat our new&#160;idea
+      as&#160;one more solution for everybody, who needs a&#160;reliable and accessible companion
+      for various types of&#160;work. The&#160;product is designed as the new platform for creating
+      speech-enabled applications with set of&#160;standard tools for easy web access, mail and
+      news reading etc.
     </p>
     <p>
-      Luwrain is a linux-based system with special type of user interface constructed on Java
-      technologies. In contrast with widely popular screen reading solutions for graphical desktops
-      which actually were designed for control basically by mouse and other pointing devices,
-      Luwrain follows special conception offering representation of every working object from
-      scratch in text form. That means with Luwrain user will always spend significantly less
-      time than in an adapted GUI. We have created our environment for people with active style
-      of life who appreciate time economy getting their job done.
+      Luwrain is a&#160;linux-based system with special type of&#160;user interface constructed
+      on&#160;Java technologies. In&#160;contrast with widely popular screen reading solutions
+      for graphical desktops, which actually are designed for a&#160;control basically through
+      a mouse and other pointing devices, Luwrain follows the special conception, offering representation
+      of every working object in the text form from scratch. That means, with&#160;Luwrain user
+      will always spend significantly less time than in an&#160;adapted GUI. We have created
+      our environment for people, who enjoy working effectively and appreciate time economy.
     </p>
     <p>
-      In Luwrain Java user space gathers together a number of system services taken for providing
-      flexible core and good level of compatibility. Information exchanging between them is performed
-      mostly through D-Bus activity. It brings to a user information about network structure
-      from Network Manager and transmits commands to speech server purposed for Text-To-Speech
-      engines manipulating. Personal user data can be stored in OpenLDAP or in any choice of
-      SQL server which has proper JDBC interface. For low-vision users Luwrain opens full-screen
-      window with all corresponding textual data written in contrast colours. That window is
-      drawn by X.org server using special window manager created as an additional part of Luwrain
+      In&#160;Luwrain the&#160;Java user space covers a&#160;number of&#160;system services,
+      which are able to&#160;provide a&#160;flexible core and good level of compatibility. The&#160;information
+      exchanging between them is performed mostly through a&#160;D-Bus activity. It brings to
+      user the&#160;information about network structure from Network Manager and transmits commands
+      to a&#160;speech server, purposed for control over a&#160;set of&#160;Text-To-Speech engines.
+      The personal user data can be stored in OpenLDAP or in any choice of the SQL server which
+      has the proper JDBC interface. For low-vision users Luwrain opens the full-screen window
+      with all corresponding textual data written in contrast colours. That window is drawn by
+      X.org server using special window manager, created as an&#160;additional part of Luwrain
       project.
     </p>
     <p>
-      Luwrain is a completely Free Software project, no fee is implied, no restrictions of using
-      and distribution are present, except of cases explicitly violating the terms of GNU Public
-      License ver. 3 as it was published by Free Software Foundation. However, money donations
-      are still required to help us present our product wider over the world and introduce it
-      to related social and distribution organizations. The team of developers hopes Luwrain
-      can increase the integration of disabled persons into social life.
+      Luwrain is a&#160;completely Free Software project, no fee is implied, no restrictions
+      of using and distribution are present, except&#160;of cases explicitly violating the terms
+      of the&#160;GNU Public License ver.&#160;3, as it was published by the&#160;Free Software
+      Foundation. However, money donations are still required to&#160;help us present our product
+      widely over the&#160;world and introduce it to related social and distribution organizations.
+      The team of developers hopes that Luwrain can increase the integration of disabled persons
+      into social life.
     </p>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>

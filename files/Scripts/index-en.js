@@ -54,14 +54,14 @@ function ShowPart1(){
 	$('#imageDiv').html('<img id="accImg" src="Images/acc.png" alt="The accessible platform" height="303" width="523"></img>');
 	$('#textUnderPic').html('The accessible platform');
 	$('#accPlatform').html('The accessible platform');
-	$('#text1more').html('With accessible environment Luwrain blind and visually-impaired persons '+
-										'<br/>get one more way to be involved in the incredible world of information'+
+	$('#text1more').html('With accessible OS Luwrain the blind and visually-impaired persons '+
+										'<br/>get the new way to be involved in the incredible world of information'+
 										'<br/>technologies. Luwrain does not take a lot of time to study and aims to be'+ 
-										'<br/>useful on laptops as well as on usual desktop computers. You can treat our'+
-										'<br/>new idea as one more solution for everybody who needs reliable and'+ 
+										'<br/>useful on laptops, as well as on usual desktop computers. You can treat our'+
+										'<br/>new idea as one more solution for everybody, who needs a reliable and'+ 
 										'<br/>accessible companion for various types of work. The product is designed'+
-										'<br/>as new platform for creating speech-enabled applications with set of'+ 
-										'<br/>standard tools for easy web access, mail and news reading, etc.');
+										'<br/>as the new platform for creating speech-enabled applications with set of'+ 
+										'<br/>standard tools for easy web access, mail and news reading etc.');
 	$('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/download/distr/?mode=normal&lang=en"><span>ISO-images</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
@@ -83,13 +83,13 @@ function ShowPart2(){
 	$('#accPlatform').html('Text-based environment');
 	$('#text1more').html('Luwrain is a linux-based system with special type of user interface'+
 										'<br/>constructed on Java technologies. In contrast with widely popular screen'+
-										'<br/>reading solutions for graphical desktops which actually were designed for'+
-										'<br/>control basically by mouse and other pointing devices, Luwrain follows'+
-										'<br/>special conception offering representation of every working object from'+
-										'<br/>scratch in text form. That means in Luwrain user will always spend'+ 
+										'<br/>reading solutions for graphical desktops, which actually are designed for'+
+										'<br/>a control basically through a mouse and other pointing devices, Luwrain follows'+
+										'<br/>the special conception, offering representation of every working object'+
+										'<br/>in the text form from scratch. That means, in Luwrain user will always spend'+ 
 										'<br/>significantly less time than in an adapted GUI. We have created our'+ 
-										'<br/>environment for people with active style of life who appreciate time'+ 
-										'<br/>economy getting their job done.');
+										'<br/>environment for people, who enjoy working effectively and appreciate'+ 
+										'<br/>time economy.');
 	$('#firstButton').html('<a href="/doc/about/?mode=normal&lang=en"><span>Our basic ideas</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
@@ -109,16 +109,16 @@ function ShowPart3(){
 	$('#imageDiv').html('<img id="javaImg" src="Images/java.png" alt="Java on Linux" height="199" width="332"></img>');
 	$('#textUnderPic').html('Java on Linux');
 	$('#accPlatform').html('Java on Linux');
-	$('#text1more').html('In Luwrain Java user space gathers together a number of system services'+
-										'<br/>taken for providing flexible core and good level of compatibility. Information'+
-										'<br/>exchanging between them is performed mostly through D-Bus activity. It'+
-										'<br/>brings to a user information about network structure from Network Manager'+
-										'<br/>and transmits commands to speech server purposed for Text-To-Speech'+
-										'<br/>engines manipulating. Personal user data can be stored in OpenLDAP or'+ 
-										'<br/>in any choice of SQL server which has proper JDBC interface. For low-vision'+ 
-										'<br/>users Luwrain opens full-screen window with all corresponding textual'+ 
+	$('#text1more').html('In Luwrain the Java user space covers a number of system services,'+
+										'<br/>which are able to~provide a flexible core and good level of compatibility. The information'+
+										'<br/>exchanging between them is performed mostly through a D-Bus activity. It'+
+										'<br/>brings to user the information about network structure from Network Manager'+
+										'<br/>and transmits commands to a speech server, purposed for control over a set'+
+										'<br/>of Text-To-Speech engines. The personal user data can be stored in OpenLDAP or'+ 
+										'<br/>in any choice of the SQL server which has the proper JDBC interface. For low-vision'+ 
+										'<br/>users Luwrain opens the full-screen window with all corresponding textual'+ 
 										'<br/>data written in contrast colours. That window is drawn by X.org server'+
-										'<br/>using special window manager created as a part of Luwrain project.');
+										'<br/>using special window manager, created as a part of Luwrain project.');
 	$('#firstButton').html('<a href="/doc/devel/?mode=normal&lang=en"><span>For developers</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
@@ -140,11 +140,11 @@ function ShowPart4(){
 	$('#accPlatform').html('FOSS');
 	$('#text1more').html('Luwrain is a completely Free Software project, no fee is implied, no restrictions'+
 										'<br/>of using and distribution are present, except of cases explicitly violating'+
-										'<br/>the terms of GNU Public License ver. 3 as it was published by Free'+
+										'<br/>the terms of the GNU Public License ver. 3, as it was published by the Free'+
 										'<br/>Software Foundation. However, money donations are still required to help'+
-										'<br/>us present our product wider over the world and introduce it to related'+
+										'<br/>us present our product widely over the world and introduce it to related'+
 										'<br/>social and distribution organizations. The team of developers hopes'+ 
-										'<br/>Luwrain can increase the integration of disabled persons into social life.');
+										'<br/>that Luwrain can increase the integration of disabled persons into social life.');
 	$('#firstButton').html('<a href="/doc/partners/?mode=normal&lang=en"><span>Be a partner</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
