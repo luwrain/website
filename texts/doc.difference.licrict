@@ -1,0 +1,88 @@
+
+= Why is Luwrain different than other accessible solutions? =
+
+Current popular solutions offer Graphical User Interface (GUI) environment 
+in~conjunction with additional screen reading software.
+Screen readers  speak every action user does through some Text-To-Speech (TTS) engine. 
+This type of~interaction with~GUI can be done only by~keyboard navigation 
+and that makes impossible the~same speed of~work as~sighted users have.
+There is~no way to~overcome this restriction because 
+GUI is~designed to~be~comfort with~a~mouse only
+and there are no ideas how to~change that.
+
+Roughly speaking, blind people have~to struggle with the~environment the~least suitable for~them,
+but the~truth is~that this~problem is~totally artificial.
+GUI has been created by~the~hands of~other people, it is popular but not the single form of~using  PCs.
+There can be~other conceptions, likely, more fortunate 
+for~accessible solutions.
+
+Luwrain offers hybrid approach that uses GUI only for~very specific tasks, like web-browsing.
+Surfing over the~web is~possible with traditional browsing software only,
+but other tasks, hopefully,  could be reconsidered in~some other way.
+The~idea Luwrain follows is a~text-based interface  
+that invites user into the~friendly working area with no~items potentially inaccessible within it.
+Inside of~the~new environment the~applications  decide by~themselves what information 
+provide in~speech form and what information print on~the~monitor. 
+The~screen is~filled only with well-readable content relevant to~user active data.
+Special algorithm decides what part of data should be~printed and how it~should be placed.
+For~visually impaired persons Luwrain offers set of~system-wide settings 
+to~get comfortable  font size, comfortable colors etc.
+
+Any text-based systems are not a~revelation in~area of~accessibility research, 
+but Luwrain looks for~text-based design 
+that could be~functionally equal to~GUI and could save common integrity,
+which is~needed for~easy understanding by~application developers.
+It's rather difficult task, but we sure it~is~possible.
+
+If you are interested in~the~things we~have~described above 
+see the~following sections to~continue reading:
+
+* [local:/doc/user/ The~documentation for~users]
+* [local:/doc/devel/ The~documentation for~developers]
+* [local:/doc/sponsors/ Be~our sponsor]]
+* [/doc/partner/ Be~our~partner]
+
+= Чем Luwrain отличается от~других вспомогательных технологий? =
+
+Имеющиеся подходы к~обеспечению доступной работы на~персональном компьютере (ПК) предлагают окружение,
+основанное на~графическом пользовательском интерфейсе (GUI) в~сочетании с~дополнительными  программами чтения экрана.
+Экранные чтецы озвучивают в~речевой форме каждое действие, которое выполняет пользователь,
+применяя для~этого речевые синтезаторы (TTS).
+Такой подход к~работе с~GUI подразумевает использование только клавиатуры,
+что приводит к~невозможности достижения такой~же скорости работы на~ПК,
+какая доступна  зрячим пользователям.
+Это~ограничение практически невозможно преодолеть,
+поскольку GUI был изначально ориентирован на~взаимодействие при~помощи мыши.
+
+Roughly speaking, blind people have~to struggle with the~environment the~least suitable for~them,
+but the~truth is~that this~problem is~totally artificial.
+GUI has been created by~the~hands of~other people, it is popular but not the single form of~using  PCs.
+There can be~other conceptions, likely, more fortunate 
+for~accessible solutions.
+
+Luwrain offers hybrid approach that uses GUI only for~very specific tasks, like web-browsing.
+Surfing over the~web is~possible with traditional browsing software only,
+but other tasks, hopefully,  could be reconsidered in~some other way.
+The~idea Luwrain follows is a~text-based interface  
+that invites user into the~friendly working area with no~items potentially inaccessible within it.
+Inside of~the~new environment the~applications  decide by~themselves what information 
+provide in~speech form and what information print on~the~monitor. 
+The~screen is~filled only with well-readable content relevant to~user active data.
+Special algorithm decides what part of data should be~printed and how it~should be placed.
+For~visually impaired persons Luwrain offers set of~system-wide settings 
+to~get comfortable  font size, comfortable colors etc.
+
+Any text-based systems are not a~revelation in~area of~accessibility research, 
+but Luwrain looks for~text-based design 
+that could be~functionally equal to~GUI and could save common integrity,
+which is~needed for~easy understanding by~application developers.
+It's rather difficult task, but we sure it~is~possible.
+
+If you are interested in~the~things we~have~described above 
+see the~following sections to~continue reading:
+
+* [local:/doc/user/ The~documentation for~users]
+* [local:/doc/devel/ The~documentation for~developers]
+* [local:/doc/sponsors/ Be~our sponsor]]
+* [/doc/partner/ Be~our~partner]
+

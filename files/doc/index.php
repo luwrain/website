@@ -5,12 +5,12 @@
                   <h1>Luwrain documentation</h1>
                   <p>
                     We have documentation sections on&#160;this website divided onto several groups. First
-                    of&#160;all there are the&#160;links to&#160;the&#160;pages with material covering various
-                    technical details of&#160;Luwrain environment. All of&#160;them are purposed for real or
-                    coming users as&#160;well as&#160;for&#160;developers of&#160;any&#160;kind. If you would
-                    like to read developer documentation you may want to read sections about developing of&#160;Luwrain
-                    environment itself or about creating new application for&#160;it. In&#160;addition we have
-                    one&#160;more group below dedicated to&#160;Luwrain developing process fundamentals.
+                    of&#160;all, there are the&#160;links to&#160;the&#160;pages with materials covering various
+                    technical details of&#160;Luwrain environment. All of&#160;them are purposed for current
+                    or potential users, as&#160;well as&#160;for&#160;developers of&#160;any&#160;kind. If
+                    you&#x27;d like to read developer documentation you may want to read sections about developing
+                    of&#160;Luwrain environment itself or about the&#160;creating new application for&#160;it.
+                    For&#160;Luwrain developing process fundamentals see addition group below.
                   </p>
                   <p>Choose technical documentation section you need:</p>
                   <ul>
@@ -18,8 +18,8 @@
                       <a href="<?echo luwrain_link('user/');?>">Luwrain users documentation</a>
                     <ul>
                       <li>
-                        <a href="<?echo luwrain_link('user/try/');?>">Try it&#160;now: what should you do if you want to&#160;get Luwrain
-                        and launch it?</a>
+                        <a href="<?echo luwrain_link('user/try/');?>">Try it&#160;now: what should you do if you&#x27;d like to&#160;get
+                        Luwrain running on&#160;your PC?</a>
                       </li>
                       <li>
                         <a href="<?echo luwrain_link('user/start/');?>">First steps: what should you do if you already have Luwrain
@@ -29,19 +29,20 @@
                     </ul>
                     </li>
                     <li><a href="<?echo luwrain_link('devel/');?>">Luwrain environment developers documentation</a></li>
-                    <li><a href="<?echo luwrain_link('apps/');?>">How&#160;to create new application for&#160;Luwrain?</a></li>
+                    <li><a href="<?echo luwrain_link('new-app/');?>">How&#160;to create a&#160;new application for&#160;Luwrain?</a></li>
                   </ul>
                   <p>
-                    Luwrain fundamentals describes its legal status, offers information about the&#160;authors
-                    and some collaboration invitations. You can also read these pages if you would like to&#160;get
-                    complete project overview at&#160;a&#160;glance.
+                    Luwrain fundamentals describe legal status, invite to&#160;collaboration in&#160;various
+                    ways and contain information about authors. Read these pages if you&#x27;d like to&#160;get
+                    project overview at&#160;a&#160;glance.
                   </p>
                   <ul>
                     <li>
                       <a href="<?echo luwrain_link('about/');?>">The&#160;free story what is Luwrain and why do we think blind users
                       need it?</a>
                     </li>
-                    <li><a href="<?echo luwrain_link('authors/');?>">Project authors</a></li>
+                    <li><a href="<?echo luwrain_link('difference/');?>">Why is Luwrain different than other accessible solutions?</a></li>
+                    <li><a href="<?echo luwrain_link('authors/');?>">The project authors</a></li>
                     <li><a href="<?echo luwrain_link('legal/');?>">Legal notes</a></li>
                     <li><a href="<?echo luwrain_link('faq/');?>">Frequently asked questions</a></li>
                     <li><a href="<?echo luwrain_link('hardware/');?>">Hardware support policy</a></li>
@@ -75,7 +76,7 @@
                     </ul>
                     </li>
                     <li><a href="<?echo luwrain_link('devel/');?>">Документация для&#160;разработчиков среды Luwrain</a></li>
-                    <li><a href="<?echo luwrain_link('apps/');?>">Документация для&#160;разработчиков приложений Luwrain</a></li>
+                    <li><a href="<?echo luwrain_link('new-app/');?>">Документация для&#160;разработчиков приложений Luwrain</a></li>
                   </ul>
                   <p>
                     Ниже Вы можете ознакомиться с&#160;правовым статусом разработки Luwrain, с&#160;информацией
@@ -86,6 +87,7 @@
                       <a href="<?echo luwrain_link('about/');?>">Что&#160;такое Luwrain, и почему мы думаем, что незрячие люди нуждаются
                       в&#160;нём?</a>
                     </li>
+                    <li><a href="<?echo luwrain_link('difference/');?>">Чем Luwrain отличается от&#160;других доступных решений?</a></li>
                     <li><a href="<?echo luwrain_link('authors/');?>">Авторы проекта</a></li>
                     <li><a href="<?echo luwrain_link('legal/');?>">Правовой статус проекта</a></li>
                     <li><a href="<?echo luwrain_link('faq/');?>">Часто задаваемые вопросы</a></li>
