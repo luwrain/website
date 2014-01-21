@@ -4,20 +4,21 @@
 == What are we working on? ==
 
 First of~all, Luwrain is a~Linux-based specialized OS and a~place to~apply any new ideas  and experience.
-Android, Tizen and FirefoxOS show that Linux turned~out as~a~wonderful base for~popular devices,
-so current time to do this work is very fortunate. 
-Once you get a~proper understanding of~LInux world you get a~clew what you should do if you'd like to~create new~cutting-edge technology.
-We sure it~is a~chance as~we never had before to~solve rather  difficult problems in~area of~assistive technologies.
-
-Meantime, one important thing should have additional clarification.
-a~lot of~usual gadgets often  eventually considered   as~not~more valuable as~toys.
-In case of assistive  technologies any doubts 
-what exactly devices~are,   an~irreplaceable tool or an~item for~entertainment, are   completely improper.
+Linux grew~up from a~amateurish experiment to~a~serious platform, 
+suitable for~creating the~cutting-edge technologies.
+Android, Tizen and FirefoxOS nicely proved that it~is really so.
+Thinking about their success,
+ we'd like to~consider the~current time as~a~very fortunate moment
+for~an~attempt to~solve various problems in~area of~assistive technologies.
+However, one important thing gives there a~significant  difference between 
+our work and the~platforms mentioned above. 
+The~usual gadgets, unfortunately, are sometimes considered   as~curious toys, not~more,
+while there are no~doubts whether the~devices with~accessible OS are an~irreplaceable tool or an~item just for~entertainment.
 They are always the~former as disabled persons are not~able to~do~without them.
 
 We gathered our~project philosophy in~following ten brief statements:
 
-# It is an OS completely designed for blind and visually impaired persons
+# It is an OS completely designed for the~blind and visually impaired persons
 # It must be convenient, fast and clearly understandable
 # It~has~to support various languages and localizations
 # It aims to be~sutable for~desktop computers as~well~as for mobile devices
@@ -29,44 +30,40 @@ no~matter what experience  they got,
 what country are they from,
 what profession are they occupied~in and so~on
 # Everybody is~able to~participate in~its development,
-but authors urge everybody to~respect accepted quality requirements for~all incoming patches
-# We believe available experience in~GNU/Linux world is~enough at~least to~start this work and gives good base for~success
+but authors urge everybody to~respect the~accepted quality requirements for~all incoming patches
+# We believe available experience in~GNU/Linux world is~enough at~least to~start this work
 
-The~following additional sections of~this website can be
-useful for~overhaul understanding what Luwrain is:
+The~following additional sections are useful for~overhaul understanding what Luwrain is:
 
-* [local:/doc/devel/design Exact technical design details of the~Luwrain distribution]
-* [local:/doc/authors/ Who are the~authors of~the~Luwrain project?]
+* [local:/doc/difference/ Why is Luwrain different than other accessible solutions?]
+* [local:/doc/authors/ Who are the~authors of~the~Luwrain?]
 
 == But it should be nice! ==
 
-By~the~way we would like to notice that Luwrain does not want to~be~an~ordinary project.
+By~the~way we would like to notice that Luwrain does not want to~be~an~prosaic   project.
 We have~to~do~everything possible to~make it~intriguing and attractive.
 In~pursuit of~that aim any~ideas  how~to~improve user impressions,
-how~to~make usage easier 
+how~to~make the~usage easier 
 or how~to~eliminate one more boring and time consuming thing 
 would be definitely appreciated here.
-If Luwrain consumers once  would be~able to fill themselves  using 
-something that actually is not a~accessibility technology,
-we could treat this moment as~a~real success 
-making Luwrain itself very close to a~state of~the~art.
+The~Luwrain consumers should forget that they are using any kind of~accessibility technologies.
 
-Luwrain is rather specific  in~this sense as~it has such intention 
-being not a~commercial product 
-and that has corresponding explanation:
-commercial companies  always are not free from the~one serious problem:
-all products they  originate usually die at~the~moment of their fault
-or at~the moment when their products do not yield gain any more.
+Luwrain is rather specific  in~this sense as~it has this intention, 
+being a~non-commercial product 
+and that has a~corresponding explanation.
+All~commercial products can end if the~company, which has originated them, 
+lost an~interest or eventually realized that it is not so profitable as it wanted initially.
 It is a~really serious problem because with~these circumstances 
 a~lot of users can be left without a~tool they really need.
+In~case of~opened project everybody is~able to~continue the~work if~he thinks it~worth it.
 
-== Research part ==
+== The~research part ==
 
-Another important part of~Luwrain idea is an~acceptance of~results 
+The~another important part of~the~Luwrain idea is an~acceptance of~results 
 given by~modern scientific research in~relevant areas.
 The~world of~information technologies is not frozen,
 it~changes permanently  and Luwrain should reflect that properly.
-Thus everybody can fill himself completely free to~propose new ideas 
+Thus everybody can feel himself completely free to~propose new ideas 
 if that does not violate ten terms stated above.
 
 == By the author ==
@@ -74,11 +71,37 @@ if that does not violate ten terms stated above.
 At~the end of~this free story what Luwrain is,
  I'd like to write a~few words as~some kind of~personal notes.
 I had~to use screen reading software since 2001 and never from that moment was satisfied by~tools I~got.
-The~closest package to~my~understanding what is the~most suitable software for~blind users is [[http://emacspeak.sourceforge.net emacspeak],
+The~closest package to~my~understanding, what is the~most suitable software for~blind users,
+ is [[http://emacspeak.sourceforge.net emacspeak]],
 but none of~my previous attempts to~help other people improve their lifes using emacspeak was successful.
 After precise analysis what the~problems are, Luwrain has been  created
-and  allits ideas are  exactly the~conclusions of~my~analysis.
+and  all its ideas are  exactly the~conclusions of~this~analysis.
 Anyway, I am very grateful to~all emacspeak authors 
-because the~results of~their work gave me reliable tool  and a~lot of~useful thoughts!
+because the~results of~their work gave me a~reliable tool  and a~lot of~useful thoughts!
 
 With the~warmest wishes, Michael Pozhidaev.
+
+= О~проекте =
+
+== Что такое Luwrain?? ==
+
+Luwrain --- это прежде всего ОС,
+адаптированная для~людей с~проблемами зрения  и основанная на~ядре Linux.
+Она позволяет реализовать новые идеи и применить известный накопленный опыт в~сфере вспомогательных технологий.
+Android, Tizen, FirefoxOS и~др. показали, что Linux может быть отличной платформой для~популярных мобильных устройств,
+и это позволяет надеется, что сейчас самое удачное время для~нашей работы.
+Возможно, никогда ранее не~было другого такого  шанса для~решения  сложных проблем,
+связанных с~адаптацией и интеграцией людей с~ограничения
+
+Мы хотели~бы обратить особенное внимание на~одно  важное обстоятельство.
+Большинство распространённых гаджетов в~конечном итоге воспринимаются их~пользователями не~более, как забавные игрушки,
+в~то время~как в~мире вспомогательных технологий любые сомнения, 
+являются~ли мобильные устройства действительно полезной вещью,
+абсолютно неуместны.
+Во~многих случаях технические средства становятся  инструментов, 
+без которого люди с~ограничениями здоровья не~могут обходиться в~принципе.
+Это существенно отличает Luwrain от~прочих проектов,
+направленных на~создание платформ для~различных устройств.
+
+Идея проекта Luwrain может быть выражена при~помощи следующих десяти утверждения:
+
