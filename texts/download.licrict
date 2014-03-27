@@ -7,14 +7,14 @@ This~option  provides binary distribution prepared in~form of~bootable image.
 A~couple of~other alternatives  are purposed for~developing tasks.
 Which one of~them is suitable for~you is~dependent on~sort of~work you are interested~in.
 Source materials usually serve for~exploring of~software internal implementation or for~developing of~Luwrain itself.
-Binary package includes Luwrain main jar-file and all auxiliary libraries 
-required for~Luwrain applications developing or for~launch on~other distributions of~GNU/Linux.
+Binary packages includes Luwrain main jar-file and all auxiliary libraries 
+required for~Luwrain applications developing or for~Luwrian launch on~other distributions of~GNU/Linux.
 
 Choose the~exact option you need:
 
 * [local:distr/ The~Luwrain distributions as~bootable ISO]
 * [local:sources/ The~Luwrain sources]
-* [local:binary/ The~Luwrain binary package]
+* [local:binary/ The~Luwrain binary packages]
 
 = Загрузка Luwrain =
 

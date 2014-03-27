@@ -362,86 +362,100 @@ function luwrain_link($path)
     <a href="<?php echo luwrain_link_ext1('/index.php', 'ru', luwrain_current_mode());?>">RU</a><br/>
     <div style="height: 16px;"></div>
 <?php if (luwrain_current_lang() == 'en') {?>
+    <h1>&#x22;The territory of a compelling accessibility&#x22;</h1>
     <p>
-      With&#160;accessible OS Luwrain the&#160;blind and visually-impaired persons get the&#160;new&#160;way
-      to&#160;be&#160;involved in&#160;the&#160;incredible world of&#160;information technologies.
-      Luwrain doesn&#x27;t take a lot of time to&#160;study and aims to&#160;be&#160;useful on&#160;
-      laptops, as&#160;well as&#160;on&#160;usual desktop computers. You can treat our new&#160;idea
-      as&#160;one more solution for everybody, who needs a&#160;reliable and accessible companion
-      for various types of&#160;work. The&#160;product is designed as the new platform for creating
-      speech-enabled applications with set of&#160;standard tools for easy web access, mail and
-      news reading etc.
+      With&#160;accessible OS Luwrain, blind and visually-impaired people have a&#160;new way
+      to be&#160;involved in the&#160;incredible world of information technologies. Luwrain doesn&#x27;t
+      take a&#160;lot&#160;of time to&#160;learn, and aims to be&#160;useable on laptops, as&#160;well
+      as&#160;desktop computers. You can treat our new idea as one more solution for&#160;everyone
+      who needs a&#160;reliable and accessible companion for&#160;various types of&#160;work.
+      The&#160;product is designed as&#160;a&#160;new platform for&#160;creating speech-enabled
+      applications with&#160;a&#160;set of&#160;standard tools for&#160;easy web&#160;access,
+      mail, news reading,&#160;etc.
     </p>
     <p>
-      Luwrain is a&#160;linux-based system with special type of&#160;user interface constructed
+      Luwrain is a&#160;linux-based system with a&#160;special type of user interface constructed
       on&#160;Java technologies. In&#160;contrast with widely popular screen reading solutions
-      for graphical desktops, which actually are designed for a&#160;control basically through
-      a mouse and other pointing devices, Luwrain follows the special conception, offering representation
-      of every working object in the text form from scratch. That means, with&#160;Luwrain user
-      will always spend significantly less time than in an&#160;adapted GUI. We have created
-      our environment for people, who enjoy working effectively and appreciate time economy.
+      for&#160;graphical desktops, which actually are&#160;designed for control through a mouse
+      and other pointing devices useful only for&#160;sighted users, Luwrain offers representation
+      of every working object in&#160;the&#160;text form from scratch. That means that the&#160;Luwrain
+      user will always spend significantly less time than in&#160;an&#160;adapted GUI. We have
+      created our environment for&#160;people who enjoy working effectively and time-efficiently.
     </p>
     <p>
       In&#160;Luwrain the&#160;Java user space covers a&#160;number of&#160;system services,
-      which are able to&#160;provide a&#160;flexible core and good level of compatibility. The&#160;information
-      exchanging between them is performed mostly through a&#160;D-Bus activity. It brings to
-      user the&#160;information about network structure from Network Manager and transmits commands
-      to a&#160;speech server, purposed for control over a&#160;set of&#160;Text-To-Speech engines.
-      The personal user data can be stored in OpenLDAP or in any choice of the SQL server which
-      has the proper JDBC interface. For low-vision users Luwrain opens the full-screen window
-      with all corresponding textual data written in contrast colours. That window is drawn by
-      X.org server using special window manager, created as an&#160;additional part of Luwrain
+      which are&#160;able to provide a&#160;flexible core and a&#160;high level of compatibility.
+      The&#160;information exchange between them is performed mostly through a&#160;D-Bus activity.
+      It&#160;brings to&#160;the&#160;user the&#160;information about network structure from&#160;Network
+      Manager, and transmits commands to&#160;a&#160;speech server, designed for&#160;control
+      over a&#160;set of Text-To-Speech engines. The&#160;personal user data can be&#160;stored
+      in&#160;OpenLDAP or&#160;in&#160;any choice of&#160;the&#160;SQL server which has the&#160;proper
+      JDBC interface. For&#160;low-vision users Luwrain opens the&#160;full-screen window with&#160;all
+      corresponding textual data written in contrasting colours. That window is&#160;drawn by&#160;X.org
+      server using special window manager, created as&#160;an&#160;additional part of&#160;Luwrain
       project.
     </p>
     <p>
-      Luwrain is a&#160;completely Free Software project, no fee is implied, no restrictions
-      of using and distribution are present, except&#160;of cases explicitly violating the terms
-      of the&#160;GNU Public License ver.&#160;3, as it was published by the&#160;Free Software
-      Foundation. However, money donations are still required to&#160;help us present our product
-      widely over the&#160;world and introduce it to related social and distribution organizations.
-      The team of developers hopes that Luwrain can increase the integration of disabled persons
-      into social life.
+      Luwrain is&#160;a&#160;completely Free Software project, no&#160;fee is&#160;involved,
+      and no&#160;restrictions of&#160;use and distribution exist, except in&#160;cases explicitly
+      violating the&#160;terms of&#160;the GNU Public License&#160;ver.&#160;3, as&#160;it&#160;was
+      published by&#160;the&#160;Free Software Foundation. However, financial donations are&#160;still
+      required to&#160;help us present our product across the&#160;world, and to&#160;introduce
+      it to&#160;related social and distribution organizations. The&#160;team of developers hopes
+      that Luwrain can increase the&#160;integration of&#160;disabled people into social life.
     </p>
+    <p>Choose the&#160;section to&#160;read next:</p>
+    <ul>
+      <li><a href="<?echo luwrain_link('/doc/about/');?>">More about our project</a></li>
+      <li><a href="<?echo luwrain_link('/download/distr/');?>">Download bootable ISO-image</a></li>
+      <li><a href="<?echo luwrain_link('/doc/contacts/');?>">Contact us</a></li>
+    </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
+    <h1>&#x22;Мир доступных технологий!&#x22;</h1>
     <p>
-      При&#160;помощи операционной системы Luwrain люди с&#160;нарушениями зрения могут расширить
-      границы своего&#160;доступа к&#160;невероятному миру информационных технологий. Luwrain
-      не&#160;требует много времени для освоения и будет одинаково полезной на&#160;мобильных
-      и настольных компьютерах. Мы хотели&#160;бы, чтобы наш проект стал ещё одним решением для&#160;всех,
-      кто нуждается в&#160;надёжном и доступном инструменте, пригодном для&#160;решения различных
-      задач. Он проектируется как платформа для&#160;создания речевых приложений с&#160;набором
-      стандартных утилит, предназначенных для&#160;доступа к веб, электронной почте, новостным
+      При &#160;помощи операционной системы Luwrain люди с&#160;нарушениями зрения могут расширить
+      границы своего доступа к&#160;невероятному миру информационных технологий. Luwrain не&#160;требует
+      много времени для&#160;освоения и будет одинаково полезной на&#160;мобильных и настольных
+      компьютерах. Мы хотим, чтобы наш&#160;проект стал ещё одним решением для&#160;всех, кто
+      нуждается в&#160;надёжном и доступном инструменте, пригодном для&#160;решения различных
+      задач. Он проектируется как&#160;платформа для создания речевых приложений с&#160;набором
+      стандартных утилит, предназначенных для&#160;доступа к&#160;веб, электронной почте, новостным
       ресурсам и&#160;т.&#160;д.
     </p>
     <p>
       Luwrain использует ядро Linux и основан на&#160;специальном типе пользовательского интерфейса,
       созданного с&#160;применением инструментов Java. В&#160;отличие от&#160;экранных чтецов,
-      функционирующихв&#160;оконном окружении, ориентированного на&#160;работу при&#160;помощи
-      мыши, Luwrain придерживается метода изначального представления всех&#160;рабочих объектов
-      в&#160;текстовой форме. Это&#160;означает, что на&#160;работу в&#160;Luwrain пользователю
-      требуется времени существенно меньше, чем в&#160;озвученном оконном интерфейсе. Мы&#160;создаём
-      нашу&#160;систему для&#160;тех, кто ведёт активный образ жизни и способен оценить экономию
-      времени.
+      функционирующих в&#160;оконном окружении, ориентированного на&#160;работу при&#160;помощи
+      мыши, Luwrain придерживается метода изначального представления всех рабочих объектов в&#160;текстовом
+      виде. Это означает, что на&#160;работу в Luwrain пользователю требуется времени существенно
+      меньше, чем в&#160;озвученном оконном интерфейсе. Мы создаём нашу систему для&#160;тех,
+      кто ведёт активный образ жизни и способен оценить экономию времени.
     </p>
     <p>
       В&#160;Luwrain интерфейс пользователя, работающий внутри виртуальной машины Java, функционирует
       поверх ряда системных сервисов, призванных обеспечить необходимый уровень надёжности и
-      гибкости. Передача информации между ними осуществляется преимущественнопри&#160;помощи
+      гибкости. Передача информации между ними осуществляется преимущественно при&#160;помощи
       шин D-Bus. D-Bus предоставляет доступ всем приложениям Java к&#160;информации о&#160;сетевых
-      подключениях, полученной от&#160;Network manager, передаёт команды в&#160;службу вывода
+      подключениях, полученной от&#160;Network manager, передаёт команды в&#160; службу вывода
       речи и&#160;т.&#160;д. Персональные данные пользователей могут храниться в&#160;сервере
-      OpenLDAP или любой реляционнйо СУБД, для&#160;которой подготовлен JDBC-интерфейс. Для&#160;слабовидящих
+      OpenLDAP или в&#160;любой реляционной СУБД, для&#160;которой подготовлен JDBC-интерфейс. Для&#160;слабовидящих
       людей Luwrain выводит текстовую информацию контрастным шрифтом в&#160;окне, отображаемом
       на&#160;экране при&#160;помощи сервера X.org и легковесного оконного менеджера.
     </p>
     <p>
       Luwrain &#x2014; это полностью свободный проект. Использование Luwrain не&#160;подразумевает
       оплаты и может выполняться без&#160;ограничений, если это не&#160;нарушает требований GNU&#160;Public
-      Licenseверсии&#160;3. Тем&#160;не&#160;менее, авторы проекта были&#160;бы очень рады любой
+      License версии&#160;3. Тем&#160;не&#160;менее, авторы проекта были&#160;бы очень рады любой
       финансовой поддержке, поскольку она может помочь шире представить Luwrain среди мировых
       общественных организаций.
     </p>
+    <p>Выберите раздел для продолжения чтения:</p>
+    <ul>
+      <li><a href="<?echo luwrain_link('/doc/about/');?>">Подробнее о проекте</a></li>
+      <li><a href="<?echo luwrain_link('/download/distr/');?>">Загрузить ISO-образ</a></li>
+      <li><a href="<?echo luwrain_link('/doc/contacts/');?>">Контакты</a></li>
+    </ul>
 <?php }?>
   </body>
 </html>

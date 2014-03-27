@@ -13,15 +13,15 @@
                     A&#160;couple of&#160;other alternatives are purposed for&#160;developing tasks. Which
                     one of&#160;them is suitable for&#160;you is&#160;dependent on&#160;sort of&#160;work you
                     are interested&#160;in. Source materials usually serve for&#160;exploring of&#160;software
-                    internal implementation or for&#160;developing of&#160;Luwrain itself. Binary package includes
+                    internal implementation or for&#160;developing of&#160;Luwrain itself. Binary packages includes
                     Luwrain main jar-file and all auxiliary libraries required for&#160;Luwrain applications
-                    developing or for&#160;launch on&#160;other distributions of&#160;GNU/Linux.
+                    developing or for&#160;Luwrain launch on&#160;other distributions of&#160;GNU/Linux.
                   </p>
                   <p>Choose the&#160;exact option you need:</p>
                   <ul>
                     <li><a href="<?echo luwrain_link('distr/');?>">The&#160;Luwrain distributions as&#160;bootable ISO</a></li>
                     <li><a href="<?echo luwrain_link('sources/');?>">The&#160;Luwrain sources</a></li>
-                    <li><a href="<?echo luwrain_link('binary/');?>">The&#160;Luwrain binary package</a></li>
+                    <li><a href="<?echo luwrain_link('binary/');?>">The&#160;Luwrain binary packages</a></li>
                   </ul>
 
 <?php }?>

@@ -1,7 +1,7 @@
 
 = Financial support =
 
-The~Luwrain project is non-profitable and for~successful ~ evolution it~needs for~external financial  help.
+The~Luwrain project is non-profitable and for~successful ~ evolution it~needs an~external financial  help.
 Luwrain takes social aims and any~funding could    make the~life better for~large groups of~wanting people.
 There~are several types of~things Luwrain seeks money donations for:
 
@@ -12,17 +12,17 @@ including embedded systems and mobile computers
 
 == New hardware for Luwrain ==
 
-Linux kernel and Java, which are two~major components of~Luwrain, got  good chances for~portability across different architectures.
-Although general development process is~performed on usual x86 machines, 
-the~compiled environment  could be likely  launched on~other types of~equipment.
+The~Linux kernel and Java, which are two~major components of~Luwrain, have   good chances for~portability across different architectures.
+Although our~general development process is~performed on usual x86 machines, 
+very likely the~compiled environment  could be launched on~other types of~equipment.
 The~most interesting hardware is various ARM-computers including embedded systems and mobile gadgets. 
-Both of~them are very important since they are cheap and quite suitable for~purposes Luwrain is created for.
+Both of~them are very important since they are cheap and can be a~good choice for~wide range of~potential users.
 
-General Luwrain UI conception has some valuable perspectives 
-to be~adapted for~nearly any type of~user interaction.
-We are speaking here mostly about tablet computers 
-which have some noticeable advantages 
-although in~global sense they are~not considered as~most suitable PCs for~blind users.
+General Luwrain UI conception has perspectives 
+to be~adapted for~almost any type of~user interaction.
+We are speaking here mostly about the~tablet computers 
+which have some noticeable advantages, 
+although in~global sense they could not be~considered as~most suitable PCs for~blind users.
 
 == Conferences and exhibitions == 
 
@@ -30,13 +30,63 @@ Luwrain ideas are~not restricted by~borders of~any particular country
 and everybody welcomed [local:/doc/partners/ for~cooperation]. 
 We believe that in~every part of~the~world there are people 
 sharing with us our aspiration and convinced in~same ideas as we do. 
-usually the~conferences and exhibitions are~used to~find each  other 
-but whereas they require significant amount of~money for~travel and participation
+usually the~conferences and exhibitions are~used by~people to~find each  other, 
+but whereas they require significant amount of~money for~travel and participation,
 they remains still inaccessible for us.
+If somebody got a~chance to~represent our work some way at~a~conference or at~a~exhibition
+we are ready to make cooperative reports.
+Luwrain developers assume providing all necessary materials and prototypes.
 
-If you have any financing offerings for~our project
+If you have any financing offerings for~our project or could support our work in~some other way 
 you can take a~look at~[/luwrain-en.pdf our 2-frames presentation]
  for~potential sponsors and partners.
 If you have any questions we~are always in~touch by~this e-mail: luwrain{{(~at~)}}gmail{{(~dot~)}}com.
 
 Thank you so much!
+
+
+= Финансовая поддержка нашего проекта =
+
+luwrain --- это некоммерческий проект, и для~успешного развития он нуждается во~внешней финансовой поддержке.
+Поскольку в~нашей работе преследуются прежде всего социальные цели,
+любая денежная помощь может для~большого числа нуждающихся людей сделать жизнь лучше.
+Существуют три типа задач, на~которые были~бы направлены предложенные средства:
+
+# На~привлечение дополнительных разработчиков для~ускорения  работы.
+# На~приобретение оборудования для~тестирования совместимости Luwrain,
+включая встраиваемые и мобильные устройства.
+# На~участие в~конференциях и выставках.
+
+== Новое оборудование для Luwrain ==
+
+Ядро Linux и Java, которые являются двумя основными компонентами Luwrain, имеют хорошие возможности переносимости на~другие программно-аппаратные архитектуры.
+Несмотря на~то, что наш основной процесс разработки ведётся на~обычных x86-компьютерах,
+результаты работы, вероятно, после компиляции могут быть запущены на~других типах оборудования.
+Наибольший интерес вызывают различные ARM-устройства,
+включающие в~себя встраиваемые и мобильные компьютеры.
+Все их~виды крайне важны, поскольку они относительно недороги и могут быть хорошим предложением для~широкого круга потенциальных пользователей.
+
+Общий подход к~организации интерфейса Luwrain имеет неплохие  перспективы адаптации для~практически любого типа  взаимодействия с~пользователем.
+Здесь неявно подразумеваются прежде всего планшетные компьютеры,
+которые имеют ряд интересных достоинств, 
+хотя, конечно, в~целом не~являются самым удачным выбором для~незрячих пользователей.
+
+== Конференции и выставки  == 
+
+Идеи проекта Luwrain не~связаны границами какого-либо одного государства,
+и все желающие приглашаются к~[local:/doc/partners/ совместной работе]. 
+Мы верим, что в~любой часте света есть люди, разделяющие с~нами наши цели 
+и верящие в~те~же идеи, что и мы.
+Для~того, чтобы найти друг друга, требуется участие в~выставках и конференциях,
+но поскольку затраты на~перелёты высоки,
+эти мероприятия в~большинстве случаев остаются недоступными.
+Мы рады были~бы принять совместное участие в~конференциях на~равных правах соавторов 
+с~любым человеком, у~которого есть возможность личного выступления.
+Все необходимые материалы и прототипы для~такой формы сотрудничества будут предоставлены разработчиками.
+
+Если у~Вас есть предложения финансовой помощи для~Luwrain  или Вы~можете поддержать нашу работу в~любой другой форме,
+для~Вас может быть интересно ознакомится с~[/luwrain-ru.pdf нашей двухстраничной презентацией для~спонсоров и партнёров].
+Если у~Вас есть вопросы, мы всегда доступны по~адресу: luwrain{{(~at~)}}gmail{{(~dot~)}}com.
+
+Спасибо!
+

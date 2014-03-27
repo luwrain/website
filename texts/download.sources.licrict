@@ -1,69 +1,71 @@
+
 = Luwrain source code =
 
-Luwrain source  code is published in~form of~tarball archives widely popular in~the~world of~GNU/Linux as~well 
-as~it is~accessible through a~set of~git-repositories.
-The~range of~available data in~archives and in~git is not the~same.
-Multimedia files are never put in~git 
-but in~opposite Luwrain website sources  can be retrieved  only through git.
+Luwrain source  code is published in~form of~tarball archive and 
+accessible through the~git-repository on~[[http://github.com/luwrain/ github.com service]].
 All materials are provided under the~legal terms described 
-on~the~[/local:doc/legal/ corresponding page] 
-of~this website.
+on~the~[local:/doc/legal/ corresponding page] 
+of~our website.
+The~current section contains links only to~source materials of~Luwrain environment itself 
+but there is also [local:/community/extensions/ a~set of~extensions]  
+which we consider as~a~part of our~community 
+in~the~hope to~attract more attention of~our~users to~them.
 
-== Luwrain GIT repositories ==
-
-All Luwrain GIT repositories are hosted on~[[http://github.com/luwrain/ github.com]] service.  
-These repositories are:
-
-* [[http://github.com/luwrain/luwrain.git git://github.com/luwrain/luwrain.git]]:
-main Luwrain GIT repository.
-
-* [[http://github.com/luwrain/extensions.git git://github.com/luwrain/extensions.git]]:
-Luwrain extensions.
-
-* [[http://github.com/luwrain/luwrain-website.git git://github.com/luwrain/luwrain-website .git]]:
-Luwrain website sources.
+Latest Luwrain version: {0.2.3} (published on~February 28, 2014)
 
 == Sources tarball ==
 
 Use the~link below to~get main Luwrain sources tarball.
-Please, be~aware that This package doesn't include auxiliary libraries needed for~compilation neither in~source nor~in~binary form. 
+Please be~aware that This package doesn't include auxiliary libraries needed for~compilation neither in~source nor~in~binary form. 
+You can get them using [local:/download/binary the~page with binary files].
 
-*[ftp://ftp.altlinux.org/pub/people/msp/src/luwrain/0.x.x/luwrain-0.2.0.tar.gz luwrain-0.2.0.tar.gz]
+*[ftp://ftp.altlinux.org/pub/people/msp/src/luwrain/0.x.x/luwrain-0.2.3.tar.gz luwrain-0.2.3.tar.gz]
 
-Various additional materials for~Luwrain are publicly available on~this ftp-resource:
+== Luwrain GIT repository ==
 
-* [ftp://ftp.altlinux.org/pub/people/msp/luwrain/ ftp://ftp.altlinux.org/pub/people/msp/luwrain/ ]
+Our main git repository is:
 
-= Исходные тексты Luwrain  =
+* [[http://github.com/luwrain/luwrain.git git://github.com/luwrain/luwrain.git]]
 
-Исходные тексты Luwrain публикуются в~виде tar-архивов, широко распространённых в~мире GNU/Linux,
-а~также через git-репозитории проекта.
-Набор материалов, доступных  при~помощи архивов и git различается:
-в~git не~помещаются мультимедийные файлы, а в~виде архива, в~свою очередь,  недоступны исходные тексты веб-сайта Luwrain.
-Правовая основа представленных материалов описана  на~[local:/doc/legal/ соответствующей странице].
+This repository contains main source code tree of~Luwrain environment.
+It includes Luwrain core as~well~as~a~set of~standard applications.  
+These materials are sufficient to~compile main {{luwrain.jar}} file 
+but you need a~number of~libraries involved in~our development process.
+As~it~ was mentioned above we have them gathered in~one additional archive  available 
+on~the~[local:/download/binary page with binary data].
 
-==  git-репозитории Luwrain ==
+= Исходный код Luwrain  =
 
-Все git-репозитории проекта размещены на~сайте [[http://github.com/luwrain/ github.com]].  
-Ниже приведены ссылки на~них:
+Исходный код Luwrain публикуется в~виде tar-архива 
+и доступен через основной git-репозиторий проекта на~[[http://github.com/luwrain/ github.com]].
+Все материалы предоставляются на~основе правовых требований, 
+указанных  на~[local:/doc/legal/ соответствующей странице] нашего сайта.
+Настоящая страница предоставляет ссылки только на~исходный код самого окружения Luwrain,
+но помимо этого мы публикуем [local:/community/extensions/ код расширений Luwrain],
+которые рассматриваем как часть нашего сообщества,
+желая обратить на~их~развитие больше внимания аудитории пользователей. 
 
-* [[http://github.com/luwrain/luwrain.git git://github.com/luwrain/luwrain.git]]:
-основной репозиторий проекта.
+Последняя версия Luwrain: {0.2.3} (представлена 28~февраля 2014~г.)
 
-* [[http://github.com/luwrain/extensions.git git://github.com/luwrain/extensions.git]]:
-репозиторий с~исходными текстами расширений.
+== Tar-архив Luwrain ==
 
-* [[http://github.com/luwrain/luwrain-website.git git://github.com/luwrain/luwrain-website .git]]:
-исходные текста веб-сайта Luwrain.
+При~помощи прямой ссылки ниже Вы можете загрузить наш главный tar-архив с~исходным кодом.
+Пожалуйста, обратите внимание, что этот архив не~содержит вспомогательных библиотек 
+ни в~двоичном виде, 
+ни в~виде исходного кода.
+Вы можете их~найти на~[local:/download/binary странице для~загрузки двоичных файлов].
 
-== tar-архив  ==
+*[ftp://ftp.altlinux.org/pub/people/msp/src/luwrain/0.x.x/luwrain-0.2.3.tar.gz luwrain-0.2.3.tar.gz]
 
-По~ссылке ниже Вы можете загрузить основной архив с~исходными текстами.
-Пожалуйста, обратите внимание, что он не~включает в~себя вспомогательные библиотеки нив~бинарной форме, нив~форме исходных текстов.
+== Git-репозиторий Luwrain  ==
 
-*[ftp://ftp.altlinux.org/pub/people/msp/src/luwrain/0.x.x/luwrain-0.2.0.tar.gz luwrain-0.2.0.tar.gz]
+Наш основной git-репозиторий расположен по~адресу:
 
-Различные дополнительные материалы доступны  на~ftp-ресурсе по~этой ссылке:
+* [[http://github.com/luwrain/luwrain.git git://github.com/luwrain/luwrain.git]]
 
-* [ftp://ftp.altlinux.org/pub/people/msp/luwrain/ ftp://ftp.altlinux.org/pub/people/msp/luwrain/ ]
-
+Этот репозиторий хранит весь код окружения Luwrain,
+включая набор стандартных приложений.
+Его достаточно, чтобы произвести компиляцию главного запускаемого файла {{luwrain.jar}},
+но для~этого должен быть доступен набор вспомогательных библиотек.
+Как говорилось выше, 
+библиотеки Вы можете загрузить со~[local:/download/binary страницы для~загрузки двоичных файлов].

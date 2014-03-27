@@ -19,7 +19,7 @@ Yes, it is Linux.
 Luwrain uses Linux kernel with wide range of~GNU utilities.
 However, the word "Linux" is not present in the title of our project.
 That means Luwrain is not~a~one more GNU/Linux distribution inits~~usual sense.
-Normally in~Luwrain user do~not need to~deal with any Linux specific features or configuration tasks.
+Normally in~Luwrain user hasn't to~deal with any Linux specific features or configuration tasks.
 Our user interface tries to~obscure them every time it~is possible.
 
 == Can I run it on~Microsoft WIndows? ==
