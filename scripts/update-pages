@@ -1,0 +1,10 @@
+#!/bin/sh -e
+
+TARGETDIR=../files
+TEXTSDIR=../texts
+
+while read l; do
+    FILE="$(./gen-page "$TARGETDIR" "$TEXTSDIR/$l")"
+    ./format "$FILE"
+    echo Wrote "$FILE"
+done < "$TEXTSDIR/list.txt"

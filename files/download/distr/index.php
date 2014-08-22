@@ -7,9 +7,8 @@
                     This section contains direct links to&#160;the&#160;bootable ISO-images which can be useful
                     if you&#x27;d like to try Luwrain environment on&#160;your own computer. Please keep mind
                     on the&#160;fact that Luwrain is&#160;currently at&#160;early phase of&#160;its development
-                    and any published materials are purposed only for&#160;demonstration and for&#160;better
-                    understanding what we are working on. Meantime, we very appreciate <a href="<?echo luwrain_link('/community/');?>">your
-                    feedback</a> on&#160;all things you have tried.
+                    and any published materials are purposed for&#160;demonstration only. Meantime, we very
+                    appreciate <a href="<?echo luwrain_link('/community/');?>">your feedback</a> on&#160;all things you have tried.
                   </p>
                   <p>Luwrain version: <b>0.2.3</b> (published on&#160;February 28, 2014)</p>
                   <p>
@@ -23,13 +22,13 @@
                   </p>
                   <h2>English language</h2>
                   <ul>
-                    <li><a href="ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-i586-en.iso">[i586.iso]</a></li>
-                    <li><a href="ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-x86_64-en.iso">[x86_64.iso]</a></li>
+                    <li><a href="http://download.luwrain.org/iso/luwrain-0.2.3-i586-en.iso">[i586.iso]</a></li>
+                    <li><a href="http://download.luwrain.org/iso/luwrain-0.2.3-x86_64-en.iso">[x86_64.iso]</a></li>
                   </ul>
                   <h2>Russian language</h2>
                   <ul>
-                    <li><a href="ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-i586-ru.iso">[i586.iso]</a></li>
-                    <li><a href="ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-x86_64-ru.iso">[x86_64.iso]</a></li>
+                    <li><a href="http://download.luwrain.org/iso/luwrain-0.2.3-i586-ru.iso">[i586.iso]</a></li>
+                    <li><a href="http://download.luwrain.org/iso/luwrain-0.2.3-x86_64-ru.iso">[x86_64.iso]</a></li>
                   </ul>
 
 <?php }?>
@@ -55,13 +54,13 @@
                   </p>
                   <h2>Русская версия</h2>
                   <ul>
-                    <li><a href="ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-i586-ru.iso">[i586.iso]</a></li>
-                    <li><a href="ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-x86_64-ru.iso">[x86_64.iso]</a></li>
+                    <li><a href="http://download.luwrain.org/iso/luwrain-0.2.3-i586-ru.iso">[i586.iso]</a></li>
+                    <li><a href="http://download.luwrain.org/iso/luwrain-0.2.3-x86_64-ru.iso">[x86_64.iso]</a></li>
                   </ul>
                   <h2>Английская версия</h2>
                   <ul>
-                    <li><a href="ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-i586-en.iso">[i586.iso]</a></li>
-                    <li><a href="ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-x86_64-en.iso">[x86_64.iso]</a></li>
+                    <li><a href="http://download.luwrain.org/iso/luwrain-0.2.3-i586-en.iso">[i586.iso]</a></li>
+                    <li><a href="http://download.luwrain.org/iso/luwrain-0.2.3-x86_64-en.iso">[x86_64.iso]</a></li>
                   </ul>
 
 <?php }?>

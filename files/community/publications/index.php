@@ -3,7 +3,7 @@
                 <h1>Luwrain publications</h1>
                 <p>
                   This page contains the&#160;list of&#160;publications dedicated to&#160;Luwrain. We put
-                  here only materials which were published on&#160;English language or which has the&#160;English
+                  here only materials which were published in&#160;English language or which have the&#160;English
                   translation.
                 </p>
                 <ol>

@@ -1,28 +1,37 @@
 
-There is the~list of~people who participated in~Luwrain project (in~alphabetical order).
 
+= Luwrain authors =
+
+There is the~list of~people who participated in~Luwrain project (in~alphabetical order):
+
+* {Catherine Brown} (editing the~English greeting on~the~main page)
 * {Anastasia Gaponenko} (Russian female voice in greeting recording) 
 * {Joshua Iverson} (English male voice in greeting recording)
+* {Alexander Lipatov} (sound editing)
+* {Alexey Lubkin} (calculation of~Bloom filter parameters needed for~Luwrain files synchronization algorithm)
 * {Renata Pozhidaeva} (website construction)
 * {Stepan Shvets} (music decoration and sound effects)
 
-A~lot~of other people helped the~project indirectly (in~most cases through their participation in~ALT~Linux Team).
-We would like to~mention here Olga Yakovleva for~her project RHVoice making the~Russian version of the~system possible.
-The~project is~developed with support of~[[http://altlinux.com/ ALT~Linux company]].
+A~lot~of other people helped Luwrain indirectly (in~most cases through their participating in~ALT~Linux Team).
+Luwrain is very grateful to Olga Yakovleva who makes possible the~free Russian text-to-speech engine (RHVoice speech synthesizer). 
 
-All coordination tasks are~maintained by~[[http://marigostra.com/ Michael Pozhidaev]].
+All coordination tasks maintained by~[[http://marigostra.com/ Michael Pozhidaev]].
+
+= Авторы проекта =
 
 Ниже приводится список всех~участников проекта (в~алфавитном порядке):
 
 * {Джошуа Айверсон} (английский мужской голос в~записи приветствия)
+* {Кэтрин Браун} (редактирование английской версии приветствия на~главной странице сайта)
 * {Анастасия Гапоненко} (русский женский  голос в~записи приветствия) 
+* {Александр Липатов} (обработка аудио-записей)
+* {Алексей Лубкин} (расчёт параметров фильтра Блюма для~алгоритма синхронизации файлов)
 * {Рената Пожидаева} (разработка веб-сайта)
 * {Степан Швец} (музыкальные оформление и звуковые эффекты)
 
-Косвенную помощь проекту оказало большое количество других разработчиков, 
-большинство из~которых принимает участие в~разработке дистрибутивов Альт~Линукс.
-Особенно мы хотим упомянуть проект RHVoice Ольги Яковлевой, 
-благодаря которому обеспечивается речевой вывод в~русскоязычной версии системы.
-Luwrain развивается при~активной поддержке компании [[http://altlinux.ru/ "Альт~Линукс"]].
+Существенную помощь проекту оказали разработчики, 
+принимающие участие в~команде ALT~Linux.
+Особенно Luwrain благодарит Ольгу Яковлеву, которая сделала возможным 
+свободный синтезатор речи для~русского языка.
 
 Координацию проекта выполняет [[http://marigostra.ru/ Михаил Пожидаев]].

@@ -4,8 +4,7 @@
 This section contains direct links to~the~bootable ISO-images
 which can be useful if you'd like to try Luwrain environment on~your own computer.
 Please keep mind on the~fact that Luwrain is~currently at~early phase of~its development 
-and any  published materials are purposed only for~demonstration and for~better understanding 
-what we are working on.
+and any  published materials are purposed for~demonstration only.
 Meantime, we very appreciate [local:/community/ your feedback] on~all things 
 you have tried.  
 
@@ -22,13 +21,13 @@ Please, choose one of the~links below which better suits your requirements:
 
 == English language ==
 
-* [ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-i586-en.iso \[i586.iso\]]
-* [ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-x86_64-en.iso \[x86_64.iso\]]
+* [http://download.luwrain.org/iso/luwrain-0.2.3-i586-en.iso \[i586.iso\]]
+* [http://download.luwrain.org/iso/luwrain-0.2.3-x86_64-en.iso \[x86_64.iso\]]
 
 == Russian language ==
 
-* [ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-i586-ru.iso \[i586.iso\]]
-* [ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-x86_64-ru.iso \[x86_64.iso\]]
+* [http://download.luwrain.org/iso/luwrain-0.2.3-i586-ru.iso \[i586.iso\]]
+* [http://download.luwrain.org/iso/luwrain-0.2.3-x86_64-ru.iso \[x86_64.iso\]]
 
 = Загрузочные образы Luwrain =
 
@@ -51,10 +50,10 @@ Luwrain представлен для~двух языков (русского и
 
 == Русская версия  ==
 
-* [ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-i586-ru.iso \[i586.iso\]]
-* [ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-x86_64-ru.iso \[x86_64.iso\]]
+* [http://download.luwrain.org/iso/luwrain-0.2.3-i586-ru.iso \[i586.iso\]]
+* [http://download.luwrain.org/iso/luwrain-0.2.3-x86_64-ru.iso \[x86_64.iso\]]
 
 == Английская версия ==
 
-* [ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-i586-en.iso \[i586.iso\]]
-* [ftp://ftp.altlinux.org/pub/people/msp/luwrain/iso/luwrain-0.2.3-x86_64-en.iso \[x86_64.iso\]]
+* [http://download.luwrain.org/iso/luwrain-0.2.3-i586-en.iso \[i586.iso\]]
+* [http://download.luwrain.org/iso/luwrain-0.2.3-x86_64-en.iso \[x86_64.iso\]]

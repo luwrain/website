@@ -1,20 +1,31 @@
+
+ENTITLE='Luwrain downloads'
+RUTITLE='Загрузка Luwrain'
+TARGET=download/index.php
+
+luwrain-page-en
+
 = Luwrain downloads =
+
+
 
 There~are three  options of~download you may want to~continue with.
 If you are new to~Luwrain or just need a~distribution for work very likely you  should take the~first one.
 This~option  provides binary distribution prepared in~form of~bootable image.
 
-A~couple of~other alternatives  are purposed for~developing tasks.
-Which one of~them is suitable for~you is~dependent on~sort of~work you are interested~in.
-Source materials usually serve for~exploring of~software internal implementation or for~developing of~Luwrain itself.
+A~couple of~other alternatives  are purposed for~development tasks.
+Which one of~them is suitable for~you is~dependent on~the~sort of~work you are interested~in.
+Source materials usually serve for~exploring of~software internal implementation or for~development of~Luwrain itself.
 Binary packages includes Luwrain main jar-file and all auxiliary libraries 
-required for~Luwrain applications developing or for~Luwrian launch on~other distributions of~GNU/Linux.
+required for~Luwrain applications development as~well~as for~Luwrain launch on~other distributions of~GNU/Linux.
 
 Choose the~exact option you need:
 
 * [local:distr/ The~Luwrain distributions as~bootable ISO]
 * [local:sources/ The~Luwrain sources]
 * [local:binary/ The~Luwrain binary packages]
+
+luwrain-page-ru
 
 = Загрузка Luwrain =
 

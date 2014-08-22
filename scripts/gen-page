@@ -1,0 +1,75 @@
+#!/bin/sh -e
+# Generates valid PHP script for page content
+# Usage: gen-page TARGETDIR INPUTFILE
+# TARGETDIR must be without trailing slash!
+#
+# Date: 2014-08-22
+# The Luwrain project, Michael Pozhidaev <msp@altlinux.org> 
+
+THIS="${0##*/}"
+INDENT=16
+TMPDIR="$(mktemp -d)"
+TARGETDIR="$1"
+INPUTFILE="$2"
+
+exit_handler()
+{
+    local rc=$?
+    trap - EXIT
+    cd 
+    /bin/rm -rf -- "$TMPDIR"
+    exit $rc
+}
+
+trap exit_handler EXIT HUP INT QUIT PIPE TERM
+
+[ -z "$TARGETDIR" ] && echo "$THIS:no target directory mentioned" >&2 && exit 1 
+[ -z "$INPUTFILE" ] && echo "$THIS:no input file mentioned" >&2 && exit 1 
+
+ENPAGE="$TMPDIR/en.licrict"
+RUPAGE="$TMPDIR/ru.licrict"
+HEADERFILE="$TMPDIR/header.sh"
+
+MODE=header
+
+while read l; do
+    if echo "$l" | grep -qi luwrain-page-en; then
+	MODE=enpage
+    elif echo "$l" | grep -qi luwrain-page-ru; then
+	MODE=rupage
+    elif [ "$MODE" == enpage ]; then
+	echo "$l" >> "$ENPAGE"
+    elif [ "$MODE" == rupage ]; then
+	echo "$l" >> "$RUPAGE"
+    else
+	echo "$l" >> "$HEADERFILE"
+    fi
+done < "$INPUTFILE"
+
+source "$HEADERFILE"
+
+[ -z "$ENTITLE" ] && echo "$THIS:\$ENTITLE is not set" &>2 && exit 1
+[ -z "$RUTITLE" ] && echo "$THIS:\$RUTITLE is not set" &>2 && exit 1
+[ -z "$TARGET" ] && echo "$THIS:\$TARGET is not set" &>2 && exit 1
+
+OUTPUTFILE="$TARGETDIR/$TARGET"
+INCLUDE="$(echo "$TARGET" | sed s/'[^/]'//g | sed s:/:../:g)functions.php"
+
+(
+cat <<EOF
+<?php include "$INCLUDE"; luwrain_begin_page('/$TARGET', luwrain_current_lang() == 'ru'?'$RUTITLE':'$ENTITLE');?>
+<?php if (luwrain_current_lang() == 'en') {?>
+EOF
+[ -r "$ENPAGE" ] && lopsus-page -i "$INDENT" "$ENPAGE"
+cat <<EOF
+<?php }?>
+<?php if (luwrain_current_lang() == 'ru') {?>
+EOF
+[ -r "$RUPAGE" ] && lopsus-page -i "$INDENT" "$RUPAGE"
+cat <<EOF
+<?php }?>
+<?php luwrain_end_page('/$TARGET');?>
+EOF
+) > "$OUTPUTFILE"
+
+echo "$OUTPUTFILE"
