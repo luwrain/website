@@ -1,47 +1,57 @@
 
-ENTITLE='Luwrain downloads'
-RUTITLE='Загрузка Luwrain'
+ENTITLE='downloads'
+RUTITLE='Загрузка'
 TARGET=download/index.php
 
 luwrain-page-en
 
 = Luwrain downloads =
 
+There~are three  options of~download you may want to~continue with: ISO-images, tarballs and Git.
+If you are new to~Luwrain or just need a~distribution for work very likely you  should take [local:distr/ the~first one].
+This~option  provides binary distribution prepared in~form of~bootable images.
 
+The~tarballs are archives which can be~useful both for~users and developers.
+They give binary and source code versions 
+for~using Luwrain on~the~operating system, 
+which you have installed on~your machine.
+Potentially, any~OS with proper Java~SE support can be use in~this roled
+but we'd like to emphasize that Luwrain show its best primarily on~GNU/Linux.
+Git repositories can be~useful mostly for~developers who would like to~track the~changes 
+and follow the~developing process.
 
-There~are three  options of~download you may want to~continue with.
-If you are new to~Luwrain or just need a~distribution for work very likely you  should take the~first one.
-This~option  provides binary distribution prepared in~form of~bootable image.
+Please choose the~exact option you need:
 
-A~couple of~other alternatives  are purposed for~development tasks.
-Which one of~them is suitable for~you is~dependent on~the~sort of~work you are interested~in.
-Source materials usually serve for~exploring of~software internal implementation or for~development of~Luwrain itself.
-Binary packages includes Luwrain main jar-file and all auxiliary libraries 
-required for~Luwrain applications development as~well~as for~Luwrain launch on~other distributions of~GNU/Linux.
+* [local:distr/ Luwrain distributions as~bootable ISO-images]
+* [local:tarball/ Luwrain tarballs]
+* [local:git/ Luwrain Git repositories]
 
-Choose the~exact option you need:
-
-* [local:distr/ The~Luwrain distributions as~bootable ISO]
-* [local:sources/ The~Luwrain sources]
-* [local:binary/ The~Luwrain binary packages]
+{NOTE!} You always can use host [http://download.luwrain.org download.luwrain.org] directly 
+and view all~available files and directories through~automatically generated indices.
 
 luwrain-page-ru
 
 = Загрузка Luwrain =
 
-Существуют три~варианта загрузки Luwrain, которые перечислены ниже.
-Если Вы только начинаете знакомство с~Luwrain или Вам нужен дистрибутив просто для~работы,
-то необходимо выбрать первую опцию из~списка.
+Существуют три~варианта загрузки Luwrain: ISO-образы, tar-архивы и git-репозитории.
+Если Вы только начинаете знакомство с~Luwrain или Вам нужен дистрибутив для~работы,
+то необходимо выбрать [local:distr/ первую опцию] из~списка.
 Она позволяет получить Luwrain в~виде загрузочного ISO-образа, 
 подходящего для~большинства пользователей.
 
-Два~других варианта предназначены для~различных задач разработки.
-Пакет с~исходными текстами обычно необходим для~разработки самого окружения Luwrain или для~ознакомления со~внутренней реализации.
-Бинарная сборка Luwrain используется для~разработки сторонних приложений или для~запуска Luwrain на~других дистрибутивах GNU/Linux.
+Tar-архивы позволяют получитьLuwrain в~бинарном виде или в~виде исходных текстов 
+для~запуска на~любой операционной системе,
+которая имеет полноценную поддержку Java~SE,
+хотя мы обращаем Ваше внимание, что Luwrain лучше всего подходит для~работы преимущественно на~GNU/Linux.
+Git-репозитории являются удобным инструментом для~тех,
+кто желает  следить за~процессом разработки и сразу~же получать изменения.
 
 Выберите интересующий Вас вариант:
 
-* [local:distr/ загрузить Luwrain в~виде загрузочного ISO-образа];
-* [local:sources/ загрузить Luwrain в~виде исходных текстов];
-* [local:binary/ загрузить Luwrain в~виде бинарных файлов].
+* [local:distr/ загрузочные ISO-образы];
+* [local:tarball/ tar-архивы с~Luwrain в~виде бинарных файлов и в~виде исходных текстов];
+* [local:git/ git-репозитории с~исходными текстами Luwrain].
 
+{ВНИМАНИЕ!} 
+Вы можете работать напрямую с~узлом [http://download.luwrain.org download.luwrain.org],
+просматривая доступные файлы и каталоге при~помощи автоматически сгенерированных индексов.

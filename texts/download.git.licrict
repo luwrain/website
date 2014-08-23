@@ -1,0 +1,114 @@
+
+ENTITLE='Git repositories'
+RUTITLE='Git репозитории'
+TARGET=download/git/index.php
+
+luwrain-page-en
+
+= Luwrain Git repositories =
+
+The~source code of~Luwrain can be easily accessed through   a~set of~Git repositories  hosted on~[[http://github.com/ github.com]].
+All of~them listed here with the~short comments to~help you better understand their purpose.
+Any~information about the~license for~these materials 
+you can find on~[local:/doc/legal/ corresponding page with~legal notes].
+
+== The main Luwrain repository ==
+
+* [[http://github.com/luwrain/luwrain.git/ git://github.com/luwrain/luwrain.git]]
+
+The~main Git repository contains  the~code 
+of~the~environment core and the~code of~a~set of~standard applications.
+This code is~supposed to~be completely system-independent,
+meaning, it may not include any JNI references  or be linked with libraries available on~GNU/Linux only.
+
+== Linux-dependent code ==
+
+* [[http://github.com/luwrain/linux.git/ git://github.com/luwrain/linux.git]]
+
+This repository contains JNI wrappers for~access to~Linux-specific functions 
+(e.g.~for Linux terminal implementation).
+It may be linked with any Linux-specific jar's
+(e.g. for~interaction with~D-Bus).
+
+== Luwrain extensions ==
+
+* [[http://github.com/luwrain/extensions.git/ git://github.com/luwrain/extensions.git]]
+
+The~extensions library for~Luwrain includes various add-ons 
+not~chosen for~sustained support yet.
+This~repository gets contributions from~everybody who is~willing to~enhance 
+range of~supported services and technologies. 
+
+== The~AT-SPI client and the~window manager ==
+
+* [[http://github.com/luwrain/guidecraft.git/ git://github.com/luwrain/guidecraft.git]]
+
+For~the~support of~some closed applications and for~work of~web-browsers Luwrain  includes the~AT-SPI client  
+shipped with the~lightweight window manager for~easy control over a~set of~opened windows, including the~main window of~Luwrain itself.
+This~utility called GuideCraft and in~contrast to~the~code of~Luwrain core and applications,
+ is~written on~C++.
+
+== The~D-Bus interface for~sending speech commands ==
+
+* [[http://github.com/luwrain/libdbusspeech.git/ git://github.com/luwrain/libdbusspeech.git]]
+
+This~repository contains C++ library which implements 
+the~behaviour of~"proxy" object for~exchanging of~speech~commands.
+This~library is~being prepared to~simplify implementation of~the~speech servers compatible with~Luwrain on~GNU/Linux. 
+
+luwrain-page-ru
+
+= Git репозитории Luwrain =
+
+Исходный код Luwrain может быть загружен из~нескольких Git репозиториев, 
+расположенных на~сервере [[http://github.com/ github.com]].
+Они перечислены ниже с~краткими комментариями, которые должны позволить Вам понять их~назначение.
+Необходимую информацию о~правовой основе этих~материалов 
+Вы можете найти на~[local:/doc/legal/ соответствующей странице] этого сайта.
+
+== Основной репозиторий Luwrain  ==
+
+* [[http://github.com/luwrain/luwrain.git/ git://github.com/luwrain/luwrain.git]]
+
+Основной репозиторий Luwrain содержит код ядра системы и код~нескольких стандартных приложений.
+Реализация этих~компонентов должна быть полностью  переносимой,
+что запрещает использование JNI-функций и компоновку с~библиотеками,
+доступными только на~GNU/Linux.
+
+== Функции для~взаимодействия с~GNU/Linux  ==
+
+* [[http://github.com/luwrain/linux.git/ git://github.com/luwrain/linux.git]]
+
+Этот репозиторий содержит JNI-обёртки для~функций,
+доступных только на~GNU/Linux
+(например, для~взаимодействия с~интерфейсом командной оболочки Bash).
+Помимо этого, докускается использование Java-библиотек,
+существующих только в~версии для~GNU/Linux,
+в~частности, для~взаимодействия с~D-Bus.
+
+== Расширения Luwrain  ==
+
+* [[http://github.com/luwrain/extensions.git/ git://github.com/luwrain/extensions.git]]
+
+Библиотека расширений Luwrain содержит различные дополнения,
+пока ещё не~принятые для~постоянной поддержки.
+Этот~репозиторий должен включать все~сторонние модули,
+предложенные разработчиками из~сообщества Luwrain для~всеобщего обсуждения и тестирования.
+
+== Клиент AT-SPI и оконный менеджер  ==
+
+* [[http://github.com/luwrain/guidecraft.git/ git://github.com/luwrain/guidecraft.git]]
+
+Для~поддержки некоторых закрытых приложений и веб-браузеров Luwrain включает в~себя клиента AT-SPI,
+который поставляется вместе с~легковесным оконным менеджером.
+В~отличие от~кода ядра системы и стандартных приложений,
+этот компонент реализуется на~языке C++.
+
+== Интерфейс D-Bus для~передачи речевых комманд  ==
+
+* [[http://github.com/luwrain/libdbusspeech.git/ git://github.com/luwrain/libdbusspeech.git]]
+
+Этот~репозиторий содержит код~библиотеки,
+реализующей поведение прокси-объекта D-Bus для~передачи речевых команд.
+Подготовка этой~библиотеки ведётся с~целью упростить создание речевых серверов,
+совместимых с~Luwrain в~GNU/Linux.
