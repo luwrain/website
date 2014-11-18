@@ -1,35 +1,37 @@
 
+ENTITLE='Community'
+RUTITLE='Сообщество'
+TARGET=community/index.php
+
+luwrain-page-en
+
 = Luwrain community =
 
 Everybody who is~curious about Luwrain is~invited to~be a~member of~our community!
-The~community is very important because it can help us know  your comments  and opinion on~all things we do.
+The~community is very important because it can help us know  your opinion and suggestions on~all things we do.
 With valuable feedback we are~able to make  corresponding improvements and track known issues.
-but please be~aware that we are still working on~building~up effective interaction with~users and developers.
-not~all parts of~this section are~already fully available.
 
-With~Luwrain community you may be interested~in:
+Choose the~option you are interested~in:
 
-* [local:mailing-lists The~Luwrain mailing lists]
-* [local:twitter Following us on~Twitter]
-* [local:publications The~publications dedicated to~Luwrain]
-* [local:extensions Luwrain extensions]
+* [local:mailing-lists Our~mailing list]
+* [[http://twitter.com/luwrain Follow~us on~Twitter]]
+* [local:publications Our~publications]
+* [local:extensions The~list of~extensions]
 * [local:bugs Reporting a~bug]
+
+luwrain-page-ru
 
 = Сообщество Luwrain  =
 
-Мы приглашаем всех, кому интересно обсуждать вопросы использования и разработки Luwrain, стать членом нашего сообщества.
+Мы приглашаем всех, кому интересно обсуждать вопросы использования и разработки Luwrain, стать членом нашего сообщества!
 Сообщество является очень важной частью Luwrain,
-поскольку позволяет нам знать Ваше мнение о~нашей работе.
+поскольку позволяет нам знать ваше мнение о~нашей работе.
 Только при~наличии надёжной обратной связи   мы можем вносить в~Luwrain качественные улучшения.
-
-Пожалуйста, обратите внимание, что наше сообщество пока находится в~стадии становления,
-и не~все ресурсы доступны.
-Приносим извинения за~временные неудобства.
 
 Сообщество Luwrain состоит из~следующих ресурсов:
 
-* [local:mailing-lists списки подписки для~обсуждений Luwrain;]
-* [local:twitter лента сообщений на~Twitter;]
-* [local:publications публикации о~Luwrain;]
-* [local:extensions  расширения Luwrain;]
-* [local:bugs сообщения об~ошибках.]
+* [local:mailing-lists Список рассылки для~обсуждений]
+* [http://twitter.com/luwrain Лента новостей  на~Twitter]
+* [local:publications Наши публикации]
+* [local:extensions  Расширения Luwrain]
+* [local:bugs Сообщения об~ошибках]

@@ -5,12 +5,12 @@
                   There&#160;are three options of&#160;download you may want to&#160;continue with: ISO-images,
                   tarballs and Git. If you are new to&#160;Luwrain or just need a&#160;distribution for work
                   very likely you should take <a href="<?echo luwrain_link('distr/');?>">the&#160;first one</a>. This&#160;option
-                  provides binary distribution prepared in&#160;form of&#160;bootable image.
+                  provides binary distribution prepared in&#160;form of&#160;bootable images.
                 </p>
                 <p>
                   The&#160;tarballs are archives which can be&#160;useful both for&#160;users and developers.
                   They give binary and source code versions for&#160;using Luwrain on&#160;the&#160;operating
-                  system, which you have installed on&#160;your machine. Potentially any&#160;OS with proper
+                  system, which you have installed on&#160;your machine. Potentially, any&#160;OS with proper
                   Java&#160;SE support can be use in&#160;this roled but we&#x27;d like to emphasize that
                   Luwrain show its best primarily on&#160;GNU/Linux. Git repositories can be&#160;useful
                   mostly for&#160;developers who would like to&#160;track the&#160;changes and follow the&#160;developing

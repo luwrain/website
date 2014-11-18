@@ -1,0 +1,12 @@
+doc.manual.essentials.licrict
+doc.manual.fundamentals.licrict
+doc.manual.licrict
+doc.installation.licrict
+doc.user.licrict
+doc.about.licrict
+doc.authors.licrict
+doc.licrict
+download.licrict
+download.git.licrict
+download.tarball.licrict
+comm.licrict

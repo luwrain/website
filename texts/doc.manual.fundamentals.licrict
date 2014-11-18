@@ -1,0 +1,13 @@
+
+ENTITLE='Fundamentals'
+RUTITLE='Основные принципы навигации'
+TARGET=doc/user/manual/fundamentals/index.php
+
+luwrain-page-en
+
+= Environment fundamentals =
+
+luwrain-page-ru
+
+= Основные принципы навигации и управления  =
+

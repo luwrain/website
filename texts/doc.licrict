@@ -1,26 +1,34 @@
 
+ENTITLE='Documentation'
+RUTITLE='Документация'
+TARGET=doc/index.php
+
+luwrain-page-en
+
 = Luwrain documentation =
 
-We have documentation sections on~this website divided onto several groups.
+We have documentation sections divided onto several groups.
 First of~all, there are the~links to~the~pages with  materials 
-covering various technical details of~Luwrain environment.
-All of~them are purposed for current  or potential  users, as~well as~for~developers of~any~kind.
-If you'd like to read developer documentation you may want to read sections about developing of~Luwrain environment itself  
-or about the~creating new application for~it.
-For~Luwrain developing process fundamentals see addition group below.
+covering various technical details of~the~Luwrain environment.
+All of~them are purposed for~users or developers of~any~kind.
+If you'd like to read the~documentation for~developers you may want to~read either the~sections about developing of~the~Luwrain environment itself  
+or about creating a~new application for~it.
+For~Luwrain developing process fundamentals see the~addition group below.
 
-Choose technical documentation section you need:
+Choose the~technical documentation section you need:
 
 * [local:user/ Luwrain users documentation] 
-** [local:user/try/ Try it~now: what should you do if you'd like to~get Luwrain running on~your PC?]
-** [local:user/start/ First steps: what should you do if you already have Luwrain started and want more information about basic functions?]
+** [local:user/installation/ Installation instructions: what should you do if you'd like to~install Luwrain on~your computer?]
+** [local:user/manual/ User manual: a~complete guide how to~work in~Luwrain]
+** [local:user/try/ Try now: running Luwrain for~demonstration without installing on~your computer]
+** [local:user/start/ Getting started: speedy instructions how to~begin work in~Luwrain now]
 ** [local:/community/bugs/ How to~report a~bug?]
-* [local:devel/ Luwrain environment developers documentation]
 * [local:new-app/ How~to create a~new application for~Luwrain?]
+* [local:devel/ Luwrain environment developers documentation]
 
-Luwrain fundamentals describe legal status, 
+The~Luwrain fundamentals describe legal status, 
 invite to~collaboration in~various ways and 
-contain information about authors.
+contain information about the~authors.
 Read these pages if you'd like to~get project overview at~a~glance.
 
 * [local:about/ The~free story what is Luwrain and why do we think blind users need it?]
@@ -32,25 +40,29 @@ Read these pages if you'd like to~get project overview at~a~glance.
 * [local:partners/ Be our partner and let do something together] 
 * [local:sponsors/ Be our sponsor and support our work] 
 
-= Документация =
+luwrain-page-ru
+
+= Документация Luwrain =
 
 Ниже приведены ссылки на~доступные  разделы документации Luwrain.
 Она охватывает различные технические детали,
-которые необходимо знать пользователям и разработчикам проекта.
+которые необходимо знать пользователям и разработчикам окружения.
 Разработчики могут ознакомиться как с~вопросами развития самой среды Luwrain,
 так и с~сведениями, необходимыми для~создания собственных доступных приложений.
 Помимо этого предлагаются некоторые дополнительные материалы,
 описывающие фундаментальные особенности процесса разработки Luwrain,
 но не~связанные с~техническими вопросами напрямую.
 
-Выберите интересующий Вас раздел:
+Выберите интересующий вас раздел:
 
-* [local:user/ Документация для~пользователей Luwrain] 
-** [local:user/try/ Начать работу: что нужно знать, чтобы загрузить и запустить Luwrain?]
-** [local:user/start/ Первые шаги: какие базовые возможности нужно знать, если Luwrain уже~готов к~работе?]
+* [local:user/ Документация для~пользователей] 
+** [local:user/installation/ Инструкция по~установке: как установить Luwrain на~жёсткий диск?]
+** [local:user/manual/ Руководство пользователя: полное описание правил работы в~среде Luwrain]
+** [local:user/try/ Пробный запуск: как~познакомиться с~Luwrain без~установки на~жёсткий диск?]
+** [local:user/start/ Быстрый старт: минимальное описание необходимых действий для~установки Luwrain на~жёсткий диск и начала работы]
 ** [local:/community/bugs/ Как сообщить об~ошибке?]
-* [local:devel/ Документация для~разработчиков среды Luwrain]
-* [local:new-app/ Документация для~разработчиков приложений Luwrain]
+* [local:new-app/ Документация для~разработчиков собственных  приложений Luwrain]
+* [local:devel/ Документация для~разработчиков рабочего окружения]
 
 Ниже Вы можете ознакомиться с~правовым статусом разработки Luwrain, с~информацией об~авторах 
 и узнать о~имеющихся возможностях для~совместной работы.

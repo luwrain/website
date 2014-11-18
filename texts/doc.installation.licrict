@@ -1,0 +1,12 @@
+
+ENTITLE='Installation instructions'
+RUTITLE='Установка на жёсткий диск'
+TARGET=doc/user/installation/index.php
+
+luwrain-page-en
+
+= Installation instructions =
+
+luwrain-page-ru
+
+= Установка на~жёсткий диск =

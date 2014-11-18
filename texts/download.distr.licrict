@@ -1,4 +1,11 @@
 
+
+ENTITLE='Bootable images'
+RUTITLE='Загрузочные образы'
+TARGET=download/distr/index.php
+
+luwrain-page-en
+
 = Luwrain bootable images =
 
 This section contains direct links to~the~bootable ISO-images
@@ -8,7 +15,7 @@ and any  published materials are purposed for~demonstration only.
 Meantime, we very appreciate [local:/community/ your feedback] on~all things 
 you have tried.  
 
-Luwrain version: {0.2.3} (published on~February 28, 2014)
+Luwrain version: {0.3.0} (published on~October 7, 2014)
 
 {NOTE!} As~a~demonstration release these images are licensed 
 only for non-commercial purposes.
@@ -21,13 +28,15 @@ Please, choose one of the~links below which better suits your requirements:
 
 == English language ==
 
-* [http://download.luwrain.org/iso/luwrain-0.2.3-i586-en.iso \[i586.iso\]]
-* [http://download.luwrain.org/iso/luwrain-0.2.3-x86_64-en.iso \[x86_64.iso\]]
+* [http://download.luwrain.org/iso/luwrain-0.3.0-i586-en.iso (i586.iso)]
+* [http://download.luwrain.org/iso/luwrain-0.3.0-x86_64-en.iso (x86_64.iso)]
 
 == Russian language ==
 
-* [http://download.luwrain.org/iso/luwrain-0.2.3-i586-ru.iso \[i586.iso\]]
-* [http://download.luwrain.org/iso/luwrain-0.2.3-x86_64-ru.iso \[x86_64.iso\]]
+* [http://download.luwrain.org/iso/luwrain-0.3.0-i586-ru.iso (i586.iso)]
+* [http://download.luwrain.org/iso/luwrain-0.3.0-x86_64-ru.iso (x86_64.iso)]
+
+luwrain-page-ru
 
 = Загрузочные образы Luwrain =
 
@@ -38,7 +47,7 @@ Please, choose one of the~links below which better suits your requirements:
 Мы были~бы рады услышать [local:/community/ Ваше мнение]
 о~любом успешном и неуспешном опыте запуска Luwrain и работы в~нём.
 
-Версия Luwrain: {0.2.3} (представлена 28 февраля 2014~г.)
+Версия Luwrain: {0.3.0} (представлена 7 октября 2014~г.)
 
 {ВНИМАНИЕ!}
 Представленные образы разрешается использовать строго только в~некоммерческих целях,
@@ -50,10 +59,10 @@ Luwrain представлен для~двух языков (русского и
 
 == Русская версия  ==
 
-* [http://download.luwrain.org/iso/luwrain-0.2.3-i586-ru.iso \[i586.iso\]]
-* [http://download.luwrain.org/iso/luwrain-0.2.3-x86_64-ru.iso \[x86_64.iso\]]
+* [http://download.luwrain.org/iso/luwrain-0.3.0-i586-ru.iso (i586.iso)]
+* [http://download.luwrain.org/iso/luwrain-0.3.0-x86_64-ru.iso (x86_64.iso)]
 
 == Английская версия ==
 
-* [http://download.luwrain.org/iso/luwrain-0.2.3-i586-en.iso \[i586.iso\]]
-* [http://download.luwrain.org/iso/luwrain-0.2.3-x86_64-en.iso \[x86_64.iso\]]
+* [http://download.luwrain.org/iso/luwrain-0.3.0-i586-en.iso (i586.iso)]
+* [http://download.luwrain.org/iso/luwrain-0.3.0-x86_64-en.iso (x86_64.iso)]

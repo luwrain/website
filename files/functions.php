@@ -30,7 +30,7 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/user/try/');?>">С чего начать?</a>
+		    <a href="<?php echo luwrain_link('/doc/user/start/');?>">С чего начать?</a>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="<?php echo luwrain_link('/community/bugs/');?>">Сообщить об ошибке</a>
@@ -44,7 +44,7 @@ function luwrain_link($path)
 			<a href="/community/mailing-lists/">Список рассылки</a>
 		      </li>
 		      <li>
-			<a href="<?php echo luwrain_link('/community/twitter/');?>">Twitter</a>
+			<a href="http://twitter.com/luwrain">Twitter</a>
 		      </li>
 		      <li>
 			<a href="<?php echo luwrain_link('/community/publications/');?>">Публикации</a>
@@ -67,7 +67,7 @@ function luwrain_link($path)
 		    <a href="<?php echo luwrain_link('/doc/new-app/');?>">Создать новое приложение</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/user/windows/');?>">Запуск на Windows</a>
+		    <a href="<?php echo luwrain_link('/doc/user/installed-os/');?>">Для на Mac или Windows</a>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="<?php echo luwrain_link('/doc/legal/');?>">Лицензия</a>
@@ -102,7 +102,7 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/user/try/');?>">Getting started</a>
+		    <a href="<?php echo luwrain_link('/doc/user/start/');?>">Getting started</a>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="<?php echo luwrain_link('/community/bugs/');?>">Report a bug</a>
@@ -116,7 +116,7 @@ function luwrain_link($path)
 			<a href="/community/mailing-lists/">Mailing list</a>
 		      </li>
 		      <li>
-			<a href="<?php echo luwrain_link('/community/twitter/');?>">Twitter</a>
+			<a href="http://twitter.com/luwrain">Twitter</a>
 		      </li>
 		      <li>
 			<a href="<?php echo luwrain_link('/community/publications/');?>">Publications</a>
@@ -139,7 +139,7 @@ function luwrain_link($path)
 		    <a href="<?php echo luwrain_link('/doc/new-app/');?>">Your own application</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/user/windows/');?>">Run on Windows</a>
+		    <a href="<?php echo luwrain_link('/doc/user/installed-os/');?>">Run on Mac or Windows</a>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="<?php echo luwrain_link('/doc/legal/');?>">Legal notes</a>

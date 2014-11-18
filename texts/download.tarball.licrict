@@ -15,15 +15,15 @@ not~shipped with~source code.
 If you're interested in~tracking the~changes 
 in~Luwrain source code tree it is more preferable to~use [local:/download/git/ Git repositories] instead.
 
-Latest Luwrain version: {0.2.3} (published on~February 28, 2014)
+Latest Luwrain version: {0.3.0} (published on~October 7, 2014)
 
 Use this link to~download Luwrain source code:
 
-*[ftp://ftp.altlinux.org/pub/people/msp/src/luwrain/0.x.x/luwrain-0.2.3.1.tar.gz luwrain-0.2.3.1.tar.gz]
+*[ftp://ftp.altlinux.org/pub/people/msp/src/luwrain/0.x.x/luwrain-0.3.0.tar.gz luwrain-0.3.0.tar.gz]
 
 Use this link to~download Luwrain binary files:
 
-* luwrain-0.2.3.1-bin.tar.gz
+* [http://download.luwrain.org/binary/luwrain-0.3.0-bin.tar.gz luwrain-0.3.0-bin.tar.gz]
 
 luwrain-page-ru
 
@@ -36,14 +36,14 @@ Luwrain может быть загружен как в~виде исходных
 Если Вас интересует отслеживание изменений в~исходных текстах,
 вероятно, Вам будет удобнее пользоваться [local:/download/git/ нашими Git репозиториями].
 
-Последняя версия Luwrain: {0.2.3} (представлена 28~февраля 2014~г.)
+Последняя версия Luwrain: {0.3.0} (представлена 7~октября 2014~г.)
 
 По~этой ссылке Вы можете загрузить исходные тексты Luwrain:
 
-*[ftp://ftp.altlinux.org/pub/people/msp/src/luwrain/0.x.x/luwrain-0.2.3.1.tar.gz luwrain-0.2.3.1.tar.gz]
+*[ftp://ftp.altlinux.org/pub/people/msp/src/luwrain/0.x.x/luwrain-0.3.0.tar.gz luwrain-0.3.0.tar.gz]
 
 По~этой ссылке Вы можете загрузить Luwrain в~виде бинарных файлов::
 
-* luwrain-0.2.3.1-bin.tar.gz
+* [http://download.luwrain.org/binary/luwrain-0.3.0-bin.tar.gz luwrain-0.3.0-bin.tar.gz]
 
 
