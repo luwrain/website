@@ -156,12 +156,12 @@
 	  <ul class="footerList">
 	    <li class="sectionFooter">
 	      <div id = "footer1">
-		<span class="font16"><?php echo luwrain_current_lang() == 'ru'?'Сайт находится в разработке':'This website is still under construction';?></span>
+		<span class="font16"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2015 Разработчики Luwrain':'&#169; 2012&#x2013;2015 Luwrain developers'?></span>
 	      </div>
 	    </li>
 	    <li class="sectionFooter">
 	      <div id = "footer2" class="blueColor">
-		<?php echo luwrain_current_lang() == 'ru'?'Пишите нам! E-mail: luwrain (собачка) gmail (точка) com':'Waiting your messages! E-mail: luwrain (at) gmail (dot) com';?>
+		<a href="http://validator.w3.org/check?uri=referer"><?php echo luwrain_current_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a>
 	      </div>
 	    </li>
 	    <li class="sectionFooter">

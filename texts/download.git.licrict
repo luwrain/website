@@ -7,54 +7,122 @@ luwrain-page-en
 
 = Luwrain Git repositories =
 
-The~source code of~Luwrain can be easily accessed through   a~set of~Git repositories  hosted on~[[http://github.com/ github.com]].
-All of~them listed here with the~short comments to~help you better understand their purpose.
-Any~information about the~license for~these materials 
-you can find on~[local:/doc/legal/ corresponding page with~legal notes].
+The~source code of~the~Luwrain project is easily accessible through   a~set of~Git repositories  hosted on~[[http://github.com/ github.com]].
+There are direct links to~them listed  in~several categories 
+with~brief comments.
 
-== The main Luwrain repository ==
+== Main repositories ==
 
-* [[http://github.com/luwrain/luwrain.git/ git://github.com/luwrain/luwrain.git]]
+* [[https://github.com/luwrain/luwrain.git     
+git://github.com/luwrain/luwrain.git]] ---
+the~core source code 
+(environment basic functionality)
 
-The~main Git repository contains  the~code 
-of~the~environment core and the~code of~a~set of~standard applications.
-This code is~supposed to~be completely system-independent,
-meaning, it may not include any JNI references  or be linked with libraries available on~GNU/Linux only.
+* [[https://github.com/luwrain/base.git
+git://github.com/luwrain/base.git]] ---
+basic interfaces for extensions
 
-== Linux-dependent code ==
+* [[https://github.com/luwrain/pim.git
+git://github.com/luwrain/pim.git]] ---
+personal information management
 
-* [[http://github.com/luwrain/linux.git/ git://github.com/luwrain/linux.git]]
+* [[https://github.com/luwrain/i18n.git
+git://github.com/luwrain/i18n.git]] ---
+national standards and languages support
 
-This repository contains JNI wrappers for~access to~Linux-specific functions 
-(e.g.~for Linux terminal implementation).
-It may be linked with any Linux-specific jar's
-(e.g. for~interaction with~D-Bus).
+* [[https://github.com/luwrain/network.git
+git://github.com/luwrain/network.git]] ---
+utilities for network operations
 
-== Luwrain extensions ==
+* [[https://github.com/luwrain/extensions.git
+git://github.com/luwrain/extensions.git]] ---
+extensions source code
 
-* [[http://github.com/luwrain/extensions.git/ git://github.com/luwrain/extensions.git]]
+* [[https://github.com/luwrain/website.git
+git://github.com/luwrain/website.git]] ---
+website pages and scripts
 
-The~extensions library for~Luwrain includes various add-ons 
-not~chosen for~sustained support yet.
-This~repository gets contributions from~everybody who is~willing to~enhance 
-range of~supported services and technologies. 
+== System-dependent parts ==
 
-== The~AT-SPI client and the~window manager ==
+* [[https://github.com/luwrain/linux.git
+git://github.com/luwrain/linux.git]] ---
+Linux-dependent part of Luwrain
 
-* [[http://github.com/luwrain/guidecraft.git/ git://github.com/luwrain/guidecraft.git]]
+* [[https://github.com/luwrain/macos.git
+git://github.com/luwrain/macos.git]] ---
+MacOS-dependent part of Luwrain
 
-For~the~support of~some closed applications and for~work of~web-browsers Luwrain  includes the~AT-SPI client  
-shipped with the~lightweight window manager for~easy control over a~set of~opened windows, including the~main window of~Luwrain itself.
-This~utility called GuideCraft and in~contrast to~the~code of~Luwrain core and applications,
- is~written on~C++.
+* [[https://github.com/luwrain/windows.git
+git://github.com/luwrain/windows.git]] ---
+Windows-dependent part of Luwrain
 
-== The~D-Bus interface for~sending speech commands ==
+== Linux background services and libraries ==
 
-* [[http://github.com/luwrain/libdbusspeech.git/ git://github.com/luwrain/libdbusspeech.git]]
+* [[https://github.com/luwrain/libdbusspeech.git
+git://github.com/luwrain/libdbusspeech.git]] ---
+the  speech interface for~D-Bus
 
-This~repository contains C++ library which implements 
-the~behaviour of~"proxy" object for~exchanging of~speech~commands.
-This~library is~being prepared to~simplify implementation of~the~speech servers compatible with~Luwrain on~GNU/Linux. 
+* [[https://github.com/luwrain/guidecraft.git
+git://github.com/luwrain/guidecraft.git]] ---
+the AT-SPI client and the window manager
+
+* [[https://github.com/luwrain/voiceman.git
+git://github.com/luwrain/voiceman.git]] ---
+the speech server
+
+* [[https://github.com/luwrain/pointvox.git
+git://github.com/luwrain/pointvox.git]] ---
+the     TTS manager
+
+* [[https://github.com/luwrain/musitorius.git
+git://github.com/luwrain/musitorius.git]] ---
+the     multimedia player manager
+
+== Applications ==
+
+* [[https://github.com/luwrain/app-calendar.git
+git://github.com/luwrain/app-calendar.git]] ---
+the calendar
+
+* [[https://github.com/luwrain/app-commander.git
+git://github.com/luwrain/app-commander.git]] ---
+the file manager
+
+* [[https://github.com/luwrain/app-diary.git
+git://github.com/luwrain/app-diary.git]] ---
+the personal diary
+
+* [[https://github.com/luwrain/app-fetch.git
+git://github.com/luwrain/app-fetch.git]] ---
+the mail and news fetch application
+
+* [[https://github.com/luwrain/app-mail.git
+git://github.com/luwrain/app-mail.git]] ---
+the mail client
+
+* [[https://github.com/luwrain/app-message.git
+git://github.com/luwrain/app-message.git]] ---
+the message composer
+
+* [[https://github.com/luwrain/app-news.git
+git://github.com/luwrain/app-news.git]] ---
+the news client
+
+* [[https://github.com/luwrain/app-notepad.git
+git://github.com/luwrain/app-notepad.git]] ---
+the simple text editor
+
+* [[https://github.com/luwrain/app-preview.git
+git://github.com/luwrain/app-preview.git]] ---
+the document preview
+
+* [[https://github.com/luwrain/app-term.git
+git://github.com/luwrain/app-term.git]] ---
+the terminal
+
+* [[https://github.com/luwrain/app-writer.git
+git://github.com/luwrain/app-writer.git]] ---
+the document editor
 
 luwrain-page-ru
 
@@ -62,53 +130,118 @@ luwrain-page-ru
 
 Исходный код Luwrain может быть загружен из~нескольких Git репозиториев, 
 расположенных на~сервере [[http://github.com/ github.com]].
-Они перечислены ниже с~краткими комментариями, которые должны позволить Вам понять их~назначение.
-Необходимую информацию о~правовой основе этих~материалов 
-Вы можете найти на~[local:/doc/legal/ соответствующей странице] этого сайта.
+Ниже приведён их~список, разбитый на~несколько категорий.
 
-== Основной репозиторий Luwrain  ==
+== Основные репозитории  ==
 
-* [[http://github.com/luwrain/luwrain.git/ git://github.com/luwrain/luwrain.git]]
+* [[https://github.com/luwrain/luwrain.git     
+git://github.com/luwrain/luwrain.git]] ---
+исходный код ядра системы
+(основная реализация  пользовательского окружения)
 
-Основной репозиторий Luwrain содержит код ядра системы и код~нескольких стандартных приложений.
-Реализация этих~компонентов должна быть полностью  переносимой,
-что запрещает использование JNI-функций и компоновку с~библиотеками,
-доступными только на~GNU/Linux.
+* [[https://github.com/luwrain/base.git
+git://github.com/luwrain/base.git]] ---
+основные интерфейсы для~расширений
 
-== Функции для~взаимодействия с~GNU/Linux  ==
+* [[https://github.com/luwrain/pim.git
+git://github.com/luwrain/pim.git]] ---
+управление персональными данными
 
-* [[http://github.com/luwrain/linux.git/ git://github.com/luwrain/linux.git]]
+* [[https://github.com/luwrain/i18n.git
+git://github.com/luwrain/i18n.git]] ---
+поддержка национальных стандартов и языков
 
-Этот репозиторий содержит JNI-обёртки для~функций,
-доступных только на~GNU/Linux
-(например, для~взаимодействия с~интерфейсом командной оболочки Bash).
-Помимо этого, докускается использование Java-библиотек,
-существующих только в~версии для~GNU/Linux,
-в~частности, для~взаимодействия с~D-Bus.
+* [[https://github.com/luwrain/network.git
+git://github.com/luwrain/network.git]] ---
+утилиты для~работы с~сетью
 
-== Расширения Luwrain  ==
+* [[https://github.com/luwrain/extensions.git
+git://github.com/luwrain/extensions.git]] ---
+исходный код расширений
 
-* [[http://github.com/luwrain/extensions.git/ git://github.com/luwrain/extensions.git]]
+* [[https://github.com/luwrain/website.git
+git://github.com/luwrain/website.git]] ---
+страницы и скрипты веб-сайта
 
-Библиотека расширений Luwrain содержит различные дополнения,
-пока ещё не~принятые для~постоянной поддержки.
-Этот~репозиторий должен включать все~сторонние модули,
-предложенные разработчиками из~сообщества Luwrain для~всеобщего обсуждения и тестирования.
+== Системнозависимый код  ==
 
-== Клиент AT-SPI и оконный менеджер  ==
+* [[https://github.com/luwrain/linux.git
+git://github.com/luwrain/linux.git]] ---
+системнозависимая часть для~Linux
 
-* [[http://github.com/luwrain/guidecraft.git/ git://github.com/luwrain/guidecraft.git]]
+* [[https://github.com/luwrain/macos.git
+git://github.com/luwrain/macos.git]] ---
+системнозависимая часть для~MacOS
 
-Для~поддержки некоторых закрытых приложений и веб-браузеров Luwrain включает в~себя клиента AT-SPI,
-который поставляется вместе с~легковесным оконным менеджером.
-В~отличие от~кода ядра системы и стандартных приложений,
-этот компонент реализуется на~языке C++.
+* [[https://github.com/luwrain/windows.git
+git://github.com/luwrain/windows.git]] ---
+системнозависимая часть для~Windows
 
-== Интерфейс D-Bus для~передачи речевых комманд  ==
+== Фоновые сервисы и библиотеки для~Linux  ==
 
-* [[http://github.com/luwrain/libdbusspeech.git/ git://github.com/luwrain/libdbusspeech.git]]
+* [[https://github.com/luwrain/libdbusspeech.git
+git://github.com/luwrain/libdbusspeech.git]] ---
+библиотека для~передачи речевой информации через D-Bus
 
-Этот~репозиторий содержит код~библиотеки,
-реализующей поведение прокси-объекта D-Bus для~передачи речевых команд.
-Подготовка этой~библиотеки ведётся с~целью упростить создание речевых серверов,
-совместимых с~Luwrain в~GNU/Linux.
+* [[https://github.com/luwrain/guidecraft.git
+git://github.com/luwrain/guidecraft.git]] ---
+клиент AT-SPI и оконный менеджер
+
+* [[https://github.com/luwrain/voiceman.git
+git://github.com/luwrain/voiceman.git]] ---
+сервис для~управления выводом речи
+
+* [[https://github.com/luwrain/pointvox.git
+git://github.com/luwrain/pointvox.git]] ---
+сервис для~управления речевыми синтезаторами
+
+* [[https://github.com/luwrain/musitorius.git
+git://github.com/luwrain/musitorius.git]] ---
+сервис для~управления медиапроигрывателем 
+
+== Приложения ==
+
+* [[https://github.com/luwrain/app-calendar.git
+git://github.com/luwrain/app-calendar.git]] ---
+календарь
+
+* [[https://github.com/luwrain/app-commander.git
+git://github.com/luwrain/app-commander.git]] ---
+двухпанельный файловый менеджер
+
+* [[https://github.com/luwrain/app-diary.git
+git://github.com/luwrain/app-diary.git]] ---
+персональный планировщик
+
+* [[https://github.com/luwrain/app-fetch.git
+git://github.com/luwrain/app-fetch.git]] ---
+доставка новостей и электронной почты
+
+* [[https://github.com/luwrain/app-mail.git
+git://github.com/luwrain/app-mail.git]] ---
+клиент для~чтения электронной почты
+
+* [[https://github.com/luwrain/app-message.git
+git://github.com/luwrain/app-message.git]] ---
+редактор электронных сообщений
+
+* [[https://github.com/luwrain/app-news.git
+git://github.com/luwrain/app-news.git]] ---
+клиент для~чтения новостей
+
+* [[https://github.com/luwrain/app-notepad.git
+git://github.com/luwrain/app-notepad.git]] ---
+базовый текстовый редактор
+
+* [[https://github.com/luwrain/app-preview.git
+git://github.com/luwrain/app-preview.git]] ---
+просмотор документов
+
+* [[https://github.com/luwrain/app-term.git
+git://github.com/luwrain/app-term.git]] ---
+командная оболочка
+
+* [[https://github.com/luwrain/app-writer.git
+git://github.com/luwrain/app-writer.git]] ---
+редактор документов
+

@@ -1,0 +1,86 @@
+
+ENTITLE='Roadmap'
+RUTITLE='Дорожная карта'
+TARGET=doc/roadmap/index.php
+
+luwrain-page-en
+
+= The~project roadmap =
+
+This~page contains the~list of~tasks 
+considered as~a~roadmap for~Luwrain 
+as it~was accepted on~November 18th, 2014.
+They are the~most important 
+things for~a~robust  Luwrain developing.
+
+# {Stabilizing and cleaning the~code of~the~core.}
+The~core still has a~lot of~consequents of~early time of~development.
+Existence of~the~depricated  classes and methods  
+makes the~work difficult.
+Besides that, some classes should be~renamed 
+(e.~g., 
+"{{Action}}" to "{{Command}}" and
+"{{AppWrapper}}" to "{{Shortcut}}"). 
+
+# {Rethinking the~registry implementation}
+The~registry at~its current state, evidently, is~very inconvenient 
+and becomes a~serious barrier on~the~deployment attempts. 
+It is necessary to work~out something  more felicitous.
+
+# {Specification of~an~application template.}
+The~structure of~the~typical application and its life cycle should be obvious.
+The~current core state has everything needed to~get that  but 
+it~is~necessary to~write additional materials as~an~introduction to~the~application creation.
+
+#  {Platform-dependent  components for~the~proper portability support.}
+It~is~necessary to~prepare reliable platform-dependent things 
+which allow running on~MacOS-X or Microsoft Windows,
+including installation tools.
+It~is needed to~simplify a~deployment on~user machines.
+
+# {Internationalization infrastructure.}
+it~is necessary to~get unified and flexible approach to~foreign languages and national~standards  support.
+That could help to~introduce Luwrain to~the~foreign communities.
+
+# {The documentation.}
+There~is a~lack of~good documentation but we should have it a~lot!
+
+luwrain-page-ru
+
+= Дорожная карта =
+
+Ниже на~этой странице приведён перечень задач, 
+принятых в~качестве дорожной карты Luwrain  на~18~ноября 2014~г.
+Эти~работы рассматриваются как~наиболее важные для~правильного развития проекта.
+
+# {Стабилизация и очистка кода ядра.}
+Ядро содержит много следов ранней стадии развития, и
+наличие устаревших классов затрудняет разработку новых приложений.
+Помимо этого, требуется переименование некоторых сущностей 
+(например, 
+"{{Action}}" в "{{Command}}" и
+"{{AppWrapper}}" в "{{Shortcut}}"). 
+
+# {Пересмотр реализации реестра.}
+Реестр в~его нынешнем виде, очевидно, очень неудобен
+и становится серьёзным препятствием для~развёртывания системы на~компьютерах пользователей.
+Следует придумать более удачный подход.
+
+# {Спецификация шаблона приложений.}
+Структура типичного приложения и его~жизненный цикл должны быть предельно прозрачными. 
+Современное состояние системы позволяет чётко понять,
+какими они должны быть,
+но требуется наличие дополнительных материалов,
+которые позволили~бы  с~этим познакомиться всем~желающим.
+
+#  {Системнозависимые части для~полной поддержки кроссплатформенности.}
+Необходима подготовка функционально полной поддержки MacOS-X и Microsoft Windows,
+включающей в~себя утилиты-инсталляторы,
+упрощающие развёртывание системы на~компьютерах пользователей.
+
+# {Подготовка инфраструктуры интернационализации.}
+Требуется выработать единые и удобные механизмы для~реализации поддержки национальных языков и стандартов.
+Это позволило~бы познакомить с~проектом зарубежные сообщества.
+
+# {Документация.}
+Её очень недостаёт, а должно быть много!

@@ -1,92 +1,60 @@
 
-= Financial support =
+ENTITLE='For sponsors'
+RUTITLE='Для спонсоров'
+TARGET=doc/sponsors/index.php
 
-The~Luwrain project is non-profitable and for~successful ~ evolution it~needs an~external financial  help.
-Luwrain takes social aims and any~funding could    make the~life better for~large groups of~wanting people.
-There~are several types of~things Luwrain seeks money donations for:
+luwrain-page-en
 
-# To~employ additional stuff to~lift development speed
-# To~acquire  hardware of~various types to test Luwrain compatibility with, 
-including embedded systems and mobile computers 
-# To~participate in~related conferences and exhibitions over the~world
+luwrain-page-ru
 
-== New hardware for Luwrain ==
+= Финансовая поддержка =
 
-The~Linux kernel and Java, which are two~major components of~Luwrain, have   good chances for~portability across different architectures.
-Although our~general development process is~performed on usual x86 machines, 
-very likely the~compiled environment  could be launched on~other types of~equipment.
-The~most interesting hardware is various ARM-computers including embedded systems and mobile gadgets. 
-Both of~them are very important since they are cheap and can be a~good choice for~wide range of~potential users.
+Luwrain очень нуждается в~серьёзной финансовой поддержке.
+Проект будет развиваться в~любых обстоятельствах,
+но участники не~имеют возможности заниматься им без~постоянной сторонней работы для~заработка.
+Мы обращаемся с~просьбой ко~всем организациям, 
+которые могут выступить  источниками финансирования нашей деятельности,  поддержать нас!
 
-General Luwrain UI conception has perspectives 
-to be~adapted for~almost any type of~user interaction.
-We are speaking here mostly about the~tablet computers 
-which have some noticeable advantages, 
-although in~global sense they could not be~considered as~most suitable PCs for~blind users.
+Авторы проекта обращают внимание фондов, работающих на~территории Российской Федерации, на~следующие вещи:
 
-== Conferences and exhibitions == 
+* Luwrain может быть платформой для~предоставления электронных государственных услуг,
+которая обеспечит качественный доступ к~ним людям с~нарушениями зрения;
+таких людей огромное количество, и проблема равноправного доступа действительно существует; 
 
-Luwrain ideas are~not restricted by~borders of~any particular country 
-and everybody welcomed [local:/doc/partners/ for~cooperation]. 
-We believe that in~every part of~the~world there are people 
-sharing with us our aspiration and convinced in~same ideas as we do. 
-usually the~conferences and exhibitions are~used by~people to~find each  other, 
-but whereas they require significant amount of~money for~travel and participation,
-they remains still inaccessible for us.
-If somebody got a~chance to~represent our work some way at~a~conference or at~a~exhibition
-we are ready to make cooperative reports.
-Luwrain developers assume providing all necessary materials and prototypes.
+* направление нашей работы востребовано во~всём мире и помогает обратить на~российские технологии 
+внимание организации из~всех стран (к~примеру, о~Luwrain 
+[[http://dl.acm.org/citation.cfm?id=2687234&CFID=464939051&CFTOKEN=29213994 рассказано]] 
+в~электронной библиотеке ACM, и мы думаем, что это только начало);
 
-If you have any financing offerings for~our project or could support our work in~some other way 
-you can take a~look at~[/luwrain-en.pdf our 2-frames presentation]
- for~potential sponsors and partners.
-If you have any questions we~are always in~touch by~this e-mail: luwrain{{(~at~)}}gmail{{(~dot~)}}com.
+* вложение финансовых средств в~Luwrain --- это вложение в~серьёзные  технологии,
+поскольку по~сложности реализации Luwrain не~уступает многим промышленным платформам в~мире ИТ;
 
-Thank you so much!
+* Luwrain находится в~итоговой фазе непосредственной реализации, имея  технологический прототип;
+НИОКР проводились, начиная с~2002~г.,
+мы поставили  огромное количество экспериментов,
+ практически исключающих вероятность технологической неудачи;
 
+* Luwrain полностью отвечает современным требованиям импортозамещения в~сфере высоких технологий;
 
-= Финансовая поддержка нашего проекта =
+* вложения в~Luwrain дадут долгосрочный эффект, 
+поскольку полученные результаты 
+сохранят актуальность на~протяжении длительного периода времени
+и улучшат условия жизни огромного количества людей в~России и за~её пределами;
 
-luwrain --- это некоммерческий проект, и для~успешного развития он нуждается во~внешней финансовой поддержке.
-Поскольку в~нашей работе преследуются прежде всего социальные цели,
-любая денежная помощь может для~большого числа нуждающихся людей сделать жизнь лучше.
-Существуют три типа задач, на~которые были~бы направлены предложенные средства:
+* Luwrain разрабатывается людьми,
+понимающими существующие проблемы во~всей их~сложности;
+эксперименты успешно проводились в~том числе 
+и в~рамках учебного процесса, включая аспирантуру и защиту диссертации на~соискание степени кандидата наук;
 
-# На~привлечение дополнительных разработчиков для~ускорения  работы.
-# На~приобретение оборудования для~тестирования совместимости Luwrain,
-включая встраиваемые и мобильные устройства.
-# На~участие в~конференциях и выставках.
+* наша цель достижима,
+и в~первую очередь  благодаря современному развитию  программных компонентов из~мира 
+[[http://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%BD%D0%BE%D0%B5_%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B5_%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5 СПО]];
+от~нас и наших спонсоров требуется только настойчивость в~доведении начатого дела до~конца. 
 
-== Новое оборудование для Luwrain ==
-
-Ядро Linux и Java, которые являются двумя основными компонентами Luwrain, имеют хорошие возможности переносимости на~другие программно-аппаратные архитектуры.
-Несмотря на~то, что наш основной процесс разработки ведётся на~обычных x86-компьютерах,
-результаты работы, вероятно, после компиляции могут быть запущены на~других типах оборудования.
-Наибольший интерес вызывают различные ARM-устройства,
-включающие в~себя встраиваемые и мобильные компьютеры.
-Все их~виды крайне важны, поскольку они относительно недороги и могут быть хорошим предложением для~широкого круга потенциальных пользователей.
-
-Общий подход к~организации интерфейса Luwrain имеет неплохие  перспективы адаптации для~практически любого типа  взаимодействия с~пользователем.
-Здесь неявно подразумеваются прежде всего планшетные компьютеры,
-которые имеют ряд интересных достоинств, 
-хотя, конечно, в~целом не~являются самым удачным выбором для~незрячих пользователей.
-
-== Конференции и выставки  == 
-
-Идеи проекта Luwrain не~связаны границами какого-либо одного государства,
-и все желающие приглашаются к~[local:/doc/partners/ совместной работе]. 
-Мы верим, что в~любой часте света есть люди, разделяющие с~нами наши цели 
-и верящие в~те~же идеи, что и мы.
-Для~того, чтобы найти друг друга, требуется участие в~выставках и конференциях,
-но поскольку затраты на~перелёты высоки,
-эти мероприятия в~большинстве случаев остаются недоступными.
-Мы рады были~бы принять совместное участие в~конференциях на~равных правах соавторов 
-с~любым человеком, у~которого есть возможность личного выступления.
-Все необходимые материалы и прототипы для~такой формы сотрудничества будут предоставлены разработчиками.
-
-Если у~Вас есть предложения финансовой помощи для~Luwrain  или Вы~можете поддержать нашу работу в~любой другой форме,
-для~Вас может быть интересно ознакомится с~[/luwrain-ru.pdf нашей двухстраничной презентацией для~спонсоров и партнёров].
-Если у~Вас есть вопросы, мы всегда доступны по~адресу: luwrain{{(~at~)}}gmail{{(~dot~)}}com.
-
-Спасибо!
+Если Вы имеете возможность нас поддержать, пожалуйста, 
+напишите нам на~адрес [mailto:luwrain@gmail.com luwrain@gmail.com] не~откладывая!
+При~желании узнать о~нашей работе больше,
+вы можете просмотреть 
+[[whttp://ww.youtube.com/watch?v=m-HOWJCRn7g3 видеоматериал  "Компьютер для~незрячих" на~Youtube]],
+подготовленный замечательным журналистом Светланой Глазыриной.
 

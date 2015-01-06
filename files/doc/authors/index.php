@@ -8,7 +8,8 @@
                 <ul>
                   <li><b>Andrey Ampilov</b> (music decoration and sound effects)</li>
                   <li><b>Catherine Brown</b> (editing the&#160;English greeting on&#160;the&#160;main page)</li>
-                  <li><b>Anastasia Gaponenko</b> (Russian female voice in greeting recording)</li>
+                  <li><b>Anastasia Gaponenko</b> (Russian female voice in the first greeting recording)</li>
+                  <li><b>Svetlana Glazyrina</b> (Russian female voice in the second greeting recording)</li>
                   <li><b>Joshua Iverson</b> (English male voice in greeting recording)</li>
                   <li><b>Yuriy Knyazev</b> (music decoration and sound effects)</li>
                   <li><b>Alexander Lipatov</b> (sound editing)</li>
@@ -53,7 +54,8 @@
                     <b>Кэтрин Браун</b> (редактирование английской версии приветствия на&#160;главной странице
                     сайта);
                   </li>
-                  <li><b>Анастасия Гапоненко</b> (русский женский голос в&#160;записи приветствия);</li>
+                  <li><b>Анастасия Гапоненко</b> (русский женский голос в&#160;первой записи приветствия);</li>
+                  <li><b>Светлана Глазырина</b> (русский женский голос в&#160;второй записи приветствия);</li>
                   <li><b>Юрий Князев</b> (музыкальные оформление и звуковые эффекты);</li>
                   <li><b>Александр Липатов</b> (обработка аудио-записей);</li>
                   <li>
