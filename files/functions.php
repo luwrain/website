@@ -11,7 +11,7 @@
 
 function luwrain_link_ext1($path, $lang, $mode)
   {
-    return $path.'?lang='.$lang.'&mode='.$mode;
+    return $path.'?lang='.$lang.'&amp;mode='.$mode;
   }
 
 function luwrain_link($path)
@@ -197,12 +197,12 @@ function luwrain_link($path)
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta property="og:title" content="Luwrain" />
-    <meta property="og:description" content="Luwrain" />
-    <meta property="og:type" content="company" />
-    <meta property="og:url" content="http://www.luwrain.com"/>
+    <!--<meta property="og:title" content="Luwrain" />-->
+    <!--<meta property="og:description" content="Luwrain" />-->
+    <!--<meta property="og:type" content="company" />-->
+    <!--<meta property="og:url" content="http://www.luwrain.com"/>-->
 <?php
-    echo '    <title>'.$title.' - The accessible environment Luwrain</title>'."\n";
+    echo '    <title>'.$title.' - Luwrain</title>'."\n";
 ?>
     <link type="image/x-icon" href="/Images/favicon.ico" rel="icon"/>
     <link media="all" rel="stylesheet" type="text/css" href="/Content/luwrain.css" />
@@ -321,12 +321,12 @@ function luwrain_link($path)
 	  <ul class="footerList">
 	    <li class="sectionFooter">
 	      <div id = "footer1">
-		<span class="font16"><?php echo luwrain_current_lang() == 'ru'?'Сайт находится в разработке':'This website is still under construction';?></span>
+		<span class="font16"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2015 Разработчики Luwrain':'&#169; 2012&#x2013;2015 Luwrain developers'?></span>
 	      </div>
 	    </li>
 	    <li class="sectionFooter">
 	      <div id = "footer2" class="blueColor">
-				<?php echo luwrain_current_lang() == 'ru'?'Пишите нам! E-mail: luwrain (собачка) gmail (точка) com':'Waiting your messages! E-mail: luwrain (at) gmail (dot) com';?>
+				<a href="http://validator.w3.org/check?uri=referer"><?php echo luwrain_current_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a>
 	      </div>
 	    </li>
 	    <li class="sectionFooter">
