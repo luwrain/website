@@ -19,6 +19,7 @@ There is the~list of~people who participated in~Luwrain project (in~alphabetical
 * {Alexey Lubkin} (calculation of~Bloom filter parameters needed for~the~Luwrain files synchronization algorithm)
 * {Renata Pozhidaeva} (the~~website construction)
 * {Nikita Prianichnikov} (porting Luwrain to~MacOS-X)
+* {Mgr. Janusz Chmiel} (Czech translation)
 * {Stepan Shvets} (music decoration and sound effects)
 * {Alexander Ustinov} (porting Luwrain to~Microsoft Windows and building system support)
 
@@ -51,6 +52,7 @@ luwrain-page-ru
 * {Алексей Лубкин} (расчёт параметров фильтра Блюма для~алгоритма синхронизации файлов);
 * {Рената Пожидаева} (разработка веб-сайта);
 * {Никита Пряничников} (поддержка работы Luwrain на~MacOS-X);
+* {Mgr. Janusz Chmiel} (чешский перевод)
 * {Александр Устинов} (поддержка работы Luwrain на~Microsoft Windows и доработка сборочных систем);
 * {Степан Швец} (музыкальные оформление и звуковые эффекты).
 

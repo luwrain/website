@@ -1,5 +1,140 @@
 <?php include "../../functions.php"; luwrain_begin_page('/doc/faq/index.php', luwrain_current_lang() == 'ru'?'Часто задаваемые вопросы':'Frequently asked questions');?>
 <?php if (luwrain_current_lang() == 'en') {?>
+                <h1>Frequently asked questions</h1>
+                <h2>Who can be a&#160;user of&#160;Luwrain?</h2>
+                <p>We consider three groups of&#160;potential users:</p>
+                <ul>
+                  <li>
+                    blind or visually-impaired people, who due to&#160;various reasons (financial barriers,,
+                    a&#160;lack of&#160;understanding of&#160;screen readers behaviour, a&#160;lack of&#160;understanding
+                    of&#160;GUI nature etc) were unable to&#160;work on&#160;PC&#x27;s, including children
+                    born blind and seniors
+                  </li>
+                  <li>
+                    experienced users with eyesight problems, who is looking for&#160;a&#160;comfortable and
+                    speedy-efficient tool for&#160;fixed number of&#160;highly demanded tasks
+                  </li>
+                  <li>
+                    software developers, who would like to&#160;create adapted applications easily understandable
+                    for&#160;blind people but haven&#x27;t any experience in&#160;this area
+                  </li>
+                </ul>
+                <h2>Is Luwrain a&#160;competitor for&#160;screen readers?</h2>
+                <p>
+                  No, Luwrain develops the&#160;idea of&#160;an&#160;environment &#x22;in&#160;itself&#x22;,
+                  which is&#160;mostly independent from&#160;the&#160;most of&#160;screen readers. We convinced
+                  that blind people get the&#160;highest level of&#160;freedom and independence if both of&#160;these
+                  ways (screen readers and environments &#x22;in&#160;itself&#x22;) are developed and available
+                  equally. Screen readers <b>guarantee</b> the&#160;accessibility of&#160;any&#160;arbitrary
+                  functionality in&#160;any possible form , meantime, environments &#x22;in&#160;itself&#x22;
+                  take care that a&#160;fixed number of&#160;everyday tasks is&#160;accessible in&#160;<b>most
+                  suitable</b> for&#160;perception of&#160;blind people form.
+                </p>
+                <h2>
+                  Should Luwrain users refuse the&#160;accessibility technologies they used&#160;to work
+                  previously?
+                </h2>
+                <p>
+                  No, because Luwrain can be installed as&#160;an&#160;application on&#160;the&#160;operating
+                  system the&#160;user already has installed. It is absolutely OK to&#160;use it only for&#160;tasks,
+                  everybody chooses for&#160;his/her individual case. In&#160;addition, the&#160;already
+                  installed operating system could be needed by&#160;colleagues or other members of&#160;a&#160;family
+                  if they share the&#160;same machine with disabled person.
+                </p>
+                <h2>Why the&#160;Luwrain UI is more&#160;suitable for&#160;blind users?</h2>
+                <p>
+                  People without the&#160;problems with&#160;eyesight use graphical user interface (GUI).
+                  Usually it is Microsoft Windows, Apple MocOS-X or different desktop environments for&#160;GNU/Linux.
+                  The&#160;GUI developers initially have designed their technology to&#160;get highest efficiency
+                  using the&#160;mouse as&#160;a&#160;method of&#160;control. Meantime, the&#160;mouse is&#160;inaccessible
+                  for&#160;handicapped people and that restricts their speed of&#160;work and level of&#160;comfort.
+                  Luwrain brings working objects to&#160;user in&#160;the form the&#160;most suitable for&#160;his/her
+                  perception. We spent a&#160;lot of&#160;time to&#160;obtain necessary experience and understanding
+                  how to&#160;do&#160;that. You can read more about exact differences of&#160;Luwrain on&#160;<a href="<?echo luwrain_link('/doc/difference/');?>">corresponding
+                  page</a>.
+                </p>
+                <h2>May I create my own application for&#160;Luwrain?</h2>
+                <p>
+                  Of&#160;cource, and we highly encourage everybody to&#160;create any third party applications
+                  for&#160;Luwrain. They can be&#160;easily implemented on&#160;Java. You can read more about
+                  this on&#160;<a href="<?echo luwrain_link('/doc/net-app/');?>">corresponding page</a>.
+                </p>
+                <h2>Is PC&#160;screen empty during the&#160;work in&#160;Luwrain?</h2>
+                <p>
+                  No, we use the&#160;screen as an&#160;additional method to&#160;bring information for&#160;users
+                  with&#160;low&#160;vision. It&#160;plays a&#160;supplementary role but remains very important.
+                </p>
+                <h2>What kind of&#160;PC is the&#160;most suitable for&#160;Luwrain?</h2>
+                <p>
+                  We are trying to&#160;support using Luwrain both of&#160;mobile and desktop personal computers.
+                  For&#160;mobile computers it&#160;is better to&#160;use Luwrain as&#160;a&#160;stand-alone
+                  operating system because it&#160;tries to&#160;use all&#160;possible ways of&#160;control,
+                  including touchpad, and this makes a&#160;laptop a&#160;elegant accessory for&#160;blind
+                  people. On&#160;desktop computers, more likely, you would prefer Luwrain as&#160;an&#160;application,
+                  although installation as&#160;an&#160;stand-alone operating system remains still available.
+                </p>
+                <h2>What is the&#160;current state of&#160;Luwrain development process?</h2>
+                <p>
+                  Пока в&#160;стадии технологического прототипа. Работы очень много, и мы будем поэтапно
+                  выводить в&#160;стабильное состояние различные компоненты. Проект очень нуждается в<a href="<?echo luwrain_link('/doc/sponsors/');?>">&#160;серьёзной
+                  финансовой поддержке</a>, которая значительно ускорила&#160;бы работу и получение результата.
+                </p>
+                <h2>Should Luwrain users pay anything for&#160;Luwrain?</h2>
+                <p>
+                  Нет. Luwrain &#x2014; это свободное ПО. Все материалы и результаты проекта находятся в&#160;открытом
+                  доступе и распространяются бесплатно.
+                </p>
+                <h2>Can I create my custom Luwrain build?</h2>
+                <p>
+                  Да, но если отличия от&#160;нашей официальной версии достаточно существенные, мы попросим
+                  вас для&#160;вашей сборки выбрать другое название. Вы можете найти более подробную информацию
+                  о&#160;правовом статусе на&#160;<a href="<?echo luwrain_link('/doc/legal/');?>">этой странице</a>.
+                </p>
+                <h2>How do the&#160;web-browser function in&#160;Luwrain?</h2>
+                <p>
+                  В&#160;Luwrain в&#160;виде самостоятельной операционной системы включён Mozilla Firefox
+                  с&#160;активированными специальными возможностями. Работа с&#160;ним производится вне&#160;специализированного
+                  интерфейса Luwrain, что объясняется сложностью организации современных веб-приложений,
+                  но мы работаем над&#160;тем, чтобы перенести работу с&#160;браузером в&#160;интерфейс Luwrain
+                  в&#160;будущем.
+                </p>
+                <h2>
+                  Is it impossible to&#160;launch external application in&#160;Luwrain as&#160;a&#160;stand-alone
+                  OS?
+                </h2>
+                <p>
+                  Возможен. В&#160;комплект поставки включается специальный компонент, который позволяет
+                  в&#160;случае необходимости запустить оконные приложения для&#160;Linux, которые поддерживают
+                  работу вспомогательных технологий в&#160;традициях AT-SPI (например, <i>Skype</i>). Помимо
+                  этого, не&#160;следует забывать, что остаются доступными все&#160;приложения командной
+                  строки (например, <i>ping</i> или <i>lame</i>), поскольку Luwrain имеет встроенный терминал.
+                </p>
+                <h2>
+                  I heard that publishing systems TeX and Lilypond are very useful for&#160;blind people,
+                  what about them?
+                </h2>
+                <p>
+                  Luwrain в&#160;виде самостоятельной операционной системы продолжает оставаться обычным
+                  дистрибутивом GNU/Linux. Это означает, что из&#160;доступных репозиториев можно установить
+                  любой пакет или приложение, которое окажется полезным, включая TeX и Lilypond. Это по-настоящему
+                  мощные пакеты, которые открывают незрячим людям множество возможностей в&#160;плане подготовки
+                  печатных материалов, а&#160;также презентации для&#160;публичных выступлений. Мы активно
+                  поддерживаем их&#160;использование.
+                </p>
+                <h2>
+                  Are blind people able to&#160;install Luwrain on&#160;hard drive without any external sighted
+                  assistance?
+                </h2>
+                <p>
+                  Да, у&#160;нас есть доступная программа установки, но необходимо помнить, что выбор загрузочного
+                  устройства в&#160;настройках BIOS обычно невозможен без&#160;помощи зрячего человека.
+                </p>
+                <h2>May I participate in&#160;Luwrain project and contribute to&#160;it?</h2>
+                <p>
+                  Конечно, Luwrain &#x2014; это открытый проект, и все желающие могут к&#160;нему присоединиться.
+                  Мы активно поддерживаем создание <a href="<?echo luwrain_link('/community/');?>">сообщества</a> вокруг нашего
+                  проекта.
+                </p>
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>

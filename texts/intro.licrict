@@ -1,47 +1,43 @@
 
 = "The territory of a compelling accessibility" =
 
- With~accessible OS Luwrain, blind and visually-impaired people have a~new way to be~involved
- in the~incredible world of information technologies. 
-Luwrain doesn't take a~lot~of time to~learn,
- and aims to be~useable on laptops, 
-as~well as~desktop computers. 
-You can treat our  new idea as one more solution for~everyone 
-who needs a~reliable and accessible companion for~various types of~work. 
-The~product is designed as~a~new platform for~creating speech-enabled
- applications 
-with~a~set of~standard tools for~easy web~access, mail, news reading,~etc.
+With accessible toolkit Luwrain, blind and visually-impaired people have
+a  new way to be involved in the incredible world of information
+technologies. Luwrain doesn't take a lot of time to learn, and aims
+to be useable on laptops, as well as desktop computers. You can treat our
+new idea as one more solution for everyone who needs a reliable and
+accessible companion for various types of work. The product is designed
+as a new platform for creating speech-enabled applications
+with a set of standard tools for easy access to web services, mail, news reading, etc.
 
- Luwrain is a~linux-based system with a~special type of user interface constructed on~Java technologies. 
-In~contrast with widely popular screen reading solutions for~graphical desktops,
- which actually are~designed for control through a mouse and other pointing devices 
- useful only for~sighted users, 
-Luwrain offers representation of every working object in~the~text form from scratch. 
-That means that the~Luwrain user will always spend significantly less time than in~an~adapted GUI. 
-We have created our environment for~people who enjoy working effectively and time-efficiently.
+Luwrain is a set of software components on Java for accessible 
+user interface construction. In contrast with widely popular
+screen reading solutions for graphical desktops, which actually are
+designed for control through a mouse and other pointing devices useful
+only for sighted users, Luwrain brings the information in the most suitable
+for perception of blind people form. That means that the Luwrain user
+will always spend significantly less time than in an adapted GUI.
+We have created our environment for people who enjoy working effectively
+and time-efficiently.
 
- In~Luwrain the~Java user space covers a~number of~system services, 
-which are~able to provide  a~flexible core and a~high level of compatibility. 
-The~information exchange between them is
- performed mostly through a~D-Bus activity. 
-It~brings to~the~user the~information about network  structure from~Network Manager, 
-and transmits commands to~a~speech server, 
-designed for~control over a~set of Text-To-Speech engines. 
-The~personal user data can be~stored in~OpenLDAP or~in~any
- choice of~the~SQL server 
-which has the~proper JDBC interface. 
-For~low-vision users Luwrain opens the~full-screen window with~all corresponding textual data written in contrasting colours. 
-That window is~drawn by~X.org server using special window manager, 
-created as~an~additional part of~Luwrain project.
+Luwrain can be with you everywhere! You may take it as a stand-alone
+operating system on Linux kernel and it will turn a laptop
+into elegant accessory for blind people. If you, your colleagues
+or members of your family need the operating system being already installed
+on your PC you may take Luwrain just as an application. Luwrain will not require
+you to forbid the tools you used to work with previously and you can use it
+as a platform for creating and distributing accessible applications,
+even if you havn't any experience in this area.
 
- Luwrain is~a~completely Free Software project, 
-no~fee is~involved, 
-and no~restrictions of~use and  distribution exist, 
-except in~cases explicitly violating the~terms of~the GNU Public License~ver.~3, 
-as~it~was published by~the~Free Software Foundation. 
-However, financial donations are~still required to~help us present our product across the~world, 
-and to~introduce it to~related social and distribution organizations. 
-The~team of developers hopes that Luwrain can increase the~integration of~disabled people into social life.
+Luwrain is a completely Free Software project, no fee is involved, and
+no restrictions of use and distribution exist, except in cases
+explicitly violating the terms of the GNU Public License ver. 3, as it
+was published by the Free Software Foundation. However, financial
+donations are still required to help us present our product across the
+world, and to introduce it to related social and distribution organizations.
+The team of developers hopes that Luwrain can increase the integration
+of disabled people into social life.
+
 
 Choose the~section to~read next:
 

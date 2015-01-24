@@ -19,6 +19,7 @@
                   </li>
                   <li><b>Renata Pozhidaeva</b> (the&#160;&#160;website construction)</li>
                   <li><b>Nikita Prianichnikov</b> (porting Luwrain to&#160;MacOS-X)</li>
+                  <li><b>Mgr. Janusz Chmiel</b> (Czech translation)</li>
                   <li><b>Stepan Shvets</b> (music decoration and sound effects)</li>
                   <li>
                     <b>Alexander Ustinov</b> (porting Luwrain to&#160;Microsoft Windows and building system
@@ -64,6 +65,7 @@
                   </li>
                   <li><b>Рената Пожидаева</b> (разработка веб-сайта);</li>
                   <li><b>Никита Пряничников</b> (поддержка работы Luwrain на&#160;MacOS-X);</li>
+                  <li><b>Mgr. Janusz Chmiel</b> (чешский перевод)</li>
                   <li>
                     <b>Александр Устинов</b> (поддержка работы Luwrain на&#160;Microsoft Windows и доработка
                     сборочных систем);

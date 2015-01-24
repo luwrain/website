@@ -54,14 +54,14 @@ function ShowPart1(){
 	$('#imageDiv').html('<img id="accImg" src="Images/acc.png" alt="The accessible platform" height="303" width="523"></img>');
 	$('#textUnderPic').html('The accessible platform');
 	$('#accPlatform').html('The accessible platform');
-	$('#text1more').html('With accessible OS Luwrain, blind and visually-impaired people have'+
+	$('#text1more').html('With accessible toolkit Luwrain, blind and visually-impaired people have'+
 			     '<br/>a  new way to be involved in the incredible world of information'+
 			     '<br/>technologies. Luwrain doesn\'t take a lot of time to learn, and aims'+
 			     '<br/>to be useable on laptops, as well as desktop computers. You can treat our'+
 			     '<br/>new idea as one more solution for everyone who needs a reliable and'+
 			     '<br/>accessible companion for various types of work. The product is designed'+
 			     '<br/>as a new platform for creating speech-enabled applications'+
-			     '<br/>with a set of standard tools for easy web access, mail, news reading, etc.');
+			     '<br/>with a set of standard tools for easy access to web services, mail, news reading, etc.');
 	$('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/download/distr/?mode=normal&lang=en"><span>ISO-images</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
@@ -81,12 +81,12 @@ function ShowPart2(){
 	$('#imageDiv').html('<img id="textBasedImg" src="Images/textBased.png" alt="Text-based environment" height="162" width="532"></img>');
 	$('#textUnderPic').html('Text-based environment');
 	$('#accPlatform').html('Text-based environment');
-	$('#text1more').html('Luwrain is a linux-based system with a special type of user interface'+
-			     '<br/>constructed on Java technologies. In contrast with widely popular'+
+	$('#text1more').html('Luwrain is a set of software components on Java for accessible'+
+			     '<br/>user interface construction. In contrast with widely popular'+
 			     '<br/>screen reading solutions for graphical desktops, which actually are'+
 			     '<br/>designed for control through a mouse and other pointing devices useful'+
-			     '<br/>only for sighted users, Luwrain offers representation of every working'+
-			     '<br/>object in the text form from scratch. That means that the Luwrain user'+
+			     '<br/>only for sighted users, Luwrain brings the information in the most suitable'+
+			     '<br/>for perception of blind people form. That means that the Luwrain user'+
 			     '<br/>will always spend significantly less time than in an adapted GUI.'+
 			     '<br/>We have created our environment for people who enjoy working effectively'+
 			     '<br/>and time-efficiently.');
@@ -108,17 +108,15 @@ function ShowPart3(){
 	$('#hiddenPartNumber').val('3');
 	$('#imageDiv').html('<img id="javaImg" src="Images/java.png" alt="Java on Linux" height="199" width="332"></img>');
 	$('#textUnderPic').html('Java on Linux');
-	$('#accPlatform').html('Java on Linux');
-	$('#text1more').html('In Luwrain the Java user space covers a number of system services, which are'+
-			     '<br/>able to provide a flexible core and a high level of compatibility.'+
-			     '<br/>The information exchange between them is performed mostly through  D-Bus'+
-			     '<br/>activity. It brings to the user the information about network structure from'+
-			     '<br/>Network Manager, and transmits commands to a speech server, designed for control'+
-			     '<br/>over a set of Text-To-Speech engines. The personal user data can be stored'+
-			     '<br/>in OpenLDAP or in any choice of the SQL server which has the proper JDBC interface.'+
-			     '<br/>interface. For low-vision users Luwrain opens the full-screen window with all'+
-			     '<br/>corresponding textual data written in contrasting colours. That window is drawn'+
-			     '<br/>by X.org server using special window manager, created as an additional part of Luwrain project.');
+	$('#accPlatform').html('Java and Linux');
+	$('#text1more').html('Luwrain can be with you everywhere! You may take it as a stand-alone'+
+			     '<br/>operating system on Linux kernel and it will turn a laptop'+
+			     '<br/>into elegant accessory for blind people. If you, your colleagues'+
+			     '<br/>or members of your family need the operating system being already installed'+
+			     '<br/>on your PC you may take Luwrain just as an application. Luwrain will not require'+
+			     '<br/>you to forbid the tools you used to work with previously and you can use it'+
+			     '<br/>as a platform for creating and distributing accessible applications,'+
+			     '<br/>even if you don\'t have any experience in this area.');
 	$('#firstButton').html('<a href="/doc/devel/?mode=normal&lang=en"><span>For developers</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };

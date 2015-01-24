@@ -5,6 +5,131 @@ TARGET=doc/faq/index.php
 
 luwrain-page-en
 
+= Frequently asked questions  =
+
+== Who can be a~user of~Luwrain? ==
+
+We consider three groups of~potential users:
+
+* blind or visually-impaired people, who due to~various reasons 
+(financial barriers,,
+a~lack of~understanding of~screen readers behaviour,
+a~lack of~understanding of~GUI nature etc)
+were unable to~work on~PC's,
+including children born blind and seniors 
+
+* experienced users with eyesight problems,
+who is looking for~a~comfortable and speedy-efficient tool for~fixed number 
+of~highly demanded tasks 
+
+* software developers, who would like to~create adapted applications easily understandable for~blind people
+but haven't any experience in~this area
+
+== Is Luwrain a~competitor for~screen readers? ==
+
+No, Luwrain develops the~idea of~an~environment "in~itself",
+which is~mostly independent from~the~most of~screen readers.
+We convinced that blind people get the~highest level  of~freedom and independence 
+if both of~these ways (screen readers and environments "in~itself") are developed and available equally.
+Screen readers {guarantee} the~accessibility of~any~arbitrary functionality in~any possible form ,
+meantime, environments "in~itself" take care that a~fixed number of~everyday tasks 
+is~accessible in~{most suitable} for~perception of~blind people form.
+
+
+== Should Luwrain users refuse the~accessibility technologies they used~to work previously? ==
+
+No, because Luwrain can be installed as~an~application on~the~operating system the~user already has installed.
+It is absolutely OK to~use it only for~tasks, everybody chooses for~his/her individual case. 
+In~addition, the~already installed operating system could be needed by~colleagues or other members of~a~family
+if they share the~same machine with disabled person.
+
+== Why the~Luwrain UI is more~suitable for~blind users? ==
+
+People without the~problems with~eyesight use graphical user interface (GUI).
+Usually it is Microsoft Windows, Apple MocOS-X or different desktop environments for~GNU/Linux.
+The~GUI developers initially have designed their technology 
+to~get highest efficiency using the~mouse as~a~method of~control.
+Meantime, the~mouse is~inaccessible for~handicapped people and that  restricts their speed of~work and level of~comfort.
+Luwrain brings working objects to~user in~the form the~most suitable for~his/her perception.
+We spent a~lot of~time to~obtain necessary experience and understanding how to~do~that.
+You can read more about exact differences of~Luwrain on~[local:/doc/difference/ corresponding page].
+
+== May I create my own application for~Luwrain? ==
+
+Of~cource, and we highly encourage everybody to~create any third party applications for~Luwrain.
+They can be~easily implemented on~Java.
+You can read more about this on~[local:/doc/net-app/ corresponding page].
+
+== Is PC~screen empty during the~work  in~Luwrain? ==
+
+No, we use the~screen as an~additional method to~bring information for~users with~low~vision.
+It~plays a~supplementary role but remains very important.
+
+== What kind of~PC is the~most suitable for~Luwrain? ==
+
+We are trying to~support using Luwrain both of~mobile and desktop personal computers.
+For~mobile computers it~is better to~use Luwrain as~a~stand-alone operating system 
+because it~tries to~use all~possible ways of~control, including touchpad,
+and this makes a~laptop a~elegant accessory for~blind people.
+On~desktop computers, more likely, you would prefer Luwrain as~an~application,
+although installation as~an~stand-alone operating system remains still available. 
+
+== What is the~current state of~Luwrain development process? ==
+
+Пока в~стадии технологического прототипа.
+Работы очень много, и мы будем поэтапно выводить в~стабильное состояние различные компоненты.
+Проект очень нуждается в[local:/doc/sponsors/ ~серьёзной финансовой поддержке], которая значительно ускорила~бы работу и получение результата.
+
+== Should Luwrain users pay anything for~Luwrain? ==
+
+Нет.
+Luwrain --- это свободное ПО.
+Все материалы и результаты проекта находятся в~открытом доступе и распространяются бесплатно.
+
+== Can I create my custom Luwrain build? ==
+
+Да, но если отличия от~нашей официальной версии достаточно существенные,
+мы попросим вас  для~вашей сборки  выбрать другое название.
+Вы можете найти более подробную информацию о~правовом статусе на~[local:/doc/legal/ этой странице].
+
+== How do the~web-browser function in~Luwrain? ==
+
+В~Luwrain в~виде самостоятельной операционной системы 
+включён Mozilla Firefox с~активированными  специальными возможностями.
+Работа с~ним производится  вне~специализированного интерфейса Luwrain,
+что объясняется сложностью организации современных веб-приложений,
+но мы работаем над~тем, чтобы  перенести работу с~браузером в~интерфейс Luwrain в~будущем. 
+
+== Is it impossible to~launch external application in~Luwrain as~a~stand-alone OS? ==
+
+Возможен.
+В~комплект поставки включается специальный компонент,
+который позволяет в~случае необходимости запустить оконные приложения для~Linux,
+которые поддерживают работу вспомогательных технологий в~традициях AT-SPI (например, {{Skype}}).
+Помимо этого, не~следует забывать,
+что остаются доступными все~приложения командной строки (например, {{ping}} или {{lame}}),
+поскольку Luwrain имеет встроенный терминал.
+
+== I heard  that publishing systems TeX and Lilypond are very useful for~blind people, what about them? ==
+
+Luwrain в~виде самостоятельной операционной системы продолжает оставаться 
+обычным дистрибутивом GNU/Linux.
+Это означает, что из~доступных репозиториев можно установить любой пакет или приложение,
+которое окажется полезным, включая TeX и Lilypond.
+Это по-настоящему мощные пакеты, которые открывают незрячим людям множество возможностей в~плане подготовки печатных материалов,
+а~также презентации для~публичных выступлений.
+Мы активно поддерживаем их~использование.  
+
+== Are blind people able to~install Luwrain on~hard drive without any external sighted assistance? ==
+
+Да, у~нас есть доступная программа установки,
+но необходимо помнить, что выбор загрузочного устройства в~настройках BIOS обычно невозможен без~помощи зрячего человека. 
+
+== May I participate in~Luwrain project and contribute to~it? ==
+
+Конечно, Luwrain --- это открытый проект, и все желающие могут к~нему присоединиться.
+Мы активно поддерживаем создание [local:/community/ сообщества] вокруг нашего проекта.
+
 luwrain-page-ru
 
 = Часто задаваемые вопросы =

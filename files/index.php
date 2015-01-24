@@ -156,7 +156,7 @@
 	  <ul class="footerList">
 	    <li class="sectionFooter">
 	      <div id = "footer1">
-		<span class="font16"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2015 Разработчики Luwrain':'&#169; 2012&#x2013;2015 Luwrain developers'?></span>
+		<span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2015 Разработчики Luwrain':'&#169; 2012&#x2013;2015 Luwrain developers'?></span>
 	      </div>
 	    </li>
 	    <li class="sectionFooter">
