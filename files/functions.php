@@ -33,27 +33,27 @@ function luwrain_link($path)
 		    <a href="<?php echo luwrain_link('/doc/user/start/');?>">С чего начать?</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/community/bugs/');?>">Сообщить об ошибке</a>
+		    <a href="<?php echo luwrain_link('/doc/user/manual/');?>">Руководство пользователя</a>
 		  </li>
 		  <li class="linkMenuLast">
-		    <a href="<?php echo luwrain_link('/resources/');?>">Все материалы</a>
+		    <a href="<?php echo luwrain_link('/doc/about/');?>">О проекте</a>
 		  </li>
 		  <li class="">
 		    <ul class="subMenuSmall">
 		      <li>
-			<a href="/community/mailing-lists/">Список рассылки</a>
+			<a href="<?php echo luwrain_link('/doc/faq/');?>">Часто задаваемые вопросы</a>
 		      </li>
 		      <li>
-			<a href="http://twitter.com/luwrain">Twitter</a>
+			<a href="<?php echo luwrain_link('/doc/legal/');?>">Правовой статус</a>
 		      </li>
 		      <li>
-			<a href="<?php echo luwrain_link('/community/publications/');?>">Публикации</a>
+			<a href="<?php echo luwrain_link('/doc/roadmap/');?>">Дорожная карта</a>
 		      </li>
 		      <li>
-			<a href="<?php echo luwrain_link('/download/sources/');?>">Исходный код</a>
+			<a href="<?php echo luwrain_link('/doc/contacts/');?>">Контакты</a>
 		      </li>
 		      <li>
-			<a href="<?php echo luwrain_link('/api/');?>">API</a>
+			<a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы</a>
 		      </li>
 		    </ul>
 		  </li>
@@ -64,13 +64,13 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/new-app/');?>">Создать новое приложение</a>
+		    <a href="http://twitter.com/luwrain">Twitter</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/user/installed-os/');?>">Для на Mac или Windows</a>
+		    <a href="<?php echo luwrain_link('/community/mailing-list/');?>">Список рассылки</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/legal/');?>">Лицензия</a>
+		    <a href="<?php echo luwrain_link('/doc/companies/');?>">Для компаний</a>
 		  </li>
 		</ul>
 	      </div>
@@ -79,13 +79,13 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/about/');?>">О проекте</a>
+		    <a href="/api/">Luwrain API</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы</a>
+		    <a href="<?php echo luwrain_link('/download/git/');?>">Git репозитории</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/contacts/');?>">Контакты</a>
+		    <a href="<?php echo luwrain_link('/community/bugs/');?>">Сообщить об ошибке</a>
 		  </li>
 		</ul>
 	      </div>
@@ -105,27 +105,27 @@ function luwrain_link($path)
 		    <a href="<?php echo luwrain_link('/doc/user/start/');?>">Getting started</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/community/bugs/');?>">Report a bug</a>
+		    <a href="<?php echo luwrain_link('/doc/user/manual/');?>">User manual</a>
 		  </li>
 		  <li class="linkMenuLast">
-		    <a href="<?php echo luwrain_link('/resources/');?>">All resources</a>
+		    <a href="<?php echo luwrain_link('/doc/about/');?>">About the project</a>
 		  </li>
 		  <li class="">
 		    <ul class="subMenuSmall">
 		      <li>
-			<a href="/community/mailing-lists/">Mailing list</a>
+			<a href="<?php echo luwrain_link('/doc/faq/');?>">FAQ</a>
 		      </li>
 		      <li>
-			<a href="http://twitter.com/luwrain">Twitter</a>
+			<a href="<?php echo luwrain_link('/doc/legal/');?>">Legal notes</a>
 		      </li>
 		      <li>
-			<a href="<?php echo luwrain_link('/community/publications/');?>">Publications</a>
+			<a href="<?php echo luwrain_link('/doc/roadmap/');?>">Roadmap</a>
 		      </li>
 		      <li>
-			<a href="<?php echo luwrain_link('/download/sources/');?>">Source code</a>
+			<a href="<?php echo luwrain_link('/doc/contacts/');?>">Contact us</a>
 		      </li>
 		      <li>
-			<a href="<?php echo luwrain_link('/api/');?>">API</a>
+			<a href="<?php echo luwrain_link('/doc/authors/');?>">Authors</a>
 		      </li>
 		    </ul>
 		  </li>
@@ -136,13 +136,13 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/new-app/');?>">Your own application</a>
+		    <a href="http://twitter.com/luwrain">Twitter</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/user/installed-os/');?>">Run on Mac or Windows</a>
+		    <a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Mailing list</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/legal/');?>">Legal notes</a>
+		    <a href="<?php echo luwrain_link('/doc/companies/');?>">For companies</a>
 		  </li>
 		</ul>
 	      </div>
@@ -151,13 +151,13 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/about/');?>">About the project</a>
+		    <a href="/api/">Luwrain API</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/authors/');?>">Authors</a>
+		    <a href="<?php echo luwrain_link('/download/git/');?>">Git repositories</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/contacts/');?>">Contact us</a>
+		    <a href="<?php echo luwrain_link('/community/bugs/');?>">Report a bug</a>
 		  </li>
 		</ul>
 	      </div>
