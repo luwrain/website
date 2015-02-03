@@ -3,20 +3,20 @@
                 <h1>About the project</h1>
                 <p>See also:</p>
                 <ul>
-                  <li><a href="<?echo luwrain_link('difference/');?>">Why is Luwrain different than other accessible solutions?</a></li>
-                  <li><a href="<?echo luwrain_link('faq/');?>">Frequently asked questions</a></li>
+                  <li><a href="<?php echo luwrain_link('difference/');?>">Why is Luwrain different than other accessible solutions?</a></li>
+                  <li><a href="<?php echo luwrain_link('faq/');?>">Frequently asked questions</a></li>
                 </ul>
                 <h2>What are we working on?</h2>
                 <p>
-                  It&#160;is definitely right if you are&#160;thinking of&#160;Luwrain primarily as&#160;of&#160;a&#160;special
-                  conception for&#160;interaction for&#160;blind people with&#160;personal computers. This&#160;approach,
-                  which we&#160;called &#x22;text-based interface&#x22;, in&#160;conjunction with&#160;technologies
-                  chosen for&#160;implementation, gives really new&#160;chances to&#160;improve lifes of&#160;handicapped
-                  people. Arguably, the&#160;navigation over a&#160;text file is the&#160;most comfortable
-                  and understandable way of&#160;doing anything on PC&#x27;s with&#160;assistive technologies
-                  and Luwrain&#x27;s idea is to&#160;spread this simple finding everywhere. That doesn&#x27;t
-                  mean that Luwrain hasn&#x27;t any elements similar to&#160;GUI items at all totally (e.g.
-                  forms or menus) but all of them should be reconsidered in&#160;new&#160;way. Just imagine:
+                  In&#160;order to&#160;get the&#160;proper understanding what Luwrain is, you should think
+                  of it as of a&#160;new approach to&#160;the&#160;accessibility technologies for&#160;blind
+                  people, which brings the&#160;information to&#160;users without eyesight in&#160;form with
+                  maximum adjustments to&#160;their perception. This sounds nice but there is nothing fantastic.
+                  Arguably, the&#160;navigation over a&#160;text file is the&#160;most comfortable and understandable
+                  way of&#160;doing anything on PC&#x27;s with&#160;assistive technologies and Luwrain&#x27;s
+                  idea is to&#160;spread this simple finding everywhere. That doesn&#x27;t mean that Luwrain
+                  hasn&#x27;t any elements similar to&#160;GUI items at all totally (e.g. forms or menus)
+                  but all of them should be reconsidered in&#160;new&#160;way. Just imagine:
                 </p>
                 <ul>
                   <li>
@@ -57,7 +57,7 @@
                   available on&#160;any&#160;operating system which has a&#160;proper Java&#160;SE support.
                   It is true enough but Luwrain shows its best primarily on&#160;GNU/Linux, which it has
                   been initially designed for. The&#160;original Luwrain distribution is&#160;provided as&#160;a&#160;stand-alone
-                  <a href="<?echo luwrain_link('/download/distr/');?>">bootable ISO-image</a> for&#160;using completely free&#160;of&#160;charge
+                  <a href="<?php echo luwrain_link('/download/distr/');?>">bootable ISO-image</a> for&#160;using completely free&#160;of&#160;charge
                   and capable of&#160;installation without any sighted help.
                 </p>
                 <p>
@@ -72,7 +72,7 @@
                 <p>
                   We&#160;take these benefits as&#160;quite sufficient to&#160;do our work but returning
                   to&#160;Luwrain portability it is&#160;possible to&#160;discover new areas previously
-                  left mostly untouched. Luwrain can be&#160;used as&#160;<a href="<?echo luwrain_link('/doc/new-app/');?>">a&#160;framework
+                  left mostly untouched. Luwrain can be&#160;used as&#160;<a href="<?php echo luwrain_link('/doc/new-app/');?>">a&#160;framework
                   for&#160;creating the&#160;applications</a> designed specially for&#160;blind people. Luwrain
                   promises that these applications will be&#160;understandable for&#160;disabled persons
                   and available for&#160;them due to&#160;presence of&#160;Java on&#160;most of&#160;popular
@@ -99,10 +99,10 @@
                 <p>См.&#160;также:</p>
                 <ul>
                   <li>
-                    <a href="<?echo luwrain_link('difference/');?>">Чем Luwrain отличается от&#160;других вспомогательных средств
+                    <a href="<?php echo luwrain_link('difference/');?>">Чем Luwrain отличается от&#160;других вспомогательных средств
                     для&#160;людей с&#160;нарушениями зрения?</a>
                   </li>
-                  <li><a href="<?echo luwrain_link('faq/');?>">Часто задаваемые вопросы</a></li>
+                  <li><a href="<?php echo luwrain_link('faq/');?>">Часто задаваемые вопросы</a></li>
                   <li>
                     <a target="_blank" href="http://marigostra.ru/projects/luwrain/">Неформальный манифест
                     от&#160;авторов проекта</a>
@@ -157,7 +157,7 @@
                   Предложенная выше идея реализуется на&#160;языке Java и может быть запущена практически
                   на&#160;любой платформе, которая имеет полноценную поддержку Java&#160;SE. Тем&#160;не&#160;менее,
                   с&#160;самой лучшей стороны Luwrain показывает себя прежде всего на&#160;GNU/Linux, для&#160;которой
-                  первоначально и задумывался. Полная поставка Luwrain предлагается в&#160;виде <a href="<?echo luwrain_link('/download/distr/');?>">загрузочного
+                  первоначально и задумывался. Полная поставка Luwrain предлагается в&#160;виде <a href="<?php echo luwrain_link('/download/distr/');?>">загрузочного
                   ISO-образа</a>, доступного для&#160;самостоятельной установки на&#160;жёсткий диск и полностью
                   бесплатного для&#160;использования. Это делает LUwrain решением, подходящим для&#160;многих
                   распространённых задач, возникающих у&#160;большого числа пользователей с&#160;ограниченными
@@ -172,7 +172,7 @@
                   На&#160;наш взгляд, упомянутые преимущества уже могли&#160;бы быть достаточными, чтобы
                   вести подобную работу, но вместе с&#160;тем переносимость Luwrain позволяет затронуть некоторые
                   новые области, которым до&#160;текущего момента уделялось относительно мало внимания. Luwrain
-                  может быть использован как&#160;<a href="<?echo luwrain_link('/doc/new-app/');?>">инструментарий для&#160;создания
+                  может быть использован как&#160;<a href="<?php echo luwrain_link('/doc/new-app/');?>">инструментарий для&#160;создания
                   доступных приложений</a>, адаптированных специально для&#160;людей с&#160;нарушениями зрения.
                   Luwrain обещает разработчикам приложений, что созданные продукты будут понятны пользователям
                   с&#160;ограниченными возможностями и будут им доступны на&#160;всех платформах, на&#160;которых

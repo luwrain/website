@@ -50,14 +50,14 @@
                   for&#160;handicapped people and that restricts their speed of&#160;work and level of&#160;comfort.
                   Luwrain brings working objects to&#160;user in&#160;the form the&#160;most suitable for&#160;his/her
                   perception. We spent a&#160;lot of&#160;time to&#160;obtain necessary experience and understanding
-                  how to&#160;do&#160;that. You can read more about exact differences of&#160;Luwrain on&#160;<a href="<?echo luwrain_link('/doc/difference/');?>">corresponding
+                  how to&#160;do&#160;that. You can read more about exact differences of&#160;Luwrain on&#160;<a href="<?php echo luwrain_link('/doc/difference/');?>">corresponding
                   page</a>.
                 </p>
                 <h2>May I create my own application for&#160;Luwrain?</h2>
                 <p>
                   Of&#160;cource, and we highly encourage everybody to&#160;create any third party applications
                   for&#160;Luwrain. They can be&#160;easily implemented on&#160;Java. You can read more about
-                  this on&#160;<a href="<?echo luwrain_link('/doc/net-app/');?>">corresponding page</a>.
+                  this on&#160;<a href="<?php echo luwrain_link('/doc/net-app/');?>">corresponding page</a>.
                 </p>
                 <h2>Is PC&#160;screen empty during the&#160;work in&#160;Luwrain?</h2>
                 <p>
@@ -76,7 +76,7 @@
                 <h2>What is the&#160;current state of&#160;Luwrain development process?</h2>
                 <p>
                   Пока в&#160;стадии технологического прототипа. Работы очень много, и мы будем поэтапно
-                  выводить в&#160;стабильное состояние различные компоненты. Проект очень нуждается в<a href="<?echo luwrain_link('/doc/sponsors/');?>">&#160;серьёзной
+                  выводить в&#160;стабильное состояние различные компоненты. Проект очень нуждается в<a href="<?php echo luwrain_link('/doc/sponsors/');?>">&#160;серьёзной
                   финансовой поддержке</a>, которая значительно ускорила&#160;бы работу и получение результата.
                 </p>
                 <h2>Should Luwrain users pay anything for&#160;Luwrain?</h2>
@@ -88,7 +88,7 @@
                 <p>
                   Да, но если отличия от&#160;нашей официальной версии достаточно существенные, мы попросим
                   вас для&#160;вашей сборки выбрать другое название. Вы можете найти более подробную информацию
-                  о&#160;правовом статусе на&#160;<a href="<?echo luwrain_link('/doc/legal/');?>">этой странице</a>.
+                  о&#160;правовом статусе на&#160;<a href="<?php echo luwrain_link('/doc/legal/');?>">этой странице</a>.
                 </p>
                 <h2>How do the&#160;web-browser function in&#160;Luwrain?</h2>
                 <p>
@@ -132,7 +132,7 @@
                 <h2>May I participate in&#160;Luwrain project and contribute to&#160;it?</h2>
                 <p>
                   Конечно, Luwrain &#x2014; это открытый проект, и все желающие могут к&#160;нему присоединиться.
-                  Мы активно поддерживаем создание <a href="<?echo luwrain_link('/community/');?>">сообщества</a> вокруг нашего
+                  Мы активно поддерживаем создание <a href="<?php echo luwrain_link('/community/');?>">сообщества</a> вокруг нашего
                   проекта.
                 </p>
 
@@ -187,12 +187,12 @@
                   работы и уровень комфорта, поскольку они вынуждены заменять действия мышью действиями на&#160;клавиатуре.
                   Luwrain представляет объекты в&#160;форме, предельно понятной незрячему человеку, и позволяет
                   успешно управлять ими без&#160;мыши. Вы можете ознакомится с&#160;конкретным описанием
-                  отличий на&#160;<a href="<?echo luwrain_link('/doc/difference/');?>">этой странице</a>.
+                  отличий на&#160;<a href="<?php echo luwrain_link('/doc/difference/');?>">этой странице</a>.
                 </p>
                 <h2>Могу&#160;ли я создать своё собственное приложение для&#160;Luwrain?</h2>
                 <p>
                   Конечно, мы активно поддерживаем появление сторонних приложений для&#160;Luwrain. Они могут
-                  быть легко созданы на&#160;языке Java. Подробнее об&#160;этом можно узнать на&#160;<a href="<?echo luwrain_link('/doc/net-app/');?>">этой
+                  быть легко созданы на&#160;языке Java. Подробнее об&#160;этом можно узнать на&#160;<a href="<?php echo luwrain_link('/doc/net-app/');?>">этой
                   странице</a>.
                 </p>
                 <h2>Во&#160;время работы в&#160;Luwrain экран не&#160;используется вовсе?</h2>
@@ -212,7 +212,7 @@
                 <h2>В&#160;каком состоянии находится разработка Luwrain в&#160;настоящий момент?</h2>
                 <p>
                   Пока в&#160;стадии технологического прототипа. Работы очень много, и мы будем поэтапно
-                  выводить в&#160;стабильное состояние различные компоненты. Проект очень нуждается в<a href="<?echo luwrain_link('/doc/sponsors/');?>">&#160;серьёзной
+                  выводить в&#160;стабильное состояние различные компоненты. Проект очень нуждается в<a href="<?php echo luwrain_link('/doc/sponsors/');?>">&#160;серьёзной
                   финансовой поддержке</a>, которая значительно ускорила&#160;бы работу и получение результата.
                 </p>
                 <h2>Должны&#160;ли пользователи что-либо платить за&#160;Luwrain?</h2>
@@ -224,7 +224,7 @@
                 <p>
                   Да, но если отличия от&#160;нашей официальной версии достаточно существенные, мы попросим
                   вас для&#160;вашей сборки выбрать другое название. Вы можете найти более подробную информацию
-                  о&#160;правовом статусе на&#160;<a href="<?echo luwrain_link('/doc/legal/');?>">этой странице</a>.
+                  о&#160;правовом статусе на&#160;<a href="<?php echo luwrain_link('/doc/legal/');?>">этой странице</a>.
                 </p>
                 <h2>Как работает браузер в&#160;Luwrain?</h2>
                 <p>
@@ -265,7 +265,7 @@
                 <h2>Могу&#160;ли я присоединиться к&#160;проекту и внести свой вклад?</h2>
                 <p>
                   Конечно, Luwrain &#x2014; это открытый проект, и все желающие могут к&#160;нему присоединиться.
-                  Мы активно поддерживаем создание <a href="<?echo luwrain_link('/community/');?>">сообщества</a> вокруг нашего
+                  Мы активно поддерживаем создание <a href="<?php echo luwrain_link('/community/');?>">сообщества</a> вокруг нашего
                   проекта.
                 </p>
 

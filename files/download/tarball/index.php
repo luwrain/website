@@ -6,7 +6,7 @@
                   code, you can download it as&#160;single tarballs. Please be aware that binary and source
                   archives are not equal; binary version includes some files (e.g. multimedia materials),
                   not&#160;shipped with&#160;source code. If you&#x27;re interested in&#160;tracking the&#160;changes
-                  in&#160;Luwrain source code tree it is more preferable to&#160;use <a href="<?echo luwrain_link('/download/git/');?>">Git
+                  in&#160;Luwrain source code tree it is more preferable to&#160;use <a href="<?php echo luwrain_link('/download/git/');?>">Git
                   repositories</a> instead.
                 </p>
                 <p>Latest Luwrain version: <b>0.3.0</b> (published on&#160;October 7, 2014)</p>
@@ -27,7 +27,7 @@
                   бинарных файлов. Обратите, пожалуйста, внимание, что эти&#160;архивы не&#160;равнозначны
                   &#x2014; бинарная версия может содержать файлы, отсутствующие в&#160;исходных текстах (например,
                   мультимедиа материалы). Если Вас интересует отслеживание изменений в&#160;исходных текстах,
-                  вероятно, Вам будет удобнее пользоваться <a href="<?echo luwrain_link('/download/git/');?>">нашими Git репозиториями</a>.
+                  вероятно, Вам будет удобнее пользоваться <a href="<?php echo luwrain_link('/download/git/');?>">нашими Git репозиториями</a>.
                 </p>
                 <p>Последняя версия Luwrain: <b>0.3.0</b> (представлена 7&#160;октября 2014&#160;г.)</p>
                 <p>По&#160;этой ссылке Вы можете загрузить исходные тексты Luwrain:</p>

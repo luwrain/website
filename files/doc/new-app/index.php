@@ -1,3 +1,33 @@
-<?php include "../../functions.php"; luwrain_begin_page('/doc/new-app/index.php', luwrain_current_lang() == 'ru'?'Создание нового приложения':'Creating your own application');?>
-<?php luwrain_content_not_written();?>
+<?php include "../../functions.php"; luwrain_begin_page('/doc/new-app/index.php', luwrain_current_lang() == 'ru'?'Создание нового приложения':'Creating  an~application');?>
+<?php if (luwrain_current_lang() == 'en') {?>
+                <h1>Creating an&#160;application</h1>
+                <p>
+                  We&#160;encourage you to&#160;create any&#160;new applications for&#160;Luwrain you may
+                  want to&#160;have.
+                </p>
+
+<?php }?>
+<?php if (luwrain_current_lang() == 'ru') {?>
+                <h1>Создание нового приложения</h1>
+                <p>
+                  Luwrain &#x2014; это прежде всего платформа для&#160;создания приложений, предельно адаптированных
+                  для&#160;восприятия людей с&#160;нарушениями зрения. Возможность делать это является неотъемлемой
+                  частью нашего продукта. Документация этого раздела призвана помочь всем желающим получить
+                  необходимые сведения, которые требуются для самостоятельной подготовки расширений Luwrain.
+                </p>
+                <p>
+                  Описание разбито на&#160;несколько секций, перечисленных в&#160;порядке, наиболее подходящем
+                  для&#160;последовательного чтения:
+                </p>
+                <ul>
+                  <li>введение;</li>
+                  <li><a href="<?php echo luwrain_link('essentials/');?>">основные понятия приложений</a>;</li>
+                  <li>класс <i>Luwrain</i>;</li>
+                  <li>библиотека стандартных элементов управления;</li>
+                  <li>всплывающие библиотека стандартных всплывающих областей;</li>
+                  <li>сборка стороннего приложения;</li>
+                  <li>пример простейшего приложения.</li>
+                </ul>
+
+<?php }?>
 <?php luwrain_end_page('/doc/new-app/index.php');?>

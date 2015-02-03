@@ -9,6 +9,8 @@ doc.faq.licrict
 doc.sponsors.licrict
 doc.roadmap.licrict
 doc.licrict
+newapp.essentials.licrict
+newapp.licrict
 download.licrict
 download.git.licrict
 download.tarball.licrict

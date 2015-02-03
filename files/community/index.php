@@ -9,11 +9,11 @@
                 </p>
                 <p>Choose the&#160;option you are interested&#160;in:</p>
                 <ul>
-                  <li><a href="<?echo luwrain_link('mailing-lists');?>">Our&#160;mailing list</a></li>
+                  <li><a href="<?php echo luwrain_link('mailing-lists');?>">Our&#160;mailing list</a></li>
                   <li><a target="_blank" href="http://twitter.com/luwrain">Follow&#160;us on&#160;Twitter</a></li>
-                  <li><a href="<?echo luwrain_link('publications');?>">Our&#160;publications</a></li>
-                  <li><a href="<?echo luwrain_link('extensions');?>">The&#160;list of&#160;extensions</a></li>
-                  <li><a href="<?echo luwrain_link('bugs');?>">Reporting a&#160;bug</a></li>
+                  <li><a href="<?php echo luwrain_link('publications');?>">Our&#160;publications</a></li>
+                  <li><a href="<?php echo luwrain_link('extensions');?>">The&#160;list of&#160;extensions</a></li>
+                  <li><a href="<?php echo luwrain_link('bugs');?>">Reporting a&#160;bug</a></li>
                 </ul>
 
 <?php }?>
@@ -27,11 +27,11 @@
                 </p>
                 <p>Сообщество Luwrain состоит из&#160;следующих ресурсов:</p>
                 <ul>
-                  <li><a href="<?echo luwrain_link('mailing-lists');?>">Список рассылки для&#160;обсуждений</a></li>
+                  <li><a href="<?php echo luwrain_link('mailing-lists');?>">Список рассылки для&#160;обсуждений</a></li>
                   <li><a href="http://twitter.com/luwrain">Лента новостей на&#160;Twitter</a></li>
-                  <li><a href="<?echo luwrain_link('publications');?>">Наши публикации</a></li>
-                  <li><a href="<?echo luwrain_link('extensions');?>">Расширения Luwrain</a></li>
-                  <li><a href="<?echo luwrain_link('bugs');?>">Сообщения об&#160;ошибках</a></li>
+                  <li><a href="<?php echo luwrain_link('publications');?>">Наши публикации</a></li>
+                  <li><a href="<?php echo luwrain_link('extensions');?>">Расширения Luwrain</a></li>
+                  <li><a href="<?php echo luwrain_link('bugs');?>">Сообщения об&#160;ошибках</a></li>
                 </ul>
 
 <?php }?>

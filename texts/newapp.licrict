@@ -1,8 +1,34 @@
 
-We~encourage you to~create any~new applications for~Luwrain.
-to~make this process easy.
+ENTITLE='Creating  an~application'
+RUTITLE='Создание нового приложения'
+TARGET=doc/new-app/index.php
 
-* General rules you should know about Luwrain  applications
-* List of static classes you can use
-* What do you need to~make your own application
-* Example application explanation
+luwrain-page-en
+
+= Creating an~application =
+
+We~encourage you to~create any~new applications for~Luwrain you may want to~have.
+
+luwrain-page-ru
+
+= Создание нового приложения =
+
+Luwrain --- это прежде всего платформа для~создания приложений,
+предельно адаптированных для~восприятия людей с~нарушениями зрения.
+Возможность делать это является неотъемлемой частью нашего продукта.
+Документация этого раздела призвана помочь всем желающим получить необходимые сведения,
+которые требуются для самостоятельной подготовки расширений Luwrain.
+
+Описание разбито на~несколько секций,
+перечисленных в~порядке, наиболее подходящем для~последовательного чтения: 
+
+# Введение.
+# [local:essentials/ Основные понятия приложений].
+# Класс {{Luwrain}}.
+# События приложений.
+# Библиотека стандартных элементов управления.
+# Создание собственных элементов управления.
+# Библиотека стандартных всплывающих областей.
+# Создание многопоточных приложений.
+# Сборка стороннего приложения.
+# Пример простейшего приложения.

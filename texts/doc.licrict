@@ -7,31 +7,20 @@ luwrain-page-en
 
 = Luwrain documentation =
 
-We have documentation sections divided onto several groups.
-First of~all, there are the~links to~the~pages with  materials 
-covering various technical details of~the~Luwrain environment.
-All of~them are purposed for~users or developers of~any~kind.
-If you'd like to read the~documentation for~developers you may want to~read either the~sections about developing of~the~Luwrain environment itself  
-or about creating a~new application for~it.
-For~Luwrain developing process fundamentals see the~addition group below.
+Choose the~section you need:
 
-Choose the~technical documentation section you need:
-
-* [local:user/ Luwrain users documentation] 
+* [local:user/ Users documentation] 
 ** [local:user/installation/ Installation instructions: what should you do if you'd like to~install Luwrain on~your computer?]
-** [local:user/manual/ User manual: a~complete guide how to~work in~Luwrain]
+** [local:user/manual/ User manual: a~complete guide to~work in~Luwrain]
 ** [local:user/try/ Try now: running Luwrain for~demonstration without installing on~your computer]
-** [local:user/start/ Getting started: speedy instructions how to~begin work in~Luwrain now]
+** [local:user/start/ Getting started: speedy instructions how to~begin the~work right now]
 ** [local:/community/bugs/ How to~report a~bug?]
-* [local:new-app/ How~to create a~new application for~Luwrain?]
-* [local:devel/ Luwrain environment developers documentation]
+* [local:new-app/ How~to create your own application for~Luwrain?]
+* [local:devel/ Environment developers documentation: how to~work on~Luwrain itself?]
 
-The~Luwrain fundamentals describe legal status, 
-invite to~collaboration in~various ways and 
-contain information about the~authors.
-Read these pages if you'd like to~get project overview at~a~glance.
+== About the~project ==
 
-* [local:about/ The~free story what is Luwrain and why do we think blind users need it?]
+* [local:about/ The~free story what Luwrain is and why do we think blind users need it?]
 * [local:difference/ Why is Luwrain different than other accessible solutions?]
 * [local:authors/ The project authors]
 * [local:legal/ Legal notes]
@@ -44,16 +33,6 @@ luwrain-page-ru
 
 = Документация Luwrain =
 
-Ниже приведены ссылки на~доступные  разделы документации.
-Они~охватывают различные технические вопросы,
-которые необходимо знать пользователям и разработчикам системы.
-Разработчики могут ознакомиться как со~сведениями, 
-необходимыми для~подготовки собственных приложений,
-так и с~информацией для~улучшения рабочего окружения.
-Помимо этого, ниже предлагаются некоторые дополнительные материалы,
-описывающие фундаментальные особенности нашего процесса разработки,
-но не~связанные с~техническими вопросами напрямую.
-
 Выберите интересующий вас раздел:
 
 * [local:user/ Документация для~пользователей] 
@@ -65,9 +44,7 @@ luwrain-page-ru
 * [local:new-app/ Документация для~разработчиков собственных  приложений]
 * [local:devel/ Документация для~разработчиков нашей среды]
 
-Здесь вы можете ознакомиться с~правовым статусом разработки, 
-с~информацией об~авторах 
-и узнать о~имеющихся возможностях для~совместной работы.
+== О~проекте ==
 
 * [local:about/ Что~такое Luwrain, и почему мы думаем, что незрячие люди нуждаются в~нём?]
 * [local:difference/ Чем Luwrain отличается от~других доступных решений?]

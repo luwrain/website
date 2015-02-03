@@ -5,7 +5,7 @@ TARGET=doc/about/index.php
 
 luwrain-page-en
 
-= About the project =
+= About the project  =
 
 See also:
 
@@ -14,10 +14,11 @@ See also:
 
 == What are we working on? ==
 
-It~is definitely right  if  you are~thinking of~Luwrain primarily 
-as~of~a~special conception for~interaction for~blind people with~personal computers.
-This~approach, which we~called "text-based interface", in~conjunction with~technologies 
-chosen for~implementation, gives really new~chances to~improve lifes of~handicapped people.
+In~order to~get the~proper understanding what Luwrain is, 
+you should think of it as of  a~new approach to~the~accessibility technologies  for~blind people, 
+which brings the~information to~users without eyesight in~form
+with maximum adjustments to~their perception. 
+This sounds nice but there is nothing fantastic.
 Arguably, the~navigation over a~text file 
 is the~most comfortable and understandable way of~doing anything on PC's with~assistive technologies
 and Luwrain's idea is to~spread this simple finding everywhere.

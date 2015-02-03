@@ -2,7 +2,7 @@
 
 [ -z "$1" ] && echo "${0##*/}:no input file" >&2 && exit 1
 
-subst s/'href="local:\(.*\)"'/'href="<?echo luwrain_link('\''\1'\'');?>"'/g "$1"
+subst s/'href="local:\(.*\)"'/'href="<?php echo luwrain_link('\''\1'\'');?>"'/g "$1"
 
 subst s/'&nbsp;'/'\&#160;'/g "$1"
 subst s/'&ndash;'/'\&#x2013;'/g "$1"

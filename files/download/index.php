@@ -4,7 +4,7 @@
                 <p>
                   There&#160;are three options of&#160;download you may want to&#160;continue with: ISO-images,
                   tarballs and Git. If you are new to&#160;Luwrain or just need a&#160;distribution for work
-                  very likely you should take <a href="<?echo luwrain_link('distr/');?>">the&#160;first one</a>. This&#160;option
+                  very likely you should take <a href="<?php echo luwrain_link('distr/');?>">the&#160;first one</a>. This&#160;option
                   provides binary distribution prepared in&#160;form of&#160;bootable images.
                 </p>
                 <p>
@@ -18,9 +18,9 @@
                 </p>
                 <p>Please choose the&#160;exact option you need:</p>
                 <ul>
-                  <li><a href="<?echo luwrain_link('distr/');?>">Luwrain distributions as&#160;bootable ISO-images</a></li>
-                  <li><a href="<?echo luwrain_link('tarball/');?>">Luwrain tarballs</a></li>
-                  <li><a href="<?echo luwrain_link('git/');?>">Luwrain Git repositories</a></li>
+                  <li><a href="<?php echo luwrain_link('distr/');?>">Luwrain distributions as&#160;bootable ISO-images</a></li>
+                  <li><a href="<?php echo luwrain_link('tarball/');?>">Luwrain tarballs</a></li>
+                  <li><a href="<?php echo luwrain_link('git/');?>">Luwrain Git repositories</a></li>
                 </ul>
                 <p>
                   <b>NOTE!</b> You always can use host <a href="http://download.luwrain.org">download.luwrain.org</a>
@@ -34,7 +34,7 @@
                 <p>
                   Существуют три&#160;варианта загрузки Luwrain: ISO-образы, tar-архивы и git-репозитории.
                   Если Вы только начинаете знакомство с&#160;Luwrain или Вам нужен дистрибутив для&#160;работы,
-                  то необходимо выбрать <a href="<?echo luwrain_link('distr/');?>">первую опцию</a> из&#160;списка. Она позволяет
+                  то необходимо выбрать <a href="<?php echo luwrain_link('distr/');?>">первую опцию</a> из&#160;списка. Она позволяет
                   получить Luwrain в&#160;виде загрузочного ISO-образа, подходящего для&#160;большинства
                   пользователей.
                 </p>
@@ -47,12 +47,12 @@
                 </p>
                 <p>Выберите интересующий Вас вариант:</p>
                 <ul>
-                  <li><a href="<?echo luwrain_link('distr/');?>">загрузочные ISO-образы</a>;</li>
+                  <li><a href="<?php echo luwrain_link('distr/');?>">загрузочные ISO-образы</a>;</li>
                   <li>
-                    <a href="<?echo luwrain_link('tarball/');?>">tar-архивы с&#160;Luwrain в&#160;виде бинарных файлов и в&#160;виде
+                    <a href="<?php echo luwrain_link('tarball/');?>">tar-архивы с&#160;Luwrain в&#160;виде бинарных файлов и в&#160;виде
                     исходных текстов</a>;
                   </li>
-                  <li><a href="<?echo luwrain_link('git/');?>">git-репозитории с&#160;исходными текстами Luwrain</a>.</li>
+                  <li><a href="<?php echo luwrain_link('git/');?>">git-репозитории с&#160;исходными текстами Luwrain</a>.</li>
                 </ul>
                 <p>
                   <b>ВНИМАНИЕ!</b> Вы можете работать напрямую с&#160;узлом <a href="http://download.luwrain.org">download.luwrain.org</a>,
