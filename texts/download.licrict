@@ -5,52 +5,95 @@ TARGET=download/index.php
 
 luwrain-page-en
 
-= Luwrain downloads =
+= Downloading Luwrain  =
 
-There~are three  options of~download you may want to~continue with: ISO-images, tarballs and Git.
-If you are new to~Luwrain or just need a~distribution for work very likely you  should take [local:distr/ the~first one].
-This~option  provides binary distribution prepared in~form of~bootable images.
+== For~end~users ==
 
-The~tarballs are archives which can be~useful both for~users and developers.
-They give binary and source code versions 
-for~using Luwrain on~the~operating system, 
-which you have installed on~your machine.
-Potentially, any~OS with proper Java~SE support can be use in~this roled
-but we'd like to emphasize that Luwrain show its best primarily on~GNU/Linux.
-Git repositories can be~useful mostly for~developers who would like to~track the~changes 
-and follow the~developing process.
+These options are purposed for~everybody who would like to~use Luwrain just for~the~work.
+The~only difference between them is the~operating system they can be~launched on
+(or~without operating system at~all 
+in~the~case of~bootable ISO-images).
 
-Please choose the~exact option you need:
+Choose the~most suitable form of~Luwrain distribution you need:
 
-* [local:distr/ Luwrain distributions as~bootable ISO-images]
-* [local:tarball/ Luwrain tarballs]
-* [local:git/ Luwrain Git repositories]
+* [local:iso/ 
+Bootable ISO-images] (installed operating system isn't needed)
 
-{NOTE!} You always can use host [http://download.luwrain.org download.luwrain.org] directly 
-and view all~available files and directories through~automatically generated indices.
+* [local:windows/
+For~Microsoft Windows]
+
+* [local:linux/
+For~GNU/Linux]
+
+* [local:mac/
+For~Apple Mac~OS~X]
+
+== For~developers ==
+
+The~first option of~this list is purposed for~the~developers
+of~applications for~Luwrain.
+Others can be~useful only for~developers who would like to~improve Luwrain itself.
+
+* [local:sdk/
+Luwrain~SDK] 
+(needed for~building your own applications for~Luwrain)
+
+* [local:git/
+Git~repositories]
+(the~entire set of~version tracking repositories with source  code of~our project)
+
+* [tarball/
+The~tarballs with source materials]
+(published basically to~make Luwrain sources downloadable in~single click
+but there is a~tarball with~media files which aren't present in~Git repositories)
+
+{NOTE!} You may always use the~host [http://download.luwrain.org download.luwrain.org] directly 
+as~a~single, easily observable place gathering all of~our~materials for~download.
 
 luwrain-page-ru
 
-= Загрузка Luwrain =
+= Загрузка Luwrain  =
 
-Существуют три~варианта загрузки Luwrain: ISO-образы, tar-архивы и git-репозитории.
-Если Вы только начинаете знакомство с~Luwrain или Вам нужен дистрибутив для~работы,
-то необходимо выбрать [local:distr/ первую опцию] из~списка.
-Она позволяет получить Luwrain в~виде загрузочного ISO-образа, 
-подходящего для~большинства пользователей.
+== Для~пользователей  ==
 
-Tar-архивы позволяют получитьLuwrain в~бинарном виде или в~виде исходных текстов 
-для~запуска на~любой операционной системе,
-которая имеет полноценную поддержку Java~SE,
-хотя мы обращаем Ваше внимание, что Luwrain лучше всего подходит для~работы преимущественно на~GNU/Linux.
-Git-репозитории являются удобным инструментом для~тех,
-кто желает  следить за~процессом разработки и сразу~же получать изменения.
+Варианты в~этом разделе предназначены для~людей,
+кому Luwrain требуется непосредственно только для~работы.
+Единственное различие между ними --- 
+операционная система, на~которой они могут быть запущены
+(в~случае загрузочных ISO-образов операционная система не~требуется вовсе).
 
-Выберите интересующий Вас вариант:
+Выберите наиболее подходящий для~вас вариант поставки:
 
-* [local:distr/ загрузочные ISO-образы];
-* [local:tarball/ tar-архивы с~Luwrain в~виде бинарных файлов и в~виде исходных текстов];
-* [local:git/ git-репозитории с~исходными текстами Luwrain].
+* [local:iso/ 
+в~виде загрузочного ISO-образа] 
+(какая-либо установленная операционная система не~требуется);
+
+* [local:windows/
+версия для~Microsoft Windows];
+
+* [local:linux/
+версия для~GNU/Linux];
+
+* [local:mac/
+версия для~Apple Mac~OS~X].
+
+== Для~разработчиков  ==
+
+Первый вариант в~списке ниже предназначен для~разработчиков собственных приложений.
+Остальные элементы требуются людям, желающим принять участие в~работе над~нашей средой самой по~себе.
+
+* [local:sdk/
+Luwrain~SDK] 
+(требуется для~разработки ваших собственных приложений);
+
+* [local:git/
+репозитории Git]
+(полный перечень репозиториев для~отслеживания изменений в~исходных текстах нашего проекта);
+
+* [tarball/
+архивы с~материалами проекта]
+(предоставляются в~основном для~упрощения загрузки Luwrain,
+но помимо исходных текстов содержат также  звуковые файлы, отсутствующие в~репозиториях Git).
 
 {ВНИМАНИЕ!} 
 Вы можете работать напрямую с~узлом [http://download.luwrain.org download.luwrain.org],

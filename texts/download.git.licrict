@@ -1,13 +1,13 @@
 
 ENTITLE='Git repositories'
-RUTITLE='Git репозитории'
+RUTITLE='РепозиторииGit'
 TARGET=download/git/index.php
 
 luwrain-page-en
 
 = Luwrain Git repositories =
 
-The~source code of~the~Luwrain project is easily accessible through   a~set of~Git repositories  hosted on~[[http://github.com/ github.com]].
+The~source code of~the~Luwrain project is easily accessible through   a~set of~Git repositories  hosted on~[[http://github.com/luwrain/ github.com]].
 There are direct links to~them listed  in~several categories 
 with~brief comments.
 
@@ -126,10 +126,10 @@ the document editor
 
 luwrain-page-ru
 
-= Git репозитории Luwrain =
+= репозитории Git =
 
-Исходный код Luwrain может быть загружен из~нескольких Git репозиториев, 
-расположенных на~сервере [[http://github.com/ github.com]].
+Исходный код Luwrain может быть загружен из~нескольких репозиториев Git, 
+расположенных на~сервере [[http://github.com/luwrain/ github.com]].
 Ниже приведён их~список, разбитый на~несколько категорий.
 
 == Основные репозитории  ==

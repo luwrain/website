@@ -2,7 +2,7 @@
 
 ENTITLE='Bootable images'
 RUTITLE='Загрузочные образы'
-TARGET=download/distr/index.php
+TARGET=download/iso/index.php
 
 luwrain-page-en
 

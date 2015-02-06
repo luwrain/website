@@ -1,4 +1,4 @@
-<?php include "../../functions.php"; luwrain_begin_page('/download/distr/index.php', luwrain_current_lang() == 'ru'?'Загрузочные образы':'Bootable images');?>
+<?php include "../../functions.php"; luwrain_begin_page('/download/iso/index.php', luwrain_current_lang() == 'ru'?'Загрузочные образы':'Bootable images');?>
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Luwrain bootable images</h1>
                 <p>
@@ -61,4 +61,4 @@
                 </ul>
 
 <?php }?>
-<?php luwrain_end_page('/download/distr/index.php');?>
+<?php luwrain_end_page('/download/iso/index.php');?>

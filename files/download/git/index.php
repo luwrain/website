@@ -1,9 +1,9 @@
-<?php include "../../functions.php"; luwrain_begin_page('/download/git/index.php', luwrain_current_lang() == 'ru'?'Git репозитории':'Git repositories');?>
+<?php include "../../functions.php"; luwrain_begin_page('/download/git/index.php', luwrain_current_lang() == 'ru'?'РепозиторииGit':'Git repositories');?>
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Luwrain Git repositories</h1>
                 <p>
                   The&#160;source code of&#160;the&#160;Luwrain project is easily accessible through a&#160;set
-                  of&#160;Git repositories hosted on&#160;<a target="_blank" href="http://github.com/">github.com</a>.
+                  of&#160;Git repositories hosted on&#160;<a target="_blank" href="http://github.com/luwrain/">github.com</a>.
                   There are direct links to&#160;them listed in&#160;several categories with&#160;brief comments.
                 </p>
                 <h2>Main repositories</h2>
@@ -125,11 +125,11 @@
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-                <h1>Git репозитории Luwrain</h1>
+                <h1>репозитории Git</h1>
                 <p>
-                  Исходный код Luwrain может быть загружен из&#160;нескольких Git репозиториев, расположенных
-                  на&#160;сервере <a target="_blank" href="http://github.com/">github.com</a>. Ниже приведён
-                  их&#160;список, разбитый на&#160;несколько категорий.
+                  Исходный код Luwrain может быть загружен из&#160;нескольких репозиториев Git, расположенных
+                  на&#160;сервере <a target="_blank" href="http://github.com/luwrain/">github.com</a>. Ниже
+                  приведён их&#160;список, разбитый на&#160;несколько категорий.
                 </p>
                 <h2>Основные репозитории</h2>
                 <ul>

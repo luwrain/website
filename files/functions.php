@@ -1,4 +1,6 @@
 <?php
+  include 'versions.php';
+
   function luwrain_current_lang()
 {
     return array_key_exists('lang', $_GET)?$_GET['lang']:'en';
@@ -67,7 +69,7 @@ function luwrain_link($path)
 		    <a href="http://twitter.com/luwrain">Twitter</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/community/mailing-list/');?>">Список рассылки</a>
+		    <a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Список рассылки</a>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="<?php echo luwrain_link('/doc/companies/');?>">Для компаний</a>
@@ -473,4 +475,13 @@ function luwrain_link($path)
     if (luwrain_current_lang() == 'ru')
       echo '                  <p>Мы приносим свои извинения, но текст этой страницы в настоящий момент не подготовлен.</p>'."\n";
   }
+
+  function luwrain_content_being_written()
+  {
+    if (luwrain_current_lang() == 'en')
+      echo '                  <p><b>ATTENTION:</b> This page is still in work and may provide an incorrect or incomplete information.</p>'."\n";
+    if (luwrain_current_lang() == 'ru')
+      echo '                  <p><b>ВНИМАНИЕ:</b> Эта страница находится в разработке и может предоставлять некорректную или неполную информацию.</p>'."\n";
+  }
 ?>
+

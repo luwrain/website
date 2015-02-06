@@ -1,58 +1,87 @@
 <?php include "../functions.php"; luwrain_begin_page('/download/index.php', luwrain_current_lang() == 'ru'?'Загрузка':'downloads');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-                <h1>Luwrain downloads</h1>
+                <h1>Downloading Luwrain</h1>
+                <h2>For&#160;end&#160;users</h2>
                 <p>
-                  There&#160;are three options of&#160;download you may want to&#160;continue with: ISO-images,
-                  tarballs and Git. If you are new to&#160;Luwrain or just need a&#160;distribution for work
-                  very likely you should take <a href="<?php echo luwrain_link('distr/');?>">the&#160;first one</a>. This&#160;option
-                  provides binary distribution prepared in&#160;form of&#160;bootable images.
+                  These options are purposed for&#160;everybody who would like to&#160;use Luwrain just for&#160;the&#160;work.
+                  The&#160;only difference between them is the&#160;operating system they can be&#160;launched
+                  on (or&#160;without operating system at&#160;all in&#160;the&#160;case of&#160;bootable
+                  ISO-images).
                 </p>
-                <p>
-                  The&#160;tarballs are archives which can be&#160;useful both for&#160;users and developers.
-                  They give binary and source code versions for&#160;using Luwrain on&#160;the&#160;operating
-                  system, which you have installed on&#160;your machine. Potentially, any&#160;OS with proper
-                  Java&#160;SE support can be use in&#160;this roled but we&#x27;d like to emphasize that
-                  Luwrain show its best primarily on&#160;GNU/Linux. Git repositories can be&#160;useful
-                  mostly for&#160;developers who would like to&#160;track the&#160;changes and follow the&#160;developing
-                  process.
-                </p>
-                <p>Please choose the&#160;exact option you need:</p>
+                <p>Choose the&#160;most suitable form of&#160;Luwrain distribution you need:</p>
                 <ul>
-                  <li><a href="<?php echo luwrain_link('distr/');?>">Luwrain distributions as&#160;bootable ISO-images</a></li>
-                  <li><a href="<?php echo luwrain_link('tarball/');?>">Luwrain tarballs</a></li>
-                  <li><a href="<?php echo luwrain_link('git/');?>">Luwrain Git repositories</a></li>
+                  <li><a href="<?php echo luwrain_link('iso/');?>">Bootable ISO-images</a> (installed operating system isn&#x27;t needed)</li>
+                  <li><a href="<?php echo luwrain_link('windows/');?>">For&#160;Microsoft Windows</a></li>
+                  <li><a href="<?php echo luwrain_link('linux/');?>">For&#160;GNU/Linux</a></li>
+                  <li><a href="<?php echo luwrain_link('mac/');?>">For&#160;Apple Mac&#160;OS&#160;X</a></li>
+                </ul>
+                <h2>For&#160;developers</h2>
+                <p>
+                  The&#160;first option of&#160;this list is purposed for&#160;the&#160;developers of&#160;applications
+                  for&#160;Luwrain. Others can be&#160;useful only for&#160;developers who would like to&#160;improve
+                  Luwrain itself.
+                </p>
+                <ul>
+                  <li>
+                    <a href="<?php echo luwrain_link('sdk/');?>">Luwrain&#160;SDK</a> (needed for&#160;building your own applications
+                    for&#160;Luwrain)
+                  </li>
+                  <li>
+                    <a href="<?php echo luwrain_link('git/');?>">Git&#160;repositories</a> (the&#160;entire set of&#160;version tracking
+                    repositories with source code of&#160;our project)
+                  </li>
+                  <li>
+                    <a href="tarball/">The&#160;tarballs with source materials</a> (published basically to&#160;make
+                    Luwrain sources downloadable in&#160;single click but there is a&#160;tarball with&#160;media
+                    files which aren&#x27;t present in&#160;Git repositories)
+                  </li>
                 </ul>
                 <p>
-                  <b>NOTE!</b> You always can use host <a href="http://download.luwrain.org">download.luwrain.org</a>
-                  directly and view all&#160;available files and directories through&#160;automatically generated
-                  indices.
+                  <b>NOTE!</b> You may always use the&#160;host <a href="http://download.luwrain.org">download.luwrain.org</a>
+                  directly as&#160;a&#160;single, easily observable place gathering all of&#160;our&#160;materials
+                  for&#160;download.
                 </p>
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
                 <h1>Загрузка Luwrain</h1>
+                <h2>Для&#160;пользователей</h2>
                 <p>
-                  Существуют три&#160;варианта загрузки Luwrain: ISO-образы, tar-архивы и git-репозитории.
-                  Если Вы только начинаете знакомство с&#160;Luwrain или Вам нужен дистрибутив для&#160;работы,
-                  то необходимо выбрать <a href="<?php echo luwrain_link('distr/');?>">первую опцию</a> из&#160;списка. Она позволяет
-                  получить Luwrain в&#160;виде загрузочного ISO-образа, подходящего для&#160;большинства
-                  пользователей.
+                  Варианты в&#160;этом разделе предназначены для&#160;людей, кому Luwrain требуется непосредственно
+                  только для&#160;работы. Единственное различие между ними &#x2014; операционная система,
+                  на&#160;которой они могут быть запущены (в&#160;случае загрузочных ISO-образов операционная
+                  система не&#160;требуется вовсе).
                 </p>
-                <p>
-                  Tar-архивы позволяют получитьLuwrain в&#160;бинарном виде или в&#160;виде исходных текстов
-                  для&#160;запуска на&#160;любой операционной системе, которая имеет полноценную поддержку
-                  Java&#160;SE, хотя мы обращаем Ваше внимание, что Luwrain лучше всего подходит для&#160;работы
-                  преимущественно на&#160;GNU/Linux. Git-репозитории являются удобным инструментом для&#160;тех,
-                  кто желает следить за&#160;процессом разработки и сразу&#160;же получать изменения.
-                </p>
-                <p>Выберите интересующий Вас вариант:</p>
+                <p>Выберите наиболее подходящий для&#160;вас вариант поставки:</p>
                 <ul>
-                  <li><a href="<?php echo luwrain_link('distr/');?>">загрузочные ISO-образы</a>;</li>
                   <li>
-                    <a href="<?php echo luwrain_link('tarball/');?>">tar-архивы с&#160;Luwrain в&#160;виде бинарных файлов и в&#160;виде
-                    исходных текстов</a>;
+                    <a href="<?php echo luwrain_link('iso/');?>">в&#160;виде загрузочного ISO-образа</a> (какая-либо установленная
+                    операционная система не&#160;требуется);
                   </li>
-                  <li><a href="<?php echo luwrain_link('git/');?>">git-репозитории с&#160;исходными текстами Luwrain</a>.</li>
+                  <li><a href="<?php echo luwrain_link('windows/');?>">версия для&#160;Microsoft Windows</a>;</li>
+                  <li><a href="<?php echo luwrain_link('linux/');?>">версия для&#160;GNU/Linux</a>;</li>
+                  <li><a href="<?php echo luwrain_link('mac/');?>">версия для&#160;Apple Mac&#160;OS&#160;X</a>.</li>
+                </ul>
+                <h2>Для&#160;разработчиков</h2>
+                <p>
+                  Первый вариант в&#160;списке ниже предназначен для&#160;разработчиков собственных приложений.
+                  Остальные элементы требуются людям, желающим принять участие в&#160;работе над&#160;нашей
+                  средой самой по&#160;себе.
+                </p>
+                <ul>
+                  <li>
+                    <a href="<?php echo luwrain_link('sdk/');?>">Luwrain&#160;SDK</a> (требуется для&#160;разработки ваших собственных
+                    приложений);
+                  </li>
+                  <li>
+                    <a href="<?php echo luwrain_link('git/');?>">репозитории Git</a> (полный перечень репозиториев для&#160;отслеживания
+                    изменений в&#160;исходных текстах нашего проекта);
+                  </li>
+                  <li>
+                    <a href="tarball/">архивы с&#160;материалами проекта</a> (предоставляются в&#160;основном
+                    для&#160;упрощения загрузки Luwrain, но помимо исходных текстов содержат также звуковые
+                    файлы, отсутствующие в&#160;репозиториях Git).
+                  </li>
                 </ul>
                 <p>
                   <b>ВНИМАНИЕ!</b> Вы можете работать напрямую с&#160;узлом <a href="http://download.luwrain.org">download.luwrain.org</a>,

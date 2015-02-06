@@ -1,4 +1,5 @@
 <?php include "../../functions.php"; luwrain_begin_page('/community/mailing-lists/index.php', luwrain_current_lang() == 'ru'?'Списки рассылки':'The mailing lists');?>
+<?php luwrain_content_being_written();?>
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Luwrain mailing lists</h1>
                 <p>
