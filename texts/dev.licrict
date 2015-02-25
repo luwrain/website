@@ -1,0 +1,16 @@
+
+ENTITLE='Documentation for environment developers'
+RUTITLE='Документация для разработчиков среды'
+TARGET=doc/devel/index.php
+
+luwrain-page-en
+
+= Documentation for environment developers = 
+
+* [local:speech-backend/ Preparing a~speech back-end]
+
+luwrain-page-ru
+
+= Документация для~разработчиков среды = 
+
+* [local:speech-backend/ Реализация речевого вывода]

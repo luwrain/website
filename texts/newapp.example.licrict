@@ -1,0 +1,21 @@
+
+ENTITLE='Application example'
+RUTITLE='Пример простейшего приложения'
+TARGET=doc/new-app/example/index.php
+
+luwrain-page-en
+
+= "Hello, world!" example = 
+
+luwrain-page-ru
+
+= Пример простейшего приложения  =
+
+Ниже приведён исходный текст простейшего приложения для~Luwrain.
+После компиляции программа должна показывать одну область с~надписью  "Hello, world!"
+и проговаривать эту~фразу при~любом нажатии клавиши до~своего закрытия.
+Исходный файл доступен по~прямой ссылки [http://download.luwrain.org/examples/HelloWorld.java здесь].
+Для~компиляции необходимо вызвать команду "{{javac -classpath luwrain.jar HelloWorld.java}}".
+При~вызове этой команды необходимо подставить правильный путь к~файлу luwrain.jar.
+
+

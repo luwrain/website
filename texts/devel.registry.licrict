@@ -1,7 +1,0 @@
-
-
-
-static directory can be default and constant 
-
-variable directories cannot mark default as deleted 
-but values can mark as deleted

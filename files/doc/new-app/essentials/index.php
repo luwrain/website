@@ -1,6 +1,7 @@
 <?php include "../../../functions.php"; luwrain_begin_page('/doc/new-app/essentials/index.php', luwrain_current_lang() == 'ru'?'Основные понятия приложений':'Application essentials');?>
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Application essentials</h1>
+                <p>This page is available in Russian language only.</p>
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
@@ -81,38 +82,18 @@
                 <ul>
                   <li><a href="/api/org/luwrain/core/Popup.html">страница <i>org.luwrain.core.Popup</i> в&#160;Luwrain&#160;API</a>.</li>
                 </ul>
-                <p>Каждая всплывающая область должна удовлетворять интерфейсу <i>org.luwrain.core.Popup</i>.</p>
-                <h2>Расположение областей (<i>AreaLayout</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>
+                  Всплывающая область отличается от&#160;обычной тем, что она может использоваться для&#160;организации
+                  диалога с&#160;пользователем. Каждая всплывающая область должна удовлетворять интерфейсу
+                  <i>org.luwrain.core.Popup</i>. Всплывающие области приложений отображаются вдоль нижнего
+                  края экрана. При&#160;их&#160;показе ядро запускает новый вложенный цикл обработки событий,
+                  потому что внешний цикл может быть остановлен незавершённым обработчиком, ожидающим завершения
+                  диалога с&#160;пользователем. Более подробно про&#160;всплывающие области можно прочитать
+                  <a href="<?php echo luwrain_link('/doc/new-app/popups/');?>">здесь</a>.
+                </p>
+                <h2>Читать далее</h2>
                 <ul>
-                  <li>
-                    <a href="/api/org/luwrain/core/AreaLayout.html">страница <i>org.luwrain.core.AreaLayout</i>
-                    в&#160;Luwrain&#160;API</a>.
-                  </li>
-                </ul>
-                <p>Расположения областей должны удовлетворять интерфейсу <i>org.luwrain.core.AreaLayout</i>.</p>
-                <h2>Команда (<i>Command</i>)</h2>
-                <p>См.&#160;также:</p>
-                <ul>
-                  <li><a href="/api/org/luwrain/core/Command.html">страница <i>org.luwrain.core.Command</i> в&#160;Luwrain&#160;API</a>.</li>
-                </ul>
-                <p>Команды должны удовлетворять интерфейсу <i>org.luwrain.core.Command</i>.</p>
-                <h2>Ярлык (<i>Shortcut</i>)</h2>
-                <p>См.&#160;также:</p>
-                <ul>
-                  <li>
-                    <a href="/api/org/luwrain/core/Shortcut.html">страница <i>org.luwrain.core.Shortcut</i>
-                    в&#160;Luwrain&#160;API</a>.
-                  </li>
-                </ul>
-                <p>Ярлыки должны удовлетворять интерфейсу <i>org.luwrain.core.Shortcut</i>.</p>
-                <h2>Реестр (<i>Registry</i>)</h2>
-                <p>См.&#160;также:</p>
-                <ul>
-                  <li>
-                    <a href="/api/org/luwrain/core/Registry.html">страница <i>org.luwrain.core.Registry</i>
-                    в&#160;Luwrain&#160;API</a>.
-                  </li>
+                  <li><a href="<?php echo luwrain_link('/doc/new-app/luwrain/');?>">Класс Luwrain</a></li>
                 </ul>
 
 <?php }?>
