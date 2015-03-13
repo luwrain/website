@@ -1,6 +1,3 @@
-doc.manual.essentials.licrict
-doc.manual.fundamentals.licrict
-doc.manual.licrict
 doc.installation.licrict
 doc.user.licrict
 doc.about.licrict
@@ -9,6 +6,13 @@ doc.faq.licrict
 doc.sponsors.licrict
 doc.roadmap.licrict
 doc.licrict
+manual.app.commander.licrict
+manual.app.news.licrict
+manual.clipboard.licrict
+manual.fundamentals.licrict
+manual.licrict
+manual.startwork.licrict
+manual.switching.licrict
 newapp.licrict
 newapp.intro.licrict
 newapp.essentials.licrict
