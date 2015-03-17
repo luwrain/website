@@ -113,7 +113,7 @@ function ShowPart3(){
 			     '<br/>operating system on Linux kernel and it will turn a laptop'+
 			     '<br/>into elegant accessory for blind people. If you, your colleagues'+
 			     '<br/>or members of your family need the operating system being already installed'+
-			     '<br/>on your PC you may take Luwrain just as an application. Luwrain will not require'+
+			     '<br/>on your PC, you may take Luwrain just as an application. Luwrain will not require'+
 			     '<br/>you to forbid the tools you used to work with previously and you can use it'+
 			     '<br/>as a platform for creating and distributing accessible applications,'+
 			     '<br/>even if you don\'t have any experience in this area.');

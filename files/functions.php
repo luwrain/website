@@ -366,101 +366,92 @@ function luwrain_link($path)
 <?php if (luwrain_current_lang() == 'en') {?>
     <h1>&#x22;The territory of a compelling accessibility&#x22;</h1>
     <p>
-      With&#160;accessible OS Luwrain, blind and visually-impaired people have a&#160;new way
-      to be&#160;involved in the&#160;incredible world of information technologies. Luwrain doesn&#x27;t
-      take a&#160;lot&#160;of time to&#160;learn, and aims to be&#160;useable on laptops, as&#160;well
-      as&#160;desktop computers. You can treat our new idea as one more solution for&#160;everyone
-      who needs a&#160;reliable and accessible companion for&#160;various types of&#160;work.
-      The&#160;product is designed as&#160;a&#160;new platform for&#160;creating speech-enabled
-      applications with&#160;a&#160;set of&#160;standard tools for&#160;easy web&#160;access,
-      mail, news reading,&#160;etc.
+      With accessible toolkit Luwrain, blind and visually-impaired people have a new way to be
+      involved in the incredible world of information technologies. Luwrain doesn&#x27;t take
+      a lot of time to learn, and aims to be useable on laptops, as well as desktop computers.
+      You can treat our new idea as one more solution for everyone who needs a reliable and accessible
+      companion for various types of work. The product is designed as a new platform for creating
+      speech-enabled applications with a set of standard tools for easy access to web services,
+      mail, news reading, etc.
     </p>
     <p>
-      Luwrain is a&#160;linux-based system with a&#160;special type of user interface constructed
-      on&#160;Java technologies. In&#160;contrast with widely popular screen reading solutions
-      for&#160;graphical desktops, which actually are&#160;designed for control through a mouse
-      and other pointing devices useful only for&#160;sighted users, Luwrain offers representation
-      of every working object in&#160;the&#160;text form from scratch. That means that the&#160;Luwrain
-      user will always spend significantly less time than in&#160;an&#160;adapted GUI. We have
-      created our environment for&#160;people who enjoy working effectively and time-efficiently.
+      Luwrain is a set of software components on Java for accessible user interface construction.
+      In contrast with widely popular screen reading solutions for graphical desktops, which
+      actually are designed for control through a mouse and other pointing devices useful only
+      for sighted users, Luwrain brings the information in the most suitable for perception of
+      blind people form. That means that the Luwrain user will always spend significantly less
+      time than in an adapted GUI. We have created our environment for people who enjoy working
+      effectively and time-efficiently.
     </p>
     <p>
-      In&#160;Luwrain the&#160;Java user space covers a&#160;number of&#160;system services,
-      which are&#160;able to provide a&#160;flexible core and a&#160;high level of compatibility.
-      The&#160;information exchange between them is performed mostly through a&#160;D-Bus activity.
-      It&#160;brings to&#160;the&#160;user the&#160;information about network structure from&#160;Network
-      Manager, and transmits commands to&#160;a&#160;speech server, designed for&#160;control
-      over a&#160;set of Text-To-Speech engines. The&#160;personal user data can be&#160;stored
-      in&#160;OpenLDAP or&#160;in&#160;any choice of&#160;the&#160;SQL server which has the&#160;proper
-      JDBC interface. For&#160;low-vision users Luwrain opens the&#160;full-screen window with&#160;all
-      corresponding textual data written in contrasting colours. That window is&#160;drawn by&#160;X.org
-      server using special window manager, created as&#160;an&#160;additional part of&#160;Luwrain
-      project.
+      Luwrain can be with you everywhere! You may take it as a stand-alone operating system on
+      Linux kernel and it will turn a laptop into elegant accessory for blind people. If you,
+      your colleagues or members of your family need the operating system being already installed
+      on your PC, you may take Luwrain just as an application. Luwrain will not require you to
+      forbid the tools you used to work with previously and you can use it as a platform for
+      creating and distributing accessible applications, even if you havn&#x27;t any experience
+      in this area.
     </p>
     <p>
-      Luwrain is&#160;a&#160;completely Free Software project, no&#160;fee is&#160;involved,
-      and no&#160;restrictions of&#160;use and distribution exist, except in&#160;cases explicitly
-      violating the&#160;terms of&#160;the GNU Public License&#160;ver.&#160;3, as&#160;it&#160;was
-      published by&#160;the&#160;Free Software Foundation. However, financial donations are&#160;still
-      required to&#160;help us present our product across the&#160;world, and to&#160;introduce
-      it to&#160;related social and distribution organizations. The&#160;team of developers hopes
-      that Luwrain can increase the&#160;integration of&#160;disabled people into social life.
+      Luwrain is a completely Free Software project, no fee is involved, and no restrictions
+      of use and distribution exist, except in cases explicitly violating the terms of the GNU
+      Public License ver. 3, as it was published by the Free Software Foundation. However, financial
+      donations are still required to help us present our product across the world, and to introduce
+      it to related social and distribution organizations. The team of developers hopes that
+      Luwrain can increase the integration of disabled people into social life. <a href="<?php echo luwrain_link('/doc/about/');?>">Read
+      more...</a>
     </p>
-    <p>Choose the&#160;section to&#160;read next:</p>
+    <h2>Choose the&#160;section you want:</h2>
     <ul>
-      <li><a href="<?echo luwrain_link('/doc/about/');?>">More about our project</a></li>
-      <li><a href="<?echo luwrain_link('/doc/user/start/');?>">Getting started</a></li>
-      <li><a href="<?echo luwrain_link('/download/distr/');?>">Download bootable ISO-image</a></li>
-      <li><a href="<?echo luwrain_link('/community/mailing-lists/');?>">Mailing list</a></li>
-      <li><a href="<?echo luwrain_link('/doc/contacts/');?>">Contact us</a></li>
+      <li><a href="<?php echo luwrain_link('/doc/user/manual/');?>">User manual</a></li>
+      <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Subscribe to&#160;our mailing list</a></li>
+      <li><a href="<?php echo luwrain_link('/download/iso/');?>">Bootable ISO-images</a></li>
+      <li>Distributions: <a href="<?php echo luwrain_link('/download/windows');?>">for&#160;Microsoft Windows</a>, <a href="<?php echo luwrain_link('/download/linux/');?>">for&#160;GNU/Linux</a></li>
+      <li><a href="<?php echo luwrain_link('/doc/contacts/');?>">Our&#160;contacts</a></li>
     </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
     <h1>&#x22;Мир доступных технологий!&#x22;</h1>
     <p>
-      При &#160;помощи операционной системы Luwrain люди с&#160;нарушениями зрения могут расширить
-      границы своего доступа к&#160;невероятному миру информационных технологий. Luwrain не&#160;требует
-      много времени для&#160;освоения и будет одинаково полезной на&#160;мобильных и настольных
-      компьютерах. Мы хотим, чтобы наш&#160;проект стал ещё одним решением для&#160;всех, кто
-      нуждается в&#160;надёжном и доступном инструменте, пригодном для&#160;решения различных
-      задач. Он проектируется как&#160;платформа для создания речевых приложений с&#160;набором
-      стандартных утилит, предназначенных для&#160;доступа к&#160;веб, электронной почте, новостным
-      ресурсам и&#160;т.&#160;д.
+      При помощи рабочего окружения Luwrain люди с нарушениями зрения могут расширить границы
+      своего доступа к&#160;грандиозному миру информационных технологий. Luwrain не требует много
+      времени для освоения и будет одинаково полезен на мобильных и настольных компьютерах. Мы
+      хотим, чтобы наш проект стал новым решением для всех, кто нуждается в надёжном и доступном
+      инструменте, пригодном для решения различных задач. Он проектируется как платформа для
+      создания речевых приложений с набором стандартных утилит, предназначенных для доступа к
+      веб, электронной почте, новостным ресурсам и т. д.
     </p>
     <p>
-      Luwrain использует ядро Linux и основан на&#160;специальном типе пользовательского интерфейса,
-      созданного с&#160;применением инструментов Java. В&#160;отличие от&#160;экранных чтецов,
-      функционирующих в&#160;оконном окружении, ориентированного на&#160;работу при&#160;помощи
-      мыши, Luwrain придерживается метода изначального представления всех рабочих объектов в&#160;текстовом
-      виде. Это означает, что на&#160;работу в Luwrain пользователю требуется времени существенно
-      меньше, чем в&#160;озвученном оконном интерфейсе. Мы создаём нашу систему для&#160;тех,
-      кто ведёт активный образ жизни и способен оценить экономию времени.
+      Luwrain предлагает набор программных компонентов Java для построения особого типа невизуального
+      интерфейса. В отличие от экранных чтецов, функционирующих в оконном окружении, ориентированного
+      на работу при помощи мыши, Luwrain представляет информацию в виде, адаптированном для восприятия
+      незрячих людей. Это означает, что на работу в Luwrain пользователю требуется времени существенно
+      меньше, чем в озвученном оконном интерфейсе. Мы создаём нашу систему для тех, кто ведёт
+      активный образ жизни и ценит экономию времени.
     </p>
     <p>
-      В&#160;Luwrain интерфейс пользователя, работающий внутри виртуальной машины Java, функционирует
-      поверх ряда системных сервисов, призванных обеспечить необходимый уровень надёжности и
-      гибкости. Передача информации между ними осуществляется преимущественно при&#160;помощи
-      шин D-Bus. D-Bus предоставляет доступ всем приложениям Java к&#160;информации о&#160;сетевых
-      подключениях, полученной от&#160;Network manager, передаёт команды в&#160; службу вывода
-      речи и&#160;т.&#160;д. Персональные данные пользователей могут храниться в&#160;сервере
-      OpenLDAP или в&#160;любой реляционной СУБД, для&#160;которой подготовлен JDBC-интерфейс. Для&#160;слабовидящих
-      людей Luwrain выводит текстовую информацию контрастным шрифтом в&#160;окне, отображаемом
-      на&#160;экране при&#160;помощи сервера X.org и легковесного оконного менеджера.
+      Luwrain будет с вами всегда! Вариант поставки в виде самостоятельной операционной системы
+      на ядре Linux превратит любой ноутбук в элегантный аксессуар для незрячего человека. Если
+      вы, ваши коллеги или члены вашей семьи используют в своей работе операционную систему,
+      которая уже установлена, вы можете запустить Luwrain просто как приложение. Luwrain не
+      потребует от&#160;вас отказа от утилит, которые вы использовали ранее, и может быть платформой
+      для создания адаптированных приложений, даже если у вас нет абсолютно никакого опыта в
+      этой сфере.
     </p>
     <p>
-      Luwrain &#x2014; это полностью свободный проект. Использование Luwrain не&#160;подразумевает
+      Luwrain &#x2014; это полностью свободный проект. Использование Luwrain не подразумевает
       оплаты и может выполняться без&#160;ограничений, если это не&#160;нарушает требований GNU&#160;Public
-      License версии&#160;3. Тем&#160;не&#160;менее, авторы проекта были&#160;бы очень рады любой
-      финансовой поддержке, поскольку она может помочь шире представить Luwrain среди мировых
-      общественных организаций.
+      License версии&#160;3. Авторы проекта были бы очень рады установлению новых рабочих контактов,
+      поскольку это может помочь шире представить Luwrain среди мировых общественных организаций.
+      <a href="<?php echo luwrain_link('/doc/about/');?>">Читать далее...</a>
     </p>
-    <p>Выберите раздел для продолжения чтения:</p>
+    <h2>Выберите интересующий Вас раздел:</h2>
     <ul>
-      <li><a href="<?echo luwrain_link('/doc/about/');?>">Подробнее о проекте</a></li>
-      <li><a href="<?echo luwrain_link('/doc/user/start/');?>">С чего начать?</a></li>
-      <li><a href="<?echo luwrain_link('/download/distr/');?>">Загрузить ISO-образ</a></li>
-      <li><a href="<?echo luwrain_link('/community/mailing-lists/');?>">Список рассылки</a></li>
-      <li><a href="<?echo luwrain_link('/doc/contacts/');?>">Контакты</a></li>
+      <li><a href="<?php echo luwrain_link('/doc/user/manual/');?>">Руководство пользователя</a></li>
+      <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Подписаться на&#160;список рассылки</a></li>
+      <li><a href="<?php echo luwrain_link('/download/iso/');?>">Загрузочные ISO-образы</a></li>
+      <li>Дистрибутивы: <a href="<?php echo luwrain_link('/download/windows');?>">для&#160;Microsoft Windows</a>, <a href="<?php echo luwrain_link('/download/linux/');?>">для&#160;GNU/Linux</a></li>
+      <li><a href="<?php echo luwrain_link('/doc/contacts/');?>">Наши&#160;контакты</a></li>
     </ul>
 <?php }?>
   </body>
