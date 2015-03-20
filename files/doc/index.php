@@ -39,8 +39,6 @@
                   <li><a href="<?php echo luwrain_link('legal/');?>">Legal notes</a></li>
                   <li><a href="<?php echo luwrain_link('faq/');?>">Frequently asked questions</a></li>
                   <li><a href="<?php echo luwrain_link('roadmap/');?>">The&#160;roadmap</a></li>
-                  <li><a href="<?php echo luwrain_link('partners/');?>">Be our partner and let do something together</a></li>
-                  <li><a href="<?php echo luwrain_link('sponsors/');?>">Be our sponsor and support our work</a></li>
                 </ul>
 
 <?php }?>
@@ -76,7 +74,7 @@
                 <h2>О&#160;проекте</h2>
                 <ul>
                   <li>
-                    <a href="<?php echo luwrain_link('about/');?>">Что&#160;такое Luwrain, и почему мы думаем, что незрячие люди нуждаются
+                    <a href="<?php echo luwrain_link('about/');?>">Что&#160;такое Luwrain, и почему мы считаем, что незрячие люди нуждаются
                     в&#160;нём?</a>
                   </li>
                   <li><a href="<?php echo luwrain_link('difference/');?>">Чем Luwrain отличается от&#160;других доступных решений?</a></li>
@@ -84,8 +82,6 @@
                   <li><a href="<?php echo luwrain_link('legal/');?>">Правовой статус проекта</a></li>
                   <li><a href="<?php echo luwrain_link('faq/');?>">Часто задаваемые вопросы</a></li>
                   <li><a href="<?php echo luwrain_link('roadmap/');?>">Дорожная карта</a></li>
-                  <li><a href="<?php echo luwrain_link('partners/');?>">Приглашение для&#160;партнёров</a></li>
-                  <li><a href="<?php echo luwrain_link('sponsors/');?>">Приглашение для&#160;спонсоров</a></li>
                 </ul>
 
 <?php }?>

@@ -7,86 +7,11 @@ luwrain-page-en
 
 = About the project  =
 
-See also:
+See also
 
 * [local:difference/ Why is Luwrain different than other accessible solutions?]
 * [local:faq/ Frequently asked questions]
 
-== What are we working on? ==
-
-In~order to~get the~proper understanding what Luwrain is, 
-you should think of it as of  a~new approach to~the~accessibility technologies  for~blind people, 
-which brings the~information to~users without eyesight in~form
-with maximum adjustments to~their perception. 
-This sounds nice but there is nothing fantastic.
-Arguably, the~navigation over a~text file 
-is the~most comfortable and understandable way of~doing anything on PC's with~assistive technologies
-and Luwrain's idea is to~spread this simple finding everywhere.
-That doesn't mean that Luwrain hasn't any elements similar to~GUI items at all totally 
-(e.g. forms or menus) 
-but all of them should be reconsidered in~new~way. 
-Just imagine:
-
-* No~potentially inaccessible objects in~working area, 
-user is always  sure that there is nothing unknown to him/her
-
-* Every object can be explored letter-by-letter quickly and easily
-
-* In~any place  user can do a~search for~a~particular  substring 
-regardless what structure the~current object has,
-whether it is a~file~manager panel, a~message~composer, an~address book entry or a~media player control
-
-* Any~fragment of~working space can be~copied to~clipboard and pasted as~text,
-say, for~sending as~a~message to~friend
-
-Do~not~suspect Luwrain of~being one~more sophisticated text editor, it~is~not the~case.
-Luwrain offers the~text navigation only just  as~some sort of~logical level,
-there can be as~complex structure behind it as~you want.
-In~contrast to~GNU~Emacs 
-(which could be fairly considered as~an~origin of~inspiration for~us) 
-Luwrain doesn't store the~real text as~a~single solid buffer.
-
-The~Luwrain environment tries to~develop proposed text-based approach 
-making it really complete and useful.
-User navigation commands are announced with~special comments 
-describing what he/she has under the~current cursor position.
-All~object are~gathered  in~applications 
-which user is~able to~launch as~many as~his/her computer can.
-Their standard set includes file~manager, 
-media player, 
-text~editor with~office documents filters,
-mail client,
-news reader,
-personal address book and scheduler,
-command line terminal etc.
-
-== Hm, what can we do with that? ==
-
-The~idea suggested above is~implemented using Java.
-That makes Luwrain potentially available on~any~operating system which has a~proper Java~SE support.
-It is true enough but Luwrain shows its best primarily on~GNU/Linux,
-which it has been initially designed for.
-The~original Luwrain distribution is~provided as~a~stand-alone [local:/download/distr/ bootable ISO-image]
-for~using completely free~of~charge and capable of~installation without any sighted help.
-
-All~of~that makes Luwrain a~solution which could be~suitable for~doing most~of~popular tasks 
-for~various groups of~users.
-Experienced users, perhaps, could find it~better than usual screen readers because 
-Luwrain let doing some tasks more quickly and more~comfortable.
-Inexperienced users, including seniors,  get~access to~information technologies 
-without  long  prior learning; 
-at~most they should to~pass through a~short system guide
-offered on~launch of~Luwrain LiveCD.
-
-We~take  these benefits as~quite sufficient to~do our work 
-but returning to~Luwrain portability it is~possible to~discover new areas previously  left mostly untouched.
-Luwrain can be~used as~[local:/doc/new-app/ a~framework for~creating  the~applications] 
-designed specially for~blind people.
-Luwrain promises that these applications will be~understandable for~disabled persons 
-and available for~them due to~presence of~Java on~most of~popular platforms.
-Meantime, authors of~applications for~Luwrain may know nothing 
-about assistive technologies, 
-they should just take a~set of~Luwrain classes.
 
 == By the author ==
 
@@ -103,89 +28,27 @@ With best wishes, [[http://marigostra.com/ Michael Pozhidaev]].
 
 luwrain-page-ru
 
-= О~проекте =
+= О~нашем проекте =
 
-См.~также:
+См.~также
 
 * [local:difference/ Чем Luwrain отличается от~других вспомогательных средств для~людей с~нарушениями зрения?]
 * [local:faq/ Часто задаваемые вопросы]
 * [[http://marigostra.ru/projects/luwrain/ Неформальный манифест от~авторов проекта]]
 
-== Над чем мы работаем ==
+С~самого начала развитие Luwrain нацелено на~сегменты в~разных областях,
+в~которых в~настоящий момент отсутствуют решения. 
 
-Luwrain --- это прежде всего новый подход к~взаимодействию незрячего человека с~персональным компьютером,
-основанный на~представление любых документов и структур в~текстовой форме.
-В~сочетании с~технологиями, выбранными для~реализации, это даёт нам шанс решить некоторые проблемы из~мира вспомогательных тсредств,
-которым ранее уделялось мало внимания.
-Навигация внутри текстового файла, возможно,  является самой понятной и удобной операцией для~людей с~нарушениями зрения. 
-Luwrain старается распространить её на~всё, что делает человек на~компьютере.
-Тем~не~менее, это не~означает, что в~Luwrain вовсе нет~объектов, близких по~назначению к~элементам GUI (например, меню или формам),
-просто процесс работы в~них переосмыслен с~точки зрения новой концепции.
-Представьте:
+# 
 
-* в~рабочем пространстве нет~недоступных объектов,
-и пользователь всегда уверен, что он знает всё, что находится в~его окружении;
+# Не~существует решений,
+предлагающих единый способ работы людей с~нарушениями зрения 
+ вне~зависимости от~того,
+какой операционной системой они пользуются.
 
-* любой объект может быть быстро исследован буква за буквой;
 
-* в~любом месте пользователь может произвести поиск некоторой текстовой строки вне~зависимости от~того,
-с~объектом какого типа он~ведёт работу: 
-со~списком файлов,
-в~редакторе электронных писем,
-в~адресной книге 
-или в~панели управления медиа-проигрывателем;
 
-* любой фрагмент текста может быть скопирован в~буфер обмена для~того,
-чтобы, скажем, отправить другу в~виде электронного сообщения.
 
-Не~стоит считать Luwrain ещё одним развитым текстовым редактором,
-это вовсе не~так.
-Luwrain предлагает навигацию в~текстовом стиле только как некоторый промежуточный логический уровень,
-который скрывает структуры произвольной сложности.
-В~отличие от~GNU~Emacs (который, впрочем, может по~праву считаться источником вдохновения для~нас),
-Luwrain не~хранит текст в~виде единого буфера в~памяти.
-Окружение Luwrain пытается предельно развить  этот подход и~сделать его по-настоящему удобным и практичным.
-Все~действия пользователя дополняются специальными комментариями,
-описывающими  объекты,
-находящиеся под~текущим положением курсора.
-Элементы управления группируются в~приложения,
-которые могут быть запущены в~количестве, ограниченном только возможностями компьютера.
-Стандартный набор приложений Luwrain включает в~себя файловый менеджер,
-медиа-проигрыватель,
-текстовый редактор с~поддержкой форматов офисных документов,
-почтовый клиент,
-новостной клиент,
-персональные адресную книгу,
-личный планировщик,
-командную строку и~т.~д.
-
-== Что~же это нам даёт?  ==
-
-Предложенная выше идея реализуется на~языке Java 
-и может быть запущена практически на~любой платформе, которая имеет полноценную поддержку Java~SE.
-Тем~не~менее, с~самой лучшей стороны   Luwrain показывает себя прежде всего  на~GNU/Linux,
-для~которой первоначально и задумывался.
-Полная поставка Luwrain предлагается в~виде [local:/download/distr/ загрузочного ISO-образа],
-доступного для~самостоятельной установки на~жёсткий диск и полностью бесплатного для~использования.
-Это делает LUwrain решением, подходящим  для~многих распространённых задач,
-возникающих у~большого числа пользователей с~ограниченными возможностями.
-Опытные пользователи, возможно, найдут Luwrain в~некоторых ситуациях более удобным и эффективным,
-чем обычные экранные  чтецы.
-Начинающие пользователи, включая людей пожилого возраста, в~свою очередь, 
-смогут получить доступ к~информационным технологиям, которого у~них не~было до~этого.
-Дпозволяет начать работу после ознакомления с~краткими инструкциями,
-предлагаемыми при~запуске LiveCD,
-минуя длительную процедуру обучения.
-
-На~наш взгляд, упомянутые преимущества уже могли~бы быть достаточными,
-чтобы вести подобную работу, но вместе с~тем переносимость Luwrain позволяет затронуть некоторые новые области,
-которым до~текущего момента уделялось относительно мало внимания.
-Luwrain может быть использован как~[local:/doc/new-app/ инструментарий для~создания доступных приложений],
-адаптированных специально для~людей с~нарушениями зрения.
-Luwrain обещает разработчикам приложений, что созданные продукты будут понятны пользователям  с~ограниченными возможностями
-и будут им доступны на~всех платформах, на~которых возможна установка виртуальной машины Java.
-Авторы приложений могут не~иметь абсолютно никакого опыта в~сфере вспомогательных технологий.
-Всё, что им требуется, --- это задействовать библиотеку классов Luwrain.
 
 == От~автора  ==
 

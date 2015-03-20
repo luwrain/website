@@ -5,14 +5,14 @@ TARGET=download/index.php
 
 luwrain-page-en
 
-= Downloading Luwrain  =
+= Luwrain downloads =
 
 == For~end~users ==
 
 These options are purposed for~everybody who would like to~use Luwrain just for~the~work.
 The~only difference between them is the~operating system they can be~launched on
 (or~without operating system at~all 
-in~the~case of~bootable ISO-images).
+as~in~the~case of~bootable ISO-images).
 
 Choose the~most suitable form of~Luwrain distribution you need:
 
@@ -64,36 +64,36 @@ luwrain-page-ru
 
 Выберите наиболее подходящий для~вас вариант поставки:
 
-* [local:iso/ 
-в~виде загрузочного ISO-образа] 
-(какая-либо установленная операционная система не~требуется);
+# [local:iso/ 
+В~виде загрузочного ISO-образа] 
+(какая-либо установленная операционная система не~требуется)
 
-* [local:windows/
-версия для~Microsoft Windows];
+# [local:windows/
+Версия для~Microsoft Windows]
 
-* [local:linux/
-версия для~GNU/Linux];
+# [local:linux/
+Версия для~GNU/Linux]
 
-* [local:mac/
-версия для~Apple Mac~OS~X].
+# [local:mac/
+Версия для~Apple Mac~OS~X]
 
 == Для~разработчиков  ==
 
 Первый вариант в~списке ниже предназначен для~разработчиков собственных приложений.
 Остальные элементы требуются людям, желающим принять участие в~работе над~нашей средой самой по~себе.
 
-* [local:sdk/
+# [local:sdk/
 Luwrain~SDK] 
-(требуется для~разработки ваших собственных приложений);
+(требуется для~разработки ваших собственных приложений)
 
-* [local:git/
-репозитории Git]
-(полный перечень репозиториев для~отслеживания изменений в~исходных текстах нашего проекта);
+# [local:git/
+Репозитории Git]
+(полный перечень репозиториев для~отслеживания изменений в~исходных текстах нашего проекта)
 
-* [tarball/
-архивы с~материалами проекта]
+# [tarball/
+Архивы с~материалами проекта]
 (предоставляются в~основном для~упрощения загрузки Luwrain,
-но помимо исходных текстов содержат также  звуковые файлы, отсутствующие в~репозиториях Git).
+но помимо исходных текстов содержат также  звуковые файлы, отсутствующие в~репозиториях Git)
 
 {ВНИМАНИЕ!} 
 Вы можете работать напрямую с~узлом [http://download.luwrain.org download.luwrain.org],

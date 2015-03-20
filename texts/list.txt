@@ -3,7 +3,6 @@ doc.user.licrict
 doc.about.licrict
 doc.authors.licrict
 doc.faq.licrict
-doc.sponsors.licrict
 doc.roadmap.licrict
 doc.licrict
 manual.app.commander.licrict

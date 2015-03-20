@@ -72,7 +72,7 @@ function luwrain_link($path)
 		    <a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Список рассылки</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/companies/');?>">Для компаний</a>
+		    <a href="<?php echo luwrain_link('/community/bugs/');?>">Сообщить об ошибке</a>
 		  </li>
 		</ul>
 	      </div>
@@ -81,13 +81,13 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
+		    <a href="<?php echo luwrain_link('/doc/new-app/');?>">Создание приложений</a>
+		  </li>
+		  <li class="linkMenu">
 		    <a href="/api/">Luwrain API</a>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="<?php echo luwrain_link('/download/git/');?>">Git репозитории</a>
-		  </li>
-		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/community/bugs/');?>">Сообщить об ошибке</a>
 		  </li>
 		</ul>
 	      </div>
@@ -144,7 +144,7 @@ function luwrain_link($path)
 		    <a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Mailing list</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/doc/companies/');?>">For companies</a>
+		    <a href="<?php echo luwrain_link('/community/bugs/');?>">Report a bug</a>
 		  </li>
 		</ul>
 	      </div>
@@ -153,13 +153,13 @@ function luwrain_link($path)
 	      <div>
 		<ul class="subMenu">
 		  <li class="linkMenu">
+		    <a href="<?php echo luwrain_link('/doc/new-app/');?>">Create an application</a>
+		  </li>
+		  <li class="linkMenu">
 		    <a href="/api/">Luwrain API</a>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="<?php echo luwrain_link('/download/git/');?>">Git repositories</a>
-		  </li>
-		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/community/bugs/');?>">Report a bug</a>
 		  </li>
 		</ul>
 	      </div>

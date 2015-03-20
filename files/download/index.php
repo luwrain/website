@@ -1,11 +1,11 @@
 <?php include "../functions.php"; luwrain_begin_page('/download/index.php', luwrain_current_lang() == 'ru'?'Загрузка':'downloads');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-                <h1>Downloading Luwrain</h1>
+                <h1>Luwrain downloads</h1>
                 <h2>For&#160;end&#160;users</h2>
                 <p>
                   These options are purposed for&#160;everybody who would like to&#160;use Luwrain just for&#160;the&#160;work.
                   The&#160;only difference between them is the&#160;operating system they can be&#160;launched
-                  on (or&#160;without operating system at&#160;all in&#160;the&#160;case of&#160;bootable
+                  on (or&#160;without operating system at&#160;all as&#160;in&#160;the&#160;case of&#160;bootable
                   ISO-images).
                 </p>
                 <p>Choose the&#160;most suitable form of&#160;Luwrain distribution you need:</p>
@@ -53,36 +53,36 @@
                   система не&#160;требуется вовсе).
                 </p>
                 <p>Выберите наиболее подходящий для&#160;вас вариант поставки:</p>
-                <ul>
+                <ol>
                   <li>
-                    <a href="<?php echo luwrain_link('iso/');?>">в&#160;виде загрузочного ISO-образа</a> (какая-либо установленная
-                    операционная система не&#160;требуется);
+                    <a href="<?php echo luwrain_link('iso/');?>">В&#160;виде загрузочного ISO-образа</a> (какая-либо установленная
+                    операционная система не&#160;требуется)
                   </li>
-                  <li><a href="<?php echo luwrain_link('windows/');?>">версия для&#160;Microsoft Windows</a>;</li>
-                  <li><a href="<?php echo luwrain_link('linux/');?>">версия для&#160;GNU/Linux</a>;</li>
-                  <li><a href="<?php echo luwrain_link('mac/');?>">версия для&#160;Apple Mac&#160;OS&#160;X</a>.</li>
-                </ul>
+                  <li><a href="<?php echo luwrain_link('windows/');?>">Версия для&#160;Microsoft Windows</a></li>
+                  <li><a href="<?php echo luwrain_link('linux/');?>">Версия для&#160;GNU/Linux</a></li>
+                  <li><a href="<?php echo luwrain_link('mac/');?>">Версия для&#160;Apple Mac&#160;OS&#160;X</a></li>
+                </ol>
                 <h2>Для&#160;разработчиков</h2>
                 <p>
                   Первый вариант в&#160;списке ниже предназначен для&#160;разработчиков собственных приложений.
                   Остальные элементы требуются людям, желающим принять участие в&#160;работе над&#160;нашей
                   средой самой по&#160;себе.
                 </p>
-                <ul>
+                <ol>
                   <li>
                     <a href="<?php echo luwrain_link('sdk/');?>">Luwrain&#160;SDK</a> (требуется для&#160;разработки ваших собственных
-                    приложений);
+                    приложений)
                   </li>
                   <li>
-                    <a href="<?php echo luwrain_link('git/');?>">репозитории Git</a> (полный перечень репозиториев для&#160;отслеживания
-                    изменений в&#160;исходных текстах нашего проекта);
+                    <a href="<?php echo luwrain_link('git/');?>">Репозитории Git</a> (полный перечень репозиториев для&#160;отслеживания
+                    изменений в&#160;исходных текстах нашего проекта)
                   </li>
                   <li>
-                    <a href="tarball/">архивы с&#160;материалами проекта</a> (предоставляются в&#160;основном
+                    <a href="tarball/">Архивы с&#160;материалами проекта</a> (предоставляются в&#160;основном
                     для&#160;упрощения загрузки Luwrain, но помимо исходных текстов содержат также звуковые
-                    файлы, отсутствующие в&#160;репозиториях Git).
+                    файлы, отсутствующие в&#160;репозиториях Git)
                   </li>
-                </ul>
+                </ol>
                 <p>
                   <b>ВНИМАНИЕ!</b> Вы можете работать напрямую с&#160;узлом <a href="http://download.luwrain.org">download.luwrain.org</a>,
                   просматривая доступные файлы и каталоге при&#160;помощи автоматически сгенерированных индексов.
