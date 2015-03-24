@@ -1,52 +1,90 @@
-<?php include "../../functions.php"; luwrain_begin_page('/doc/difference/index.php', luwrain_current_lang() == 'ru'?'Отличия от других систем':'What is the Difference?');?>
+<?php include "../../functions.php"; luwrain_begin_page('/doc/difference/index.php', luwrain_current_lang() == 'ru'?'Чем Luwrain отличается от~других вспомогательных технологий?':'Why is Luwrain different than other accessible solutions?');?>
+<?php if (luwrain_current_lang() == 'en') {?>
+                <h1>Why is Luwrain different than other accessible solutions?</h1>
+                <p>
+                  We consider three projects as&#160;something close to&#160;the&#160;things we are creating.
+                  They are <a target="_blank" href="http://emacspeak.sourceforge.net/">Emacspeak</a>, <a target="_blank" href="http://www.knopper.net/knoppix-adriane/index-en.html">Adriane</a>
+                  and <a target="_blank" href="http://www.yourdolphin.com/productdetail.asp?id=30">Dolphin
+                  Guide</a>. Luwrain has noticeable differences with all&#160;of&#160;them and let take a&#160;closer
+                  look what these difference are.
+                </p>
+                <h2>Emacspeak</h2>
+                <p>
+                  Emacspeak can be fairly taken as&#160;an&#160;origin of&#160;our inspiration. A&#160;lot
+                  of&#160;ideas came exactly from&#160;Emacspeak but significant number of&#160;its disadvantages
+                  don&#x27;t allow to use it as&#160;a&#160;main-stream platform for&#160;blind people (we&#160;think
+                  that Emacspeak&#x27;s authors didn&#x27;t plan it to&#160;be anything like this). There&#160;is&#160;a&#160;list
+                  of&#160;main points why Emacspeak doesn&#x27;t suit:
+                </p>
+                <ul>
+                  <li>
+                    Emacspeak doesn&#x27;t have a&#160;proper entity of&#160;application and we may not use
+                    it as&#160;a&#160;platform for&#160;creating and distributing of&#160;accessible applications
+                  </li>
+                  <li>Emacspeak doesn&#x27;t have any i18n support</li>
+                  <li>
+                    GNU&#160;Emacs basically is a&#160;text editor and it isn&#x27;t a&#160;platform which
+                    constructed for&#160;blind people completely
+                  </li>
+                  <li>Emacspeak doesn&#x27;t have enough protection agains improper user actions</li>
+                  <li>
+                    Although GNU&#160;Emacs itself is a&#160;cross-platform software, Emacspeak purposed typically
+                    for&#160;launch on&#160;GNU/Linux
+                  </li>
+                </ul>
+                <h2>Adriane</h2>
+                <p>Adriane is a&#160;very interesting experience but has some substantial disadvantages as&#160;well:</p>
+                <ul>
+                  <li>
+                    Adriane is&#160;a&#160;GNU/Linux distro but we need an&#160;environment capable of&#160;running
+                    on&#160;systems different than GNU/Linux
+                  </li>
+                  <li>
+                    Adriane may not be used as&#160;a&#160;platform for&#160;creating and distributing accessible
+                    applications because doesn&#x27;t have any API for&#160;it
+                  </li>
+                  <li>
+                    We don&#x27;t know how to&#160;enhance Adriane and how to&#160;add a&#160;proper i18n support
+                    to it
+                  </li>
+                </ul>
+                <h2>Dolphin Guide</h2>
+                <p>
+                  The&#160;main problem with&#160;Dolphin Guide is that it is a&#160;proprietary software.
+                  It is proprietary itself and can be launch only on&#160;Microsoft Windows, which is proprietary
+                  as&#160;well. Some of&#160;the&#160;disadvantages mentioned for&#160;Emacspeak and for&#160;Adriane
+                  are actual for&#160;Dolphin&#160;Guide too but we don&#x27;t list them once again because
+                  the&#160;main reason of&#160;rejecting Dolphin Guide is its legal status.
+                </p>
+                <h2>Other approaches</h2>
+                <p>
+                  The&#160;most popular solution to&#160;the&#160;problem of&#160;accessible work on&#160;PC
+                  remains using of&#160;screen reading software in&#160;GUI. Since difference with this approach
+                  is widely analyzed on&#160;other pages of&#160;this website, let skip it here and notice
+                  one more important thing.
+                </p>
+                <p>
+                  As we&#160;think, there is no&#160;any solution in&#160;the&#160;world which can be used
+                  for&#160;creating a&#160;fully functional device for&#160;blind people. We are speaking
+                  not about creating a&#160;new device from&#160;scratch, what evidently is very expensive,
+                  but about a&#160;way for&#160;turning existing laptops and embedded PC&#x27;s into elegant
+                  and reliable accessory for&#160;blind people.
+                </p>
+                <p>
+                  We need a&#160;completely new way of&#160;interaction and a&#160;completely new way for&#160;offering
+                  the&#160;information to&#160;the&#160;user. The&#160;former thing is&#160;needed because
+                  we should have a&#160;method for&#160;using touch pads and Luwrain is quite suitable for&#160;adding
+                  a&#160;support of&#160;interaction with touch pads . The&#160;second thing is needed because
+                  all laptops have a&#160;screen and it should be used for&#160;people with low vision. Luwrain
+                  potentially has all of&#160;this and keeping the&#160;developing of&#160;this ideas we
+                  could be able to&#160;adjust a&#160;lot&#160;of hardware for&#160;using by&#160;blind people,
+                  including tablets. According to&#160;our experience, none of&#160;the existing solutions
+                  can be suitable to this.
+                </p>
 
-                  <h1>Why is Luwrain different than other accessible solutions?</h1>
-                  <p>
-                    Current widely popular approach offers usual Graphical User Interface (GUI) environment
-                    in&#160;conjunction with additional screen reading software. Screen readers speak every
-                    action user does through some Text-To-Speech (TTS) engine. This type of&#160;interaction
-                    can be done only by&#160;keyboard and that doesn&#x27;t allow to&#160;work at&#160;the&#160;same
-                    speed as&#160;everybody does. There is&#160;no way to&#160;overcome this restriction because
-                    GUI is&#160;designed to&#160;be&#160;comfort only with&#160;a&#160;mouse.
-                  </p>
-                  <p>
-                    Roughly speaking, everyday blind people have&#160;to fight with the&#160;environment the&#160;least
-                    suitable for&#160;them. And to&#160;b&#160;fair it&#160;is necessary to&#160;mention that
-                    this&#160;problem is&#160;totally artificial. GUI has been created by&#160;the&#160;hands
-                    of&#160;other people and isn&#x27;t strongly required for&#160;work on&#160;PCs. There
-                    can be&#160;other conceptions which likely would be&#160;more fortunate for&#160;accessible
-                    interaction.
-                  </p>
-                  <p>
-                    Luwrain offers hybrid approach that uses GUI only for&#160;very specific tasks like web-browsing.
-                    Surfing over the&#160;web is&#160;nearly impossible with anything else than traditional
-                    browsing software, but all other tasks could be reconsidered. The&#160;another idea Luwrain
-                    is&#160;developing for is a&#160;text-based interface that invites user into the&#160;friendly
-                    environment without any items potentially inaccessible within it.
-                  </p>
-                  <p>
-                    In&#160;new environment the&#160;application decide by&#160;themselves what information
-                    provide in&#160;speech form and what information print on&#160;the&#160;screen. Entire
-                    screen is&#160;filled with well-readable content relevant to&#160;user active data. Special
-                    algorithm decides what part of data should be&#160;printed and how it&#160;should be located.
-                    For&#160;visually impaired persons Luwrain offers set of&#160;system-wide settings to&#160;get
-                    individual font size, colors etc.
-                  </p>
-                  <p>
-                    Any text-based systems are not a&#160;revelation in&#160;area of&#160;accessibility research,
-                    but Luwrain looks for&#160;design that could be&#160;functionally equal to&#160;GUI and
-                    save common integrity to&#160;be&#160;convenient for&#160;application developers. It&#x27;s
-                    rather difficult task, but we sure it&#160;is&#160;possible.
-                  </p>
-                  <p>
-                    If you are interested in&#160;the&#160;things we&#160;have&#160;described above see the&#160;following
-                    sections to&#160;continue understanding of&#160;the&#160;Luwrain:
-                  </p>
-                  <ul>
-                    <li><a href="<?echo luwrain_link('/doc/user/');?>">The&#160;documentation for&#160;users</a></li>
-                    <li><a href="<?echo luwrain_link('/doc/devel/');?>">The&#160;documentation for&#160;developers</a></li>
-                    <li><a href="<?echo luwrain_link('/doc/sponsors/');?>">Be&#160;our sponsor</a></li>
-                    <li><a href="/doc/partner/">Be&#160;our&#160;partner</a></li>
-                  </ul>
+<?php }?>
+<?php if (luwrain_current_lang() == 'ru') {?>
+                <h1>Чем Luwrain отличается от&#160;других вспомогательных технологий?</h1>
 
+<?php }?>
 <?php luwrain_end_page('/doc/difference/index.php');?>

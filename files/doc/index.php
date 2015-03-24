@@ -77,7 +77,7 @@
                     <a href="<?php echo luwrain_link('about/');?>">Что&#160;такое Luwrain, и почему мы считаем, что незрячие люди нуждаются
                     в&#160;нём?</a>
                   </li>
-                  <li><a href="<?php echo luwrain_link('difference/');?>">Чем Luwrain отличается от&#160;других доступных решений?</a></li>
+                  <li><a href="<?php echo luwrain_link('difference/');?>">Чем Luwrain отличается от&#160;других вспомогательных технологий?</a></li>
                   <li><a href="<?php echo luwrain_link('authors/');?>">Авторы проекта</a></li>
                   <li><a href="<?php echo luwrain_link('legal/');?>">Правовой статус проекта</a></li>
                   <li><a href="<?php echo luwrain_link('faq/');?>">Часто задаваемые вопросы</a></li>

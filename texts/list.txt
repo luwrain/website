@@ -1,6 +1,7 @@
 doc.installation.licrict
 doc.user.licrict
 doc.about.licrict
+doc.difference.licrict
 doc.authors.licrict
 doc.faq.licrict
 doc.roadmap.licrict

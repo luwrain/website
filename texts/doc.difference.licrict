@@ -1,88 +1,78 @@
 
+ENTITLE='Why is Luwrain different than other accessible solutions?'
+RUTITLE='Чем Luwrain отличается от~других вспомогательных технологий?'
+TARGET=doc/difference/index.php
+
+luwrain-page-en
+
 = Why is Luwrain different than other accessible solutions? =
 
-Current popular solutions offer Graphical User Interface (GUI) environment 
-in~conjunction with additional screen reading software.
-Screen readers  speak every action user does through some Text-To-Speech (TTS) engine. 
-This type of~interaction with~GUI can be done only by~keyboard navigation 
-and that makes impossible the~same speed of~work as~sighted users have.
-There is~no way to~overcome this restriction because 
-GUI is~designed to~be~comfort with~a~mouse only
-and there are no ideas how to~change that.
+We consider three projects as~something close to~the~things 
+we are creating. 
+They are 
+[[http://emacspeak.sourceforge.net/ Emacspeak]],
+[[http://www.knopper.net/knoppix-adriane/index-en.html Adriane]] and
+[[http://www.yourdolphin.com/productdetail.asp?id=30 Dolphin Guide]].
+Luwrain has noticeable differences with all~of~them
+and let take a~closer look what these difference are.
 
-Roughly speaking, blind people have~to struggle with the~environment the~least suitable for~them,
-but the~truth is~that this~problem is~totally artificial.
-GUI has been created by~the~hands of~other people, it is popular but not the single form of~using  PCs.
-There can be~other conceptions, likely, more fortunate 
-for~accessible solutions.
+== Emacspeak ==
 
-Luwrain offers hybrid approach that uses GUI only for~very specific tasks, like web-browsing.
-Surfing over the~web is~possible with traditional browsing software only,
-but other tasks, hopefully,  could be reconsidered in~some other way.
-The~idea Luwrain follows is a~text-based interface  
-that invites user into the~friendly working area with no~items potentially inaccessible within it.
-Inside of~the~new environment the~applications  decide by~themselves what information 
-provide in~speech form and what information print on~the~monitor. 
-The~screen is~filled only with well-readable content relevant to~user active data.
-Special algorithm decides what part of data should be~printed and how it~should be placed.
-For~visually impaired persons Luwrain offers set of~system-wide settings 
-to~get comfortable  font size, comfortable colors etc.
+Emacspeak can be fairly taken as~an~origin of~our inspiration.
+A~lot of~ideas came exactly from~Emacspeak 
+but significant number of~its disadvantages don't allow to use it as~a~main-stream platform for~blind people
+(we~think that Emacspeak's authors didn't plan it to~be anything like this). 
+There~is~a~list of~main points why Emacspeak doesn't suit:
 
-Any text-based systems are not a~revelation in~area of~accessibility research, 
-but Luwrain looks for~text-based design 
-that could be~functionally equal to~GUI and could save common integrity,
-which is~needed for~easy understanding by~application developers.
-It's rather difficult task, but we sure it~is~possible.
+* Emacspeak doesn't have a~proper entity of~application
+and we may not use it as~a~platform for~creating and distributing of~accessible applications
+* Emacspeak doesn't have any i18n support
+* GNU~Emacs basically  is a~text editor 
+and it isn't a~platform which constructed for~blind people completely 
+* Emacspeak doesn't have enough protection agains improper user actions
+* Although GNU~Emacs itself is a~cross-platform software,
+Emacspeak purposed typically for~launch on~GNU/Linux
 
-If you are interested in~the~things we~have~described above 
-see the~following sections to~continue reading:
+== Adriane ==
 
-* [local:/doc/user/ The~documentation for~users]
-* [local:/doc/devel/ The~documentation for~developers]
-* [local:/doc/sponsors/ Be~our sponsor]]
-* [/doc/partner/ Be~our~partner]
+Adriane is a~very interesting experience but has some substantial disadvantages as~well:
+
+* Adriane is~a~GNU/Linux distro 
+but we need an~environment capable of~running on~systems different than GNU/Linux
+* Adriane may not be used as~a~platform for~creating and distributing accessible applications 
+because doesn't have any API for~it
+* We don't know how to~enhance Adriane and how to~add a~proper i18n support to it
+
+== Dolphin Guide ==
+
+The~main problem with~Dolphin Guide is that it is a~proprietary software. 
+It is proprietary itself and can be launch only on~Microsoft Windows, which is proprietary as~well. 
+Some of~the~disadvantages mentioned for~Emacspeak and for~Adriane are actual for~Dolphin~Guide too 
+but we don't list them once again because the~main reason 
+ of~rejecting Dolphin Guide is its legal status.
+
+== Other approaches == 
+
+The~most popular solution to~the~problem of~accessible work on~PC remains 
+using of~screen reading software in~GUI.
+Since difference with  this approach is widely analyzed on~other pages of~this website, 
+let skip it here and notice one more important thing. 
+
+As we~think, there is no~any solution in~the~world which can be used 
+for~creating a~fully functional device for~blind people.
+We are speaking not about creating a~new device from~scratch,
+what evidently is very expensive,
+ but about a~way for~turning existing laptops and embedded PC's into elegant and reliable accessory for~blind people.
+
+We need a~completely new way of~interaction and a~completely new way for~offering  the~information to~the~user.
+The~former thing is~needed because we should have a~method for~using touch pads 
+and Luwrain is quite suitable for~adding a~support of~interaction with touch pads .
+The~second thing  is needed because all laptops have a~screen and  it should be used for~people with low vision.
+Luwrain potentially has all of~this  and keeping the~developing of~this ideas we 
+could be able to~adjust a~lot~of hardware for~using by~blind people, including tablets. 
+According to~our experience, none of~the existing solutions can be suitable to this. 
+
+luwrain-page-ru
 
 = Чем Luwrain отличается от~других вспомогательных технологий? =
-
-Имеющиеся подходы к~обеспечению доступной работы на~персональном компьютере (ПК) предлагают окружение,
-основанное на~графическом пользовательском интерфейсе (GUI) в~сочетании с~дополнительными  программами чтения экрана.
-Экранные чтецы озвучивают в~речевой форме каждое действие, которое выполняет пользователь,
-применяя для~этого речевые синтезаторы (TTS).
-Такой подход к~работе с~GUI подразумевает использование только клавиатуры,
-что приводит к~невозможности достижения такой~же скорости работы на~ПК,
-какая доступна  зрячим пользователям.
-Это~ограничение практически невозможно преодолеть,
-поскольку GUI был изначально ориентирован на~взаимодействие при~помощи мыши.
-
-Roughly speaking, blind people have~to struggle with the~environment the~least suitable for~them,
-but the~truth is~that this~problem is~totally artificial.
-GUI has been created by~the~hands of~other people, it is popular but not the single form of~using  PCs.
-There can be~other conceptions, likely, more fortunate 
-for~accessible solutions.
-
-Luwrain offers hybrid approach that uses GUI only for~very specific tasks, like web-browsing.
-Surfing over the~web is~possible with traditional browsing software only,
-but other tasks, hopefully,  could be reconsidered in~some other way.
-The~idea Luwrain follows is a~text-based interface  
-that invites user into the~friendly working area with no~items potentially inaccessible within it.
-Inside of~the~new environment the~applications  decide by~themselves what information 
-provide in~speech form and what information print on~the~monitor. 
-The~screen is~filled only with well-readable content relevant to~user active data.
-Special algorithm decides what part of data should be~printed and how it~should be placed.
-For~visually impaired persons Luwrain offers set of~system-wide settings 
-to~get comfortable  font size, comfortable colors etc.
-
-Any text-based systems are not a~revelation in~area of~accessibility research, 
-but Luwrain looks for~text-based design 
-that could be~functionally equal to~GUI and could save common integrity,
-which is~needed for~easy understanding by~application developers.
-It's rather difficult task, but we sure it~is~possible.
-
-If you are interested in~the~things we~have~described above 
-see the~following sections to~continue reading:
-
-* [local:/doc/user/ The~documentation for~users]
-* [local:/doc/devel/ The~documentation for~developers]
-* [local:/doc/sponsors/ Be~our sponsor]]
-* [/doc/partner/ Be~our~partner]
 
