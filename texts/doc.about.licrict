@@ -9,20 +9,125 @@ luwrain-page-en
 
 See also
 
-* [local:difference/ Why is Luwrain different than other accessible solutions?]
-* [local:faq/ Frequently asked questions]
+* [local:/doc/difference/ Why is Luwrain different than other accessible solutions?]
+* [local:/doc/faq/ Frequently asked questions]
 
+== What are we working on? ==
+
+The~development of~Luwrain is~carried~out in~directions to~the~areas in~accessibility technologies 
+which still have various unresolved problems:
+
+* Luwrain provides information in~the~form adjusted to~the~perception 
+of~blind people as~best as~possible
+
+* Luwrrain allows creating and distributing of~applications
+specially  purposed for~blind people 
+
+* Luwrain guarantees solving of~fixed number of~popular everyday tasks 
+regardless what experience the~user has 
+or his/her financial circumstances
+
+As~for~today, we~think that there are no suitable solutions to~this~problems
+widely known over the~world. 
+
+== The~UI designed for~blind people  ==
+
+The~screen reading utilities for~graphical user interface (GUI),
+the~most popular current approach to~assistive technologies for~blind people,
+doesn't take care of~providing information in~the~form suitable for~ the~user perception,
+what is the~most noticeable disadvantage.
+Without using a~mouse,
+which is inaccessible for~blind people,
+this conception is totally ineffective.
+The~level of~comfort and speed of~work equal to~the~level of~sighted people 
+remains unreachable for~blind users.
+Even more, if the~user doesn't have any prior experience of~using GUI as~a~sighted user,
+how he/she could get a~clew to~understand its nature?
+
+The~blind user always keeps the~picture of~its working space in~mind
+and Our goal is~making this picture in~imagination 
+{as~simple as~it~could be~possible}.
+This would allow ~user to~concentrate on~its work more effectively.
+In~case of~screen readers, the~user is~forced to~keep in~mind the~whole look of~the~desktop 
+(what actually is~impossible, regardless which tools are involved)
+and that destracts him/she from the~work itself.
+According to~our~experience,
+it~is {really possible} to~create this~ new~type of~UI
+with the~same features as~usual GUI
+(of~cource, if~we~are speaking about the~tasks which are potentially accessible for~blind people;
+for~instance, photo editing is~inaccessible at~all due~to~its nature).
+
+At~a~glance, it~looks that we~~are presenting some kind of~fiction, some generally impossible technology,
+but it~isn't the~case.
+Everybody knows that text editing is the~most understandable operation for~blind people on~pc.
+The~only thing we should do is to~make solving of~all tasks 
+in~the~same way as~text editing.
+How we achieve that,  [local:/doc/user/start/ see in~Luwrain].
+
+Besides mentioned advantages,
+our~conception has some additional features
+which make work easier:
+
+* A~search of~the~substring in~any object of~work regardless of~its nature
+
+* Copying of~the~arbitrary substring to~the~clipboard
+
+* The unified way of~supplementing speech or braille output 
+with the~picture on~the~screen for users with~low~vision,
+including features to~adjust the~preferable font size and the~preferable color scheme
+
+== Creating and distributing of~accessible applications  ==
+
+We may witness a~shift of~solutions from~web-browsers and desktop computers  to~mobile platforms.
+In~fact, it~is a~really convenient approach,
+even if the mobile platforms cannot be~a~fully-functional replacement 
+neither for~web-browsers, nor~for~desktop computers in~whole.
+Such OS as~Google Android or Apple~iOS plays a~role of~a~platform 
+which aims to~be with the~user everywhere.
+
+Blind people has nothing like this.
+There is no~platform which allows creating of~the~applications specially designed for~them.
+ Luwrain offers the~full [local:/doc/new-app/ SDK]
+for~creating of~applications for~blind people.
+The~main advantage of~this approach is that it doesn't require 
+the~developer to~have any~experience in~the~area of~accessibility technologies.
+Any~company can create a~client for~its service 
+just by~using [/api/ our Java API]
+and We will take care of~proper understanding of~created applications by~blind people.
+
+== Accessibility for~everybody  ==
+
+Luwrain is constructed  to~be accessible for~{everybody who could be~interested in~it}:
+
+* {Luwrain is~an~Open source project}:
+end-user may use it completely free of~charge,
+as~well as~any  other software based on~Luwrain and created by~third-party developers
+
+* {Luwrain  is~based on~Java}:
+end-user may run it~on~any computers with~proper Java~1.7 support 
+(roughly speaking, nearly on~all~PC's)
+
+* {Luwrain has a~distribution in~form of~bootable ISO-image}:
+even if~end-user doesn't have any OS installed on~his/her hard drive 
+he/she may run Luwrain choosing our ISO-image based on~GNU/Linux
+
+* {Luwrain has easily recognizable UI}:
+end-user shouldn't worry that he/she has insufficient experience for~work in~Luwrain
+because we take care of~keeping Luwrain environment as~simple as~it is possible 
 
 == By the author ==
 
-At~the end of~this little free story what Luwrain is,
+At~the end of~this little story what Luwrain is,
 I would like to write a~few words as~some kind of~personal notes.
-I had~to use screen readers since 2001 and never from that moment was satisfied with them.
-However, me strongly convinced that they are a~great achievement and Luwrain will never try to~dispute their value.
-It~would be~nice if everybody will consider Luwrain just as~an~attempt to~create something new,
-hopefully, interesting and useful in~areas, which previously didn't get enough attention.
-Besides that, me is very grateful to~all [[http://emacspeak.sourceforge.net  emacspeak]] authors 
-because the~results of~their work gave me a~reliable tool  and a~lot of~useful thoughts!
+I had~to use screen readers since 2002 and never from this  moment was satisfied with them.
+However, I am strongly convinced that they are a~great achievement and Luwrain isn't a~competitor disputing their value.
+It~would be~nice if everybody will take  Luwrain as~the~project
+creating something completely different,
+interesting and useful in~areas previously left without enough attention.
+
+Besides that, I am  very thankful to~all [[http://emacspeak.sourceforge.net  emacspeak]] authors 
+as~this software can be~not only a~reliable tool  
+but and a~origin of~inspiration as~well!
 
 With best wishes, [[http://marigostra.com/ Michael Pozhidaev]].
 
@@ -36,10 +141,10 @@ luwrain-page-ru
 * [local:faq/ Часто задаваемые вопросы]
 * [[http://marigostra.ru/projects/luwrain/ Неформальный манифест от~авторов проекта]]
 
-Развитие Luwrain с~самого начала нацеливалось на~те~сегменты вспомогательных технологий,
-в~которых есть различные нерешённые проблемы: 
+С~самого начала развитие Luwrain ведётся в~направлении сегментов вспомогательных технологий,
+в~которых отсутствуют решения: 
 
-# Luwrain предоставляет информацию пользователю в~виде,
+# Luwrain предоставляет пользователю информацию в~виде,
 предельно адаптированном для восприятия человеком с~нарушениями  зрения.
 
 # Luwrain предоставляет возможности для~создания и распространения приложений,
@@ -53,7 +158,7 @@ luwrain-page-ru
 
 == Интерфейс специально для~незрячих людей ==
 
-Неспоособность представить информацию в~подготовленном виде --- один из~главных недостатков  самого распространённого решения,
+Неспособность представить информацию в~подготовленном виде --- один из~главных недостатков  самого распространённого решения,
 основанного на~утилитах экранного доступа, 
 работающих в~оконном интерфейсе. 
 Без~использования мыши, недоступной незрячим пользователям,  этот тип интерфейса не~может быть удобен, 
@@ -105,7 +210,7 @@ luwrain-page-ru
 Такие ОС, как Google~Android и Apple~iOS, выступают как~мобильные платформы,
 при~помощи которых люди получают предельно удобный и комфортный доступ к~тем службам и сервисам, которые должны постоянно находиться под~рукой.
 
-Незрячие люди абсолютно не~имеют никакой платформы, которые позволяла~бы создавать подобные приложения специально для~них.
+Незрячие люди абсолютно не~имеют никакой платформы, которая позволяла~бы создавать подобные приложения специально для~них.
 Решение этой сложной задачи --- одна из~целей проекта Luwrain.
 Luwrain предлагает полноценный [local:/doc/new-app/ интерфейс для~создания приложений],
 адаптированных для~людей с~нарушениями зрения.
@@ -145,7 +250,7 @@ Luwrain сконструирован таким образом, чтобы ка�
 
 В~заключение этого небольшого рассказа о~Luwrain
 хочу написать несколько слов от~себя.
-Мне приходится использовать вспомогательные технологии с~2001~г.,
+Мне приходится использовать вспомогательные технологии с~2002~г.,
 но никогда с~этого момента их~работа не~удовлетворяла меня полностью.
 Тем~не~менее, искренне уверен, 
 что любые примеры утилит экранного доступа, которые критикуются на~этой странице, 

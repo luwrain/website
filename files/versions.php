@@ -1,17 +1,17 @@
 <?php
   function luwrain_version()
   {
-    return '0.0.1';
+    return '0.4.0';
   }
 
   function luwrain_release_date_en()
   {
-    return 'January 1, 2000';
+    return 'March 31, 2015';
   }
 
   function luwrain_release_date_ru()
   {
-    return '1 января 2000 г.';
+    return '31 марта 2015 г.';
   }
 
   function luwrain_version_windows()

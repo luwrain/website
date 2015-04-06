@@ -1,5 +1,4 @@
 <?php include "../../functions.php"; luwrain_begin_page('/download/linux/index.php', luwrain_current_lang() == 'ru'?'Дистрибутив для GNU/Linux':'Distribution for GNU/Linux');?>
-<?php luwrain_content_being_written();?>
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Distribution for&#160;GNU/Linux</h1>
                 <p>Clik on&#160;the&#160;direct link below to&#160;start  downloading.</p>
@@ -7,7 +6,7 @@
                 <p><b>Date of&#160;release:</b> <?php echo luwrain_release_date_linux_en();?></p>
                 <p><b>Target platform:</b> GNU/Linux</p>
                 <ul>
-                  <li>luwrain-<?php echo luwrain_version_linux();?>-linux.tar.gz</li>
+                  <li><a href="http://download.luwrain.org/binary/<?php echo luwrain_version_linux();?>/linux/luwrain-linux-<?php echo luwrain_version_linux();?>.tar.gz">luwrain-linux-<?php echo luwrain_version_linux();?>.tar.gz</a></li>
                 </ul>
                 <h2>See&#160;also</h2>
                 <ul>
@@ -27,7 +26,7 @@
                 <p><b>Дата релиза:</b> <?php echo luwrain_release_date_linux_ru();?></p>
                 <p><b>Платформа:</b> GNU/Linux</p>
                 <ul>
-                  <li>luwrain-<?php echo luwrain_version_linux();?>-linux.tar.gz</li>
+                  <li><a href="http://download.luwrain.org/binary/<?php echo luwrain_version_linux();?>/linux/luwrain-linux-<?php echo luwrain_version_linux();?>.tar.gz">luwrain-linux-<?php echo luwrain_version_linux();?>.tar.gz</a></li>
                 </ul>
                 <h2>См.&#160;также</h2>
                 <ul>

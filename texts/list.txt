@@ -26,6 +26,7 @@ newapp.multithreading.licrict
 newapp.compilation.licrict
 dev.licrict
 dev.linux-compilation.licrict
+dev.txt-reading.licrict
 dev.speech-backend.licrict
 download.licrict
 download.git.licrict

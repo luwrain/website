@@ -3,20 +3,137 @@
                 <h1>About the project</h1>
                 <p>See also</p>
                 <ul>
-                  <li><a href="<?php echo luwrain_link('difference/');?>">Why is Luwrain different than other accessible solutions?</a></li>
-                  <li><a href="<?php echo luwrain_link('faq/');?>">Frequently asked questions</a></li>
+                  <li><a href="<?php echo luwrain_link('/doc/difference/');?>">Why is Luwrain different than other accessible solutions?</a></li>
+                  <li><a href="<?php echo luwrain_link('/doc/faq/');?>">Frequently asked questions</a></li>
+                </ul>
+                <h2>What are we working on?</h2>
+                <p>
+                  The&#160;development of&#160;Luwrain is&#160;carried&#160;out in&#160;directions to&#160;the&#160;areas
+                  in&#160;accessibility technologies which still have various unresolved problems:
+                </p>
+                <ul>
+                  <li>
+                    Luwrain provides information in&#160;the&#160;form adjusted to&#160;the&#160;perception
+                    of&#160;blind people as&#160;best as&#160;possible
+                  </li>
+                  <li>
+                    Luwrrain allows creating and distributing of&#160;applications specially purposed for&#160;blind
+                    people
+                  </li>
+                  <li>
+                    Luwrain guarantees solving of&#160;fixed number of&#160;popular everyday tasks regardless
+                    what experience the&#160;user has or his/her financial circumstances
+                  </li>
+                </ul>
+                <p>
+                  As&#160;for&#160;today, we&#160;think that there are no suitable solutions to&#160;this&#160;problems
+                  widely known over the&#160;world.
+                </p>
+                <h2>The&#160;UI designed for&#160;blind people</h2>
+                <p>
+                  The&#160;screen reading utilities for&#160;graphical user interface (GUI), the&#160;most
+                  popular current approach to&#160;assistive technologies for&#160;blind people, doesn&#x27;t
+                  take care of&#160;providing information in&#160;the&#160;form suitable for&#160; the&#160;user
+                  perception, what is the&#160;most noticeable disadvantage. Without using a&#160;mouse,
+                  which is inaccessible for&#160;blind people, this conception is totally ineffective. The&#160;level
+                  of&#160;comfort and speed of&#160;work equal to&#160;the&#160;level of&#160;sighted people
+                  remains unreachable for&#160;blind users. Even more, if the&#160;user doesn&#x27;t have
+                  any prior experience of&#160;using GUI as&#160;a&#160;sighted user, how he/she could get
+                  a&#160;clew to&#160;understand its nature?
+                </p>
+                <p>
+                  The&#160;blind user always keeps the&#160;picture of&#160;its working space in&#160;mind
+                  and Our goal is&#160;making this picture in&#160;imagination <b>as&#160;simple as&#160;it&#160;could
+                  be&#160;possible</b>. This would allow &#160;user to&#160;concentrate on&#160;its work
+                  more effectively. In&#160;case of&#160;screen readers, the&#160;user is&#160;forced to&#160;keep
+                  in&#160;mind the&#160;whole look of&#160;the&#160;desktop (what actually is&#160;impossible,
+                  regardless which tools are involved) and that destracts him/she from the&#160;work itself.
+                  According to&#160;our&#160;experience, it&#160;is <b>really possible</b> to&#160;create
+                  this&#160; new&#160;type of&#160;UI with the&#160;same features as&#160;usual GUI (of&#160;cource,
+                  if&#160;we&#160;are speaking about the&#160;tasks which are potentially accessible for&#160;blind
+                  people; for&#160;instance, photo editing is&#160;inaccessible at&#160;all due&#160;to&#160;its
+                  nature).
+                </p>
+                <p>
+                  At&#160;a&#160;glance, it&#160;looks that we&#160;&#160;are presenting some kind of&#160;fiction,
+                  some generally impossible technology, but it&#160;isn&#x27;t the&#160;case. Everybody knows
+                  that text editing is the&#160;most understandable operation for&#160;blind people on&#160;pc.
+                  The&#160;only thing we should do is to&#160;make solving of&#160;all tasks in&#160;the&#160;same
+                  way as&#160;text editing. How we achieve that, <a href="<?php echo luwrain_link('/doc/user/start/');?>">see in&#160;Luwrain</a>.
+                </p>
+                <p>
+                  Besides mentioned advantages, our&#160;conception has some additional features which make
+                  work easier:
+                </p>
+                <ul>
+                  <li>
+                    A&#160;search of&#160;the&#160;substring in&#160;any object of&#160;work regardless of&#160;its
+                    nature
+                  </li>
+                  <li>Copying of&#160;the&#160;arbitrary substring to&#160;the&#160;clipboard</li>
+                  <li>
+                    The unified way of&#160;supplementing speech or braille output with the&#160;picture on&#160;the&#160;screen
+                    for users with&#160;low&#160;vision, including features to&#160;adjust the&#160;preferable
+                    font size and the&#160;preferable color scheme
+                  </li>
+                </ul>
+                <h2>Creating and distributing of&#160;accessible applications</h2>
+                <p>
+                  We may witness a&#160;shift of&#160;solutions from&#160;web-browsers and desktop computers
+                  to&#160;mobile platforms. In&#160;fact, it&#160;is a&#160;really convenient approach, even
+                  if the mobile platforms cannot be&#160;a&#160;fully-functional replacement neither for&#160;web-browsers,
+                  nor&#160;for&#160;desktop computers in&#160;whole. Such OS as&#160;Google Android or Apple&#160;iOS
+                  plays a&#160;role of&#160;a&#160;platform which aims to&#160;be with the&#160;user everywhere.
+                </p>
+                <p>
+                  Blind people has nothing like this. There is no&#160;platform which allows creating of&#160;the&#160;applications
+                  specially designed for&#160;them. Luwrain offers the&#160;full <a href="<?php echo luwrain_link('/doc/new-app/');?>">SDK</a>
+                  for&#160;creating of&#160;applications for&#160;blind people. The&#160;main advantage of&#160;this
+                  approach is that it doesn&#x27;t require the&#160;developer to&#160;have any&#160;experience
+                  in&#160;the&#160;area of&#160;accessibility technologies. Any&#160;company can create a&#160;client
+                  for&#160;its service just by&#160;using <a href="/api/">our Java API</a> and We will take
+                  care of&#160;proper understanding of&#160;created applications by&#160;blind people.
+                </p>
+                <h2>Accessibility for&#160;everybody</h2>
+                <p>
+                  Luwrain is constructed to&#160;be accessible for&#160;<b>everybody who could be&#160;interested
+                  in&#160;it</b>:
+                </p>
+                <ul>
+                  <li>
+                    <b>Luwrain is&#160;an&#160;Open source project</b>: end-user may use it completely free
+                    of&#160;charge, as&#160;well as&#160;any other software based on&#160;Luwrain and created
+                    by&#160;third-party developers
+                  </li>
+                  <li>
+                    <b>Luwrain is&#160;based on&#160;Java</b>: end-user may run it&#160;on&#160;any computers
+                    with&#160;proper Java&#160;1.7 support (roughly speaking, nearly on&#160;all&#160;PC&#x27;s)
+                  </li>
+                  <li>
+                    <b>Luwrain has a&#160;distribution in&#160;form of&#160;bootable ISO-image</b>: even if&#160;end-user
+                    doesn&#x27;t have any OS installed on&#160;his/her hard drive he/she may run Luwrain choosing
+                    our ISO-image based on&#160;GNU/Linux
+                  </li>
+                  <li>
+                    <b>Luwrain has easily recognizable UI</b>: end-user shouldn&#x27;t worry that he/she has
+                    insufficient experience for&#160;work in&#160;Luwrain because we take care of&#160;keeping
+                    Luwrain environment as&#160;simple as&#160;it is possible
+                  </li>
                 </ul>
                 <h2>By the author</h2>
                 <p>
-                  At&#160;the end of&#160;this little free story what Luwrain is, I would like to write a&#160;few
+                  At&#160;the end of&#160;this little story what Luwrain is, I would like to write a&#160;few
                   words as&#160;some kind of&#160;personal notes. I had&#160;to use screen readers since
-                  2001 and never from that moment was satisfied with them. However, me strongly convinced
-                  that they are a&#160;great achievement and Luwrain will never try to&#160;dispute their
-                  value. It&#160;would be&#160;nice if everybody will consider Luwrain just as&#160;an&#160;attempt
-                  to&#160;create something new, hopefully, interesting and useful in&#160;areas, which previously
-                  didn&#x27;t get enough attention. Besides that, me is very grateful to&#160;all <a target="_blank" href="http://emacspeak.sourceforge.net">emacspeak</a>
-                  authors because the&#160;results of&#160;their work gave me a&#160;reliable tool and a&#160;lot
-                  of&#160;useful thoughts!
+                  2002 and never from this moment was satisfied with them. However, I am strongly convinced
+                  that they are a&#160;great achievement and Luwrain isn&#x27;t a&#160;competitor disputing
+                  their value. It&#160;would be&#160;nice if everybody will take Luwrain as&#160;the&#160;project
+                  creating something completely different, interesting and useful in&#160;areas previously
+                  left without enough attention.
+                </p>
+                <p>
+                  Besides that, I am very thankful to&#160;all <a target="_blank" href="http://emacspeak.sourceforge.net">emacspeak</a>
+                  authors as&#160;this software can be&#160;not only a&#160;reliable tool but and a&#160;origin
+                  of&#160;inspiration as&#160;well!
                 </p>
                 <p>With best wishes, <a target="_blank" href="http://marigostra.com/">Michael Pozhidaev</a>.</p>
 
@@ -33,12 +150,12 @@
                   </li>
                 </ul>
                 <p>
-                  Развитие Luwrain с&#160;самого начала нацеливалось на&#160;те&#160;сегменты вспомогательных
-                  технологий, в&#160;которых есть различные нерешённые проблемы:
+                  С&#160;самого начала развитие Luwrain ведётся в&#160;направлении сегментов вспомогательных
+                  технологий, в&#160;которых отсутствуют решения:
                 </p>
                 <ol>
                   <li>
-                    Luwrain предоставляет информацию пользователю в&#160;виде, предельно адаптированном для
+                    Luwrain предоставляет пользователю информацию в&#160;виде, предельно адаптированном для
                     восприятия человеком с&#160;нарушениями зрения.
                   </li>
                   <li>
@@ -54,7 +171,7 @@
                 <p>Мы считаем, что в&#160;настоящий момент решения для&#160;перечисленных задач отсутствуют.</p>
                 <h2>Интерфейс специально для&#160;незрячих людей</h2>
                 <p>
-                  Неспоособность представить информацию в&#160;подготовленном виде &#x2014; один из&#160;главных
+                  Неспособность представить информацию в&#160;подготовленном виде &#x2014; один из&#160;главных
                   недостатков самого распространённого решения, основанного на&#160;утилитах экранного доступа,
                   работающих в&#160;оконном интерфейсе. Без&#160;использования мыши, недоступной незрячим
                   пользователям, этот тип интерфейса не&#160;может быть удобен, следовательно, он плохо подходит
@@ -107,7 +224,7 @@
                   к&#160;тем службам и сервисам, которые должны постоянно находиться под&#160;рукой.
                 </p>
                 <p>
-                  Незрячие люди абсолютно не&#160;имеют никакой платформы, которые позволяла&#160;бы создавать
+                  Незрячие люди абсолютно не&#160;имеют никакой платформы, которая позволяла&#160;бы создавать
                   подобные приложения специально для&#160;них. Решение этой сложной задачи &#x2014; одна из&#160;целей
                   проекта Luwrain. Luwrain предлагает полноценный <a href="<?php echo luwrain_link('/doc/new-app/');?>">интерфейс
                   для&#160;создания приложений</a>, адаптированных для&#160;людей с&#160;нарушениями зрения.
@@ -150,7 +267,7 @@
                 <h2>От&#160;автора</h2>
                 <p>
                   В&#160;заключение этого небольшого рассказа о&#160;Luwrain хочу написать несколько слов
-                  от&#160;себя. Мне приходится использовать вспомогательные технологии с&#160;2001&#160;г.,
+                  от&#160;себя. Мне приходится использовать вспомогательные технологии с&#160;2002&#160;г.,
                   но никогда с&#160;этого момента их&#160;работа не&#160;удовлетворяла меня полностью. Тем&#160;не&#160;менее,
                   искренне уверен, что любые примеры утилит экранного доступа, которые критикуются на&#160;этой
                   странице, являются колоссальным достижением в&#160;развитии доступности, и Luwrain не&#160;пытается

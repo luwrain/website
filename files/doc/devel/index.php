@@ -10,6 +10,7 @@
                 <h1>Документация для&#160;разработчиков среды</h1>
                 <ul>
                   <li><a href="<?php echo luwrain_link('speech-backend/');?>">Реализация речевого вывода</a></li>
+                  <li><a href="<?php echo luwrain_link('txt-reading/');?>">Требования к&#160;приложению для&#160;чтения больших текстов</a></li>
                 </ul>
 
 <?php }?>
