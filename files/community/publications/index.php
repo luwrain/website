@@ -1,50 +1,32 @@
 <?php include "../../functions.php"; luwrain_begin_page('/community/publications/index.php', luwrain_current_lang() == 'ru'?'Публикации':'Publications');?>
-<?php luwrain_content_being_written();?>
 <?php if (luwrain_current_lang() == 'en') {?>
-                <h1>Luwrain publications</h1>
-                <p>
-                  This page contains the&#160;list of&#160;publications dedicated to&#160;Luwrain. We put
-                  here only materials which were published in&#160;English language or which have the&#160;English
-                  translation.
-                </p>
-                <ol>
+                <h1>Publications</h1>
+                <h2>About the&#160;project</h2>
+                <ul>
                   <li>
-                    <a href="<?echo luwrain_link('LuwrainTextBasedOsForBlindPersons');?>">Luwrain: text-based OS for blind persons</a>
-                    (September, 2013)
+                    <a href="<?php echo luwrain_link('BelyeBukvyNaChernomEkrane/');?>">Белые буквы на&#160;чёрном экране</a> («Кот
+                    Шрёдингера», №1&#x2013;2, Svetlana Sokolova, January&#x2013;February, 2015, Russian language)
                   </li>
                   <li>
-                    <a href="<?echo luwrain_link('MinimalisticUserInterfacesTheCaseForBlindPersons');?>">Minimalistic user interfaces:
-                    the&#160;case for&#160;blind persons</a> (September, 2013)
+                    <a target="_blank" href="http://www.youtube.com/watch?v=m-HOWJCRn7g3">Идея фикс. Компьютер
+                    для незрячих</a> («Живое ТВ», Svetlana Glazyrina, Youtube, October 3, 2014, Russian language)
                   </li>
-                  <li>
-                    <a href="<?echo luwrain_link('TheTextBasedEnvironmentForBlindPersonsConceptionAndOperatingSystemDesign');?>">The&#160;text-based
-                    environment for&#160;blind persons: conception and operating system design</a> (February,
-                    2013)
-                  </li>
-                </ol>
+                </ul>
+
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
+                <h1>Публикации</h1>
+                <h2>О&#160;проекте</h2>
+                <ul>
+                  <li>
+                    <a href="<?php echo luwrain_link('BelyeBukvyNaChernomEkrane/');?>">Белые буквы на&#160;чёрном экране</a> («Кот
+                    Шрёдингера», №1&#x2013;2, Светлана Соколова, январь-февраль 2015&#160;г., рус.&#160;яз.)
+                  </li>
+                  <li>
+                    <a target="_blank" href="http://www.youtube.com/watch?v=m-HOWJCRn7g3">Идея фикс. Компьютер
+                    для незрячих</a> («Живое ТВ», Светлана Глазырина, Youtube, 3 октября 2014 г., рус.&#160;яз.)
+                  </li>
+                </ul>
 
-                <h1>Публикации о&#160;Luwrain</h1>
-                <p>
-                  На&#160;этой странице Вы можете найти список публикаций, посвящённых Luwrain. Мы размещаем
-                  здесь только материалы, которые были опубликованы на&#160;английском языке или имеют перевод
-                  на&#160;английский язык.
-                </p>
-                <ol>
-                  <li>
-                    <a href="<?echo luwrain_link('LuwrainTextBasedOsForBlindPersons');?>">Luwrain: text-based OS for blind persons</a>
-                    (сентябрь 2013)
-                  </li>
-                  <li>
-                    <a href="<?echo luwrain_link('MinimalisticUserInterfacesTheCaseForBlindPersons');?>">Minimalistic user interfaces:
-                    the&#160;case for&#160;blind persons</a> (сентябрь 2013)
-                  </li>
-                  <li>
-                    <a href="<?echo luwrain_link('TheTextBasedEnvironmentForBlindPersonsConceptionAndOperatingSystemDesign');?>">The&#160;text-based
-                    environment for&#160;blind persons: conception and operating system design</a> (февраль
-                    2013)
-                  </li>
-                </ol>
 <?php }?>
 <?php luwrain_end_page('/community/publications/index.php');?>

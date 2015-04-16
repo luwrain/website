@@ -32,3 +32,5 @@ download.licrict
 download.git.licrict
 download.tarball.licrict
 comm.licrict
+publications.licrict
+publications.kotsher.licrict

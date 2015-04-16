@@ -1,0 +1,48 @@
+
+ENTITLE='Publications'
+RUTITLE='Публикации'
+TARGET=community/publications/index.php
+
+luwrain-page-en
+
+= Publications =
+
+== About the~project  ==
+
+* [local:BelyeBukvyNaChernomEkrane/ 
+Белые буквы на~чёрном экране]
+(«Кот Шрёдингера», 
+№1--2,
+Svetlana Sokolova,
+January--February, 2015,
+Russian language)
+
+* [[http://www.youtube.com/watch?v=m-HOWJCRn7g3 
+Идея фикс. Компьютер для незрячих]]
+(«Живое ТВ», 
+Svetlana Glazyrina, 
+Youtube, 
+October 3, 2014,
+Russian language)
+
+luwrain-page-ru
+
+= Публикации =
+
+== О~проекте ==
+
+* [local:BelyeBukvyNaChernomEkrane/ 
+Белые буквы на~чёрном экране]
+(«Кот Шрёдингера», 
+№1--2,
+Светлана Соколова,
+январь-февраль 2015~г.,
+рус.~яз.)
+
+* [[http://www.youtube.com/watch?v=m-HOWJCRn7g3 
+Идея фикс. Компьютер для незрячих]]
+(«Живое ТВ», 
+Светлана Глазырина, 
+Youtube, 
+3 октября 2014 г.,
+рус.~яз.)
