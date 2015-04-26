@@ -52,15 +52,15 @@
 <?php if (luwrain_current_lang() == 'ru') {?>
                 <h1>Публикации</h1>
                 <p>
-                  На&#160;этой странице приведены наиболее интересные и значимые публикации, сделанные разными
-                  людьми о&#160;Luwrain. Помимо этого, мы выложили некоторые pdf-файлы на&#160;<a href="http://download.luwrain.org/pdf/">download.luwrain.org</a>.
+                  Ниже собраны наиболее интересные и значимые публикации, сделанные разными людьми о&#160;Luwrain.
+                  Помимо этого, мы выложили некоторые pdf-файлы в&#160;отдельном каталоге на&#160;<a href="http://download.luwrain.org/pdf/">download.luwrain.org</a>.
                 </p>
                 <h2>Статьи</h2>
                 <ul>
                   <li>
                     <a href="http://dl.acm.org/citation.cfm?id=2687234&amp;CFID=464939051&amp;CFTOKEN=29213994">The
-                    Framework for Accessible Applications: Text-Based Case for Blind People</a> (ACM&#160;Digital
-                    Library, США, декабрь 2014, анг.&#160;яз.)
+                    Framework for Accessible Applications: Text-Based Case for Blind People</a> (Электронная
+                    библиотека ACM, США, декабрь 2014, анг.&#160;яз.)
                   </li>
                 </ul>
                 <h2>Мероприятия</h2>

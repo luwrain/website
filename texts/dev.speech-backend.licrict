@@ -13,12 +13,9 @@ luwrain-page-ru
 
 = Реализация речевого вывода =
 
+См.~также
 
-
-См.~также:
-
-* [/api/org/luwrain/speech/BackEnd.html страница {{org.luwrain.speech.BackEnd}} в~Luwrain~API].
-
+* [/api/org/luwrain/speech/BackEnd.html Страница {{org.luwrain.speech.BackEnd}} в~Luwrain~API].
 
 Передача информации в~виде синтезированной человеческой речи является одним из~основных альтернативных способов  взаимодействия пользователя с~Luwrain.
 Дизайн Luwrain подразумевает возможность подготовки большого количества разнообразных механизмов вывода речи,

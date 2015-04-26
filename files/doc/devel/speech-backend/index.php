@@ -6,10 +6,10 @@
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
                 <h1>Реализация речевого вывода</h1>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li>
-                    <a href="/api/org/luwrain/speech/BackEnd.html">страница <i>org.luwrain.speech.BackEnd</i>
+                    <a href="/api/org/luwrain/speech/BackEnd.html">Страница <i>org.luwrain.speech.BackEnd</i>
                     в&#160;Luwrain&#160;API</a>.
                   </li>
                 </ul>

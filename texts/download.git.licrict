@@ -7,7 +7,7 @@ luwrain-page-en
 
 = Luwrain Git repositories =
 
-The~source code of~the~Luwrain project is easily accessible through   a~set of~Git repositories  hosted on~[[http://github.com/luwrain/ github.com]].
+The~source code of~the~Luwrain is easily accessible in~Git repositories on~[[http://github.com/luwrain/ github.com]].
 There are direct links to~them listed  in~several categories 
 with~brief comments.
 
@@ -50,7 +50,7 @@ Linux-dependent part of Luwrain
 
 * [[https://github.com/luwrain/macos.git
 git://github.com/luwrain/macos.git]] ---
-MacOS-dependent part of Luwrain
+Mac~OS-dependent part of Luwrain
 
 * [[https://github.com/luwrain/windows.git
 git://github.com/luwrain/windows.git]] ---
@@ -60,75 +60,83 @@ Windows-dependent part of Luwrain
 
 * [[https://github.com/luwrain/libdbusspeech.git
 git://github.com/luwrain/libdbusspeech.git]] ---
-the  speech interface for~D-Bus
+ speech interface based on~D-Bus
 
 * [[https://github.com/luwrain/guidecraft.git
 git://github.com/luwrain/guidecraft.git]] ---
-the AT-SPI client and the window manager
+AT-SPI client and the window manager
 
 * [[https://github.com/luwrain/voiceman.git
 git://github.com/luwrain/voiceman.git]] ---
-the speech server
+speech server
 
 * [[https://github.com/luwrain/pointvox.git
 git://github.com/luwrain/pointvox.git]] ---
-the     TTS manager
+    TTS manager
 
 * [[https://github.com/luwrain/musitorius.git
 git://github.com/luwrain/musitorius.git]] ---
-the     multimedia player manager
+multimedia players manager
 
 == Applications ==
 
+* [[https://github.com/luwrain/app-calc.git
+git://github.com/luwrain/app-calc.git]] ---
+calculator
+
 * [[https://github.com/luwrain/app-calendar.git
 git://github.com/luwrain/app-calendar.git]] ---
-the calendar
+calendar
 
 * [[https://github.com/luwrain/app-commander.git
 git://github.com/luwrain/app-commander.git]] ---
-the file manager
+file manager
 
 * [[https://github.com/luwrain/app-diary.git
 git://github.com/luwrain/app-diary.git]] ---
-the personal diary
+personal diary
 
 * [[https://github.com/luwrain/app-fetch.git
 git://github.com/luwrain/app-fetch.git]] ---
-the mail and news fetch application
+mail and news fetch application
 
 * [[https://github.com/luwrain/app-mail.git
 git://github.com/luwrain/app-mail.git]] ---
-the mail client
+mail client
 
 * [[https://github.com/luwrain/app-message.git
 git://github.com/luwrain/app-message.git]] ---
-the message composer
+message composer
 
 * [[https://github.com/luwrain/app-news.git
 git://github.com/luwrain/app-news.git]] ---
-the news client
+news client
 
 * [[https://github.com/luwrain/app-notepad.git
 git://github.com/luwrain/app-notepad.git]] ---
-the simple text editor
+simple text editor
 
 * [[https://github.com/luwrain/app-preview.git
 git://github.com/luwrain/app-preview.git]] ---
-the document preview
+document preview
 
 * [[https://github.com/luwrain/app-term.git
 git://github.com/luwrain/app-term.git]] ---
-the terminal
+terminal
+
+* [[https://github.com/luwrain/app-twitter.git
+git://github.com/luwrain/app-twitter.git]] ---
+client for~Twitter
 
 * [[https://github.com/luwrain/app-writer.git
 git://github.com/luwrain/app-writer.git]] ---
-the document editor
+document editor
 
 luwrain-page-ru
 
 = репозитории Git =
 
-Исходный код Luwrain может быть загружен из~нескольких репозиториев Git, 
+Исходный код Luwrain хранится и постоянно обновляется в~нескольких репозиториев Git, 
 расположенных на~сервере [[http://github.com/luwrain/ github.com]].
 Ниже приведён их~список, разбитый на~несколько категорий.
 
@@ -171,7 +179,7 @@ git://github.com/luwrain/linux.git]] ---
 
 * [[https://github.com/luwrain/macos.git
 git://github.com/luwrain/macos.git]] ---
-системнозависимая часть для~MacOS
+системнозависимая часть для~Mac~OS
 
 * [[https://github.com/luwrain/windows.git
 git://github.com/luwrain/windows.git]] ---
@@ -200,6 +208,10 @@ git://github.com/luwrain/musitorius.git]] ---
 сервис для~управления медиапроигрывателем 
 
 == Приложения ==
+
+* [[https://github.com/luwrain/app-calc.git
+git://github.com/luwrain/app-calc.git]] ---
+калькулятор
 
 * [[https://github.com/luwrain/app-calendar.git
 git://github.com/luwrain/app-calendar.git]] ---
@@ -241,7 +253,10 @@ git://github.com/luwrain/app-preview.git]] ---
 git://github.com/luwrain/app-term.git]] ---
 командная оболочка
 
+* [[https://github.com/luwrain/app-twitter.git
+git://github.com/luwrain/app-twitter.git]] ---
+клиент для~Твиттера
+
 * [[https://github.com/luwrain/app-writer.git
 git://github.com/luwrain/app-writer.git]] ---
 редактор документов
-

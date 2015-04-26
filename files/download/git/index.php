@@ -2,9 +2,9 @@
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Luwrain Git repositories</h1>
                 <p>
-                  The&#160;source code of&#160;the&#160;Luwrain project is easily accessible through a&#160;set
-                  of&#160;Git repositories hosted on&#160;<a target="_blank" href="http://github.com/luwrain/">github.com</a>.
-                  There are direct links to&#160;them listed in&#160;several categories with&#160;brief comments.
+                  The&#160;source code of&#160;the&#160;Luwrain is easily accessible in&#160;Git repositories
+                  on&#160;<a target="_blank" href="http://github.com/luwrain/">github.com</a>. There are
+                  direct links to&#160;them listed in&#160;several categories with&#160;brief comments.
                 </p>
                 <h2>Main repositories</h2>
                 <ul>
@@ -45,7 +45,7 @@
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/macos.git">git://github.com/luwrain/macos.git</a>
-                    &#x2014; MacOS-dependent part of Luwrain
+                    &#x2014; Mac&#160;OS-dependent part of Luwrain
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/windows.git">git://github.com/luwrain/windows.git</a>
@@ -56,70 +56,78 @@
                 <ul>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/libdbusspeech.git">git://github.com/luwrain/libdbusspeech.git</a>
-                    &#x2014; the speech interface for&#160;D-Bus
+                    &#x2014; speech interface based on&#160;D-Bus
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/guidecraft.git">git://github.com/luwrain/guidecraft.git</a>
-                    &#x2014; the AT-SPI client and the window manager
+                    &#x2014; AT-SPI client and the window manager
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/voiceman.git">git://github.com/luwrain/voiceman.git</a>
-                    &#x2014; the speech server
+                    &#x2014; speech server
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/pointvox.git">git://github.com/luwrain/pointvox.git</a>
-                    &#x2014; the TTS manager
+                    &#x2014; TTS manager
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/musitorius.git">git://github.com/luwrain/musitorius.git</a>
-                    &#x2014; the multimedia player manager
+                    &#x2014; multimedia players manager
                   </li>
                 </ul>
                 <h2>Applications</h2>
                 <ul>
                   <li>
+                    <a target="_blank" href="https://github.com/luwrain/app-calc.git">git://github.com/luwrain/app-calc.git</a>
+                    &#x2014; calculator
+                  </li>
+                  <li>
                     <a target="_blank" href="https://github.com/luwrain/app-calendar.git">git://github.com/luwrain/app-calendar.git</a>
-                    &#x2014; the calendar
+                    &#x2014; calendar
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-commander.git">git://github.com/luwrain/app-commander.git</a>
-                    &#x2014; the file manager
+                    &#x2014; file manager
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-diary.git">git://github.com/luwrain/app-diary.git</a>
-                    &#x2014; the personal diary
+                    &#x2014; personal diary
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-fetch.git">git://github.com/luwrain/app-fetch.git</a>
-                    &#x2014; the mail and news fetch application
+                    &#x2014; mail and news fetch application
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-mail.git">git://github.com/luwrain/app-mail.git</a>
-                    &#x2014; the mail client
+                    &#x2014; mail client
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-message.git">git://github.com/luwrain/app-message.git</a>
-                    &#x2014; the message composer
+                    &#x2014; message composer
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-news.git">git://github.com/luwrain/app-news.git</a>
-                    &#x2014; the news client
+                    &#x2014; news client
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-notepad.git">git://github.com/luwrain/app-notepad.git</a>
-                    &#x2014; the simple text editor
+                    &#x2014; simple text editor
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-preview.git">git://github.com/luwrain/app-preview.git</a>
-                    &#x2014; the document preview
+                    &#x2014; document preview
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-term.git">git://github.com/luwrain/app-term.git</a>
-                    &#x2014; the terminal
+                    &#x2014; terminal
+                  </li>
+                  <li>
+                    <a target="_blank" href="https://github.com/luwrain/app-twitter.git">git://github.com/luwrain/app-twitter.git</a>
+                    &#x2014; client for&#160;Twitter
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-writer.git">git://github.com/luwrain/app-writer.git</a>
-                    &#x2014; the document editor
+                    &#x2014; document editor
                   </li>
                 </ul>
 
@@ -127,9 +135,9 @@
 <?php if (luwrain_current_lang() == 'ru') {?>
                 <h1>репозитории Git</h1>
                 <p>
-                  Исходный код Luwrain может быть загружен из&#160;нескольких репозиториев Git, расположенных
-                  на&#160;сервере <a target="_blank" href="http://github.com/luwrain/">github.com</a>. Ниже
-                  приведён их&#160;список, разбитый на&#160;несколько категорий.
+                  Исходный код Luwrain хранится и постоянно обновляется в&#160;нескольких репозиториев Git,
+                  расположенных на&#160;сервере <a target="_blank" href="http://github.com/luwrain/">github.com</a>.
+                  Ниже приведён их&#160;список, разбитый на&#160;несколько категорий.
                 </p>
                 <h2>Основные репозитории</h2>
                 <ul>
@@ -170,7 +178,7 @@
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/macos.git">git://github.com/luwrain/macos.git</a>
-                    &#x2014; системнозависимая часть для&#160;MacOS
+                    &#x2014; системнозависимая часть для&#160;Mac&#160;OS
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/windows.git">git://github.com/luwrain/windows.git</a>
@@ -202,6 +210,10 @@
                 </ul>
                 <h2>Приложения</h2>
                 <ul>
+                  <li>
+                    <a target="_blank" href="https://github.com/luwrain/app-calc.git">git://github.com/luwrain/app-calc.git</a>
+                    &#x2014; калькулятор
+                  </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-calendar.git">git://github.com/luwrain/app-calendar.git</a>
                     &#x2014; календарь
@@ -241,6 +253,10 @@
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-term.git">git://github.com/luwrain/app-term.git</a>
                     &#x2014; командная оболочка
+                  </li>
+                  <li>
+                    <a target="_blank" href="https://github.com/luwrain/app-twitter.git">git://github.com/luwrain/app-twitter.git</a>
+                    &#x2014; клиент для&#160;Твиттера
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-writer.git">git://github.com/luwrain/app-writer.git</a>
