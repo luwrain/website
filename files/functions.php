@@ -72,7 +72,7 @@ function luwrain_link($path)
 		    <a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Список рассылки</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/community/bugs/');?>">Сообщить об ошибке</a>
+		    <a href="<?php echo luwrain_link('/community/publications/');?>">Публикации</a>
 		  </li>
 		</ul>
 	      </div>
@@ -144,7 +144,7 @@ function luwrain_link($path)
 		    <a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Mailing list</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/community/bugs/');?>">Report a bug</a>
+		    <a href="<?php echo luwrain_link('/community/publications/');?>">Publications</a>
 		  </li>
 		</ul>
 	      </div>

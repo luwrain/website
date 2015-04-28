@@ -43,6 +43,11 @@
                     language)
                   </li>
                   <li>
+                    <a href="http://sdcast.ksdaemon.ru/podlove/file/55/s/download/SDCast-17.mp3">в&#160;гостях
+                    Михаил Пожидаев</a> (mp3, 36M, SDCast &#x2014; Software Development podCAST, Constantin
+                    Burkalev, January 27, 2015, Russian language)
+                  </li>
+                  <li>
                     <a href="http://www.youtube.com/watch?v=m-HOWJCRn7g3">Идея фикс. Компьютер для незрячих</a>
                     (Youtube, «Живое ТВ», Svetlana Glazyrina, October 3, 2014, Russian language)
                   </li>
@@ -91,11 +96,15 @@
                     экране</a> («Кот Шрёдингера», Светлана Соколова, январь-февраль 2015&#160;г., рус.&#160;яз.)
                   </li>
                   <li>
+                    <a href="http://sdcast.ksdaemon.ru/2015/01/sdcast-17/">в&#160;гостях Михаил Пожидаев</a>
+                    (SDCast &#x2014; Подкаст о&#160;разработке ПО и его окрестностях, Константин Буркалёв, 27
+                    января 2015&#160;г., рус.&#160;яз.)
+                  </li>
+                  <li>
                     <a href="http://www.youtube.com/watch?v=m-HOWJCRn7g3">Идея фикс. Компьютер для незрячих</a>
-                    (Youtube, «Живое ТВ», Светлана Глазырина,
+                    (Youtube, «Живое ТВ», Светлана Глазырина, 3 октября 2014 г., рус.&#160;яз.)
                   </li>
                 </ul>
-                <p>3 октября 2014 г., рус.&#160;яз.)</p>
 
 <?php }?>
 <?php luwrain_end_page('/community/publications/index.php');?>
