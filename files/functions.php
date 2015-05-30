@@ -378,7 +378,7 @@ function luwrain_link($path)
       Luwrain is a set of software components on Java for accessible user interface construction.
       In contrast with widely popular screen reading solutions for graphical desktops, which
       actually are designed for control through a mouse and other pointing devices useful only
-      for sighted users, Luwrain brings the information in the most suitable for perception of
+      for sighted users, Luwrain brings the information in the most suitable for the perception of
       blind people form. That means that the Luwrain user will always spend significantly less
       time than in an adapted GUI. We have created our environment for people who enjoy working
       effectively and time-efficiently.

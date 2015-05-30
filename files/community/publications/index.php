@@ -44,7 +44,7 @@
                   </li>
                   <li>
                     <a href="http://sdcast.ksdaemon.ru/podlove/file/55/s/download/SDCast-17.mp3">в&#160;гостях
-                    Михаил Пожидаев</a> (mp3, 36M, SDCast &#x2014; Software Development podCAST, Constantin
+                    Михаил Пожидаев</a> (mp3, 36M, SDCast &#x2014; Software Development podCAST, Konstantin
                     Burkalev, January 27, 2015, Russian language)
                   </li>
                   <li>

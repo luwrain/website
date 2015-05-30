@@ -62,7 +62,7 @@ function ShowPart1(){
 			     '<br/>accessible companion for various types of work. The product is designed'+
 			     '<br/>as a new platform for creating speech-enabled applications'+
 			     '<br/>with a set of standard tools for easy access to web services, mail, news reading, etc.');
-	$('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/download/distr/?mode=normal&lang=en"><span>ISO-images</span></a>');
+	$('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/doc/user/manual/?mode=normal&lang=en"><span>User manual</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
 function ShowPart2(){
@@ -86,11 +86,11 @@ function ShowPart2(){
 			     '<br/>screen reading solutions for graphical desktops, which actually are'+
 			     '<br/>designed for control through a mouse and other pointing devices useful'+
 			     '<br/>only for sighted users, Luwrain brings the information in the most suitable'+
-			     '<br/>for perception of blind people form. That means that the Luwrain user'+
+			     '<br/>for the perception of blind people form. That means that the Luwrain user'+
 			     '<br/>will always spend significantly less time than in an adapted GUI.'+
 			     '<br/>We have created our environment for people who enjoy working effectively'+
 			     '<br/>and time-efficiently.');
-	$('#firstButton').html('<a href="/doc/about/?mode=normal&lang=en"><span>Our basic ideas</span></a>');
+	$('#firstButton').html('<a href="/doc/new-app/?mode=normal&lang=en"><span>Your own application</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
 function ShowPart3(){
@@ -117,7 +117,7 @@ function ShowPart3(){
 			     '<br/>you to forbid the tools you used to work with previously and you can use it'+
 			     '<br/>as a platform for creating and distributing accessible applications,'+
 			     '<br/>even if you don\'t have any experience in this area.');
-	$('#firstButton').html('<a href="/doc/devel/?mode=normal&lang=en"><span>For developers</span></a>');
+	$('#firstButton').html('<a href="/doc/faq/?mode=normal&lang=en"><span>FAQ</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
 function ShowPart4(){
@@ -144,7 +144,7 @@ function ShowPart4(){
 			     '<br/>world, and to introduce it to related social and distribution organizations.'+
 			     '<br/>The team of developers hopes that Luwrain can increase the integration'+
 			     '<br/>of disabled people into social life.');
-	$('#firstButton').html('<a href="/doc/partners/?mode=normal&lang=en"><span>Be a partner</span></a>');
+	$('#firstButton').html('<a href="/doc/about/?mode=normal&lang=en"><span>More about the project</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
 function ChangeNavigationColor(selected){
@@ -179,7 +179,7 @@ function SecondButtonOnClick() {
 	    break;
 	case "4": 
 	    $('#hiddenPartNumber').val('42');
-	    $('#secondButton').html('<a href="/doc/sponsors/?mode=normal&lang=en"><span>Be a sponsor</span></a>');
+	    $('#secondButton').html('<a href="/doc/user/start/?mode=normal&lang=en"><span>Getting started</span></a>');
 	    $('#secondButton').removeClass('lightButton');
 	    $('#secondButton').addClass('lightSolidButton');
 	    break;

@@ -5,135 +5,142 @@
                 <p>We consider three groups of&#160;potential users:</p>
                 <ul>
                   <li>
-                    blind or visually-impaired people, who due to&#160;various reasons (financial barriers,,
-                    a&#160;lack of&#160;understanding of&#160;screen readers behaviour, a&#160;lack of&#160;understanding
-                    of&#160;GUI nature etc) were unable to&#160;work on&#160;PC&#x27;s, including children
+                    blind or visually-impaired people, who is&#160;still unable to&#160;work on&#160;PC&#x27;s
+                    (due&#160;to&#160;insufficient level of&#160;experience, due&#160;to&#160;lack of&#160;understanding
+                    of&#160;GUI nature, due&#160;to&#160;financial circumstances, etc), including children
                     born blind and seniors
                   </li>
                   <li>
                     experienced users with eyesight problems, who is looking for&#160;a&#160;comfortable and
-                    speedy-efficient tool for&#160;fixed number of&#160;highly demanded tasks
+                    speedy-efficient tool for&#160;a&#160;number of&#160;highly demanded tasks
                   </li>
                   <li>
-                    software developers, who would like to&#160;create adapted applications easily understandable
-                    for&#160;blind people but haven&#x27;t any experience in&#160;this area
+                    software developers, who would like to&#160;create application well-recognizable by&#160;blind
+                    people but don&#x27;t have enough experience in&#160;this area
                   </li>
                 </ul>
                 <h2>Is Luwrain a&#160;competitor for&#160;screen readers?</h2>
                 <p>
-                  No, Luwrain develops the&#160;idea of&#160;an&#160;environment &#x22;in&#160;itself&#x22;,
-                  which is&#160;mostly independent from&#160;the&#160;most of&#160;screen readers. We convinced
-                  that blind people get the&#160;highest level of&#160;freedom and independence if both of&#160;these
-                  ways (screen readers and environments &#x22;in&#160;itself&#x22;) are developed and available
-                  equally. Screen readers <b>guarantee</b> the&#160;accessibility of&#160;any&#160;arbitrary
-                  functionality in&#160;any possible form , meantime, environments &#x22;in&#160;itself&#x22;
-                  take care that a&#160;fixed number of&#160;everyday tasks is&#160;accessible in&#160;<b>most
-                  suitable</b> for&#160;perception of&#160;blind people form.
+                  No, Luwrain develops the&#160;idea of&#160;an&#160;audio desktop, which is&#160;supposed
+                  to&#160;be an&#160;environment &#x22;in&#160;itself&#x22;. It&#160;is independent from&#160;the&#160;most
+                  of&#160;screen readers. We sure that blind people get the&#160;highest level of&#160;freedom
+                  and independence only in&#160;case of&#160;equal development and availability of&#160;these
+                  both approaches (screen readers and audio desktops. are developed and available equally).
+                  Screen readers <b>guarantee</b> the&#160;accessibility of&#160;any&#160;arbitrary functionality
+                  in&#160;<b>any</b> form which&#160;is possible; meantime, environments &#x22;in&#160;itself&#x22;
+                  take care that some number of&#160;everyday tasks are&#160;accessible in&#160;<b>most suitable</b>
+                  for&#160;the&#160;perception of&#160;blind people form.
                 </p>
                 <h2>
                   Should Luwrain users refuse the&#160;accessibility technologies they used&#160;to work
-                  previously?
+                  with previously?
                 </h2>
                 <p>
                   No, because Luwrain can be installed as&#160;an&#160;application on&#160;the&#160;operating
-                  system the&#160;user already has installed. It is absolutely OK to&#160;use it only for&#160;tasks,
-                  everybody chooses for&#160;his/her individual case. In&#160;addition, the&#160;already
-                  installed operating system could be needed by&#160;colleagues or other members of&#160;a&#160;family
-                  if they share the&#160;same machine with disabled person.
+                  system the&#160;user already has. It doesn&#x27;t cause any problems with having screen
+                  readers installed simultaneously. No&#160;problems to&#160;switch to&#160;Luwrain only
+                  for&#160;tasks the&#160;user wants, continuing to&#160;use screen readers for&#160;other
+                  purposes. In&#160;addition, the&#160;already installed operating system could be needed
+                  by&#160;colleagues or other members of&#160;a&#160;family if they share the&#160;same machine
+                  with disabled person.
                 </p>
                 <h2>Why the&#160;Luwrain UI is more&#160;suitable for&#160;blind users?</h2>
                 <p>
-                  People without the&#160;problems with&#160;eyesight use graphical user interface (GUI).
-                  Usually it is Microsoft Windows, Apple MocOS-X or different desktop environments for&#160;GNU/Linux.
+                  People without the&#160;problems of&#160;eyesight use graphical user interface (GUI). Usually
+                  it is Microsoft Windows, Apple Moc&#160;OS&#160;X or different desktops for&#160;GNU/Linux.
                   The&#160;GUI developers initially have designed their technology to&#160;get highest efficiency
-                  using the&#160;mouse as&#160;a&#160;method of&#160;control. Meantime, the&#160;mouse is&#160;inaccessible
-                  for&#160;handicapped people and that restricts their speed of&#160;work and level of&#160;comfort.
-                  Luwrain brings working objects to&#160;user in&#160;the form the&#160;most suitable for&#160;his/her
-                  perception. We spent a&#160;lot of&#160;time to&#160;obtain necessary experience and understanding
-                  how to&#160;do&#160;that. You can read more about exact differences of&#160;Luwrain on&#160;<a href="<?php echo luwrain_link('/doc/difference/');?>">corresponding
-                  page</a>.
+                  with&#160;the&#160;mouse as&#160;a&#160;main method of&#160;control. Meantime, the&#160;mouse
+                  is&#160;inaccessible for&#160;handicapped people and that restricts their speed of&#160;work
+                  and level of&#160;comfort. Luwrain brings working objects to&#160;users in&#160;a&#160;way
+                  that is&#160;adjusted to&#160;the&#160;perception of&#160;blind people as&#160;best as&#160;possible.
+                  We have spent a&#160;lot of&#160;time to&#160;get necessary experience and understanding
+                  how to&#160;do&#160;that. You can read more about exact differences of&#160;Luwrain on&#160;<a href="<?php echo luwrain_link('/doc/difference/');?>">the&#160;corresponding
+                  page</a> of&#160;this website.
                 </p>
                 <h2>May I create my own application for&#160;Luwrain?</h2>
                 <p>
                   Of&#160;cource, and we highly encourage everybody to&#160;create any third party applications
-                  for&#160;Luwrain. They can be&#160;easily implemented on&#160;Java. You can read more about
-                  this on&#160;<a href="<?php echo luwrain_link('/doc/net-app/');?>">corresponding page</a>.
+                  for&#160;Luwrain. Any&#160;new functionality can be&#160;easily implemented on&#160;Java.
+                  You can read more about this on&#160;<a href="<?php echo luwrain_link('/doc/new-app/');?>">the&#160;corresponding
+                  page</a>.
                 </p>
-                <h2>Is PC&#160;screen empty during the&#160;work in&#160;Luwrain?</h2>
+                <h2>Is monitor empty during the&#160;work in&#160;Luwrain?</h2>
                 <p>
                   No, we use the&#160;screen as an&#160;additional method to&#160;bring information for&#160;users
                   with&#160;low&#160;vision. It&#160;plays a&#160;supplementary role but remains very important.
                 </p>
                 <h2>What kind of&#160;PC is the&#160;most suitable for&#160;Luwrain?</h2>
                 <p>
-                  We are trying to&#160;support using Luwrain both of&#160;mobile and desktop personal computers.
-                  For&#160;mobile computers it&#160;is better to&#160;use Luwrain as&#160;a&#160;stand-alone
-                  operating system because it&#160;tries to&#160;use all&#160;possible ways of&#160;control,
-                  including touchpad, and this makes a&#160;laptop a&#160;elegant accessory for&#160;blind
-                  people. On&#160;desktop computers, more likely, you would prefer Luwrain as&#160;an&#160;application,
-                  although installation as&#160;an&#160;stand-alone operating system remains still available.
+                  We are trying to&#160;support using Luwrain both on&#160;mobile and desktop PC&#x27;s.
+                  For&#160;mobile computers, it&#160;is better to&#160;use Luwrain as&#160;a&#160;stand-alone
+                  OS because it&#160;tries to&#160;use all&#160;possible ways of&#160;control, including
+                  touchpad, and this makes a&#160;laptop a&#160;elegant accessory for&#160;blind people.
+                  On&#160;desktop computers, more likely, you would prefer Luwrain as&#160;an&#160;application,
+                  although installation as&#160;an&#160;stand-alone operating system remains still possible.
                 </p>
                 <h2>What is the&#160;current state of&#160;Luwrain development process?</h2>
                 <p>
-                  Пока в&#160;стадии технологического прототипа. Работы очень много, и мы будем поэтапно
-                  выводить в&#160;стабильное состояние различные компоненты. Проект очень нуждается в<a href="<?php echo luwrain_link('/doc/sponsors/');?>">&#160;серьёзной
-                  финансовой поддержке</a>, которая значительно ускорила&#160;бы работу и получение результата.
+                  As&#160;for&#160;today, we continue work on&#160;our beta versions. Current plan implies
+                  completing first stable version 1.0.0 until &#160;the&#160;end of&#160;2015.
                 </p>
                 <h2>Should Luwrain users pay anything for&#160;Luwrain?</h2>
                 <p>
-                  Нет. Luwrain &#x2014; это свободное ПО. Все материалы и результаты проекта находятся в&#160;открытом
-                  доступе и распространяются бесплатно.
+                  No, Luwrain is fully Open Source with&#160;GPL&#160;v.3 license. All&#160;materials are
+                  freely accessible publicly and everybody is&#160;welcomed to&#160;use them or share with&#160;other
+                  community members.
                 </p>
                 <h2>Can I create my custom Luwrain build?</h2>
                 <p>
-                  Да, но если отличия от&#160;нашей официальной версии достаточно существенные, мы попросим
-                  вас для&#160;вашей сборки выбрать другое название. Вы можете найти более подробную информацию
-                  о&#160;правовом статусе на&#160;<a href="<?php echo luwrain_link('/doc/legal/');?>">этой странице</a>.
+                  Yes, but if you would like to&#160;make any substantial modifications we&#160;will kindly
+                  ask you to&#160;take any another name for&#160;your version to&#160;prevent confusing.
+                  Please take a&#160;look at&#160;our&#160;page with&#160;<a href="<?php echo luwrain_link('/doc/legal/');?>">legal
+                  notes</a>.
                 </p>
                 <h2>How do the&#160;web-browser function in&#160;Luwrain?</h2>
                 <p>
-                  В&#160;Luwrain в&#160;виде самостоятельной операционной системы включён Mozilla Firefox
-                  с&#160;активированными специальными возможностями. Работа с&#160;ним производится вне&#160;специализированного
-                  интерфейса Luwrain, что объясняется сложностью организации современных веб-приложений,
-                  но мы работаем над&#160;тем, чтобы перенести работу с&#160;браузером в&#160;интерфейс Luwrain
-                  в&#160;будущем.
+                  We are about to&#160;use <a target="_blank" href="https://docs.oracle.com/javafx/2/api/javafx/scene/web/WebEngine.html">javafx.scene.web.WebEngine</a>
+                  component as it&#160;supports Java&#160;Script and allows access to&#160;the&#160;DOM structure
+                  of&#160;the&#160;site being observed. In&#160;addition, Luwrain as&#160;a&#160;stand-alone
+                  OS should get&#160;AT-SPI-based support of&#160;Mozilla Firefox but JavaFX-based approach
+                  is&#160;more preferable.
                 </p>
                 <h2>
                   Is it impossible to&#160;launch external application in&#160;Luwrain as&#160;a&#160;stand-alone
                   OS?
                 </h2>
                 <p>
-                  Возможен. В&#160;комплект поставки включается специальный компонент, который позволяет
-                  в&#160;случае необходимости запустить оконные приложения для&#160;Linux, которые поддерживают
-                  работу вспомогательных технологий в&#160;традициях AT-SPI (например, <i>Skype</i>). Помимо
-                  этого, не&#160;следует забывать, что остаются доступными все&#160;приложения командной
-                  строки (например, <i>ping</i> или <i>lame</i>), поскольку Luwrain имеет встроенный терминал.
+                  We work on&#160;the&#160;special component called GuideCraft which is&#160;purposed to&#160;be
+                  a&#160;lightweight screen reader based on&#160;AT-SPI. Roughly speaking, it must replace
+                  Orca for&#160;the&#160;environment without GNOME. This component is very important because
+                  it allows to&#160;run Skype and Firefox used by many people. This component slightly goes
+                  out of&#160;our conception of&#160;text interface but we think that there wouldn&#x27;t
+                  be any losses if we would do this step. Besides that, all command line utilities remain
+                  fully available with the&#160;terminal embedded in&#160;Luwrain.
                 </p>
                 <h2>
                   I heard that publishing systems TeX and Lilypond are very useful for&#160;blind people,
                   what about them?
                 </h2>
                 <p>
-                  Luwrain в&#160;виде самостоятельной операционной системы продолжает оставаться обычным
-                  дистрибутивом GNU/Linux. Это означает, что из&#160;доступных репозиториев можно установить
-                  любой пакет или приложение, которое окажется полезным, включая TeX и Lilypond. Это по-настоящему
-                  мощные пакеты, которые открывают незрячим людям множество возможностей в&#160;плане подготовки
-                  печатных материалов, а&#160;также презентации для&#160;публичных выступлений. Мы активно
-                  поддерживаем их&#160;использование.
+                  Nobody should worry about any applications available in&#160;Linux repositories because
+                  Luwrain remains a&#160;usual Gnu/Linux distro. You may install any software you would like,
+                  including Latex and Lilypond. Latex, Metapost, Lilypond and Gnuplot are really very useful
+                  for&#160;blind people , so we will take care of&#160;them.
                 </p>
                 <h2>
                   Are blind people able to&#160;install Luwrain on&#160;hard drive without any external sighted
                   assistance?
                 </h2>
                 <p>
-                  Да, у&#160;нас есть доступная программа установки, но необходимо помнить, что выбор загрузочного
-                  устройства в&#160;настройках BIOS обычно невозможен без&#160;помощи зрячего человека.
+                  Yes, we have prepared an&#160;installation utility , which clones LiveCD environment to&#160;hard
+                  drive. This approach is rather simple, very effective and, what is the&#160;most important,
+                  accessible for&#160;blind users.
                 </p>
                 <h2>May I participate in&#160;Luwrain project and contribute to&#160;it?</h2>
                 <p>
-                  Конечно, Luwrain &#x2014; это открытый проект, и все желающие могут к&#160;нему присоединиться.
-                  Мы активно поддерживаем создание <a href="<?php echo luwrain_link('/community/');?>">сообщества</a> вокруг нашего
-                  проекта.
+                  Of&#160;course, we are a&#160;completely open project and everybody is&#160;welcomed to&#160;participate
+                  in&#160;our community and contribute to&#160;our sources. Take a&#160;look at&#160;our&#160;<a href="<?php echo luwrain_link('/download/git/');?>">Git
+                  repositories</a> to&#160;learn more about our&#160;sources organization.
                 </p>
 
 <?php }?>
@@ -214,8 +221,7 @@
                 <h2>В&#160;каком состоянии находится разработка Luwrain в&#160;настоящий момент?</h2>
                 <p>
                   Пока в&#160;стадии технологического прототипа. Работы очень много, и мы будем поэтапно
-                  выводить в&#160;стабильное состояние различные компоненты. Проект очень нуждается в<a href="<?php echo luwrain_link('/doc/sponsors/');?>">&#160;серьёзной
-                  финансовой поддержке</a>, которая значительно ускорила&#160;бы работу и получение результата.
+                  выводить в&#160;стабильное состояние различные компоненты.
                 </p>
                 <h2>Должны&#160;ли пользователи что-либо платить за&#160;Luwrain?</h2>
                 <p>
