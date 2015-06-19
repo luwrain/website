@@ -1,6 +1,7 @@
 doc.installation.licrict
 doc.user.licrict
 doc.about.licrict
+doc.legal.licrict
 doc.difference.licrict
 doc.authors.licrict
 doc.faq.licrict
@@ -33,3 +34,4 @@ download.git.licrict
 download.tarball.licrict
 comm.licrict
 comm.publications.licrict
+comm.mailing-lists.licrict

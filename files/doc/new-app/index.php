@@ -32,6 +32,13 @@
                   <li><a href="<?php echo luwrain_link('compilation/');?>">Сборка вашего приложения</a></li>
                   <li><a href="<?php echo luwrain_link('example/');?>">Пример простейшего приложения</a></li>
                 </ol>
+                <h2>См.&#160;также</h2>
+                <ul>
+                  <li>
+                    <a href="http://habrahabr.ru/post/258413/">Никита Цейковец на&#160;Хабрахабр о&#160;разработке
+                    приложений для&#160;Luwrain</a>
+                  </li>
+                </ul>
 
 <?php }?>
 <?php luwrain_end_page('/doc/new-app/index.php');?>

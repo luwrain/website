@@ -8,20 +8,22 @@
                 </ul>
                 <h2>What are we working on?</h2>
                 <p>
-                  The&#160;development of&#160;Luwrain is&#160;carried&#160;out in&#160;directions to&#160;the&#160;areas
-                  in&#160;accessibility technologies which still have various unresolved problems:
+                  We want all&#160;blind people to be able to participate in all social aspects, which revolve
+                  around information technologies. There&#160;are some technical barriers making this still
+                  very difficult and our development is&#160;carried&#160;out with&#160;the&#160;aim of&#160;eliminating
+                  them.
                 </p>
                 <ul>
                   <li>
-                    Luwrain provides information in&#160;the&#160;form adjusted to&#160;the&#160;perception
-                    of&#160;blind people as&#160;best as&#160;possible
+                    Luwrain tries to&#160;bring information from&#160;PC&#x27;s to&#160;users in&#160;a&#160;way
+                    adjusted to&#160;the&#160;perception of&#160;blind people as&#160;best as&#160;possible
                   </li>
                   <li>
-                    Luwrrain allows creating and distributing of&#160;applications specially purposed for&#160;blind
+                    Luwrrain allows creating and distributing of&#160;applications specially designed for&#160;blind
                     people
                   </li>
                   <li>
-                    Luwrain guarantees solving of&#160;fixed number of&#160;popular everyday tasks regardless
+                    Luwrain guarantees solving of&#160;a&#160;number of&#160;popular everyday tasks regardless
                     what experience the&#160;user has or his/her financial circumstances
                   </li>
                 </ul>

@@ -7,7 +7,7 @@ luwrain-page-en
 
 = Luwrain Git repositories =
 
-The~source code of~the~Luwrain is easily accessible in~Git repositories on~[[http://github.com/luwrain/ github.com]].
+The~source code of~Luwrain is easily accessible in~Git repositories on~[[http://github.com/luwrain/ github.com]].
 There are direct links to~them listed  in~several categories 
 with~brief comments.
 
@@ -15,12 +15,17 @@ with~brief comments.
 
 * [[https://github.com/luwrain/luwrain.git     
 git://github.com/luwrain/luwrain.git]] ---
-the~core source code 
+core source code 
 (environment basic functionality)
 
 * [[https://github.com/luwrain/base.git
 git://github.com/luwrain/base.git]] ---
 basic interfaces for extensions
+
+* [[https://github.com/luwrain/registry.git
+git://github.com/luwrain/registry.git]] ---
+registry data
+
 
 * [[https://github.com/luwrain/pim.git
 git://github.com/luwrain/pim.git]] ---
@@ -150,6 +155,10 @@ git://github.com/luwrain/luwrain.git]] ---
 * [[https://github.com/luwrain/base.git
 git://github.com/luwrain/base.git]] ---
 основные интерфейсы для~расширений
+
+* [[https://github.com/luwrain/registry.git
+git://github.com/luwrain/registry.git]] ---
+настройки реестра
 
 * [[https://github.com/luwrain/pim.git
 git://github.com/luwrain/pim.git]] ---

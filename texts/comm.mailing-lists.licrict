@@ -1,40 +1,102 @@
 
-= Luwrain mailing lists =
+ENTITLE='Mailing lists'
+RUTITLE='Списки рассылок'
+TARGET=community/mailing-lists/index.php
 
-Even if you want just to~chat about assistive  technologies 
-or to~suggest any new ideas feel free to~subscribe to~our mailing list and discuss that there.
-Every community in~the~Internet is a~place gathering together 
-large number of people, therefore, everybody is~kindly requested to be~polite and to~respect other members.
-Thank~you!
+luwrain-page-en
 
-Currently we~invite you to~subscribe to~mailing list 
-used previously for~Homeros project.
-It~is rather convenient way due~to~historical reasons.
-The~discussions both in~English and Russian languages are permitted there.
-But it is just a~temporary measure
-and soon we will prepare separate resource for~talking in~English,
-encouraging using the~Homeros mailing list for~Russian language only.
+= Our mailing lists =
 
-Please use the~subscription page by~this~link:
+We have four mailing lists started on~googlegroups.com for~experimental using.
+Everybody is~welcomed to~subscribe to~them but please be~aware that they are currently passing the~testing phase.
+If~you would like to~subscribe, just send a~message to~the~address 
+mentioned near each option.
+
+== For~English users ==
+
+* Name: luwrain-users-en@googlegroups.com
+* Language: English
+* Description: Discussing of~Luwrain using in~English
+* Subscribe: [mailto:luwrain-users-en+subscribe@googlegroups.com luwrain-users-en+subscribe@googlegroups.com]
+
+== For~English developers ==
+
+* Name: luwrain-devel-en@googlegroups.com
+* Language: English
+* Description: Discussing of~Luwrain developing in~English
+* Subscribe: [mailto:luwrain-devel-en+subscribe@googlegroups.com luwrain-devel-en+subscribe@googlegroups.com]
+
+== For~Russian users ==
+
+* Name: luwrain-users-ru@googlegroups.com
+* Language: Russian
+* Description: Discussing of~Luwrain using in~Russian
+* Subscribe: [mailto:luwrain-users-ru+subscribe@googlegroups.com luwrain-users-ru+subscribe@googlegroups.com]
+
+== For~Russian developers ==
+
+* Name: luwrain-devel-ru@googlegroups.com
+* Language: Russian
+* Description: Discussing of~Luwrain developing in~Russian
+* Subscribe: [mailto:luwrain-devel-ru+subscribe@googlegroups.com luwrain-devel-ru+subscribe@googlegroups.com]
+
+== Old Homeros mailing lists ==
+
+Previously we used to~talk about Luwrain in~ALT~Linux Homeros mailing lists.
+If you would like, you still may subscribe to it.
+However, now it is recommended to~use one of~the~mailing lists mentioned above,
+because after 2015 we are about to~prohibit Luwrain discussing in~this~list as~an~offtopic.
+
+Use the~subscription page by~this~link:
 
 * [[http://lists.altlinux.org/mailman/listinfo/homeros/ http://lists.altlinux.org/mailman/listinfo/homeros/]]
 
-= Списки подписки =
 
-Даже если Вы желаете просто обсудить различные интересные вещи из~мира вспомогательных технологий,
-мы приглашаем Вас подписаться на~наш список рассылки.
-Любое сообщество в~Интернете --- это место, где~встречаются множество людей,
-поэтому мы убедительно просим всех~участников уважать друг друга и соблюдать вежливый тон общения. 
-Спасибо! 
+luwrain-page-ru
 
-В~настоящий момент мы приглашаем всех~желающих,
-вне~зависимости от~предпочтительного языка общения,
-подписаться на~список рассылки Homeros, доступный по~ссылке ниже.
-Этот список ранее использовался для~проекта [[http://homeros.altlinux.org ALT~Linux Homeros]],
-и в~ситуации становления сообщества Luwrain его использование кажется  нам~наиболее предпочтительным.
-Тем~не~менее, позднее для~англоязычных обсуждений мы планируем подготовить отдельный ресурс,
-рекомендовав список Homeros только для~общения на~русском языке.
+= Наши списки рассылки =
 
-Вы~можете подписаться на~рекомендуемый список по~этой ссылке:
+Мы создали четыре списка рассылки на~сервере [http://googlegroups.com googlegroups.com]  в~режиме пробной эксплуатации.
+Все желающие подписаться приглашаются присоединиться к обсуждениям,
+но нужно помнить, что стадия тестирования в~них пока не~завершена.
+Если вы хотите подписаться, просто отправьте письмо
+на~адрес, указанный рядом с~каждым вариантом.
+
+== Для русскоязычных пользователей ==
+
+* Название: luwrain-users-ru@googlegroups.com
+* Язык: русский
+* Описание: обсуждение вопросов использования Luwrain на~русском языке
+* Адрес для~подписки: [mailto:luwrain-users-ru+subscribe@googlegroups.com luwrain-users-ru+subscribe@googlegroups.com]
+
+== Для русскоязычных разработчиков ==
+
+* Название: luwrain-devel-ru@googlegroups.com
+* Язык: русский
+* Описание: обсуждение вопросов разработки  Luwrain на~русском языке
+* Адрес для~подписки: [mailto:luwrain-devel-ru+subscribe@googlegroups.com luwrain-devel-ru+subscribe@googlegroups.com]
+
+== Для~англоязычных пользователей  ==
+
+* Название: luwrain-users-en@googlegroups.com
+* Язык: английский
+* Описание: обсуждение вопросов использования Luwrain на~английском языке
+* Адрес для~подписки: [mailto:luwrain-users-en+subscribe@googlegroups.com luwrain-users-en+subscribe@googlegroups.com]
+
+== Для~англоязычных разработчиков ==
+
+* Название: luwrain-devel-en@googlegroups.com
+* Язык: английский 
+* Описание: обсуждение вопросов разработки  Luwrain на~английском  языке
+* Адрес для~подписки: [mailto:luwrain-devel-en+subscribe@googlegroups.com luwrain-devel-en+subscribe@googlegroups.com]
+
+== Прежний список рассылки ALT~Linux Homeros  ==
+
+Раньше для~обсуждения Luwrain мы использовали список рассылки ALT~Linux Homeros.
+Если вы желаете, вы можете на~него подписаться, 
+но помните, что после 2015~г. обсуждение Luwrain в~нём будет считаться офтопиком.
+
+Ссылка для~подписки на~список ALT~Linux Homeros:
 
 * [[http://lists.altlinux.org/mailman/listinfo/homeros/ http://lists.altlinux.org/mailman/listinfo/homeros/]]
+

@@ -2,19 +2,22 @@
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Luwrain Git repositories</h1>
                 <p>
-                  The&#160;source code of&#160;the&#160;Luwrain is easily accessible in&#160;Git repositories
-                  on&#160;<a target="_blank" href="http://github.com/luwrain/">github.com</a>. There are
-                  direct links to&#160;them listed in&#160;several categories with&#160;brief comments.
+                  The&#160;source code of&#160;Luwrain is easily accessible in&#160;Git repositories on&#160;<a target="_blank" href="http://github.com/luwrain/">github.com</a>.
+                  There are direct links to&#160;them listed in&#160;several categories with&#160;brief comments.
                 </p>
                 <h2>Main repositories</h2>
                 <ul>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/luwrain.git">git://github.com/luwrain/luwrain.git</a>
-                    &#x2014; the&#160;core source code (environment basic functionality)
+                    &#x2014; core source code (environment basic functionality)
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/base.git">git://github.com/luwrain/base.git</a>
                     &#x2014; basic interfaces for extensions
+                  </li>
+                  <li>
+                    <a target="_blank" href="https://github.com/luwrain/registry.git">git://github.com/luwrain/registry.git</a>
+                    &#x2014; registry data
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/pim.git">git://github.com/luwrain/pim.git</a>
@@ -148,6 +151,10 @@
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/base.git">git://github.com/luwrain/base.git</a>
                     &#x2014; основные интерфейсы для&#160;расширений
+                  </li>
+                  <li>
+                    <a target="_blank" href="https://github.com/luwrain/registry.git">git://github.com/luwrain/registry.git</a>
+                    &#x2014; настройки реестра
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/pim.git">git://github.com/luwrain/pim.git</a>

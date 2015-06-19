@@ -33,6 +33,13 @@
                   <li><a href="<?php echo luwrain_link('extensions');?>">Расширения Luwrain</a></li>
                   <li><a href="<?php echo luwrain_link('bugs');?>">Сообщения об&#160;ошибках</a></li>
                 </ul>
+                <h2>Свежие материалы</h2>
+                <ul>
+                  <li>
+                    <a href="http://habrahabr.ru/post/258413/">Никита Цейковец на&#160;Хабрахабр о&#160;разработке
+                    приложений для&#160;Luwrain</a>
+                  </li>
+                </ul>
 
 <?php }?>
 <?php luwrain_end_page('/community/index.php');?>
