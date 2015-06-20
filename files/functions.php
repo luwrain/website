@@ -69,7 +69,7 @@ function luwrain_link($path)
 		    <a href="http://twitter.com/luwrain">Twitter</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Список рассылки</a>
+		    <a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Списки рассылки</a>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="<?php echo luwrain_link('/community/publications/');?>">Публикации</a>
@@ -141,7 +141,7 @@ function luwrain_link($path)
 		    <a href="http://twitter.com/luwrain">Twitter</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Mailing list</a>
+		    <a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Mailing lists</a>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="<?php echo luwrain_link('/community/publications/');?>">Publications</a>
@@ -404,7 +404,7 @@ function luwrain_link($path)
     <h2>Choose the&#160;section you want:</h2>
     <ul>
       <li><a href="<?php echo luwrain_link('/doc/user/manual/');?>">User manual</a></li>
-      <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Subscribe to&#160;our mailing list</a></li>
+      <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Subscribe to&#160;our mailing lists</a></li>
       <li><a href="<?php echo luwrain_link('/download/iso/');?>">Bootable ISO-images</a></li>
       <li>Distributions: <a href="<?php echo luwrain_link('/download/windows');?>">for&#160;Microsoft Windows</a>, <a href="<?php echo luwrain_link('/download/linux/');?>">for&#160;GNU/Linux</a></li>
       <li><a href="<?php echo luwrain_link('/doc/contacts/');?>">Our&#160;contacts</a></li>
@@ -448,7 +448,7 @@ function luwrain_link($path)
     <h2>Выберите интересующий Вас раздел:</h2>
     <ul>
       <li><a href="<?php echo luwrain_link('/doc/user/manual/');?>">Руководство пользователя</a></li>
-      <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Подписаться на&#160;список рассылки</a></li>
+      <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Подписаться на&#160;списки рассылки</a></li>
       <li><a href="<?php echo luwrain_link('/download/iso/');?>">Загрузочные ISO-образы</a></li>
       <li>Дистрибутивы: <a href="<?php echo luwrain_link('/download/windows');?>">для&#160;Microsoft Windows</a>, <a href="<?php echo luwrain_link('/download/linux/');?>">для&#160;GNU/Linux</a></li>
       <li><a href="<?php echo luwrain_link('/doc/contacts/');?>">Наши&#160;контакты</a></li>

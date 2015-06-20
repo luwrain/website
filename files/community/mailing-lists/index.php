@@ -2,10 +2,11 @@
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Our mailing lists</h1>
                 <p>
-                  We have four mailing lists started on&#160;googlegroups.com for&#160;experimental using.
-                  Everybody is&#160;welcomed to&#160;subscribe to&#160;them but please be&#160;aware that
-                  they are currently passing the&#160;testing phase. If&#160;you would like to&#160;subscribe,
-                  just send a&#160;message to&#160;the&#160;address mentioned near each option.
+                  We have four mailing lists started on&#160;<a href="http://googlegroups.com">googlegroups.com</a>
+                  for&#160;experimental using. Everybody is&#160;welcomed to&#160;subscribe to&#160;them,
+                  but please be&#160;aware that they are currently passing the&#160;testing phase. If&#160;you
+                  would like to&#160;subscribe, just send a&#160;message to&#160;the&#160;address mentioned
+                  near each option.
                 </p>
                 <h2>For&#160;English users</h2>
                 <ul>
