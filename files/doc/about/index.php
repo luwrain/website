@@ -3,7 +3,7 @@
                 <h1>About the project</h1>
                 <p>See also</p>
                 <ul>
-                  <li><a href="<?php echo luwrain_link('/doc/difference/');?>">Why is Luwrain different than other accessible solutions?</a></li>
+                  <li><a href="<?php echo luwrain_link('/doc/difference/');?>">Why is LUWRAIN different than other accessible solutions?</a></li>
                   <li><a href="<?php echo luwrain_link('/doc/faq/');?>">Frequently asked questions</a></li>
                 </ul>
                 <h2>What are we working on?</h2>
@@ -15,7 +15,7 @@
                 </p>
                 <ul>
                   <li>
-                    Luwrain tries to&#160;bring information from&#160;PC&#x27;s to&#160;users in&#160;a&#160;way
+                    LUWRAIN tries to&#160;bring information from&#160;PC&#x27;s to&#160;users in&#160;a&#160;way
                     adjusted to&#160;the&#160;perception of&#160;blind people as&#160;best as&#160;possible
                   </li>
                   <li>
@@ -23,7 +23,7 @@
                     people
                   </li>
                   <li>
-                    Luwrain guarantees solving of&#160;a&#160;number of&#160;popular everyday tasks regardless
+                    LUWRAIN guarantees solving of&#160;a&#160;number of&#160;popular everyday tasks regardless
                     what experience the&#160;user has or his/her financial circumstances
                   </li>
                 </ul>
@@ -61,7 +61,7 @@
                   some generally impossible technology, but it&#160;isn&#x27;t the&#160;case. Everybody knows
                   that text editing is the&#160;most understandable operation for&#160;blind people on&#160;pc.
                   The&#160;only thing we should do is to&#160;make solving of&#160;all tasks in&#160;the&#160;same
-                  way as&#160;text editing. How we achieve that, <a href="<?php echo luwrain_link('/doc/user/start/');?>">see in&#160;Luwrain</a>.
+                  way as&#160;text editing. How we achieve that, <a href="<?php echo luwrain_link('/doc/user/start/');?>">see in&#160;LUWRAIN</a>.
                 </p>
                 <p>
                   Besides mentioned advantages, our&#160;conception has some additional features which make
@@ -89,7 +89,7 @@
                 </p>
                 <p>
                   Blind people has nothing like this. There is no&#160;platform which allows creating of&#160;the&#160;applications
-                  specially designed for&#160;them. Luwrain offers the&#160;full <a href="<?php echo luwrain_link('/doc/new-app/');?>">SDK</a>
+                  specially designed for&#160;them. LUWRAIN offers the&#160;full <a href="<?php echo luwrain_link('/doc/new-app/');?>">SDK</a>
                   for&#160;creating of&#160;applications for&#160;blind people. The&#160;main advantage of&#160;this
                   approach is that it doesn&#x27;t require the&#160;developer to&#160;have any&#160;experience
                   in&#160;the&#160;area of&#160;accessibility technologies. Any&#160;company can create a&#160;client
@@ -98,37 +98,37 @@
                 </p>
                 <h2>Accessibility for&#160;everybody</h2>
                 <p>
-                  Luwrain is constructed to&#160;be accessible for&#160;<b>everybody who could be&#160;interested
+                  LUWRAIN is constructed to&#160;be accessible for&#160;<b>everybody who could be&#160;interested
                   in&#160;it</b>:
                 </p>
                 <ul>
                   <li>
-                    <b>Luwrain is&#160;an&#160;Open source project</b>: end-user may use it completely free
-                    of&#160;charge, as&#160;well as&#160;any other software based on&#160;Luwrain and created
+                    <b>LUWRAIN is&#160;an&#160;Open source project</b>: end-user may use it completely free
+                    of&#160;charge, as&#160;well as&#160;any other software based on&#160;LUWRAIN and created
                     by&#160;third-party developers
                   </li>
                   <li>
-                    <b>Luwrain is&#160;based on&#160;Java</b>: end-user may run it&#160;on&#160;any computers
+                    <b>LUWRAIN is&#160;based on&#160;Java</b>: end-user may run it&#160;on&#160;any computers
                     with&#160;proper Java&#160;1.7 support (roughly speaking, nearly on&#160;all&#160;PC&#x27;s)
                   </li>
                   <li>
-                    <b>Luwrain has a&#160;distribution in&#160;form of&#160;bootable ISO-image</b>: even if&#160;end-user
-                    doesn&#x27;t have any OS installed on&#160;his/her hard drive he/she may run Luwrain choosing
+                    <b>LUWRAIN has a&#160;distribution in&#160;form of&#160;bootable ISO-image</b>: even if&#160;end-user
+                    doesn&#x27;t have any OS installed on&#160;his/her hard drive he/she may run LUWRAIN choosing
                     our ISO-image based on&#160;GNU/Linux
                   </li>
                   <li>
-                    <b>Luwrain has easily recognizable UI</b>: end-user shouldn&#x27;t worry that he/she has
+                    <b>LUWRAIN has easily recognizable UI</b>: end-user shouldn&#x27;t worry that he/she has
                     insufficient experience for&#160;work in&#160;Luwrain because we take care of&#160;keeping
-                    Luwrain environment as&#160;simple as&#160;it is possible
+                    LUWRAIN environment as&#160;simple as&#160;it is possible
                   </li>
                 </ul>
                 <h2>By the author</h2>
                 <p>
-                  At&#160;the end of&#160;this little story what Luwrain is, I would like to write a&#160;few
+                  At&#160;the end of&#160;this little story what LUWRAIN is, I would like to write a&#160;few
                   words as&#160;some kind of&#160;personal notes. I had&#160;to use screen readers since
                   2002 and never from this moment was satisfied with them. However, I am strongly convinced
-                  that they are a&#160;great achievement and Luwrain isn&#x27;t a&#160;competitor disputing
-                  their value. It&#160;would be&#160;nice if everybody will take Luwrain as&#160;the&#160;project
+                  that they are a&#160;great achievement and LUWRAIN isn&#x27;t a&#160;competitor disputing
+                  their value. It&#160;would be&#160;nice if everybody will take LUWRAIN as&#160;the&#160;project
                   creating something completely different, interesting and useful in&#160;areas previously
                   left without enough attention.
                 </p>
@@ -144,7 +144,7 @@
                 <h1>О&#160;нашем проекте</h1>
                 <p>См.&#160;также</p>
                 <ul>
-                  <li><a href="<?php echo luwrain_link('difference/');?>">Чем Luwrain отличается от&#160;других вспомогательных технологий?</a></li>
+                  <li><a href="<?php echo luwrain_link('difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
                   <li><a href="<?php echo luwrain_link('faq/');?>">Часто задаваемые вопросы</a></li>
                   <li>
                     <a target="_blank" href="http://marigostra.ru/projects/luwrain/">Неформальный манифест
@@ -152,20 +152,20 @@
                   </li>
                 </ul>
                 <p>
-                  С&#160;самого начала развитие Luwrain ведётся в&#160;направлении сегментов вспомогательных
+                  С&#160;самого начала развитие LUWRAIN ведётся в&#160;направлении сегментов вспомогательных
                   технологий, в&#160;которых отсутствуют решения:
                 </p>
                 <ol>
                   <li>
-                    Luwrain предоставляет пользователю информацию в&#160;виде, предельно адаптированном для
+                    LUWRAIN предоставляет пользователю информацию в&#160;виде, предельно адаптированном для
                     восприятия человеком с&#160;нарушениями зрения.
                   </li>
                   <li>
-                    Luwrain предоставляет возможности для&#160;создания и распространения приложений, специально
+                    LUWRAIN предоставляет возможности для&#160;создания и распространения приложений, специально
                     созданных для&#160;людей с&#160;нарушениями зрения.
                   </li>
                   <li>
-                    Luwrain предоставляет гарантированную функциональность для&#160;решения распространённых
+                    LUWRAIN предоставляет гарантированную функциональность для&#160;решения распространённых
                     задач, которая доступна любому человеку с&#160;нарушениями зрения, вне&#160;зависимости
                     от&#160;его финансового положения и вне&#160;зависимости от&#160;его опыта работы на&#160;ПК.
                   </li>
@@ -200,7 +200,7 @@
                   здесь нет никакой фантастики. Не&#160;секрет, что редактирование текста &#x2014; самая доступная
                   и понятная операция для&#160;незрячего пользователя на&#160;компьютере. Остаётся только
                   сделать так, чтобы в&#160;таком виде решались&#160;бы все необходимые задачи. Как мы это
-                  делаем, <a href="<?php echo luwrain_link('/doc/user/start/');?>">проверьте в&#160;Luwrain</a>. Помимо указанных
+                  делаем, <a href="<?php echo luwrain_link('/doc/user/start/');?>">проверьте в&#160;LUWRAIN</a>. Помимо указанных
                   особенностей, наша концепция интерфейса имеет ряд дополнительных возможностей, ускоряющих
                   и упрощяющих работу:
                 </p>
@@ -228,9 +228,9 @@
                 <p>
                   Незрячие люди абсолютно не&#160;имеют никакой платформы, которая позволяла&#160;бы создавать
                   подобные приложения специально для&#160;них. Решение этой сложной задачи &#x2014; одна из&#160;целей
-                  проекта Luwrain. Luwrain предлагает полноценный <a href="<?php echo luwrain_link('/doc/new-app/');?>">интерфейс
+                  проекта LUWRAIN. LUWRAIN предлагает полноценный <a href="<?php echo luwrain_link('/doc/new-app/');?>">интерфейс
                   для&#160;создания приложений</a>, адаптированных для&#160;людей с&#160;нарушениями зрения.
-                  Сильная сторона нашей идеи в&#160;том, что создание приложений при&#160;помощи Luwrain
+                  Сильная сторона нашей идеи в&#160;том, что создание приложений при&#160;помощи LUWRAIN
                   <b>не&#160;требует от&#160;разработчиков наличия опыта в&#160;сфере вспомогательных технологий</b>.
                   Любая компания может создать клиента для&#160;своего сервиса в&#160;сети, просто использовав
                   нашу <a href="/api/">библиотеку классов на&#160;языке Java</a>; мы позаботимся о&#160;том,
@@ -238,31 +238,31 @@
                 </p>
                 <h2>Доступность для&#160;каждого</h2>
                 <p>
-                  Luwrain сконструирован таким образом, чтобы каждый человек, которому он может оказаться
+                  LUWRAIN сконструирован таким образом, чтобы каждый человек, которому он может оказаться
                   полезен, имел&#160;бы возможность работать в&#160;нём.
                 </p>
                 <ol>
                   <li>
-                    <b>Luwrain &#x2014; свободное ПО.</b> Его&#160;использование всегда бесплатно для&#160;конечного
+                    <b>LUWRAIN &#x2014; свободное ПО.</b> Его&#160;использование всегда бесплатно для&#160;конечного
                     пользователя, как и использование любых продуктов, созданных третьими лицами на&#160;основе
-                    Luwrain.
+                    LUWRAIN.
                   </li>
                   <li>
-                    <b>Luwrain создан на&#160;основе технологий Java.</b> Пользоваться Luwrain можно на&#160;любом
+                    <b>LUWRAIN создан на&#160;основе технологий Java.</b> Пользоваться LUWRAIN можно на&#160;любом
                     компьютере и в&#160;любой ОС, для&#160;которых есть виртуальная машина Java не&#160;ниже
                     версии 1.7, а она есть практически для&#160;любой современной ОС.
                   </li>
                   <li>
-                    <b>Luwrain имеет сборку в&#160;виде ISO-образа на&#160;ядре Linux.</b> Даже если у&#160;пользователя
+                    <b>LUWRAIN имеет сборку в&#160;виде ISO-образа на&#160;ядре Linux.</b> Даже если у&#160;пользователя
                     нет&#160;вообще никакой возможности приобрести или установить какую-либо ОС, т.&#160;е.
                     у&#160;него есть только компьютер с&#160;пустым жёстким диском, он всё&#160;равно может
-                    пользоваться Luwrain, если выберет вариант в&#160;виде <a href="<?php echo luwrain_link('/download/iso/');?>">загрузочного
+                    пользоваться LUWRAIN, если выберет вариант в&#160;виде <a href="<?php echo luwrain_link('/download/iso/');?>">загрузочного
                     ISO-образа</a>.
                   </li>
                   <li>
-                    <b>Luwrain имеет предельно упрощенный и понятный интерфейс для&#160;незрячего человека.</b>
+                    <b>LUWRAIN имеет предельно упрощенный и понятный интерфейс для&#160;незрячего человека.</b>
                     Пользователь может не&#160;опасаться, что ему не&#160;хватит опыта работы на&#160;ПК для&#160;эксплуатации
-                    Luwrain. Несколько простых примеров для&#160;первого знакомства окажутся достаточными,
+                    LUWRAIN. Несколько простых примеров для&#160;первого знакомства окажутся достаточными,
                     чтобы быстро начать работу.
                   </li>
                 </ol>
@@ -272,8 +272,8 @@
                   от&#160;себя. Мне приходится использовать вспомогательные технологии с&#160;2002&#160;г.,
                   но никогда с&#160;этого момента их&#160;работа не&#160;удовлетворяла меня полностью. Тем&#160;не&#160;менее,
                   искренне уверен, что любые примеры утилит экранного доступа, которые критикуются на&#160;этой
-                  странице, являются колоссальным достижением в&#160;развитии доступности, и Luwrain не&#160;пытается
-                  оспаривать их&#160;значимость. Буду очень рад, если все будут воспринимать Luwrain как
+                  странице, являются колоссальным достижением в&#160;развитии доступности, и LUWRAIN не&#160;пытается
+                  оспаривать их&#160;значимость. Буду очень рад, если все будут воспринимать LUWRAIN как
                   попытку создать нечто нестандартное, способное стать более эффективным в&#160;тех сферах,
                   которым раньше уделялось мало внимания.
                 </p>

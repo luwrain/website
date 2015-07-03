@@ -7,7 +7,7 @@ luwrain-page-en
 
 = Frequently asked questions  =
 
-== Who can be a~user of~Luwrain? ==
+== Who can be a~user of~LUWRAIN? ==
 
 We consider three groups of~potential users:
 
@@ -25,9 +25,9 @@ of~highly demanded tasks
 * software developers, who would like to~create application well-recognizable by~blind people
 but don't have enough  experience in~this area
 
-== Is Luwrain a~competitor for~screen readers? ==
+== Is LUWRAIN a~competitor for~screen readers? ==
 
-No, Luwrain develops the~idea of~an~audio desktop,
+No, LUWRAIN develops the~idea of~an~audio desktop,
 which is~supposed to~be an~environment "in~itself".
 It~is independent from~the~most of~screen readers.
 We sure that blind people get the~highest level  of~freedom and independence 
@@ -37,74 +37,74 @@ Screen readers {guarantee} the~accessibility of~any~arbitrary functionality in~{
 meantime, environments "in~itself" take care that some number of~everyday tasks 
 are~accessible in~{most suitable} for~the~perception of~blind people form.
 
-== Should Luwrain users refuse the~accessibility technologies they used~to work with previously? ==
+== Should LUWRAIN users refuse the~accessibility technologies they used~to work with previously? ==
 
-No, because Luwrain can be installed as~an~application on~the~operating system the~user already has.
+No, because LUWRAIN can be installed as~an~application on~the~operating system the~user already has.
 It doesn't cause any problems with having screen readers installed simultaneously.
-No~problems to~switch to~Luwrain only for~tasks the~user wants,
+No~problems to~switch to~LUWRAIN only for~tasks the~user wants,
 continuing to~use screen readers   for~other purposes.
 In~addition, the~already installed operating system could be needed by~colleagues or other members of~a~family
 if they share the~same machine with disabled person.
 
-== Why the~Luwrain UI is more~suitable for~blind users? ==
+== Why the~LUWRAIN UI is more~suitable for~blind users? ==
 
 People without the~problems of~eyesight use graphical user interface (GUI).
 Usually it is Microsoft Windows, Apple Moc~OS~X or different desktops for~GNU/Linux.
 The~GUI developers initially have designed their technology 
 to~get highest efficiency with~the~mouse as~a~main method of~control.
 Meantime, the~mouse is~inaccessible for~handicapped people and that  restricts their speed of~work and level of~comfort.
-Luwrain brings working objects to~users
+LUWRAIN brings working objects to~users
 in~a~way that is~adjusted to~the~perception of~blind people  as~best as~possible.
 We have spent a~lot of~time to~get necessary experience and understanding how to~do~that.
-You can read more about exact differences of~Luwrain on~[local:/doc/difference/ the~corresponding page] of~this website.
+You can read more about exact differences of~LUWRAIN on~[local:/doc/difference/ the~corresponding page] of~this website.
 
-== May I create my own application for~Luwrain? ==
+== May I create my own application for~LUWRAIN? ==
 
-Of~cource, and we highly encourage everybody to~create any third party applications for~Luwrain.
+Of~cource, and we highly encourage everybody to~create any third party applications for~LUWRAIN.
 Any~new functionality can be~easily implemented on~Java.
 You can read more about this on~[local:/doc/new-app/ the~corresponding page].
 
-== Is monitor empty during the~work  in~Luwrain? ==
+== Is monitor empty during the~work  in~LUWRAIN? ==
 
 No, we use the~screen as an~additional method to~bring information for~users with~low~vision.
 It~plays a~supplementary role but remains very important.
 
-== What kind of~PC is the~most suitable for~Luwrain? ==
+== What kind of~PC is the~most suitable for~LUWRAIN? ==
 
-We are trying to~support using Luwrain both on~mobile and desktop PC's.
-For~mobile computers, it~is better to~use Luwrain as~a~stand-alone OS 
+We are trying to~support using LUWRAIN both on~mobile and desktop PC's.
+For~mobile computers, it~is better to~use LUWRAIN as~a~stand-alone OS 
 because it~tries to~use all~possible ways of~control, including touchpad,
 and this makes a~laptop a~elegant accessory for~blind people.
-On~desktop computers, more likely, you would prefer Luwrain as~an~application,
+On~desktop computers, more likely, you would prefer LUWRAIN as~an~application,
 although installation as~an~stand-alone operating system remains still possible. 
 
-== What is the~current state of~Luwrain development process? ==
+== What is the~current state of~LUWRAIN development process? ==
 
 As~for~today, we continue work on~our beta versions.
 Current plan implies completing first stable version 1.0.0 until ~the~end of~2015.
 
-== Should Luwrain users pay anything for~Luwrain? ==
+== Should LUWRAIN users pay anything for~Luwrain? ==
 
 No,
-Luwrain is fully Open Source with~GPL~v.3 license.
+LUWRAIN is fully Open Source with~GPL~v.3 license.
 All~materials are freely accessible publicly
 and everybody is~welcomed to~use them or share with~other community members.
 
-== Can I create my custom Luwrain build? ==
+== Can I create my custom LUWRAIN build? ==
 
 Yes,
  but if you would like to~make any substantial modifications
 we~will kindly ask you to~take any another name for~your version to~prevent confusing. 
 Please take a~look at~our~page with~[local:/doc/legal/ legal notes].
 
-== How do the~web-browser function in~Luwrain? ==
+== How do the~web-browser function in~LUWRAIN? ==
 
 We are about to~use [[https://docs.oracle.com/javafx/2/api/javafx/scene/web/WebEngine.html javafx.scene.web.WebEngine]] component
 as it~supports Java~Script and allows access to~the~DOM structure of~the~site being observed.
-In~addition, Luwrain as~a~stand-alone OS  should get~AT-SPI-based support of~Mozilla Firefox
+In~addition, LUWRAIN as~a~stand-alone OS  should get~AT-SPI-based support of~Mozilla Firefox
 but JavaFX-based approach is~more preferable.
 
-== Is it impossible to~launch external application in~Luwrain as~a~stand-alone OS? ==
+== Is it impossible to~launch external application in~LUWRAIN as~a~stand-alone OS? ==
 
 We work on~the~special component called GuideCraft which  is~purposed to~be a~lightweight 
 screen reader based on~AT-SPI.
@@ -114,24 +114,24 @@ it allows to~run Skype and Firefox used by many people.
 This component slightly goes out of~our conception of~text interface 
 but we think that there wouldn't be any losses if we would do this step.
 Besides that, all command line utilities remain fully available 
-with the~terminal embedded in~Luwrain.
+with the~terminal embedded in~LUWRAIN.
 
 == I heard  that publishing systems TeX and Lilypond are very useful for~blind people, what about them? ==
 
 Nobody should worry about any applications available in~Linux repositories
-because Luwrain remains a~usual Gnu/Linux distro.
+because LUWRAIN remains a~usual Gnu/Linux distro.
 You may install any software you would like, including Latex and Lilypond.
 Latex, Metapost, Lilypond and Gnuplot are really very useful for~blind people ,
 so we will take care of~them.
 
-== Are blind people able to~install Luwrain on~hard drive without any external sighted assistance? ==
+== Are blind people able to~install LUWRAIN on~hard drive without any external sighted assistance? ==
 
 Yes, we have prepared an~installation utility ,
 which clones LiveCD environment to~hard drive.
 This approach is rather simple, very effective 
 and, what is the~most important, accessible for~blind users.
 
-== May I participate in~Luwrain project and contribute to~it? ==
+== May I participate in~LUWRAIN project and contribute to~it? ==
 
 Of~course, we are a~completely open project and everybody is~welcomed to~participate 
 in~our community and contribute to~our sources.
@@ -143,7 +143,7 @@ luwrain-page-ru
 
 = Часто задаваемые вопросы =
 
-== Кто может быть пользователем Luwrain? ==
+== Кто может быть пользователем LUWRAIN? ==
 
 Мы выделяем три~группы потенциальных пользователей:
 
@@ -161,10 +161,10 @@ luwrain-page-ru
 максимально понятной и доступной людям с~нарушениями зрения,
 но не~имеющие опыта в~области вспомогательных технологий.
 
-== Является~ли Luwrain конкурирующей технологией для~утилит экранного доступа? ==
+== Является~ли LUWRAIN конкурирующей технологией для~утилит экранного доступа? ==
 
 Нет,
-Luwrain продолжает направление рабочей среды "в~себе", 
+LUWRAIN продолжает направление рабочей среды "в~себе", 
 которое развивается в~значительной мере  независимо от~популярных утилит экранного доступа.
 Максимальную свободу и самостоятельность незрячий человек получает в~том случае,
 если оба эти направления полноценно развиты.
@@ -174,15 +174,15 @@ Luwrain продолжает направление рабочей среды "�
 обеспечивают предоставление  наиболее востребованных приложений для~повседневной работы в~форме,
 {предельно адаптированной} для~восприятия незрячим человеком. 
 
-== Придётся~ли пользователю Luwrain отказаться от~работы с~прежними инструментами? ==
+== Придётся~ли пользователю LUWRAIN отказаться от~работы с~прежними инструментами? ==
 
-Нет, поскольку Luwrain может быть установлен в~виде приложения на имеющуюся ОС.
-Пользователь перенесёт в~Luwrain выполнение только тех~задач,
+Нет, поскольку LUWRAIN может быть установлен в~виде приложения на имеющуюся ОС.
+Пользователь перенесёт в~LUWRAIN выполнение только тех~задач,
 какие пожелает.
 Помимо этого, прежняя операционная система может быть необходима другим членам семьи или коллектива,
 если они используют общий компьютер с~человеком, имеющим нарушения зрения. 
 
-== Почему интерфейс Luwrain подходит для~незрячих людей лучше? ==
+== Почему интерфейс LUWRAIN подходит для~незрячих людей лучше? ==
 
 Люди без~нарушений  зрения работают в~оконных системах 
 (Microsoft Windows,
@@ -194,17 +194,17 @@ Apple Mac~OS~X и~др.).
 и это автоматически ограничивает их скорость работы и уровень комфорта,
 поскольку они вынуждены   заменять действия мышью действиями на~клавиатуре.
 
-Luwrain представляет объекты в~форме, предельно понятной незрячему человеку,
+LUWRAIN представляет объекты в~форме, предельно понятной незрячему человеку,
 и позволяет успешно управлять ими  без~мыши.
 Вы можете ознакомится с~конкретным описанием отличий от~близких разработок на~[local:/doc/difference/ этой странице].
 
-== Могу~ли я создать своё собственное приложение для~Luwrain? ==
+== Могу~ли я создать своё собственное приложение для~LUWRAIN? ==
 
-Конечно, мы активно поддерживаем появление сторонних приложений для~Luwrain.
+Конечно, мы активно поддерживаем появление сторонних приложений для~LUWRAIN.
 Они могут быть легко созданы на~языке Java.
 Подробнее об~этом можно узнать на~[local:/doc/new-app/ этой странице].
 
-== Во~время работы в~Luwrain экран не~используется вовсе? ==
+== Во~время работы в~LUWRAIN экран не~используется вовсе? ==
 
 Используется,
 на~экран выводится информация,
@@ -212,47 +212,47 @@ Luwrain представляет объекты в~форме, предельн�
 Она дополняет речевой вывод, 
 но не~играет какой-либо ключевой роли.
 
-== Какой тип ПК подходит для~Luwrain лучше всего? ==
+== Какой тип ПК подходит для~LUWRAIN лучше всего? ==
 
-Мы стараемся поддерживать работу в~Luwrain как на~настольных,
+Мы стараемся поддерживать работу в~LUWRAIN как на~настольных,
 так и на~мобильных ПК.
-Для~мобильных ПК лучше подходит версия Luwrain в~виде самостоятельной ОС,
+Для~мобильных ПК лучше подходит версия LUWRAIN в~виде самостоятельной ОС,
 поскольку она задействует все возможные виды управления,
 включая {{touch pad}},
 что превращает ноутбук в~элегантный и полезный аксессуар для~незрячего человека. 
-Для~настольного ПК, вероятно, лучше подойдёт версия Luwrain в~виде приложения,
+Для~настольного ПК, вероятно, лучше подойдёт версия LUWRAIN в~виде приложения,
 хотя установка в~виде полной ОС остаётся всё~равно возможной.
 
-== В~каком состоянии находится разработка Luwrain в~настоящий момент? ==
+== В~каком состоянии находится разработка LUWRAIN в~настоящий момент? ==
 
 Пока в~стадии технологического прототипа.
 Работы очень много, и мы будем поэтапно выводить в~стабильное состояние различные компоненты.
 
-== Должны~ли пользователи что-либо платить за~Luwrain? ==
+== Должны~ли пользователи что-либо платить за~LUWRAIN? ==
 
 Нет.
-Luwrain --- это свободное ПО.
+LUWRAIN --- это свободное ПО.
 Все материалы и результаты проекта находятся в~открытом доступе и распространяются бесплатно.
 
-== Могу~ли я сделать собственную версию Luwrain? ==
+== Могу~ли я сделать собственную версию LUWRAIN? ==
 
 Да, но если отличия от~нашей официальной версии достаточно существенные,
 мы попросим вас  для~вашей сборки  выбрать другое название.
 Вы можете найти более подробную информацию о~правовом статусе на~[local:/doc/legal/ этой странице].
 
-== Как работает браузер в~Luwrain? ==
+== Как работает браузер в~LUWRAIN? ==
 
 Мы намереваемся использовать компонент [https://docs.oracle.com/javafx/2/api/javafx/scene/web/WebEngine.html javafx.scene.web.WebEngine] из~состава JavaFX,
 поскольку он поддерживает Java~Script и предоставляет доступ к~структуре DOM  открытой страницы.
 Этот компонент основан на~движке [https://ru.wikipedia.org/wiki/WebKit WebKit],
 который является базой некоторых распространённых браузеров, например, [https://ru.wikipedia.org/wiki/Google_Chrome Google Chrome].
-Помимо этого, Luwrain в~виде самостоятельной ОС 
+Помимо этого, LUWRAIN в~виде самостоятельной ОС 
 должен получить поддержку Mozilla Firefox
 как внешнего приложения,
 функции доступности которого обеспечены специальным компонентом на~базе AT-SPI,
 но решение на~основе JavaFX остаётся более предпочтительным.
 
-== В~Luwrain в~виде самостоятельной операционной системы запуск других приложений невозможен? ==
+== В~LUWRAIN в~виде самостоятельной операционной системы запуск других приложений невозможен? ==
 
 Возможен.
 В~комплект поставки включается специальный компонент,
@@ -260,11 +260,11 @@ Luwrain --- это свободное ПО.
 которые поддерживают работу вспомогательных технологий в~традициях AT-SPI (например, {{Skype}}).
 Помимо этого, не~следует забывать,
 что остаются доступными все~приложения командной строки (например, {{ping}} или {{lame}}),
-поскольку Luwrain имеет встроенный терминал.
+поскольку LUWRAIN имеет встроенный терминал.
 
 == Я слышал, что для~незрячих людей могут быть очень полезны издательские  системы TeX и Lilypond, что с~ними? ==
 
-Luwrain в~виде самостоятельной операционной системы продолжает оставаться 
+LUWRAIN в~виде самостоятельной операционной системы продолжает оставаться 
 обычным дистрибутивом GNU/Linux.
 Это означает, что из~доступных репозиториев можно установить любой пакет или приложение,
 которое окажется полезным, включая TeX и Lilypond.
@@ -272,12 +272,12 @@ Luwrain в~виде самостоятельной операционной си
 а~также презентации для~публичных выступлений.
 Мы активно поддерживаем их~использование.  
 
-== Могут~ли незрячие люди установить Luwrain на~жёсткий диск самостоятельно? ==
+== Могут~ли незрячие люди установить LUWRAIN на~жёсткий диск самостоятельно? ==
 
 Да, у~нас есть доступная программа установки,
 но необходимо помнить, что выбор загрузочного устройства в~настройках BIOS обычно невозможен без~помощи зрячего человека. 
 
 == Могу~ли я присоединиться к~проекту и внести свой вклад? ==
 
-Конечно, Luwrain --- это открытый проект, и все желающие могут к~нему присоединиться.
+Конечно, LUWRAIN --- это открытый проект, и все желающие могут к~нему присоединиться.
 Мы активно поддерживаем создание [local:/community/ сообщества] вокруг нашего проекта.

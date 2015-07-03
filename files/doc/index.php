@@ -1,6 +1,6 @@
 <?php include "../functions.php"; luwrain_begin_page('/doc/index.php', luwrain_current_lang() == 'ru'?'Документация':'Documentation');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-                <h1>Luwrain documentation</h1>
+                <h1>LUWRAIN documentation</h1>
                 <p>Choose the&#160;section you need:</p>
                 <ul>
                   <li>
@@ -8,11 +8,11 @@
                   <ul>
                     <li>
                       <a href="<?php echo luwrain_link('user/installation/');?>">Installation instructions: what should you do if you&#x27;d
-                      like to&#160;install Luwrain on&#160;your computer?</a>
+                      like to&#160;install LUWRAIN on&#160;your computer?</a>
                     </li>
-                    <li><a href="<?php echo luwrain_link('user/manual/');?>">User manual: a&#160;complete guide to&#160;work in&#160;Luwrain</a></li>
+                    <li><a href="<?php echo luwrain_link('user/manual/');?>">User manual: a&#160;complete guide to&#160;work in&#160;LUWRAIN</a></li>
                     <li>
-                      <a href="<?php echo luwrain_link('user/try/');?>">Try now: running Luwrain for&#160;demonstration without installing
+                      <a href="<?php echo luwrain_link('user/try/');?>">Try now: running LUWRAIN for&#160;demonstration without installing
                       on&#160;your computer</a>
                     </li>
                     <li>
@@ -22,19 +22,19 @@
                     <li><a href="<?php echo luwrain_link('/community/bugs/');?>">How to&#160;report a&#160;bug?</a></li>
                   </ul>
                   </li>
-                  <li><a href="<?php echo luwrain_link('new-app/');?>">How&#160;to create your own application for&#160;Luwrain?</a></li>
+                  <li><a href="<?php echo luwrain_link('new-app/');?>">How&#160;to create your own application for&#160;LUWRAIN?</a></li>
                   <li>
-                    <a href="<?php echo luwrain_link('devel/');?>">Environment developers documentation: how to&#160;work on&#160;Luwrain
+                    <a href="<?php echo luwrain_link('devel/');?>">Environment developers documentation: how to&#160;work on&#160;LUWRAIN
                     itself?</a>
                   </li>
                 </ul>
                 <h2>About the&#160;project</h2>
                 <ul>
                   <li>
-                    <a href="<?php echo luwrain_link('about/');?>">The&#160;free story what Luwrain is and why do we think blind users
+                    <a href="<?php echo luwrain_link('about/');?>">The&#160;free story what LUWRAIN is and why do we think blind users
                     need it?</a>
                   </li>
-                  <li><a href="<?php echo luwrain_link('difference/');?>">Why is Luwrain different than other accessible solutions?</a></li>
+                  <li><a href="<?php echo luwrain_link('difference/');?>">Why is LUWRAIN different than other accessible solutions?</a></li>
                   <li><a href="<?php echo luwrain_link('authors/');?>">The project authors</a></li>
                   <li><a href="<?php echo luwrain_link('legal/');?>">Legal notes</a></li>
                   <li><a href="<?php echo luwrain_link('faq/');?>">Frequently asked questions</a></li>
@@ -43,7 +43,7 @@
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-                <h1>Документация Luwrain</h1>
+                <h1>Документация LUWRAIN</h1>
                 <p>Выберите интересующий вас раздел:</p>
                 <ul>
                   <li>
@@ -74,10 +74,10 @@
                 <h2>О&#160;проекте</h2>
                 <ul>
                   <li>
-                    <a href="<?php echo luwrain_link('about/');?>">Что&#160;такое Luwrain, и почему мы считаем, что незрячие люди нуждаются
+                    <a href="<?php echo luwrain_link('about/');?>">Что&#160;такое LUWRAIN, и почему мы считаем, что незрячие люди нуждаются
                     в&#160;нём?</a>
                   </li>
-                  <li><a href="<?php echo luwrain_link('difference/');?>">Чем Luwrain отличается от&#160;других вспомогательных технологий?</a></li>
+                  <li><a href="<?php echo luwrain_link('difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
                   <li><a href="<?php echo luwrain_link('authors/');?>">Авторы проекта</a></li>
                   <li><a href="<?php echo luwrain_link('legal/');?>">Правовой статус проекта</a></li>
                   <li><a href="<?php echo luwrain_link('faq/');?>">Часто задаваемые вопросы</a></li>

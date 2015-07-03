@@ -9,7 +9,7 @@ luwrain-page-en
 
 See also
 
-* [local:/doc/difference/ Why is Luwrain different than other accessible solutions?]
+* [local:/doc/difference/ Why is LUWRAIN different than other accessible solutions?]
 * [local:/doc/faq/ Frequently asked questions]
 
 == What are we working on? ==
@@ -19,14 +19,14 @@ which revolve around information technologies.
 There~are some technical barriers making this still very difficult 
 and our development is~carried~out with~the~aim of~eliminating them.
 
-* Luwrain tries to~bring information from~PC's to~users 
+* LUWRAIN tries to~bring information from~PC's to~users 
 in~a~way adjusted to~the~perception 
 of~blind people as~best as~possible
 
 * Luwrrain allows creating and distributing of~applications
 specially  designed  for~blind people 
 
-* Luwrain guarantees solving of~a~number of~popular everyday tasks 
+* LUWRAIN guarantees solving of~a~number of~popular everyday tasks 
 regardless what experience the~user has 
 or his/her financial circumstances
 
@@ -65,7 +65,7 @@ but it~isn't the~case.
 Everybody knows that text editing is the~most understandable operation for~blind people on~pc.
 The~only thing we should do is to~make solving of~all tasks 
 in~the~same way as~text editing.
-How we achieve that,  [local:/doc/user/start/ see in~Luwrain].
+How we achieve that,  [local:/doc/user/start/ see in~LUWRAIN].
 
 Besides mentioned advantages,
 our~conception has some additional features
@@ -90,7 +90,7 @@ which aims to~be with the~user everywhere.
 
 Blind people has nothing like this.
 There is no~platform which allows creating of~the~applications specially designed for~them.
- Luwrain offers the~full [local:/doc/new-app/ SDK]
+ LUWRAIN offers the~full [local:/doc/new-app/ SDK]
 for~creating of~applications for~blind people.
 The~main advantage of~this approach is that it doesn't require 
 the~developer to~have any~experience in~the~area of~accessibility technologies.
@@ -100,31 +100,31 @@ and We will take care of~proper understanding of~created applications by~blind p
 
 == Accessibility for~everybody  ==
 
-Luwrain is constructed  to~be accessible for~{everybody who could be~interested in~it}:
+LUWRAIN is constructed  to~be accessible for~{everybody who could be~interested in~it}:
 
-* {Luwrain is~an~Open source project}:
+* {LUWRAIN is~an~Open source project}:
 end-user may use it completely free of~charge,
-as~well as~any  other software based on~Luwrain and created by~third-party developers
+as~well as~any  other software based on~LUWRAIN and created by~third-party developers
 
-* {Luwrain  is~based on~Java}:
+* {LUWRAIN  is~based on~Java}:
 end-user may run it~on~any computers with~proper Java~1.7 support 
 (roughly speaking, nearly on~all~PC's)
 
-* {Luwrain has a~distribution in~form of~bootable ISO-image}:
+* {LUWRAIN has a~distribution in~form of~bootable ISO-image}:
 even if~end-user doesn't have any OS installed on~his/her hard drive 
-he/she may run Luwrain choosing our ISO-image based on~GNU/Linux
+he/she may run LUWRAIN choosing our ISO-image based on~GNU/Linux
 
-* {Luwrain has easily recognizable UI}:
+* {LUWRAIN has easily recognizable UI}:
 end-user shouldn't worry that he/she has insufficient experience for~work in~Luwrain
-because we take care of~keeping Luwrain environment as~simple as~it is possible 
+because we take care of~keeping LUWRAIN environment as~simple as~it is possible 
 
 == By the author ==
 
-At~the end of~this little story what Luwrain is,
+At~the end of~this little story what LUWRAIN is,
 I would like to write a~few words as~some kind of~personal notes.
 I had~to use screen readers since 2002 and never from this  moment was satisfied with them.
-However, I am strongly convinced that they are a~great achievement and Luwrain isn't a~competitor disputing their value.
-It~would be~nice if everybody will take  Luwrain as~the~project
+However, I am strongly convinced that they are a~great achievement and LUWRAIN isn't a~competitor disputing their value.
+It~would be~nice if everybody will take  LUWRAIN as~the~project
 creating something completely different,
 interesting and useful in~areas previously left without enough attention.
 
@@ -140,20 +140,20 @@ luwrain-page-ru
 
 См.~также
 
-* [local:difference/ Чем Luwrain отличается от~других вспомогательных технологий?]
+* [local:difference/ Чем LUWRAIN отличается от~других вспомогательных технологий?]
 * [local:faq/ Часто задаваемые вопросы]
 * [[http://marigostra.ru/projects/luwrain/ Неформальный манифест от~авторов проекта]]
 
-С~самого начала развитие Luwrain ведётся в~направлении сегментов вспомогательных технологий,
+С~самого начала развитие LUWRAIN ведётся в~направлении сегментов вспомогательных технологий,
 в~которых отсутствуют решения: 
 
-# Luwrain предоставляет пользователю информацию в~виде,
+# LUWRAIN предоставляет пользователю информацию в~виде,
 предельно адаптированном для восприятия человеком с~нарушениями  зрения.
 
-# Luwrain предоставляет возможности для~создания и распространения приложений,
+# LUWRAIN предоставляет возможности для~создания и распространения приложений,
 специально созданных для~людей с~нарушениями зрения.
 
-# Luwrain предоставляет гарантированную функциональность для~решения распространённых задач,
+# LUWRAIN предоставляет гарантированную функциональность для~решения распространённых задач,
 которая доступна любому человеку с~нарушениями зрения,
 вне~зависимости от~его финансового положения  и вне~зависимости от~его опыта работы на~ПК.
 
@@ -191,7 +191,7 @@ luwrain-page-ru
 но на~деле здесь нет никакой фантастики.
 Не~секрет, что редактирование текста --- самая доступная и понятная операция для~незрячего пользователя на~компьютере.
 Остаётся только сделать так, чтобы в~таком виде решались~бы все необходимые задачи.
-Как мы это делаем, [local:/doc/user/start/ проверьте в~Luwrain].
+Как мы это делаем, [local:/doc/user/start/ проверьте в~LUWRAIN].
 Помимо указанных особенностей,
 наша концепция интерфейса имеет ряд дополнительных возможностей, 
 ускоряющих и упрощяющих работу:
@@ -214,10 +214,10 @@ luwrain-page-ru
 при~помощи которых люди получают предельно удобный и комфортный доступ к~тем службам и сервисам, которые должны постоянно находиться под~рукой.
 
 Незрячие люди абсолютно не~имеют никакой платформы, которая позволяла~бы создавать подобные приложения специально для~них.
-Решение этой сложной задачи --- одна из~целей проекта Luwrain.
-Luwrain предлагает полноценный [local:/doc/new-app/ интерфейс для~создания приложений],
+Решение этой сложной задачи --- одна из~целей проекта LUWRAIN.
+LUWRAIN предлагает полноценный [local:/doc/new-app/ интерфейс для~создания приложений],
 адаптированных для~людей с~нарушениями зрения.
-Сильная сторона нашей идеи в~том, что создание приложений при~помощи Luwrain 
+Сильная сторона нашей идеи в~том, что создание приложений при~помощи LUWRAIN 
 {не~требует от~разработчиков наличия опыта в~сфере вспомогательных технологий}.
 Любая компания может создать клиента для~своего сервиса в~сети,
 просто использовав нашу [/api/ библиотеку классов на~языке  Java];
@@ -225,27 +225,27 @@ Luwrain предлагает полноценный [local:/doc/new-app/ инт�
 
 == Доступность для~каждого ==
 
-Luwrain сконструирован таким образом, чтобы каждый человек,
+LUWRAIN сконструирован таким образом, чтобы каждый человек,
 которому он может оказаться полезен, имел~бы возможность работать в~нём.
 
-# {Luwrain --- свободное ПО.}
+# {LUWRAIN --- свободное ПО.}
 Его~использование всегда бесплатно для~конечного пользователя,
 как и использование любых продуктов, 
-созданных третьими лицами на~основе Luwrain.
+созданных третьими лицами на~основе LUWRAIN.
 
-# {Luwrain  создан на~основе технологий Java.}
-Пользоваться Luwrain можно на~любом компьютере и в~любой ОС,
+# {LUWRAIN  создан на~основе технологий Java.}
+Пользоваться LUWRAIN можно на~любом компьютере и в~любой ОС,
 для~которых есть виртуальная машина Java не~ниже версии 1.7,
 а она есть практически для~любой современной ОС. 
 
-# {Luwrain имеет сборку в~виде ISO-образа на~ядре Linux.}
+# {LUWRAIN имеет сборку в~виде ISO-образа на~ядре Linux.}
 Даже если у~пользователя нет~вообще никакой возможности приобрести или установить какую-либо ОС,
 т.~е. у~него есть только компьютер с~пустым жёстким диском,
-он всё~равно может пользоваться Luwrain,
+он всё~равно может пользоваться LUWRAIN,
 если выберет вариант в~виде [local:/download/iso/ загрузочного ISO-образа].
 
-# {Luwrain имеет предельно упрощенный и понятный интерфейс для~незрячего человека.}
-Пользователь может не~опасаться, что ему не~хватит опыта работы на~ПК для~эксплуатации Luwrain.
+# {LUWRAIN имеет предельно упрощенный и понятный интерфейс для~незрячего человека.}
+Пользователь может не~опасаться, что ему не~хватит опыта работы на~ПК для~эксплуатации LUWRAIN.
 Несколько простых примеров для~первого знакомства окажутся достаточными, 
 чтобы быстро начать работу.
 
@@ -257,8 +257,8 @@ Luwrain сконструирован таким образом, чтобы ка�
 но никогда с~этого момента их~работа не~удовлетворяла меня полностью.
 Тем~не~менее, искренне уверен, 
 что любые примеры утилит экранного доступа, которые критикуются на~этой странице, 
-являются колоссальным достижением в~развитии доступности, и Luwrain не~пытается оспаривать их~значимость.
-Буду очень рад, если все будут воспринимать Luwrain как попытку создать нечто нестандартное,
+являются колоссальным достижением в~развитии доступности, и LUWRAIN не~пытается оспаривать их~значимость.
+Буду очень рад, если все будут воспринимать LUWRAIN как попытку создать нечто нестандартное,
 способное стать более эффективным в~тех сферах, которым раньше уделялось мало внимания.
 
 Помимо всего, очень благодарен авторам [[http://emacspeak.sourceforge.net  emacspeak]],

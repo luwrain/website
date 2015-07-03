@@ -1,14 +1,14 @@
 <?php include "../functions.php"; luwrain_begin_page('/download/index.php', luwrain_current_lang() == 'ru'?'Загрузка':'downloads');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-                <h1>Luwrain downloads</h1>
+                <h1>LUWRAIN downloads</h1>
                 <h2>For&#160;end&#160;users</h2>
                 <p>
-                  These options are purposed for&#160;everybody who would like to&#160;use Luwrain just for&#160;the&#160;work.
+                  These options are purposed for&#160;everybody who would like to&#160;use LUWRAIN just for&#160;the&#160;work.
                   The&#160;only difference between them is the&#160;operating system they can be&#160;launched
                   on (or&#160;without operating system at&#160;all as&#160;in&#160;the&#160;case of&#160;bootable
                   ISO-images).
                 </p>
-                <p>Choose the&#160;most suitable form of&#160;Luwrain distribution you need:</p>
+                <p>Choose the&#160;most suitable form of&#160;LUWRAIN distribution you need:</p>
                 <ul>
                   <li><a href="<?php echo luwrain_link('iso/');?>">Bootable ISO-images</a> (installed operating system isn&#x27;t needed)</li>
                   <li><a href="<?php echo luwrain_link('windows/');?>">For&#160;Microsoft Windows</a></li>
@@ -18,13 +18,13 @@
                 <h2>For&#160;developers</h2>
                 <p>
                   The&#160;first option of&#160;this list is purposed for&#160;the&#160;developers of&#160;applications
-                  for&#160;Luwrain. Others can be&#160;useful only for&#160;developers who would like to&#160;improve
-                  Luwrain itself.
+                  for&#160;LUWRAIN. Others can be&#160;useful only for&#160;developers who would like to&#160;improve
+                  LUWRAIN itself.
                 </p>
                 <ul>
                   <li>
-                    <a href="<?php echo luwrain_link('sdk/');?>">Luwrain&#160;SDK</a> (needed for&#160;building your own applications
-                    for&#160;Luwrain)
+                    <a href="<?php echo luwrain_link('sdk/');?>">LUWRAIN&#160;SDK</a> (needed for&#160;building your own applications
+                    for&#160;LUWRAIN)
                   </li>
                   <li>
                     <a href="<?php echo luwrain_link('git/');?>">Git&#160;repositories</a> (the&#160;entire set of&#160;version tracking
@@ -32,7 +32,7 @@
                   </li>
                   <li>
                     <a href="tarball/">The&#160;tarballs with source materials</a> (published basically to&#160;make
-                    Luwrain sources downloadable in&#160;single click but there is a&#160;tarball with&#160;media
+                    LUWRAIN sources downloadable in&#160;single click but there is a&#160;tarball with&#160;media
                     files which aren&#x27;t present in&#160;Git repositories)
                   </li>
                 </ul>
@@ -44,10 +44,10 @@
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-                <h1>Загрузка Luwrain</h1>
+                <h1>Загрузка LUWRAIN</h1>
                 <h2>Для&#160;пользователей</h2>
                 <p>
-                  В&#160;этом разделе варианты загрузки предназначены для&#160;людей, кому Luwrain требуется
+                  В&#160;этом разделе варианты загрузки предназначены для&#160;людей, кому LUWRAIN требуется
                   непосредственно только для&#160;работы. Единственное различие между ними &#x2014; операционная
                   система, на&#160;которой они могут быть запущены (в&#160;случае загрузочных ISO-образов
                   операционная система не&#160;требуется вовсе).
@@ -70,7 +70,7 @@
                 </p>
                 <ol>
                   <li>
-                    <a href="<?php echo luwrain_link('sdk/');?>">Luwrain&#160;SDK</a> (требуется для&#160;разработки ваших собственных
+                    <a href="<?php echo luwrain_link('sdk/');?>">LUWRAIN&#160;SDK</a> (требуется для&#160;разработки ваших собственных
                     приложений)
                   </li>
                   <li>
@@ -79,7 +79,7 @@
                   </li>
                   <li>
                     <a href="tarball/">Архивы с&#160;материалами проекта</a> (предоставляются в&#160;основном
-                    для&#160;упрощения загрузки Luwrain, но помимо исходных текстов содержат также звуковые
+                    для&#160;упрощения загрузки LUWRAIN, но помимо исходных текстов содержат также звуковые
                     файлы, отсутствующие в&#160;репозиториях Git)
                   </li>
                 </ol>

@@ -18,7 +18,7 @@
                   <li><a href="<?php echo luwrain_link('switching/');?>">Перемещение между областями</a></li>
                   <li><a href="<?php echo luwrain_link('clipboard/');?>">Буфер обмена</a></li>
                 </ol>
-                <h2>Работа в&#160;приложениях Luwrain</h2>
+                <h2>Работа в&#160;приложениях LUWRAIN</h2>
                 <ol>
                   <li><a href="<?php echo luwrain_link('app/commander/');?>">Файловый менеджер</a></li>
                   <li><a href="<?php echo luwrain_link('app/news/');?>">Чтение новостей</a></li>

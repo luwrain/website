@@ -1,24 +1,24 @@
-<?php include "../../../functions.php"; luwrain_begin_page('/doc/new-app/luwrain/index.php', luwrain_current_lang() == 'ru'?'Класс Luwrain':'Class Luwrain');?>
+<?php include "../../../functions.php"; luwrain_begin_page('/doc/new-app/luwrain/index.php', luwrain_current_lang() == 'ru'?'Класс LUWRAIN':'Class LUWRAIN');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-                <h1>Class org<i>.luwrain.core.Luwrain</i></h1>
+                <h1>Class org<i>.luwrain.core.LUWRAIN</i></h1>
                 <p>This page is available in Russian language only.</p>
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-                <h1>Класс <i>org.luwrain.core.Luwrain</i></h1>
+                <h1>Класс <i>org.luwrain.core.LUWRAIN</i></h1>
                 <p>См.&#160;также:</p>
                 <ul>
-                  <li><a href="/api/org/luwrain/core/Luwrain.html">страница <i>org.luwrain.core.Luwrain</i> в&#160;Luwrain&#160;API</a>.</li>
+                  <li><a href="/api/org/luwrain/core/LUWRAIN.html">страница <i>org.luwrain.core.Luwrain</i> в&#160;Luwrain&#160;API</a>.</li>
                 </ul>
                 <p>
-                  Класс <i>org.luwrain.core.Luwrain</i> занимает центральное место в&#160;разработке и запуске
+                  Класс <i>org.luwrain.core.LUWRAIN</i> занимает центральное место в&#160;разработке и запуске
                   приложений. Среда создаёт новый экземпляр этого класса и передаёт его в&#160;качестве аргумента
                   для&#160;метода <i>Application.onLaunch()</i>. Это главный и единственный интерфейс, при
-                  помощи которого приложение может взаимодействовать со&#160;средой Luwrain, для&#160;которой
-                  оно было запущено. Все&#160;прочие классы, входящие в&#160;состав Luwrain&#160;API (например,
+                  помощи которого приложение может взаимодействовать со&#160;средой LUWRAIN, для&#160;которой
+                  оно было запущено. Все&#160;прочие классы, входящие в&#160;состав LUWRAIN&#160;API (например,
                   из&#160;пакетов <i>org.luwrain.controls</i> или <i>org.luwrain.popups</i>) являются либо
                   обёртками для&#160;этого класса, либо типами данных, используемыми его методами. При&#160;этом
-                  экземпляры класса <i>org.luwrain.core.Luwrain</i> выполняют также и функцию идентификации
+                  экземпляры класса <i>org.luwrain.core.LUWRAIN</i> выполняют также и функцию идентификации
                   приложения, поскольку его&#160;методы при&#160;вызове методов рабочей среды передают ссылку
                   <i>this</i>, таким образом среда всегда может определить, какое приложение вызвало тот
                   или иной метод.

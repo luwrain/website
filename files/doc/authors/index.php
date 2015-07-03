@@ -1,8 +1,8 @@
 <?php include "../../functions.php"; luwrain_begin_page('/doc/authors/index.php', luwrain_current_lang() == 'ru'?'Авторы':'About Authors');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-                <h1>Luwrain authors</h1>
+                <h1>LUWRAIN authors</h1>
                 <p>
-                  There is the&#160;list of&#160;people who participated in&#160;Luwrain project (in&#160;alphabetical
+                  There is the&#160;list of&#160;people who participated in&#160;LUWRAIN project (in&#160;alphabetical
                   order):
                 </p>
                 <ul>
@@ -14,15 +14,15 @@
                   <li><b>Yuriy Knyazev</b> (music decoration and sound effects)</li>
                   <li><b>Alexander Lipatov</b> (sound editing)</li>
                   <li>
-                    <b>Alexey Lubkin</b> (calculation of&#160;Bloom filter parameters needed for&#160;the&#160;Luwrain
+                    <b>Alexey Lubkin</b> (calculation of&#160;Bloom filter parameters needed for&#160;the&#160;LUWRAIN
                     files synchronization algorithm)
                   </li>
                   <li><b>Renata Pozhidaeva</b> (the&#160;&#160;website construction)</li>
-                  <li><b>Nikita Prianichnikov</b> (porting Luwrain to&#160;MacOS-X)</li>
+                  <li><b>Nikita Prianichnikov</b> (porting LUWRAIN to&#160;MacOS-X)</li>
                   <li><b>Mgr. Janusz Chmiel</b> (Czech translation)</li>
                   <li><b>Stepan Shvets</b> (music decoration and sound effects)</li>
                   <li>
-                    <b>Alexander Ustinov</b> (porting Luwrain to&#160;Microsoft Windows and building system
+                    <b>Alexander Ustinov</b> (porting LUWRAIN to&#160;Microsoft Windows and building system
                     support)
                   </li>
                 </ul>
@@ -35,7 +35,7 @@
                   <li><a target="_blank" href="http://altlinux.com/">ALT&#160;Linux company</a></li>
                 </ul>
                 <p>
-                  Especially Luwrain project is&#160;thankful to&#160;Olga Yakovleva who makes possible the&#160;free
+                  Especially LUWRAIN project is&#160;thankful to&#160;Olga Yakovleva who makes possible the&#160;free
                   Russian text-to-speech engine (<a target="_blank" href="http://github.com/Olga-Yakovleva/RHVoice">RHVoice
                   speech synthesizer</a>).
                 </p>
@@ -64,10 +64,10 @@
                     файлов);
                   </li>
                   <li><b>Рената Пожидаева</b> (разработка веб-сайта);</li>
-                  <li><b>Никита Пряничников</b> (поддержка работы Luwrain на&#160;MacOS-X);</li>
+                  <li><b>Никита Пряничников</b> (поддержка работы LUWRAIN на&#160;MacOS-X);</li>
                   <li><b>Mgr. Janusz Chmiel</b> (чешский перевод)</li>
                   <li>
-                    <b>Александр Устинов</b> (поддержка работы Luwrain на&#160;Microsoft Windows и доработка
+                    <b>Александр Устинов</b> (поддержка работы LUWRAIN на&#160;Microsoft Windows и доработка
                     сборочных систем);
                   </li>
                   <li><b>Степан Швец</b> (музыкальные оформление и звуковые эффекты).</li>

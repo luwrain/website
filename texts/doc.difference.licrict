@@ -1,11 +1,11 @@
 
-ENTITLE='Why is Luwrain different than other accessible solutions?'
-RUTITLE='Чем Luwrain отличается от~других вспомогательных технологий?'
+ENTITLE='Why is LUWRAIN different than other accessible solutions?'
+RUTITLE='Чем LUWRAIN отличается от~других вспомогательных технологий?'
 TARGET=doc/difference/index.php
 
 luwrain-page-en
 
-= Why is Luwrain different than other accessible solutions? =
+= Why is LUWRAIN different than other accessible solutions? =
 
 We consider three projects as~something close to~the~things 
 we are creating. 
@@ -13,7 +13,7 @@ They are
 [[http://emacspeak.sourceforge.net/ Emacspeak]],
 [[http://www.knopper.net/knoppix-adriane/index-en.html Adriane]] and
 [[http://www.yourdolphin.com/productdetail.asp?id=30 Dolphin Guide]].
-Luwrain has noticeable differences with all~of~them
+LUWRAIN has noticeable differences with all~of~them
 and let take a~closer look what these difference are.
 
 == Emacspeak ==
@@ -66,13 +66,13 @@ what evidently is very expensive,
 
 We need a~completely new way of~interaction and a~completely new way for~offering  the~information to~the~user.
 The~former thing is~needed because we should have a~method for~using touch pads 
-and Luwrain is quite suitable for~adding a~support of~interaction with touch pads .
+and LUWRAIN is quite suitable for~adding a~support of~interaction with touch pads .
 The~second thing  is needed because all laptops have a~screen and  it should be used for~people with low vision.
-Luwrain potentially has all of~this  and keeping the~developing of~this ideas we 
+LUWRAIN potentially has all of~this  and keeping the~developing of~this ideas we 
 could be able to~adjust a~lot~of hardware for~using by~blind people, including tablets. 
 According to~our experience, none of~the existing solutions can be suitable to this. 
 
 luwrain-page-ru
 
-= Чем Luwrain отличается от~других вспомогательных технологий? =
+= Чем LUWRAIN отличается от~других вспомогательных технологий? =
 

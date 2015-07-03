@@ -2,7 +2,7 @@
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Compilation in&#160;GNU/Linux</h1>
                 <p>
-                  In&#160;order to&#160;get Luwrain compiled and ready to&#160;launch, you should have on&#160;your
+                  In&#160;order to&#160;get LUWRAIN compiled and ready to&#160;launch, you should have on&#160;your
                   machine the&#160;following software:
                 </p>
                 <ul>

@@ -2,7 +2,7 @@
 
 См.~также:
 
-* [/api/org/luwrain/core/AreaLayout.html страница {{org.luwrain.core.AreaLayout}} в~Luwrain~API].
+* [/api/org/luwrain/core/AreaLayout.html страница {{org.luwrain.core.AreaLayout}} в~LUWRAIN~API].
 
 Расположения областей должны удовлетворять интерфейсу {{org.luwrain.core.AreaLayout}}.
 
@@ -10,7 +10,7 @@
 
 См.~также:
 
-* [/api/org/luwrain/core/Command.html страница {{org.luwrain.core.Command}} в~Luwrain~API].
+* [/api/org/luwrain/core/Command.html страница {{org.luwrain.core.Command}} в~LUWRAIN~API].
 
 Команды должны удовлетворять интерфейсу {{org.luwrain.core.Command}}.
 
@@ -18,7 +18,7 @@
 
 См.~также:
 
-* [/api/org/luwrain/core/Shortcut.html страница {{org.luwrain.core.Shortcut}} в~Luwrain~API].
+* [/api/org/luwrain/core/Shortcut.html страница {{org.luwrain.core.Shortcut}} в~LUWRAIN~API].
 
 Ярлыки должны удовлетворять интерфейсу {{org.luwrain.core.Shortcut}}.
 
@@ -26,6 +26,6 @@
 
 См.~также:
 
-* [/api/org/luwrain/core/Registry.html страница {{org.luwrain.core.Registry}} в~Luwrain~API].
+* [/api/org/luwrain/core/Registry.html страница {{org.luwrain.core.Registry}} в~LUWRAIN~API].
 
 

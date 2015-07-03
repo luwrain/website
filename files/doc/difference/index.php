@@ -1,11 +1,11 @@
-<?php include "../../functions.php"; luwrain_begin_page('/doc/difference/index.php', luwrain_current_lang() == 'ru'?'Чем Luwrain отличается от~других вспомогательных технологий?':'Why is Luwrain different than other accessible solutions?');?>
+<?php include "../../functions.php"; luwrain_begin_page('/doc/difference/index.php', luwrain_current_lang() == 'ru'?'Чем LUWRAIN отличается от~других вспомогательных технологий?':'Why is LUWRAIN different than other accessible solutions?');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-                <h1>Why is Luwrain different than other accessible solutions?</h1>
+                <h1>Why is LUWRAIN different than other accessible solutions?</h1>
                 <p>
                   We consider three projects as&#160;something close to&#160;the&#160;things we are creating.
                   They are <a target="_blank" href="http://emacspeak.sourceforge.net/">Emacspeak</a>, <a target="_blank" href="http://www.knopper.net/knoppix-adriane/index-en.html">Adriane</a>
                   and <a target="_blank" href="http://www.yourdolphin.com/productdetail.asp?id=30">Dolphin
-                  Guide</a>. Luwrain has noticeable differences with all&#160;of&#160;them and let take a&#160;closer
+                  Guide</a>. LUWRAIN has noticeable differences with all&#160;of&#160;them and let take a&#160;closer
                   look what these difference are.
                 </p>
                 <h2>Emacspeak</h2>
@@ -73,9 +73,9 @@
                 <p>
                   We need a&#160;completely new way of&#160;interaction and a&#160;completely new way for&#160;offering
                   the&#160;information to&#160;the&#160;user. The&#160;former thing is&#160;needed because
-                  we should have a&#160;method for&#160;using touch pads and Luwrain is quite suitable for&#160;adding
+                  we should have a&#160;method for&#160;using touch pads and LUWRAIN is quite suitable for&#160;adding
                   a&#160;support of&#160;interaction with touch pads . The&#160;second thing is needed because
-                  all laptops have a&#160;screen and it should be used for&#160;people with low vision. Luwrain
+                  all laptops have a&#160;screen and it should be used for&#160;people with low vision. LUWRAIN
                   potentially has all of&#160;this and keeping the&#160;developing of&#160;this ideas we
                   could be able to&#160;adjust a&#160;lot&#160;of hardware for&#160;using by&#160;blind people,
                   including tablets. According to&#160;our experience, none of&#160;the existing solutions
@@ -84,7 +84,7 @@
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-                <h1>Чем Luwrain отличается от&#160;других вспомогательных технологий?</h1>
+                <h1>Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</h1>
 
 <?php }?>
 <?php luwrain_end_page('/doc/difference/index.php');?>

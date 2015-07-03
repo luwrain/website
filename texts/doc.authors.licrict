@@ -5,9 +5,9 @@ TARGET=doc/authors/index.php
 
 luwrain-page-en
 
-= Luwrain authors =
+= LUWRAIN authors =
 
-There is the~list of~people who participated in~Luwrain project (in~alphabetical order):
+There is the~list of~people who participated in~LUWRAIN project (in~alphabetical order):
 
  * {Andrey Ampilov} (music decoration and sound effects)
 * {Catherine Brown} (editing the~English greeting on~the~main page)
@@ -16,12 +16,12 @@ There is the~list of~people who participated in~Luwrain project (in~alphabetical
 * {Joshua Iverson} (English male voice in greeting recording)
  * {Yuriy Knyazev} (music decoration and sound effects)
 * {Alexander Lipatov} (sound editing)
-* {Alexey Lubkin} (calculation of~Bloom filter parameters needed for~the~Luwrain files synchronization algorithm)
+* {Alexey Lubkin} (calculation of~Bloom filter parameters needed for~the~LUWRAIN files synchronization algorithm)
 * {Renata Pozhidaeva} (the~~website construction)
-* {Nikita Prianichnikov} (porting Luwrain to~MacOS-X)
+* {Nikita Prianichnikov} (porting LUWRAIN to~MacOS-X)
 * {Mgr. Janusz Chmiel} (Czech translation)
 * {Stepan Shvets} (music decoration and sound effects)
-* {Alexander Ustinov} (porting Luwrain to~Microsoft Windows and building system support)
+* {Alexander Ustinov} (porting LUWRAIN to~Microsoft Windows and building system support)
 
 The~following companies and organizations support the~project:
 
@@ -31,7 +31,7 @@ Charitable Fund for~support of~blind and visually impaired people "Osyazanie"]]
 * [[http://altlinux.com/
 ALT~Linux company]]
 
-Especially Luwrain project is~thankful to~Olga Yakovleva who makes possible the~free Russian text-to-speech engine 
+Especially LUWRAIN project is~thankful to~Olga Yakovleva who makes possible the~free Russian text-to-speech engine 
 ([[http://github.com/Olga-Yakovleva/RHVoice RHVoice speech synthesizer]]).
 
 All coordination tasks are maintained by~[[http://marigostra.com/ Michael Pozhidaev]].
@@ -51,9 +51,9 @@ luwrain-page-ru
 * {Александр Липатов} (обработка аудио-записей);
 * {Алексей Лубкин} (расчёт параметров фильтра Блюма для~алгоритма синхронизации файлов);
 * {Рената Пожидаева} (разработка веб-сайта);
-* {Никита Пряничников} (поддержка работы Luwrain на~MacOS-X);
+* {Никита Пряничников} (поддержка работы LUWRAIN на~MacOS-X);
 * {Mgr. Janusz Chmiel} (чешский перевод)
-* {Александр Устинов} (поддержка работы Luwrain на~Microsoft Windows и доработка сборочных систем);
+* {Александр Устинов} (поддержка работы LUWRAIN на~Microsoft Windows и доработка сборочных систем);
 * {Степан Швец} (музыкальные оформление и звуковые эффекты).
 
 Поддержку проекта оказывают следующие компании и организации:

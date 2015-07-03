@@ -5,44 +5,44 @@ TARGET=download/tarball/index.php
 
 luwrain-page-en
 
-= Luwrain tarballs =
+= LUWRAIN tarballs =
 
-Whether  you want to~get Luwrain in~form of binary files or in~form of~source code, 
+Whether  you want to~get LUWRAIN in~form of binary files or in~form of~source code, 
 you can download  it as~single tarballs.
 Please be aware that binary and source archives are not equal;
 binary version includes some files (e.g. multimedia materials),
 not~shipped with~source code.
 If you're interested in~tracking the~changes 
-in~Luwrain source code tree it is more preferable to~use [local:/download/git/ Git repositories] instead.
+in~LUWRAIN source code tree it is more preferable to~use [local:/download/git/ Git repositories] instead.
 
-Latest Luwrain version: {0.3.0} (published on~October 7, 2014)
+Latest LUWRAIN version: {0.3.0} (published on~October 7, 2014)
 
-Use this link to~download Luwrain source code:
+Use this link to~download LUWRAIN source code:
 
 *[ftp://ftp.altlinux.org/pub/people/msp/src/luwrain/0.x.x/luwrain-0.3.0.tar.gz luwrain-0.3.0.tar.gz]
 
-Use this link to~download Luwrain binary files:
+Use this link to~download LUWRAIN binary files:
 
 * [http://download.luwrain.org/binary/luwrain-0.3.0-bin.tar.gz luwrain-0.3.0-bin.tar.gz]
 
 luwrain-page-ru
 
-= Tar-архивы Luwrain =
+= Tar-архивы LUWRAIN =
 
-Luwrain может быть загружен как в~виде исходных текстов, так и в~виде откомпилированных бинарных файлов.
+LUWRAIN может быть загружен как в~виде исходных текстов, так и в~виде откомпилированных бинарных файлов.
 Обратите, пожалуйста, внимание, что эти~архивы не~равнозначны ---
 бинарная версия может содержать файлы, отсутствующие в~исходных текстах 
 (например, мультимедиа материалы).
 Если Вас интересует отслеживание изменений в~исходных текстах,
 вероятно, Вам будет удобнее пользоваться [local:/download/git/ нашими Git репозиториями].
 
-Последняя версия Luwrain: {0.3.0} (представлена 7~октября 2014~г.)
+Последняя версия LUWRAIN: {0.3.0} (представлена 7~октября 2014~г.)
 
-По~этой ссылке Вы можете загрузить исходные тексты Luwrain:
+По~этой ссылке Вы можете загрузить исходные тексты LUWRAIN:
 
 *[ftp://ftp.altlinux.org/pub/people/msp/src/luwrain/0.x.x/luwrain-0.3.0.tar.gz luwrain-0.3.0.tar.gz]
 
-По~этой ссылке Вы можете загрузить Luwrain в~виде бинарных файлов::
+По~этой ссылке Вы можете загрузить LUWRAIN в~виде бинарных файлов::
 
 * [http://download.luwrain.org/binary/luwrain-0.3.0-bin.tar.gz luwrain-0.3.0-bin.tar.gz]
 

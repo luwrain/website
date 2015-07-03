@@ -6,21 +6,21 @@ TARGET=download/iso/index.php
 
 luwrain-page-en
 
-= Luwrain bootable images =
+= LUWRAIN bootable images =
 
 This section contains direct links to~the~bootable ISO-images
-which can be useful if you'd like to try Luwrain environment on~your own computer.
-Please keep mind on the~fact that Luwrain is~currently at~early phase of~its development 
+which can be useful if you'd like to try LUWRAIN environment on~your own computer.
+Please keep mind on the~fact that LUWRAIN is~currently at~early phase of~its development 
 and any  published materials are purposed for~demonstration only.
 Meantime, we very appreciate [local:/community/ your feedback] on~all things 
 you have tried.  
 
-Luwrain version: {0.3.0} (published on~October 7, 2014)
+LUWRAIN version: {0.3.0} (published on~October 7, 2014)
 
 {NOTE!} As~a~demonstration release these images are licensed 
 only for non-commercial purposes.
 
-Currently Luwrain is presented in~two languages 
+Currently LUWRAIN is presented in~two languages 
 (English and Russian)
 and for~two CPU architectures
 (i586 and x86_64).
@@ -38,22 +38,22 @@ Please, choose one of the~links below which better suits your requirements:
 
 luwrain-page-ru
 
-= Загрузочные образы Luwrain =
+= Загрузочные образы LUWRAIN =
 
 На~этой странице приведены прямые ссылки на~загрузочные ISO-образы,
-при~помощи которых Вы можете запустить Luwrain на~Вашем компьютере.
-Необходимо помнить, что в~настоящий момент Luwrain проходит раннюю фазу своего развития,
+при~помощи которых Вы можете запустить LUWRAIN на~Вашем компьютере.
+Необходимо помнить, что в~настоящий момент LUWRAIN проходит раннюю фазу своего развития,
 поэтому любые опубликованные материалы служат прежде всего целям отладки и демонстрации.
 Мы были~бы рады услышать [local:/community/ Ваше мнение]
-о~любом успешном и неуспешном опыте запуска Luwrain и работы в~нём.
+о~любом успешном и неуспешном опыте запуска LUWRAIN и работы в~нём.
 
-Версия Luwrain: {0.3.0} (представлена 7 октября 2014~г.)
+Версия LUWRAIN: {0.3.0} (представлена 7 октября 2014~г.)
 
 {ВНИМАНИЕ!}
 Представленные образы разрешается использовать строго только в~некоммерческих целях,
 поскольку это демонстрационный релиз.
 
-Luwrain представлен для~двух языков (русского и английского)
+LUWRAIN представлен для~двух языков (русского и английского)
 и для~двух программных архитектур (i586 и x86_64).
 Выберите наиболее подходящий для~Вас вариант из~списка ниже:
 

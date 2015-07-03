@@ -15,8 +15,8 @@ luwrain-page-ru
 
 См.~также:
 
-* [/api/org/luwrain/controls/ControlEnvironment.html страница {{org.luwrain.controls.ControlEnvironment}} в~Luwrain~API];
-* [/api/org/luwrain/controls/DefaultControlEnvironment.html страница {{org.luwrain.controls.DefaultControlEnvironment}} в~Luwrain~API].
+* [/api/org/luwrain/controls/ControlEnvironment.html страница {{org.luwrain.controls.ControlEnvironment}} в~LUWRAIN~API];
+* [/api/org/luwrain/controls/DefaultControlEnvironment.html страница {{org.luwrain.controls.DefaultControlEnvironment}} в~LUWRAIN~API].
 
 Классы, перечисленные ниже (кроме вспомогательных классов для редактирования текста),
 являются реализациями интерфейса [/api/org/luwrain/core/Area.html {{org.luwrain.core.Area}}]
@@ -24,10 +24,10 @@ luwrain-page-ru
 Большая их часть готова к~применению,
 но есть и исключения, как, например, класс {{org.luwrain.controls.NavigateArea}}, который является абстрактным.
 
-Согласно дизайну Luwrain, элементы управления не~имеют прямого доступа к~ядру системы.
-Они могут выполнять взаимодействие с~ним только через [local:/doc/new-app/luwrain/ класс  {{org.luwrain.core.Luwrain}}],
+Согласно дизайну LUWRAIN, элементы управления не~имеют прямого доступа к~ядру системы.
+Они могут выполнять взаимодействие с~ним только через [local:/doc/new-app/luwrain/ класс  {{org.luwrain.core.LUWRAIN}}],
 который передаётся каждому приложению  при~запуске.
-При~этом даже доступ к~классу {{org.luwrain.core.Luwrain}} выполняется не~напрямую,
+При~этом даже доступ к~классу {{org.luwrain.core.LUWRAIN}} выполняется не~напрямую,
 а опосредованно через интерфейс [/api/org/luwrain/controls/ControlEnvironment.html {{org.luwrain.controls.ControlEnvironment}}].
 Этот интерфейс является главной точкой, через которую осуществляется  взаимодействие элемента управления с~контекстом исполнения.
 Он введён для~решения двух задач:
@@ -36,13 +36,13 @@ luwrain-page-ru
 позволяющего осуществлять автоматическое тестирование подготовленной библиотеки. 
 Для~простоты предусмотрена стандартная реализация 
 этого интерфейса [/api/org/luwrain/controls/DefaultControlEnvironment.html {{org.luwrain.controls.DefaultControlEnvironment}}],
-перенаправляющая все~вызовы в~предоставленный объект класса {{org.luwrain.core.Luwrain}}.
+перенаправляющая все~вызовы в~предоставленный объект класса {{org.luwrain.core.LUWRAIN}}.
 
 == Область обозрения ({{NavigateArea}}) ==
 
 См.~также:
 
-* [/api/org/luwrain/controls/NavigateArea.html страница {{org.luwrain.controls.NavigateArea}} в~Luwrain~API].
+* [/api/org/luwrain/controls/NavigateArea.html страница {{org.luwrain.controls.NavigateArea}} в~LUWRAIN~API].
 
 Этот абстрактный класс реализует основные функции перемещения по~текстовой области,
 но не~имеет никаких механизмов хранения контента.
@@ -60,7 +60,7 @@ luwrain-page-ru
 
 См.~также:
 
-* [/api/org/luwrain/controls/SimpleArea.html страница {{org.luwrain.controls.SimpleArea}} в~Luwrain~API].
+* [/api/org/luwrain/controls/SimpleArea.html страница {{org.luwrain.controls.SimpleArea}} в~LUWRAIN~API].
 
 Этот класс является развитием {{NavigateArea}},
 но имеет внутренний контейнер  для~хранения текстового представления.
@@ -70,7 +70,7 @@ luwrain-page-ru
 
 См.~также:
 
-* [/api/org/luwrain/controls/EditArea.html страница {{org.luwrain.controls.EditArea}} в~Luwrain~API].
+* [/api/org/luwrain/controls/EditArea.html страница {{org.luwrain.controls.EditArea}} в~LUWRAIN~API].
 
 область редактирования  является дальнейшим развитием класса {{simpleArea}}
 и позволяет осуществлять редактирование текста, хранимого во~внутреннем контейнере.
@@ -81,7 +81,7 @@ luwrain-page-ru
 
 См.~также:
 
-* [/api/org/luwrain/controls/ListArea.html страница {{org.luwrain.controls.ListArea}} в~Luwrain~API].
+* [/api/org/luwrain/controls/ListArea.html страница {{org.luwrain.controls.ListArea}} в~LUWRAIN~API].
 
 Этот класс предназначен для~представления некоторого множества объектов в~виде одномерного списка.
 Данные хранятся  во~внешнем объекте,
@@ -93,7 +93,7 @@ luwrain-page-ru
 
 См.~также:
 
-* [/api/org/luwrain/controls/TableArea.html страница {{org.luwrain.controls.TableArea}} в~Luwrain~API].
+* [/api/org/luwrain/controls/TableArea.html страница {{org.luwrain.controls.TableArea}} в~LUWRAIN~API].
 
 Класс {{tableArea}} реализует представление и отображение данных,
 организованных в~виде двумерной таблицы.
@@ -105,7 +105,7 @@ luwrain-page-ru
 
 См.~также:
 
-* [/api/org/luwrain/controls/TreeArea.html страница {{org.luwrain.controls.TreeArea}} в~Luwrain~API].
+* [/api/org/luwrain/controls/TreeArea.html страница {{org.luwrain.controls.TreeArea}} в~LUWRAIN~API].
 
 Объекты класса {{TreeArea}} предназначены для~работы с~множеством объектво,
 организованных в~виде иерархической структуры.
@@ -116,7 +116,7 @@ luwrain-page-ru
 
 См.~также:
 
-* [/api/org/luwrain/controls/FormArea.html страница {{org.luwrain.controls.FormArea}} в~Luwrain~API].
+* [/api/org/luwrain/controls/FormArea.html страница {{org.luwrain.controls.FormArea}} в~LUWRAIN~API].
 
 Форма является составной областью, которая  предназначена для~работы с~множеством элементов управления следующих типов:
 
@@ -133,7 +133,7 @@ luwrain-page-ru
 
 См.~также:
 
-* [/api/org/luwrain/controls/MessageArea.html страница {{org.luwrain.controls.MessageArea}} в~Luwrain~API].
+* [/api/org/luwrain/controls/MessageArea.html страница {{org.luwrain.controls.MessageArea}} в~LUWRAIN~API].
 
 Этот класс является развитием {{FormArea}} и предлагает готовый вариант области 
 для~составления сообщений электронной почты.
@@ -143,7 +143,7 @@ luwrain-page-ru
 
 См.~также:
 
-* [/api/org/luwrain/controls/CommanderArea.html страница {{org.luwrain.controls.CommanderArea}} в~Luwrain~API].
+* [/api/org/luwrain/controls/CommanderArea.html страница {{org.luwrain.controls.CommanderArea}} в~LUWRAIN~API].
 
 Этот класс реализует поведение панели файлового менеджера, 
 которая позволяет просматривать файлы на~диске и перемещаться по~структуре каталогов.
@@ -152,7 +152,7 @@ luwrain-page-ru
 
 См.~также:
 
-* [/api/org/luwrain/controls/CalendarArea.html страница {{org.luwrain.controls.CalendarArea}} в~Luwrain~API].
+* [/api/org/luwrain/controls/CalendarArea.html страница {{org.luwrain.controls.CalendarArea}} в~LUWRAIN~API].
 
 Этот класс позволяет внедрить в~приложение элемент управления для~выбора даты.
 

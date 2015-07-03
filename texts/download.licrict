@@ -5,16 +5,16 @@ TARGET=download/index.php
 
 luwrain-page-en
 
-= Luwrain downloads =
+= LUWRAIN downloads =
 
 == For~end~users ==
 
-These options are purposed for~everybody who would like to~use Luwrain just for~the~work.
+These options are purposed for~everybody who would like to~use LUWRAIN just for~the~work.
 The~only difference between them is the~operating system they can be~launched on
 (or~without operating system at~all 
 as~in~the~case of~bootable ISO-images).
 
-Choose the~most suitable form of~Luwrain distribution you need:
+Choose the~most suitable form of~LUWRAIN distribution you need:
 
 * [local:iso/ 
 Bootable ISO-images] (installed operating system isn't needed)
@@ -31,12 +31,12 @@ For~Apple Mac~OS~X]
 == For~developers ==
 
 The~first option of~this list is purposed for~the~developers
-of~applications for~Luwrain.
-Others can be~useful only for~developers who would like to~improve Luwrain itself.
+of~applications for~LUWRAIN.
+Others can be~useful only for~developers who would like to~improve LUWRAIN itself.
 
 * [local:sdk/
-Luwrain~SDK] 
-(needed for~building your own applications for~Luwrain)
+LUWRAIN~SDK] 
+(needed for~building your own applications for~LUWRAIN)
 
 * [local:git/
 Git~repositories]
@@ -44,7 +44,7 @@ Git~repositories]
 
 * [tarball/
 The~tarballs with source materials]
-(published basically to~make Luwrain sources downloadable in~single click
+(published basically to~make LUWRAIN sources downloadable in~single click
 but there is a~tarball with~media files which aren't present in~Git repositories)
 
 {NOTE!} You may always use the~host [http://download.luwrain.org download.luwrain.org] directly 
@@ -52,12 +52,12 @@ as~a~single, easily observable place gathering all of~our~materials for~download
 
 luwrain-page-ru
 
-= Загрузка Luwrain  =
+= Загрузка LUWRAIN  =
 
 == Для~пользователей  ==
 
 В~этом разделе варианты загрузки предназначены для~людей,
-кому Luwrain требуется непосредственно только для~работы.
+кому LUWRAIN требуется непосредственно только для~работы.
 Единственное различие между ними --- 
 операционная система, на~которой они могут быть запущены
 (в~случае загрузочных ISO-образов операционная система не~требуется вовсе).
@@ -83,7 +83,7 @@ luwrain-page-ru
 Остальные элементы требуются людям, желающим принять участие в~работе над~нашей средой самой по~себе.
 
 # [local:sdk/
-Luwrain~SDK] 
+LUWRAIN~SDK] 
 (требуется для~разработки ваших собственных приложений)
 
 # [local:git/
@@ -92,7 +92,7 @@ Luwrain~SDK]
 
 # [tarball/
 Архивы с~материалами проекта]
-(предоставляются в~основном для~упрощения загрузки Luwrain,
+(предоставляются в~основном для~упрощения загрузки LUWRAIN,
 но помимо исходных текстов содержат также  звуковые файлы, отсутствующие в~репозиториях Git)
 
 {ВНИМАНИЕ!} 

@@ -5,23 +5,23 @@ TARGET=doc/index.php
 
 luwrain-page-en
 
-= Luwrain documentation =
+= LUWRAIN documentation =
 
 Choose the~section you need:
 
 * [local:user/ Users documentation] 
-** [local:user/installation/ Installation instructions: what should you do if you'd like to~install Luwrain on~your computer?]
-** [local:user/manual/ User manual: a~complete guide to~work in~Luwrain]
-** [local:user/try/ Try now: running Luwrain for~demonstration without installing on~your computer]
+** [local:user/installation/ Installation instructions: what should you do if you'd like to~install LUWRAIN on~your computer?]
+** [local:user/manual/ User manual: a~complete guide to~work in~LUWRAIN]
+** [local:user/try/ Try now: running LUWRAIN for~demonstration without installing on~your computer]
 ** [local:user/start/ Getting started: speedy instructions how to~begin the~work right now]
 ** [local:/community/bugs/ How to~report a~bug?]
-* [local:new-app/ How~to create your own application for~Luwrain?]
-* [local:devel/ Environment developers documentation: how to~work on~Luwrain itself?]
+* [local:new-app/ How~to create your own application for~LUWRAIN?]
+* [local:devel/ Environment developers documentation: how to~work on~LUWRAIN itself?]
 
 == About the~project ==
 
-* [local:about/ The~free story what Luwrain is and why do we think blind users need it?]
-* [local:difference/ Why is Luwrain different than other accessible solutions?]
+* [local:about/ The~free story what LUWRAIN is and why do we think blind users need it?]
+* [local:difference/ Why is LUWRAIN different than other accessible solutions?]
 * [local:authors/ The project authors]
 * [local:legal/ Legal notes]
 * [local:faq/ Frequently asked questions]
@@ -29,7 +29,7 @@ Choose the~section you need:
 
 luwrain-page-ru
 
-= Документация Luwrain =
+= Документация LUWRAIN =
 
 Выберите интересующий вас раздел:
 
@@ -44,8 +44,8 @@ luwrain-page-ru
 
 == О~проекте ==
 
-* [local:about/ Что~такое Luwrain, и почему мы считаем, что незрячие люди нуждаются в~нём?]
-* [local:difference/ Чем Luwrain отличается от~других вспомогательных технологий?]
+* [local:about/ Что~такое LUWRAIN, и почему мы считаем, что незрячие люди нуждаются в~нём?]
+* [local:difference/ Чем LUWRAIN отличается от~других вспомогательных технологий?]
 * [local:authors/ Авторы проекта]
 * [local:legal/ Правовой статус проекта]
 * [local:faq/ Часто задаваемые вопросы]

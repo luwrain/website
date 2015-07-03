@@ -8,10 +8,10 @@
                 <h1>Библиотека стандартных всплывающих областей</h1>
                 <p>См.&#160;также:</p>
                 <ul>
-                  <li><a href="/api/org/luwrain/core/Popup.html">страница <i>org.luwrain.core.Popup</i> в&#160;Luwrain&#160;API</a>.</li>
+                  <li><a href="/api/org/luwrain/core/Popup.html">страница <i>org.luwrain.core.Popup</i> в&#160;LUWRAIN&#160;API</a>.</li>
                 </ul>
                 <p>
-                  Luwrain имеет библиотеку типовых стандартных всплывающих областей. Всплывающая область
+                  LUWRAIN имеет библиотеку типовых стандартных всплывающих областей. Всплывающая область
                   предназначена для&#160;организации диалога с&#160;пользователем. Её принципиальное отличие
                   от&#160;обычных областей в&#160;том, что для её показа в&#160;ядре системы запускается
                   дополнительный цикл обработки событий. Это позволяет обрабатывать события внутри некоторого
@@ -25,7 +25,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/popups/FilePopup.html">страница <i>org.luwrain.popups.FilePopup</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>
@@ -37,7 +37,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/popups/ListPopup.html">страница <i>org.luwrain.popups.ListPopup</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>
@@ -49,7 +49,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/popups/SimpleLinePopup.html">страница <i>org.luwrain.popups.SimpleLinePopup</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>
@@ -61,7 +61,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/popups/YesNoPopup.html">страница <i>org.luwrain.popups.YesNoPopup</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>

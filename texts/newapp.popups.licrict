@@ -16,9 +16,9 @@ luwrain-page-ru
 
 См.~также:
 
-* [/api/org/luwrain/core/Popup.html страница {{org.luwrain.core.Popup}} в~Luwrain~API].
+* [/api/org/luwrain/core/Popup.html страница {{org.luwrain.core.Popup}} в~LUWRAIN~API].
 
-Luwrain имеет библиотеку типовых стандартных всплывающих областей.
+LUWRAIN имеет библиотеку типовых стандартных всплывающих областей.
 Всплывающая область предназначена для~организации диалога с~пользователем.
 Её принципиальное отличие от~обычных областей в~том, 
 что для её показа в~ядре системы запускается дополнительный цикл обработки событий.
@@ -31,7 +31,7 @@ Luwrain имеет библиотеку типовых стандартных в
 
 См.~также:
 
-* [/api/org/luwrain/popups/FilePopup.html страница {{org.luwrain.popups.FilePopup}} в~Luwrain~API].
+* [/api/org/luwrain/popups/FilePopup.html страница {{org.luwrain.popups.FilePopup}} в~LUWRAIN~API].
 
 {{FilePopup}} может быть использован, когда требуется запросить у~пользователя выбор некоторого файла или каталога на~диске.
 
@@ -39,7 +39,7 @@ Luwrain имеет библиотеку типовых стандартных в
 
 См.~также:
 
-* [/api/org/luwrain/popups/ListPopup.html страница {{org.luwrain.popups.ListPopup}} в~Luwrain~API].
+* [/api/org/luwrain/popups/ListPopup.html страница {{org.luwrain.popups.ListPopup}} в~LUWRAIN~API].
 
 {{ListPopup} используется, когда у~пользователя требуется запросить выбор значения из~фиксированного списка.
 
@@ -47,7 +47,7 @@ Luwrain имеет библиотеку типовых стандартных в
 
 См.~также:
 
-* [/api/org/luwrain/popups/SimpleLinePopup.html страница {{org.luwrain.popups.SimpleLinePopup}} в~Luwrain~API].
+* [/api/org/luwrain/popups/SimpleLinePopup.html страница {{org.luwrain.popups.SimpleLinePopup}} в~LUWRAIN~API].
 
 {{SimpleLinePopup}} используется в~ситуациях, когда у~пользователя требуется запросить ввод некоторой текстовой строки.
 
@@ -56,7 +56,7 @@ Luwrain имеет библиотеку типовых стандартных в
 
 См.~также:
 
-* [/api/org/luwrain/popups/YesNoPopup.html страница {{org.luwrain.popups.YesNoPopup}} в~Luwrain~API].
+* [/api/org/luwrain/popups/YesNoPopup.html страница {{org.luwrain.popups.YesNoPopup}} в~LUWRAIN~API].
 
 {{YesNoPopup}} --- простейший пример всплывающей области, позволяющей произвести подтверждение  некоторого действия.
 

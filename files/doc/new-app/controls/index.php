@@ -10,11 +10,11 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/controls/ControlEnvironment.html">страница <i>org.luwrain.controls.ControlEnvironment</i>
-                    в&#160;Luwrain&#160;API</a>;
+                    в&#160;LUWRAIN&#160;API</a>;
                   </li>
                   <li>
                     <a href="/api/org/luwrain/controls/DefaultControlEnvironment.html">страница <i>org.luwrain.controls.DefaultControlEnvironment</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>
@@ -25,10 +25,10 @@
                   который является абстрактным.
                 </p>
                 <p>
-                  Согласно дизайну Luwrain, элементы управления не&#160;имеют прямого доступа к&#160;ядру
+                  Согласно дизайну LUWRAIN, элементы управления не&#160;имеют прямого доступа к&#160;ядру
                   системы. Они могут выполнять взаимодействие с&#160;ним только через <a href="<?php echo luwrain_link('/doc/new-app/luwrain/');?>">класс
-                  <i>org.luwrain.core.Luwrain</i></a>, который передаётся каждому приложению при&#160;запуске.
-                  При&#160;этом даже доступ к&#160;классу <i>org.luwrain.core.Luwrain</i> выполняется не&#160;напрямую,
+                  <i>org.luwrain.core.LUWRAIN</i></a>, который передаётся каждому приложению при&#160;запуске.
+                  При&#160;этом даже доступ к&#160;классу <i>org.luwrain.core.LUWRAIN</i> выполняется не&#160;напрямую,
                   а опосредованно через интерфейс <a href="/api/org/luwrain/controls/ControlEnvironment.html"><i>org.luwrain.controls.ControlEnvironment</i></a>.
                   Этот интерфейс является главной точкой, через которую осуществляется взаимодействие элемента
                   управления с&#160;контекстом исполнения. Он введён для&#160;решения двух задач: для&#160;реализации
@@ -36,14 +36,14 @@
                   стандартное поведение элемента управления), а&#160;также для&#160;реализации удобного механизма,
                   позволяющего осуществлять автоматическое тестирование подготовленной библиотеки. Для&#160;простоты
                   предусмотрена стандартная реализация этого интерфейса <a href="/api/org/luwrain/controls/DefaultControlEnvironment.html"><i>org.luwrain.controls.DefaultControlEnvironment</i></a>,
-                  перенаправляющая все&#160;вызовы в&#160;предоставленный объект класса <i>org.luwrain.core.Luwrain</i>.
+                  перенаправляющая все&#160;вызовы в&#160;предоставленный объект класса <i>org.luwrain.core.LUWRAIN</i>.
                 </p>
                 <h2>Область обозрения (<i>NavigateArea</i>)</h2>
                 <p>См.&#160;также:</p>
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/controls/NavigateArea.html">страница <i>org.luwrain.controls.NavigateArea</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>
@@ -66,7 +66,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/controls/SimpleArea.html">страница <i>org.luwrain.controls.SimpleArea</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>
@@ -80,7 +80,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/controls/EditArea.html">страница <i>org.luwrain.controls.EditArea</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>
@@ -94,7 +94,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/controls/ListArea.html">страница <i>org.luwrain.controls.ListArea</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>
@@ -109,7 +109,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/controls/TableArea.html">страница <i>org.luwrain.controls.TableArea</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>
@@ -123,7 +123,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/controls/TreeArea.html">страница <i>org.luwrain.controls.TreeArea</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>
@@ -136,7 +136,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/controls/FormArea.html">страница <i>org.luwrain.controls.FormArea</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>
@@ -162,7 +162,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/controls/MessageArea.html">страница <i>org.luwrain.controls.MessageArea</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>
@@ -175,7 +175,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/controls/CommanderArea.html">страница <i>org.luwrain.controls.CommanderArea</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>
@@ -187,7 +187,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/controls/CalendarArea.html">страница <i>org.luwrain.controls.CalendarArea</i>
-                    в&#160;Luwrain&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
                 <p>Этот класс позволяет внедрить в&#160;приложение элемент управления для&#160;выбора даты.</p>
