@@ -7,18 +7,31 @@ luwrain-page-en
 
 = Publications =
 
-This~ page contains a~list of~the~most interesting and valuable publications 
-made by~various people about the~project.
+This~ page contains the~list of~the~most interesting 
+publications made by~various people about the~project.
 In~addition, you can find a~collection of~pdf-files 
 on~[http://download.luwrain.org/pdf/ download.luwrain.org].
 
 == Papers ==
+
+* [http://www.linuxjournal.com/content/july-2015-issue-linux-journal-mobile
+Luwrain: Accessibility Solution for the Blind]
+(Linux Journal, Texus, US, July, 2015, English language)
+
 
 * [http://dl.acm.org/citation.cfm?id=2687234&amp;CFID=464939051&amp;CFTOKEN=29213994
 The Framework for Accessible Applications: Text-Based Case for Blind People]
 (ACM~Digital Library, US, December, 2014, English language)
 
 == Events ==
+
+* [http://download.luwrain.org/pdf/presentation-HongKongOSConference-en-2015-06-27.pdf
+Presentation for~the~report on~Hong Kong Open Source conference (HKOSCon)]
+(Hong Kong, June 27, 2015, English language)
+
+* [http://download.luwrain.org/pdf/presentation-MEnablingWashington-en-2015-06-01.pdf
+Presentation shared on~M-Enabling summit]
+(Washington~D.C., US, June 1, 2015, English language)
 
 * [http://2014.secr.ru/lang/ru/program/submitted-presentations/framework-for-accessible-applications-text-base-case-for-blind-people
 Report on~CEE/SECR]
@@ -35,6 +48,12 @@ Presentation for~the~report on~LSM/RMLL]
 (Montpellier, France, July 9, 2014, English language)
 
 == About the~project  ==
+
+* Publications on~Impact Journalism Day (Thomas GRAS, June~20, 2015):
+** [http://www.lecourrierderussie.com/2015/06/luwrain-non-voyants-systeme-exploitation/ Le Courrier de Russie] (Russia, French language)
+** [http://impactjournalismday.com/story/luwrain/ SparkNews] (English language)
+** [http://www.thedailystar.net/impact-journalism-day/luwrain-operating-system-the-blind-100006 The~Daily Star] (Bangladesh, English language)
+** [http://www.lorientlejour.com/dossier/2/576-un-monde-de-solutions-iii L'Orient-Le JourVendredi] (Liban, French language)
 
 * [http://kot.sh/statya/127/belye-bukvy-na-chernom-ekrane
 Белые буквы на~чёрном экране]
@@ -64,12 +83,16 @@ luwrain-page-ru
 
 = Публикации =
 
-Ниже собраны  наиболее интересные и значимые публикации, 
+Ниже собраны  самые  интересные публикации, 
 сделанные разными людьми о~LUWRAIN.
-Помимо этого, мы выложили некоторые pdf-файлы 
+Дополнительно к~этому мы выложили некоторые pdf-файлы 
 в~отдельном каталоге на~[http://download.luwrain.org/pdf/ download.luwrain.org].
 
 == Статьи  ==
+
+* [http://www.linuxjournal.com/content/july-2015-issue-linux-journal-mobile
+Luwrain: Accessibility Solution for the Blind]
+(Linux Journal, Техас, США, июль 2015, анг.~яз.)
 
 * [http://dl.acm.org/citation.cfm?id=2687234&amp;CFID=464939051&amp;CFTOKEN=29213994
 The Framework for Accessible Applications: Text-Based Case for Blind People]
@@ -77,6 +100,14 @@ The Framework for Accessible Applications: Text-Based Case for Blind People]
 США, декабрь  2014, анг.~яз.)
 
 == Мероприятия ==
+
+* [http://download.luwrain.org/pdf/presentation-HongKongOSConference-en-2015-06-27.pdf
+Презентация к~выступлению на~Hong Kong Open Source conference (HKOSCon)]
+(Гонконг, 27~июня~2015~г., анг.~яз.)
+
+* [http://download.luwrain.org/pdf/presentation-MEnablingWashington-en-2015-06-01.pdf
+Презентация, распространённая на~M-Enabling summit]
+(Вашингтон, США, 1~июня 2015~г., анг.~яз.)
 
 * [http://2014.secr.ru/lang/ru/program/submitted-presentations/framework-for-accessible-applications-text-base-case-for-blind-people
 Выступление на~конференции "Разработка~ПО --- 2014"]
@@ -93,6 +124,12 @@ The Framework for Accessible Applications: Text-Based Case for Blind People]
 (Монпелье, Франция, 9 июля 2014~г., анг.~яз.)
 
 == О~проекте ==
+
+* Статьи в~рамках Impact Journalism Day (Тома Гра, 20 июня 2015~г.):
+** [http://www.lecourrierderussie.com/2015/06/luwrain-non-voyants-systeme-exploitation/ Le Courrier de Russie] (Россия, фр.~яз.)
+** [http://impactjournalismday.com/story/luwrain/ SparkNews] (анг.~яз.)
+** [http://www.thedailystar.net/impact-journalism-day/luwrain-operating-system-the-blind-100006 The~Daily Star] (Бангладеш, анг.~яз.)
+** [http://www.lorientlejour.com/dossier/2/576-un-monde-de-solutions-iii L'Orient-Le JourVendredi] (Ливан, фр.~яз.)
 
 * [http://kot.sh/statya/127/belye-bukvy-na-chernom-ekrane
 Белые буквы на~чёрном экране]
