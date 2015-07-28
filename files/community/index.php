@@ -1,6 +1,6 @@
 <?php include "../functions.php"; luwrain_begin_page('/community/index.php', luwrain_current_lang() == 'ru'?'Сообщество':'Community');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-                <h1>LUWRAIN community</h1>
+                <h1>Our&#160;community</h1>
                 <p>
                   Everybody who is&#160;curious about LUWRAIN is&#160;invited to&#160;be a&#160;member of&#160;our
                   community! The&#160;community is very important because it can help us know your opinion
@@ -27,14 +27,15 @@
                 </p>
                 <p>Сообщество LUWRAIN состоит из&#160;нескольких ресурсов:</p>
                 <ul>
-                  <li><a href="<?php echo luwrain_link('mailing-lists');?>">Списки рассылки</a></li>
-                  <li><a href="http://twitter.com/luwrain">Лента новостей на&#160;Twitter</a></li>
+                  <li><a href="<?php echo luwrain_link('mailing-lists');?>">Списки рассылок</a></li>
+                  <li><a href="http://twitter.com/luwrain">Лента новостей в&#160;Twitter</a></li>
                   <li><a href="<?php echo luwrain_link('publications');?>">Наши публикации</a></li>
                   <li><a href="<?php echo luwrain_link('extensions');?>">Расширения LUWRAIN</a></li>
                   <li><a href="<?php echo luwrain_link('bugs');?>">Сообщения об&#160;ошибках</a></li>
                 </ul>
-                <h2>Свежие материалы</h2>
+                <h2>Идеи и материалы сообщества</h2>
                 <ul>
+                  <li><a href="<?php echo luwrain_link('web-browsing/');?>">Никита Цейковец о&#160;концепции навигации внутри веб-страниц</a></li>
                   <li>
                     <a href="http://habrahabr.ru/post/258413/">Никита Цейковец на&#160;Хабрахабр о&#160;разработке
                     приложений для&#160;LUWRAIN</a>

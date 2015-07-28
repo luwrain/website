@@ -5,10 +5,10 @@ TARGET=download/git/index.php
 
 luwrain-page-en
 
-= LUWRAIN Git repositories =
+= Git repositories =
 
-The~source code of~LUWRAIN is easily accessible in~Git repositories on~[[http://github.com/luwrain/ github.com]].
-There are direct links to~them listed  in~several categories 
+Our~source code is easily accessible in~Git repositories on~[[http://github.com/luwrain/ github.com]].
+There are their direct links listed  in~several categories 
 with~brief comments.
 
 == Main repositories ==
@@ -141,7 +141,7 @@ luwrain-page-ru
 
 = репозитории Git =
 
-Исходный код LUWRAIN хранится и постоянно обновляется в~нескольких репозиториев Git, 
+Наш~Исходный код хранится и постоянно обновляется в~серии репозиториев Git, 
 расположенных на~сервере [[http://github.com/luwrain/ github.com]].
 Ниже приведён их~список, разбитый на~несколько категорий.
 

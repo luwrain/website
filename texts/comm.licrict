@@ -5,7 +5,7 @@ TARGET=community/index.php
 
 luwrain-page-en
 
-= LUWRAIN community =
+= Our~community =
 
 Everybody who is~curious about LUWRAIN is~invited to~be a~member of~our community!
 The~community is very important because it can help us know  your opinion and suggestions on~all things we do.
@@ -31,13 +31,14 @@ luwrain-page-ru
 
 Сообщество LUWRAIN состоит из~нескольких ресурсов:
 
-* [local:mailing-lists Списки рассылки]
-* [http://twitter.com/luwrain Лента новостей  на~Twitter]
+* [local:mailing-lists Списки рассылок]
+* [http://twitter.com/luwrain Лента новостей  в~Twitter]
 * [local:publications Наши публикации]
 * [local:extensions  Расширения LUWRAIN]
 * [local:bugs Сообщения об~ошибках]
 
-== Свежие материалы  ==
+== Идеи и материалы сообщества ==
 
+* [local:web-browsing/ Никита Цейковец о~концепции навигации внутри веб-страниц]
 * [http://habrahabr.ru/post/258413/ Никита Цейковец на~Хабрахабр о~разработке приложений для~LUWRAIN]
 

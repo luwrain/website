@@ -1,16 +1,16 @@
 <?php include "../functions.php"; luwrain_begin_page('/download/index.php', luwrain_current_lang() == 'ru'?'Загрузка':'downloads');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-                <h1>LUWRAIN downloads</h1>
+                <h1>Our downloads</h1>
                 <h2>For&#160;end&#160;users</h2>
                 <p>
-                  These options are purposed for&#160;everybody who would like to&#160;use LUWRAIN just for&#160;the&#160;work.
-                  The&#160;only difference between them is the&#160;operating system they can be&#160;launched
-                  on (or&#160;without operating system at&#160;all as&#160;in&#160;the&#160;case of&#160;bootable
-                  ISO-images).
+                  These options are purposed for&#160;everybody who needs LUWRAIN for&#160;installation and
+                  work. With&#160;the&#160;list below, you can take the&#160;distribution prepared for&#160;OS
+                  you have installed or take the&#160;ISO-image which is&#160;suitable for running LUWRAIN
+                  as&#160;a&#160;stand-alone OS (no&#160;installed OS required).
                 </p>
-                <p>Choose the&#160;most suitable form of&#160;LUWRAIN distribution you need:</p>
+                <p>Choose the&#160;most suitable distribution:</p>
                 <ul>
-                  <li><a href="<?php echo luwrain_link('iso/');?>">Bootable ISO-images</a> (installed operating system isn&#x27;t needed)</li>
+                  <li><a href="<?php echo luwrain_link('iso/');?>">Bootable ISO-images</a> (installed OS isn&#x27;t required)</li>
                   <li><a href="<?php echo luwrain_link('windows/');?>">For&#160;Microsoft Windows</a></li>
                   <li><a href="<?php echo luwrain_link('linux/');?>">For&#160;GNU/Linux</a></li>
                   <li><a href="<?php echo luwrain_link('mac/');?>">For&#160;Apple Mac&#160;OS&#160;X</a></li>
@@ -44,7 +44,7 @@
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-                <h1>Загрузка LUWRAIN</h1>
+                <h1>Загрузка наших дистрибутивов и материалов</h1>
                 <h2>Для&#160;пользователей</h2>
                 <p>
                   В&#160;этом разделе варианты загрузки предназначены для&#160;людей, кому LUWRAIN требуется

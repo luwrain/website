@@ -35,3 +35,4 @@ download.tarball.licrict
 comm.licrict
 comm.publications.licrict
 comm.mailing-lists.licrict
+comm.web-browsing.licrict

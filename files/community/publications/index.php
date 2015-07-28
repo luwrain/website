@@ -2,9 +2,9 @@
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Publications</h1>
                 <p>
-                  This&#160; page contains the&#160;list of&#160;the&#160;most interesting made by&#160;various
-                  people about the&#160;project. In&#160;addition, you can find a&#160;collection of&#160;pdf-files
-                  on&#160;<a href="http://download.luwrain.org/pdf/">download.luwrain.org</a>.
+                  This&#160; page contains the&#160;list of&#160;the&#160;most interesting publications made
+                  by&#160;various people about the&#160;project. In&#160;addition, you can find a&#160;collection
+                  of&#160;pdf-files on&#160;<a href="http://download.luwrain.org/pdf/">download.luwrain.org</a>.
                 </p>
                 <h2>Papers</h2>
                 <ul>
@@ -60,12 +60,16 @@
                     </li>
                     <li><a href="http://impactjournalismday.com/story/luwrain/">SparkNews</a> (English language)</li>
                     <li>
+                      <a href="http://www.pressreader.com/taiwan/the-china-post/20150620/281698318384249/TextView">The&#160;China&#160;Post</a>
+                      (Taiwan, English language)
+                    </li>
+                    <li>
                       <a href="http://www.thedailystar.net/impact-journalism-day/luwrain-operating-system-the-blind-100006">The&#160;Daily
                       Star</a> (Bangladesh, English language)
                     </li>
                     <li>
                       <a href="http://www.lorientlejour.com/dossier/2/576-un-monde-de-solutions-iii">L&#x27;Orient-Le
-                      JourVendredi</a> (Liban, French language)
+                      JourVendredi</a> (Lebanon, French language)
                     </li>
                   </ul>
                   </li>
@@ -89,8 +93,9 @@
 <?php if (luwrain_current_lang() == 'ru') {?>
                 <h1>Публикации</h1>
                 <p>
-                  Ниже собраны самые интересные публикации, сделанные разными людьми о&#160;LUWRAIN. Дополнительно
-                  к&#160;этому мы выложили некоторые pdf-файлы в&#160;отдельном каталоге на&#160;<a href="http://download.luwrain.org/pdf/">download.luwrain.org</a>.
+                  Ниже собраны самые интересные публикации, сделанные разными людьми о&#160;нашей работе.
+                  Дополнительно к&#160;этому мы выложили некоторые pdf-файлы в&#160;отдельном каталоге на&#160;нашем
+                  ресурсе <a href="http://download.luwrain.org/pdf/">download.luwrain.org</a>.
                 </p>
                 <h2>Статьи</h2>
                 <ul>
@@ -145,6 +150,10 @@
                       Courrier de Russie</a> (Россия, фр.&#160;яз.)
                     </li>
                     <li><a href="http://impactjournalismday.com/story/luwrain/">SparkNews</a> (анг.&#160;яз.)</li>
+                    <li>
+                      <a href="http://www.pressreader.com/taiwan/the-china-post/20150620/281698318384249/TextView">The&#160;China&#160;Post</a>
+                      (Тайвань, анг.&#160;яз.)
+                    </li>
                     <li>
                       <a href="http://www.thedailystar.net/impact-journalism-day/luwrain-operating-system-the-blind-100006">The&#160;Daily
                       Star</a> (Бангладеш, анг.&#160;яз.)

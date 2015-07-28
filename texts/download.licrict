@@ -5,19 +5,18 @@ TARGET=download/index.php
 
 luwrain-page-en
 
-= LUWRAIN downloads =
+= Our downloads =
 
 == For~end~users ==
 
-These options are purposed for~everybody who would like to~use LUWRAIN just for~the~work.
-The~only difference between them is the~operating system they can be~launched on
-(or~without operating system at~all 
-as~in~the~case of~bootable ISO-images).
+These options are purposed for~everybody who needs LUWRAIN for~installation and work. 
+With~the~list below, you can take the~distribution prepared for~OS you have installed or take the~ISO-image 
+which is~suitable for running LUWRAIN as~a~stand-alone OS (no~installed OS required).
 
-Choose the~most suitable form of~LUWRAIN distribution you need:
+Choose the~most suitable distribution:
 
 * [local:iso/ 
-Bootable ISO-images] (installed operating system isn't needed)
+Bootable ISO-images] (installed OS isn't required)
 
 * [local:windows/
 For~Microsoft Windows]
@@ -52,7 +51,7 @@ as~a~single, easily observable place gathering all of~our~materials for~download
 
 luwrain-page-ru
 
-= Загрузка LUWRAIN  =
+= Загрузка наших дистрибутивов и  материалов =
 
 == Для~пользователей  ==
 

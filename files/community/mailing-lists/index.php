@@ -36,17 +36,6 @@
                   <li>Description: Discussing of&#160;LUWRAIN developing in&#160;Russian</li>
                   <li>Subscribe: <a href="mailto:luwrain-devel-ru+subscribe@googlegroups.com">luwrain-devel-ru+subscribe@googlegroups.com</a></li>
                 </ul>
-                <h2>Old Homeros mailing lists</h2>
-                <p>
-                  Previously we used to&#160;talk about LUWRAIN in&#160;ALT&#160;Linux Homeros mailing lists.
-                  If you would like, you still may subscribe to it. However, now it is recommended to&#160;use
-                  one of&#160;the&#160;mailing lists mentioned above, because after 2015 we are about to&#160;prohibit
-                  LUWRAIN discussing in&#160;this&#160;list as&#160;an&#160;offtopic.
-                </p>
-                <p>Use the&#160;subscription page by&#160;this&#160;link:</p>
-                <ul>
-                  <li><a target="_blank" href="http://lists.altlinux.org/mailman/listinfo/homeros/">http://lists.altlinux.org/mailman/listinfo/homeros/</a></li>
-                </ul>
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
@@ -85,16 +74,6 @@
                   <li>Язык: английский</li>
                   <li>Описание: обсуждение вопросов разработки LUWRAIN на&#160;английском языке</li>
                   <li>Адрес для&#160;подписки: <a href="mailto:luwrain-devel-en+subscribe@googlegroups.com">luwrain-devel-en+subscribe@googlegroups.com</a></li>
-                </ul>
-                <h2>Прежний список рассылки ALT&#160;Linux Homeros</h2>
-                <p>
-                  Раньше для&#160;обсуждения LUWRAIN мы использовали список рассылки ALT&#160;Linux Homeros.
-                  Если вы желаете, вы можете на&#160;него подписаться, но помните, что после 2015&#160;г.
-                  обсуждение LUWRAIN в&#160;нём будет считаться офтопиком.
-                </p>
-                <p>Ссылка для&#160;подписки на&#160;список ALT&#160;Linux Homeros:</p>
-                <ul>
-                  <li><a target="_blank" href="http://lists.altlinux.org/mailman/listinfo/homeros/">http://lists.altlinux.org/mailman/listinfo/homeros/</a></li>
                 </ul>
 
 <?php }?>
