@@ -1,7 +1,10 @@
 <?php include "../functions.php"; luwrain_begin_page('/doc/index.php', luwrain_current_lang() == 'ru'?'Документация':'Documentation');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-                <h1>LUWRAIN documentation</h1>
-                <p>Choose the&#160;section you need:</p>
+                <h1>Documentation</h1>
+                <p>
+                  This&#160;page contains all&#160;categories of&#160;documentation we have on&#160;our&#160;website.
+                  Choose any&#160;section you need:
+                </p>
                 <ul>
                   <li>
                     <a href="<?php echo luwrain_link('user/');?>">Users documentation</a>
@@ -24,7 +27,7 @@
                   </li>
                   <li><a href="<?php echo luwrain_link('new-app/');?>">How&#160;to create your own application for&#160;LUWRAIN?</a></li>
                   <li>
-                    <a href="<?php echo luwrain_link('devel/');?>">Environment developers documentation: how to&#160;work on&#160;LUWRAIN
+                    <a href="<?php echo luwrain_link('devel/');?>">Environment development documentation: how to&#160;work on&#160;LUWRAIN
                     itself?</a>
                   </li>
                 </ul>
@@ -43,8 +46,11 @@
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-                <h1>Документация LUWRAIN</h1>
-                <p>Выберите интересующий вас раздел:</p>
+                <h1>Документация</h1>
+                <p>
+                  На&#160;этой странице перечислены все&#160;категории документации, представленной на&#160;нашем
+                  сайте. Выберите интересующий вас раздел:
+                </p>
                 <ul>
                   <li>
                     <a href="<?php echo luwrain_link('user/');?>">Документация для&#160;пользователей</a>

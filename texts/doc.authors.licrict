@@ -1,13 +1,21 @@
 
-ENTITLE='About Authors'
+ENTITLE='Authors'
 RUTITLE='Авторы'
 TARGET=doc/authors/index.php
 
 luwrain-page-en
 
-= LUWRAIN authors =
+= Project authors =
 
-There is the~list of~people who participated in~LUWRAIN project (in~alphabetical order):
+LUWRAIN development is under~way in~[http://e-moskva.ru/ "Electronic Moscow"].
+Our main team includes (in~alphabetical order):
+
+
+* Alexey Goloshumov
+* [http://marigostra.com Michael Pozhidaev]
+* Roman Volovodov
+
+There is the~list of~people who participated in~our project (in~alphabetical order):
 
  * {Andrey Ampilov} (music decoration and sound effects)
 * {Catherine Brown} (editing the~English greeting on~the~main page)
@@ -21,9 +29,10 @@ There is the~list of~people who participated in~LUWRAIN project (in~alphabetical
 * {Nikita Prianichnikov} (porting LUWRAIN to~MacOS-X)
 * {Mgr. Janusz Chmiel} (Czech translation)
 * {Stepan Shvets} (music decoration and sound effects)
+* {Nikita Tseikovets} (information support)
 * {Alexander Ustinov} (porting LUWRAIN to~Microsoft Windows and building system support)
 
-The~following companies and organizations support the~project:
+We are very thankful to~the~following people and organizations:
 
 * [[http://www.bf-osyazanie.ru/
 Charitable Fund for~support of~blind and visually impaired people "Osyazanie"]]
@@ -31,40 +40,42 @@ Charitable Fund for~support of~blind and visually impaired people "Osyazanie"]]
 * [[http://altlinux.com/
 ALT~Linux company]]
 
-Especially LUWRAIN project is~thankful to~Olga Yakovleva who makes possible the~free Russian text-to-speech engine 
-([[http://github.com/Olga-Yakovleva/RHVoice RHVoice speech synthesizer]]).
-
-All coordination tasks are maintained by~[[http://marigostra.com/ Michael Pozhidaev]].
+* Olga Yakovleva who makes possible the~free Russian text-to-speech engine, 
+[http://github.com/Olga-Yakovleva/RHVoice RHVoice speech synthesizer]
 
 luwrain-page-ru
 
 = Авторы проекта =
 
-Ниже приводится список всех~участников проекта (в~алфавитном порядке):
+Разработка LUWRAIN выполняется компанией [http://e-moskva.ru <<Электронная Москва>>]. 
+В~основную группу разработчиков входят (в~алфавитном порядке):
 
-* {Андрей Ампилов} (музыкальные оформление и звуковые эффекты);
-* {Джошуа Айверсон} (английский мужской голос в~записи приветствия);
-* {Кэтрин Браун} (редактирование английской версии приветствия на~главной странице сайта);
-* {Анастасия Гапоненко} (русский женский  голос в~первой записи приветствия);
-* {Светлана Глазырина} (русский женский  голос в~второй записи приветствия);
-* {Юрий Князев} (музыкальные оформление и звуковые эффекты);
-* {Александр Липатов} (обработка аудио-записей);
-* {Алексей Лубкин} (расчёт параметров фильтра Блюма для~алгоритма синхронизации файлов);
-* {Рената Пожидаева} (разработка веб-сайта);
-* {Никита Пряничников} (поддержка работы LUWRAIN на~MacOS-X);
+* Роман Воловодов
+* Алексей Голошумов
+* [http://marigostra.ru Михаил Пожидаев]
+
+Проекту помогали (в~алфавитном порядке):
+
+* {Андрей Ампилов} (музыкальные оформление и звуковые эффекты)
+* {Джошуа Айверсон} (английский мужской голос в~записи приветствия)
+* {Кэтрин Браун} (редактирование английской версии приветствия на~главной странице сайта)
+* {Анастасия Гапоненко} (русский женский  голос в~первой записи приветствия)
+* {Светлана Глазырина} (русский женский  голос в~второй записи приветствия)
+* {Юрий Князев} (музыкальные оформление и звуковые эффекты)
+* {Александр Липатов} (обработка аудио-записей)
+* {Алексей Лубкин} (расчёт параметров фильтра Блюма для~алгоритма синхронизации файлов)
+* {Рената Пожидаева} (разработка веб-сайта)
+* {Никита Пряничников} (поддержка работы LUWRAIN на~MacOS-X)
 * {Mgr. Janusz Chmiel} (чешский перевод)
-* {Александр Устинов} (поддержка работы LUWRAIN на~Microsoft Windows и доработка сборочных систем);
-* {Степан Швец} (музыкальные оформление и звуковые эффекты).
+* {Александр Устинов} (поддержка работы LUWRAIN на~Microsoft Windows и доработка сборочных систем)
+* {Никита Цейковец} (информационная поддержка проекта)
+* {Степан Швец} (музыкальные оформление и звуковые эффекты)
 
-Поддержку проекта оказывают следующие компании и организации:
+Мы очень благодарны этим~людям и организациям:
 
 * [[http://www.bf-osyazanie.ru/
-Благотворительный фонд помощи слабовидящим и незрячим «Осязание»]];
+благотворительному фонду помощи слабовидящим и незрячим «Осязание»]];
 * [[http://altlinux.ru
-компания «Альт~Линукс»]].
+компании «Альт~Линукс»]];
+* Ольге Яковлевой за~превосходный русский синтезатор речи [http://github.com/Olga-Yakovleva/RHVoice  RHVoice].
 
-Проект особенно ценит работу Ольги Яковлевой,
-которая сделала возможным русскоязычный свободный синтезатор речи 
-[[http://github.com/Olga-Yakovleva/RHVoice RHVoice]].
-
-Координацию проекта выполняет [[http://marigostra.ru/ Михаил Пожидаев]].

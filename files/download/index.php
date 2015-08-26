@@ -4,11 +4,11 @@
                 <h2>For&#160;end&#160;users</h2>
                 <p>
                   These options are purposed for&#160;everybody who needs LUWRAIN for&#160;installation and
-                  work. With&#160;the&#160;list below, you can take the&#160;distribution prepared for&#160;OS
-                  you have installed or take the&#160;ISO-image which is&#160;suitable for running LUWRAIN
-                  as&#160;a&#160;stand-alone OS (no&#160;installed OS required).
+                  work. With&#160;the&#160;list below, you can take either the&#160;distribution prepared
+                  for&#160;OS you have already installed or the&#160;ISO-image suitable for running LUWRAIN
+                  as&#160;a&#160;stand-alone OS (no&#160;installed OS on&#160;your machine required).
                 </p>
-                <p>Choose the&#160;most suitable distribution:</p>
+                <p>Choose the&#160;most suitable distribution you need:</p>
                 <ul>
                   <li><a href="<?php echo luwrain_link('iso/');?>">Bootable ISO-images</a> (installed OS isn&#x27;t required)</li>
                   <li><a href="<?php echo luwrain_link('windows/');?>">For&#160;Microsoft Windows</a></li>

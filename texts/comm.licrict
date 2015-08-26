@@ -31,7 +31,7 @@ luwrain-page-ru
 
 Сообщество LUWRAIN состоит из~нескольких ресурсов:
 
-* [local:mailing-lists Списки рассылок]
+* [local:mailing-lists Наши списки рассылок]
 * [http://twitter.com/luwrain Лента новостей  в~Twitter]
 * [local:publications Наши публикации]
 * [local:extensions  Расширения LUWRAIN]
@@ -39,6 +39,7 @@ luwrain-page-ru
 
 == Идеи и материалы сообщества ==
 
+* [local:sonar.php Андрей Ампилов и Максим Белак о~запуске LUWRAIN на~дистрибутиве Sonar]
 * [local:web-browsing/ Никита Цейковец о~концепции навигации внутри веб-страниц]
 * [http://habrahabr.ru/post/258413/ Никита Цейковец на~Хабрахабр о~разработке приложений для~LUWRAIN]
 

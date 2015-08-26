@@ -27,7 +27,7 @@
                 </p>
                 <p>Сообщество LUWRAIN состоит из&#160;нескольких ресурсов:</p>
                 <ul>
-                  <li><a href="<?php echo luwrain_link('mailing-lists');?>">Списки рассылок</a></li>
+                  <li><a href="<?php echo luwrain_link('mailing-lists');?>">Наши списки рассылок</a></li>
                   <li><a href="http://twitter.com/luwrain">Лента новостей в&#160;Twitter</a></li>
                   <li><a href="<?php echo luwrain_link('publications');?>">Наши публикации</a></li>
                   <li><a href="<?php echo luwrain_link('extensions');?>">Расширения LUWRAIN</a></li>
@@ -35,6 +35,10 @@
                 </ul>
                 <h2>Идеи и материалы сообщества</h2>
                 <ul>
+                  <li>
+                    <a href="<?php echo luwrain_link('sonar.php');?>">Андрей Ампилов и Максим Белак о&#160;запуске LUWRAIN на&#160;дистрибутиве
+                    Sonar</a>
+                  </li>
                   <li><a href="<?php echo luwrain_link('web-browsing/');?>">Никита Цейковец о&#160;концепции навигации внутри веб-страниц</a></li>
                   <li>
                     <a href="http://habrahabr.ru/post/258413/">Никита Цейковец на&#160;Хабрахабр о&#160;разработке

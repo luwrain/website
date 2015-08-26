@@ -84,7 +84,7 @@ function luwrain_link($path)
 		    <a href="<?php echo luwrain_link('/doc/new-app/');?>">Создание приложений</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="/api/">Luwrain API</a>
+		    <a href="/api/">LUWRAIN API</a>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="<?php echo luwrain_link('/download/git/');?>">Git репозитории</a>
@@ -156,7 +156,7 @@ function luwrain_link($path)
 		    <a href="<?php echo luwrain_link('/doc/new-app/');?>">Create an application</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="/api/">Luwrain API</a>
+		    <a href="/api/">LUWRAIN API</a>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="<?php echo luwrain_link('/download/git/');?>">Git repositories</a>
@@ -179,7 +179,7 @@ function luwrain_link($path)
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <?php
-    echo '    <title>'.$title.' - The accessible environment Luwrain</title>'."\n";
+    echo '    <title>'.$title.' - The accessible environment LUWRAIN</title>'."\n";
 ?>
   </head>
   <body>
@@ -204,7 +204,7 @@ function luwrain_link($path)
     <!--<meta property="og:type" content="company" />-->
     <!--<meta property="og:url" content="http://www.luwrain.com"/>-->
 <?php
-    echo '    <title>'.$title.' - Luwrain</title>'."\n";
+    echo '    <title>'.$title.' - LUWRAIN</title>'."\n";
 ?>
     <link type="image/x-icon" href="/Images/favicon.ico" rel="icon"/>
     <link media="all" rel="stylesheet" type="text/css" href="/Content/luwrain.css" />
@@ -352,7 +352,7 @@ function luwrain_link($path)
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>The accessible environment  Luwrain</title>
+    <title>The accessible environment  LUWRAIN</title>
   </head>
   <body>
     <b><a href="<?php echo luwrain_link('/download/');?>"><?php echo luwrain_current_lang() == 'ru'?'Загрузить':'Download';?></a></b> |
@@ -366,8 +366,8 @@ function luwrain_link($path)
 <?php if (luwrain_current_lang() == 'en') {?>
     <h1>&#x22;The territory of a compelling accessibility&#x22;</h1>
     <p>
-      With accessible toolkit Luwrain, blind and visually-impaired people have a new way to be
-      involved in the incredible world of information technologies. Luwrain doesn&#x27;t take
+      With accessible toolkit LUWRAIN, blind and visually-impaired people have a new way to be
+      involved in the incredible world of information technologies. LUWRAIN doesn&#x27;t take
       a lot of time to learn, and aims to be useable on laptops, as well as desktop computers.
       You can treat our new idea as one more solution for everyone who needs a reliable and accessible
       companion for various types of work. The product is designed as a new platform for creating
@@ -375,34 +375,35 @@ function luwrain_link($path)
       mail, news reading, etc.
     </p>
     <p>
-      Luwrain is a set of software components on Java for accessible user interface construction.
+      LUWRAIN is a set of software components on Java for accessible user interface construction.
       In contrast with widely popular screen reading solutions for graphical desktops, which
       actually are designed for control through a mouse and other pointing devices useful only
-      for sighted users, Luwrain brings the information in the most suitable for the perception of
-      blind people form. That means that the Luwrain user will always spend significantly less
+      for sighted users, LUWRAIN brings the information in the most suitable for the perception of
+      blind people form. That means that the LUWRAIN user will always spend significantly less
       time than in an adapted GUI. We have created our environment for people who enjoy working
       effectively and time-efficiently.
     </p>
     <p>
-      Luwrain can be with you everywhere! You may take it as a stand-alone operating system on
+      LUWRAIN can be with you everywhere! You may take it as a stand-alone operating system on
       Linux kernel and it will turn a laptop into elegant accessory for blind people. If you,
       your colleagues or members of your family need the operating system being already installed
-      on your PC, you may take Luwrain just as an application. Luwrain will not require you to
+      on your PC, you may take LUWRAIN just as an application. LUWRAIN will not require you to
       forbid the tools you used to work with previously and you can use it as a platform for
       creating and distributing accessible applications, even if you havn&#x27;t any experience
       in this area.
     </p>
     <p>
-      Luwrain is a completely Free Software project, no fee is involved, and no restrictions
+      LUWRAIN is a completely Free Software project, no fee is involved, and no restrictions
       of use and distribution exist, except in cases explicitly violating the terms of the GNU
       Public License ver. 3, as it was published by the Free Software Foundation. However, financial
       donations are still required to help us present our product across the world, and to introduce
       it to related social and distribution organizations. The team of developers hopes that
-      Luwrain can increase the integration of disabled people into social life. <a href="<?php echo luwrain_link('/doc/about/');?>">Read
+      LUWRAIN can increase the integration of disabled people into social life. <a href="<?php echo luwrain_link('/doc/about/');?>">Read
       more...</a>
     </p>
     <h2>Choose the&#160;section you want:</h2>
     <ul>
+      <li><a href="<?php echo luwrain_link('/doc/user/start/');?>">Getting started</a></li>
       <li><a href="<?php echo luwrain_link('/doc/user/manual/');?>">User manual</a></li>
       <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Subscribe to&#160;our mailing lists</a></li>
       <li><a href="<?php echo luwrain_link('/download/iso/');?>">Bootable ISO-images</a></li>
@@ -413,8 +414,8 @@ function luwrain_link($path)
 <?php if (luwrain_current_lang() == 'ru') {?>
     <h1>&#x22;Мир доступных технологий!&#x22;</h1>
     <p>
-      При помощи рабочего окружения Luwrain люди с нарушениями зрения могут расширить границы
-      своего доступа к&#160;грандиозному миру информационных технологий. Luwrain не требует много
+      При помощи рабочего окружения LUWRAIN люди с нарушениями зрения могут расширить границы
+      своего доступа к&#160;грандиозному миру информационных технологий. LUWRAIN не требует много
       времени для освоения и будет одинаково полезен на мобильных и настольных компьютерах. Мы
       хотим, чтобы наш проект стал новым решением для всех, кто нуждается в надёжном и доступном
       инструменте, пригодном для решения различных задач. Он проектируется как платформа для
@@ -422,31 +423,32 @@ function luwrain_link($path)
       веб, электронной почте, новостным ресурсам и т. д.
     </p>
     <p>
-      Luwrain предлагает набор программных компонентов Java для построения особого типа невизуального
+      LUWRAIN предлагает набор программных компонентов Java для построения особого типа невизуального
       интерфейса. В отличие от экранных чтецов, функционирующих в оконном окружении, ориентированного
-      на работу при помощи мыши, Luwrain представляет информацию в виде, адаптированном для восприятия
-      незрячих людей. Это означает, что на работу в Luwrain пользователю требуется времени существенно
+      на работу при помощи мыши, LUWRAIN представляет информацию в виде, адаптированном для восприятия
+      незрячих людей. Это означает, что на работу в LUWRAIN пользователю требуется времени существенно
       меньше, чем в озвученном оконном интерфейсе. Мы создаём нашу систему для тех, кто ведёт
       активный образ жизни и ценит экономию времени.
     </p>
     <p>
-      Luwrain будет с вами всегда! Вариант поставки в виде самостоятельной операционной системы
+      LUWRAIN будет с вами всегда! Вариант поставки в виде самостоятельной операционной системы
       на ядре Linux превратит любой ноутбук в элегантный аксессуар для незрячего человека. Если
       вы, ваши коллеги или члены вашей семьи используют в своей работе операционную систему,
-      которая уже установлена, вы можете запустить Luwrain просто как приложение. Luwrain не
+      которая уже установлена, вы можете запустить LUWRAIN просто как приложение. LUWRAIN не
       потребует от&#160;вас отказа от утилит, которые вы использовали ранее, и может быть платформой
       для создания адаптированных приложений, даже если у вас нет абсолютно никакого опыта в
       этой сфере.
     </p>
     <p>
-      Luwrain &#x2014; это полностью свободный проект. Использование Luwrain не подразумевает
+      LUWRAIN &#x2014; это полностью свободный проект. Использование LUWRAIN не подразумевает
       оплаты и может выполняться без&#160;ограничений, если это не&#160;нарушает требований GNU&#160;Public
       License версии&#160;3. Авторы проекта были бы очень рады установлению новых рабочих контактов,
-      поскольку это может помочь шире представить Luwrain среди мировых общественных организаций.
+      поскольку это может помочь шире представить LUWRAIN среди мировых общественных организаций.
       <a href="<?php echo luwrain_link('/doc/about/');?>">Читать далее...</a>
     </p>
-    <h2>Выберите интересующий Вас раздел:</h2>
+    <h2>Выберите интересующий вас раздел:</h2>
     <ul>
+      <li><a href="<?php echo luwrain_link('/doc/user/start/');?>">С чего начать?</a></li>
       <li><a href="<?php echo luwrain_link('/doc/user/manual/');?>">Руководство пользователя</a></li>
       <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Подписаться на&#160;списки рассылки</a></li>
       <li><a href="<?php echo luwrain_link('/download/iso/');?>">Загрузочные ISO-образы</a></li>

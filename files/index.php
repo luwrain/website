@@ -103,7 +103,7 @@
 		      </button>
 		    </li>
 		    <li id = "orLi">
-		      <span>or</span>
+		      <span><?php echo luwrain_current_lang() == 'ru'?'или':'or';?></span>
 		    </li>
 		    <li>
 		      <button class="twoButton lightButton" id = "secondButton" onclick="SecondButtonOnClick();">

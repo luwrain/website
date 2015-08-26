@@ -5,9 +5,10 @@ TARGET=doc/index.php
 
 luwrain-page-en
 
-= LUWRAIN documentation =
+= Documentation =
 
-Choose the~section you need:
+This~page contains all~categories of~documentation we have on~our~website.
+Choose any~section you need:
 
 * [local:user/ Users documentation] 
 ** [local:user/installation/ Installation instructions: what should you do if you'd like to~install LUWRAIN on~your computer?]
@@ -16,7 +17,7 @@ Choose the~section you need:
 ** [local:user/start/ Getting started: speedy instructions how to~begin the~work right now]
 ** [local:/community/bugs/ How to~report a~bug?]
 * [local:new-app/ How~to create your own application for~LUWRAIN?]
-* [local:devel/ Environment developers documentation: how to~work on~LUWRAIN itself?]
+* [local:devel/ Environment development documentation: how to~work on~LUWRAIN itself?]
 
 == About the~project ==
 
@@ -29,8 +30,10 @@ Choose the~section you need:
 
 luwrain-page-ru
 
-= Документация LUWRAIN =
+= Документация =
 
+На~этой странице перечислены все~категории документации,
+представленной на~нашем сайте.
 Выберите интересующий вас раздел:
 
 * [local:user/ Документация для~пользователей] 

@@ -10,10 +10,10 @@ luwrain-page-en
 == For~end~users ==
 
 These options are purposed for~everybody who needs LUWRAIN for~installation and work. 
-With~the~list below, you can take the~distribution prepared for~OS you have installed or take the~ISO-image 
-which is~suitable for running LUWRAIN as~a~stand-alone OS (no~installed OS required).
+With~the~list below, you can take either the~distribution prepared for~OS you have already installed or 
+the~ISO-image suitable for running LUWRAIN as~a~stand-alone OS (no~installed OS on~your machine required).
 
-Choose the~most suitable distribution:
+Choose the~most suitable distribution you need:
 
 * [local:iso/ 
 Bootable ISO-images] (installed OS isn't required)

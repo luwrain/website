@@ -54,9 +54,9 @@ function ShowPart1(){
 	$('#imageDiv').html('<img id="accImg" src="Images/acc.png" alt="The accessible platform" height="303" width="523"></img>');
 	$('#textUnderPic').html('The accessible platform');
 	$('#accPlatform').html('The accessible platform');
-	$('#text1more').html('With accessible toolkit Luwrain, blind and visually-impaired people have'+
+	$('#text1more').html('With accessible toolkit LUWRAIN, blind and visually-impaired people have'+
 			     '<br/>a  new way to be involved in the incredible world of information'+
-			     '<br/>technologies. Luwrain doesn\'t take a lot of time to learn, and aims'+
+			     '<br/>technologies. LUWRAIN doesn\'t take a lot of time to learn, and aims'+
 			     '<br/>to be useable on laptops, as well as desktop computers. You can treat our'+
 			     '<br/>new idea as one more solution for everyone who needs a reliable and'+
 			     '<br/>accessible companion for various types of work. The product is designed'+
@@ -81,12 +81,12 @@ function ShowPart2(){
 	$('#imageDiv').html('<img id="textBasedImg" src="Images/textBased.png" alt="Text-based environment" height="162" width="532"></img>');
 	$('#textUnderPic').html('Text-based environment');
 	$('#accPlatform').html('Text-based environment');
-	$('#text1more').html('Luwrain is a set of software components on Java for accessible'+
+	$('#text1more').html('LUWRAIN is a set of software components on Java for accessible'+
 			     '<br/>user interface construction. In contrast with widely popular'+
 			     '<br/>screen reading solutions for graphical desktops, which actually are'+
 			     '<br/>designed for control through a mouse and other pointing devices useful'+
-			     '<br/>only for sighted users, Luwrain brings the information in the most suitable'+
-			     '<br/>for the perception of blind people form. That means that the Luwrain user'+
+			     '<br/>only for sighted users, LUWRAIN brings the information in the most suitable'+
+			     '<br/>for the perception of blind people form. That means that the LUWRAIN user'+
 			     '<br/>will always spend significantly less time than in an adapted GUI.'+
 			     '<br/>We have created our environment for people who enjoy working effectively'+
 			     '<br/>and time-efficiently.');
@@ -109,11 +109,11 @@ function ShowPart3(){
 	$('#imageDiv').html('<img id="javaImg" src="Images/java.png" alt="Java on Linux" height="199" width="332"></img>');
 	$('#textUnderPic').html('Java on Linux');
 	$('#accPlatform').html('Java and Linux');
-	$('#text1more').html('Luwrain can be with you everywhere! You may take it as a stand-alone'+
+	$('#text1more').html('LUWRAIN can be with you everywhere! You may take it as a stand-alone'+
 			     '<br/>operating system on Linux kernel and it will turn a laptop'+
 			     '<br/>into elegant accessory for blind people. If you, your colleagues'+
 			     '<br/>or members of your family need the operating system being already installed'+
-			     '<br/>on your PC, you may take Luwrain just as an application. Luwrain will not require'+
+			     '<br/>on your PC, you may take LUWRAIN just as an application. Luwrain will not require'+
 			     '<br/>you to forbid the tools you used to work with previously and you can use it'+
 			     '<br/>as a platform for creating and distributing accessible applications,'+
 			     '<br/>even if you don\'t have any experience in this area.');
@@ -136,13 +136,13 @@ function ShowPart4(){
 	$('#imageDiv').html('<img id="fossImg" src="Images/toss.png" alt="toss" height="229" width="254"></img>');
 	$('#textUnderPic').html('FOSS');
 	$('#accPlatform').html('FOSS');
-	$('#text1more').html('Luwrain is a completely Free Software project, no fee is involved, and'+
+	$('#text1more').html('LUWRAIN is a completely Free Software project, no fee is involved, and'+
 			     '<br/>no restrictions of use and distribution exist, except in cases'+
 			     '<br/>explicitly violating the terms of the GNU Public License ver. 3, as it'+
 			     '<br/>was published by the Free Software Foundation. However, financial'+
 			     '<br/>donations are still required to help us present our product across the'+
 			     '<br/>world, and to introduce it to related social and distribution organizations.'+
-			     '<br/>The team of developers hopes that Luwrain can increase the integration'+
+			     '<br/>The team of developers hopes that LUWRAIN can increase the integration'+
 			     '<br/>of disabled people into social life.');
 	$('#firstButton').html('<a href="/doc/about/?mode=normal&lang=en"><span>More about the project</span></a>');
 	$('#secondButton').html('<span>Read more</span>');

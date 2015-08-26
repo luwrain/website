@@ -1,5 +1,5 @@
-doc.installation.licrict
-doc.user.licrict
+installation.licrict
+user.licrict
 doc.about.licrict
 doc.legal.licrict
 doc.difference.licrict
@@ -14,6 +14,7 @@ manual.fundamentals.licrict
 manual.licrict
 manual.startwork.licrict
 manual.switching.licrict
+apps.licrict
 newapp.licrict
 newapp.intro.licrict
 newapp.essentials.licrict
@@ -36,3 +37,4 @@ comm.licrict
 comm.publications.licrict
 comm.mailing-lists.licrict
 comm.web-browsing.licrict
+comm.sonar.licrict
