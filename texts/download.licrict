@@ -9,25 +9,24 @@ luwrain-page-en
 
 == For~end~users ==
 
-These options are purposed for~everybody who needs LUWRAIN for~installation and work. 
-With~the~list below, you can take either the~distribution prepared for~OS you have already installed or 
-the~ISO-image suitable for running LUWRAIN as~a~stand-alone OS (no~installed OS on~your machine required).
+These options are for~everybody who needs LUWRAIN for~work. 
+With~the~list below, you can find a~binary distribution prepared for~OS you have already installed or 
+a~ISO-image suitable for running LUWRAIN as~a~stand-alone OS (in~this~case no~installed OS required).
 
-Choose the~most suitable distribution you need:
+=== Choose the~most suitable form you need: ===
 
 * [local:iso/ 
 Bootable ISO-images] (installed OS isn't required)
 
-* [local:windows/
+* Binary distributions as~applications:
+
+** [local:windows/
 For~Microsoft Windows]
 
-* [local:linux/
+** [local:linux/
 For~GNU/Linux]
 
-* [local:mac/
-For~Apple Mac~OS~X]
-
-== For~developers ==
+== For~developers and testers ==
 
 The~first option of~this list is purposed for~the~developers
 of~applications for~LUWRAIN.
@@ -35,19 +34,28 @@ Others can be~useful only for~developers who would like to~improve LUWRAIN itsel
 
 * [local:sdk/
 LUWRAIN~SDK] 
-(needed for~building your own applications for~LUWRAIN)
+(needed for~building your own application for~LUWRAIN)
 
 * [local:git/
 Git~repositories]
-(the~entire set of~version tracking repositories with source  code of~our project)
+(the~entire set of~repositories for~tracking of~changes in~our~project)
 
 * [tarball/
-The~tarballs with source materials]
-(published basically to~make LUWRAIN sources downloadable in~single click
-but there is a~tarball with~media files which aren't present in~Git repositories)
+Tarballs with source materials]
+(published basically to~make LUWRAIN sources downloadable in~single click,
+but there is a~tarball with~media files which we don't put~in~Git repositories)
 
-{NOTE!} You may always use the~host [http://download.luwrain.org download.luwrain.org] directly 
-as~a~single, easily observable place gathering all of~our~materials for~download.
+* [local:nightly/
+Nightly builds]
+(regular binary builds for~testers)
+
+{NOTE!} You may visit the~host [http://download.luwrain.org download.luwrain.org] directly 
+as~a~single and easily observable place gathering all of~our~materials for~download.
+Besides all, you can find there:
+
+* [http://download.luwrain.org/pdf/ Our PDF materials (publications and presentations)]
+* [http://download.luwrain.org/chats/ Talks in~radio and podcasts (mostly in~Russian)]
+* [http://download.luwrain.org/video/ Video recordings (mostly in~Russian)]
 
 luwrain-page-ru
 
@@ -55,31 +63,30 @@ luwrain-page-ru
 
 == Для~пользователей  ==
 
-В~этом разделе варианты загрузки предназначены для~людей,
-кому LUWRAIN требуется непосредственно только для~работы.
-Единственное различие между ними --- 
-операционная система, на~которой они могут быть запущены
-(в~случае загрузочных ISO-образов операционная система не~требуется вовсе).
+Варианты в~этом разделе предназначены для~пользователей,
+желающих установить LUWRAIN для~работы или запустить его~для~ознакомления.
+LUWRAIN в~виде ISO-образа не~требует какой-либо установленной ОС на~вашем компьютере.
+В~остальных случаях LUWRAIN предоставляется как~приложение для запуска в~Microsoft Windows или GNU/Linux.
 
-Выберите наиболее подходящий для~вас вариант поставки:
+=== Выберите наиболее подходящий для~вас вариант: ===
 
 # [local:iso/ 
 В~виде загрузочного ISO-образа] 
-(какая-либо установленная операционная система не~требуется)
+(установленная ОС не~требуется)
 
-# [local:windows/
-Версия для~Microsoft Windows]
+#  В~виде приложения:
 
-# [local:linux/
-Версия для~GNU/Linux]
+** [local:windows/
+Для~Microsoft Windows]
 
-# [local:mac/
-Версия для~Apple Mac~OS~X]
+** [local:linux/
+Для~GNU/Linux]
 
-== Для~разработчиков  ==
+== Для~разработчиков   и тестеров==
 
-Первый вариант в~списке ниже предназначен для~разработчиков собственных приложений.
-Остальные элементы требуются людям, желающим принять участие в~работе над~нашей средой самой по~себе.
+Первый вариант в~списке ниже предназначен для~разработчиков собственных приложений,
+дополняющих функциональность LUWRAIN.
+Остальные элементы требуются людям, желающим принять участие в~работе непосредственно над~нашей средой.
 
 # [local:sdk/
 LUWRAIN~SDK] 
@@ -91,9 +98,18 @@ LUWRAIN~SDK]
 
 # [tarball/
 Архивы с~материалами проекта]
-(предоставляются в~основном для~упрощения загрузки LUWRAIN,
+(в~основном предоставляются для~упрощения загрузки LUWRAIN,
 но помимо исходных текстов содержат также  звуковые файлы, отсутствующие в~репозиториях Git)
 
+# [local:nightly/ 
+Nightly-сборки]
+(регулярные сборки для~тестирования изменений)
+
 {ВНИМАНИЕ!} 
-Вы можете работать напрямую с~узлом [http://download.luwrain.org download.luwrain.org],
-просматривая доступные файлы и каталоге при~помощи автоматически сгенерированных индексов.
+Вы можете работать напрямую с~нашим ресурсом [http://download.luwrain.org download.luwrain.org],
+просматривая доступные файлы и каталоге при~помощи автоматически сгенерированного индекса.
+Помимо прочего, на~нём можно найти:
+
+* [http://download.luwrain.org/pdf/ Материалы в~формате PDF (публикации и презентации)]
+* [http://download.luwrain.org/chats/ Беседы для~радио и подкастов)]
+* [http://download.luwrain.org/video/ Видеозаписи выступлений и демонстраций]
