@@ -7,7 +7,7 @@ luwrain-page-en
 
 = Preparing a speech back-end =
 
-This page is currently available only in~Russian language.
+Sorry, this page is still available in~Russian language only. Please, try later.
 
 luwrain-page-ru
 
@@ -15,7 +15,7 @@ luwrain-page-ru
 
 См.~также
 
-* [/api/org/luwrain/speech/BackEnd.html Страница {{org.luwrain.speech.BackEnd}} в~LUWRAIN~API].
+* [/api/org/luwrain/speech/BackEnd.html Страница {{org.luwrain.speech.BackEnd}} в~LUWRAIN~API]
 
 Передача информации в~виде синтезированной человеческой речи является одним из~основных альтернативных способов  взаимодействия пользователя с~LUWRAIN.
 Дизайн LUWRAIN подразумевает возможность подготовки большого количества разнообразных механизмов вывода речи,
@@ -81,4 +81,3 @@ luwrain-page-ru
 то должны использоваться значения, 
 заданные ранее при~помощи методов {{setDefaultPitch()}} и {{setDefaultRate()}}.
 До~вызова этих методов рекомендуется считать, что скорость и высота речи равны 50.
-

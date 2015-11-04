@@ -69,7 +69,7 @@ function luwrain_link($path)
 		    <a href="http://twitter.com/luwrain">Twitter</a>
 		  </li>
 		  <li class="linkMenu">
-		    <a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Списки рассылки</a>
+		    <a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Списки рассылок</a>
 		  </li>
 		  <li class="linkMenu">
 		    <a href="<?php echo luwrain_link('/community/publications/');?>">Публикации</a>
@@ -323,7 +323,7 @@ function luwrain_link($path)
 	  <ul class="footerList">
 	    <li class="sectionFooter">
 	      <div id = "footer1">
-		<span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2015 Разработчики Luwrain':'&#169; 2012&#x2013;2015 Luwrain developers'?></span>
+		<span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2015 Разработчики LUWRAIN':'&#169; 2012&#x2013;2015 LUWRAIN developers'?></span>
 	      </div>
 	    </li>
 	    <li class="sectionFooter">
@@ -450,7 +450,7 @@ function luwrain_link($path)
     <ul>
       <li><a href="<?php echo luwrain_link('/doc/user/start/');?>">С чего начать?</a></li>
       <li><a href="<?php echo luwrain_link('/doc/user/manual/');?>">Руководство пользователя</a></li>
-      <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Подписаться на&#160;списки рассылки</a></li>
+      <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Подписаться на&#160;списки рассылок</a></li>
       <li><a href="<?php echo luwrain_link('/download/iso/');?>">Загрузочные ISO-образы</a></li>
       <li>Дистрибутивы: <a href="<?php echo luwrain_link('/download/windows');?>">для&#160;Microsoft Windows</a>, <a href="<?php echo luwrain_link('/download/linux/');?>">для&#160;GNU/Linux</a></li>
       <li><a href="<?php echo luwrain_link('/doc/contacts/');?>">Наши&#160;контакты</a></li>

@@ -1,7 +1,7 @@
 <?php include "../../../functions.php"; luwrain_begin_page('/doc/new-app/essentials/index.php', luwrain_current_lang() == 'ru'?'Основные понятия приложений':'Application essentials');?>
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Application essentials</h1>
-                <p>This page is available in Russian language only.</p>
+                <p>Sorry, this page is still available in&#160;Russian language only. Please, try later.</p>
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
@@ -13,11 +13,11 @@
                   ссылками на&#160;соответствующие страницы документации javadoc для&#160;LUWRAIN&#160;API.
                 </p>
                 <h2>Экземпляр приложения (<i>Application</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li>
-                    <a href="/api/org/luwrain/core/Application.html">страница <i>org.luwrain.core.Application</i>
-                    в&#160;LUWRAIN&#160;API</a>.
+                    <a href="/api/org/luwrain/core/Application.html">Страница <i>org.luwrain.core.Application</i>
+                    в&#160;LUWRAIN&#160;API</a>
                   </li>
                 </ul>
                 <p>
@@ -41,7 +41,7 @@
                   подробно описано на&#160;<a href="<?php echo luwrain_link('/doc/new-app/luwrain/');?>">этой&#160;странице</a>.
                 </p>
                 <h2>Область (<i>Area</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li><a href="/api/org/luwrain/core/Area.html">страница <i>org.luwrain.core.Area</i> в&#160;LUWRAIN&#160;API</a>.</li>
                 </ul>
@@ -78,9 +78,9 @@
                   событий среды доступно на&#160;<a href="<?php echo luwrain_link('/doc/new-app/events/');?>">этой&#160;странице</a>.
                 </p>
                 <h2>Всплывающая область (<i>Popup</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
-                  <li><a href="/api/org/luwrain/core/Popup.html">страница <i>org.luwrain.core.Popup</i> в&#160;LUWRAIN&#160;API</a>.</li>
+                  <li><a href="/api/org/luwrain/core/Popup.html">Страница <i>org.luwrain.core.Popup</i> в&#160;LUWRAIN&#160;API</a></li>
                 </ul>
                 <p>
                   Всплывающая область отличается от&#160;обычной тем, что она может использоваться для&#160;организации

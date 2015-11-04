@@ -1,4 +1,5 @@
 installation.licrict
+installation.linux.licrict
 user.licrict
 doc.about.licrict
 doc.legal.licrict
@@ -28,6 +29,7 @@ newapp.multithreading.licrict
 newapp.compilation.licrict
 dev.licrict
 dev.linux-compilation.licrict
+dev.iso.licrict
 dev.txt-reading.licrict
 dev.speech-backend.licrict
 download.licrict

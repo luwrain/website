@@ -2,10 +2,8 @@
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Our mailing lists</h1>
                 <p>
-                  We have four mailing lists started on&#160;<a href="http://googlegroups.com">googlegroups.com</a>
-                  for&#160;experimental using. Everybody is&#160;welcomed to&#160;subscribe to&#160;them,
-                  but please be&#160;aware that they are currently passing the&#160;testing phase. If&#160;you
-                  would like to&#160;subscribe, just send a&#160;message to&#160;the&#160;address mentioned
+                  We have four mailing lists on&#160;<a href="http://googlegroups.com">googlegroups.com</a>.
+                  For&#160;the subscribing to&#160;them send a&#160;message to&#160;the&#160;address mentioned
                   near each option.
                 </p>
                 <h2>For&#160;English users</h2>
@@ -41,11 +39,9 @@
 <?php if (luwrain_current_lang() == 'ru') {?>
                 <h1>Наши списки рассылок</h1>
                 <p>
-                  Мы создали четыре списка рассылки на&#160;сервере <a href="http://googlegroups.com">googlegroups.com</a>
-                  в&#160;режиме пробной эксплуатации. Все желающие подписаться приглашаются присоединиться
-                  к обсуждениям, но нужно помнить, что стадия тестирования в&#160;них пока не&#160;завершена.
-                  Если вы хотите подписаться, просто отправьте письмо на&#160;адрес, указанный рядом с&#160;каждым
-                  вариантом.
+                  Обсуждение нашего проекта ведётся в&#160;четырёх списках рассылок на&#160;сервере <a href="http://googlegroups.com">googlegroups.com</a>.
+                  Все желающие подписаться приглашаются присоединиться к обсуждениям, для&#160;этого просто
+                  отправьте письмо на&#160;адрес, указанный рядом с&#160;каждым вариантом в&#160;списке ниже.
                 </p>
                 <h2>Для русскоязычных пользователей</h2>
                 <ul>

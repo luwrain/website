@@ -11,6 +11,7 @@
                 <ul>
                   <li><a href="<?php echo luwrain_link('speech-backend/');?>">Реализация речевого вывода</a></li>
                   <li><a href="<?php echo luwrain_link('txt-reading/');?>">Требования к&#160;приложению для&#160;чтения больших текстов</a></li>
+                  <li><a href="<?php echo luwrain_link('iso/');?>">Загрузочный ISO-образ: техническое задание</a></li>
                 </ul>
 
 <?php }?>

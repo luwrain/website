@@ -7,16 +7,16 @@ luwrain-page-en
 
 = Standard controls library  =
 
-This page is available in Russian language only.
+Sorry, this page is still available in~Russian language only. Please, try later.
 
 luwrain-page-ru
 
 = Библиотека стандартных элементов управления =
 
-См.~также:
+См.~также
 
-* [/api/org/luwrain/controls/ControlEnvironment.html страница {{org.luwrain.controls.ControlEnvironment}} в~LUWRAIN~API];
-* [/api/org/luwrain/controls/DefaultControlEnvironment.html страница {{org.luwrain.controls.DefaultControlEnvironment}} в~LUWRAIN~API].
+* [/api/org/luwrain/controls/ControlEnvironment.html Страница {{org.luwrain.controls.ControlEnvironment}} в~LUWRAIN~API]
+* [/api/org/luwrain/controls/DefaultControlEnvironment.html Страница {{org.luwrain.controls.DefaultControlEnvironment}} в~LUWRAIN~API]
 
 Классы, перечисленные ниже (кроме вспомогательных классов для редактирования текста),
 являются реализациями интерфейса [/api/org/luwrain/core/Area.html {{org.luwrain.core.Area}}]
@@ -40,9 +40,9 @@ luwrain-page-ru
 
 == Область обозрения ({{NavigateArea}}) ==
 
-См.~также:
+См.~также
 
-* [/api/org/luwrain/controls/NavigateArea.html страница {{org.luwrain.controls.NavigateArea}} в~LUWRAIN~API].
+* [/api/org/luwrain/controls/NavigateArea.html Страница {{org.luwrain.controls.NavigateArea}} в~LUWRAIN~API]
 
 Этот абстрактный класс реализует основные функции перемещения по~текстовой области,
 но не~имеет никаких механизмов хранения контента.
@@ -58,9 +58,9 @@ luwrain-page-ru
 
 == Простейшая область ({{SimpleArea}}) ==
 
-См.~также:
+См.~также
 
-* [/api/org/luwrain/controls/SimpleArea.html страница {{org.luwrain.controls.SimpleArea}} в~LUWRAIN~API].
+* [/api/org/luwrain/controls/SimpleArea.html Страница {{org.luwrain.controls.SimpleArea}} в~LUWRAIN~API]
 
 Этот класс является развитием {{NavigateArea}},
 но имеет внутренний контейнер  для~хранения текстового представления.
@@ -68,9 +68,9 @@ luwrain-page-ru
 
 == Область редактирования ({{EditArea}}) ==
 
-См.~также:
+См.~также
 
-* [/api/org/luwrain/controls/EditArea.html страница {{org.luwrain.controls.EditArea}} в~LUWRAIN~API].
+* [/api/org/luwrain/controls/EditArea.html Страница {{org.luwrain.controls.EditArea}} в~LUWRAIN~API]
 
 область редактирования  является дальнейшим развитием класса {{simpleArea}}
 и позволяет осуществлять редактирование текста, хранимого во~внутреннем контейнере.
@@ -79,9 +79,9 @@ luwrain-page-ru
 
 == Список ({{ListArea}}) ==
 
-См.~также:
+См.~также
 
-* [/api/org/luwrain/controls/ListArea.html страница {{org.luwrain.controls.ListArea}} в~LUWRAIN~API].
+* [/api/org/luwrain/controls/ListArea.html Страница {{org.luwrain.controls.ListArea}} в~LUWRAIN~API].
 
 Этот класс предназначен для~представления некоторого множества объектов в~виде одномерного списка.
 Данные хранятся  во~внешнем объекте,
@@ -91,9 +91,9 @@ luwrain-page-ru
 
 == Таблица ({{TableArea}}) ==
 
-См.~также:
+См.~также
 
-* [/api/org/luwrain/controls/TableArea.html страница {{org.luwrain.controls.TableArea}} в~LUWRAIN~API].
+* [/api/org/luwrain/controls/TableArea.html Страница {{org.luwrain.controls.TableArea}} в~LUWRAIN~API]
 
 Класс {{tableArea}} реализует представление и отображение данных,
 организованных в~виде двумерной таблицы.
@@ -103,9 +103,9 @@ luwrain-page-ru
 
 == Дерево ({{TreeArea}}) ==
 
-См.~также:
+См.~также
 
-* [/api/org/luwrain/controls/TreeArea.html страница {{org.luwrain.controls.TreeArea}} в~LUWRAIN~API].
+* [/api/org/luwrain/controls/TreeArea.html Страница {{org.luwrain.controls.TreeArea}} в~LUWRAIN~API]
 
 Объекты класса {{TreeArea}} предназначены для~работы с~множеством объектво,
 организованных в~виде иерархической структуры.
@@ -114,9 +114,9 @@ luwrain-page-ru
 
 == Форма с~элементами управления ( ({{FormArea}}) ==
 
-См.~также:
+См.~также
 
-* [/api/org/luwrain/controls/FormArea.html страница {{org.luwrain.controls.FormArea}} в~LUWRAIN~API].
+* [/api/org/luwrain/controls/FormArea.html Страница {{org.luwrain.controls.FormArea}} в~LUWRAIN~API]
 
 Форма является составной областью, которая  предназначена для~работы с~множеством элементов управления следующих типов:
 
@@ -131,9 +131,9 @@ luwrain-page-ru
 
 == ККонструктор сообщений ({{MessageArea}}) ==
 
-См.~также:
+См.~также
 
-* [/api/org/luwrain/controls/MessageArea.html страница {{org.luwrain.controls.MessageArea}} в~LUWRAIN~API].
+* [/api/org/luwrain/controls/MessageArea.html Страница {{org.luwrain.controls.MessageArea}} в~LUWRAIN~API]
 
 Этот класс является развитием {{FormArea}} и предлагает готовый вариант области 
 для~составления сообщений электронной почты.
@@ -141,18 +141,18 @@ luwrain-page-ru
 
 == Обозреватель файлов и папок  ({{CommanderArea}}) ==
 
-См.~также:
+См.~также
 
-* [/api/org/luwrain/controls/CommanderArea.html страница {{org.luwrain.controls.CommanderArea}} в~LUWRAIN~API].
+* [/api/org/luwrain/controls/CommanderArea.html Страница {{org.luwrain.controls.CommanderArea}} в~LUWRAIN~API]
 
 Этот класс реализует поведение панели файлового менеджера, 
 которая позволяет просматривать файлы на~диске и перемещаться по~структуре каталогов.
 
 == Календарь ({{CalendarArea}}) ==
 
-См.~также:
+См.~также
 
-* [/api/org/luwrain/controls/CalendarArea.html страница {{org.luwrain.controls.CalendarArea}} в~LUWRAIN~API].
+* [/api/org/luwrain/controls/CalendarArea.html Страница {{org.luwrain.controls.CalendarArea}} в~LUWRAIN~API].
 
 Этот класс позволяет внедрить в~приложение элемент управления для~выбора даты.
 

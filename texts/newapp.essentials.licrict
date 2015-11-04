@@ -7,9 +7,7 @@ luwrain-page-en
 
 = Application essentials =
 
-This page is available in Russian language only.
-
-
+Sorry, this page is still available in~Russian language only. Please, try later.
 
 luwrain-page-ru
 
@@ -22,9 +20,9 @@ luwrain-page-ru
 
 == Экземпляр приложения ({{Application}}) ==
 
-См.~также:
+См.~также
 
-* [/api/org/luwrain/core/Application.html страница {{org.luwrain.core.Application}} в~LUWRAIN~API].
+* [/api/org/luwrain/core/Application.html Страница {{org.luwrain.core.Application}} в~LUWRAIN~API]
 
 Это самое главное понятие, которое охватывает всё, 
 что относится к~некоторому конкретному экземпляру приложения.
@@ -46,12 +44,9 @@ luwrain-page-ru
 который используется для~идентификации и   организации взаимодействия с~основной средой.
 Его~назначение подробно описано на~[local:/doc/new-app/luwrain/  этой~странице].
 
-
-
-
 == Область  ({{Area}}) ==
 
-См.~также:
+См.~также
 
 * [/api/org/luwrain/core/Area.html страница {{org.luwrain.core.Area}} в~LUWRAIN~API].
 
@@ -92,9 +87,9 @@ luwrain-page-ru
 
 == Всплывающая область  ({{Popup}}) ==
 
-См.~также:
+См.~также
 
-* [/api/org/luwrain/core/Popup.html страница {{org.luwrain.core.Popup}} в~LUWRAIN~API].
+* [/api/org/luwrain/core/Popup.html Страница {{org.luwrain.core.Popup}} в~LUWRAIN~API]
 
 Всплывающая область отличается от~обычной тем, что она может использоваться для~организации диалога с~пользователем.
 Каждая всплывающая область должна удовлетворять интерфейсу {{org.luwrain.core.Popup}}.
@@ -103,7 +98,6 @@ luwrain-page-ru
 потому что внешний цикл может быть остановлен незавершённым обработчиком,
 ожидающим завершения диалога с~пользователем.
 Более подробно про~всплывающие области можно прочитать [local:/doc/new-app/popups/ здесь].
-
 
 == Читать далее ==
 

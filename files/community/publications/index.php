@@ -60,7 +60,7 @@
                     </li>
                     <li><a href="http://impactjournalismday.com/story/luwrain/">SparkNews</a> (English language)</li>
                     <li>
-                      <a href="http://www.pressreader.com/taiwan/the-china-post/20150620/281698318384249/TextView">The&#160;China&#160;Post</a>
+                      <a href="http://download.luwrain.org/pdf/TheChinaPost-en-2015-06-20.pdf">The&#160;China&#160;Post</a>
                       (Taiwan, English language)
                     </li>
                     <li>
@@ -151,7 +151,7 @@
                     </li>
                     <li><a href="http://impactjournalismday.com/story/luwrain/">SparkNews</a> (анг.&#160;яз.)</li>
                     <li>
-                      <a href="http://www.pressreader.com/taiwan/the-china-post/20150620/281698318384249/TextView">The&#160;China&#160;Post</a>
+                      <a href="http://download.luwrain.org/pdf/TheChinaPost-en-2015-06-20.pdf">The&#160;China&#160;Post</a>
                       (Тайвань, анг.&#160;яз.)
                     </li>
                     <li>

@@ -1,20 +1,20 @@
 <?php include "../../../functions.php"; luwrain_begin_page('/doc/new-app/controls/index.php', luwrain_current_lang() == 'ru'?'Библиотека стандартных элементов управления':'Standard controls library');?>
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Standard controls library</h1>
-                <p>This page is available in Russian language only.</p>
+                <p>Sorry, this page is still available in&#160;Russian language only. Please, try later.</p>
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
                 <h1>Библиотека стандартных элементов управления</h1>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li>
-                    <a href="/api/org/luwrain/controls/ControlEnvironment.html">страница <i>org.luwrain.controls.ControlEnvironment</i>
-                    в&#160;LUWRAIN&#160;API</a>;
+                    <a href="/api/org/luwrain/controls/ControlEnvironment.html">Страница <i>org.luwrain.controls.ControlEnvironment</i>
+                    в&#160;LUWRAIN&#160;API</a>
                   </li>
                   <li>
-                    <a href="/api/org/luwrain/controls/DefaultControlEnvironment.html">страница <i>org.luwrain.controls.DefaultControlEnvironment</i>
-                    в&#160;LUWRAIN&#160;API</a>.
+                    <a href="/api/org/luwrain/controls/DefaultControlEnvironment.html">Страница <i>org.luwrain.controls.DefaultControlEnvironment</i>
+                    в&#160;LUWRAIN&#160;API</a>
                   </li>
                 </ul>
                 <p>
@@ -39,11 +39,11 @@
                   перенаправляющая все&#160;вызовы в&#160;предоставленный объект класса <i>org.luwrain.core.LUWRAIN</i>.
                 </p>
                 <h2>Область обозрения (<i>NavigateArea</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li>
-                    <a href="/api/org/luwrain/controls/NavigateArea.html">страница <i>org.luwrain.controls.NavigateArea</i>
-                    в&#160;LUWRAIN&#160;API</a>.
+                    <a href="/api/org/luwrain/controls/NavigateArea.html">Страница <i>org.luwrain.controls.NavigateArea</i>
+                    в&#160;LUWRAIN&#160;API</a>
                   </li>
                 </ul>
                 <p>
@@ -62,11 +62,11 @@
                   доступа при&#160;навигации внутри текстового файла.
                 </p>
                 <h2>Простейшая область (<i>SimpleArea</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li>
-                    <a href="/api/org/luwrain/controls/SimpleArea.html">страница <i>org.luwrain.controls.SimpleArea</i>
-                    в&#160;LUWRAIN&#160;API</a>.
+                    <a href="/api/org/luwrain/controls/SimpleArea.html">Страница <i>org.luwrain.controls.SimpleArea</i>
+                    в&#160;LUWRAIN&#160;API</a>
                   </li>
                 </ul>
                 <p>
@@ -76,11 +76,11 @@
                   виде.
                 </p>
                 <h2>Область редактирования (<i>EditArea</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li>
-                    <a href="/api/org/luwrain/controls/EditArea.html">страница <i>org.luwrain.controls.EditArea</i>
-                    в&#160;LUWRAIN&#160;API</a>.
+                    <a href="/api/org/luwrain/controls/EditArea.html">Страница <i>org.luwrain.controls.EditArea</i>
+                    в&#160;LUWRAIN&#160;API</a>
                   </li>
                 </ul>
                 <p>
@@ -90,10 +90,10 @@
                   не&#160;имеет функций записи файла на&#160;диск и чтения с&#160;диска.
                 </p>
                 <h2>Список (<i>ListArea</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li>
-                    <a href="/api/org/luwrain/controls/ListArea.html">страница <i>org.luwrain.controls.ListArea</i>
+                    <a href="/api/org/luwrain/controls/ListArea.html">Страница <i>org.luwrain.controls.ListArea</i>
                     в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>
@@ -105,11 +105,11 @@
                   и их&#160;речевого описания для&#160;пользователя.
                 </p>
                 <h2>Таблица (<i>TableArea</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li>
-                    <a href="/api/org/luwrain/controls/TableArea.html">страница <i>org.luwrain.controls.TableArea</i>
-                    в&#160;LUWRAIN&#160;API</a>.
+                    <a href="/api/org/luwrain/controls/TableArea.html">Страница <i>org.luwrain.controls.TableArea</i>
+                    в&#160;LUWRAIN&#160;API</a>
                   </li>
                 </ul>
                 <p>
@@ -119,11 +119,11 @@
                   Предусмотрены дополнительные возможности по&#160;кастомизации отображения ячеек таблицы.
                 </p>
                 <h2>Дерево (<i>TreeArea</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li>
-                    <a href="/api/org/luwrain/controls/TreeArea.html">страница <i>org.luwrain.controls.TreeArea</i>
-                    в&#160;LUWRAIN&#160;API</a>.
+                    <a href="/api/org/luwrain/controls/TreeArea.html">Страница <i>org.luwrain.controls.TreeArea</i>
+                    в&#160;LUWRAIN&#160;API</a>
                   </li>
                 </ul>
                 <p>
@@ -132,11 +132,11 @@
                   внешнего объекта, который должен удовлетворять интерфейсу <a href="/api/org/luwrain/controls/TreeModel.html"><i>org.luwrain.controls.TreeModel</i></a>.
                 </p>
                 <h2>Форма с&#160;элементами управления ( (<i>FormArea</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li>
-                    <a href="/api/org/luwrain/controls/FormArea.html">страница <i>org.luwrain.controls.FormArea</i>
-                    в&#160;LUWRAIN&#160;API</a>.
+                    <a href="/api/org/luwrain/controls/FormArea.html">Страница <i>org.luwrain.controls.FormArea</i>
+                    в&#160;LUWRAIN&#160;API</a>
                   </li>
                 </ul>
                 <p>
@@ -158,11 +158,11 @@
                   прочими элементами, поэтому может присутствовать только в&#160;единственном виде.
                 </p>
                 <h2>ККонструктор сообщений (<i>MessageArea</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li>
-                    <a href="/api/org/luwrain/controls/MessageArea.html">страница <i>org.luwrain.controls.MessageArea</i>
-                    в&#160;LUWRAIN&#160;API</a>.
+                    <a href="/api/org/luwrain/controls/MessageArea.html">Страница <i>org.luwrain.controls.MessageArea</i>
+                    в&#160;LUWRAIN&#160;API</a>
                   </li>
                 </ul>
                 <p>
@@ -171,11 +171,11 @@
                   списка получателей копии и множество файлов для&#160;прикрепления к&#160;письму.
                 </p>
                 <h2>Обозреватель файлов и папок (<i>CommanderArea</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li>
-                    <a href="/api/org/luwrain/controls/CommanderArea.html">страница <i>org.luwrain.controls.CommanderArea</i>
-                    в&#160;LUWRAIN&#160;API</a>.
+                    <a href="/api/org/luwrain/controls/CommanderArea.html">Страница <i>org.luwrain.controls.CommanderArea</i>
+                    в&#160;LUWRAIN&#160;API</a>
                   </li>
                 </ul>
                 <p>
@@ -183,10 +183,10 @@
                   файлы на&#160;диске и перемещаться по&#160;структуре каталогов.
                 </p>
                 <h2>Календарь (<i>CalendarArea</i>)</h2>
-                <p>См.&#160;также:</p>
+                <p>См.&#160;также</p>
                 <ul>
                   <li>
-                    <a href="/api/org/luwrain/controls/CalendarArea.html">страница <i>org.luwrain.controls.CalendarArea</i>
+                    <a href="/api/org/luwrain/controls/CalendarArea.html">Страница <i>org.luwrain.controls.CalendarArea</i>
                     в&#160;LUWRAIN&#160;API</a>.
                   </li>
                 </ul>

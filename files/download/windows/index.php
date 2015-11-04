@@ -31,7 +31,7 @@
                 <h2>См.&#160;также</h2>
                 <ul>
                   <li>
-                    <a href="<?php echo luwrain_link('/doc/user/installation/windows/');?>">Инструкция по&#160;установке Luwrain на&#160;Microsoft
+                    <a href="<?php echo luwrain_link('/doc/user/installation/windows/');?>">Инструкция по&#160;установке LUWRAIN на&#160;Microsoft
                     Windows</a>
                   </li>
                   <li><a href="<?php echo luwrain_link('/community/');?>">Наше&#160;сообщество</a></li>

@@ -7,6 +7,31 @@ luwrain-page-en
 
 = Installation instructions =
 
+The~installation of~LUWRAIN on~your PC can be~performed in~several ways.
+It~depends on~whether you'd like to~get LUWRAIN as~a~stand-alone OS or as~an~application.
+In~second case it~also depends on~the~type of~OS 
+you have installed on~your PC.
+
+== Select the~way you'd like to~continue with: ==
+
+* Install LUWRAIN as~a~stand-alone OS
+* Install LUWRAIN as~an~application for:
+** Microsoft Windows
+** [local:linux/ GNU/Linux]
+
 luwrain-page-ru
 
 = Установка на~жёсткий диск =
+
+Установка LUWRAIN на~жёсткий диск для~постоянной работы может осуществляться несколькими разными способами.
+Точное описание зависит от~того, желаете~ли вы установить LUWRAIN 
+как~самостоятельную ОС или как~приложение.
+В~последнем случае процедура дополнительно  различается в~зависимости от~типа ОС,
+уже имеющейся на~вашем ПК.
+
+== Выберите подходящий для~вас вариант: ==
+
+* Установка LUWRAIN на~компьютер в~виде самостоятельной ОС
+* Установка LUWRAIN на~компьютер в~виде приложения для:
+** Microsoft Windows
+** [local:linux GNU/Linux] 

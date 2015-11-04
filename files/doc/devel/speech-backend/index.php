@@ -1,7 +1,7 @@
 <?php include "../../../functions.php"; luwrain_begin_page('/doc/devel/speech-backend/index.php', luwrain_current_lang() == 'ru'?'Реализация речевого вывода':'Preparing a speech back-end');?>
 <?php if (luwrain_current_lang() == 'en') {?>
                 <h1>Preparing a speech back-end</h1>
-                <p>This page is currently available only in&#160;Russian language.</p>
+                <p>Sorry, this page is still available in&#160;Russian language only. Please, try later.</p>
 
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
@@ -10,7 +10,7 @@
                 <ul>
                   <li>
                     <a href="/api/org/luwrain/speech/BackEnd.html">Страница <i>org.luwrain.speech.BackEnd</i>
-                    в&#160;LUWRAIN&#160;API</a>.
+                    в&#160;LUWRAIN&#160;API</a>
                   </li>
                 </ul>
                 <p>

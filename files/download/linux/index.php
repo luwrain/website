@@ -31,7 +31,7 @@
                 <h2>См.&#160;также</h2>
                 <ul>
                   <li>
-                    <a href="<?php echo luwrain_link('/doc/user/installation/linux/');?>">Инструкция по&#160;установке Luwrain на&#160;GNU/Linux</a>
+                    <a href="<?php echo luwrain_link('/doc/user/installation/linux/');?>">Инструкция по&#160;установке LUWRAIN в&#160;GNU/Linux</a>
                   </li>
                   <li><a href="<?php echo luwrain_link('/community/');?>">Наше&#160;сообщество</a></li>
                   <li><a href="<?php echo luwrain_link('/community/bugs/');?>">Сообщить об&#160;ошибке</a></li>
