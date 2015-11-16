@@ -31,22 +31,32 @@ FILE_TYPE="${INPUTFILE##*.}"
 ENPAGE="$TMP_DIR/en.licrict"
 RUPAGE="$TMP_DIR/ru.licrict"
 HEADERFILE="$TMP_DIR/header.sh"
+SED_FILE="$TMP_DIR/split.sed"
 
-MODE=header
+cat <<EOF > "$SED_FILE"
+1,/luwrain-page-en/{
+  h
+  s/luwrain-page-.*\$//
+  w $HEADERFILE
+  g
+}
 
-while read l; do
-    if echo "$l" | grep -qi luwrain-page-en; then
-	MODE=enpage
-    elif echo "$l" | grep -qi luwrain-page-ru; then
-	MODE=rupage
-    elif [ "$MODE" == enpage ]; then
-	echo "$l" >> "$ENPAGE"
-    elif [ "$MODE" == rupage ]; then
-	echo "$l" >> "$RUPAGE"
-    else
-	echo "$l" >> "$HEADERFILE"
-    fi
-done < "$INPUTFILE"
+/luwrain-page-ru/,\${
+  h
+  s/luwrain-page-.*\$//
+  w $RUPAGE
+  g
+}
+
+/luwrain-page-en/,/luwrain-page-ru/{
+  h
+  s/luwrain-page-.*\$//
+  w $ENPAGE
+  g
+}
+EOF
+
+sed -n -f "$SED_FILE" "$INPUTFILE"
 
 source "$HEADERFILE"
 
