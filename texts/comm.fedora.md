@@ -50,7 +50,7 @@ luwrain-page-ru
 Сборку LUWRAIN выполняем обычным способом:
 
 ```
-cd ~/luwrain  
+cd \~/luwrain  
 ./setup.sh
 ```
 

@@ -13,7 +13,7 @@ manual.app.news.licrict
 manual.clipboard.licrict
 manual.fundamentals.licrict
 manual.licrict
-manual.startwork.licrict
+manual.startwork.md
 manual.switching.licrict
 apps.licrict
 newapp.licrict
