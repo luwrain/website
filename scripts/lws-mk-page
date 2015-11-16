@@ -7,7 +7,6 @@
 # TARGETDIR must be without the trailing slash!
 
 THIS="${0##*/}"
-INDENT=16
 TMP_DIR="$(mktemp -d)"
 TARGETDIR="$1"
 INPUTFILE="$2"
@@ -73,28 +72,14 @@ cat <<EOF
 <?php if (luwrain_current_lang() == 'en') {?>
 EOF
 if [ -r "$ENPAGE" ]; then
-    if [ "$FILE_TYPE" == licrict ]; then
-	lopsus-page -i "$INDENT" "$ENPAGE"
-    elif [ "$FILE_TYPE" == md ]; then
-	Markdown.pl < "$ENPAGE"
-    else
-	echo "$THIS:unknown file type:$FILE_TYPE" >&2 
-	exit 1
-    fi
+    ./lws-mk-html "$FILE_TYPE" "$ENPAGE"
 fi
 cat <<EOF
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
 EOF
 if [ -r "$RUPAGE" ]; then
-    if [ "$FILE_TYPE" == licrict ]; then
-	lopsus-page -i "$INDENT" "$RUPAGE"
-    elif [ "$FILE_TYPE" == md ]; then
-	Markdown.pl < "$RUPAGE"
-    else
-	echo "$THIS:unknown file type:$FILE_TYPE" >&2 
-	exit 1
-    fi
+    ./lws-mk-html "$FILE_TYPE" "$RUPAGE"
 fi
 cat <<EOF
 <?php }?>

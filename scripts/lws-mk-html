@@ -1,0 +1,29 @@
+#!/bin/bash -e
+
+INDENT=16
+
+THIS="${0##*/}"
+
+FILE_TYPE="$1"
+INPUT_FILE="$2"
+
+[ -z "$FILE_TYPE" ] && echo "$THIS:file type is not given" >&2 && exit 1 
+[ -z "$INPUT_FILE" ] && echo "$THIS:input file is not given" >&2 && exit 1 
+
+if [ "$FILE_TYPE" == licrict ]; then
+    lopsus-page -i "$INDENT" "$INPUT_FILE"
+elif [ "$FILE_TYPE" == md ]; then
+
+#FIXME:By hex codes
+sed -i s/'^~'/'\&nbsp;'/g "$INPUT_FILE"
+sed -i s/'\([^\]\)~'/'\1\&nbsp;'/g "$INPUT_FILE"
+sed -i s/'\\~'/'~'/g "$INPUT_FILE"
+
+sed -i s/'---'/'\&mdash;'/g "$INPUT_FILE"
+sed -i s/'--'/'\&ndash;'/g "$INPUT_FILE"
+
+Markdown.pl < "$INPUT_FILE"
+else
+    echo "$THIS:unknown file type:$FILE_TYPE" >&2 
+    exit 1
+fi
