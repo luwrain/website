@@ -25,7 +25,7 @@
                   пользователей, оно имеет для&#160;нас очень большое значение. Надёжная обратная связь позволяет
                   вносить в&#160;LUWRAIN качественные и нужные улучшения.
                 </p>
-                <p>Сообщество LUWRAIN состоит из&#160;нескольких ресурсов:</p>
+                <h2>Сообщество LUWRAIN состоит из&#160;нескольких ресурсов:</h2>
                 <ul>
                   <li><a href="<?php echo luwrain_link('mailing-lists');?>">Наши списки рассылок</a></li>
                   <li><a href="http://twitter.com/luwrain">Лента новостей в&#160;Twitter</a></li>
@@ -33,12 +33,21 @@
                   <li><a href="<?php echo luwrain_link('extensions');?>">Расширения LUWRAIN</a></li>
                   <li><a href="<?php echo luwrain_link('bugs');?>">Сообщения об&#160;ошибках</a></li>
                 </ul>
-                <h2>Идеи и материалы сообщества</h2>
+                <h2>Материалы</h2>
+                <ul>
+                  <li><a href="http://download.luwrain.org/contrib/">Файлы, присланные членами нашего сообщества</a></li>
+                  <li>
+                    <a href="http://download.luwrain.org/media/">Звуковые файлы, пополняемая для оформления
+                    LUWRAIN</a>
+                  </li>
+                </ul>
+                <h2>Заметки и идеи</h2>
                 <ul>
                   <li>
-                    <a href="<?php echo luwrain_link('sonar.php');?>">Андрей Ампилов и Максим Белак о&#160;запуске LUWRAIN на&#160;дистрибутиве
+                    <a href="<?php echo luwrain_link('sonar.php');?>">Андрей Ампилов и Максим Белак о&#160;запуске LUWRAIN в&#160;дистрибутиве
                     Sonar</a>
                   </li>
+                  <li><a href="<?php echo luwrain_link('fedora.php');?>">Андрей Ампилов о&#160;запуске LUWRAIN в&#160;дистрибутиве Fedora</a></li>
                   <li><a href="<?php echo luwrain_link('web-browsing/');?>">Никита Цейковец о&#160;концепции навигации внутри веб-страниц</a></li>
                   <li>
                     <a href="http://habrahabr.ru/post/258413/">Никита Цейковец на&#160;Хабрахабр о&#160;разработке

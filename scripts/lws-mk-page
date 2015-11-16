@@ -1,14 +1,14 @@
 #!/bin/sh -e
-# Generates valid PHP script for page content
-# Usage: gen-page TARGETDIR INPUTFILE
-# TARGETDIR must be without trailing slash!
-#
-# Date: 2014-08-22
-# The Luwrain project, Michael Pozhidaev <msp@altlinux.org> 
+# Generates a valid PHP script with page content
+# Michael Pozhidaev <michael.pozhidaev@gmail.com>
+# Date: 2015-11-16
+
+# Usage: lws-mk-page TARGETDIR INPUTFILE
+# TARGETDIR must be without the trailing slash!
 
 THIS="${0##*/}"
 INDENT=16
-TMPDIR="$(mktemp -d)"
+TMP_DIR="$(mktemp -d)"
 TARGETDIR="$1"
 INPUTFILE="$2"
 
@@ -17,7 +17,7 @@ exit_handler()
     local rc=$?
     trap - EXIT
     cd 
-    /bin/rm -rf -- "$TMPDIR"
+    /bin/rm -rf -- "$TMP_DIR"
     exit $rc
 }
 
@@ -26,9 +26,11 @@ trap exit_handler EXIT HUP INT QUIT PIPE TERM
 [ -z "$TARGETDIR" ] && echo "$THIS:no target directory mentioned" >&2 && exit 1 
 [ -z "$INPUTFILE" ] && echo "$THIS:no input file mentioned" >&2 && exit 1 
 
-ENPAGE="$TMPDIR/en.licrict"
-RUPAGE="$TMPDIR/ru.licrict"
-HEADERFILE="$TMPDIR/header.sh"
+FILE_TYPE="${INPUTFILE##*.}"
+
+ENPAGE="$TMP_DIR/en.licrict"
+RUPAGE="$TMP_DIR/ru.licrict"
+HEADERFILE="$TMP_DIR/header.sh"
 
 MODE=header
 
@@ -60,12 +62,30 @@ cat <<EOF
 <?php include "$INCLUDE"; luwrain_begin_page('/$TARGET', luwrain_current_lang() == 'ru'?'$RUTITLE':'$ENTITLE');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 EOF
-[ -r "$ENPAGE" ] && lopsus-page -i "$INDENT" "$ENPAGE"
+if [ -r "$ENPAGE" ]; then
+    if [ "$FILE_TYPE" == licrict ]; then
+	lopsus-page -i "$INDENT" "$ENPAGE"
+    elif [ "$FILE_TYPE" == md ]; then
+	Markdown.pl < "$ENPAGE"
+    else
+	echo "$THIS:unknown file type:$FILE_TYPE" >&2 
+	exit 1
+    fi
+fi
 cat <<EOF
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
 EOF
-[ -r "$RUPAGE" ] && lopsus-page -i "$INDENT" "$RUPAGE"
+if [ -r "$RUPAGE" ]; then
+    if [ "$FILE_TYPE" == licrict ]; then
+	lopsus-page -i "$INDENT" "$RUPAGE"
+    elif [ "$FILE_TYPE" == md ]; then
+	Markdown.pl < "$RUPAGE"
+    else
+	echo "$THIS:unknown file type:$FILE_TYPE" >&2 
+	exit 1
+    fi
+fi
 cat <<EOF
 <?php }?>
 <?php luwrain_end_page('/$TARGET');?>

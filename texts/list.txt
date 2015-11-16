@@ -40,3 +40,4 @@ comm.publications.licrict
 comm.mailing-lists.licrict
 comm.web-browsing.licrict
 comm.sonar.licrict
+comm.fedora.md
