@@ -17,7 +17,7 @@ on~your flash stick or on~CD/DVD recordable media.
 
 Version: <?php echo lwr_version_iso();?>
 
-Release date: <?php echo lwr_release_date_iso_en();?>
+Date of~release: <?php echo lwr_release_date_iso_en();?>
 
 * English language:
  * [i386.iso] 

@@ -10,13 +10,13 @@ luwrain-page-en
 
 Clik on~the~direct link below to~start  downloading.
 
-Version: <?php echo luwrain_version_linux();?>
+Version: <?php echo lwr_version_linux();?>
 
-Date of~release: <?php echo luwrain_release_date_linux_en();?>
+Date of~release: <?php echo lwr_release_date_linux_en();?>
 
 Target platform: GNU/Linux
 
-* luwrain-linux-<?php echo luwrain_version_linux();?>.tar.gz
+* luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz
 
 ## See~also
 
@@ -31,13 +31,13 @@ luwrain-page-ru
 
 Используйте прямую ссылку ниже, чтобы начать загрузку.
 
-Версия системы: <?php echo luwrain_version_linux();?>
+Версия системы: <?php echo lwr_version_linux();?>
 
-Дата релиза: <?php echo luwrain_release_date_linux_ru();?>
+Дата релиза: <?php echo lwr_release_date_linux_ru();?>
 
 Платформа: GNU/Linux (любая разрядность)
 
-* luwrain-linux-<?php echo luwrain_version_linux();?>.tar.gz
+* luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz
 
 ## См.~также
 

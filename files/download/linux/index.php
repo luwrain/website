@@ -4,14 +4,14 @@
 
 <p>Clik on&#160;the&#160;direct link below to&#160;start  downloading.</p>
 
-<p>Version: <?php echo luwrain_version_linux();?></p>
+<p>Version: <?php echo lwr_version_linux();?></p>
 
-<p>Date of&#160;release: <?php echo luwrain_release_date_linux_en();?></p>
+<p>Date of&#160;release: <?php echo lwr_release_date_linux_en();?></p>
 
 <p>Target platform: GNU/Linux</p>
 
 <ul>
-<li>luwrain-linux-<?php echo luwrain_version_linux();?>.tar.gz</li>
+<li>luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz</li>
 </ul>
 
 <h2>See&#160;also</h2>
@@ -27,14 +27,14 @@
 
 <p>Используйте прямую ссылку ниже, чтобы начать загрузку.</p>
 
-<p>Версия системы: <?php echo luwrain_version_linux();?></p>
+<p>Версия системы: <?php echo lwr_version_linux();?></p>
 
-<p>Дата релиза: <?php echo luwrain_release_date_linux_ru();?></p>
+<p>Дата релиза: <?php echo lwr_release_date_linux_ru();?></p>
 
 <p>Платформа: GNU/Linux (любая разрядность)</p>
 
 <ul>
-<li>luwrain-linux-<?php echo luwrain_version_linux();?>.tar.gz</li>
+<li>luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz</li>
 </ul>
 
 <h2>См.&#160;также</h2>

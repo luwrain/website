@@ -12,7 +12,7 @@ on&#160;your flash stick or on&#160;CD/DVD recordable media.</p>
 
 <p>Version: <?php echo lwr_version_iso();?></p>
 
-<p>Release date: <?php echo lwr_release_date_iso_en();?></p>
+<p>Date of&#160;release: <?php echo lwr_release_date_iso_en();?></p>
 
 <ul>
 <li>English language:

@@ -35,11 +35,12 @@ dev.txt-reading.licrict
 dev.speech-backend.licrict
 download.md
 download.linux.md
+download.win.md
 download.iso.md
 download.nightly.md
 download.sdk.md
 download.git.licrict
-download.tarball.licrict
+download.tarball.md
 comm.licrict
 comm.publications.licrict
 comm.mailing-lists.licrict

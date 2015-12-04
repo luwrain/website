@@ -7,7 +7,7 @@ It&#160;is&#160;prepared for&#160;Java developers and provides necessary jar's, 
 
 <p>Version: <?php echo lwr_version_sdk();?></p>
 
-<p>Release date: <?php echo lwr_release_date_sdk_en();?></p>
+<p>Date of&#160;release: <?php echo lwr_release_date_sdk_en();?></p>
 
 <p>You can download LUWRAIN&#160;SDK by&#160;the&#160;following link:</p>
 
