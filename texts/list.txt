@@ -15,6 +15,7 @@ manual.fundamentals.licrict
 manual.licrict
 manual.startwork.md
 manual.switching.licrict
+manual.ref.commands.md
 apps.licrict
 newapp.licrict
 newapp.intro.licrict
@@ -32,7 +33,11 @@ dev.linux-compilation.licrict
 dev.iso.licrict
 dev.txt-reading.licrict
 dev.speech-backend.licrict
-download.licrict
+download.md
+download.linux.md
+download.iso.md
+download.nightly.md
+download.sdk.md
 download.git.licrict
 download.tarball.licrict
 comm.licrict

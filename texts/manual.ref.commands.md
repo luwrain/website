@@ -1,31 +1,43 @@
-                                     Перечень доступных команд (обращаем внимание &mdash; регистр имеет значение):
 
-      сlose &mdash; закрыть
-      commander &mdash; файловый менеджер
-      contacts &mdash; адресная книга
-      context-menu &mdash; активация контекстного меню в областях где это возможно
-      control-panel &mdash; панель управления
-      copy &mdash; скопировать
-      cut &mdash; вырезать
-      paste &mdash; вставить
-      decrease-font-size &mdash; уменьшить размер шрифта на экране
-      increase-font-size &mdash; увеличить размер шрифта на экране
-      delete &mdash; удалить элемент
-      fetch &mdash; активация функции доставки новостей
-      mail &mdash; клиент электронной почты
-      main-menu &mdash; главное меню
-      message &mdash; новое сообщение
-      news &mdash; новости
-      notepad &mdash; блокнот
-      open &mdash; открыть файл
-      refresh &mdash; обновить область
-      search &mdash; режим поиска
-      save &mdash; сохранить
-      switch-next-app &mdash; переключиться на следующее активное приложение
-      switch-next-area &mdash; переключиться на следующую активную область
-      term &mdash; терминал
-      twitter &mdash; твиттер
-      wiki - википедия
-      registry &mdash; реестр системы
-      quit &mdash; выключить LUWRAIN
+ENTITLE='Commands'
+RUTITLE='ДОступные команды'
+TARGET=doc/user/manual/commands/index.php
 
+luwrain-page-en
+
+Sorry, this page is available in Russian only.
+
+luwrain-page-ru
+
+#                                      Перечень доступных команд 
+
+**ВНИМАНИЕ!**  Команды обрабатываются системой с~учётом регистра.
+
+* close --- закрыть
+* commander --- файловый менеджер
+* contacts --- адресная книга
+* context-menu --- активация контекстного меню в областях, которые это поддерживают
+* control-panel --- панель управления
+* copy --- скопировать
+* cut --- вырезать
+* paste --- вставить
+* decrease-font-size --- уменьшить размер шрифта на экране
+* increase-font-size --- увеличить размер шрифта на экране
+* delete --- удалить элемент
+* fetch --- активация функции доставки почты и новостей
+* mail --- клиент электронной почты
+* main-menu --- главное меню
+* message --- новое сообщение
+* news --- новости
+* notepad --- блокнот
+* open --- открыть файл
+* refresh --- обновить область
+* registry --- реестр системы
+* quit --- завершить работу в~LUWRAIN
+* search --- режим поиска
+* save --- сохранить
+* switch-next-app --- переключиться на следующее запущенное  приложение
+* switch-next-area --- переключиться на следующую активную область
+* term --- терминал
+* twitter --- Твиттер
+* wiki - википедия

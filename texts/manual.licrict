@@ -27,3 +27,7 @@ luwrain-page-ru
 
 # [local:app/commander/ Файловый менеджер]
 # [local:app/news/ Чтение новостей]
+
+== Справочная информация ==
+
+* [local:commands/ Доступные команды]

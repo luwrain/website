@@ -23,6 +23,10 @@
                   <li><a href="<?php echo luwrain_link('app/commander/');?>">Файловый менеджер</a></li>
                   <li><a href="<?php echo luwrain_link('app/news/');?>">Чтение новостей</a></li>
                 </ol>
+                <h2>Справочная информация</h2>
+                <ul>
+                  <li><a href="<?php echo luwrain_link('commands/');?>">Доступные команды</a></li>
+                </ul>
 
 <?php }?>
 <?php luwrain_end_page('/doc/user/manual/index.php');?>

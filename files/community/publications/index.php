@@ -9,14 +9,14 @@
                 <h2>Papers</h2>
                 <ul>
                   <li>
-                    <a href="http://www.linuxjournal.com/content/july-2015-issue-linux-journal-mobile">Luwrain:
+                    <a href="http://marigostra.com/materials/LuwrainLinuxJournal2015.html">Introducing LUWRAIN:
                     Accessibility Solution for the Blind</a> (Linux Journal, Texus, US, July, 2015, English
                     language)
                   </li>
                   <li>
-                    <a href="http://dl.acm.org/citation.cfm?id=2687234&amp;CFID=464939051&amp;CFTOKEN=29213994">The
-                    Framework for Accessible Applications: Text-Based Case for Blind People</a> (ACM&#160;Digital
-                    Library, US, December, 2014, English language)
+                    <a href="http://marigostra.com/materials/LuwrainSecr2014.html">The Framework for Accessible
+                    Applications: Text-Based Case for Blind People</a> (ACM&#160;Digital Library, US, December,
+                    2014, English language)
                   </li>
                 </ul>
                 <h2>Events</h2>
@@ -100,13 +100,13 @@
                 <h2>Статьи</h2>
                 <ul>
                   <li>
-                    <a href="http://www.linuxjournal.com/content/july-2015-issue-linux-journal-mobile">Luwrain:
+                    <a href="http://marigostra.ru/materials/LuwrainLinuxJournal2015.html">Introducing LUWRAIN:
                     Accessibility Solution for the Blind</a> (Linux Journal, Техас, США, июль 2015, анг.&#160;яз.)
                   </li>
                   <li>
-                    <a href="http://dl.acm.org/citation.cfm?id=2687234&amp;CFID=464939051&amp;CFTOKEN=29213994">The
-                    Framework for Accessible Applications: Text-Based Case for Blind People</a> (Электронная
-                    библиотека ACM, США, декабрь 2014, анг.&#160;яз.)
+                    <a href="http://marigostra.ru/materials/LuwrainSecr2014.html">The Framework for Accessible
+                    Applications: Text-Based Case for Blind People</a> (Электронная библиотека ACM, США, декабрь
+                    2014, анг.&#160;яз.)
                   </li>
                 </ul>
                 <h2>Мероприятия</h2>
