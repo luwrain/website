@@ -17,7 +17,7 @@
 <h2>See&#160;also</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/user/installation/linux/');?>">Installation instructions for&#160;GNU/Linux</a></li>
+<li><a href="<?php echo luwrain_link('/doc/user/installation/linux/');?>">Installation for&#160;GNU/Linux</a></li>
 <li><a href="<?php echo luwrain_link('/community/');?>">Our&#160;community</a></li>
 <li><a href="<?php echo luwrain_link('/community/bugs/');?>">Report a&#160;bug</a></li>
 </ul>

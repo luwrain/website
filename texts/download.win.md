@@ -19,7 +19,7 @@ Target platform: Microsoft Windows 7/8/8.1
 
 ## See~also
 
- * [Installation instructions for~Microsoft Windows](local:/doc/user/installation/windows/)
+ * [Installation for~Microsoft Windows](local:/doc/user/installation/windows/)
 * [Our~community](local:/community/)
 * [Report a~bug](local:/community/bugs/)
 

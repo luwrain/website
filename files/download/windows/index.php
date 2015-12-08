@@ -17,7 +17,7 @@
 <h2>See&#160;also</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/user/installation/windows/');?>">Installation instructions for&#160;Microsoft Windows</a>
+<li><a href="<?php echo luwrain_link('/doc/user/installation/windows/');?>">Installation for&#160;Microsoft Windows</a>
 <ul>
 <li><a href="<?php echo luwrain_link('/community/');?>">Our&#160;community</a></li>
 <li><a href="<?php echo luwrain_link('/community/bugs/');?>">Report a&#160;bug</a></li>

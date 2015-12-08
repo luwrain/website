@@ -20,7 +20,7 @@ Target platform: GNU/Linux
 
 ## See~also
 
-* [Installation instructions for~GNU/Linux](local:/doc/user/installation/linux/)
+* [Installation for~GNU/Linux](local:/doc/user/installation/linux/)
 * [Our~community](local:/community/)
 * [Report a~bug](local:/community/bugs/)
 

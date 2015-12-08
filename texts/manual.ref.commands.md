@@ -1,6 +1,6 @@
 
 ENTITLE='Commands'
-RUTITLE='ДОступные команды'
+RUTITLE='Доступные команды'
 TARGET=doc/user/manual/commands/index.php
 
 luwrain-page-en

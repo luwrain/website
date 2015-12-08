@@ -1,0 +1,8 @@
+#!/bin/bash -e
+
+TEXTS_DIR=../texts
+
+find "$TEXTS_DIR" -type f  | while read l; do
+    echo "Checking ${l##*/}"
+    egrep -o '[а-яА-Я]*' "$l" | hunspell -l | sort -u
+done 
