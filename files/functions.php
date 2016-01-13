@@ -3,7 +3,7 @@
 
   function luwrain_current_lang()
 {
-    return array_key_exists('lang', $_GET)?$_GET['lang']:'en';
+    return array_key_exists('lang', $_GET)?$_GET['lang']:'ru';
 }
 
   function luwrain_current_mode()

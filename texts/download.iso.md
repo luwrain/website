@@ -20,11 +20,11 @@ Version: <?php echo lwr_version_iso();?>
 Date of~release: <?php echo lwr_release_date_iso_en();?>
 
 * English language:
- * [i386.iso] 
- * [amd64.iso]
+ * [en-i386.iso] 
+ * [en-amd64.iso]
 * Russian language:
- * [i386.iso] 
- * [amd64.iso]
+ * <a href="http://download.luwrain.org/iso/luwrain-ru-i386-<?php echo lwr_version_iso();?>.iso">[ru-i386.iso]</a>
+ * [ru-amd64.iso]
 
 ## See also
 
@@ -49,11 +49,11 @@ luwrain-page-ru
 Дата релиза: <?php echo lwr_release_date_iso_ru();?>
 
 * Русская версия: 
- * [i386.iso]
- * [amd64.iso]
+ * <a href="http://download.luwrain.org/iso/luwrain-ru-i386-<?php echo lwr_version_iso();?>.iso">[ru-i386.iso]</a>
+ * [ru-amd64.iso]
 * Английская версия:
- * [i386.iso] 
- * [amd64.iso]
+ * [en-i386.iso] 
+ * [en-amd64.iso]
 
 ## См.~также
 

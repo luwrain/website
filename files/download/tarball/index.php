@@ -10,15 +10,15 @@ you can  take our tarball distribution available by&#160;the&#160;direct link be
 <p>Date of&#160;release: <?php echo lwr_release_date_tarball_en();?></p>
 
 <ul>
-<li>luwrain-<?php echo lwr_version_tarball();?>.tar.gz </li>
+<li><a href="http://download.luwrain.org/src/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a> </li>
 </ul>
 
 <p>In&#160;addition, for&#160;your convenience 
- we also provide a&#160;source distribution wil all necessary third-party libraries and media data. <br />
+ we also provide a&#160;source distribution with all necessary third-party libraries and media data. <br />
 Use this link to&#160;get&#160;it:</p>
 
 <ul>
-<li>luwrain-data-<?php echo lwr_version_tarball();?>.tar.gz </li>
+<li><a href="http://download.luwrain.org/src/luwrain-data-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-data-<?php echo lwr_version_tarball();?>.tar.gz</a> </li>
 </ul>
 
 <h2>See&#160;also</h2>
@@ -39,14 +39,14 @@ Use this link to&#160;get&#160;it:</p>
 <p>Дата релиза: <?php echo lwr_release_date_tarball_ru();?></p>
 
 <ul>
-<li>luwrain-<?php echo lwr_version_tarball();?>.tar.gz </li>
+<li><a href="http://download.luwrain.org/src/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a> </li>
 </ul>
 
 <p>Помимо этого, мы также предоставляем архив с&#160;исходными текстами, в который включены все&#160;сторонние библиотеки 
 и наши звуковые файлы: </p>
 
 <ul>
-<li>luwrain-data-<?php echo lwr_version_tarball();?>.tar.gz </li>
+<li><a href="http://download.luwrain.org/src/luwrain-data-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-data-<?php echo lwr_version_tarball();?>.tar.gz</a></li>
 </ul>
 
 <h2>См.&#160;также</h2>

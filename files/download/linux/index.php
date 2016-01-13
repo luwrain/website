@@ -11,7 +11,7 @@
 <p>Target platform: GNU/Linux</p>
 
 <ul>
-<li>luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz</li>
+<li><a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz">luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz</a></li>
 </ul>
 
 <h2>See&#160;also</h2>
@@ -34,7 +34,7 @@
 <p>Платформа: GNU/Linux (любая разрядность)</p>
 
 <ul>
-<li>luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz</li>
+<li><a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz">luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz</a> </li>
 </ul>
 
 <h2>См.&#160;также</h2>

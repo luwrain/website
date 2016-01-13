@@ -255,7 +255,7 @@
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-preview.git">git://github.com/luwrain/app-preview.git</a>
-                    &#x2014; просмотор документов
+                    &#x2014; просмотр документов
                   </li>
                   <li>
                     <a target="_blank" href="https://github.com/luwrain/app-term.git">git://github.com/luwrain/app-term.git</a>

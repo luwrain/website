@@ -7,7 +7,6 @@ luwrain-page-en
 
 # Distribution for~GNU/Linux
 
-
 Clik on~the~direct link below to~start  downloading.
 
 Version: <?php echo lwr_version_linux();?>
@@ -16,7 +15,7 @@ Date of~release: <?php echo lwr_release_date_linux_en();?>
 
 Target platform: GNU/Linux
 
-* luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz
+* <a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz">luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz</a>
 
 ## See~also
 
@@ -37,7 +36,7 @@ luwrain-page-ru
 
 Платформа: GNU/Linux (любая разрядность)
 
-* luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz
+* <a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz">luwrain-linux-<?php echo lwr_version_linux();?>.tar.gz</a> 
 
 ## См.~также
 

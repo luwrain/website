@@ -1,4 +1,4 @@
-<?php include "../../../../functions.php"; luwrain_begin_page('/doc/user/manual/commands/index.php', luwrain_current_lang() == 'ru'?'ДОступные команды':'Commands');?>
+<?php include "../../../../functions.php"; luwrain_begin_page('/doc/user/manual/commands/index.php', luwrain_current_lang() == 'ru'?'Доступные команды':'Commands');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <p>Sorry, this page is available in Russian only.</p>
 <?php }?>

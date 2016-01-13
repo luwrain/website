@@ -17,13 +17,13 @@ on&#160;your flash stick or on&#160;CD/DVD recordable media.</p>
 <ul>
 <li>English language:
 <ul>
-<li>[i386.iso] </li>
-<li>[amd64.iso]</li>
+<li>[en-i386.iso] </li>
+<li>[en-amd64.iso]</li>
 </ul></li>
 <li>Russian language:
 <ul>
-<li>[i386.iso] </li>
-<li>[amd64.iso]</li>
+<li><a href="http://download.luwrain.org/iso/luwrain-ru-i386-<?php echo lwr_version_iso();?>.iso">[ru-i386.iso]</a></li>
+<li>[ru-amd64.iso]</li>
 </ul></li>
 </ul>
 
@@ -53,13 +53,13 @@ on&#160;your flash stick or on&#160;CD/DVD recordable media.</p>
 <ul>
 <li>Русская версия: 
 <ul>
-<li>[i386.iso]</li>
-<li>[amd64.iso]</li>
+<li><a href="http://download.luwrain.org/iso/luwrain-ru-i386-<?php echo lwr_version_iso();?>.iso">[ru-i386.iso]</a></li>
+<li>[ru-amd64.iso]</li>
 </ul></li>
 <li>Английская версия:
 <ul>
-<li>[i386.iso] </li>
-<li>[amd64.iso]</li>
+<li>[en-i386.iso] </li>
+<li>[en-amd64.iso]</li>
 </ul></li>
 </ul>
 

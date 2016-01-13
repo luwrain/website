@@ -2,17 +2,17 @@
 
   function lwr_version()
   {
-    return '0.5.0';
+    return '0.4.9.3';
   }
 
   function lwr_release_date_en()
   {
-    return 'January 1, 2016';
+    return 'December 28, 2015';
   }
 
   function lwr_release_date_ru()
   {
-    return '1 января 2016 г.';
+    return '28 декабря 2015 г.';
   }
 
   function lwr_version_windows()
@@ -62,17 +62,17 @@
 
   function lwr_version_iso()
   {
-    return lwr_version();
+    return '0.5.0';
   }
 
   function lwr_release_date_iso_en()
   {
-    return lwr_release_date_en();
+    return 'December 30, 2015';
   }
 
   function lwr_release_date_iso_ru()
   {
-    return lwr_release_date_ru();
+    return '30 декабря 2015 г.';
   }
 
   function lwr_version_sdk()
@@ -92,17 +92,17 @@
 
   function lwr_version_tarball()
   {
-    return lwr_version();
+    return '0.5.0';
   }
 
   function lwr_release_date_tarball_en()
   {
-    return lwr_release_date_en();
+    return 'December 30, 2015';
   }
 
   function lwr_release_date_tarball_ru()
   {
-    return lwr_release_date_ru();
+    return '30 декабря 2015 г.';
   }
 
 ?>
