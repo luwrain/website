@@ -21,9 +21,10 @@
 <ul>
 <li><a href="<?php echo luwrain_link('app/commander/');?>">Файловый менеджер</a></li>
 <li><a href="<?php echo luwrain_link('app/news/');?>">Чтение новостей</a></li>
+<li><a href="<?php echo luwrain_link('app/mail/');?>">Электронная почта</a></li>
+<li><a href="<?php echo luwrain_link('app/message/');?>">Составление нового сообщения</a></li>
 <li><a href="<?php echo luwrain_link('app/contacts/');?>">Адресная книга</a></li>
 <li><a href="<?php echo luwrain_link('app/googlesearch/');?>">Поиск в Google</a></li>
-<li><a href="<?php echo luwrain_link('app/mail/');?>">Электронная почта</a></li>
 <li><a href="<?php echo luwrain_link('app/notepad/');?>">Блокнот</a></li>
 <li><a href="<?php echo luwrain_link('app/twitter/');?>">Твиттер</a></li>
 <li><a href="<?php echo luwrain_link('app/wiki/');?>">Поиск в Википедии</a></li>

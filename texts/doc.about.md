@@ -134,6 +134,9 @@ but and a~origin of~inspiration as~well!
 
 With best wishes, [Michael Pozhidaev](http://marigostra.com/).
 
+![image](http://download.luwrain.org/images/2015-07-26-msp-small.jpg)
+
+
 luwrain-page-ru
 
 # О~нашем проекте
@@ -266,3 +269,5 @@ LUWRAIN сконструирован таким образом, чтобы ка�
 но и стали отправной точкой для~интересного поиска!
 
 С~наилучшими пожеланиями, [Михаил Пожидаев](http://marigostra.ru).
+
+![image](http://download.luwrain.org/images/2015-07-26-msp-small.jpg)

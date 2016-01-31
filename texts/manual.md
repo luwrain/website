@@ -25,9 +25,10 @@ luwrain-page-ru
 5. Приложения
  * [Файловый менеджер](local:app/commander/)
  * [Чтение новостей](local:app/news/)
+ * [Электронная почта](local:app/mail/)
+ * [Составление нового сообщения](local:app/message/)
  * [Адресная книга](local:app/contacts/)
  * [Поиск в Google](local:app/googlesearch/)
- * [Электронная почта](local:app/mail/)
  * [Блокнот](local:app/notepad/)
  * [Твиттер](local:app/twitter/)
  * [Поиск в Википедии](local:app/wiki/)
