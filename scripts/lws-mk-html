@@ -19,8 +19,13 @@ sed -i s/'^~'/'\&nbsp;'/g "$INPUT_FILE"
 sed -i s/'\([^\]\)~'/'\1\&nbsp;'/g "$INPUT_FILE"
 sed -i s/'\\~'/'~'/g "$INPUT_FILE"
 
+#mdash
 sed -i s/'---'/'\&mdash;'/g "$INPUT_FILE"
-sed -i s/'--'/'\&ndash;'/g "$INPUT_FILE"
+
+#ndash
+sed -i s/'^--'/'\&ndash;'/g "$INPUT_FILE"
+sed -i s/'\([^\]\)--'/'\1\&ndash;'/g "$INPUT_FILE"
+sed -i s/'\\--'/'--'/g "$INPUT_FILE"
 
 Markdown.pl < "$INPUT_FILE"
 else

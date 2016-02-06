@@ -30,8 +30,8 @@ on&#160;your flash stick or on&#160;CD/DVD recordable media.</p>
 <h2>See also</h2>
 
 <ul>
-<li>How to write ISO image on flash stick in&#160;Microsoft Windows</li>
-<li>How to write ISO image on flash stick in&#160;GNU/Linux</li>
+<li><a href="<?php echo luwrain_link('writing/');?>">Writing the&#160;ISO-image on&#160;a&#160;media</a></li>
+<li><a href="<?php echo luwrain_link('/doc/user/installation/iso/');?>">Installation as&#160;a&#160;stand-alone OS</a></li>
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
@@ -66,8 +66,8 @@ on&#160;your flash stick or on&#160;CD/DVD recordable media.</p>
 <h2>См.&#160;также</h2>
 
 <ul>
-<li>Как записать ISO-образ на&#160;флэш-носитель в&#160;Microsoft Windows</li>
-<li>Как записать ISO-образ на&#160;флэш-носитель в&#160;GNU/Linux</li>
+<li><a href="<?php echo luwrain_link('writing/');?>">Запись загруженного ISO-образа на&#160;носитель</a></li>
+<li><a href="<?php echo luwrain_link('/doc/user/installation/iso/');?>">Установка в&#160;виде самостоятельной ОС</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/download/iso/index.php');?>

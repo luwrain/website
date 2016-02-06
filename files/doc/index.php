@@ -21,7 +21,7 @@ Choose any&#160;section you need:</p>
 <h2>About the&#160;project</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('about/');?>">The&#160;free story what LUWRAIN is and why do we think blind users need it?</a></li>
+<li><a href="<?php echo luwrain_link('about/');?>">The&#160;free story what LUWRAIN is, and why do we think blind users need it?</a></li>
 <li><a href="<?php echo luwrain_link('difference/');?>">Why is LUWRAIN different than other accessible solutions?</a></li>
 <li><a href="<?php echo luwrain_link('authors/');?>">The project authors</a></li>
 <li><a href="<?php echo luwrain_link('legal/');?>">Legal notes</a></li>
@@ -41,11 +41,11 @@ Choose any&#160;section you need:</p>
 <li><a href="<?php echo luwrain_link('user/installation/');?>">Инструкция по&#160;установке: как установить систему на&#160;жёсткий диск?</a></li>
 <li><a href="<?php echo luwrain_link('user/manual/');?>">Руководство пользователя: полное описание правил работы в&#160;нашей среде</a></li>
 <li><a href="<?php echo luwrain_link('user/try/');?>">Пробный запуск: как&#160;познакомиться с&#160;системой без&#160;установки на&#160;жёсткий диск?</a></li>
-<li><a href="<?php echo luwrain_link('user/start/');?>">Быстрый старт: минимальное описание необходимых действий для&#160;быстрой установки системы  на&#160;жёсткий диск и начала работы</a></li>
+<li><a href="<?php echo luwrain_link('user/start/');?>">С чего начать?: минимальное описание необходимых действий для&#160;быстрой установки системы  на&#160;жёсткий диск и начала работы</a></li>
 <li><a href="<?php echo luwrain_link('/community/bugs/');?>">Как сообщить об&#160;ошибке?</a></li>
 </ul></li>
 <li><a href="<?php echo luwrain_link('new-app/');?>">Документация для&#160;разработчиков собственных  приложений</a></li>
-<li><a href="<?php echo luwrain_link('devel/');?>">Документация для&#160;разработчиков нашей среды</a></li>
+<li><a href="<?php echo luwrain_link('devel/');?>">Документация для&#160;участников нашей команды</a></li>
 </ul>
 
 <h2>О&#160;проекте</h2>

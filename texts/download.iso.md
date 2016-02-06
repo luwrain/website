@@ -28,8 +28,8 @@ Date of~release: <?php echo lwr_release_date_iso_en();?>
 
 ## See also
 
-* How to write ISO image on flash stick in~Microsoft Windows
-* How to write ISO image on flash stick in~GNU/Linux
+* [Writing the~ISO-image on~a~media](local:writing/)
+* [Installation as~a~stand-alone OS](local:/doc/user/installation/iso/)
 
 luwrain-page-ru
 
@@ -57,5 +57,5 @@ luwrain-page-ru
 
 ## См.~также
 
-* Как записать ISO-образ на~флэш-носитель в~Microsoft Windows
-* Как записать ISO-образ на~флэш-носитель в~GNU/Linux
+* [Запись загруженного ISO-образа на~носитель](local:writing/)
+* [Установка в~виде самостоятельной ОС](local:/doc/user/installation/iso/)

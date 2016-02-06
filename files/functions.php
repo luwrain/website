@@ -323,7 +323,7 @@ function luwrain_link($path)
 	  <ul class="footerList">
 	    <li class="sectionFooter">
 	      <div id = "footer1">
-		<span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2015 Разработчики LUWRAIN':'&#169; 2012&#x2013;2015 LUWRAIN developers'?></span>
+		<span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2016 Разработчики LUWRAIN':'&#169; 2012&#x2013;2016 LUWRAIN developers'?></span>
 	      </div>
 	    </li>
 	    <li class="sectionFooter">
