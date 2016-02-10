@@ -1,6 +1,3 @@
-installation.md
-installation.iso.md
-installation.linux.licrict
 download.md
 download.linux.md
 download.win.md
@@ -16,15 +13,6 @@ comm.mailing-lists.licrict
 comm.web-browsing.licrict
 comm.sonar.licrict
 comm.fedora.md
-user.licrict
-user.start.md
-doc.md
-doc.about.md
-doc.legal.licrict
-doc.difference.licrict
-doc.authors.licrict
-doc.faq.licrict
-doc.roadmap.licrict
 manual.apps.md
 manual.app.commander.licrict
 manual.app.news.licrict
@@ -42,6 +30,9 @@ manual.md
 manual.startwork.md
 manual.switching.licrict
 manual.ref.commands.md
+installation.md
+installation.iso.md
+installation.linux.licrict
 newapp.licrict
 newapp.intro.licrict
 newapp.essentials.licrict
@@ -59,3 +50,14 @@ dev.compilation.md
 dev.iso.md
 dev.txt-reading.licrict
 dev.speech-backend.licrict
+user.md
+user.try.md
+user.start.md
+doc.md
+doc.about.md
+doc.legal.licrict
+doc.difference.licrict
+doc.authors.licrict
+doc.faq.licrict
+doc.roadmap.licrict
+

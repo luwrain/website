@@ -1,3 +1,23 @@
-<?php include "../../../functions.php"; luwrain_begin_page('/doc/user/try/index.php', luwrain_current_lang() == 'ru'?'С чего начать?':'Try now');?>
-<?php luwrain_content_not_written();?>
+<?php include "../../../functions.php"; luwrain_begin_page('/doc/user/try/index.php', luwrain_current_lang() == 'ru'?'Пробный запуск':'Try now');?>
+<?php if (luwrain_current_lang() == 'en') {?>
+<h1>Try now</h1>
+<?php }?>
+<?php if (luwrain_current_lang() == 'ru') {?>
+<h1>Пробный запуск</h1>
+
+<p>Пробный запуск LUWRAIN без&#160;установки на&#160;жёсткий диск возможен только 
+в&#160;режиме live CD, используя наш загрузочный ISO-образ, основанный на&#160;ядре Linux.
+Режим ознакомления в&#160;виде приложения для&#160;Microsoft Windows или GNU/Linux невозможен,
+поскольку LUWRAIN требует установленной виртуальной машины Java и настроенные речевые синтезаторы.
+Распространение наших образов производится бесплатно, и все материалы свободно доступны на&#160;условиях лицензии GPL&#160;v.3.
+Ниже на&#160;этой странице приводится описание ожидаемого поведения LUWRAIN при&#160;успешном старте,
+но перед этим  вы должны загрузить ISO-образ с&#160;нашего сайта 
+и записать его на&#160;какой-либо загрузочный носитель (компакт-диск или флэшку).
+Воспользуйтесь, пожалуйста, двумя ссылками из&#160;списка, чтобы подготовить носитель для&#160;запуска LUWRAIN:</p>
+
+<ul>
+<li><a href="<?php echo luwrain_link('/download/iso/');?>">Прямые ссылки на&#160;загрузочные образы</a></li>
+<li><a href="<?php echo luwrain_link('/download/iso/writing/');?>">Подробные инструкции по&#160;записи ISO-образа на носитель</a></li>
+</ul>
+<?php }?>
 <?php luwrain_end_page('/doc/user/try/index.php');?>
