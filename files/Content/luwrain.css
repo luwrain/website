@@ -348,20 +348,21 @@ img{
 	float:left;
 	text-align: center;
 }
-#headerPart .headerList  .sectionHeader #mainPart #insidePageText {
-	width:587px;
-	padding-top: 73px;
-	font-family: Arial;
+#headerPart .headerList .sectionHeader #mainPart #insidePageText {
 	color: #303030;
-	line-height: 1.25em;
 	letter-spacing: -0.0035em;
+	line-height: 1.25em;
+	padding-top: 73px;
+	width: 587px;
 }
-#headerPart .headerList  .sectionHeader #mainPart #insidePageText  h1{
-	font-size: 36px;
-	text-decoration:none;
-	font-weight: normal;
+#headerPart .headerList .sectionHeader #mainPart #insidePageText h1 {
 	color: #000000;
+	font-size: 36px;
+	font-weight: normal;
 	letter-spacing: -0.02em;
+	line-height: 1.25em;
+	text-align: center;
+	text-decoration: none;
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText  h2{
 	font-size: 20px;
@@ -378,19 +379,17 @@ img{
 	font-weight: normal;
 	padding-top: 5px;
 }
-#headerPart .headerList  .sectionHeader #mainPart #insidePageText  p{
-	font-size: 14px;
-	color:#303030;
-	text-decoration:none;
+#headerPart .headerList .sectionHeader #mainPart #insidePageText p {
+	color: #303030;
 	font-weight: normal;
+	text-decoration: none;
 }
-#headerPart .headerList  .sectionHeader #mainPart #insidePageText  ul{
-	padding-left: 20px; 
-	padding-top: 5px;
-	font-size: 14px;
-	color:#303030;
-	text-decoration:none;
+#headerPart .headerList .sectionHeader #mainPart #insidePageText ul {
+	color: #303030;
 	font-weight: normal;
+	padding-left: 20px;
+	padding-top: 5px;
+	text-decoration: none;
 }
 #headerPart .headerList  .sectionHeader #mainPart #insidePageText  ul li span {
 	color:#707070;
