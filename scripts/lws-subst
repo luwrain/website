@@ -1,11 +1,11 @@
-#!/bin/sh
+#!/bin/bash
 
 [ -z "$1" ] && echo "${0##*/}:no input file" >&2 && exit 1
 
-subst s/'href="local:\([^"]*\)"'/'href="<?php echo luwrain_link('\''\1'\'');?>"'/g "$1"
+sed -i -e s/'href="local:\([^"]*\)"'/'href="<?php echo luwrain_link('\''\1'\'');?>"'/g "$1"
 
-subst s/'&nbsp;'/'\&#160;'/g "$1"
-subst s/'&ndash;'/'\&#x2013;'/g "$1"
-subst s/'&mdash;'/'\&#x2014;'/g "$1"
-subst s/'&quot;'/'\&#x22;'/g "$1"
-subst s/'&apos;'/'\&#x27;'/g "$1"
+sed -i -e s/'&nbsp;'/'\&#160;'/g "$1"
+sed -i -e s/'&ndash;'/'\&#x2013;'/g "$1"
+sed -i -e s/'&mdash;'/'\&#x2014;'/g "$1"
+sed -i -e s/'&quot;'/'\&#x22;'/g "$1"
+sed -i -e s/'&apos;'/'\&#x27;'/g "$1"

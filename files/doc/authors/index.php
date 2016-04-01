@@ -90,11 +90,16 @@
                 <p>Мы очень благодарны этим&#160;людям и организациям:</p>
                 <ul>
                   <li>
-                    <a target="_blank" href="http://www.bf-osyazanie.ru/">благотворительному фонду помощи слабовидящим
-                    и незрячим «Осязание»</a>;
+                    <a target="_blank" href="http://social-tech.ru">Ресурсному центру поддержки социальных
+                    инноваций в&#160;области решения проблем лиц с&#160;ограниченными возможностями здоровья
+                    и пожилых граждан &#x22;Технологии возможностей&#x22;</a>
                   </li>
-                  <li><a target="_blank" href="http://altlinux.ru">компании «Альт&#160;Линукс»</a>;</li>
-                  <li>Ольге Яковлевой за&#160;превосходный русский синтезатор речи <a href="http://github.com/Olga-Yakovleva/RHVoice">RHVoice</a>.</li>
+                  <li>
+                    <a target="_blank" href="http://www.bf-osyazanie.ru/">Благотворительному фонду помощи слабовидящим
+                    и незрячим «Осязание»</a>
+                  </li>
+                  <li><a target="_blank" href="http://altlinux.ru">Компании «Альт&#160;Линукс»</a></li>
+                  <li>Ольге Яковлевой за&#160;превосходный русский синтезатор речи <a href="http://github.com/Olga-Yakovleva/RHVoice">RHVoice</a></li>
                 </ul>
 
 <?php }?>

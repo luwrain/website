@@ -1,4 +1,4 @@
-#!/bin/sh -e
+#!/bin/bash -e
 # Generates a valid PHP script with page content
 # Michael Pozhidaev <michael.pozhidaev@gmail.com>
 # Date: 2015-11-16
