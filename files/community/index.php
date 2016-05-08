@@ -43,10 +43,6 @@
                 </ul>
                 <h2>Заметки и идеи</h2>
                 <ul>
-                  <li>
-                    <a href="<?php echo luwrain_link('sonar.php');?>">Андрей Ампилов и Максим Белак о&#160;запуске LUWRAIN в&#160;дистрибутиве
-                    Sonar</a>
-                  </li>
                   <li><a href="<?php echo luwrain_link('fedora.php');?>">Андрей Ампилов о&#160;запуске LUWRAIN в&#160;дистрибутиве Fedora</a></li>
                   <li><a href="<?php echo luwrain_link('web-browsing/');?>">Никита Цейковец о&#160;концепции навигации внутри веб-страниц</a></li>
                   <li>
