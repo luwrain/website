@@ -27,7 +27,7 @@ sed -i s/'^--'/'\&ndash;'/g "$INPUT_FILE"
 sed -i s/'\([^\]\)--'/'\1\&ndash;'/g "$INPUT_FILE"
 sed -i s/'\\--'/'--'/g "$INPUT_FILE"
 
-markdown < "$INPUT_FILE"
+Markdown.pl < "$INPUT_FILE"
 else
     echo "$THIS:unknown file type:$FILE_TYPE" >&2 
     exit 1

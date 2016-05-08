@@ -130,7 +130,7 @@ but and a&#160;origin of&#160;inspiration as&#160;well!</p>
 
 <p>With best wishes, <a href="http://marigostra.com/">Michael Pozhidaev</a>.</p>
 
-<p><img src="http://download.luwrain.org/images/2015-07-26-msp-small.jpg" alt="image" title="" /></p>
+<p><img src="http://download.luwrain.org/images/2015-07-26-msp-small.jpg" alt="image" /></p>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>О&#160;нашем проекте</h1>
@@ -265,6 +265,6 @@ LUWRAIN предлагает полноценный <a href="<?php echo luwrain_
 
 <p>С&#160;наилучшими пожеланиями, <a href="http://marigostra.ru">Михаил Пожидаев</a>.</p>
 
-<p><img src="http://download.luwrain.org/images/2015-07-26-msp-small.jpg" alt="image" title="" /></p>
+<p><img src="http://download.luwrain.org/images/2015-07-26-msp-small.jpg" alt="image" /></p>
 <?php }?>
 <?php luwrain_end_page('/doc/about/index.php');?>
