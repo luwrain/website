@@ -1,0 +1,3 @@
+
+TARGETDIR=../files
+TEXTSDIR=../texts

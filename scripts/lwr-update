@@ -1,0 +1,14 @@
+#!/bin/bash -e
+
+. config.sh
+
+while read l; do
+    if [ -n "$l" ]; then
+	FILE="$(./lwr-mk-page "$TARGETDIR" "$TEXTSDIR/$l")"
+	./lwr-subst "$FILE"
+	echo Wrote "$FILE"
+    fi
+done < "$TEXTSDIR/list.txt"
+
+find "$TARGETDIR" -type d -exec chmod 755 '{}' \;
+find "$TARGETDIR" -type f -exec chmod 644 '{}' \;
