@@ -44,9 +44,11 @@ newapp.popups.licrict
 newapp.registry.licrict
 newapp.multithreading.licrict 
 newapp.compilation.licrict
+dev.ext.agregat.md
 dev.md
 dev.rules.md
 dev.compilation.md
+dev.nightly.md
 dev.iso.md
 dev.txt-reading.licrict
 dev.speech-backend.licrict

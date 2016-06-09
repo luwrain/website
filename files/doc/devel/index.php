@@ -1,21 +1,34 @@
 <?php include "../../functions.php"; luwrain_begin_page('/doc/devel/index.php', luwrain_current_lang() == 'ru'?'Документация для нашей команды разработчиков':'Document for members of our team');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-<h1>Document for members of our team</h1>
+<h1>Documents for LUWRAIN developers</h1>
 
-<p>It is a&#160;documentation covering our development process.
-Links on&#160;this page can help you better understand 
-ideas and agreements accepted in&#160;our&#160;work.
-We add information to&#160;this section when get new details,
-which should be well-known to all participants of&#160;our&#160;project.</p>
+<p>We believe that software is an&#160;alive thing and 
+maintain smooth and persistent development process.
+In&#160;conjunction with&#160;our free&#160;license, <br />
+this makes possible for everybody to&#160;easily   compile 
+either our nightly build
+or our ISO-image
+or any our&#160;application  from up-to-date sources.
+Of&#160;cource, everybody can do this with his/her  modifications,
+if them don't violate <a href="<?php echo luwrain_link('/doc/legal');?>">our&#160;legal notes</a>.
+This&#160;section covers all&#160;of&#160;these things 
+and is purposed for&#160;everybody who would like to know what our development process looks like or even participate in&#160;it.</p>
 
 <h2>Choose the&#160;section you need:</h2>
 
 <ul>
 <li><a href="<?php echo luwrain_link('rules/');?>">Rules of our development process</a></li>
-<li><a href="<?php echo luwrain_link('compilation/');?>">Compilation of&#160;the&#160;source code</a></li>
-<li><a href="<?php echo luwrain_link('iso/');?>">Compilation of&#160;the&#160;ISO-image</a></li>
+<li><a href="<?php echo luwrain_link('compilation/');?>">Compiling our&#160;source code</a></li>
+<li><a href="<?php echo luwrain_link('nightly');?>">Compiling our nightly build</a></li>
+<li><a href="<?php echo luwrain_link('iso/');?>">Compiling ISO-images</a></li>
 <li><a href="<?php echo luwrain_link('i18n/');?>">International collaboration</a></li>
-<li><a href="<?php echo luwrain_link('txt-reading/');?>">Requirements to&#160;the&#160;text reading utility</a></li>
+</ul>
+
+<h2>See also</h2>
+
+<ul>
+<li><a href="<?php echo luwrain_link('/doc/new-app/');?>">How to&#160;create your own extension/application for&#160;LUWRAIN?</a></li>
+<li><a href="/api/">LUWRAIN API in Javadoc format</a></li>
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>

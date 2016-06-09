@@ -16,6 +16,7 @@
                   <li><b>Catherine Brown</b> (editing the&#160;English greeting on&#160;the&#160;main page)</li>
                   <li><b>Anastasia Gaponenko</b> (Russian female voice in the first greeting recording)</li>
                   <li><b>Svetlana Glazyrina</b> (Russian female voice in the second greeting recording)</li>
+                  <li><b>Vad Him</b> (French male voice in greeting recording)</li>
                   <li><b>Joshua Iverson</b> (English male voice in greeting recording)</li>
                   <li><b>Maria Kalamatsou</b> (Greek female voice in greeting recording)</li>
                   <li><b>Yuriy Knyazev</b> (music decoration and sound effects)</li>
@@ -85,6 +86,7 @@
                     сборочных систем)
                   </li>
                   <li><b>Никита Цейковец</b> (информационная поддержка проекта)</li>
+                  <li><b>Вад Хим</b> (французский мужской голос в&#160;записи приветствия)</li>
                   <li><b>Степан Швец</b> (музыкальные оформление и звуковые эффекты)</li>
                 </ul>
                 <p>Мы очень благодарны этим&#160;людям и организациям:</p>

@@ -5,21 +5,32 @@ TARGET=doc/devel/index.php
 
 luwrain-page-en
 
-# Document for members of our team
+# Documents for LUWRAIN developers
 
-It is a~documentation covering our development process.
-Links on~this page can help you better understand 
-ideas and agreements accepted in~our~work.
-We add information to~this section when get new details,
-which should be well-known to all participants of~our~project.
+We believe that software is an~alive thing and 
+maintain smooth and persistent development process.
+In~conjunction with~our free~license,  
+this makes possible for everybody to~easily   compile 
+either our nightly build
+or our ISO-image
+or any our~application  from up-to-date sources.
+Of~cource, everybody can do this with his/her  modifications,
+if them don't violate [our~legal notes](local:/doc/legal).
+This~section covers all~of~these things 
+and is purposed for~everybody who would like to know what our development process looks like or even participate in~it.
 
 ## Choose the~section you need:
 
 * [Rules of our development process](local:rules/)
-* [Compilation of~the~source code](local:compilation/)
-* [Compilation of~the~ISO-image](local:iso/)
+* [Compiling our~source code](local:compilation/)
+* [Compiling our nightly build](local:nightly)
+* [Compiling ISO-images](local:iso/)
 * [International collaboration](local:i18n/ )
-* [Requirements to~the~text reading utility](local:txt-reading/)
+
+## See also
+
+* [How to~create your own extension/application for~LUWRAIN?](local:/doc/new-app/)
+* [LUWRAIN API in Javadoc format](/api/)
 
 luwrain-page-ru
 
