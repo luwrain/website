@@ -8,7 +8,7 @@ download.sdk.md
 download.git.licrict
 download.tarball.md
 comm.licrict
-comm.publications.licrict
+comm.publications.md
 comm.mailing-lists.licrict
 comm.web-browsing.licrict
 comm.sonar.licrict
