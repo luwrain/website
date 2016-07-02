@@ -52,3 +52,4 @@ doc.authors.licrict
 doc.faq.licrict
 doc.roadmap.licrict
 ext.md
+ext.intro.md
