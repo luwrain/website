@@ -16,7 +16,7 @@ Choose any~section you need:
  * [Try now: running LUWRAIN for~demonstration without installing on~your computer](local:user/try/)
  * [Getting started: speedy instructions how to~begin the~work right now](local:user/start/)
  * [How to~report a~bug?](local:/community/bugs/)
-* [How~to create your own application for~LUWRAIN?](local:new-app/)
+* [How~to create your own extensions and applications for~LUWRAIN?](local:ext/)
 * [Documentation for~members of~our team: how to~work on~LUWRAIN itself?](local:devel/)
 
 ## About the~project
@@ -41,7 +41,7 @@ luwrain-page-ru
  * [Пробный запуск: как~познакомиться с~системой без~установки на~жёсткий диск?](local:user/try/)
  * [С чего начать?: минимальное описание необходимых действий для~быстрой установки системы  на~жёсткий диск и начала работы](local:user/start/)
  * [Как сообщить об~ошибке?](local:/community/bugs/)
-* [Документация для~разработчиков собственных  приложений](local:new-app/)
+* [Как создать собственные приложения и расширения для~LUWRAIN](local:ext/)
 * [Документация для~участников нашей команды](local:devel/)
 
 ## О~проекте

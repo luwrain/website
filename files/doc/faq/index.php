@@ -61,8 +61,7 @@
                 <p>
                   Of&#160;cource, and we highly encourage everybody to&#160;create any third party applications
                   for&#160;LUWRAIN. Any&#160;new functionality can be&#160;easily implemented on&#160;Java.
-                  You can read more about this on&#160;<a href="<?php echo luwrain_link('/doc/new-app/');?>">the&#160;corresponding
-                  page</a>.
+                  You can read more about this on&#160;<a href="<?php echo luwrain_link('/doc/ext/');?>">the&#160;corresponding page</a>.
                 </p>
                 <h2>Is monitor empty during the&#160;work in&#160;LUWRAIN?</h2>
                 <p>
@@ -201,7 +200,7 @@
                 <h2>Могу&#160;ли я создать своё собственное приложение для&#160;LUWRAIN?</h2>
                 <p>
                   Конечно, мы активно поддерживаем появление сторонних приложений для&#160;LUWRAIN. Они могут
-                  быть легко созданы на&#160;языке Java. Подробнее об&#160;этом можно узнать на&#160;<a href="<?php echo luwrain_link('/doc/new-app/');?>">этой
+                  быть легко созданы на&#160;языке Java. Подробнее об&#160;этом можно узнать на&#160;<a href="<?php echo luwrain_link('/doc/ext/');?>">этой
                   странице</a>.
                 </p>
                 <h2>Во&#160;время работы в&#160;LUWRAIN экран не&#160;используется вовсе?</h2>

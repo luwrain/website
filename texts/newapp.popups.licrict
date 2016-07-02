@@ -1,7 +1,7 @@
 
 ENTITLE='Standard popups'
 RUTITLE='Стандартные всплывающие области'
-TARGET=doc/new-app/popups/index.php
+TARGET=doc/ext/popups/index.php
 
 luwrain-page-en
 

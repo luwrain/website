@@ -1,7 +1,7 @@
 
 ENTITLE='Application events'
 RUTITLE='События приложений'
-TARGET=doc/new-app/events/index.php
+TARGET=doc/ext/events/index.php
 
 luwrain-page-en
 

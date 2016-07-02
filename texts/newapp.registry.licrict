@@ -1,7 +1,7 @@
 
 ENTITLE='Registry'
 RUTITLE='Работа с реестром'
-TARGET=doc/new-app/registry/index.php
+TARGET=doc/ext/registry/index.php
 
 luwrain-page-en
 

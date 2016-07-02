@@ -1,7 +1,7 @@
 
 ENTITLE='Сборка вашего  приложения'
 RUTITLE='Основные понятия приложений'
-TARGET=doc/new-app/compilation/index.php
+TARGET=doc/ext/compilation/index.php
 
 luwrain-page-en
 

@@ -91,7 +91,7 @@ which aims to~be with the~user everywhere.
 
 The~blind has nothing like this.
 There is no~platform, which allows creating of~the~applications specially designed for~them.
-LUWRAIN offers the~full [SDK](local:/doc/new-app/)
+LUWRAIN offers the~full [SDK](local:/doc/ext/)
 for~creating the~applications for~blind people.
 The~main advantage of~this approach is that it doesn't require
 the~developer to~have any~experience in~the~area of~accessibility technologies.
@@ -218,7 +218,7 @@ luwrain-page-ru
 
 Незрячие люди пока не~имеют никакой платформы, которая позволяла~бы создавать подобные приложения специально для~них.
 Решение этой сложной задачи --- одна из~целей проекта LUWRAIN.
-LUWRAIN предлагает полноценный [интерфейс для~создания приложений](local:/doc/new-app/),
+LUWRAIN предлагает полноценный [интерфейс для~создания приложений](local:/doc/ext/),
 адаптированных для~людей с~нарушениями зрения.
 Сильная сторона нашей идеи в~том, что создание приложений при~помощи LUWRAIN
 **не~требует от~разработчиков наличия опыта в~сфере вспомогательных технологий**.

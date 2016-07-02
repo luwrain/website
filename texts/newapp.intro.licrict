@@ -1,7 +1,7 @@
 
 ENTITLE='Introduction to creating new application'
 RUTITLE='Введение в создание приложений'
-TARGET=doc/new-app/intro/index.php
+TARGET=doc/ext/intro/index.php
 
 luwrain-page-en
 

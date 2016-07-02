@@ -20,7 +20,7 @@ You can download LUWRAIN~SDK by~the~following link:
 
 ## See also
 
-* [How to~create your own application for~LUWRAIN?](local:/doc/new-app/)
+* [How to~create your own application for~LUWRAIN?](local:/doc/ext/)
 
 luwrain-page-ru
 
@@ -39,4 +39,4 @@ luwrain-page-ru
 
 ## См.~также 
 
-* [Как создать ваше собственное приложение для~LUWRAIN?](local:/doc/new-app/)
+* [Как создать ваше собственное приложение для~LUWRAIN?](local:/doc/ext/)

@@ -1,7 +1,7 @@
 
 ENTITLE='Application example'
 RUTITLE='Пример простейшего приложения'
-TARGET=doc/new-app/example/index.php
+TARGET=doc/ext/example/index.php
 
 luwrain-page-en
 

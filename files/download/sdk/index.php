@@ -18,7 +18,7 @@ It&#160;is&#160;prepared for&#160;Java developers and provides necessary jar's, 
 <h2>See also</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/new-app/');?>">How to&#160;create your own application for&#160;LUWRAIN?</a></li>
+<li><a href="<?php echo luwrain_link('/doc/ext/');?>">How to&#160;create your own application for&#160;LUWRAIN?</a></li>
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
@@ -40,7 +40,7 @@ It&#160;is&#160;prepared for&#160;Java developers and provides necessary jar's, 
 <h2>См.&#160;также</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/new-app/');?>">Как создать ваше собственное приложение для&#160;LUWRAIN?</a></li>
+<li><a href="<?php echo luwrain_link('/doc/ext/');?>">Как создать ваше собственное приложение для&#160;LUWRAIN?</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/download/sdk/index.php');?>

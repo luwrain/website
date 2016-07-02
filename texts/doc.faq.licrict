@@ -62,7 +62,7 @@ You can read more about exact differences of~LUWRAIN on~[local:/doc/difference/ 
 
 Of~cource, and we highly encourage everybody to~create any third party applications for~LUWRAIN.
 Any~new functionality can be~easily implemented on~Java.
-You can read more about this on~[local:/doc/new-app/ the~corresponding page].
+You can read more about this on~[local:/doc/ext/ the~corresponding page].
 
 == Is monitor empty during the~work  in~LUWRAIN? ==
 
@@ -202,7 +202,7 @@ LUWRAIN представляет объекты в~форме, предельн�
 
 Конечно, мы активно поддерживаем появление сторонних приложений для~LUWRAIN.
 Они могут быть легко созданы на~языке Java.
-Подробнее об~этом можно узнать на~[local:/doc/new-app/ этой странице].
+Подробнее об~этом можно узнать на~[local:/doc/ext/ этой странице].
 
 == Во~время работы в~LUWRAIN экран не~используется вовсе? ==
 

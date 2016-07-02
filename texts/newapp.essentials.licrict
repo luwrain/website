@@ -1,7 +1,7 @@
 
 ENTITLE='Application essentials'
 RUTITLE='Основные понятия приложений'
-TARGET=doc/new-app/essentials/index.php
+TARGET=doc/ext/essentials/index.php
 
 luwrain-page-en
 

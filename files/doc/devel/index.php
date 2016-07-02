@@ -27,7 +27,7 @@ and is purposed for&#160;everybody who would like to know what our development p
 <h2>See also</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/new-app/');?>">How to&#160;create your own extension/application for&#160;LUWRAIN?</a></li>
+<li><a href="<?php echo luwrain_link('/doc/ext/');?>">How to&#160;create your own extension/application for&#160;LUWRAIN?</a></li>
 <li><a href="/api/">LUWRAIN API in Javadoc format</a></li>
 </ul>
 <?php }?>

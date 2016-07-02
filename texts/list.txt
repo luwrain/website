@@ -33,17 +33,6 @@ manual.ref.commands.md
 installation.md
 installation.iso.md
 installation.linux.licrict
-newapp.licrict
-newapp.intro.licrict
-newapp.essentials.licrict
-newapp.luwrain-class.licrict
-newapp.events.licrict
-newapp.controls.licrict
-newapp.custom.licrict
-newapp.popups.licrict
-newapp.registry.licrict
-newapp.multithreading.licrict 
-newapp.compilation.licrict
 dev.ext.agregat.md
 dev.md
 dev.rules.md
@@ -62,4 +51,4 @@ doc.difference.licrict
 doc.authors.licrict
 doc.faq.licrict
 doc.roadmap.licrict
-
+ext.md

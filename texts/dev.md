@@ -29,7 +29,7 @@ and is purposed for~everybody who would like to know what our development proces
 
 ## See also
 
-* [How to~create your own extension/application for~LUWRAIN?](local:/doc/new-app/)
+* [How to~create your own extension/application for~LUWRAIN?](local:/doc/ext/)
 * [LUWRAIN API in Javadoc format](/api/)
 
 luwrain-page-ru

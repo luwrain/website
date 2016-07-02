@@ -1,7 +1,7 @@
 
 ENTITLE='Standard controls library'
 RUTITLE='Библиотека стандартных элементов управления'
-TARGET=doc/new-app/controls/index.php
+TARGET=doc/ext/controls/index.php
 
 luwrain-page-en
 

@@ -88,7 +88,7 @@ which aims to&#160;be with the&#160;user everywhere.</p>
 
 <p>The&#160;blind has nothing like this.
 There is no&#160;platform, which allows creating of&#160;the&#160;applications specially designed for&#160;them.
-LUWRAIN offers the&#160;full <a href="<?php echo luwrain_link('/doc/new-app/');?>">SDK</a>
+LUWRAIN offers the&#160;full <a href="<?php echo luwrain_link('/doc/ext/');?>">SDK</a>
 for&#160;creating the&#160;applications for&#160;blind people.
 The&#160;main advantage of&#160;this approach is that it doesn't require
 the&#160;developer to&#160;have any&#160;experience in&#160;the&#160;area of&#160;accessibility technologies.
@@ -214,7 +214,7 @@ but and a&#160;origin of&#160;inspiration as&#160;well!</p>
 
 <p>Незрячие люди пока не&#160;имеют никакой платформы, которая позволяла&#160;бы создавать подобные приложения специально для&#160;них.
 Решение этой сложной задачи &#x2014; одна из&#160;целей проекта LUWRAIN.
-LUWRAIN предлагает полноценный <a href="<?php echo luwrain_link('/doc/new-app/');?>">интерфейс для&#160;создания приложений</a>,
+LUWRAIN предлагает полноценный <a href="<?php echo luwrain_link('/doc/ext/');?>">интерфейс для&#160;создания приложений</a>,
 адаптированных для&#160;людей с&#160;нарушениями зрения.
 Сильная сторона нашей идеи в&#160;том, что создание приложений при&#160;помощи LUWRAIN
 <strong>не&#160;требует от&#160;разработчиков наличия опыта в&#160;сфере вспомогательных технологий</strong>.

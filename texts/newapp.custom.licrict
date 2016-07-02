@@ -1,7 +1,7 @@
 
 ENTITLE='Custom controls'
 RUTITLE='Создание собственных элементов управления'
-TARGET=doc/new-app/custom/index.php
+TARGET=doc/ext/custom/index.php
 
 luwrain-page-en
 

@@ -1,7 +1,7 @@
 
 ENTITLE='Class LUWRAIN'
 RUTITLE='Класс LUWRAIN'
-TARGET=doc/new-app/luwrain/index.php
+TARGET=doc/ext/luwrain/index.php
 
 luwrain-page-en
 

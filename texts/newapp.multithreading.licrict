@@ -1,7 +1,7 @@
 
 ENTITLE='Creating the multithreaded application'
 RUTITLE='Создание многопоточных приложений'
-TARGET=doc/new-app/multithreading/index.php
+TARGET=doc/ext/multithreading/index.php
 
 luwrain-page-en
 

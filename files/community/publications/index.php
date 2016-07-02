@@ -20,7 +20,7 @@ on&#160;<a href="http://download.luwrain.org/pdf/">download.luwrain.org</a>.</p>
 <li><a href="http://impactjournalismday.com/story/luwrain/">SparkNews (English language)</a></li>
 <li><a href="http://download.luwrain.org/pdf/TheChinaPost-en-2015-06-20.pdf">The&#160;China&#160;Post (Taiwan, English language)</a></li>
 <li><a href="http://www.thedailystar.net/impact-journalism-day/luwrain-operating-system-the-blind-100006">The&#160;Daily Star (Bangladesh, English language)</a></li>
-<li><a href="http://www.lorientlejour.com/dossier/2/576-un-monde-de-solutions-iii">L'Orient-Le JourVendredi (Lebanon, French language)</a></li>
+<li><a href="http://www.lorientlejour.com/article/930225/luwrain-un-systeme-dexploitation-sur-mesure-pour-les-non-voyants.html">L'Orient-Le JourVendredi (Lebanon, French language)</a></li>
 </ul></li>
 <li><a href="http://kot.sh/statya/127/belye-bukvy-na-chernom-ekrane">"Белые буквы на&#160;чёрном экране"</a>
 ("Кот Шрёдингера", Svetlana Sokolova, January&#x2013;February, 2015, Russian language)</li>
@@ -103,7 +103,7 @@ on&#160;<a href="http://download.luwrain.org/pdf/">download.luwrain.org</a>.</p>
 <li><a href="http://impactjournalismday.com/story/luwrain/">SparkNews (анг.&#160;яз.)</a></li>
 <li><a href="http://download.luwrain.org/pdf/TheChinaPost-en-2015-06-20.pdf">The&#160;China&#160;Post (Тайвань, анг.&#160;яз.)</a></li>
 <li><a href="http://www.thedailystar.net/impact-journalism-day/luwrain-operating-system-the-blind-100006">The&#160;Daily Star (Бангладеш, анг.&#160;яз.)</a></li>
-<li><a href="http://www.lorientlejour.com/dossier/2/576-un-monde-de-solutions-iii">L'Orient-Le JourVendredi (Ливан, фр.&#160;яз.)</a></li>
+<li><a href="http://www.lorientlejour.com/article/930225/luwrain-un-systeme-dexploitation-sur-mesure-pour-les-non-voyants.html">L'Orient-Le JourVendredi (Ливан, фр.&#160;яз.)</a></li>
 </ul></li>
 <li><a href="http://kot.sh/statya/127/belye-bukvy-na-chernom-ekrane">"Белые буквы на&#160;чёрном экране"</a>
 ("Кот Шрёдингера", Светлана Соколова, январь-февраль 2015&#160;г., рус.&#160;яз.)</li>
@@ -132,7 +132,7 @@ on&#160;<a href="http://download.luwrain.org/pdf/">download.luwrain.org</a>.</p>
 <li>Беседа в&#160;подкасте "Доступность XXI&#160;век"
 ("Радио ВОС" и портал <a href="http://tiflocomp.ru">tiflocomp.ru</a>, Владимир Довыденков и Анатолий Попко, рус.&#160;яз.)
 <ul>
-<li><a href="http://download.luwrain.org/chats/a11y21c-2014-08-30.mp3"> Часть&#160;1</a> (30&#160;августа 2014&#160;г.)</li>
+<li><a href="http://download.luwrain.org/chats/a11y21c-2014-08-30.mp3">Часть&#160;1</a> (30&#160;августа 2014&#160;г.)</li>
 <li><a href="http://download.luwrain.org/chats/a11y21c-2014-09-17.mp3">Часть&#160;2</a> (17&#160;сентября 2014&#160;г.)</li>
 </ul></li>
 </ul>

@@ -23,7 +23,7 @@ on~[download.luwrain.org](http://download.luwrain.org/pdf/).
  * [SparkNews (English language)](http://impactjournalismday.com/story/luwrain/)
  * [The~China~Post (Taiwan, English language)](http://download.luwrain.org/pdf/TheChinaPost-en-2015-06-20.pdf)
  * [The~Daily Star (Bangladesh, English language)](http://www.thedailystar.net/impact-journalism-day/luwrain-operating-system-the-blind-100006)
- * [L'Orient-Le JourVendredi (Lebanon, French language)](http://www.lorientlejour.com/dossier/2/576-un-monde-de-solutions-iii)
+ * [L'Orient-Le JourVendredi (Lebanon, French language)](http://www.lorientlejour.com/article/930225/luwrain-un-systeme-dexploitation-sur-mesure-pour-les-non-voyants.html)
 * ["Белые буквы на~чёрном экране"](http://kot.sh/statya/127/belye-bukvy-na-chernom-ekrane)
 ("Кот Шрёдингера", Svetlana Sokolova, January--February, 2015, Russian language)
 
@@ -93,7 +93,7 @@ luwrain-page-ru
  * [SparkNews (анг.~яз.)](http://impactjournalismday.com/story/luwrain/)
  * [The~China~Post (Тайвань, анг.~яз.)](http://download.luwrain.org/pdf/TheChinaPost-en-2015-06-20.pdf)
  * [The~Daily Star (Бангладеш, анг.~яз.)](http://www.thedailystar.net/impact-journalism-day/luwrain-operating-system-the-blind-100006)
- * [L'Orient-Le JourVendredi (Ливан, фр.~яз.)](http://www.lorientlejour.com/dossier/2/576-un-monde-de-solutions-iii)
+ * [L'Orient-Le JourVendredi (Ливан, фр.~яз.)](http://www.lorientlejour.com/article/930225/luwrain-un-systeme-dexploitation-sur-mesure-pour-les-non-voyants.html)
 * ["Белые буквы на~чёрном экране"](http://kot.sh/statya/127/belye-bukvy-na-chernom-ekrane)
 ("Кот Шрёдингера", Светлана Соколова, январь-февраль 2015~г., рус.~яз.)
 
