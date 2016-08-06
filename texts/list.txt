@@ -7,7 +7,7 @@ download.nightly.md
 download.sdk.md
 download.git.licrict
 download.tarball.md
-comm.licrict
+comm.md
 comm.publications.md
 comm.mailing-lists.licrict
 comm.web-browsing.licrict
@@ -53,3 +53,5 @@ doc.faq.licrict
 doc.roadmap.licrict
 ext.md
 ext.intro.md
+ext.essentials.md
+ext.controls.md
