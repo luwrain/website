@@ -1,27 +1,27 @@
 function OnReady() {		
-	$('#topPart').addClass('hidden');
-	$('#closeMenu').addClass('hidden');
+    $('#topPart .top-part-content').addClass('hidden-not-important');
+	$('#closeMenu').addClass('hidden-not-important');
 	$('#openMenu').click(function (e) {
 		e.preventDefault();
-		$('#topPart').slideDown('slow');
-		$('#openMenu').addClass('hidden');
-		$('#closeMenu').removeClass('hidden');
+		$('#topPart .top-part-content').slideDown('slow');
+		$('#openMenu').addClass('hidden-not-important');
+		$('#closeMenu').removeClass('hidden-not-important');
 	});
 	$('#closeMenu').click(function (e) {
 		e.preventDefault();
-		$('#topPart').slideUp('slow');
-		$('#closeMenu').addClass('hidden');
-		$('#openMenu').removeClass('hidden');
+		$('#topPart .top-part-content').slideUp('slow');
+		$('#closeMenu').addClass('hidden-not-important');
+		$('#openMenu').removeClass('hidden-not-important');
 	});
 	$('#closeLanguageMenu').click(function (e) {
 		e.preventDefault();
 		HideLangMenuItem();
-		$('#languageSelected').removeClass('hidden');
+		$('#languageSelected').removeClass('hidden-not-important');
 	});
 	$('#selectedLanguageName').click(function (e) {
 		e.preventDefault();
 		ShowLangMenuItem();
-		$('#languageSelected').addClass('hidden');
+		$('#languageSelected').addClass('hidden-not-important');
 	});
 	$('#russianLang').click(function (e) {
 		ChangeLanguage('russianLang');
@@ -37,15 +37,15 @@ function OnReady() {
 	});
 };
 function ShowLangMenuItem(){
-	$(".languageMenuItem").removeClass('hidden');
+	$(".languageMenuItem").removeClass('hidden-not-important');
 }
 
 function HideLangMenuItem(){
-	$(".languageMenuItem").addClass('hidden');
+	$(".languageMenuItem").addClass('hidden-not-important');
 }
 
 function ChangeLanguage(langName) {
 	$('#selectedLanguageName').html($('#'+langName).html()+'&#9662;');
-	$('#languageSelected').removeClass('hidden');
-	$('#languageMenu').addClass('hidden');
+	$('#languageSelected').removeClass('hidden-not-important');
+	$('#languageMenu').addClass('hidden-not-important');
 };
