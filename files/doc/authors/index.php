@@ -12,7 +12,7 @@
                   order):
                 </p>
                 <ul>
-                  <li><b>Andrey Ampilov</b> (music decoration and sound effects)</li>
+                  <li><b>Andrey Anpilov</b> (music decoration and sound effects)</li>
                   <li><b>Catherine Brown</b> (editing the&#160;English greeting on&#160;the&#160;main page)</li>
                   <li><b>Anastasia Gaponenko</b> (Russian female voice in the first greeting recording)</li>
                   <li><b>Svetlana Glazyrina</b> (Russian female voice in the second greeting recording)</li>
@@ -62,7 +62,7 @@
                 <p>Проекту помогали (в&#160;алфавитном порядке):</p>
                 <ul>
                   <li><b>Джошуа Айверсон</b> (английский мужской голос в&#160;записи приветствия)</li>
-                  <li><b>Андрей Ампилов</b> (музыкальные оформление и звуковые эффекты)</li>
+                  <li><b>Андрей Анпилов</b> (музыкальные оформление и звуковые эффекты)</li>
                   <li>
                     <b>Кэтрин Браун</b> (редактирование английской версии приветствия на&#160;главной странице
                     сайта)
