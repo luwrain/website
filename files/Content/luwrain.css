@@ -1,405 +1,93 @@
-.hidden { display: none;}
-.clearBoth {clear:both!important;}
-.right{float:right!important;}
-.left{float:left!important;}
-.bold{font-weight:bold!important;}
-.font14 {font-size: 14px!important;}
-.font16 {font-size: 16px!important;}
-.font18 {font-size: 18px!important;}
-.font20 {font-size: 20px!important;}
-.font30 {font-size: 30px!important;}
-.font35 {font-size: 35px!important;}
-.font40 {font-size: 40px!important;}
-.italic{font-style:italic!important;}
-.blueColor {color: #0060ff!important;}
-.lightBlueColor {color: #00bed5!important;}
-.lightGrey{color: #c0c0c0!important;}
-.darkGrey{color: #303030!important;}
-.arial{font-family: Arial Unicode MS;  }
+.hidden-not-important { display: none; }
+.clearBoth { clear: both!important; }
+.right { float: right!important; }
+.left { float: left!important; }
+.bold { font-weight: bold!important; }
+.font14 { font-size: 14px!important; }
+.font16 { font-size: 16px!important; }
+.font18 { font-size: 18px!important; }
+.font20 { font-size: 20px!important; }
+.font30 { font-size: 30px!important; }
+.font35 { font-size: 35px!important; }
+.font40 { font-size: 40px!important; }
+.italic { font-style: italic!important; }
+.blueColor { color: #0060ff!important; }
+.lightBlueColor { color: #00bed5!important; }
+.lightGrey { color: #c0c0c0!important; }
+.darkGrey { color: #303030!important; }
+.arial { font-family: Arial Unicode MS; }
+body { font-family: Myriad Pro; font-size: 16px; }
+#wrapper { overflow: hidden; position: relative; }
+#main { width: 1200px; margin: 0 auto; }
+td, th { vertical-align: top; }
+a { color: #2e2e2e; text-decoration: none; }
+    a:visited { color: #2e2e2e; }
+    a:hover { color: #26c3d8; }
+button { cursor: pointer; }
+img { border-style: none; }
 
-body { 
-	padding: 0; 
-	margin: 0; 
-	background: center repeat-y #ffffff; 
-	font-family: Myriad Pro; 
-	font-size: 16px; 
-	color:2e2e2e;
-}
-#wrapper {
-	overflow:hidden;
-	position:relative;
-}
-#main {
-	width:1200px;
-	margin:0 auto;
-}
-table, div {
-	text-align: left;
-	border-collapse:collapse;
-	border-spacing:0;
-}
-td, th { 
-	vertical-align: top; 
-}
-a { 
-	color: #2e2e2e; 
-	text-decoration: none;}
-a:visited 
-{
-    color: #2e2e2e; 
-   } 
-a:hover {
-    color: #26c3d8;   
-   }
-button {
-	cursor:pointer;
-}
-img{
-	border-style:none;
-}
-#topPart {
-	height:300px;
-	width:100%;
-	font-size: 20px; 
-}
-#topPart li {
-	list-style: none outside none;
-}
-#topPart .topMenu {
-    margin: 0;
-    padding: 55px 0px 0px 310px;
-    position: relativ;
-	line-height: 1.5em;
-}
-#topPart .topMenu  .sectionMenu{
-	float:left;
-}
-#topPart .topMenu  .sectionMenu div{
-	width:240px;
-}
-#topPart .topMenu  .sectionMenu div .linkMenu{
-	margin-bottom:10px;
-}
-#topPart .topMenu  .sectionMenu div .linkMenuLast{
-	margin-bottom:5px;
-}
-#topPart .topMenu  .sectionMenu div .subMenu{
-	padding:0px;
-}
-#topPart .topMenu  .sectionMenu div .subMenuSmall{
-	padding:0px 0px 0px 20px;
-	font-size: 16px; 
-	line-height: 1.25em;
-}
-#menuSwitch {
-	height:50px;
-	width:100%;
-}
-#menuSwitch  .menuButton{
-	padding: 35px 0 0 580px;
-}
-#headerPart {
-	height:100%;
-	width:100%;
-	font-size: 16px; 
-}
-#headerPart li {
-	list-style: none outside none;
-}
-#headerPart .headerList {
-    margin: 0;
-    position: relativ;
-	height:100%;
-}
-#headerPart .headerList  .sectionHeader{
-	float:left;
-}
-#headerPart .headerList  #centralPart{
-}
-#headerPart .headerList  .sectionHeader div .linkMenu{
-	margin-bottom:10px;
-}
-#headerPart .headerList  .sectionHeader div .subMenu{
-	padding:0px;
-}
-#headerPart .headerList  .sectionHeader div  #logoLink{
-	cursor:pointer;
-}
-#headerPart .headerList  .sectionHeader div  #logoLink #logoLinkUl{
-	padding:0px 0px 0px 20px;
-	font-size: 16px; 
-	line-height: 1.05em;
-}
-#headerPart .headerList  .sectionHeader #leftMenu{
-	height: 442px;
-    margin: 67px 0 0 90px;
-    width: 170px;
-}
-#headerPart .headerList  .sectionHeader #logo{
-	width: 605px;
-	margin: 68px -9px 0;
-}
-#headerPart .headerList  .sectionHeader #logo li {
-    text-align: center;
-}
-#headerPart .headerList  .sectionHeader #logoLink:hover {
-	color: #2e2e2e; 
-}
-#headerPart .headerList  .sectionHeader #mainMenu{
-	height: 466px;
-    margin: 41px -16px 0;
-    width: 300px;
-}
-#headerPart .headerList  .sectionHeader #rightArrow{
-    text-align: right;
-}
-#headerPart .headerList  .sectionHeader #rightArrowLink{
-    background:url('../Images/rightArrowBlack.png') no-repeat scroll 0 0px; 
-	height: 31px;
-    width: 22px;
-	border:none;
-}
-#headerPart .headerList  .sectionHeader #rightArrowLink:hover {
-    background:url('../Images/rightArrowBlue.png') no-repeat scroll 0 0px; 
-	height: 31px;
-    width: 22px;
-	border:none;
-}
-#headerPart .headerList  .sectionHeader #leftArrowLink{
-    background:url('../Images/leftArrowBlack.png') no-repeat scroll 0 0px; 
-	height: 31px;
-    width: 22px;
-	border:none;
-}
-#headerPart .headerList  .sectionHeader #leftArrowLink:hover {
-    background:url('../Images/leftArrowBlue.png') no-repeat scroll 0 0px; 
-	height: 31px;
-    width: 22px;
-	border:none;
-}
-#headerPart .headerList  .sectionHeader #mainMenuBorder{
-	border:5px solid #e1e1e2;
-	width:155px;
-	height:120px;
-	margin:0px 0px 0px 50px;
-}
-#headerPart .headerList  .sectionHeader #mainMenuList{
-	margin: 20px 0 0 24px;
-}
-#footerPart {
-	padding-top: 60px;
-	height:70px;
-	width:100%;
-	font-size: 14px; 
-}
-#footerPart li {
-	list-style: none outside none;
-}
-#footerPart .footerList {
-    margin: 0;
-    padding: 6px 0 0 132px;
-    position: relativ;
-	width:100%;	
-	color: #2e2e2e;
-}
-#footerPart .footerList  .sectionFooter{
-	float:left;
-}
-#footerPart .footerList  .sectionFooter #footer1{
-	width:414px;
-}
-#footerPart .footerList  .sectionFooter #footer2{
-	width: 328px;
-}
-#footerPart .footerList  .sectionFooter #design{
-	padding-top: 3px;
-	width:115px;
-}
-#footerPart .footerList  .sectionFooter #mainMenuList{
-	margin:20px 0px 0px 20px;
-}
-#headerPart .headerList  .sectionHeader #mainPart #accEnvir{
-	padding: 70px 0 0 15px;
-	text-align: center;
-	color: #808080;
-}
-#headerPart .headerList  .sectionHeader #mainPart #picContent{
-	height: 402px;
-	width:586px;
-	text-align: center;
-}
-#headerPart .headerList  .sectionHeader #mainPart #picContent #imageDiv{
-	height:300px;
-}
-#headerPart .headerList  .sectionHeader #mainPart #picContent #textBasedImg{
-	padding-left: 28px;
-    padding-top: 131px;
-}
-#headerPart .headerList  .sectionHeader #mainPart #picContent #accImg{
-	padding-left: 35px;
-    padding-top: 38px;
-}
-#headerPart .headerList  .sectionHeader #mainPart #picContent #javaImg{
-	padding-left: 148px;
-    padding-top: 89px;
-}
-#headerPart .headerList  .sectionHeader #mainPart #picContent #fossImg{
-	padding-top:95px;
-	padding-left: 191px;
+#topPart .top-part-content { width: 700px; font-size: 20px; margin: 0 auto; margin-top: 35px; }
+    #topPart .top-part-content li { list-style: none outside none; }
+    #topPart .top-part-content a { display: block; margin-bottom: 10px; }
+    #topPart .top-part-content .subMenuSmall { padding: 0px 0px 0px 20px; font-size: 16px; line-height: 1.25em; }
+
+#menuSwitch { margin-top: 35px; }
+    #menuSwitch div { text-align: center; }
+
+#headerPart { margin-top: 60px; }
+    #headerPart li { list-style: none outside none; }
+    #headerPart #logoLink { text-align: center; cursor: pointer; color: #2e2e2e; }
+        #headerPart #logoLink #logoLinkUl { padding: 0px 0px 0px 20px; font-size: 16px; line-height: 1.05em; }
+
+    #headerPart #mainMenuBorder { border: 5px solid #e1e1e2; width: 155px; height: 120px; margin: 0px 0px 0px 50px; }
+    #headerPart #mainMenuList { margin: 20px 0 0 24px; padding: 0; }
+
+@media screen and (max-width: 768px) {
+    #headerPart #mainMenuBorder { width: 100%; margin: 0; text-align: center; }
 }
 
-#headerPart .headerList  .sectionHeader #mainPart #picContent #accPlatform{
-	padding-top:171px;
-	padding-left: 20px;
-	text-align: center;
-	font-size: 36px;
+#mainPart #accEnvir { text-align: center; color: #808080; margin-bottom: 30px; font-size: 20px; margin-top: 10px; }
+#mainPart #picContent { text-align: center; position: relative; min-height: 370px; }
+    #mainPart #picContent #textUnderPic { font-size: 36px; margin-top: 10px; text-align: center; }
+    #mainPart #picContent #part1 { position: absolute; bottom: 0; width: 100%; }
+
+
+#mainPart .heavyButton, #mainPart .lightButton, #mainPart .lightSolidButton { width: 100%; height: 46px; }
+#mainPart #buttonContent { width: 500px; margin: 0 auto; margin-top: 30px; }
+#mainPart .heavyButton { background-color: #0060ff; border: none; }
+    #mainPart .heavyButton span { color: #fcffff; }
+    #mainPart .heavyButton:hover { background-color: black; }
+#mainPart .lightButton { background-color: #ffffff; border: 4px solid #00bed5; }
+    #mainPart .lightButton span { color: #00bed5; }
+    #mainPart .lightButton:hover { background-color: #ffffff; border: 4px solid black; }
+        #mainPart .lightButton:hover span { color: black; }
+#mainPart #orLi { color: #808080; font-size: 18px; text-align: center; }
+
+#mainPart .lightSolidButton { background-color: #00bed5; border: 4px solid #00bed5; }
+    #mainPart .lightSolidButton span { color: #fcffff; }
+    #mainPart .lightSolidButton:hover { background-color: black; border: 4px solid black; }
+        #mainPart .lightSolidButton:hover span { background-color: black; }
+
+
+@media screen and (max-width: 500px) {
+    #mainPart #buttonContent { width: 100%; }
+    #accImg { width: 100%; height: auto; }
+    #mainPart #picContent #part1 img { width: 100%; height: auto; }
 }
-#headerPart .headerList  .sectionHeader #mainPart #picContent #text1more{
-	padding-top: 14px;
-	text-align: center;
-	font-size: 14px;
-	line-height: 1.4em;
-	color: #656565;
-}
-#headerPart .headerList  .sectionHeader #mainPart #picContent #textUnderPic{
-	font-size: 36px;
-    padding-left: 20px;
-    padding-top: 54px;
-    text-align: center;
-}
-#headerPart .headerList  .sectionHeader #mainPart #buttonContent {
-	padding-left: 78px;
-	height: 135px;
-	width:100%;
-}
-#headerPart .headerList  .sectionHeader #mainPart #buttonContent ul {
-	padding:34px 0px 10px 0px;
-}
-#headerPart .headerList  .sectionHeader #mainPart  #buttonContent li {
-	list-style: none outside none;
-	float:left;
-	text-align: center;
-}
-#headerPart .headerList  .sectionHeader #mainPart .twoButton{
-	width: 196px;
-	height:50px;
-}
-#headerPart .headerList  .sectionHeader #mainPart .twoButton span{
-	font-size: 18px;
-}
-#headerPart .headerList  .sectionHeader #mainPart #downImg{
-	padding-right: 11px;
-}
-#headerPart .headerList  .sectionHeader #mainPart #orLi{
-	padding-top:15px;
-	width:55px;
-	color:#808080;
-	font-size: 18px;
-}
-#headerPart .headerList  .sectionHeader #mainPart button {
-	font-size: 18px;
-	font-family: Myriad Pro; 
-}
-#headerPart .headerList  .sectionHeader #mainPart .heavyButton{
-	background-color:#0060ff;
-	border:none;
-}
-#headerPart .headerList  .sectionHeader #mainPart .lightButton{
-	background-color:#ffffff;
-	border: 4px solid  #00bed5;
-}
-#headerPart .headerList  .sectionHeader #mainPart .lightSolidButton{
-	background-color:#00bed5;
-	border: 4px solid  #00bed5;
-}
-#headerPart .headerList  .sectionHeader #mainPart .heavyButton span{
-	color:#fcffff;
-}
-#headerPart .headerList  .sectionHeader #mainPart .lightButton span{
-	color:#00bed5;
-}
-#headerPart .headerList  .sectionHeader #mainPart .lightSolidButton span{
-	color:#fcffff;
-}
-#headerPart .headerList  .sectionHeader #mainPart .heavyButton:hover{
-	background-color:black;
-}
-#headerPart .headerList  .sectionHeader #mainPart .lightButton:hover{
-	background-color:#ffffff;
-	border: 4px solid  black;
-}
-#headerPart .headerList  .sectionHeader #mainPart .lightSolidButton:hover{
-	background-color:black;
-	border: 4px solid  black;
-}
-#headerPart .headerList  .sectionHeader #mainPart .lightButton:hover span{
-	color:black;
-}
-#headerPart .headerList  .sectionHeader #mainPart .lightSolidButton:hover span{
-	background-color:black;
-}
-#headerPart .headerList  .sectionHeader #mainPart #navigation {
-	padding: 0 0 0 212px;
-	font-family: Arial;
-}
-#headerPart .headerList  .sectionHeader #mainPart #navigation li {
-	width:25px;
-	list-style: none outside none;
-	float:left;
-	text-align: center;
-}
-#headerPart .headerList .sectionHeader #mainPart #insidePageText {
-	color: #303030;
-	letter-spacing: -0.0035em;
-	line-height: 1.25em;
-	padding-top: 73px;
-	width: 587px;
-}
-#headerPart .headerList .sectionHeader #mainPart #insidePageText h1 {
-	color: #000000;
-	font-size: 36px;
-	font-weight: normal;
-	letter-spacing: -0.02em;
-	line-height: 1.25em;
-	text-align: center;
-	text-decoration: none;
-}
-#headerPart .headerList  .sectionHeader #mainPart #insidePageText  h2{
-	font-size: 20px;
-	color:#2e2e2e;
-	padding-top: 20px;
-	text-decoration:none;
-	font-weight: normal;
-	letter-spacing: -0.02em;
-}
-#headerPart .headerList  .sectionHeader #mainPart #insidePageText  h3{
-	font-size: 14px;
-	color:#818284;
-	text-decoration:none;
-	font-weight: normal;
-	padding-top: 5px;
-}
-#headerPart .headerList .sectionHeader #mainPart #insidePageText p {
-	color: #303030;
-	font-weight: normal;
-	text-decoration: none;
-}
-#headerPart .headerList .sectionHeader #mainPart #insidePageText ul {
-	color: #303030;
-	font-weight: normal;
-	padding-left: 20px;
-	padding-top: 5px;
-	text-decoration: none;
-}
-#headerPart .headerList  .sectionHeader #mainPart #insidePageText  ul li span {
-	color:#707070;
-}
-#headerPart .headerList  .sectionHeader #mainPart #insidePageText  ul a{
-	font-size: 14px;
-	color:#0060ff;
-	font-weight: normal;
-	text-decoration:underline;
-}
-#headerPart .headerList  .sectionHeader #mainPart #insidePageText  li{
-	list-style: decimal outside none;
-}
+
+#mainPart #navigation { text-align: center; margin-top: 30px; }
+    #mainPart #navigation ul { list-style: none; }
+    #mainPart #navigation li { margin-right: 10px; display: inline; }
+
+#mainPart #insidePageText { color: #303030; padding-top: 10px; }
+    #mainPart #insidePageText h1 { color: #000000; font-size: 36px; font-weight: normal; text-align: center; }
+    #mainPart #insidePageText h2 { font-size: 20px; color: #2e2e2e; }
+    #mainPart #insidePageText h3 { font-size: 14px; color: #818284; }
+    #mainPart #insidePageText p { color: #303030; font-weight: normal; text-decoration: none; }
+    #mainPart #insidePageText ul { color: #303030; font-weight: normal; padding-left: 20px; padding-top: 5px; text-decoration: none; }
+        #mainPart #insidePageText ul li span { color: #707070; }
+        #mainPart #insidePageText ul a { font-size: 14px; color: #0060ff; font-weight: normal; text-decoration: underline; }
+    #mainPart #insidePageText li { list-style: decimal outside none; }
+
+#footerPart { margin-top: 30px; }
+    #footerPart div { text-align: center; }

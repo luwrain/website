@@ -5,8 +5,8 @@ function OnReadyIndex() {
 	
 	$('#hiddenPartNumber').val(1);
 	
-	$('#part1more').addClass('hidden');
-	$('#part1').addClass('hidden');
+	$('#part1more').addClass('hidden-not-important');
+	$('#part1').addClass('hidden-not-important');
 	
 	$('#part1').slideDown('slow');
 	
@@ -44,8 +44,8 @@ function ShowPart1(){
 	$('#part1').slideDown('slow');
 	$('#part1more').slideUp('slow');
 	
-	$('#leftArrow').addClass('hidden');
-	$('#rightArrow').removeClass('hidden');
+	$('#leftArrow').addClass('hidden-not-important');
+	$('#rightArrow').removeClass('hidden-not-important');
 	
 	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
@@ -71,8 +71,8 @@ function ShowPart2(){
 	$('#part1').slideDown('slow');
 	$('#part1more').slideUp('slow');
 	
-	$('#leftArrow').removeClass('hidden');
-	$('#rightArrow').removeClass('hidden');
+	$('#leftArrow').removeClass('hidden-not-important');
+	$('#rightArrow').removeClass('hidden-not-important');
 	
 	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
@@ -99,8 +99,8 @@ function ShowPart3(){
 	$('#part1').slideDown('slow');
 	$('#part1more').slideUp('slow');
 	
-	$('#leftArrow').removeClass('hidden');
-	$('#rightArrow').removeClass('hidden');
+	$('#leftArrow').removeClass('hidden-not-important');
+	$('#rightArrow').removeClass('hidden-not-important');
 	
 	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
@@ -126,8 +126,8 @@ function ShowPart4(){
 	$('#part1').slideDown('slow');
 	$('#part1more').slideUp('slow');
 	
-	$('#leftArrow').removeClass('hidden');
-	$('#rightArrow').addClass('hidden');
+	$('#leftArrow').removeClass('hidden-not-important');
+	$('#rightArrow').addClass('hidden-not-important');
 	
 	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
