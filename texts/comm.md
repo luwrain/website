@@ -15,6 +15,7 @@ With valuable feedback, we are~able to make  corresponding improvements and trac
 
 * [Our wiki](http://wiki.luwrain.org)
 * [Our~mailing lists](local:mailing-lists)
+* [Our photos](local:album/)
 * [Follow~us on~Twitter](http://twitter.com/luwrain)
 * [Publications about our work](local:publications)
 * [Reporting a~bug](local:bugs)
@@ -33,6 +34,7 @@ luwrain-page-ru
 
 * [Наше wiki](http://wiki.luwrain.org)
 * [Наши списки рассылок](local:mailing-lists)
+* [Наш фотоальбом](local:album/)
 * [Лента новостей  в~Twitter](http://twitter.com/luwrain)
 * [Публикации о~нашей работе](local:publications/)
 * [Сообщения об~ошибках](local:bugs)

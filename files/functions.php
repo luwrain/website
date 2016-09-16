@@ -32,31 +32,28 @@ function luwrain_top_menu()
             <a href="<?php echo luwrain_link('/doc/about/');?>"><?php echo luwrain_current_lang() == 'ru'?'О проекте':'About the project';?></a>
             <ul class="subMenuSmall">
                 <li>
-                    <a href="<?php echo luwrain_link('/doc/faq/');?>"><?php echo luwrain_current_lang() == 'ru'?'Часто задаваемые вопросы':'FAQ';?></a>
+            <a href="http://twitter.com/luwrain">Twitter</a>
                 </li>
                 <li>
-                    <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статуc':'Legal notes';?></a>
+            <a href="http://wiki.luwrain.org">Wiki</a>
                 </li>
                 <li>
-                    <a href="<?php echo luwrain_link('/doc/roadmap/');?>"><?php echo luwrain_current_lang() == 'ru'?'Дорожная карта':'Roadmap';?></a>
+            <a href="/api/">Javadoc API</a>
                 </li>
                 <li>
-                    <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo luwrain_current_lang() == 'ru'?'Контакты':'Contact us';?></a>
-                </li>
-                <li>
-                    <a href="<?php echo luwrain_link('/doc/authors/');?>"><?php echo luwrain_current_lang() == 'ru'?'Авторы':'Authors';?></a>
+            <a href="https://github.org/luwrain/">Github.com/luwrain</a>
                 </li>
             </ul>
         </div>
         <div class="col-md-4">
-            <a href="http://twitter.com/luwrain">Twitter</a>
             <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
+            <a href="<?php echo luwrain_link('/doc/new-app/');?>"><?php echo luwrain_current_lang() == 'ru'?'Создание расширений':'Create an extension';?></a>
             <a href="<?php echo luwrain_link('/community/publications/');?>"><?php echo luwrain_current_lang() == 'ru'?'Публикации':'Publications';?></a>
         </div>
         <div class="col-md-4">
-            <a href="<?php echo luwrain_link('/doc/new-app/');?>"><?php echo luwrain_current_lang() == 'ru'?'Создание приложений':'Create an application';?></a>
-            <a href="/api/">LUWRAIN API</a>
-            <a href="<?php echo luwrain_link('/download/git/');?>"><?php echo luwrain_current_lang() == 'ru'?'Git репозитории':'Git repositories';?></a>
+                    <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статус':'Legal notes';?></a>
+                    <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo luwrain_current_lang() == 'ru'?'Контакты':'Contact us';?></a>
+                    <a href="<?php echo luwrain_link('/doc/authors/');?>"><?php echo luwrain_current_lang() == 'ru'?'Авторы':'Authors';?></a>
         </div>
     </div>
     <div id="menuSwitch">

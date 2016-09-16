@@ -11,6 +11,7 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <ul>
 <li><a href="http://wiki.luwrain.org">Our wiki</a></li>
 <li><a href="<?php echo luwrain_link('mailing-lists');?>">Our&#160;mailing lists</a></li>
+<li><a href="<?php echo luwrain_link('album/');?>">Our photos</a></li>
 <li><a href="http://twitter.com/luwrain">Follow&#160;us on&#160;Twitter</a></li>
 <li><a href="<?php echo luwrain_link('publications');?>">Publications about our work</a></li>
 <li><a href="<?php echo luwrain_link('bugs');?>">Reporting a&#160;bug</a></li>
@@ -30,6 +31,7 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <ul>
 <li><a href="http://wiki.luwrain.org">Наше wiki</a></li>
 <li><a href="<?php echo luwrain_link('mailing-lists');?>">Наши списки рассылок</a></li>
+<li><a href="<?php echo luwrain_link('album/');?>">Наш фотоальбом</a></li>
 <li><a href="http://twitter.com/luwrain">Лента новостей  в&#160;Twitter</a></li>
 <li><a href="<?php echo luwrain_link('publications/');?>">Публикации о&#160;нашей работе</a></li>
 <li><a href="<?php echo luwrain_link('bugs');?>">Сообщения об&#160;ошибках</a></li>
