@@ -46,7 +46,7 @@ user.try.md
 user.start.md
 doc.md
 doc.about.md
-doc.legal.licrict
+doc.legal.md
 doc.difference.licrict
 doc.authors.md
 doc.faq.licrict
