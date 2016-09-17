@@ -29,29 +29,29 @@ function luwrain_top_menu()
         <div class="col-md-4">
             <a href="<?php echo luwrain_link('/doc/user/start/');?>"><?php echo luwrain_current_lang() == 'ru'?'С чего начать?':'Getting started';?></a>
             <a href="<?php echo luwrain_link('/doc/user/manual/');?>"><?php echo luwrain_current_lang() == 'ru'?'Руководство пользователя':'User manual';?></a>
-            <a href="<?php echo luwrain_link('/doc/about/');?>"><?php echo luwrain_current_lang() == 'ru'?'О проекте':'About the project';?></a>
+            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
             <ul class="subMenuSmall">
                 <li>
-            <a href="http://twitter.com/luwrain">Twitter</a>
+            <a href="http://twitter.com/luwrain"><?php echo luwrain_current_lang() == 'ru'?'Наш Twitter':'Our ';?></a>
                 </li>
                 <li>
-            <a href="http://wiki.luwrain.org">Wiki</a>
+            <a href="http://wiki.luwrain.org"><?php echo luwrain_current_lang() == 'ru'?'Наш Wiki':'Our Wiki';?></a>
                 </li>
                 <li>
             <a href="/api/">Javadoc API</a>
                 </li>
                 <li>
-            <a href="https://github.org/luwrain/">Github.com/luwrain</a>
+            <a href="https://github.com/luwrain/"><?php echo luwrain_current_lang() == 'ru'?'Мы на Github':'We on Github';?></a>
                 </li>
             </ul>
         </div>
         <div class="col-md-4">
-            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
             <a href="<?php echo luwrain_link('/doc/new-app/');?>"><?php echo luwrain_current_lang() == 'ru'?'Создание расширений':'Create an extension';?></a>
             <a href="<?php echo luwrain_link('/community/publications/');?>"><?php echo luwrain_current_lang() == 'ru'?'Публикации':'Publications';?></a>
+                    <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статус':'Legal notes';?></a>
         </div>
         <div class="col-md-4">
-                    <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статус':'Legal notes';?></a>
+            <a href="<?php echo luwrain_link('/doc/about/');?>"><?php echo luwrain_current_lang() == 'ru'?'О проекте':'About the project';?></a>
                     <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo luwrain_current_lang() == 'ru'?'Контакты':'Contact us';?></a>
                     <a href="<?php echo luwrain_link('/doc/authors/');?>"><?php echo luwrain_current_lang() == 'ru'?'Авторы':'Authors';?></a>
         </div>

@@ -1,108 +1,87 @@
 <?php include "../../functions.php"; luwrain_begin_page('/doc/authors/index.php', luwrain_current_lang() == 'ru'?'Авторы':'Authors');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-                <h1>Project authors</h1>
-                <p>Our main team includes (in&#160;alphabetical order):</p>
-                <ul>
-                  <li>Alexey Goloshumov</li>
-                  <li><a href="http://marigostra.com">Michael Pozhidaev</a></li>
-                  <li>Roman Volovodov</li>
-                </ul>
-                <p>
-                  There is the&#160;list of&#160;people who participated in&#160;our project (in&#160;alphabetical
-                  order):
-                </p>
-                <ul>
-                  <li><b>Andrey Anpilov</b> (music decoration and sound effects)</li>
-                  <li><b>Catherine Brown</b> (editing the&#160;English greeting on&#160;the&#160;main page)</li>
-                  <li><b>Anastasia Gaponenko</b> (Russian female voice in the first greeting recording)</li>
-                  <li><b>Svetlana Glazyrina</b> (Russian female voice in the second greeting recording)</li>
-                  <li><b>Vad Him</b> (French male voice in greeting recording)</li>
-                  <li><b>Joshua Iverson</b> (English male voice in greeting recording)</li>
-                  <li><b>Maria Kalamatsou</b> (Greek female voice in greeting recording)</li>
-                  <li><b>Yuriy Knyazev</b> (music decoration and sound effects)</li>
-                  <li><b>Alexander Lipatov</b> (sound editing)</li>
-                  <li>
-                    <b>Alexey Lubkin</b> (calculation of&#160;Bloom filter parameters needed for&#160;the&#160;LUWRAIN
-                    files synchronization algorithm)
-                  </li>
-                  <li><b>Hiroki Minagawa</b> (Japanese male voice in greeting recording)</li>
-                  <li><b>Renata Pozhidaeva</b> (the&#160;&#160;website construction)</li>
-                  <li><b>Nikita Prianichnikov</b> (porting LUWRAIN to&#160;MacOS-X)</li>
-                  <li><b>Mgr. Janusz Chmiel</b> (Czech translation)</li>
-                  <li><b>Stepan Shvets</b> (music decoration and sound effects)</li>
-                  <li><b>Joseph Tekleoni</b> (Arabic male voice in greeting recording)</li>
-                  <li><b>Nikita Tseikovets</b> (information support)</li>
-                  <li>
-                    <b>Alexander Ustinov</b> (porting LUWRAIN to&#160;Microsoft Windows and building system
-                    support)
-                  </li>
-                </ul>
-                <p>We are very thankful to&#160;the&#160;following people and organizations:</p>
-                <ul>
-                  <li>
-                    <a target="_blank" href="http://www.bf-osyazanie.ru/">Charitable Fund for&#160;support
-                    of&#160;blind and visually impaired people &#x22;Osyazanie&#x22;</a>
-                  </li>
-                  <li><a target="_blank" href="http://altlinux.com/">ALT&#160;Linux company</a></li>
-                  <li>
-                    Olga Yakovleva who makes possible the&#160;free Russian text-to-speech engine, <a href="http://github.com/Olga-Yakovleva/RHVoice">RHVoice
-                    speech synthesizer</a>
-                  </li>
-                </ul>
+<h1>Who we are</h1>
 
+<p>Our main team includes (in&#160;alphabetical order):</p>
+
+<ul>
+<li>Alexey Goloshumov</li>
+<li><a href="http://marigostra.com">Michael Pozhidaev</a></li>
+<li>Roman Volovodov</li>
+</ul>
+
+<p>Here is a&#160;list of&#160;people who participated in&#160;our project (in&#160;alphabetical order):</p>
+
+<ul>
+<li>Andrey Anpilov (music decoration and sound effects)</li>
+<li>Catherine Brown (editing the&#160;English greeting on&#160;the&#160;main page)</li>
+<li>Anastasia Gaponenko (Russian female voice in the first greeting recording) </li>
+<li>Svetlana Glazyrina (Russian female voice in the second greeting recording)</li>
+<li>Vad Him   (French male voice in greeting recording)</li>
+<li>Joshua Iverson (English male voice in greeting recording)</li>
+<li>Maria Kalamatsou  (Greek female voice in greeting recording)</li>
+<li>Yuriy Knyazev (music decoration and sound effects)</li>
+<li>Alexander Lipatov (sound editing)</li>
+<li>Alexey Lubkin (calculation of&#160;Bloom filter parameters needed for&#160;the&#160;LUWRAIN files synchronization algorithm)</li>
+<li>Hiroki Minagawa (Japanese male voice in greeting recording)</li>
+<li>Renata Pozhidaeva (the&#160;~website construction)</li>
+<li>Nikita Prianichnikov (porting LUWRAIN to&#160;MacOS-X)</li>
+<li>Mgr. Janusz Chmiel (Czech translation)</li>
+<li>Stepan Shvets (music decoration and sound effects)</li>
+<li>Joseph Tekleoni (Arabic  male voice in greeting recording)</li>
+<li>Nikita Tseikovets (information support)</li>
+<li>Alexander Ustinov (porting LUWRAIN to&#160;Microsoft Windows and building system support)</li>
+</ul>
+
+<p>We are very thankful to&#160;the&#160;following people and organizations:</p>
+
+<ul>
+<li><a href="http://www.bf-osyazanie.ru/">Charitable Fund for&#160;support of&#160;blind and visually impaired people "Osyazanie"</a></li>
+<li><a href="http://altlinux.com/">ALT&#160;Linux</a></li>
+<li>Olga Yakovleva who makes possible the&#160;free Russian text-to-speech engine, 
+<a href="http://github.com/Olga-Yakovleva/RHVoice">RHVoice speech synthesizer</a></li>
+</ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-                <h1>Авторы проекта</h1>
-                <p>В&#160;основную группу разработчиков LUWRAIN входят (в&#160;алфавитном порядке):</p>
-                <ul>
-                  <li>Роман Воловодов</li>
-                  <li>Алексей Голошумов</li>
-                  <li><a href="http://marigostra.ru">Михаил Пожидаев</a></li>
-                </ul>
-                <p>Проекту помогали (в&#160;алфавитном порядке):</p>
-                <ul>
-                  <li><b>Джошуа Айверсон</b> (английский мужской голос в&#160;записи приветствия)</li>
-                  <li><b>Андрей Анпилов</b> (музыкальные оформление и звуковые эффекты)</li>
-                  <li>
-                    <b>Кэтрин Браун</b> (редактирование английской версии приветствия на&#160;главной странице
-                    сайта)
-                  </li>
-                  <li><b>Анастасия Гапоненко</b> (русский женский голос в&#160;первой записи приветствия)</li>
-                  <li><b>Светлана Глазырина</b> (русский женский голос в&#160;второй записи приветствия)</li>
-                  <li><b>Мария Каламатсу</b> (греческий женский голос в&#160;записи приветствия)</li>
-                  <li><b>Юрий Князев</b> (музыкальные оформление и звуковые эффекты)</li>
-                  <li><b>Александр Липатов</b> (обработка аудио-записей)</li>
-                  <li>
-                    <b>Алексей Лубкин</b> (расчёт параметров фильтра Блюма для&#160;алгоритма синхронизации
-                    файлов)
-                  </li>
-                  <li><b>Хироки Минагава</b> (японский мужской голос в&#160;записи приветствия)</li>
-                  <li><b>Рената Пожидаева</b> (разработка веб-сайта)</li>
-                  <li><b>Никита Пряничников</b> (поддержка работы LUWRAIN на&#160;MacOS-X)</li>
-                  <li><b>Mgr. Janusz Chmiel</b> (чешский перевод)</li>
-                  <li><b>Джозеф Теклиони</b> (арабский мужской голос в&#160;записи приветствия)</li>
-                  <li>
-                    <b>Александр Устинов</b> (поддержка работы LUWRAIN на&#160;Microsoft Windows и доработка
-                    сборочных систем)
-                  </li>
-                  <li><b>Никита Цейковец</b> (информационная поддержка проекта)</li>
-                  <li><b>Вад Хим</b> (французский мужской голос в&#160;записи приветствия)</li>
-                  <li><b>Степан Швец</b> (музыкальные оформление и звуковые эффекты)</li>
-                </ul>
-                <p>Мы очень благодарны этим&#160;людям и организациям:</p>
-                <ul>
-                  <li>
-                    <a target="_blank" href="http://social-tech.ru">Ресурсному центру поддержки социальных
-                    инноваций в&#160;области решения проблем лиц с&#160;ограниченными возможностями здоровья
-                    и пожилых граждан &#x22;Технологии возможностей&#x22;</a>
-                  </li>
-                  <li>
-                    <a target="_blank" href="http://www.bf-osyazanie.ru/">Благотворительному фонду помощи слабовидящим
-                    и незрячим «Осязание»</a>
-                  </li>
-                  <li><a target="_blank" href="http://altlinux.ru">Компании «Альт&#160;Линукс»</a></li>
-                  <li>Ольге Яковлевой за&#160;превосходный русский синтезатор речи <a href="http://github.com/Olga-Yakovleva/RHVoice">RHVoice</a></li>
-                </ul>
+<h1>Над ДLUWRAIN работают</h1>
 
+<p>В&#160;основную группу разработчиков LUWRAIN входят (в&#160;алфавитном порядке):</p>
+
+<ul>
+<li>Роман Воловодов</li>
+<li>Алексей Голошумов</li>
+<li><a href="http://marigostra.ru">Михаил Пожидаев</a></li>
+</ul>
+
+<p>Проекту помогали (в&#160;алфавитном порядке):</p>
+
+<ul>
+<li>Джошуа Айверсон (английский мужской голос в&#160;записи приветствия)</li>
+<li>Андрей Анпилов (музыкальные оформление и звуковые эффекты)</li>
+<li>Кэтрин Браун (редактирование английской версии приветствия на&#160;главной странице сайта)</li>
+<li>Анастасия Гапоненко (русский женский  голос в&#160;первой записи приветствия)</li>
+<li>Светлана Глазырина (русский женский  голос в&#160;второй записи приветствия)</li>
+<li>Мария Каламатсу (греческий женский  голос в&#160;записи приветствия)</li>
+<li>Юрий Князев (музыкальные оформление и звуковые эффекты)</li>
+<li>Александр Липатов (обработка аудио-записей)</li>
+<li>Алексей Лубкин (расчёт параметров фильтра Блюма для&#160;алгоритма синхронизации файлов)</li>
+<li>Хироки Минагава (японский  мужской голос в&#160;записи приветствия)</li>
+<li>Рената Пожидаева (разработка веб-сайта)</li>
+<li>Никита Пряничников (поддержка работы LUWRAIN на&#160;MacOS-X)</li>
+<li>Mgr. Janusz Chmiel (чешский перевод)</li>
+<li>Джозеф Теклиони (арабский мужской голос в&#160;записи приветствия)</li>
+<li>Александр Устинов (поддержка работы LUWRAIN на&#160;Microsoft Windows и доработка сборочных систем)</li>
+<li>Никита Цейковец (информационная поддержка проекта)</li>
+<li>Вад Хим   (французский мужской голос в&#160;записи приветствия)</li>
+<li>Степан Швец (музыкальные оформление и звуковые эффекты)</li>
+</ul>
+
+<p>Мы очень благодарны этим&#160;людям и организациям:</p>
+
+<ul>
+<li><a href="http://www.bf-osyazanie.ru/">Благотворительному фонду помощи слабовидящим и незрячим «Осязание»</a></li>
+<li><a href="http://altlinux.ru">Компании «Альт&#160;Линукс»</a></li>
+<li>Ольге Яковлевой за&#160;превосходный русский синтезатор речи <a href="http://github.com/Olga-Yakovleva/RHVoice">RHVoice</a></li>
+</ul>
 <?php }?>
 <?php luwrain_end_page('/doc/authors/index.php');?>
