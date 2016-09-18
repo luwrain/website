@@ -1,8 +1,5 @@
 function OnReadyIndex() {
 
-	$('#rightArrow').html('<button href="#" class="font35 bold arial" id="rightArrowLink"></button>');	
-	$('#leftArrow').html('<button href="#" class="font35 bold arial" id="leftArrowLink"></button>');
-	
 	$('#hiddenPartNumber').val(1);
 	
 	$('#part1more').addClass('hidden-not-important');
@@ -28,12 +25,10 @@ function OnReadyIndex() {
 		e.preventDefault();
 		ShowPart4();
 	});
-	$('#rightArrowLink').click(function (e) {
-		e.preventDefault();
+	$('#arrowRight').click(function (e) {
 		ChangeContentPart(2);//right
 	});
-	$('#leftArrowLink').click(function (e) {
-		e.preventDefault();
+	$('#arrowLeft').click(function (e) {
 		ChangeContentPart(1);//left
 	});
 };
