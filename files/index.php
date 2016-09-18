@@ -16,6 +16,7 @@
         <?php echo luwrain_current_lang() == 'ru'?'Адаптированная среда Luwrain':'The accessible environment Luwrain';?>
     </div>
     <div id="picContent">
+      <div id="arrowLeft"></div>
         <!--    1    -->
         <div id="part1">
             <div id="imageDiv">
@@ -29,6 +30,7 @@
             <div id="text1more" class="darkGrey">
             </div>
         </div>
+      <div id="arrowRight"></div>
     </div>
     <div id="buttonContent">
         <div class="row">

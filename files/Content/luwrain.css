@@ -51,6 +51,12 @@ img { border-style: none; }
     #mainPart #picContent #textUnderPic { font-size: 36px; margin-top: 10px; text-align: center; }
     #mainPart #picContent #part1 { position: absolute; bottom: 0; width: 100%; }
 
+    #mainPart #picContent #arrowLeft { background: url(../images/leftarrowblack.png) no-repeat center; height: 30px;width: 30px; position: absolute; top: 43%; z-index: 2; }
+    #mainPart #picContent #arrowLeft:hover{background: url(../images/leftarrowblue.png) no-repeat center; cursor: pointer; }
+
+    #mainPart #picContent #arrowRight { background: url(../images/rightarrowblack.png) no-repeat center;  height: 30px;width: 30px; position: absolute; top: 43%; right: 0; z-index: 2; }
+    #mainPart #picContent #arrowRight:hover { background: url(../images/rightarrowblue.png) no-repeat center; cursor: pointer; }
+
 
 #mainPart .heavyButton, #mainPart .lightButton, #mainPart .lightSolidButton { width: 100%; height: 46px; }
 #mainPart #buttonContent { width: 500px; margin: 0 auto; margin-top: 30px; }
@@ -88,6 +94,7 @@ img { border-style: none; }
         #mainPart #insidePageText ul li span { color: #707070; }
         #mainPart #insidePageText ul a { font-size: 14px; color: #0060ff; font-weight: normal; text-decoration: underline; }
     #mainPart #insidePageText li { list-style: decimal outside none; }
+#mainPart #insidePageText img { width: 100%; }
 
 #footerPart { margin-top: 30px; }
     #footerPart div { text-align: center; }
