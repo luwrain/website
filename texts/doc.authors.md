@@ -7,10 +7,16 @@ luwrain-page-en
 
 # Who we are
 
+see~also
+
+* [Our pictures](local:/community/album/)
+* [Recorded greetings in various languages](http://download.luwrain.org/media/greeting/langs/)
+
 Our main team includes (in~alphabetical order):
 
 * Alexey Goloshumov
 * [Michael Pozhidaev](http://marigostra.com)
+* Helen Teplykh
 * Roman Volovodov
 
 Here is a~list of~people who participated in~our project (in~alphabetical order):
@@ -43,7 +49,13 @@ We are very thankful to~the~following people and organizations:
 
 luwrain-page-ru
 
-# Над ДLUWRAIN работают
+# Над LUWRAIN работают
+
+См.~также
+
+* [Наш фотоальбом](local:/community/album/)
+* [Записанные приветствия на~разных языках](http://download.luwrain.org/media/greeting/langs/)
+
 
 В~основную группу разработчиков LUWRAIN входят (в~алфавитном порядке):
 

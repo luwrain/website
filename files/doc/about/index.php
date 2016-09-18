@@ -5,9 +5,9 @@
 <p>See also</p>
 
 <ul>
-<li><a href="http://twitter.com/luwrain">Our Twitter</a></li>
+<li><a href="<?php echo luwrain_link('/doc/authors/');?>">Who we are</a></li>
+<li><a href="<?php echo luwrain_link('/community/publications/');?>">Our&#160;publications and press about us</a></li>
 <li><a href="<?php echo luwrain_link('/doc/difference/');?>">Why is LUWRAIN different than other accessible solutions?</a></li>
-<li><a href="<?php echo luwrain_link('/doc/faq/');?>">Frequently asked questions</a></li>
 </ul>
 
 <p>We want all&#160;blind to be able to participate in all&#160;parts of&#160;the&#160;society, 
@@ -138,9 +138,9 @@ but and a&#160;origin of&#160;inspiration as&#160;well!</p>
 <p>См.&#160;также</p>
 
 <ul>
+<li><a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы проекта</a></li>
+<li><a href="<?php echo luwrain_link('/community/publications/');?>">Наши публикации и пресса о&#160;нас</a></li>
 <li><a href="<?php echo luwrain_link('/doc/difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
-<li><a href="<?php echo luwrain_link('/doc/faq/');?>">Часто задаваемые вопросы</a></li>
-<li><a href="http://marigostra.ru/projects/luwrain/">Неформальный манифест от&#160;авторов проекта</a></li>
 </ul>
 
 <p>Идея LUWRAIN основана на&#160;некоторых особенностях,

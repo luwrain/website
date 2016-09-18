@@ -1,3 +1,4 @@
+products.md
 download.md
 download.linux.md
 download.win.md
@@ -47,7 +48,7 @@ user.start.md
 doc.md
 doc.about.md
 doc.legal.md
-doc.difference.licrict
+doc.difference.md
 doc.authors.md
 doc.faq.licrict
 doc.roadmap.licrict

@@ -9,9 +9,9 @@ luwrain-page-en
 
 See also
 
-* [Our Twitter](http://twitter.com/luwrain)
+* [Who we are](local:/doc/authors/)
+* [Our~publications and press about us](local:/community/publications/)
 * [Why is LUWRAIN different than other accessible solutions?](local:/doc/difference/)
-* [Frequently asked questions](local:/doc/faq/)
 
 We want all~blind to be able to participate in all~parts of~the~society, 
 which revolve around information technologies.
@@ -143,9 +143,9 @@ luwrain-page-ru
 
 См.~также
 
+* [Авторы проекта](local:/doc/authors/)
+* [Наши публикации и пресса о~нас](local:/community/publications/)
 * [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/ )
-* [Часто задаваемые вопросы](local:/doc/faq/)
-* [Неформальный манифест от~авторов проекта](http://marigostra.ru/projects/luwrain/)
 
 Идея LUWRAIN основана на~некоторых особенностях,
 заметно отличающих его от~современных популярных решений для~людей с~нарушениями зрения:

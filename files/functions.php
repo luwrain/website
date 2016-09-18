@@ -82,7 +82,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
     ?>
 </head>
 <body>
-    <b><a href="<?php echo luwrain_link('/download/');?>"><?php echo luwrain_current_lang() == 'ru'?'Загрузить':'Download';?></a></b> |
+    <b><a href="<?php echo luwrain_link('/products/');?>"><?php echo luwrain_current_lang() == 'ru'?'Продукты':'Products';?></a></b> |
     <b><a href="<?php echo luwrain_link('/doc/');?>"><?php echo luwrain_current_lang() == 'ru'?'Документация':'Documentation';?></a></b> |
     <b><a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Сообщество':'Community';?></a></b> |
     <a href="<?php echo luwrain_link_ext1($path, luwrain_current_lang(), 'normal');?>"><?php echo luwrain_current_lang() == 'ru'?'Полная версия':'Normal version';?></a><br />
@@ -216,7 +216,7 @@ function luwrain_adapted_main_page()
             <title>The accessible environment  LUWRAIN</title>
         </head>
         <body>
-            <b><a href="<?php echo luwrain_link('/download/');?>"><?php echo luwrain_current_lang() == 'ru'?'Загрузить':'Download';?></a></b> |
+            <b><a href="<?php echo luwrain_link('/products/');?>"><?php echo luwrain_current_lang() == 'ru'?'Продукты':'Products';?></a></b> |
     <b><a href="<?php echo luwrain_link('/doc/');?>"><?php echo luwrain_current_lang() == 'ru'?'Документация':'Documentation';?></a></b> |
     <b><a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Сообщество':'Community';?></a></b> |
     <a href="<?php echo luwrain_link_ext1($path, luwrain_current_lang(), 'normal');?>"><?php echo luwrain_current_lang() == 'ru'?'Полная версия':'Normal version';?></a><br />

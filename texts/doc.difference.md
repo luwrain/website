@@ -5,7 +5,7 @@ TARGET=doc/difference/index.php
 
 luwrain-page-en
 
-= Why is LUWRAIN different than other accessible solutions? =
+# Why is LUWRAIN different than other accessible solutions?
 
 We consider three projects as~something close to~the~things 
 we are creating. 
@@ -16,7 +16,7 @@ They are
 LUWRAIN has noticeable differences with all~of~them
 and let take a~closer look what these difference are.
 
-== Emacspeak ==
+## Emacspeak
 
 Emacspeak can be fairly taken as~an~origin of~our inspiration.
 A~lot of~ideas came exactly from~Emacspeak 
@@ -33,7 +33,7 @@ and it isn't a~platform which constructed for~blind people completely
 * Although GNU~Emacs itself is a~cross-platform software,
 Emacspeak purposed typically for~launch on~GNU/Linux
 
-== Adriane ==
+## Adriane
 
 Adriane is a~very interesting experience but has some substantial disadvantages as~well:
 
@@ -43,7 +43,7 @@ but we need an~environment capable of~running on~systems different than GNU/Linu
 because doesn't have any API for~it
 * We don't know how to~enhance Adriane and how to~add a~proper i18n support to it
 
-== Dolphin Guide ==
+## Dolphin Guide
 
 The~main problem with~Dolphin Guide is that it is a~proprietary software. 
 It is proprietary itself and can be launch only on~Microsoft Windows, which is proprietary as~well. 
@@ -51,7 +51,7 @@ Some of~the~disadvantages mentioned for~Emacspeak and for~Adriane are actual for
 but we don't list them once again because the~main reason 
  of~rejecting Dolphin Guide is its legal status.
 
-== Other approaches == 
+## Other approaches
 
 The~most popular solution to~the~problem of~accessible work on~PC remains 
 using of~screen reading software in~GUI.
@@ -74,5 +74,7 @@ According to~our experience, none of~the existing solutions can be suitable to t
 
 luwrain-page-ru
 
-= Чем LUWRAIN отличается от~других вспомогательных технологий? =
+# Чем LUWRAIN отличается от~других вспомогательных технологий?
+
+
 
