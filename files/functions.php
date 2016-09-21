@@ -29,7 +29,7 @@ function luwrain_top_menu()
         <div class="col-md-4">
             <a href="<?php echo luwrain_link('/doc/user/start/');?>"><?php echo luwrain_current_lang() == 'ru'?'С чего начать?':'Getting started';?></a>
             <a href="<?php echo luwrain_link('/doc/user/manual/');?>"><?php echo luwrain_current_lang() == 'ru'?'Руководство пользователя':'User manual';?></a>
-            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
+            <a href="<?php echo luwrain_link('/doc/about/');?>"><?php echo luwrain_current_lang() == 'ru'?'Всё о нас':'All about us';?></a>
             <ul class="subMenuSmall">
                 <li>
             <a href="http://twitter.com/luwrain"><?php echo luwrain_current_lang() == 'ru'?'Наш Twitter':'Our ';?></a>
@@ -46,14 +46,14 @@ function luwrain_top_menu()
             </ul>
         </div>
         <div class="col-md-4">
-            <a href="<?php echo luwrain_link('/doc/new-app/');?>"><?php echo luwrain_current_lang() == 'ru'?'Создание расширений':'Create an extension';?></a>
+            <a href="<?php echo luwrain_link('/products/education/');?>"><?php echo luwrain_current_lang() == 'ru'?'Для образования':'For education';?></a>
+            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Для коммерческих компаний':'For business';?></a>
             <a href="<?php echo luwrain_link('/community/publications/');?>"><?php echo luwrain_current_lang() == 'ru'?'Публикации':'Publications';?></a>
-                    <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статус':'Legal notes';?></a>
         </div>
         <div class="col-md-4">
-            <a href="<?php echo luwrain_link('/doc/about/');?>"><?php echo luwrain_current_lang() == 'ru'?'О проекте':'About the project';?></a>
+            <a href="<?php echo luwrain_link('/doc/faq/');?>"><?php echo luwrain_current_lang() == 'ru'?'Часто задаваемые вопросы':'FAQ';?></a>
+            <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статус':'Legal notice';?></a>
                     <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo luwrain_current_lang() == 'ru'?'Контакты':'Contact us';?></a>
-                    <a href="<?php echo luwrain_link('/doc/authors/');?>"><?php echo luwrain_current_lang() == 'ru'?'Авторы':'Authors';?></a>
         </div>
     </div>
     <div id="menuSwitch">

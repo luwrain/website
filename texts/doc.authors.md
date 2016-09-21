@@ -42,6 +42,7 @@ Here is a~list of~people who participated in~our project (in~alphabetical order)
 
 We are very thankful to~the~following people and organizations:
 
+* [Deaf-blind Support Fund So-edinenie (Connection)](http://so-edinenie.org/)
 * [Charitable Fund for~support of~blind and visually impaired people "Osyazanie"](http://www.bf-osyazanie.ru/)
 * [ALT~Linux](http://altlinux.com/)
 * Olga Yakovleva who makes possible the~free Russian text-to-speech engine, 
@@ -62,6 +63,7 @@ luwrain-page-ru
 * Роман Воловодов
 * Алексей Голошумов
 * [Михаил Пожидаев](http://marigostra.ru)
+* Елена Теплых
 
 Проекту помогали (в~алфавитном порядке):
 
@@ -86,6 +88,7 @@ luwrain-page-ru
 
 Мы очень благодарны этим~людям и организациям:
 
+* [Фонду поддержки слепоглухих «Со-единение»](http://so-edinenie.org/)
 * [Благотворительному фонду помощи слабовидящим и незрячим «Осязание»](http://www.bf-osyazanie.ru/)
 * [Компании «Альт~Линукс»](http://altlinux.ru)
 * Ольге Яковлевой за~превосходный русский синтезатор речи [RHVoice](http://github.com/Olga-Yakovleva/RHVoice )

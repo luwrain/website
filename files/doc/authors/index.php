@@ -44,6 +44,7 @@
 <p>We are very thankful to&#160;the&#160;following people and organizations:</p>
 
 <ul>
+<li><a href="http://so-edinenie.org/">Deaf-blind Support Fund So-edinenie (Connection)</a></li>
 <li><a href="http://www.bf-osyazanie.ru/">Charitable Fund for&#160;support of&#160;blind and visually impaired people "Osyazanie"</a></li>
 <li><a href="http://altlinux.com/">ALT&#160;Linux</a></li>
 <li>Olga Yakovleva who makes possible the&#160;free Russian text-to-speech engine, 
@@ -66,6 +67,7 @@
 <li>Роман Воловодов</li>
 <li>Алексей Голошумов</li>
 <li><a href="http://marigostra.ru">Михаил Пожидаев</a></li>
+<li>Елена Теплых</li>
 </ul>
 
 <p>Проекту помогали (в&#160;алфавитном порядке):</p>
@@ -94,6 +96,7 @@
 <p>Мы очень благодарны этим&#160;людям и организациям:</p>
 
 <ul>
+<li><a href="http://so-edinenie.org/">Фонду поддержки слепоглухих «Со-единение»</a></li>
 <li><a href="http://www.bf-osyazanie.ru/">Благотворительному фонду помощи слабовидящим и незрячим «Осязание»</a></li>
 <li><a href="http://altlinux.ru">Компании «Альт&#160;Линукс»</a></li>
 <li>Ольге Яковлевой за&#160;превосходный русский синтезатор речи <a href="http://github.com/Olga-Yakovleva/RHVoice">RHVoice</a></li>
