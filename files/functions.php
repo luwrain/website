@@ -48,11 +48,11 @@ function luwrain_top_menu()
         <div class="col-md-4">
             <a href="<?php echo luwrain_link('/products/education/');?>"><?php echo luwrain_current_lang() == 'ru'?'Для образования':'For education';?></a>
             <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Для коммерческих компаний':'For business';?></a>
-            <a href="<?php echo luwrain_link('/community/publications/');?>"><?php echo luwrain_current_lang() == 'ru'?'Публикации':'Publications';?></a>
+                        <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статус':'Legal notice';?></a>
         </div>
         <div class="col-md-4">
+<a href="<?php echo luwrain_link('/community/publications/');?>"><?php echo luwrain_current_lang() == 'ru'?'Пресса о нас':'Mass media about us';?></a>
             <a href="<?php echo luwrain_link('/doc/faq/');?>"><?php echo luwrain_current_lang() == 'ru'?'Часто задаваемые вопросы':'FAQ';?></a>
-            <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статус':'Legal notice';?></a>
                     <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo luwrain_current_lang() == 'ru'?'Контакты':'Contact us';?></a>
         </div>
     </div>
@@ -168,7 +168,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
                                 <div id="mainMenuBorder">
                                     <ul class="subMenu" id="mainMenuList">
                                         <li class="linkMenu">
-                                            <a id = "downLoadLink" href="<?php echo luwrain_link('/download/');?>" class="bold font18"><?php echo luwrain_current_lang() == 'ru'?'Загрузить':'Download';?></a>
+                                            <a id = "downLoadLink" href="<?php echo luwrain_link('/products/');?>" class="bold font18"><?php echo luwrain_current_lang() == 'ru'?'Продукты':'Products';?></a>
                                         </li>
                                         <li class="linkMenu">
                                             <a id = "docsLink" href="<?php echo luwrain_link('/doc/');?>"><?php echo luwrain_current_lang() == 'ru'?'Документация':'Documentation';?></a>

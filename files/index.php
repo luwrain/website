@@ -1,7 +1,10 @@
 <?php include "functions.php";?>
-<?php if (luwrain_current_mode() == 'adapted') luwrain_adapted_main_page(); else { ?>
-
-<?php include "../functions.php"; luwrain_begin_page('index.php', 'The accessible environment Luwrain', true);?>
+<?php
+  if (luwrain_current_mode() == 'adapted') 
+    luwrain_adapted_main_page(); else {
+      include "../functions.php";
+      luwrain_begin_page('index.php', luwrain_current_lang() == 'ru'?'Главная страница':'Main page', true);
+?>
 
 <script type="text/javascript">
     jQuery(document).ready(function () {
