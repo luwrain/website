@@ -36,13 +36,5 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <li><a href="<?php echo luwrain_link('publications/');?>">Публикации о&#160;нашей работе</a></li>
 <li><a href="<?php echo luwrain_link('bugs');?>">Сообщения об&#160;ошибках</a></li>
 </ul>
-
-<h2>Дополнительные материалы</h2>
-
-<ul>
-<li><a href="http://download.luwrain.org/contrib/">Файлы, присланные  членами нашего сообщества</a></li>
-<li><a href="http://download.luwrain.org/media/">Звуковые файлы, используемые для оформления LUWRAIN</a></li>
-<li><a href="http://habrahabr.ru/post/258413/">Никита Цейковец на&#160;Хабрахабр о&#160;разработке приложений для&#160;LUWRAIN</a></li>
-</ul>
 <?php }?>
 <?php luwrain_end_page('/community/index.php');?>

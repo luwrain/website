@@ -1,9 +1,6 @@
-comm.fedora.md
 comm.mailing-lists.licrict
 comm.md
 comm.publications.md
-comm.sonar.licrict
-comm.web-browsing.licrict
 dev.compilation.md
 dev.ext.agregat.md
 dev.iso.md

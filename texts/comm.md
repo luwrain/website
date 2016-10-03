@@ -39,9 +39,3 @@ luwrain-page-ru
 * [Публикации о~нашей работе](local:publications/)
 * [Сообщения об~ошибках](local:bugs)
 
-## Дополнительные материалы
-
-* [Файлы, присланные  членами нашего сообщества](http://download.luwrain.org/contrib/)
-* [Звуковые файлы, используемые для оформления LUWRAIN](http://download.luwrain.org/media/)
-* [Никита Цейковец на~Хабрахабр о~разработке приложений для~LUWRAIN](http://habrahabr.ru/post/258413/)
-
