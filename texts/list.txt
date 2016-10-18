@@ -16,7 +16,7 @@ doc.faq.licrict
 doc.legal.md
 doc.md
 doc.roadmap.licrict
-download.git.licrict
+download.git.md
 download.iso.md
 download.iso.writing.md
 download.linux.md
