@@ -1,6 +1,6 @@
-<?php include "../../../functions.php"; luwrain_begin_page('/doc/devel/nightly/index.php', luwrain_current_lang() == 'ru'?'Компиляция наших nightly-сборок':'Compiling our nightly  build');?>
+<?php include "../../../functions.php"; luwrain_begin_page('/doc/devel/nightly/index.php', luwrain_current_lang() == 'ru'?'Компиляция наших nightly-сборок':'Compiling our nightly   releases');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-<h1>Compiling our nightly build</h1>
+<h1>Compiling our nightly releases</h1>
 
 <p>It's very easy to&#160;get our nightly build compiled 
 the&#160;same way as&#160;we&#160;do when we&#160;publish <a href="<?php echo luwrain_link('/download/nightly/');?>">them</a>  on&#160;this website.

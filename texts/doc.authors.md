@@ -15,6 +15,7 @@ see~also
 Our main team includes (in~alphabetical order):
 
 * Alexey Goloshumov
+* Ekaterina Koryakina
 * [Michael Pozhidaev](http://marigostra.com)
 * Helen Teplykh
 * Roman Volovodov
@@ -42,6 +43,7 @@ Here is a~list of~people who participated in~our project (in~alphabetical order)
 
 We are very thankful to~the~following people and organizations:
 
+* [Tomsk State University](http://tsu.ru/)
 * [Deaf-blind Support Fund So-edinenie (Connection)](http://so-edinenie.org/)
 * [Charitable Fund for~support of~blind and visually impaired people "Osyazanie"](http://www.bf-osyazanie.ru/)
 * [ALT~Linux](http://altlinux.com/)
@@ -52,16 +54,16 @@ luwrain-page-ru
 
 # Над LUWRAIN работают
 
-См.~также
+См.~также:
 
 * [Наш фотоальбом](local:/community/album/)
 * [Записанные приветствия на~разных языках](http://download.luwrain.org/media/greeting/langs/)
-
 
 В~основную группу разработчиков LUWRAIN входят (в~алфавитном порядке):
 
 * Роман Воловодов
 * Алексей Голошумов
+* Екатерина Корякина
 * [Михаил Пожидаев](http://marigostra.ru)
 * Елена Теплых
 
@@ -88,8 +90,8 @@ luwrain-page-ru
 
 Мы очень благодарны этим~людям и организациям:
 
+* [Томскому государственному университету](http://tsu.ru/)
 * [Фонду поддержки слепоглухих «Со-единение»](http://so-edinenie.org/)
 * [Благотворительному фонду помощи слабовидящим и незрячим «Осязание»](http://www.bf-osyazanie.ru/)
 * [Компании «Альт~Линукс»](http://altlinux.ru)
 * Ольге Яковлевой за~превосходный русский синтезатор речи [RHVoice](http://github.com/Olga-Yakovleva/RHVoice )
-

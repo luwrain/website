@@ -13,6 +13,7 @@
 
 <ul>
 <li>Alexey Goloshumov</li>
+<li>Ekaterina Koryakina</li>
 <li><a href="http://marigostra.com">Michael Pozhidaev</a></li>
 <li>Helen Teplykh</li>
 <li>Roman Volovodov</li>
@@ -44,6 +45,7 @@
 <p>We are very thankful to&#160;the&#160;following people and organizations:</p>
 
 <ul>
+<li><a href="http://tsu.ru/">Tomsk State University</a></li>
 <li><a href="http://so-edinenie.org/">Deaf-blind Support Fund So-edinenie (Connection)</a></li>
 <li><a href="http://www.bf-osyazanie.ru/">Charitable Fund for&#160;support of&#160;blind and visually impaired people "Osyazanie"</a></li>
 <li><a href="http://altlinux.com/">ALT&#160;Linux</a></li>
@@ -54,7 +56,7 @@
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Над LUWRAIN работают</h1>
 
-<p>См.&#160;также</p>
+<p>См.&#160;также:</p>
 
 <ul>
 <li><a href="<?php echo luwrain_link('/community/album/');?>">Наш фотоальбом</a></li>
@@ -66,6 +68,7 @@
 <ul>
 <li>Роман Воловодов</li>
 <li>Алексей Голошумов</li>
+<li>Екатерина Корякина</li>
 <li><a href="http://marigostra.ru">Михаил Пожидаев</a></li>
 <li>Елена Теплых</li>
 </ul>
@@ -96,6 +99,7 @@
 <p>Мы очень благодарны этим&#160;людям и организациям:</p>
 
 <ul>
+<li><a href="http://tsu.ru/">Томскому государственному университету</a></li>
 <li><a href="http://so-edinenie.org/">Фонду поддержки слепоглухих «Со-единение»</a></li>
 <li><a href="http://www.bf-osyazanie.ru/">Благотворительному фонду помощи слабовидящим и незрячим «Осязание»</a></li>
 <li><a href="http://altlinux.ru">Компании «Альт&#160;Линукс»</a></li>

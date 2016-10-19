@@ -1,11 +1,11 @@
 
-ENTITLE='Compiling our nightly  build'
+ENTITLE='Compiling our nightly   releases'
 RUTITLE='Компиляция наших nightly-сборок'
 TARGET=doc/devel/nightly/index.php
 
 luwrain-page-en
 
-# Compiling our nightly build
+# Compiling our nightly releases
 
 It's very easy to~get our nightly build compiled 
 the~same way as~we~do when we~publish [them](local:/download/nightly/)  on~this website.
