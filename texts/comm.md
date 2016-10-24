@@ -20,6 +20,10 @@ With valuable feedback, we are~able to make  corresponding improvements and trac
 * [Publications about our work](local:publications)
 * [Reporting a~bug](local:bugs)
 
+## Public initiatives
+
+* [Introducing F123e](local:f123e.php)
+
 luwrain-page-ru
 
 # Наше~сообщество
@@ -38,4 +42,8 @@ luwrain-page-ru
 * [Лента новостей  в~Twitter](http://twitter.com/luwrain)
 * [Публикации о~нашей работе](local:publications/)
 * [Сообщения об~ошибках](local:bugs)
+
+## Общественные инициативы
+
+* [Представляем F123e](local:f123e.php)
 

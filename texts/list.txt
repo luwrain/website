@@ -1,6 +1,7 @@
 comm.mailing-lists.licrict
 comm.md
 comm.publications.md
+comm.f123e.md
 dev.compilation.md
 dev.ext.agregat.md
 dev.iso.md
@@ -52,6 +53,7 @@ manual.switching.licrict
 products.business.md
 products.education.md
 products.md
+resources.md
 user.md
 user.start.md
 user.try.md

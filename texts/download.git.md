@@ -78,6 +78,10 @@ Twitter client
 documents editor
 * [https://github.com/luwrain/app-contacts.git](https://github.com/luwrain/app-contacts.git)
 personal address book
+* [https://github.com/luwrain/app-contacts.git](https://github.com/luwrain/app-fb.git)
+Facebook client
+* [https://github.com/luwrain/app-contacts.git](https://github.com/luwrain/app-char.git)
+messenger
 
 ## OS-dependent code
 
@@ -179,6 +183,11 @@ luwrain-page-ru
 редактирование документов
 * [https://github.com/luwrain/app-contacts.git](https://github.com/luwrain/app-contacts.git)
 персональная адресная книга
+* [https://github.com/luwrain/app-contacts.git](https://github.com/luwrain/app-fb.git)
+клиент для~Facebook
+* [https://github.com/luwrain/app-contacts.git](https://github.com/luwrain/app-char.git)
+мессенджер
+
 
 ## Системнозависимые компоненты
 
@@ -195,7 +204,6 @@ luwrain-page-ru
 Только VoiceMan включается в~настоящий момент в~наши ISO-образы.
 Остальные репозитории существуют большей частью для~обсуждения функциональности соответствующих сервисов.
 
-
 * [https://github.com/luwrain/voiceman.git](https://github.com/luwrain/voiceman.git) ---
 речевой сервер
 * [https://github.com/luwrain/libdbusspeech.git](https://github.com/luwrain/libdbusspeech.git) ---
@@ -206,5 +214,3 @@ luwrain-page-ru
 управление синтезаторами речи
 * [https://github.com/luwrain/musitorius.git](https://github.com/luwrain/musitorius.git) ---
 управление медиапроигрывателем
-
-

@@ -16,6 +16,12 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <li><a href="<?php echo luwrain_link('publications');?>">Publications about our work</a></li>
 <li><a href="<?php echo luwrain_link('bugs');?>">Reporting a&#160;bug</a></li>
 </ul>
+
+<h2>Public initiatives</h2>
+
+<ul>
+<li><a href="<?php echo luwrain_link('f123e.php');?>">Introducing F123e</a></li>
+</ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Наше&#160;сообщество</h1>
@@ -35,6 +41,12 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <li><a href="http://twitter.com/luwrain">Лента новостей  в&#160;Twitter</a></li>
 <li><a href="<?php echo luwrain_link('publications/');?>">Публикации о&#160;нашей работе</a></li>
 <li><a href="<?php echo luwrain_link('bugs');?>">Сообщения об&#160;ошибках</a></li>
+</ul>
+
+<h2>Общественные инициативы</h2>
+
+<ul>
+<li><a href="<?php echo luwrain_link('f123e.php');?>">Представляем F123e</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/community/index.php');?>

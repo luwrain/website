@@ -149,45 +149,45 @@ multimedia player control</li>
 
 <ul>
 <li><a href="https://github.com/luwrain/app-browser.git">https://github.com/luwrain/app-browser.git</a> &#x2014;
-web browser (also has Javadoc <a href="http://luwrain.org/api-browser">here</a>)</li>
+веб-браузер (<a href="http://luwrain.org/api-browser">здесь</a> также доступна документация Javadoc)</li>
 <li><a href="https://github.com/luwrain/app-commander.git">https://github.com/luwrain/app-commander.git</a> &#x2014;
-double-panel commander for operations on&#160;files and directories</li>
+двухпанельный файловый менеджер для&#160;операций над&#160;файлами и каталогами</li>
 <li><a href="https://github.com/luwrain/app-mail.git">https://github.com/luwrain/app-mail.git</a> &#x2014;
-mail reading</li>
+почтовый клиент</li>
 <li><a href="https://github.com/luwrain/app-message.git">https://github.com/luwrain/app-message.git</a> &#x2014;
-mail messages composing</li>
+редактор сообщений электронной почты</li>
 <li><a href="https://github.com/luwrain/app-reader.git">https://github.com/luwrain/app-reader.git</a> &#x2014;
-documents and texts preview</li>
+просмотр структурированных документов</li>
 <li><a href="https://github.com/luwrain/app-player.git">https://github.com/luwrain/app-player.git</a> &#x2014;
-multimedia player</li>
+мультимедиа плеер</li>
 </ul>
 
-<h2>Auxiliary repositories</h2>
+<h2>Вспомогательные репозитории</h2>
 
 <ul>
 <li><a href="https://github.com/luwrain/extensions.git">https://github.com/luwrain/extensions.git</a> &#x2014;
-a&#160;set of&#160;standard extensions</li>
+набор стандартных расширений</li>
 <li><a href="https://github.com/luwrain/i18n.git">https://github.com/luwrain/i18n.git</a> &#x2014;
-support of&#160;national languages and standards</li>
+поддержка национальных языков и стандартов</li>
 <li><a href="https://github.com/luwrain/registry.git">https://github.com/luwrain/registry.git</a> &#x2014;
-registry data</li>
+данные реестра</li>
 </ul>
 
-<h2>Other applications</h2>
+<h2>Прочие приложения</h2>
 
 <ul>
 <li><a href="https://github.com/luwrain/app-calc.git">https://github.com/luwrain/app-calc.git</a> &#x2014;
-calculator</li>
+калькулятор</li>
 <li><a href="https://github.com/luwrain/app-calendar.git">https://github.com/luwrain/app-calendar.git</a> &#x2014;
-calendar</li>
+календарь</li>
 <li><a href="https://github.com/luwrain/app-diary.git">https://github.com/luwrain/app-diary.git</a> &#x2014;
-personal diary</li>
+персональный дневник</li>
 <li><a href="https://github.com/luwrain/app-fetch.git">https://github.com/luwrain/app-fetch.git</a> &#x2014;
-fetching of mail and news</li>
+доставка почты и новостей</li>
 <li><a href="https://github.com/luwrain/app-news.git">https://github.com/luwrain/app-news.git</a> &#x2014;
-news reading</li>
+чтение новостей</li>
 <li><a href="https://github.com/luwrain/app-notepad.git">https://github.com/luwrain/app-notepad.git</a> &#x2014;
-simple text editor</li>
+простейший текстовый редактор</li>
 <li><a href="https://github.com/luwrain/app-term.git">https://github.com/luwrain/app-term.git</a> &#x2014;
 терминал (только для&#160;GNU/Linux)</li>
 <li><a href="https://github.com/luwrain/app-twitter.git">https://github.com/luwrain/app-twitter.git</a> &#x2014;
@@ -198,7 +198,7 @@ simple text editor</li>
 персональная адресная книга</li>
 </ul>
 
-<h2>OS-dependent code</h2>
+<h2>Системнозависимые компоненты</h2>
 
 <ul>
 <li><a href="https://github.com/luwrain/linux.git">https://github.com/luwrain/linux.git</a> &#x2014;
@@ -209,7 +209,7 @@ simple text editor</li>
 для Mac OS X (в&#160;настоящий момент не&#160;поддерживается)</li>
 </ul>
 
-<h2>System services</h2>
+<h2>Системные сервисы</h2>
 
 <p>Несмотря на то, что мы упоминаем  эти репозитории, фактически, над&#160;ними работы не&#160;ведём.
 Только VoiceMan включается в&#160;настоящий момент в&#160;наши ISO-образы.

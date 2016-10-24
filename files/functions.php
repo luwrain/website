@@ -32,16 +32,19 @@ function luwrain_top_menu()
             <a href="<?php echo luwrain_link('/doc/about/');?>"><?php echo luwrain_current_lang() == 'ru'?'Всё о нас':'All about us';?></a>
             <ul class="subMenuSmall">
                 <li>
+            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
+                </li>
+                <li>
             <a href="http://twitter.com/luwrain"><?php echo luwrain_current_lang() == 'ru'?'Наш Twitter':'Our ';?></a>
                 </li>
                 <li>
             <a href="http://wiki.luwrain.org"><?php echo luwrain_current_lang() == 'ru'?'Наш Wiki':'Our Wiki';?></a>
                 </li>
                 <li>
-            <a href="/api/">Javadoc API</a>
+            <a href="https://github.com/luwrain/"><?php echo luwrain_current_lang() == 'ru'?'Мы на Github':'We on Github';?></a>
                 </li>
                 <li>
-            <a href="https://github.com/luwrain/"><?php echo luwrain_current_lang() == 'ru'?'Мы на Github':'We on Github';?></a>
+            <a href="<?php echo luwrain_link('/resources/');?>"><?php echo luwrain_current_lang() == 'ru'?'...ещё':'...more';?></a>
                 </li>
             </ul>
         </div>
@@ -52,7 +55,7 @@ function luwrain_top_menu()
         </div>
         <div class="col-md-4">
 <a href="<?php echo luwrain_link('/community/publications/');?>"><?php echo luwrain_current_lang() == 'ru'?'Пресса о нас':'Mass media about us';?></a>
-            <a href="<?php echo luwrain_link('/doc/faq/');?>"><?php echo luwrain_current_lang() == 'ru'?'Часто задаваемые вопросы':'FAQ';?></a>
+            <a href="<?php echo luwrain_link('/community/album/');?>"><?php echo luwrain_current_lang() == 'ru'?'Фотоальбом':'Album';?></a>
                     <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo luwrain_current_lang() == 'ru'?'Контакты':'Contact us';?></a>
         </div>
     </div>
