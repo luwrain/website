@@ -77,7 +77,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
     {
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<html lang="<?php echo luwrain_current_lang();?>">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <?php
@@ -93,14 +93,12 @@ function luwrain_begin_page($path, $title, $isMainPage)
     <a href="<?php echo luwrain_link_ext1($path, 'en', luwrain_current_mode());?>">EN</a> |
     <a href="<?php echo luwrain_link_ext1($path, 'ru', luwrain_current_mode());?>">RU</a><br />
     <div style="height: 16px;"></div>
-    <body>
-<html>
         <?php
         return;
     }
         ?>
         <!DOCTYPE html>
-        <html>
+        <html lang="<?php echo luwrain_current_lang();?>">
         <head>
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -115,7 +113,6 @@ function luwrain_begin_page($path, $title, $isMainPage)
             <script type="text/javascript" src="Scripts/<?php if (luwrain_current_lang() == 'en') echo 'index-en.js'; if (luwrain_current_lang() == 'ru') echo 'index-ru.js'; ?>"></script>
             <script type="text/javascript" src="/Scripts/core.js"></script>
             <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
-
             <script type="text/javascript">
                 jQuery(document).ready(function () {
                     OnReady();
@@ -190,9 +187,16 @@ function luwrain_begin_page($path, $title, $isMainPage)
                 <?php }?>
         <?php
 }
+
 function luwrain_end_page($path, $isMainPage)
 { 
-    if (luwrain_current_mode() == 'adapted') { return; }?>
+    if (luwrain_current_mode() == 'adapted') { 
+?>
+</body>
+</html>
+<?php
+
+return; }?>
 		</div>
 		
     <div class="row" id="footerPart">

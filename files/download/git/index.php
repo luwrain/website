@@ -82,6 +82,10 @@ Twitter client</li>
 documents editor</li>
 <li><a href="https://github.com/luwrain/app-contacts.git">https://github.com/luwrain/app-contacts.git</a>
 personal address book</li>
+<li><a href="https://github.com/luwrain/app-fb.git">https://github.com/luwrain/app-contacts.git</a>
+Facebook client</li>
+<li><a href="https://github.com/luwrain/app-char.git">https://github.com/luwrain/app-contacts.git</a>
+messenger</li>
 </ul>
 
 <h2>OS-dependent code</h2>
@@ -196,6 +200,10 @@ multimedia player control</li>
 редактирование документов</li>
 <li><a href="https://github.com/luwrain/app-contacts.git">https://github.com/luwrain/app-contacts.git</a>
 персональная адресная книга</li>
+<li><a href="https://github.com/luwrain/app-fb.git">https://github.com/luwrain/app-contacts.git</a>
+клиент для&#160;Facebook</li>
+<li><a href="https://github.com/luwrain/app-char.git">https://github.com/luwrain/app-contacts.git</a>
+мессенджер</li>
 </ul>
 
 <h2>Системнозависимые компоненты</h2>

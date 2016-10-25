@@ -38,8 +38,9 @@
 
 <ul>
 <li><a href="<?php echo luwrain_link('/community/publications/');?>">Публикации</a></li>
+<li><a href="<?php echo luwrain_link('/doc/difference/');?>">Страница преимуществ системы перед другими решениями</a></li>
 <li><a href="<?php echo luwrain_link('/community/album/');?>">Фотоальбом</a></li>
-<li><a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы</a></li>
+<li><a href="<?php echo luwrain_link('/doc/authors/');?>">Список авторов и разработчиков</a></li>
 </ul>
 
 <h2>Центральный узел загрузок (download.luwrain.org)</h2>

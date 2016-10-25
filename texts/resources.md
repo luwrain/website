@@ -37,6 +37,7 @@ luwrain-page-ru
 ## Информация о~проекте
 
 * [Публикации](local:/community/publications/)
+* [Страница преимуществ системы перед другими решениями](local:/doc/difference/)
 * [Фотоальбом](local:/community/album/)
 * [Список авторов и разработчиков](local:/doc/authors/)
 
