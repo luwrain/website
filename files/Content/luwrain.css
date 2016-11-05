@@ -98,3 +98,11 @@ img { border-style: none; }
 
 #footerPart { margin-top: 30px; }
     #footerPart div { text-align: center; }
+
+.image-slider { font-size: 20px; position: relative; }
+.image-slider .image-item { display: block; padding: 0px 40px; }
+.image-slider .image-item img { margin: 0; }
+.image-slider .photo-next,
+.image-slider .photo-prev { position: absolute; top: 45%; font-weight: bold; }
+.image-slider .photo-next { right: 0; }
+.image-slider .photo-prev { left: 0; }
