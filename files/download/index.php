@@ -2,17 +2,15 @@
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Our downloads</h1>
 
-<h2>For&#160;end&#160;users</h2>
-
-<p>These options are for&#160;everybody who needs LUWRAIN for&#160;work. 
+<p>These options are for&#160;people who needs LUWRAIN for&#160;work. 
 With&#160;the&#160;list below, you can find a&#160;binary distribution prepared for&#160;OS you have already installed or 
-a&#160;ISO-image suitable for running LUWRAIN as&#160;a&#160;stand-alone OS (in&#160;this&#160;case no&#160;installed OS required).</p>
+a&#160;ISO&#160;image suitable for running LUWRAIN as&#160;a&#160;stand-alone OS (in&#160;this&#160;case any&#160;previously installed OS is unnecessary).</p>
 
-<h3>Choose the&#160;most suitable form you need:</h3>
+<p>Choose the&#160;most suitable form you need:</p>
 
 <ul>
-<li><a href="<?php echo luwrain_link('iso/');?>">Bootable ISO-images</a> (installed OS isn't required)</li>
-<li>Binary distributions as&#160;applications:
+<li><a href="<?php echo luwrain_link('iso/');?>">As a&#160;bootable ISO image</a> (installed OS isn't required)</li>
+<li>As&#160;an&#160;application:
 <ul>
 <li><a href="<?php echo luwrain_link('windows/');?>">For&#160;Microsoft Windows</a></li>
 <li><a href="<?php echo luwrain_link('linux/');?>">For&#160;GNU/Linux</a></li>
@@ -43,20 +41,19 @@ Besides all, you can find there:</p>
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-<h1>Загрузка наших дистрибутивов и  материалов</h1>
+<h1>Загрузка наших дистрибутивов</h1>
 
-<h2>Для&#160;пользователей</h2>
-
-<p>Варианты в&#160;этом разделе предназначены для&#160;пользователей,
-желающих установить LUWRAIN для&#160;работы или запустить его&#160;для&#160;ознакомления.
+<p>Ссылки в&#160;списке ниже позволяют загрузить дистрибутивы для&#160;работы 
+и предназначены для&#160;пользователей,
+желающих установить LUWRAIN или запустить его&#160;для&#160;ознакомления.
 LUWRAIN в&#160;виде ISO-образа не&#160;требует какой-либо установленной ОС на&#160;вашем компьютере.
-В&#160;остальных случаях LUWRAIN предоставляется как&#160;приложение для запуска в&#160;Microsoft Windows или GNU/Linux.</p>
+В&#160;остальных случаях LUWRAIN подготовлен как&#160;приложение для запуска в&#160;Microsoft Windows или в&#160;GNU/Linux.</p>
 
-<h3>Выберите наиболее подходящий для&#160;вас вариант:</h3>
+<p>Выберите наиболее подходящий для&#160;вас вариант:</p>
 
 <ul>
-<li><a href="<?php echo luwrain_link('iso/');?>">В&#160;виде загрузочного ISO-образа</a> (установленная ОС не&#160;требуется)</li>
-<li>В&#160;виде приложения:
+<li><a href="<?php echo luwrain_link('iso/');?>">Как загрузочный ISO-образ</a> (установленная ОС не&#160;требуется)</li>
+<li>Как&#160;приложение:
 <ul>
 <li><a href="<?php echo luwrain_link('windows/');?>">Для&#160;Microsoft Windows</a></li>
 <li><a href="<?php echo luwrain_link('linux/');?>">Для&#160;GNU/Linux</a></li>

@@ -7,16 +7,14 @@ luwrain-page-en
 
 # Our downloads
 
-## For~end~users
-
-These options are for~everybody who needs LUWRAIN for~work. 
+These options are for~people who needs LUWRAIN for~work. 
 With~the~list below, you can find a~binary distribution prepared for~OS you have already installed or 
-a~ISO-image suitable for running LUWRAIN as~a~stand-alone OS (in~this~case no~installed OS required).
+a~ISO~image suitable for running LUWRAIN as~a~stand-alone OS (in~this~case any~previously installed OS is unnecessary).
 
-### Choose the~most suitable form you need:
+Choose the~most suitable form you need:
 
-* [Bootable ISO-images](local:iso/) (installed OS isn't required)
-* Binary distributions as~applications:
+* [As a~bootable ISO image](local:iso/) (installed OS isn't required)
+* As~an~application:
  * [For~Microsoft Windows](local:windows/)
  * [For~GNU/Linux](local:linux/)
 
@@ -41,19 +39,18 @@ Besides all, you can find there:
 
 luwrain-page-ru
 
-# Загрузка наших дистрибутивов и  материалов 
+# Загрузка наших дистрибутивов
 
-## Для~пользователей 
-
-Варианты в~этом разделе предназначены для~пользователей,
-желающих установить LUWRAIN для~работы или запустить его~для~ознакомления.
+Ссылки в~списке ниже позволяют загрузить дистрибутивы для~работы 
+и предназначены для~пользователей,
+желающих установить LUWRAIN или запустить его~для~ознакомления.
 LUWRAIN в~виде ISO-образа не~требует какой-либо установленной ОС на~вашем компьютере.
-В~остальных случаях LUWRAIN предоставляется как~приложение для запуска в~Microsoft Windows или GNU/Linux.
+В~остальных случаях LUWRAIN подготовлен как~приложение для запуска в~Microsoft Windows или в~GNU/Linux.
 
-### Выберите наиболее подходящий для~вас вариант:
+Выберите наиболее подходящий для~вас вариант:
 
-* [В~виде загрузочного ISO-образа](local:iso/) (установленная ОС не~требуется)
-* В~виде приложения:
+* [Как загрузочный ISO-образ](local:iso/) (установленная ОС не~требуется)
+* Как~приложение:
  * [Для~Microsoft Windows](local:windows/)
  * [Для~GNU/Linux](local:linux/)
 

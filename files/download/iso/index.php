@@ -2,8 +2,8 @@
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Bootable ISO images</h1>
 
-<p>There are the&#160;direct links to&#160;our&#160;bootable ISO images available for&#160;download.
-They would be&#160;useful if you'd like to&#160;run LUWRAIN as&#160;live&#160;CD without installation on&#160;a&#160;hard drive 
+<p>Here you can find the&#160;direct links to&#160;our&#160;bootable ISO images available for&#160;download.
+They would be&#160;useful, if you'd like to&#160;run LUWRAIN as&#160;live&#160;CD without installing  on&#160;a&#160;hard drive 
 or to&#160;install it as&#160;a&#160;stand-alone OS on&#160;your PC.</p>
 
 <p>These ISO images are based on&#160;Ubuntu 15.10 (Wily Werewolf).
@@ -17,13 +17,13 @@ on&#160;your flash stick or on&#160;CD/DVD recordable media.</p>
 <ul>
 <li>English language:
 <ul>
-<li>[en-i386.iso] </li>
-<li>[en-amd64.iso]</li>
+<li><a href="http://download.luwrain.org/iso/luwrain-en-i386-<?php echo lwr_version_iso();?>.iso">[en-i386.iso]</a> </li>
+<li><a href="http://download.luwrain.org/iso/luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso">[en-amd64.iso]</a></li>
 </ul></li>
 <li>Russian language:
 <ul>
 <li><a href="http://download.luwrain.org/iso/luwrain-ru-i386-<?php echo lwr_version_iso();?>.iso">[ru-i386.iso]</a></li>
-<li>[ru-amd64.iso]</li>
+<li><a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">[ru-amd64.iso]</a></li>
 </ul></li>
 </ul>
 
@@ -38,7 +38,7 @@ on&#160;your flash stick or on&#160;CD/DVD recordable media.</p>
 <h1>Загрузочные ISO-образы</h1>
 
 <p>На&#160;этой странице приведены прямые ссылки на&#160;загрузочные ISO-образы,
-доступные для&#160;загрузки с&#160;нашего сайта.
+доступные на&#160;нашем сайте.
 Они могут быть полезны, если вы желаете запустить LUWRAIN в&#160;режиме live CD без&#160;установки на&#160;жёсткий диск 
 или установить на&#160;ваш ПК как&#160;самостоятельную ОС.</p>
 
@@ -46,7 +46,7 @@ on&#160;your flash stick or on&#160;CD/DVD recordable media.</p>
 Они являются гибридными файлами и пригодны для&#160;записи как&#160;на&#160;флэш-носитель,
 так и на&#160;CD/DVD-диск.</p>
 
-<p>Версия: <?php echo lwr_version_iso();?></p>
+<p>Версия LUWRAIN: <?php echo lwr_version_iso();?></p>
 
 <p>Дата релиза: <?php echo lwr_release_date_iso_ru();?></p>
 
@@ -54,12 +54,12 @@ on&#160;your flash stick or on&#160;CD/DVD recordable media.</p>
 <li>Русская версия: 
 <ul>
 <li><a href="http://download.luwrain.org/iso/luwrain-ru-i386-<?php echo lwr_version_iso();?>.iso">[ru-i386.iso]</a></li>
-<li>[ru-amd64.iso]</li>
+<li><a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">[ru-amd64.iso]</a></li>
 </ul></li>
 <li>Английская версия:
 <ul>
-<li>[en-i386.iso] </li>
-<li>[en-amd64.iso]</li>
+<li><a href="http://download.luwrain.org/iso/luwrain-en-i386-<?php echo lwr_version_iso();?>.iso">[en-i386.iso]</a></li>
+<li><a href="http://download.luwrain.org/iso/luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso">[en-amd64.iso]</a></li>
 </ul></li>
 </ul>
 
