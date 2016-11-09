@@ -4,7 +4,7 @@
 
 <p>There&#160;are the&#160;releases which we recommend for&#160;running on&#160;Microsoft Windows.
 They include Java Runtime Environment (JRE) inside,
-so the&#160;only thing necessary for&#160;quick launch of&#160;LUWRAIN on&#160;your machine  is&#160;any properly available text-to-speech engine (TTS).
+so the&#160;only thing necessary for&#160; running LUWRAIN on&#160;your machine  is&#160;any properly available text-to-speech engine (TTS).
 The&#160;releases are prepared for&#160;32-bit and for&#160;64-bit versions of&#160;Microsoft Windows with&#160;all&#160;currently supported languages. 
 Clik on&#160;the&#160;direct link below to&#160;start  downloading:</p>
 
@@ -15,8 +15,8 @@ Clik on&#160;the&#160;direct link below to&#160;start  downloading:</p>
 <p>Target platform: Microsoft Windows 7/8/8.1</p>
 
 <ul>
-<li>For&#160;32-bit: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip</a></li>
-<li>For&#160;64-bit: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-64bit-<?php echo lwr_version_windows();?>.zip">luwrain-windows-64bit-<?php echo lwr_version_windows();?>.zip</a></li>
+<li>For&#160;32-bit systems: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe">luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe</a></li>
+<li>For&#160;64-bit systems: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-64bit-<?php echo lwr_version_windows();?>.exe">luwrain-windows-64bit-<?php echo lwr_version_windows();?>.exe</a></li>
 </ul>
 
 <p>In&#160;addition we provide a&#160;special release for&#160;Microsoft Windows containing all&#160;necessary LUWRAIN binary files, but without Java Runtime Environment (JRE).
@@ -40,11 +40,9 @@ Clik on&#160;the&#160;direct link below to&#160;start  downloading:</p>
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Дистрибутив для&#160;Microsoft Windows</h1>
 
-<h1>Distribution for&#160;Microsoft Windows</h1>
-
 <p>Ниже приведены версии LUWRAIN, которые мы рекомендуем для&#160;запуска на&#160;Microsoft Windows. 
 Они включают в&#160;себя Java Runtime Environment (JRE),
-поэтому для&#160;запуска вам понадобится только любой подходящий речевой синтезатор, установленный на&#160;вашем компьютере.
+поэтому для&#160;запуска вам понадобится только речевой синтезатор, установленный на&#160;вашем компьютере.
 Дистрибутивы подготовлены для 32-битных и для&#160;64-битных систем и включают в&#160;себя все&#160;поддерживаемые языки. 
 Щёлкните по&#160;прямой ссылке ниже для&#160;начала загрузки:</p>
 
@@ -55,8 +53,8 @@ Clik on&#160;the&#160;direct link below to&#160;start  downloading:</p>
 <p>Версия ОС: Microsoft Windows 7/8/8.1</p>
 
 <ul>
-<li>Для&#160;32-бит: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip</a></li>
-<li>Для&#160;64-бит: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-64bit-<?php echo lwr_version_windows();?>.zip">luwrain-windows-64bit-<?php echo lwr_version_windows();?>.zip</a></li>
+<li>Для&#160;32-битных систем: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe">luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe</a></li>
+<li>Для&#160;64-битных систем: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-64bit-<?php echo lwr_version_windows();?>.exe">luwrain-windows-64bit-<?php echo lwr_version_windows();?>.exe</a></li>
 </ul>
 
 <p>Помимо этого мы&#160;предлагаем отдельную версию, которая содержит все необходимые файлы,

@@ -49,6 +49,7 @@ luwrain-page-ru
 См.~также:
 
 * [Все~дистрибутивы LUWRAIN для~загрузки](local:/download/)
+* [С~чего начать?](local:/doc/user/start/)
 * [Чем LUWRAIN отличается от~других решений невизуального доступа к~ПК](local:/doc/difference/)
 
 ## Для~образования

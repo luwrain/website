@@ -50,6 +50,7 @@ These tools are:</p>
 
 <ul>
 <li><a href="<?php echo luwrain_link('/download/');?>">Все&#160;дистрибутивы LUWRAIN для&#160;загрузки</a></li>
+<li><a href="<?php echo luwrain_link('/doc/user/start/');?>">С&#160;чего начать?</a></li>
 <li><a href="<?php echo luwrain_link('/doc/difference/');?>">Чем LUWRAIN отличается от&#160;других решений невизуального доступа к&#160;ПК</a></li>
 </ul>
 
