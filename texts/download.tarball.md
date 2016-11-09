@@ -9,6 +9,9 @@ luwrain-page-en
 
 If you need our source code and would like to~get it in~single click,
 you can  take our tarball distribution available by~the~direct link below.
+Vaste majority of~LUWRAIN materials of~our project
+including scripts for preparing ISO images and binary distributions,
+go to~this tarball.
 
 Version: <?php echo lwr_version_tarball();?>
 
@@ -16,23 +19,19 @@ Date of~release: <?php echo lwr_release_date_tarball_en();?>
 
 * <a href="http://download.luwrain.org/src/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a> 
 
-In~addition, for~your convenience 
- we also provide a~source distribution with all necessary third-party libraries and media data.  
-Use this link to~get~it:
-
-* <a href="http://download.luwrain.org/src/luwrain-data-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-data-<?php echo lwr_version_tarball();?>.tar.gz</a> 
-
 ## See~also
 
 * [Our Git repositories](local:/download/git)
-* [Our~resources for~developers](local:/doc/devel/)
+* [Our~documentation for~developers](local:/doc/devel/)
 
 luwrain-page-ru
 
-# Tar-архивы LUWRAIN =
+# Tar-архив с~исходными текстами
 
 Если вам необходимы полные исходные тексты нашего проекта, и вы хотите их загрузить одним файлом,
 то вы можете воспользоваться прямой ссылкой ниже. 
+Большинство материалов LUWRAIN, включая скрипты для~сборки ISO-образов и бинарных дистрибутивов,
+содержатся в~этом архиве.
 
 Версия: <?php echo lwr_version_tarball();?>
 
@@ -40,12 +39,7 @@ luwrain-page-ru
 
 * <a href="http://download.luwrain.org/src/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a> 
 
-Помимо этого, мы также предоставляем архив с~исходными текстами, в который включены все~сторонние библиотеки 
-и наши звуковые файлы: 
-
-* <a href="http://download.luwrain.org/src/luwrain-data-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-data-<?php echo lwr_version_tarball();?>.tar.gz</a>
-
 ## См.~также
 
 * [Наши репозитории Git](local:/download/git)
-* [Наши ресурсы для~разработчиков](local:/doc/devel/)
+* [Документация для~разработчиков](local:/doc/devel/)

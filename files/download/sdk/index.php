@@ -9,22 +9,22 @@ It&#160;is&#160;prepared for&#160;Java developers and provides necessary jar's, 
 
 <p>Date of&#160;release: <?php echo lwr_release_date_sdk_en();?></p>
 
-<p>You can download LUWRAIN&#160;SDK by&#160;the&#160;following link:</p>
+<p>Click on&#160;this link to&#160;download LUWRAIN&#160;SDK:</p>
 
 <ul>
-<li>luwrain-sdk-<?php echo lwr_version_sdk();?>.zip </li>
+<li><a href="http://download.luwrain.org/binary/<?php echo lwr_version_sdk();?>/sdk/luwrain-sdk-<?php echo lwr_version_sdk();?>.zip">luwrain-sdk-<?php echo lwr_version_sdk();?>.zip</a></li>
 </ul>
 
 <h2>See also</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/ext/');?>">How to&#160;create your own application for&#160;LUWRAIN?</a></li>
+<li><a href="<?php echo luwrain_link('/doc/ext/');?>">How to&#160;create your own applications and extensions  for&#160;LUWRAIN?</a></li>
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>LUWRAIN&#160;SDK</h1>
 
-<p>Наш SDK призван обеспечить возможность создания ваших собственных приложений для&#160;LUWRAIN.
+<p>Наш SDK призван обеспечить возможность создания ваших собственных приложений и расширений на&#160;основе LUWRAIN.
 Он подготовлен для&#160;Java-разработчиков и содержит необходимые jar-файлы, javadoc-документацию и&#160;т.&#160;д.</p>
 
 <p>Версия: <?php echo lwr_version_sdk();?></p>
@@ -34,13 +34,13 @@ It&#160;is&#160;prepared for&#160;Java developers and provides necessary jar's, 
 <p>Вы можете загрузить LUWRAIN&#160;SDK по&#160;этой ссылке:</p>
 
 <ul>
-<li>luwrain-sdk-<?php echo lwr_version_sdk();?>.zip </li>
+<li><a href="http://download.luwrain.org/binary/<?php echo lwr_version_sdk();?>/sdk/luwrain-sdk-<?php echo lwr_version_sdk();?>.zip">luwrain-sdk-<?php echo lwr_version_sdk();?>.zip</a> </li>
 </ul>
 
 <h2>См.&#160;также</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/ext/');?>">Как создать ваше собственное приложение для&#160;LUWRAIN?</a></li>
+<li><a href="<?php echo luwrain_link('/doc/ext/');?>">Как создать ваши собственные приложения и расширения для&#160;LUWRAIN?</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/download/sdk/index.php');?>

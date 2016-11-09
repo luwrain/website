@@ -12,7 +12,7 @@ You can find them at&#160;the&#160;following address: </p>
 
 <p>Although we call them nightly,
 this doesn't mean that  releases must be necessarily once a&#160;day.
-Sometimes we take pauses, especially if having a&#160;work with&#160;affecting deep design of&#160;LUWRAIN.
+Sometimes we take pauses, especially if having work affecting deep design of&#160;LUWRAIN.
 Outdated versions  are deleted from this directory,
 so these releases are usually   available within a&#160;couple  of&#160;months.
 We do not impose any strict policy on&#160;this&#160;process,
@@ -23,6 +23,12 @@ You can find it at the&#160;following address:</p>
 
 <ul>
 <li><a href="http://download.luwrain.org/nightly/latest/">http://download.luwrain.org/nightly/latest/</a></li>
+</ul>
+
+<h2>See&#160;also</h2>
+
+<ul>
+<li><a href="<?php echo luwrain_link('/doc/devel/nightly/');?>">Compiling our nightly releases</a> </li>
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
@@ -51,6 +57,12 @@ You can find it at the&#160;following address:</p>
 
 <ul>
 <li><a href="http://download.luwrain.org/nightly/latest/">http://download.luwrain.org/nightly/latest/</a></li>
+</ul>
+
+<h2>См.&#160;также:</h2>
+
+<ul>
+<li><a href="<?php echo luwrain_link('/doc/devel/nightly/');?>">Компиляция наших nightly-сборок</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/download/nightly/index.php');?>

@@ -15,7 +15,7 @@ You can find them at~the~following address:
 
 Although we call them nightly,
 this doesn't mean that  releases must be necessarily once a~day.
-Sometimes we take pauses, especially if having a~work with~affecting deep design of~LUWRAIN.
+Sometimes we take pauses, especially if having work affecting deep design of~LUWRAIN.
 Outdated versions  are deleted from this directory,
 so these releases are usually   available within a~couple  of~months.
 We do not impose any strict policy on~this~process,
@@ -26,6 +26,9 @@ You can find it at the~following address:
 
 * [http://download.luwrain.org/nightly/latest/](http://download.luwrain.org/nightly/latest/)
 
+## See~also
+
+* [Compiling our nightly releases](local:/doc/devel/nightly/) 
 
 luwrain-page-ru
 
@@ -51,3 +54,8 @@ luwrain-page-ru
 Вы можете его найти по~следующей ссылке:
 
 * [http://download.luwrain.org/nightly/latest/](http://download.luwrain.org/nightly/latest/)
+
+## См.~также
+
+* [Компиляция наших nightly-сборок](local:/doc/devel/nightly/)
+
