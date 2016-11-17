@@ -1,0 +1,46 @@
+﻿<html>
+<head>
+<title>OS detection</title>
+<body>
+
+<script src="platform.js"></script>
+
+<script>
+console.log(platform);
+	var ua=(platform.ua?platform.ua.toLowerCase():'');
+	var os=(platform.os?platform.os.family.toLowerCase():'');
+	var nm=(platform.name?platform.name.toLowerCase():'');
+	var lt=(platform.layout?platform.layout.toLowerCase():'');
+
+	var resos='unknown';
+	resarch=platform.os.architecture;
+	// windows or linux
+	if(ua.indexOf('linux')!=-1) resos='linux';
+	if(os.indexOf('windows')!=-1) resos='windows';
+	if(os.indexOf('os x')!=-1||os.indexOf('mac os')!=-1) resos='macos';
+	// mobile cut off
+	if(os.indexOf('android')!=-1) resos='mobile';
+	if(os.indexOf('ios')!=-1) resos='mobile';
+	if(os.indexOf('mobile')!=-1||os.indexOf('phone')!=-1) resos='mobile';
+	if(nm.indexOf('mobile')!=-1||nm.indexOf('phone')!=-1) resos='mobile';
+	if(nm.indexOf('tablet')!=-1) resos='mobile';
+
+document.writeln('result: '+resos+' '+resarch);
+
+document.writeln('<br/><br/>debug:<br/>');
+document.writeln('os.family: '+platform.os.family+'<br/>');
+document.writeln('os.architecture: '+platform.os.architecture+'<br/>');
+document.writeln('os.version: '+platform.os.version+'<br/>');
+document.writeln('layout: '+platform.layout+'<br/>');
+document.writeln('manufacturer: '+platform.manufacturer+'<br/>');
+document.writeln('name: '+platform.name+'<br/>');
+document.writeln('prerelease: '+platform.prerelease+'<br/>');
+document.writeln('product: '+platform.product+'<br/>');
+document.writeln('version: '+platform.version+'<br/>');
+document.writeln('<br>');
+document.writeln('ua: '+platform.ua+'<br/>');
+
+</script>
+
+</body>
+</html>
