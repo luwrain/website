@@ -7,12 +7,12 @@
 
   function lwr_release_date_en()
   {
-    return 'November 10, 2016';
+    return 'November 20, 2016';
   }
 
   function lwr_release_date_ru()
   {
-    return '10 ноября 2016 г.';
+    return '20 ноября 2016 г.';
   }
 
   function lwr_version_windows()

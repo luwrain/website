@@ -59,7 +59,7 @@ You can find it at the&#160;following address:</p>
 <li><a href="http://download.luwrain.org/nightly/latest/">http://download.luwrain.org/nightly/latest/</a></li>
 </ul>
 
-<h2>См.&#160;также:</h2>
+<h2>См.&#160;также</h2>
 
 <ul>
 <li><a href="<?php echo luwrain_link('/doc/devel/nightly/');?>">Компиляция наших nightly-сборок</a></li>
