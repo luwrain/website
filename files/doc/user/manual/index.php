@@ -10,33 +10,9 @@
 или вы запустили её в&#160;режиме live&#160;CD с&#160;целью ознакомиться без&#160;установки на&#160;жёсткий диск.
 Если вам требуются инструкции по&#160;подготовке системы к&#160;работе, вы можете их&#160;найти <a href="<?php echo luwrain_link('/doc/user/installation/');?>">здесь</a>.</p>
 
-<h2>Выберите интересующий вас раздел:</h2>
-
-<ol>
-<li><a href="<?php echo luwrain_link('startwork/');?>">Начало работы</a></li>
-<li><a href="<?php echo luwrain_link('fundamentals/');?>">Основные принципы навигации</a></li>
-<li><a href="<?php echo luwrain_link('switching/');?>">Перемещение между областями</a></li>
-<li><a href="<?php echo luwrain_link('clipboard/');?>">Буфер обмена</a></li>
-<li>Приложения
-<ul>
-<li><a href="<?php echo luwrain_link('app/commander/');?>">Файловый менеджер</a></li>
-<li><a href="<?php echo luwrain_link('app/news/');?>">Чтение новостей</a></li>
-<li><a href="<?php echo luwrain_link('app/mail/');?>">Электронная почта</a></li>
-<li><a href="<?php echo luwrain_link('app/message/');?>">Составление нового сообщения</a></li>
-<li><a href="<?php echo luwrain_link('app/contacts/');?>">Адресная книга</a></li>
-<li><a href="<?php echo luwrain_link('app/googlesearch/');?>">Поиск в Google</a></li>
-<li><a href="<?php echo luwrain_link('app/notepad/');?>">Блокнот</a></li>
-<li><a href="<?php echo luwrain_link('app/twitter/');?>">Твиттер</a></li>
-<li><a href="<?php echo luwrain_link('app/wiki/');?>">Поиск в Википедии</a></li>
-</ul></li>
-<li>Расширения
-<ul>
-<li><a href="<?php echo luwrain_link('ext/yatran/');?>">Яндекс.Переводчик</a></li>
-</ul></li>
-<li>Справочная информация
-<ul>
-<li><a href="<?php echo luwrain_link('commands/');?>">Доступные команды</a></li>
-</ul></li>
-</ol>
+<p>Руководство пользователя на&#160;русском языке мы храним на&#160;нашем ресурсе <a href="http://wiki.luwrain.org">wiki.luwrain.org</a>.
+Все материалы на нём доступны для редактирования всем желающим,
+поэтому если вы обнаружили неточность, пожалуйста, не&#160;будьте равнодушными, внесите сразу корректировку.
+Другие пользователи нашей системы это обязательно оценят! </p>
 <?php }?>
 <?php luwrain_end_page('/doc/user/manual/index.php');?>

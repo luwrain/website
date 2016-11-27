@@ -10,7 +10,6 @@ Choose any&#160;section you need:</p>
 <ul>
 <li><a href="<?php echo luwrain_link('user/installation/');?>">Installation instructions: what should you do if you'd like to&#160;install LUWRAIN on&#160;your computer?</a></li>
 <li><a href="<?php echo luwrain_link('user/manual/');?>">User manual: a&#160;complete guide to&#160;work in&#160;LUWRAIN</a></li>
-<li><a href="<?php echo luwrain_link('user/try/');?>">Try now: running LUWRAIN for&#160;demonstration without installing on&#160;your computer</a></li>
 <li><a href="<?php echo luwrain_link('user/start/');?>">Getting started: speedy instructions how to&#160;begin the&#160;work right now</a></li>
 <li><a href="<?php echo luwrain_link('/community/bugs/');?>">How to&#160;report a&#160;bug?</a></li>
 </ul></li>
@@ -40,7 +39,6 @@ Choose any&#160;section you need:</p>
 <ul>
 <li><a href="<?php echo luwrain_link('user/installation/');?>">Инструкция по&#160;установке: как установить систему на&#160;жёсткий диск?</a></li>
 <li><a href="<?php echo luwrain_link('user/manual/');?>">Руководство пользователя: полное описание правил работы в&#160;нашей среде</a></li>
-<li><a href="<?php echo luwrain_link('user/try/');?>">Пробный запуск: как&#160;познакомиться с&#160;системой без&#160;установки на&#160;жёсткий диск?</a></li>
 <li><a href="<?php echo luwrain_link('user/start/');?>">С чего начать?: минимальное описание необходимых действий для&#160;быстрой установки системы  на&#160;жёсткий диск и начала работы</a></li>
 <li><a href="<?php echo luwrain_link('/community/bugs/');?>">Как сообщить об&#160;ошибке?</a></li>
 </ul></li>
