@@ -2,17 +2,17 @@
 
   function lwr_version()
   {
-    return '0.6.0';
+    return '1.0.0';
   }
 
   function lwr_release_date_en()
   {
-    return 'November 20, 2016';
+    return 'December 28, 2016';
   }
 
   function lwr_release_date_ru()
   {
-    return '20 ноября 2016 г.';
+    return '28 декабря 2016 г.';
   }
 
   function lwr_version_windows()

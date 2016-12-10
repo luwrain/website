@@ -13,7 +13,7 @@ dev.txt-reading.licrict
 doc.about.md
 doc.authors.md
 doc.difference.md
-doc.faq.licrict
+doc.faq.md
 doc.legal.md
 doc.md
 doc.roadmap.licrict
