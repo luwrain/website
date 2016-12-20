@@ -18,14 +18,12 @@
 <div class="image-slider">
   <?php
     if ($frame > 1)
-      echo '            <a class="photo-prev" href="index.php?lang='.luwrain_current_lang().'&mode='.luwrain_current_mode().'&id='.($frame - 1).'">&lt;&lt;</a>'."\n"; else
-      echo '            &lt;&lt;'."\n";
+      echo '            <a class="photo-prev" href="index.php?lang='.luwrain_current_lang().'&mode='.luwrain_current_mode().'&id='.($frame - 1).'">&lt;&lt;</a>'."\n";
     if ($frame < $total)
       echo '            <a class="image-item" href="index.php?lang='.luwrain_current_lang().'&mode='.luwrain_current_mode().'&id='.($frame + 1).'"><img src="'.$baseurl.$filename.'" hspace="32px" align="middle" alt="'.$comment.'"></a>'."\n"; else
       echo '            <img src="'.$baseurl.$filename.'" hspace="32px" align="middle" alt="'.$comment.'">'."\n";
     if ($frame < $total)
-      echo '            <a class="photo-next" href="index.php?lang='.luwrain_current_lang().'&mode='.luwrain_current_mode().'&id='.($frame + 1).'">&gt;&gt;</a>'."\n"; else
-      echo '            &gt;&gt;'."\n";
+      echo '            <a class="photo-next" href="index.php?lang='.luwrain_current_lang().'&mode='.luwrain_current_mode().'&id='.($frame + 1).'">&gt;&gt;</a>'."\n";
   ?>
   <div class="clearBoth"></div>
 </div>
