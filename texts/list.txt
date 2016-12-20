@@ -16,7 +16,6 @@ doc.difference.md
 doc.faq.md
 doc.legal.md
 doc.md
-doc.roadmap.licrict
 download.git.md
 download.iso.md
 download.iso.writing.md
