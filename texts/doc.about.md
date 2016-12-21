@@ -5,118 +5,119 @@ TARGET=doc/about/index.php
 
 luwrain-page-en
 
-# About the project  =
+# About our~project
 
-See also
+See~also:
 
-* [Who we are](local:/doc/authors/)
-* [Our~publications and press about us](local:/community/publications/)
-* [Why is LUWRAIN different than other accessible solutions?](local:/doc/difference/)
+* [Why is~LUWRAIN different than other accessible solutions?](local:/doc/difference/ )
+* [Frequently asked questions](local:/doc/faq/)
+* [Our~publications and the~press about us](local:/community/publications/)
+* [Who we are?](local:/doc/authors/)
 
-We want all~blind to be able to participate in all~parts of~the~society, 
-which revolve around information technologies.
-There~are some technical barriers making this still very difficult
-and our development is~carried~out with~the~aim of~eliminating these barriers.
+LUWRAIN is information technologies and a~lifestyle!
+The~LUWRAIN team works on~the~new way of~interaction  with~PCs, which gives the~maximum level of~comfort to~users with~eyesight problems, 
+regardless their degree of~disability (including deaf-blind).
+Our~obtained experience we implement as~a~Java library, published under the~terms of~GNU~Public License v.3.
 
-* LUWRAIN tries to~bring information from~PC's to~the~users
-in~a~way adjusted to~the~perception
-of~the~blind as~best as~possible
+LUWRAIN mostly (but not limited) is~purposed for~the~blind,
+who previously was unable to~start using of~PC or any other IT.
+Today IT means a~comfort and a~lifestyle, it is a~design and a~pragmatism. 
+For~the~disable people all of~these terms exist the~same way as~for~anybody else,
+but can take another forms.
+We have differences between each other; the~difference between all~of~us results in~using of~different solutions, it~is absolutely normal;
+IT for~the~blind must be~created in~the~way, which suits needs as~most as~possible.
 
-* Luwrrain allows creating and distributing applications
-specially  designed  for~the~blind
+LUWRAIN ведёт себя одинаково на~всех ОС, в~которых может быть запущен
+(что достигается за~счёт технологий Java).
+Появление единого и переносимого механизма доставки невизуальных приложений значительно упрощает информационное обеспечение образовательного процесса,
+в~который вовлечены учащиеся с~нарушениями зрения.
+LUWRAIN предоставляет простой в~освоении и удобный в~работе способ чтения образовательных материалов,
+дающий одинаковое восприятие в~любой ОС.
 
-* LUWRAIN guarantees solving the~number of~popular everyday tasks
-regardless what experience the~user has
-or his/her financial circumstances
+Коммерческие компании получают возможность при~помощи LUWRAIN обеспечить доступ к~своим сервисам,
+пполностью перекладывая на~нас заботу о~правильном восприятии людьми с~нарушениями зрения.
+Компании могут подготавливать свои приложения для~LUWRAIN по~тем~же причинам, по~которым публикуют приложения для~мобильных телефонов, --- это повышает удобство пользователя.
+Более того, приложения для~LUWRAIN подготавливаются на~Java,
+что существенно облегчает использование готовых компонентов, ранее созданных для~Google Android.
 
-As~for~today, we~think that there are no suitable solutions to~this~problems
-widely known over the~world.
+И~всё-таки в~центре нашей деятельности находится сам~наш~основной дистрибутив LUWRAIN.
+Он доступен для~[свободной загрузки](local:/download/) с~нашего сайта,
+и поможет каждому незрячему  (в~том~числе слепоглухому) получить инструмент, обеспечивающий решение наиболее востребованных повседневных задач.
+Если для~каких-либо целей задач наш продукт окажется не~в~состоянии предложить решение,
+за~счёт его~гибкости пользователь всегда сможет сочетать его с~существующими приложениями экранного доступа. 
 
-## The~UI designed for~blind people
+## Ключевые характеристики
 
-The~screen reading utilities for~graphical user interface (GUI),
-the~most popular current approach to~assistive technologies for~blind,
-doesn't take care of~providing information in~the~form, suitable for~user perception,
-and it is their the~most noticeable disadvantage.
-Without using a~mouse,
-which is supposed to be~inaccessible for~the~blind,
-GUI is totally ineffective.
-The~level of~comfort and speed of~work equal to~sighted people
-remains still unreachable for~blind users.
-If the~user doesn't have any prior experience of~using GUI with~eyesight,
-how he/she could get a~clew to~understanding its nature?
+1. **LUWRAIN имеет предельно упрощенный, но в~то~же время продуманный и гибкий, интерфейс для~незрячего человека.**
+Пользователь может не~опасаться, что ему не~хватит опыта работы на~ПК для~эксплуатации LUWRAIN.
+Несколько простых примеров для~первого знакомства окажутся достаточными,
+чтобы быстро начать работу.
+У~нас нет~сомнений, что~LUWRAIN подойдёт для любой категории пользователей:детей, незрячих от~рождения,
+пожилых людей,
+слепоглухих 
+и~т.~д.
+2. **LUWRAIN  создан на~основе технологий Java.**
+Пользоваться LUWRAIN можно на~любом компьютере и в~любой ОС,
+для~которых есть виртуальная машина Java не~ниже версии 1.8,
+а она есть практически для~любой современной ОС.
+3. **LUWRAIN --- очень технологичное решение.**
+Наша команда старается применять как~можно более современные технологие, 
+которые с~наибольшей вероятностью будут востребованы в~будущем.
+К~примеру, наш браузер основан на актуальном движке [WebKit](https://ru.wikipedia.org/wiki/WebKit),
+а~благодаря хорошей интеграции GNU/Linux во~встраиваемые системы мы исследуем возможность развития LUWRAIN 
+в~рамках современного направления ["интернета вещей"](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82_%D0%B2%D0%B5%D1%89%D0%B5%D0%B9).
+4. **LUWRAIN --- свободное ПО.**
+Его~использование всегда бесплатно для~конечного пользователя.
+Лицензия GPL~v.3 гарантирует, что пользователь никогда не~лишиться инструмента, к~которому он~привык,
+равно как~и~любая компания, подготовившая на~основе LUWRAIN свой~продукт.
+5. **LUWRAIN имеет сборку в~виде ISO-образа на~ядре Linux.**
+Даже если у~пользователя нет~вообще никакой возможности приобрести или установить какую-либо ОС,
+т.~е. у~него есть только компьютер с~пустым жёстким диском,
+он всё~равно может пользоваться LUWRAIN,
+если выберет вариант в~виде [загрузочного ISO-образа](local:/download/iso/).
 
-In~order to~replace inaccessible screen, the~blind user always keeps the~picture of~its working space in~mind,
-and our main strategy is~to~make this picture in~imagination
-**as~simple as~it~could be~possible**.
-This helps users to~concentrate on~their work deeper and more~effectively.
+## Интерфейс специально для~незрячих людей
 
-In~case of~screen readers, the~user has~to keep in~mind the~whole look of~the~desktop
-(what, actually, is~impossible, regardless which tools are involved)
-and that destracts him/her from the~work itself.
-According to~our~experience,
-it~is **really possible** to~create this~ new~type of~UI
-with the~same features as~in~usual GUI.
-We are~speaking, apparently, only about the~tasks,
-which are potentially accessible for~blind;
-for~instance, photo editing is~inaccessible at~all due~to~its nature.
+Неспособность представить информацию в~подготовленном виде --- один из~главных недостатков  самого распространённого решения,
+основанного на~утилитах экранного доступа,
+работающих в~оконном интерфейсе.
+Без~использования мыши, недоступной незрячим пользователям,  этот тип интерфейса неудобен.
+Он плохо подходит для~выполнения повседневных задач,
+требующих предельного уровня скорости и комфорта.
+Более того,  если у~пользователя отсутствует предшествующий опыт визуальной работы с~оконным интерфейсом,
+процесс знакомства с~ним и объяснение его~природы может быть очень сложным.
 
-At~a~first glance, it~looks that we~~are presenting some kind of~fiction, generally impossible technology,
-but it~isn't the~case.
-Everybody knows that the~text editing is the~most understandable operation for~the~blind on~pc.
-The~only thing we should do is to~make the~solving of~all tasks
-in~the~same way as~the~text editing.
-How we achieve that,  [find~out with~LUWRAIN](local:/doc/user/start/).
+Незрячий пользователь всегда хранит образ своего рабочего окружения в~голове,
+получая от~компьютера информацию  о~любых изменениях.
+Наша задача состоит в~том,
+чтобы сделать воображаемое рабочее пространство **предельно простым**.
+Чем оно проще, тем больше у~пользователя окажется возможности  сосредоточится на~своей работе.
+заметим, что при~использовании утилит экранного доступа пользователь вынужден хранить в~памяти  полный вид рабочего стола и расположения объектов,
+хотя это невозможно в~принципе,
+какими~бы совершенными утилиты экранного доступа ни~были.
+Наш опыт показывает,
+что создание нового интерфейса,
+который не~уступал~бы возможностям оконного окружения,
+вполне **реально**,
+если, конечно, речь идёт о~задачах,
+в~принципе доступных незрячему человеку.
+(к~примеру, редактирование фотографий незрячему человеку недоступно).
 
-Besides mentioned advantages,
-our~conception has some additional features
-making work easier:
+## Большие проблемы
 
-* Searching a~substring in~any object regardless of~its nature
+LUWRAIN стремится быть частью усилий, направленных на~решение более общих проблем, чем  доступность незрячих людей к~ИТ.
+Правда действительности в~том, что незрячие люди очень мало пользуются тем, что для~них делается:
+редко встретишь человека в~Москве, который пользуется тактильной разметкой (вне~зависимости от~причин),
+мало кто ходит на~выставки, которые делаются для~незрячих людей, 
+мало кто пользуется информационными сервисами, созданными для~людей с~нарушениями зрения.
+Команда LUWRAIN стремится уделять как можно больше внимания вопросам активности незрячих людей в~целом
+и вносить свой вклад к~улучшение положения вещей.
+Для~этого мы сотрудничаем с~общественными и благотворительными организациями 
+с~целью влияния на~менталитет незрячих людей через создание качественно новых ИТ для~них.
 
-* Copying an~arbitrary substring to~the~clipboard
+[Присоединяйтесь к~нам!](local:/community/)
 
-* The unified way of~supplementing speech or braille output
-with the~picture on~the~screen for users with~low~vision,
-including features to~adjust the~preferable font size and the~preferable color scheme
 
-## Creating and distributing the~accessible applications
-
-We witness a~shift of~solutions from~web-browsers/desktop computers  to~mobile platforms.
-In~fact, it~is a~truely convenient idea,
-even if the mobile platforms cannot be~a~fully-functional replacement
-neither for~web-browsers, nor~for~desktop computers in~whole.
-Such OS as~Google Android or Apple~iOS plays a~role of~a~platform,
-which aims to~be with the~user everywhere.
-
-The~blind has nothing like this.
-There is no~platform, which allows creating of~the~applications specially designed for~them.
-LUWRAIN offers the~full [SDK](local:/doc/ext/)
-for~creating the~applications for~blind people.
-The~main advantage of~this approach is that it doesn't require
-the~developer to~have any~experience in~the~area of~accessibility technologies.
-Any~company can create a~client for~its service
-just by~using [our Java API](/api/),
-and We will take care of~proper understanding of~created applications by~the~blind.
-
-## Accessibility for~everybody
-
-LUWRAIN is~supposed to~be accessible for~**everybody who could be~interested in~it**:
-
-* **LUWRAIN is~an~Open source project**:
-end-user may use it completely free of~charge
-
-* **LUWRAIN  is~based on~Java**:
-end-user may run it~on~any computers with~proper Java~1.8 support
-(roughly speaking, nearly on~all~PC's)
-
-* **LUWRAIN has a~distribution in~form of~bootable ISO-image**:
-even if~end-user doesn't have any OS installed on~his/her hard drive
-he/she may run LUWRAIN considering our ISO-image based on~GNU/Linux
-
-* **LUWRAIN has easily recognizable UI**:
-end-user shouldn't worry that he/she has a~lack of~experience for~work in~Luwrain
-because we take care of~keeping LUWRAIN environment as~simple as~it is possible
 
 luwrain-page-ru
 
