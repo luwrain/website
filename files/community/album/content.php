@@ -80,6 +80,9 @@
 
     '2016-04-14-canonical-together1.jpg' =>
     '14 апреля 2016 г. С коллегами из компании Canonical. Лондон.',
+
+    '2016-12-15-RedSquare.jpg' =>
+    '15 декабря 2016 г. Команда LUWRAIN на Красной площади. Москва.',
   );
 
   $files = array(
@@ -98,5 +101,6 @@
     '2016-04-07-with-Lesha-outside.jpg',
     '2016-04-08-library-conversation-Denmark-guest.jpg',
     '2016-04-14-canonical-together1.jpg',
+    '2016-12-15-RedSquare.jpg',
   );
 ?>
