@@ -57,7 +57,7 @@ function ShowPart1(){
 			     '<br/>accessible companion for various types of work. The product is designed'+
 			     '<br/>as a new platform for creating speech-enabled applications'+
 			     '<br/>with a set of standard tools for easy access to web services, mail, news reading, etc.');
-	$('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/doc/user/manual/?mode=normal&lang=en"><span>User manual</span></a>');
+	$('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/doc/user/start/?mode=normal&lang=en"><span>Getting started</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
 function ShowPart2(){
@@ -85,7 +85,7 @@ function ShowPart2(){
 			     '<br/>will always spend significantly less time than in an adapted GUI.'+
 			     '<br/>We have created our environment for people who enjoy working effectively'+
 			     '<br/>and time-efficiently.');
-	$('#firstButton').html('<a href="/doc/new-app/?mode=normal&lang=en"><span>Your own application</span></a>');
+	$('#firstButton').html('<a href="/community/publications/?mode=normal&lang=en"><span>Press about us</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
 function ShowPart3(){
@@ -139,7 +139,7 @@ function ShowPart4(){
 			     '<br/>world, and to introduce it to related social and distribution organizations.'+
 			     '<br/>The team of developers hopes that LUWRAIN can increase the integration'+
 			     '<br/>of disabled people into social life.');
-	$('#firstButton').html('<a href="/doc/about/?mode=normal&lang=en"><span>More about the project</span></a>');
+	$('#firstButton').html('<a href="/doc/authors/?mode=normal&lang=en"><span>Who we are?</span></a>');
 	$('#secondButton').html('<span>Read more</span>');
 };
 function ChangeNavigationColor(selected){
@@ -174,7 +174,7 @@ function SecondButtonOnClick() {
 	    break;
 	case "4": 
 	    $('#hiddenPartNumber').val('42');
-	    $('#secondButton').html('<a href="/doc/user/start/?mode=normal&lang=en"><span>Getting started</span></a>');
+	    $('#secondButton').html('<a href="/doc/about/?mode=normal&lang=en"><span>More about the project</span></a>');
 	    $('#secondButton').removeClass('lightButton');
 	    $('#secondButton').addClass('lightSolidButton');
 	    break;
