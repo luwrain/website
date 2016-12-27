@@ -57,7 +57,7 @@ function ShowPart1(){
 			     '<br/>различных задач. Он проектируется как платформа для создания речевых приложений '+
 			     '<br/>с набором стандартных утилит, предназначенных для доступа к веб, электронной почте,'+
 			     '<br/>новостным ресурсам и т. д.');
-	$('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/doc/user/manual/?mode=normal&lang=ru"><span>Руководство пользователя</span></a>');
+	$('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/doc/user/start/?mode=normal&lang=ru"><span>С чего начать?</span></a>');
 	$('#secondButton').html('<span>Узнать больше</span>');
 };
 function ShowPart2(){
@@ -84,7 +84,7 @@ function ShowPart2(){
 			     '<br/>в LUWRAIN пользователю требуется времени существенно меньше, чем в озвученном'+
 			     '<br/>оконном интерфейсе. Мы создаём нашу систему для тех, кто ведёт активный образ'+
 			     '<br/>жизни и ценит экономию времени.');
-	$('#firstButton').html('<a href="/doc/new-app/?mode=normal&lang=ru"><span>Создание приложение</span></a>');
+	$('#firstButton').html('<a href="/community/publications/?mode=normal&lang=ru"><span>Пресса о нас</span></a>');
 	$('#secondButton').html('<span>Узнать больше</span>');
 };
 function ShowPart3(){
@@ -135,7 +135,7 @@ function ShowPart4(){
 			     '<br/>GNU Public License версии 3. Авторы проекта были бы очень рады установлению'+
 			     '<br/>новых рабочих контактов, поскольку это может помочь шире представить'+
 			     '<br/>LUWRAIN  среди мировых общественных организаций.');
-	$('#firstButton').html('<a href="/doc/about/?mode=normal&lang=ru"><span>Ещё о проекте</span></a>');
+	$('#firstButton').html('<a href="/doc/authors/?mode=normal&lang=ru"><span>Кто мы</span></a>');
 	$('#secondButton').html('<span>Узнать больше</span>');
 };
 function ChangeNavigationColor(selected){
@@ -170,7 +170,7 @@ function SecondButtonOnClick() {
 	    break;
 	case "4": 
 	    $('#hiddenPartNumber').val('42');
-	    $('#secondButton').html('<a href="/doc/user/start/?mode=normal&lang=ru"><span>С чего начать?</span></a>');
+	    $('#secondButton').html('<a href="/doc/about/?mode=normal&lang=ru"><span>Ещё о проекте</span></a>');
 	    $('#secondButton').removeClass('lightButton');
 	    $('#secondButton').addClass('lightSolidButton');
 	    break;
