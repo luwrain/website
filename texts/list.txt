@@ -29,9 +29,10 @@ ext.controls.md
 ext.essentials.md
 ext.intro.md
 ext.md
+installation.md
 installation.iso.md
 installation.linux.licrict
-installation.md
+installation.win.md
 products.business.md
 products.education.md
 products.md

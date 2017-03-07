@@ -200,7 +200,7 @@ return; }?>
 		</div>
 		
     <div class="row" id="footerPart">
-      <div class="col-md-4"><span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2016 Разработчики LUWRAIN':'&#169; 2012&#x2013;2016 LUWRAIN developers'?></span></div>
+      <div class="col-md-4"><span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2017 Разработчики LUWRAIN':'&#169; 2012&#x2013;2017 LUWRAIN developers'?></span></div>
       <div class="col-md-4"><a class="blueColor" href="http://validator.w3.org/check?uri=referer"><?php echo luwrain_current_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a></div>
       <div class="col-md-4"><?php echo luwrain_current_lang() == 'ru'?'Дизайн от':'Design by';?> <a href="http://strash.ru"><span class="blueColor">Strash</span></a></div>
     </div>

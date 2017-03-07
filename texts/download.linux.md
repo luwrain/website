@@ -22,7 +22,7 @@ Date of~release: <?php echo lwr_release_date_linux_en();?>
 
 Target platform: GNU/Linux (any distribution)
 
-* For~64-bit systems: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-64bit-<?php echo lwr_version_linux();?>beta1.tar.gz">luwrain-linux-64bit-<?php echo lwr_version_linux();?>beta1.tar.gz</a>
+* For~64-bit systems: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-64bit-<?php echo lwr_version_linux();?>.tar.gz">luwrain-linux-64bit-<?php echo lwr_version_linux();?>.tar.gz</a>
 
 In~addition we provide a~special release for~GNU/Linux containing all~necessary LUWRAIN binary files, but without Java Runtime Environment (JRE).
 Choosing of~this version can result in~economy of~your traffic for~downloading, 
@@ -55,7 +55,7 @@ luwrain-page-ru
 
 Версия ОС: GNU/Linux (любой дистрибутив)
 
-* Для~64-битных систем: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-64bit-<?php echo lwr_version_linux();?>beta1.tar.gz">luwrain-linux-64bit-<?php echo lwr_version_linux();?>beta1.tar.gz</a>
+* Для~64-битных систем: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-64bit-<?php echo lwr_version_linux();?>.tar.gz">luwrain-linux-64bit-<?php echo lwr_version_linux();?>.tar.gz</a>
 
 Помимо этого мы~предлагаем отдельную версию, которая содержит все необходимые файлы,
 но~не~включает в~себя Java Runtime Environment (JRE).
@@ -63,7 +63,7 @@ luwrain-page-ru
 но вы должны самостоятельно подготовить JRE для~работы. 
 Щёлкните по~прямой ссылке ниже для~начала загрузки:
 
-* <a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-nojre-<?php echo lwr_version_linux();?>.zip">luwrain-linux-nojre-<?php echo lwr_version_linux();?>.tar.gz</a>
+* <a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-nojre-<?php echo lwr_version_linux();?>.tar.gz">luwrain-linux-nojre-<?php echo lwr_version_linux();?>.tar.gz</a>
 
 ## См.~также
 
