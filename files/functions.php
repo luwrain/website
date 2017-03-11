@@ -81,7 +81,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <?php
-        echo '    <title>'.$title.' - The accessible environment LUWRAIN</title>'."\n";
+        echo '    <title>'.$title.' - LUWRAIN</title>'."\n";
     ?>
 </head>
 <body>
@@ -154,10 +154,10 @@ function luwrain_begin_page($path, $title, $isMainPage)
                                         <span class="font30 bold">LUWRAIN</span>
                                     </li>
                                     <li>
-                                        <span class="italic font14"><?php echo luwrain_current_lang() == 'ru'?'Мир доступных технологий!':'The territory';?></span>
+                                        <span class="italic font14"><?php echo luwrain_current_lang() == 'ru'?'Платформа невизуальных приложений':'A platform for the creation of apps';?></span>
                                     </li>
                                     <li>
-                                        <span class="italic font14"><?php if (luwrain_current_lang() == 'en') echo 'of a compelling accessibility';?></span>
+                                        <span class="italic font14"><?php if (luwrain_current_lang() == 'en') echo ' for the blind and partially-sighted';?></span>
                                     </li>
                                 </ul>
                             </div>
@@ -280,7 +280,7 @@ function luwrain_adapted_main_page()
             </ul>
             <?php }?>
             <?php if (luwrain_current_lang() == 'ru') {?>
-            <h1>&#x22;Мир доступных технологий!&#x22;</h1>
+            <h1>Платформа невизуальных приложений</h1>
             <p>
                 При помощи рабочего окружения LUWRAIN люди с нарушениями зрения могут расширить границы
       своего доступа к&#160;грандиозному миру информационных технологий. LUWRAIN не требует много

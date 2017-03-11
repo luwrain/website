@@ -39,4 +39,9 @@ products.md
 resources.md
 user.md
 user.manual.md
-user.start.md
+start.md
+start.personal.md
+start.organizations.md
+start.developers.md
+
+
