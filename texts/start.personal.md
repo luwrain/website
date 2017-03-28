@@ -56,3 +56,6 @@ LUWRAIN в~виде самостоятельной ОС не~запрещает 
 
 
 
+* [Дистрибутивы для~GNU/Linux](local:/download/linux/)
+* [Инструкция по~установке на~GNU/Linux](local:/doc/user/installation/linux/)
+

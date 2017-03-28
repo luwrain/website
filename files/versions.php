@@ -62,17 +62,20 @@
 
   function lwr_version_iso()
   {
-    return lwr_version();
+#    return lwr_version();
+    return '1.0.1';
   }
 
   function lwr_release_date_iso_en()
   {
-    return lwr_release_date_en();
+#    return lwr_release_date_en();
+    return 'March 28, 2017';
   }
 
   function lwr_release_date_iso_ru()
   {
-    return lwr_release_date_ru();
+#    return lwr_release_date_ru();
+    return '28 марта 2017 г.';
   }
 
   function lwr_version_sdk()
