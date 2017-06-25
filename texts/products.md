@@ -5,45 +5,43 @@ TARGET=products/index.php
 
 luwrain-page-en
 
-# Our products
+# Our products and services
 
-The~entire set of~our products and services is~concentrated around our~user environment called LUWRAIN as~the~project itself.
-With LUWRAIN environment, the~blind users are able to~do usual  everyday tasks in~the~most comfortable and easy way.
-In~addition it~offers some~specialized applications purposed for~education of~the~blind and other important things.
-The~main distributions of~LUWRAIN are~free for~use for~everybody, since they are licensed under the~terms of~GPL~v.3.
-You can download it~from our website in~one~of~the~several forms:
+* [All releases including materials for developers](local:/download/)
+ * [LUWRAIN for~Microsoft Windows](local:/download/windows/)
+ * [LUWRAIN for~GNU/Linux](local:/download/linux/)
+ * [Distribution as~a~Linux-based operating system](local:/download/iso/)
+* [Products for business](local:business/)
+* [Products for education](local:education/)
 
-* [As a~bootable ISO image suitable for launch in~live~CD mode and for installation on~hard drive (without sighted help, except of choosing bootable device)](local:/download/iso/)
-* As~~an~application [for~Microsoft Windows](local:/download/windows/) or [for~GNU/Linux](дlocal:/download/linux/).
+## See~also
 
-## For~education
+* [Getting started](local:/doc/user/start/)
 
-Our~team provides several tools helpful for~organizations which carry~out education of~blind people.
-These tools are:
+## About the~project
 
-* The Daisy books reader capable of quick hypertext text navigation
-* A~set of~applications for~exams completely accessible to~the~blind
-* Producing of~education materials in~Daisy format
+* [The~free story what LUWRAIN is, and why do we think blind users need it?](local:/doc/about/)
+* [Frequently asked questions](local:/doc/faq/)
+* [Why is LUWRAIN different than other accessible solutions?](local:/doc/difference/)
+* [Legal notes](local:/doc/legal/)
+* [The project authors](local:/doc/authors/)
 
-[Click here to~learn more about our products and services for~education](local:/products/education/)
 
-## For~business
 
-[Click here to~learn more about our products and services for~education](local:/products/business/)
+
 
 luwrain-page-ru
 
-# Наши продукты
+# Наши продукты и услуги
 
-* Дистрибутивы LUWRAIN:
- * [Для Microsoft Windows](local:/download/windows/)
- * [Для GNU/Linux](local:/download/linux/)
- * [Дистрибутив в виде операционной системы](local:/download/iso/)
- * [Все релизы, включая материалы для разработчиков](local:/download/)
+* [Все релизы, включая материалы для разработчиков](local:/download/)
+ * [Дистрибутив для Microsoft Windows](local:/download/windows/)
+ * [Дистрибутив для GNU/Linux](local:/download/linux/)
+ * [Дистрибутив в виде операционной системы на~ядре Linux](local:/download/iso/)
 * [Продукты для коммерческих компаний](local:business/)
 * [Продукты для образования](local:education/)
 
-См.~также:
+## См.~также
 
 * [С~чего начать?](local:/doc/user/start/)
 

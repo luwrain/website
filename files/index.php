@@ -16,7 +16,7 @@
 <div id="mainPart">
     <input class="hidden-not-important" id="hiddenPartNumber"></input>
     <div id="accEnvir">
-        <?php echo luwrain_current_lang() == 'ru'?'Адаптированная среда Luwrain':'The accessible environment Luwrain';?>
+        <?php echo luwrain_current_lang() == 'ru'?'Информационные технологии для незрячих':'Information technologies for the blind';?>
     </div>
     <div id="picContent">
       <div id="arrowLeft"></div>

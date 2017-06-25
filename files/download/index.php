@@ -2,6 +2,11 @@
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Our downloads</h1>
 
+<p>The&#160;entire set of&#160;our products and services is&#160;concentrated around our&#160;user environment called LUWRAIN.
+With LUWRAIN environment, the&#160;blind users are able to&#160;do usual  everyday tasks in&#160;the&#160;most comfortable and easy way.
+In&#160;addition it&#160;offers some&#160;specialized applications purposed for&#160;education of&#160;the&#160;blind and other important things.
+The&#160;main distributions of&#160;LUWRAIN are&#160;free for&#160;use for&#160;everybody, since they are licensed under the&#160;terms of&#160;GPL&#160;v.3.</p>
+
 <p>These options are for&#160;people who needs LUWRAIN for&#160;work. 
 With&#160;the&#160;list below, you can find a&#160;binary distribution prepared for&#160;OS you have already installed or 
 a&#160;ISO&#160;image suitable for running LUWRAIN as&#160;a&#160;stand-alone OS (in&#160;this&#160;case any&#160;previously installed OS is unnecessary).</p>
@@ -51,23 +56,29 @@ Besides all, you can find there:</p>
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Загрузка наших дистрибутивов</h1>
 
-<p>Ссылки из&#160;приведённого ниже списка помогут вам загрузить дистрибутивы LUWRAIN,
-если вы желаете установить нашу систему для&#160;работы или запустить её &#160;для&#160;ознакомления.
-LUWRAIN в&#160;виде ISO-образа не&#160;требует никакой установленной ОС на&#160;вашем компьютере.
+<p>Всё множество продуктов и услуг, предоставляемых командой LUWRAIN, сосредоточено вокруг нашей одноимённой платформы.
+Она представляет из&#160;себя пользовательскую среду для людей с&#160;нарушениями зрения, 
+подходящую для&#160;решения большинства повседневных  задач и
+позволяющую запускать наши или сторонние невизуальные приложения. 
+Среда LUWRAIN распространяется бесплатно, поскольку является ПО с&#160;открытым исходным кодом. 
+Её можно свободно загрузить с&#160;нашего сайта в&#160;одной из&#160;нескольких форм.</p>
+
+<p>LUWRAIN как самостоятельная ОС на ядре Linux в&#160;виде ISO-образа не&#160;требует никакого стороннего ПО на вашем компьютере  и подходит как для работы,
+так и для ознакомления без установки на жёсткий диск.
 В&#160;остальных случаях LUWRAIN подготовлен как&#160;приложение для запуска в&#160;Microsoft Windows или в&#160;GNU/Linux.</p>
 
-<h2>Выберите наиболее подходящий для&#160;вас вид дистрибутива:</h2>
+<h2>Дистрибутивы для пользователей</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('iso/');?>">LUWRAIN как загрузочный ISO-образ</a> (установленная ОС не&#160;требуется)</li>
-<li>LUWRAIN как&#160;приложение:
+<li>LUWRAIN в&#160;виде приложения:
 <ul>
 <li><a href="<?php echo luwrain_link('windows/');?>">Для&#160;Microsoft Windows</a></li>
 <li><a href="<?php echo luwrain_link('linux/');?>">Для&#160;GNU/Linux</a></li>
 </ul></li>
+<li><a href="<?php echo luwrain_link('iso/');?>">LUWRAIN в&#160;виде загрузочного ISO-образа на ядре Linux</a></li>
 </ul>
 
-<h2>Для&#160;разработчиков   и тестеров</h2>
+<h2>Релизы для&#160;разработчиков   и тестеров</h2>
 
 <p>Первый вариант в&#160;списке ниже предназначен для&#160;разработчиков,
 желающих создать собственные приложения и расширения на&#160;основе LUWRAIN.

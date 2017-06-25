@@ -21,10 +21,10 @@ Choose any&#160;section you need:</p>
 
 <ul>
 <li><a href="<?php echo luwrain_link('about/');?>">The&#160;free story what LUWRAIN is, and why do we think blind users need it?</a></li>
-<li><a href="<?php echo luwrain_link('difference/');?>">Why is LUWRAIN different than other accessible solutions?</a></li>
-<li><a href="<?php echo luwrain_link('authors/');?>">The project authors</a></li>
-<li><a href="<?php echo luwrain_link('legal/');?>">Legal notes</a></li>
 <li><a href="<?php echo luwrain_link('faq/');?>">Frequently asked questions</a></li>
+<li><a href="<?php echo luwrain_link('difference/');?>">Why is LUWRAIN different than other accessible solutions?</a></li>
+<li><a href="<?php echo luwrain_link('legal/');?>">Legal notes</a></li>
+<li><a href="<?php echo luwrain_link('authors/');?>">The project authors</a></li>
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
@@ -50,10 +50,10 @@ Choose any&#160;section you need:</p>
 
 <ul>
 <li><a href="<?php echo luwrain_link('about/');?>">Что&#160;такое LUWRAIN, и почему мы считаем, что незрячие люди нуждаются в&#160;нём?</a></li>
-<li><a href="<?php echo luwrain_link('difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
-<li><a href="<?php echo luwrain_link('authors/');?>">Авторы проекта</a></li>
-<li><a href="<?php echo luwrain_link('legal/');?>">Правовой статус проекта</a></li>
 <li><a href="<?php echo luwrain_link('faq/');?>">Часто задаваемые вопросы</a></li>
+<li><a href="<?php echo luwrain_link('difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
+<li><a href="<?php echo luwrain_link('legal/');?>">Правовой статус проекта</a></li>
+<li><a href="<?php echo luwrain_link('authors/');?>">Авторы проекта</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/doc/index.php');?>

@@ -21,10 +21,10 @@ Choose any~section you need:
 ## About the~project
 
 * [The~free story what LUWRAIN is, and why do we think blind users need it?](local:about/)
-* [Why is LUWRAIN different than other accessible solutions?](local:difference/)
-* [The project authors](local:authors/)
-* [Legal notes](local:legal/)
 * [Frequently asked questions](local:faq/)
+* [Why is LUWRAIN different than other accessible solutions?](local:difference/)
+* [Legal notes](local:legal/)
+* [The project authors](local:authors/)
 
 luwrain-page-ru
 
@@ -49,6 +49,3 @@ luwrain-page-ru
 * [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:difference/)
 * [Правовой статус проекта](local:legal/)
 * [Авторы проекта](local:authors/)
-
-
-

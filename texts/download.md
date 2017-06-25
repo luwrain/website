@@ -7,6 +7,12 @@ luwrain-page-en
 
 # Our downloads
 
+The~entire set of~our products and services is~concentrated around our~user environment called LUWRAIN.
+With LUWRAIN environment, the~blind users are able to~do usual  everyday tasks in~the~most comfortable and easy way.
+In~addition it~offers some~specialized applications purposed for~education of~the~blind and other important things.
+The~main distributions of~LUWRAIN are~free for~use for~everybody, since they are licensed under the~terms of~GPL~v.3.
+
+
 These options are for~people who needs LUWRAIN for~work. 
 With~the~list below, you can find a~binary distribution prepared for~OS you have already installed or 
 a~ISO~image suitable for running LUWRAIN as~a~stand-alone OS (in~this~case any~previously installed OS is unnecessary).
@@ -52,29 +58,20 @@ luwrain-page-ru
 подходящую для~решения большинства повседневных  задач и
 позволяющую запускать наши или сторонние невизуальные приложения. 
 Среда LUWRAIN распространяется бесплатно, поскольку является ПО с~открытым исходным кодом. 
-Её можно свободно загрузить с~нашего сайта в~одной из~нескольких форм:
+Её можно свободно загрузить с~нашего сайта в~одной из~нескольких форм.
 
-* [В~виде ОС, подготовленной  как для~запуска в~режиме live~CD, так и~для установки на~жёсткий диск](local:/download/iso/)
-(программа установки не~требует помощи зрячих помощников)
-* В~виде приложения:
- * [Для~Microsoft Windows](local:/download/windows/) 
- * [Для~GNU/Linux](local:/download/linux/) 
-
-
-
-Ссылки из~приведённого ниже списка помогут вам загрузить дистрибутивы LUWRAIN,
-если вы желаете установить нашу систему для~работы или запустить её ~для~ознакомления.
-LUWRAIN в~виде ISO-образа не~требует никакой установленной ОС на~вашем компьютере.
+LUWRAIN как самостоятельная ОС на ядре Linux в~виде ISO-образа не~требует никакого стороннего ПО на вашем компьютере  и подходит как для работы,
+так и для ознакомления без установки на жёсткий диск.
 В~остальных случаях LUWRAIN подготовлен как~приложение для запуска в~Microsoft Windows или в~GNU/Linux.
 
-## Выберите наиболее подходящий для~вас вид дистрибутива:
+## Дистрибутивы для пользователей
 
-* [LUWRAIN как загрузочный ISO-образ](local:iso/) (установленная ОС не~требуется)
-* LUWRAIN как~приложение:
+* LUWRAIN в~виде приложения:
  * [Для~Microsoft Windows](local:windows/)
  * [Для~GNU/Linux](local:linux/)
+* [LUWRAIN в~виде загрузочного ISO-образа на ядре Linux](local:iso/)
 
-## Для~разработчиков   и тестеров
+## Релизы для~разработчиков   и тестеров
 
 Первый вариант в~списке ниже предназначен для~разработчиков,
 желающих создать собственные приложения и расширения на~основе LUWRAIN.

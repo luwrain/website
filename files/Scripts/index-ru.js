@@ -47,7 +47,7 @@ function ShowPart1(){
 	
 	$('#hiddenPartNumber').val('1');
 	$('#imageDiv').html('<img id="accImg" src="Images/acc.png" alt="The accessible platform" height="303" width="523"></img>');
-	$('#textUnderPic').html('Доступная операционная система');
+	$('#textUnderPic').html('Информационное общество &#x2014; доступное общество');
 	$('#accPlatform').html('Доступная операционная система');
 	$('#text1more').html('При помощи рабочего окружения LUWRAIN люди с нарушениями зрения могут расширить'+
 			     '<br/>границы своего доступа к грандиозному миру информационных технологий. LUWRAIN'+
