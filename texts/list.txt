@@ -1,6 +1,9 @@
 comm.mailing-lists.licrict
+comm.massmedia.md
 comm.md
+comm.podcasts.md
 comm.publications.md
+comm.video.md
 comm.f123e.md
 dev.compilation.md
 dev.ext.agregat.md
