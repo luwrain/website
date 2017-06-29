@@ -12,6 +12,8 @@
 <h2>Presentations</h2>
 
 <ul>
+<li><a href="http://download.luwrain.org/pdf/presentation-SmartCity-2017-06-08.pdf">Presentation for&#160;the&#160;conference "Smart and safe city"</a>
+(Netherlands, June 7&#x2013;8,&#160;2017&#160;г., English language)</li>
 <li><a href="http://download.luwrain.org/pdf/presentation-HongKongOSConference-en-2015-06-27.pdf">Presentation for&#160;the&#160;report on&#160;Hong Kong Open Source conference (HKOSCon)</a>
 (Hong Kong, June 27, 2015, English language)</li>
 <li><a href="http://download.luwrain.org/pdf/presentation-MEnablingWashington-en-2015-06-01.pdf">Presentation shared on&#160;M-Enabling summit</a>
@@ -49,9 +51,11 @@
 <h2>Презентации</h2>
 
 <ul>
+<li><a href="http://download.luwrain.org/pdf/presentation-SmartCity-2017-06-08.pdf">Презентация к&#160;демонстрации на&#160;конференции Smart and safe city</a>
+(Нидерланды, 7&#x2013;8&#160;июня&#160;2017&#160;г., анг.&#160;яз.)</li>
 <li><a href="http://download.luwrain.org/pdf/presentation-HongKongOSConference-en-2015-06-27.pdf">Презентация к&#160;выступлению на&#160;Hong Kong Open Source conference (HKOSCon)</a>
 (Гонконг, 27&#160;июня&#160;2015&#160;г., анг.&#160;яз.)</li>
-<li><a href="http://download.luwrain.org/pdf/presentation-MEnablingWashington-en-2015-06-01.pdf">Презентация, распространённая на&#160;M-Enabling summit</a>
+<li><a href="http://download.luwrain.org/pdf/presentation-MEnablingWashington-en-2015-06-01.pdf">Презентация для&#160;M-Enabling summit</a>
 (Вашингтон, США, 1&#160;июня 2015&#160;г., анг.&#160;яз.)</li>
 <li><a href="http://2014.secr.ru/lang/ru/program/submitted-presentations/framework-for-accessible-applications-text-base-case-for-blind-people">Выступление на&#160;конференции "Разработка&#160;ПО &#x2014; 2014"</a>
 (Москва, 23 октября 2014&#160;г., рус.&#160;яз.)

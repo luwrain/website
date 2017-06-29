@@ -14,6 +14,8 @@ luwrain-page-en
 
 ## Presentations
 
+* [Presentation for~the~conference "Smart and safe city"](http://download.luwrain.org/pdf/presentation-SmartCity-2017-06-08.pdf)
+(Netherlands, June 7--8,~2017~г., English language)
 * [Presentation for~the~report on~Hong Kong Open Source conference (HKOSCon)](http://download.luwrain.org/pdf/presentation-HongKongOSConference-en-2015-06-27.pdf)
 (Hong Kong, June 27, 2015, English language)
 * [Presentation shared on~M-Enabling summit](http://download.luwrain.org/pdf/presentation-MEnablingWashington-en-2015-06-01.pdf)
@@ -46,9 +48,11 @@ luwrain-page-ru
 
 ## Презентации
 
+* [Презентация к~демонстрации на~конференции Smart and safe city](http://download.luwrain.org/pdf/presentation-SmartCity-2017-06-08.pdf)
+(Нидерланды, 7--8~июня~2017~г., анг.~яз.)
 * [Презентация к~выступлению на~Hong Kong Open Source conference (HKOSCon)](http://download.luwrain.org/pdf/presentation-HongKongOSConference-en-2015-06-27.pdf)
 (Гонконг, 27~июня~2015~г., анг.~яз.)
-* [Презентация, распространённая на~M-Enabling summit](http://download.luwrain.org/pdf/presentation-MEnablingWashington-en-2015-06-01.pdf)
+* [Презентация для~M-Enabling summit](http://download.luwrain.org/pdf/presentation-MEnablingWashington-en-2015-06-01.pdf)
 (Вашингтон, США, 1~июня 2015~г., анг.~яз.)
 * [Выступление на~конференции "Разработка~ПО --- 2014"](http://2014.secr.ru/lang/ru/program/submitted-presentations/framework-for-accessible-applications-text-base-case-for-blind-people)
 (Москва, 23 октября 2014~г., рус.~яз.)
@@ -65,7 +69,3 @@ luwrain-page-ru
 * [Пресса о~нас](local:/community/massmedia/)
 * [Видео на YouTube](local:/community/video/)
 * [Подкасты](local:/community/podcasts/)
-
-
-
-

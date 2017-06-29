@@ -32,14 +32,12 @@ and is purposed for&#160;everybody who would like to know what our development p
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-<h1>Документация для нашей команды разработчиков</h1>
+<h1>Документация для&#160;разработчиков</h1>
 
 <p>Настоящий раздел содержит документацию для&#160;разработчиков,
 непосредственно принимающих участие в&#160;развитии наших компонентов.
 Ссылки на&#160;этой странице могут помочь вам лучше понять идеи и принципы, 
-принятые в&#160;команде  LUWRAIN.
-Мы добавляем сюда новые материалы, когда появляются вещи,
-необходимые для&#160;знания всем участникам проекта.</p>
+принятые в&#160;команде  LUWRAIN.</p>
 
 <h2>Выберите интересующий вас раздел:</h2>
 
@@ -47,8 +45,11 @@ and is purposed for&#160;everybody who would like to know what our development p
 <li><a href="<?php echo luwrain_link('rules/');?>">Правила нашего процесса разработки</a></li>
 <li><a href="<?php echo luwrain_link('compilation/');?>">Сборка исходного кода</a></li>
 <li><a href="<?php echo luwrain_link('iso/');?>">Сборка ISO-образа</a></li>
+<li><a href="<?php echo luwrain_link('nightly/');?>">Структура nightly-релизов</a>
+<ul>
+<li><a href="<?php echo luwrain_link('nightly/compilation/');?>">Сборка nightly-релиза из&#160;исходных текстов</a></li>
+</ul></li>
 <li><a href="<?php echo luwrain_link('i18n/');?>">Международное сотрудничество</a></li>
-<li><a href="<?php echo luwrain_link('txt-reading/');?>">Требования к&#160;приложению для&#160;чтения больших текстов</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/doc/devel/index.php');?>

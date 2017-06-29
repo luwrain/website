@@ -40,14 +40,15 @@ luwrain-page-ru
 * [Пресса о~нас](local:massmedia/)
 * [Мы в Твиттере](http://twitter.com/luwrain)
 * [Мы на~GitHub](https://github.com/luwrain/)
-* [Публикации о~нас](local:publications/)
+* [Наши публикации и презентации](local:publications/)
 * [Наш вики](http://wiki.luwrain.org)
 * [Наши списки рассылок](local:mailing-lists)
+* [Записи приветствия системы на~разных языках](http://download.luwrain.org/media/greeting/langs/)
+
 
 ## Общественные инициативы
 
 * [Представляем F123e](local:f123e.php)
-
 
 ## О~проекте
 

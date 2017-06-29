@@ -6,13 +6,12 @@ comm.publications.md
 comm.video.md
 comm.f123e.md
 dev.compilation.md
-dev.ext.agregat.md
 dev.iso.md
 dev.md
 dev.nightly.md
+dev.nightly.compilation.md
 dev.rules.md
 dev.speech-backend.licrict
-dev.txt-reading.licrict
 doc.about.md
 doc.authors.md
 doc.difference.md

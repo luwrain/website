@@ -38,9 +38,11 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <li><a href="<?php echo luwrain_link('podcasts/');?>">Подкасты</a></li>
 <li><a href="<?php echo luwrain_link('massmedia/');?>">Пресса о&#160;нас</a></li>
 <li><a href="http://twitter.com/luwrain">Мы в Твиттере</a></li>
-<li><a href="<?php echo luwrain_link('publications/');?>">Публикации о&#160;нас</a></li>
+<li><a href="https://github.com/luwrain/">Мы на&#160;GitHub</a></li>
+<li><a href="<?php echo luwrain_link('publications/');?>">Наши публикации и презентации</a></li>
 <li><a href="http://wiki.luwrain.org">Наш вики</a></li>
 <li><a href="<?php echo luwrain_link('mailing-lists');?>">Наши списки рассылок</a></li>
+<li><a href="http://download.luwrain.org/media/greeting/langs/">Записи приветствия системы на&#160;разных языках</a></li>
 </ul>
 
 <h2>Общественные инициативы</h2>

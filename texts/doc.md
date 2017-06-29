@@ -11,9 +11,9 @@ This~page contains all~categories of~documentation we have on~our~website.
 Choose any~section you need:
 
 * [Users documentation](local:user/) 
+ * [Getting started: speedy instructions how to~begin the~work right now](local:user/start/)
  * [Installation instructions: what should you do if you'd like to~install LUWRAIN on~your computer?](local:user/installation/)
  * [User manual: a~complete guide to~work in~LUWRAIN](local:user/manual/)
- * [Getting started: speedy instructions how to~begin the~work right now](local:user/start/)
  * [How to~report a~bug?](local:/community/bugs/)
 * [How~to create your own extensions and applications for~LUWRAIN?](local:ext/)
 * [Documentation for~members of~our team: how to~work on~LUWRAIN itself?](local:devel/)
@@ -35,12 +35,16 @@ luwrain-page-ru
 Выберите интересующий вас раздел:
 
 * [Документация для~пользователей](local:user/)
+ * [С чего начать?: минимальное описание необходимых действий для~быстрой установки системы  на~жёсткий диск и начала работы](local:user/start/)
  * [Инструкция по~установке: как установить систему на~жёсткий диск?](local:user/installation/)
  * [Руководство пользователя: полное описание правил работы в~нашей среде](local:user/manual/)
- * [С чего начать?: минимальное описание необходимых действий для~быстрой установки системы  на~жёсткий диск и начала работы](local:user/start/)
  * [Как сообщить об~ошибке?](local:/community/bugs/)
 * [Как создать собственные приложения и расширения для~LUWRAIN](local:ext/)
 * [Документация для~участников нашей команды](local:devel/)
+
+См.~также:
+
+* [Наш вики](http://wiki.luwrain.org)
 
 ## О~проекте
 
