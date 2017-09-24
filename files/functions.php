@@ -84,7 +84,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <?php
-        echo '    <title>'.$title.' - LUWRAIN</title>'."\n";
+        echo '    <title>'.$title.' &#x2014; LUWRAIN</title>'."\n";
     ?>
 </head>
 <body>
@@ -107,7 +107,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <?php
-    echo '    <title>'.$title.' - LUWRAIN</title>'."\n";
+    echo '    <title>'.$title.' &#x2014; LUWRAIN</title>'."\n";
             ?>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
             <link type="image/x-icon" href="/Images/favicon.ico" rel="icon" />

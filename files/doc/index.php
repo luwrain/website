@@ -8,9 +8,9 @@ Choose any&#160;section you need:</p>
 <ul>
 <li><a href="<?php echo luwrain_link('user/');?>">Users documentation</a> 
 <ul>
+<li><a href="<?php echo luwrain_link('user/start/');?>">Getting started: speedy instructions how to&#160;begin the&#160;work right now</a></li>
 <li><a href="<?php echo luwrain_link('user/installation/');?>">Installation instructions: what should you do if you'd like to&#160;install LUWRAIN on&#160;your computer?</a></li>
 <li><a href="<?php echo luwrain_link('user/manual/');?>">User manual: a&#160;complete guide to&#160;work in&#160;LUWRAIN</a></li>
-<li><a href="<?php echo luwrain_link('user/start/');?>">Getting started: speedy instructions how to&#160;begin the&#160;work right now</a></li>
 <li><a href="<?php echo luwrain_link('/community/bugs/');?>">How to&#160;report a&#160;bug?</a></li>
 </ul></li>
 <li><a href="<?php echo luwrain_link('ext/');?>">How&#160;to create your own extensions and applications for&#160;LUWRAIN?</a></li>
@@ -37,13 +37,19 @@ Choose any&#160;section you need:</p>
 <ul>
 <li><a href="<?php echo luwrain_link('user/');?>">Документация для&#160;пользователей</a>
 <ul>
+<li><a href="<?php echo luwrain_link('user/start/');?>">С чего начать?: минимальное описание необходимых действий для&#160;быстрой установки системы  на&#160;жёсткий диск и начала работы</a></li>
 <li><a href="<?php echo luwrain_link('user/installation/');?>">Инструкция по&#160;установке: как установить систему на&#160;жёсткий диск?</a></li>
 <li><a href="<?php echo luwrain_link('user/manual/');?>">Руководство пользователя: полное описание правил работы в&#160;нашей среде</a></li>
-<li><a href="<?php echo luwrain_link('user/start/');?>">С чего начать?: минимальное описание необходимых действий для&#160;быстрой установки системы  на&#160;жёсткий диск и начала работы</a></li>
 <li><a href="<?php echo luwrain_link('/community/bugs/');?>">Как сообщить об&#160;ошибке?</a></li>
 </ul></li>
 <li><a href="<?php echo luwrain_link('ext/');?>">Как создать собственные приложения и расширения для&#160;LUWRAIN</a></li>
 <li><a href="<?php echo luwrain_link('devel/');?>">Документация для&#160;участников нашей команды</a></li>
+</ul>
+
+<p>См.&#160;также:</p>
+
+<ul>
+<li><a href="http://wiki.luwrain.org">Наш вики</a></li>
 </ul>
 
 <h2>О&#160;проекте</h2>

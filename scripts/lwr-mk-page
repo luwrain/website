@@ -3,7 +3,7 @@
 # Michael Pozhidaev <michael.pozhidaev@gmail.com>
 # Date: 2015-11-16
 
-# Usage: lws-mk-page TARGETDIR INPUTFILE
+# Usage: lwr-mk-page TARGETDIR INPUTFILE
 # TARGETDIR must be without the trailing slash!
 
 THIS="${0##*/}"
@@ -72,14 +72,14 @@ cat <<EOF
 <?php if (luwrain_current_lang() == 'en') {?>
 EOF
 if [ -r "$ENPAGE" ]; then
-    ./lws-mk-html "$FILE_TYPE" "$ENPAGE"
+    ./lwr-mk-html "$FILE_TYPE" "$ENPAGE"
 fi
 cat <<EOF
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
 EOF
 if [ -r "$RUPAGE" ]; then
-    ./lws-mk-html "$FILE_TYPE" "$RUPAGE"
+    ./lwr-mk-html "$FILE_TYPE" "$RUPAGE"
 fi
 cat <<EOF
 <?php }?>
