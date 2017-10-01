@@ -7,48 +7,46 @@ luwrain-page-en
 
 # Who we are
 
-see~also
+see~also:
 
 * [Our pictures](local:/community/album/)
 * [Recorded greetings in various languages](http://download.luwrain.org/media/greeting/langs/)
 
-Our main team includes (in~alphabetical order):
+Our main team includes (in~alphabetical order)
 
 * Alexey Goloshumov
-* Ekaterina Koryakina
 * [Michael Pozhidaev](http://marigostra.com)
 * Helen Teplykh
-* Roman Volovodov
 
-Here is a~list of~people who participated in~our project (in~alphabetical order):
-
-* Andrey Anpilov (music decoration and sound effects)
-* Catherine Brown (editing the~English greeting on~the~main page)
-* Anastasia Gaponenko (Russian female voice in the first greeting recording) 
-* Svetlana Glazyrina (Russian female voice in the second greeting recording)
-* Vad Him   (French male voice in greeting recording)
-* Joshua Iverson (English male voice in greeting recording)
-* Maria Kalamatsou  (Greek female voice in greeting recording)
-* Yuriy Knyazev (music decoration and sound effects)
-* Alexander Lipatov (sound editing)
-* Alexey Lubkin (calculation of~Bloom filter parameters needed for~the~LUWRAIN files synchronization algorithm)
-* Hiroki Minagawa (Japanese male voice in greeting recording)
-* Renata Pozhidaeva (the~~website construction)
-* Nikita Prianichnikov (porting LUWRAIN to~MacOS-X)
-* Mgr. Janusz Chmiel (Czech translation)
-* Stepan Shvets (music decoration and sound effects)
-* Joseph Tekleoni (Arabic  male voice in greeting recording)
-* Nikita Tseikovets (information support)
-* Alexander Ustinov (porting LUWRAIN to~Microsoft Windows and building system support)
-
-We are very thankful to~the~following people and organizations:
+Our~premium partners:
 
 * [Tomsk State University](http://tsu.ru/)
+
+## We are thankful to~the~following people and organizations:
+
 * [Deaf-blind Support Fund So-edinenie (Connection)](http://so-edinenie.org/)
 * [Charitable Fund for~support of~blind and visually impaired people "Osyazanie"](http://www.bf-osyazanie.ru/)
-* [ALT~Linux](http://altlinux.com/)
 * Olga Yakovleva who makes possible the~free Russian text-to-speech engine, 
 [RHVoice speech synthesizer](http://github.com/Olga-Yakovleva/RHVoice)
+
+These people participated in~our project (in~alphabetical order):
+
+* Andrey Anpilov
+* Svetlana Glazyrina
+* Vad Him  
+* Joshua Iverson
+* Maria Kalamatsou 
+* Yuriy Knyazev
+* Ekaterina Koryakina
+* Alexander Lipatov
+* Hiroki Minagawa
+* Renata Pozhidaeva
+* Nikita Prianichnikov
+* Mgr. Janusz Chmiel
+* Joseph Tekleoni
+* Nikita Tseikovets
+* Roman Volovodov
+* Alexander Ustinov
 
 luwrain-page-ru
 
@@ -65,34 +63,28 @@ luwrain-page-ru
 * [Михаил Пожидаев](http://marigostra.ru)
 * Елена Теплых
 
-## Наши стратегические партнёры
+Наши стратегические партнёры:
 
 * [Национальный исследовательский томский государственный университет](http://tsu.ru/)
-* [омский государственный педагогический университет](http://tspu.edu.ru)
-* [МБОУ СОШ №84 ЗАТО Северск](http://xn--84-6kc3bfr2e.xn--p1ai/)
 * [Школа-интернат №1 для~обучения и реабилитации слепых г.~Москва](http://schisv1.mskobr.ru/)
+* [МБОУ СОШ №84 ЗАТО Северск](http://xn--84-6kc3bfr2e.xn--p1ai/)
 
-## Мы благодарны за вклад в проект
+Мы благодарны за вклад в проект:
 
-* [Благотворительному фонду <Искусство, наука и спорт>](http://www.artscienceandsport.com/)
 * [Фонду поддержки слепоглухих «Со-единение»](http://so-edinenie.org/)
 * [Благотворительному фонду помощи слабовидящим и незрячим «Осязание»](http://www.bf-osyazanie.ru/)
-* [Компании «Альт~Линукс»](http://altlinux.ru)
 * Ольге Яковлевой за~превосходный русский синтезатор речи [RHVoice](http://github.com/Olga-Yakovleva/RHVoice )
 
-## Проекту помогали
+Проекту помогали:
 
 * Джошуа Айверсон
 * Андрей Анпилов
-* Кэтрин Браун
 * Роман Воловодов
-* Анастасия Гапоненко
 * Светлана Ткачук
 * Мария Каламатсу
 * Юрий Князев
 * Екатерина Корякина
 * Александр Липатов
-* Алексей Лубкин
 * Хироки Минагава
 * Рената Пожидаева
 * Никита Пряничников
@@ -101,4 +93,3 @@ luwrain-page-ru
 * Александр Устинов
 * Никита Цейковец
 * Вад Хим  
-* Степан Швец

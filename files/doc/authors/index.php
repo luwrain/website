@@ -2,55 +2,55 @@
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Who we are</h1>
 
-<p>see&#160;also</p>
+<p>see&#160;also:</p>
 
 <ul>
 <li><a href="<?php echo luwrain_link('/community/album/');?>">Our pictures</a></li>
 <li><a href="http://download.luwrain.org/media/greeting/langs/">Recorded greetings in various languages</a></li>
 </ul>
 
-<p>Our main team includes (in&#160;alphabetical order):</p>
+<p>Our main team includes (in&#160;alphabetical order)</p>
 
 <ul>
 <li>Alexey Goloshumov</li>
-<li>Ekaterina Koryakina</li>
 <li><a href="http://marigostra.com">Michael Pozhidaev</a></li>
 <li>Helen Teplykh</li>
-<li>Roman Volovodov</li>
 </ul>
 
-<p>Here is a&#160;list of&#160;people who participated in&#160;our project (in&#160;alphabetical order):</p>
-
-<ul>
-<li>Andrey Anpilov (music decoration and sound effects)</li>
-<li>Catherine Brown (editing the&#160;English greeting on&#160;the&#160;main page)</li>
-<li>Anastasia Gaponenko (Russian female voice in the first greeting recording) </li>
-<li>Svetlana Glazyrina (Russian female voice in the second greeting recording)</li>
-<li>Vad Him   (French male voice in greeting recording)</li>
-<li>Joshua Iverson (English male voice in greeting recording)</li>
-<li>Maria Kalamatsou  (Greek female voice in greeting recording)</li>
-<li>Yuriy Knyazev (music decoration and sound effects)</li>
-<li>Alexander Lipatov (sound editing)</li>
-<li>Alexey Lubkin (calculation of&#160;Bloom filter parameters needed for&#160;the&#160;LUWRAIN files synchronization algorithm)</li>
-<li>Hiroki Minagawa (Japanese male voice in greeting recording)</li>
-<li>Renata Pozhidaeva (the&#160;~website construction)</li>
-<li>Nikita Prianichnikov (porting LUWRAIN to&#160;MacOS-X)</li>
-<li>Mgr. Janusz Chmiel (Czech translation)</li>
-<li>Stepan Shvets (music decoration and sound effects)</li>
-<li>Joseph Tekleoni (Arabic  male voice in greeting recording)</li>
-<li>Nikita Tseikovets (information support)</li>
-<li>Alexander Ustinov (porting LUWRAIN to&#160;Microsoft Windows and building system support)</li>
-</ul>
-
-<p>We are very thankful to&#160;the&#160;following people and organizations:</p>
+<p>Our&#160;premium partners:</p>
 
 <ul>
 <li><a href="http://tsu.ru/">Tomsk State University</a></li>
+</ul>
+
+<h2>We are thankful to&#160;the&#160;following people and organizations:</h2>
+
+<ul>
 <li><a href="http://so-edinenie.org/">Deaf-blind Support Fund So-edinenie (Connection)</a></li>
 <li><a href="http://www.bf-osyazanie.ru/">Charitable Fund for&#160;support of&#160;blind and visually impaired people "Osyazanie"</a></li>
-<li><a href="http://altlinux.com/">ALT&#160;Linux</a></li>
 <li>Olga Yakovleva who makes possible the&#160;free Russian text-to-speech engine, 
 <a href="http://github.com/Olga-Yakovleva/RHVoice">RHVoice speech synthesizer</a></li>
+</ul>
+
+<p>These people participated in&#160;our project (in&#160;alphabetical order):</p>
+
+<ul>
+<li>Andrey Anpilov</li>
+<li>Svetlana Glazyrina</li>
+<li>Vad Him  </li>
+<li>Joshua Iverson</li>
+<li>Maria Kalamatsou </li>
+<li>Yuriy Knyazev</li>
+<li>Ekaterina Koryakina</li>
+<li>Alexander Lipatov</li>
+<li>Hiroki Minagawa</li>
+<li>Renata Pozhidaeva</li>
+<li>Nikita Prianichnikov</li>
+<li>Mgr. Janusz Chmiel</li>
+<li>Joseph Tekleoni</li>
+<li>Nikita Tseikovets</li>
+<li>Roman Volovodov</li>
+<li>Alexander Ustinov</li>
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
@@ -71,39 +71,33 @@
 <li>Елена Теплых</li>
 </ul>
 
-<h2>Наши стратегические партнёры</h2>
+<p>Наши стратегические партнёры:</p>
 
 <ul>
 <li><a href="http://tsu.ru/">Национальный исследовательский томский государственный университет</a></li>
-<li><a href="http://tspu.edu.ru">омский государственный педагогический университет</a></li>
-<li><a href="http://xn&#x2013;84-6kc3bfr2e.xn&#x2013;p1ai/">МБОУ СОШ №84 ЗАТО Северск</a></li>
 <li><a href="http://schisv1.mskobr.ru/">Школа-интернат №1 для&#160;обучения и реабилитации слепых г.&#160;Москва</a></li>
+<li><a href="http://xn&#x2013;84-6kc3bfr2e.xn&#x2013;p1ai/">МБОУ СОШ №84 ЗАТО Северск</a></li>
 </ul>
 
-<h2>Мы благодарны за вклад в проект</h2>
+<p>Мы благодарны за вклад в проект:</p>
 
 <ul>
-<li><a href="http://www.artscienceandsport.com/">Благотворительному фонду &lt;Искусство, наука и спорт></a></li>
 <li><a href="http://so-edinenie.org/">Фонду поддержки слепоглухих «Со-единение»</a></li>
 <li><a href="http://www.bf-osyazanie.ru/">Благотворительному фонду помощи слабовидящим и незрячим «Осязание»</a></li>
-<li><a href="http://altlinux.ru">Компании «Альт&#160;Линукс»</a></li>
 <li>Ольге Яковлевой за&#160;превосходный русский синтезатор речи <a href="http://github.com/Olga-Yakovleva/RHVoice">RHVoice</a></li>
 </ul>
 
-<h2>Проекту помогали</h2>
+<p>Проекту помогали:</p>
 
 <ul>
 <li>Джошуа Айверсон</li>
 <li>Андрей Анпилов</li>
-<li>Кэтрин Браун</li>
 <li>Роман Воловодов</li>
-<li>Анастасия Гапоненко</li>
 <li>Светлана Ткачук</li>
 <li>Мария Каламатсу</li>
 <li>Юрий Князев</li>
 <li>Екатерина Корякина</li>
 <li>Александр Липатов</li>
-<li>Алексей Лубкин</li>
 <li>Хироки Минагава</li>
 <li>Рената Пожидаева</li>
 <li>Никита Пряничников</li>
@@ -112,7 +106,6 @@
 <li>Александр Устинов</li>
 <li>Никита Цейковец</li>
 <li>Вад Хим  </li>
-<li>Степан Швец</li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/doc/authors/index.php');?>
