@@ -12,110 +12,69 @@
 <li><a href="<?php echo luwrain_link('/doc/authors/');?>">Who we are?</a></li>
 </ul>
 
-<p>LUWRAIN is information technologies and a&#160;lifestyle!
-The&#160;LUWRAIN team works on&#160;the&#160;new way of&#160;interaction  with&#160;PCs, which gives the&#160;maximum level of&#160;comfort to&#160;users with&#160;eyesight problems, 
-regardless their degree of&#160;disability (including deaf-blind).
-Our&#160;obtained experience we implement as&#160;a&#160;Java library, published under the&#160;terms of&#160;GNU&#160;Public License v.3.</p>
+<h2>What is LUWRAIN?</h2>
 
-<p>LUWRAIN mostly (but not limited to) is&#160;purposed for&#160;the&#160;blind,
-who previously was unable to&#160;start using of&#160;PC or any other IT.
-Today IT means a&#160;comfort and a&#160;lifestyle, it is a&#160;design and a&#160;pragmatism. 
-For&#160;the&#160;disable people all of&#160;these terms exist the&#160;same way as&#160;for&#160;anybody else,
-but can take another forms.
-We have differences between each other; the&#160;difference between all&#160;of&#160;us results in&#160;using of&#160;different solutions, it&#160;is absolutely normal;
-IT for&#160;the&#160;blind must be&#160;created in&#160;the&#160;way, which suits needs as&#160;most as&#160;possible.</p>
-
-<p>LUWRAIN ведёт себя одинаково на&#160;всех ОС, в&#160;которых может быть запущен
-(что достигается за&#160;счёт технологий Java).
-Появление единого и переносимого механизма доставки невизуальных приложений значительно упрощает информационное обеспечение образовательного процесса,
-в&#160;который вовлечены учащиеся с&#160;нарушениями зрения.
-LUWRAIN предоставляет простой в&#160;освоении и удобный в&#160;работе способ чтения образовательных материалов,
-дающий одинаковое восприятие в&#160;любой ОС.</p>
-
-<p>Коммерческие компании получают возможность при&#160;помощи LUWRAIN обеспечить доступ к&#160;своим сервисам,
-пполностью перекладывая на&#160;нас заботу о&#160;правильном восприятии людьми с&#160;нарушениями зрения.
-Компании могут подготавливать свои приложения для&#160;LUWRAIN по&#160;тем&#160;же причинам, по&#160;которым публикуют приложения для&#160;мобильных телефонов, &#x2014; это повышает удобство пользователя.
-Более того, приложения для&#160;LUWRAIN подготавливаются на&#160;Java,
-что существенно облегчает использование готовых компонентов, ранее созданных для&#160;Google Android.</p>
-
-<p>И&#160;всё-таки в&#160;центре нашей деятельности находится сам&#160;наш&#160;основной дистрибутив LUWRAIN.
-Он доступен для&#160;<a href="<?php echo luwrain_link('/download/');?>">свободной загрузки</a> с&#160;нашего сайта,
-и поможет каждому незрячему  (в&#160;том&#160;числе слепоглухому) получить инструмент, обеспечивающий решение наиболее востребованных повседневных задач.
-Если для&#160;каких-либо целей задач наш продукт окажется не&#160;в&#160;состоянии предложить решение,
-за&#160;счёт его&#160;гибкости пользователь всегда сможет сочетать его с&#160;существующими приложениями экранного доступа. </p>
-
-<h2>Ключевые характеристики</h2>
+<p>Our&#160;project LUWRAIN develops information technologies (IT) which aren't supposed to&#160;be&#160;controlled by&#160;users visually
+(meaning that the&#160;screen of&#160;a&#160;PC or a&#160;mobile device isn't a&#160;main way of&#160;bringing information to&#160;the&#160;user).
+Our&#160;work consists of&#160;several major parts:</p>
 
 <ol>
-<li><strong>LUWRAIN имеет предельно упрощенный, но в&#160;то&#160;же время продуманный и гибкий, интерфейс для&#160;незрячего человека.</strong>
-Пользователь может не&#160;опасаться, что ему не&#160;хватит опыта работы на&#160;ПК для&#160;эксплуатации LUWRAIN.
-Несколько простых примеров для&#160;первого знакомства окажутся достаточными,
-чтобы быстро начать работу.
-У&#160;нас нет&#160;сомнений, что&#160;LUWRAIN подойдёт для любой категории пользователей:детей, незрячих от&#160;рождения,
-пожилых людей,
-слепоглухих 
-и&#160;т.&#160;д.</li>
-<li><strong>LUWRAIN  создан на&#160;основе технологий Java.</strong>
-Пользоваться LUWRAIN можно на&#160;любом компьютере и в&#160;любой ОС,
-для&#160;которых есть виртуальная машина Java не&#160;ниже версии 1.8,
-а она есть практически для&#160;любой современной ОС.</li>
-<li><strong>LUWRAIN &#x2014; очень технологичное решение.</strong>
-Наша команда старается применять как&#160;можно более современные технологие, 
-которые с&#160;наибольшей вероятностью будут востребованы в&#160;будущем.
-К&#160;примеру, наш браузер основан на актуальном движке <a href="https://ru.wikipedia.org/wiki/WebKit">WebKit</a>,
-а&#160;благодаря хорошей интеграции GNU/Linux во&#160;встраиваемые системы мы исследуем возможность развития LUWRAIN 
-в&#160;рамках современного направления <a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82_%D0%B2%D0%B5%D1%89%D0%B5%D0%B9">"интернета вещей"</a>.</li>
-<li><strong>LUWRAIN &#x2014; свободное ПО.</strong>
-Его&#160;использование всегда бесплатно для&#160;конечного пользователя.
-Лицензия GPL&#160;v.3 гарантирует, что пользователь никогда не&#160;лишиться инструмента, к&#160;которому он&#160;привык,
-равно как&#160;и&#160;любая компания, подготовившая на&#160;основе LUWRAIN свой&#160;продукт.</li>
-<li><strong>LUWRAIN имеет сборку в&#160;виде ISO-образа на&#160;ядре Linux.</strong>
-Даже если у&#160;пользователя нет&#160;вообще никакой возможности приобрести или установить какую-либо ОС,
-т.&#160;е. у&#160;него есть только компьютер с&#160;пустым жёстким диском,
-он всё&#160;равно может пользоваться LUWRAIN,
-если выберет вариант в&#160;виде <a href="<?php echo luwrain_link('/download/iso/');?>">загрузочного ISO-образа</a>.</li>
+<li>Developing the&#160;platform for&#160;the&#160;creating and distributing of&#160;apps which can be&#160;used without an&#160;eyesight</li>
+<li>Developing two&#160;categories of&#160;apps for&#160;our&#160;platform:
+<ul>
+<li>General purposed apps for&#160;everyday using, including clients for&#160;popular Internet services</li>
+<li>Education apps for&#160;children with&#160;the&#160;eyesight problems</li>
+</ul></li>
+<li>Research of&#160;the&#160;user interface (UI) and the&#160;semantic structures to&#160;be&#160;accessible through speech</li>
+<li>Research of&#160;technologies for&#160;cheap transforming of&#160;materials (basically for&#160;education) into&#160;the&#160;form suitable for&#160;reading without an&#160;eyesight</li>
+<li>Creating Daisy books for&#160;publishers and education organizations</li>
 </ol>
 
-<h2>Интерфейс специально для&#160;незрячих людей</h2>
+<p>The&#160;software for&#160;people with&#160;eyesight difficulties is a&#160;important part of&#160;LUWRAIN,
+however the&#160;purposes of&#160;our&#160;work is&#160;not&#160;restricted by&#160;accessibility technologies only.
+We see that the&#160;very&#160;small fraction of&#160;blind people feel themselves absolutely free using PCs;
+LUWRAIN is intended to&#160;change this situation making IT more comfortable and friendly without involving eyesight in&#160;interaction process.
+As&#160;well we support research in&#160;the&#160;areas  of&#160;clinical psychology
+to&#160;better understand the&#160;nature of&#160;problems related to&#160;motivation and socialization of the&#160;blind.</p>
 
-<p>Неспособность представить информацию в&#160;подготовленном виде &#x2014; один из&#160;главных недостатков  самого распространённого решения,
-основанного на&#160;утилитах экранного доступа,
-работающих в&#160;оконном интерфейсе.
-Без&#160;использования мыши, недоступной незрячим пользователям,  этот тип интерфейса неудобен.
-Он плохо подходит для&#160;выполнения повседневных задач,
-требующих предельного уровня скорости и комфорта.
-Более того,  если у&#160;пользователя отсутствует предшествующий опыт визуальной работы с&#160;оконным интерфейсом,
-процесс знакомства с&#160;ним и объяснение его&#160;природы может быть очень сложным.</p>
+<p>At&#160;the&#160;moment we&#160;have two&#160;ways suitable for&#160;education of&#160;the&#160;blind is&#160;possible: braille and using of&#160;IT.
+Braille remains a&#160;reliable method, but it doesn't suit for&#160;all of&#160;modern requirements.
+We work a&#160;lot on&#160;education apps and materials,
+including using of&#160;such publishing systems like Latex and Lilypond, since they are perfectly accessible to&#160;the&#160;blind.
+We&#160;welcome any&#160;contacts with&#160;business companies for&#160;research are there any&#160;ways for&#160;the&#160;blind to&#160;be&#160;hired there,
+with&#160;proposing corresponding education programs to&#160;the&#160;universities we&#160;work with to&#160;prepare specialists for&#160;future employment.</p>
 
-<p>Незрячий пользователь всегда хранит образ своего рабочего окружения в&#160;голове,
-получая от&#160;компьютера информацию  о&#160;любых изменениях.
-Наша задача состоит в&#160;том,
-чтобы сделать воображаемое рабочее пространство <strong>предельно простым</strong>.
-Чем оно проще, тем больше у&#160;пользователя окажется возможности  сосредоточиться на&#160;своей работе.
-заметим, что при&#160;использовании утилит экранного доступа пользователь вынужден хранить в&#160;памяти  полный вид рабочего стола и расположения объектов,
-хотя это невозможно в&#160;принципе,
-какими&#160;бы совершенными утилиты экранного доступа ни&#160;были.
-Наш опыт показывает,
-что создание нового интерфейса,
-который не&#160;уступал&#160;бы возможностям оконного окружения,
-вполне <strong>реально</strong>,
-если, конечно, речь идёт о&#160;задачах,
-в&#160;принципе доступных незрячему человеку
-(к&#160;примеру, редактирование фотографий незрячему человеку недоступно).</p>
+<p>LUWRAIN isn't IT only, it's also a&#160;design and a&#160;lifestyle.
+Previously there was a&#160;lack of&#160;efforts aimed at&#160;maintaining the&#160;proper level of&#160;comfort of&#160;blind users,
+while it's easy to&#160;realize that this&#160;area
+is&#160;also   suitable to&#160;be an&#160;application of&#160;design as&#160;graphical user interface (GUI).
+We work a&#160;lot  to&#160;learn LUWRAIN to&#160;provide information
+in&#160;a&#160;really comfortable way for&#160;the&#160;perception of&#160;the&#160;blind.
+Our&#160;users must enjoy doing their work with&#160;LUWRAIN!</p>
 
-<h2>Большие проблемы</h2>
+<h2>Technical details of&#160;LUWRAIN</h2>
 
-<p>LUWRAIN стремится быть частью усилий, направленных на&#160;решение более общих проблем, чем  доступность незрячих людей к&#160;ИТ.
-Правда действительности в&#160;том, что незрячие люди очень мало пользуются тем, что для&#160;них делается:
-редко встретишь человека в&#160;Москве, который пользуется тактильной разметкой (вне&#160;зависимости от&#160;причин),
-мало кто ходит на&#160;выставки, которые делаются для&#160;незрячих людей, 
-мало кто пользуется информационными сервисами, созданными для&#160;людей с&#160;нарушениями зрения.
-Команда LUWRAIN стремится уделять как можно больше внимания вопросам активности незрячих людей в&#160;целом
-и вносить свой вклад к&#160;улучшение положения вещей.
-Для&#160;этого мы сотрудничаем с&#160;общественными и благотворительными организациями 
-с&#160;целью влияния на&#160;менталитет незрячих людей через создание качественно новых ИТ для&#160;них.</p>
+<p>LUWRAIN core is&#160;based on&#160;Java technologies.
+It&#160;makes possible the&#160;same  behaviour  regardless the&#160;operating system (OS) the&#160;user running on&#160;his/her computer.</p>
 
-<p><a href="<?php echo luwrain_link('/community/');?>">Присоединяйтесь к&#160;нам!</a></p>
+<p>We also publish theUbuntu-based &#160;ISO-image with&#160;our platform.
+This makes LUWRAIN using possible even in&#160;the&#160;case when&#160;the&#160;user doesn't have any&#160;OS installed on&#160;his/her computer.
+It's a&#160;very important thing, because LUWRAIN becomes suitable for&#160;installation on&#160;a&#160;PC without an&#160;eyesight
+and becomes a&#160;very convenient way to&#160;get into&#160;GNU/Linux  for&#160;everybody with&#160;eyesight problems.</p>
+
+<p>LUWRAIN is&#160;an&#160;Open Source Software.
+It's free of&#160;charge for&#160;any users and organizations who want to&#160;use it.
+In&#160;addition all&#160;companies are able to&#160;ensure that LUWRAIN doesn't have any&#160;backdoors.</p>
+
+<p>We spend a&#160;lot of&#160;time for&#160;research in&#160;the&#160;following areas:</p>
+
+<ul>
+<li>Machine learning for&#160;hiding needless decoration on&#160;web-pages and emphesizing their valuable content</li>
+<li>Semantic structures for&#160;intuitive speech control of&#160;apps for&#160;"Internet Of Things"</li>
+<li>Machine learning for&#160;cheap adaptation of&#160;unstructured materials for&#160;reading by&#160;the&#160;blind</li>
+</ul>
+
+<p><a href="<?php echo luwrain_link('/community/');?>">Be with&#160;us!</a></p>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>О&#160;нашем проекте</h1>
@@ -132,20 +91,20 @@ LUWRAIN предоставляет простой в&#160;освоении и у
 
 <h2>Что такое LUWRAIN?</h2>
 
-<p>Проект LUWRAIN  посвящён разработке ПО в&#160;сфере  невизуального использования информационных технологий (ИТ),
-то&#160;есть в&#160;случаях, когда экран ПК или мобильного устройства  не&#160;является основным способом передачи данных.
+<p>Наш&#160;проект LUWRAIN  посвящён разработке ПО в&#160;сфере  невизуального использования информационных технологий (ИТ).
+Здесь мы подразумеваем все&#160;ситуации, когда экран ПК или мобильного устройства  не&#160;является основным способом передачи данных.
 Работа в&#160;проекте LUWRAIN разбивается на&#160;несколько крупных направлений:</p>
 
 <ol>
-<li>Разработка основной платформы для&#160;создания и распространения невизуальных приложений.</li>
+<li>Разработка основной платформы на&#160;Java для&#160;создания и распространения невизуальных приложений.</li>
 <li>Разработка двух семейств приложений для&#160;нашей платформы:
 <ul>
 <li>приложения общего назначения для&#160;повседневной работы, включая доступ к&#160;популярным сервисам в&#160;интернете;</li>
 <li>образовательные приложения для&#160;детей и студентов с&#160;нарушениями зрения.</li>
+</ul></li>
 <li>Исследование методологии построения невизуального интерфейса и семантических структур для&#160;голосового управления информационными объектами.</li>
 <li>Разработка технологий для&#160;быстрой и дешёвой адаптации материалов, прежде всего учебных,  для&#160;представления в&#160;невизуальной форме.</li>
 <li>Создание учебной литературы в&#160;формате Daisy по&#160;заказу издательств и образовательных учреждений.</li>
-</ul></li>
 </ol>
 
 <p>Создание инструментов для&#160;людей с&#160;нарушениями зрения является очень важным направлением LUWRAIN,

@@ -17,46 +17,47 @@ See~also:
 
 ## What is LUWRAIN?
 
-Проект LUWRAIN  посвящён разработке ПО в~сфере  невизуального использования информационных технологий (ИТ).
-Мы так~называем все~ситуации, когда экран ПК или мобильного устройства  не~является основным способом передачи данных.
+Our~project LUWRAIN develops information technologies (IT) which aren't supposed to~be~controlled by~users visually
+(meaning that the~screen of~a~PC or a~mobile device isn't a~main way of~bringing information to~the~user).
 Our~work consists of~several major parts:
 
-1. Developing of~our~platform for~the~creation and distributing of~apps which can be~used without an~eyesight
-1. Developing two~categories of~application for~our~platform:
- * General purposed applications for~everyday using, including clients for~popular Internet services
-  * Education apps for~children with~eyesight problems
-1. Research of~developing construction  the~UI for~using without an~eyesight and semantic structures for~voiced-controlled 
-1. Research of~technologies of~cheap transforming of~materials (basically for~education) into~the~form suitable for~reading without an~eyesight
-1. Creating of~Daisy books for~publishers and education organizations
+1. Developing the~platform for~the~creating and distributing of~apps which can be~used without an~eyesight
+1. Developing two~categories of~apps for~our~platform:
+ * General purposed apps for~everyday using, including clients for~popular Internet services
+  * Education apps for~children with~the~eyesight problems
+1. Research of~the~user interface (UI) and the~semantic structures to~be~accessible through speech
+1. Research of~technologies for~cheap transforming of~materials (basically for~education) into~the~form suitable for~reading without an~eyesight
+1. Creating Daisy books for~publishers and education organizations
 
-The~software for~people with~eyesight problems is a~important part of~LUWRAIN,
-though  the~purposes of~our~work is~not~restricted by~accessibility technologies only.
-Very~small fraction of~blind people feel themselves absolutely free in~PCs using,
-LUWRAIN intended to~change this situation making IT more comfortable and friendly with~the~interaction without involving an~eyesight.
-Мы также активно поддерживаем проведение исследований в~сфере клинической психологии,
-чтобы лучше понять природу проблем мотивации и социализации  детей и взрослых людей с~нарушениями зрения.
+The~software for~people with~eyesight difficulties is a~important part of~LUWRAIN,
+however the~purposes of~our~work is~not~restricted by~accessibility technologies only.
+We see that the~very~small fraction of~blind people feel themselves absolutely free using PCs;
+LUWRAIN is intended to~change this situation making IT more comfortable and friendly without involving eyesight in~interaction process.
+As~well we support research in~the~areas  of~clinical psychology
+to~better understand the~nature of~problems related to~motivation and socialization of the~blind.
 
-At~the~moment only two~ways of~education of~the~blind and visually-impaired people is~possible: braille and using of~IT.
-Braille remains a~reliable method, but it doesn't suit for~all of~modern requirements.
+At~the~moment we~have two~ways suitable for~education of~the~blind: braille and using of~IT.
+Braille remains a~reliable method, but it doesn't suit for~all of~the~modern requirements.
 We work a~lot on~education apps and materials,
-including using of~such publishing systems like Latex and Lilypond, since they are perfectly useful for~the~blind people.
-We~welcome any~contacts with~business companies for~research are there any~ways for~the~blind people to~be~employed in~them,
-with~offering corresponding education courses  to~the~universities we~work with to~prepare specialists for~them.
+including using of~such publishing systems like Latex and Lilypond, since they are perfectly accessible to~the~blind.
+We~welcome any~contacts with~business companies for~research are there any~ways for~the~blind to~be~hired there,
+with~proposing corresponding education programs to~the~universities we~work with to~prepare specialists for~future employment.
 
-LUWRAIN isn't IT only, it's a~design and a~lifestyle as~well.
-До~нас очень мало уделялось вниманию комфорту в~сфере невизуальной работы,
-хотя нетрудно понять, что это такая~же сфера применения дизайна, как и графические оконные  системы.
-Мы много работаем над~тем, чтобы наша система предоставляла информацию в~виде,
-максимально адаптированном для~невизуального восприятия,
-а~пользователь получал~бы удовольствие от~работы в~LUWRAIN.
+LUWRAIN isn't IT only, it's also a~design and a~lifestyle.
+Previously there was a~lack of~efforts aimed at~maintaining the~proper level of~comfort of~blind users,
+while it's easy to~realize that this~area
+is~also   suitable to~be an~application of~design as~graphical user interface (GUI).
+We work a~lot  to~learn LUWRAIN to~provide information
+in~a~really comfortable way for~the~perception of~the~blind.
+Our~users must enjoy doing their work with~LUWRAIN!
 
 ## Technical details of~LUWRAIN
 
 LUWRAIN core is~based on~Java technologies.
-Это даёт возможность предоставить единое восприятие системы вне~зависимости от~того какая операционная система (ОС) установлена на~компьютере пользователя.
+It~makes possible the~same  behaviour  regardless the~operating system (OS) the~user is running on~his/her computer.
 
-We also publish the~ISO-image with~LUWRAIN which is~based on~Ubuntu Linux.
-This makes LUWRAIN using possible even in~the~case if~the~user doesn't have any~OS installed on~his/her computer.
+We also publish theUbuntu-based ~ISO-image with~our platform.
+This makes LUWRAIN using possible even in~the~case when~the~user doesn't have any~OS installed on~his/her computer at~all.
 It's a~very important thing, because LUWRAIN becomes suitable for~installation on~a~PC without an~eyesight
 and becomes a~very convenient way to~get into~GNU/Linux  for~everybody with~eyesight problems.
 
@@ -66,9 +67,9 @@ In~addition all~companies are able to~ensure that LUWRAIN doesn't have any~backd
 
 We spend a~lot of~time for~research in~the~following areas:
 
-* машинное обучение в~сфере обработки веб-страниц с~целю определения основного их~содержания для~ускорения работы;
-*  семантические структуры для~реализации интуитивно понятных путей голосового управления для~задач "Умного дома" и "Интернета вещей";
-* машинное обучение для~задач быстрой адаптации слабоструктурированных текстов для~конвертации в~невизуальную форму.
+* Machine learning for~hiding needless decoration on~web-pages and emphesizing their valuable content
+* Semantic structures for~intuitive speech control of~apps for~"Internet Of Things"
+* Machine learning for~cheap adaptation of~unstructured materials for~reading by~the~blind
 
 [Be with~us!](local:/community/)
 
@@ -86,8 +87,8 @@ luwrain-page-ru
 
 ## Что такое LUWRAIN?
 
-Проект LUWRAIN  посвящён разработке ПО в~сфере  невизуального использования информационных технологий (ИТ).
-Мы так~называем все~ситуации, когда экран ПК или мобильного устройства  не~является основным способом передачи данных.
+Наш~проект LUWRAIN  посвящён разработке ПО в~сфере  невизуального использования информационных технологий (ИТ).
+Здесь мы подразумеваем все~ситуации, когда экран ПК или мобильного устройства  не~является основным способом передачи данных.
 Работа в~проекте LUWRAIN разбивается на~несколько крупных направлений:
 
 1. Разработка основной платформы на~Java для~создания и распространения невизуальных приложений.
