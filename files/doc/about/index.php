@@ -37,8 +37,8 @@ LUWRAIN is intended to&#160;change this situation making IT more comfortable and
 As&#160;well we support research in&#160;the&#160;areas  of&#160;clinical psychology
 to&#160;better understand the&#160;nature of&#160;problems related to&#160;motivation and socialization of the&#160;blind.</p>
 
-<p>At&#160;the&#160;moment we&#160;have two&#160;ways suitable for&#160;education of&#160;the&#160;blind is&#160;possible: braille and using of&#160;IT.
-Braille remains a&#160;reliable method, but it doesn't suit for&#160;all of&#160;modern requirements.
+<p>At&#160;the&#160;moment we&#160;have two&#160;ways suitable for&#160;education of&#160;the&#160;blind: braille and using of&#160;IT.
+Braille remains a&#160;reliable method, but it doesn't suit all modern requirements.
 We work a&#160;lot on&#160;education apps and materials,
 including using of&#160;such publishing systems like Latex and Lilypond, since they are perfectly accessible to&#160;the&#160;blind.
 We&#160;welcome any&#160;contacts with&#160;business companies for&#160;research are there any&#160;ways for&#160;the&#160;blind to&#160;be&#160;hired there,
@@ -55,10 +55,10 @@ Our&#160;users must enjoy doing their work with&#160;LUWRAIN!</p>
 <h2>Technical details of&#160;LUWRAIN</h2>
 
 <p>LUWRAIN core is&#160;based on&#160;Java technologies.
-It&#160;makes possible the&#160;same  behaviour  regardless the&#160;operating system (OS) the&#160;user running on&#160;his/her computer.</p>
+It&#160;makes possible the&#160;same  behaviour  regardless the&#160;operating system (OS) the&#160;user is running on&#160;his/her computer.</p>
 
 <p>We also publish theUbuntu-based &#160;ISO-image with&#160;our platform.
-This makes LUWRAIN using possible even in&#160;the&#160;case when&#160;the&#160;user doesn't have any&#160;OS installed on&#160;his/her computer.
+This makes LUWRAIN using possible even in&#160;the&#160;case when&#160;the&#160;user doesn't have any&#160;OS installed on&#160;his/her computer at&#160;all.
 It's a&#160;very important thing, because LUWRAIN becomes suitable for&#160;installation on&#160;a&#160;PC without an&#160;eyesight
 and becomes a&#160;very convenient way to&#160;get into&#160;GNU/Linux  for&#160;everybody with&#160;eyesight problems.</p>
 
@@ -92,7 +92,7 @@ In&#160;addition all&#160;companies are able to&#160;ensure that LUWRAIN doesn't
 <h2>Что такое LUWRAIN?</h2>
 
 <p>Наш&#160;проект LUWRAIN  посвящён разработке ПО в&#160;сфере  невизуального использования информационных технологий (ИТ).
-Здесь мы подразумеваем все&#160;ситуации, когда экран ПК или мобильного устройства  не&#160;является основным способом передачи данных.
+Здесь мы подразумеваем все&#160;случаи, когда экран ПК или мобильного устройства  не&#160;является основным способом передачи данных.
 Работа в&#160;проекте LUWRAIN разбивается на&#160;несколько крупных направлений:</p>
 
 <ol>
@@ -107,8 +107,8 @@ In&#160;addition all&#160;companies are able to&#160;ensure that LUWRAIN doesn't
 <li>Создание учебной литературы в&#160;формате Daisy по&#160;заказу издательств и образовательных учреждений.</li>
 </ol>
 
-<p>Создание инструментов для&#160;людей с&#160;нарушениями зрения является очень важным направлением LUWRAIN,
-хотя цели нашего проекта не&#160;ограничиваются вспомогательными  технологиями.
+<p>Хотя цели нашего проекта не&#160;ограничиваются вспомогательными  технологиями,
+создание инструментов для&#160;людей с&#160;нарушениями зрения является очень важным направлением LUWRAIN.
 По&#160;косвенным оценкам только 1%  людей с&#160;нарушениями зрения в&#160;России чувствуют себя свободно в&#160;работе на&#160;ПК,
 LUWRAIN призван улучшить эту&#160;ситуацию, делая ИТ более дружественными и комфортными в&#160;режиме невизуального взаимодействия.
 Мы также активно поддерживаем проведение исследований в&#160;сфере клинической психологии,
@@ -124,7 +124,7 @@ LUWRAIN призван улучшить эту&#160;ситуацию, делая
 и целенаправленной подготовке для&#160;этого  специалистов в&#160;ВУЗах, с&#160;которыми мы сотрудничаем.</p>
 
 <p>LUWRAIN&#160;&#x2014; это не&#160;только ИТ, это также дизайн и стиль жизни.
-До&#160;нас очень мало уделялось вниманию комфорту в&#160;сфере невизуальной работы,
+До&#160;нас очень мало уделялось внимания комфорту в&#160;сфере невизуальной работы,
 хотя нетрудно понять, что это такая&#160;же сфера применения дизайна, как и графические оконные  системы.
 Мы много работаем над&#160;тем, чтобы наша система предоставляла информацию в&#160;виде,
 максимально адаптированном для&#160;невизуального восприятия,
