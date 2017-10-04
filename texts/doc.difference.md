@@ -5,12 +5,48 @@ TARGET=doc/difference/index.php
 
 luwrain-page-en
 
-# Why is LUWRAIN different than other accessible solutions?
+# Why is LUWRAIN different than other accessibility solutions?
 
+См.~также:См.~также:
+
+* [Что такое LUWRAIN?](local:/doc/about/)
+See~also:
+
+* [What is LUWRAIN?](local:/doc/about/)
+
+Самое главное отличие LUWRAIN от~известных приложений, на~первый взгляд  делающих очень похожие вещи, в~том,
+что __LUWRAIN isn't a~screen reading utility__.
+LUWRAIN is a~platform  for~the~creation of~apps which aren't supposed to~be~controlled visually
+(including application in~the~area of~"Internet Of~Things"),
+although support of~blind indeed is  one of~the~most important goals of~our~project.
+
+The~nature of~a~platform makes possible the~creation and distribution of~apps which were absent previously;
+with~LUWRAIN everybody can do this in~a~very cheap way.
+К~примеру, в~процессе образования правильнее иметь решение, гарантированно решающее необходимые задачи технического обеспечения,
+нежеле  пытаться адаптировать образовательный процесс под~постоянно меняющиеся и очень нестабильные утилиты экранного доступа,
+не~дающие гарантий, что  завтра не~появится новая задача, абсолютно  несовместимая с~обычными вспомогательными технологиями.
+With~LUWRAIN, commercial companies can create and offer the~clients for~the~access to~their services which will be easily understandable by~the~blind ,
+and LUWRAIN  takes care that~these apps will be
+not only understandable, but comfortable as~well for~the~users.
+
+becides that,  developing a~platform we~get a~possibility to~research
+the~better ways of~the~interaction without involving an~eyesight  and the~corresponding applications of~a~design.
+We think of~a~design  as~of~ways  to~get maximum  efficiency of~interaction with~PCs;
+its roots  can be~found in~representation of~information  in~form highly adapted for~the~perception without an~eyesight.
+
+Yes, there are three projects over the~world which  research and develop very close things:
+[Dolphin Guide](http://www.yourdolphin.com/productdetail.asp?id=30),
+[Emacspeak](http://emacspeak.sourceforge.net) and
+[Adriane](http://www.knopper.net/knoppix-adriane/index-en.html),
+but LUWRAIN is~better anyway!
 
 luwrain-page-ru
 
 # Чем LUWRAIN отличается от~других вспомогательных технологий?
+
+См.~также:
+
+* [Что такое LUWRAIN?](local:/doc/about/)
 
 Самое главное отличие LUWRAIN от~известных приложений, на~первый взгляд  делающих очень похожие вещи, в~том,
 что __LUWRAIN~--- это не~утилита экранного доступа__.
@@ -31,8 +67,8 @@ LUWRAIN~--- это платформа для~разработки невизуа
 максимально адаптированных для~невизуального восприятия.
 
 Да, в~мире есть три~проекта, исповедующие схожие принципы:
-[Dolphin Guide.](http://www.yourdolphin.com/productdetail.asp?id=30),
+[Dolphin Guide](http://www.yourdolphin.com/productdetail.asp?id=30),
 [Emacspeak](http://emacspeak.sourceforge.net) и
 [Adriane](http://www.knopper.net/knoppix-adriane/index-en.html),
 но мы всё~равно лучше.
-Даже рассматривать не~стоит.
+Даже рассматривать не~стоит!

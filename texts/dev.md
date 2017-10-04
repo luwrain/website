@@ -25,12 +25,10 @@ and is purposed for~everybody who would like to know what our development proces
 * [Compiling our~source code](local:compilation/)
 * [Compiling our nightly build](local:nightly)
 * [Compiling ISO-images](local:iso/)
-* [International collaboration](local:i18n/ )
 
 ## See also
 
-* [How to~create your own extension/application for~LUWRAIN?](local:/doc/ext/)
-* [LUWRAIN API in Javadoc format](/api/)
+* [LUWRAIN API Javadoc](/api/)
 
 luwrain-page-ru
 
@@ -48,4 +46,7 @@ luwrain-page-ru
 * [Сборка ISO-образа](local:iso/)
 * [Структура nightly-релизов](local:nightly/)
  * [Сборка nightly-релиза из~исходных текстов](local:nightly/compilation/)
-* [Международное сотрудничество](local:i18n/ )
+
+## См.~также
+
+* [LUWRAIN API Javadoc](/api/)

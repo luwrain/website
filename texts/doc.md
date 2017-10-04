@@ -18,13 +18,18 @@ Choose any~section you need:
 * [How~to create your own extensions and applications for~LUWRAIN?](local:ext/)
 * [Documentation for~members of~our team: how to~work on~LUWRAIN itself?](local:devel/)
 
+See~also:
+
+* [LUWRAIN API Javadoc](/api/)
+
 ## About the~project
 
-* [The~free story what LUWRAIN is, and why do we think blind users need it?](local:about/)
+* [The~free story what LUWRAIN is](local:about/)
 * [Frequently asked questions](local:faq/)
-* [Why is LUWRAIN different than other accessible solutions?](local:difference/)
+* [Why is LUWRAIN different than other accessibility solutions?](local:difference/)
 * [Legal notes](local:legal/)
 * [The project authors](local:authors/)
+* [Contact~us](local:contacts/)
 
 luwrain-page-ru
 
@@ -42,14 +47,16 @@ luwrain-page-ru
 * [Как создать собственные приложения и расширения для~LUWRAIN](local:ext/)
 * [Документация для~участников нашей команды](local:devel/)
 
-См.~также:
+ См.~также:
 
 * [Наш вики](http://wiki.luwrain.org)
+* [LUWRAIN API Javadoc](/api/)
 
 ## О~проекте
 
-* [Что~такое LUWRAIN, и почему мы считаем, что незрячие люди нуждаются в~нём?](local:about/)
+* [Что~такое LUWRAIN](local:about/)
 * [Часто задаваемые вопросы](local:faq/)
 * [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:difference/)
 * [Правовой статус проекта](local:legal/)
 * [Авторы проекта](local:authors/)
+* [Контакты](local:contacts/)

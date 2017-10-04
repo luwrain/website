@@ -17,14 +17,21 @@ Choose any&#160;section you need:</p>
 <li><a href="<?php echo luwrain_link('devel/');?>">Documentation for&#160;members of&#160;our team: how to&#160;work on&#160;LUWRAIN itself?</a></li>
 </ul>
 
+<p>See&#160;also:</p>
+
+<ul>
+<li><a href="/api/">LUWRAIN API Javadoc</a></li>
+</ul>
+
 <h2>About the&#160;project</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('about/');?>">The&#160;free story what LUWRAIN is, and why do we think blind users need it?</a></li>
+<li><a href="<?php echo luwrain_link('about/');?>">The&#160;free story what LUWRAIN is</a></li>
 <li><a href="<?php echo luwrain_link('faq/');?>">Frequently asked questions</a></li>
-<li><a href="<?php echo luwrain_link('difference/');?>">Why is LUWRAIN different than other accessible solutions?</a></li>
+<li><a href="<?php echo luwrain_link('difference/');?>">Why is LUWRAIN different than other accessibility solutions?</a></li>
 <li><a href="<?php echo luwrain_link('legal/');?>">Legal notes</a></li>
 <li><a href="<?php echo luwrain_link('authors/');?>">The project authors</a></li>
+<li><a href="<?php echo luwrain_link('contacts/');?>">Contact&#160;us</a></li>
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
@@ -43,23 +50,22 @@ Choose any&#160;section you need:</p>
 <li><a href="<?php echo luwrain_link('/community/bugs/');?>">Как сообщить об&#160;ошибке?</a></li>
 </ul></li>
 <li><a href="<?php echo luwrain_link('ext/');?>">Как создать собственные приложения и расширения для&#160;LUWRAIN</a></li>
-<li><a href="<?php echo luwrain_link('devel/');?>">Документация для&#160;участников нашей команды</a></li>
-</ul>
+<li><p><a href="<?php echo luwrain_link('devel/');?>">Документация для&#160;участников нашей команды</a></p>
 
-<p>См.&#160;также:</p>
-
-<ul>
-<li><a href="http://wiki.luwrain.org">Наш вики</a></li>
+<p>См.&#160;также:</p></li>
+<li><p><a href="http://wiki.luwrain.org">Наш вики</a></p></li>
+<li><a href="/api/">LUWRAIN API Javadoc</a></li>
 </ul>
 
 <h2>О&#160;проекте</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('about/');?>">Что&#160;такое LUWRAIN, и почему мы считаем, что незрячие люди нуждаются в&#160;нём?</a></li>
+<li><a href="<?php echo luwrain_link('about/');?>">Что&#160;такое LUWRAIN</a></li>
 <li><a href="<?php echo luwrain_link('faq/');?>">Часто задаваемые вопросы</a></li>
 <li><a href="<?php echo luwrain_link('difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
 <li><a href="<?php echo luwrain_link('legal/');?>">Правовой статус проекта</a></li>
 <li><a href="<?php echo luwrain_link('authors/');?>">Авторы проекта</a></li>
+<li><a href="<?php echo luwrain_link('contacts/');?>">Контакты</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/doc/index.php');?>

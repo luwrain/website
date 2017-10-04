@@ -21,14 +21,12 @@ and is purposed for&#160;everybody who would like to know what our development p
 <li><a href="<?php echo luwrain_link('compilation/');?>">Compiling our&#160;source code</a></li>
 <li><a href="<?php echo luwrain_link('nightly');?>">Compiling our nightly build</a></li>
 <li><a href="<?php echo luwrain_link('iso/');?>">Compiling ISO-images</a></li>
-<li><a href="<?php echo luwrain_link('i18n/');?>">International collaboration</a></li>
 </ul>
 
 <h2>See also</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/ext/');?>">How to&#160;create your own extension/application for&#160;LUWRAIN?</a></li>
-<li><a href="/api/">LUWRAIN API in Javadoc format</a></li>
+<li><a href="/api/">LUWRAIN API Javadoc</a></li>
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
@@ -49,7 +47,12 @@ and is purposed for&#160;everybody who would like to know what our development p
 <ul>
 <li><a href="<?php echo luwrain_link('nightly/compilation/');?>">Сборка nightly-релиза из&#160;исходных текстов</a></li>
 </ul></li>
-<li><a href="<?php echo luwrain_link('i18n/');?>">Международное сотрудничество</a></li>
+</ul>
+
+<h2>См.&#160;также</h2>
+
+<ul>
+<li><a href="/api/">LUWRAIN API Javadoc</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/doc/devel/index.php');?>
