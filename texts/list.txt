@@ -12,6 +12,7 @@ dev.nightly.md
 dev.nightly.compilation.md
 dev.rules.md
 doc.about.md
+doc.contacts.md
 doc.authors.md
 doc.difference.md
 doc.faq.md

@@ -17,7 +17,7 @@ See~also:
 
 ## What is LUWRAIN?
 
-Our~project LUWRAIN develops information technologies (IT) which aren't supposed to~be~controlled by~users visually
+Our~project LUWRAIN develops the~information technologies (IT) which aren't supposed to~be~controlled by~users visually
 (meaning that the~screen of~a~PC or a~mobile device isn't a~main way of~bringing information to~the~user).
 Our~work consists of~several major parts:
 
