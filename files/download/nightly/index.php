@@ -58,14 +58,14 @@ You can find it at the&#160;following address:</p>
 в&#160;самой свежей сборке:</p>
 
 <ul>
-<li><a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-nightly</a>: исходные тексты LUWRAIN, использованные в&#160;ходе сборки;</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-nightly</a>: исходные тексты LUWRAIN, использованные в&#160;ходе сборки;</li>
 <li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-app-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-app</a>: приложение для&#160;Microsoft Windows, готовое к&#160;запуску;</li>
 <li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-pkg-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-pkg</a>: сборка для&#160;создания инсталлятора для&#160;Microsoft Windows на&#160;основе JavaFXPackager;</li>
 <li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-nojre-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-nojre</a>: сборка для&#160;Microsoft Windows, предназначенная для&#160;запуска при&#160;помощи внешней виртуальной машины Java (JRE отсутствует в&#160;составе архива);</li>
-<li><a href="http://download.luwrain.org/nightly/latest/luwrain-linux-pkg-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-linux-pkg</a>: сборка для&#160;создания инсталлятора для&#160;GNU/Linux на&#160;основе JavaFXPackager;</li>
-<li><a href="http://download.luwrain.org/nightly/latest/luwrain-linux-nojre-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-linux-nojre</a>: сборка для&#160;GNU/Linux, предназначенная для&#160;запуска при&#160;помощи внешней виртуальной машины Java (JRE отсутствует в&#160;составе архива);</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-linux-pkg-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-pkg</a>: сборка для&#160;создания инсталлятора для&#160;GNU/Linux на&#160;основе JavaFXPackager;</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-linux-nojre-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-nojre</a>: сборка для&#160;GNU/Linux, предназначенная для&#160;запуска при&#160;помощи внешней виртуальной машины Java (JRE отсутствует в&#160;составе архива);</li>
 <li><a href="http://download.luwrain.org/nightly/latest/luwrain-sdk-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-sdk</a>: сборка LUWRAIN&#160;SDK (включает документацию Javadoc);</li>
-<li><a href="http://download.luwrain.org/nightly/latest/luwrain-iso-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-iso</a>: сборка для&#160;создания ISO-образов на&#160;основе Ubuntu Linux.</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-iso-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-iso</a>: сборка для&#160;создания ISO-образов на&#160;основе Ubuntu Linux.</li>
 </ul>
 
 <p>Вы также можете загрузить контрольные суммы упомянутых выше файлов в&#160;следующих форматах:</p>

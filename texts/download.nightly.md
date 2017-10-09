@@ -53,14 +53,14 @@ luwrain-page-ru
 Ниже приведён их~перечень с~прямыми ссылками на~соответствующие файлы
 в~самой свежей сборке:
 
-* <a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-nightly</a>: исходные тексты LUWRAIN, использованные в~ходе сборки;
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-nightly</a>: исходные тексты LUWRAIN, использованные в~ходе сборки;
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-app-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-app</a>: приложение для~Microsoft Windows, готовое к~запуску;
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-pkg-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-pkg</a>: сборка для~создания инсталлятора для~Microsoft Windows на~основе JavaFXPackager;
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-nojre-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-nojre</a>: сборка для~Microsoft Windows, предназначенная для~запуска при~помощи внешней виртуальной машины Java (JRE отсутствует в~составе архива);
-* <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-pkg-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-linux-pkg</a>: сборка для~создания инсталлятора для~GNU/Linux на~основе JavaFXPackager;
-* <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-nojre-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-linux-nojre</a>: сборка для~GNU/Linux, предназначенная для~запуска при~помощи внешней виртуальной машины Java (JRE отсутствует в~составе архива);
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-pkg-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-pkg</a>: сборка для~создания инсталлятора для~GNU/Linux на~основе JavaFXPackager;
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-nojre-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-nojre</a>: сборка для~GNU/Linux, предназначенная для~запуска при~помощи внешней виртуальной машины Java (JRE отсутствует в~составе архива);
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-sdk-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-sdk</a>: сборка LUWRAIN~SDK (включает документацию Javadoc);
-* <a href="http://download.luwrain.org/nightly/latest/luwrain-iso-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-iso</a>: сборка для~создания ISO-образов на~основе Ubuntu Linux.
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-iso-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-iso</a>: сборка для~создания ISO-образов на~основе Ubuntu Linux.
 
 Вы также можете загрузить контрольные суммы упомянутых выше файлов в~следующих форматах:
 
