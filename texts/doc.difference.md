@@ -7,9 +7,6 @@ luwrain-page-en
 
 # Why is LUWRAIN different than other accessibility solutions?
 
-См.~также:См.~также:
-
-* [Что такое LUWRAIN?](local:/doc/about/)
 See~also:
 
 * [What is LUWRAIN?](local:/doc/about/)

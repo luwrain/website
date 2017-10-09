@@ -34,12 +34,45 @@ You can find it at the&#160;following address:</p>
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Nightly-сборки</h1>
 
-<p>Для&#160;того, чтобы сделать наш процесс разработки более прозрачным и гладким, 
-мы поддерживаем выпуск nightly-сборок.
-Они доступны по&#160;этой ссылке:</p>
+<p>Быстрый доступ:</p>
 
 <ul>
-<li><a href="http://download.luwrain.org/nightly/">http://download.luwrain.org/nightly/</a></li>
+<li><a href="http://download.luwrain.org/nightly/latest/junit-report.html">Текущий отчёт JUnit-тестирования</a></li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-app-nightly-<?php echo lwr_nightly_latest_date();?>.zip">Текущая сборка в&#160;виде приложения для&#160;Microsoft Windows</a></li>
+</ul>
+
+<p>Для&#160;того, чтобы сделать наш процесс разработки более прозрачным и гладким, 
+мы поддерживаем выпуск nightly-сборок.
+Они доступны по&#160;этим ссылкам:</p>
+
+<ul>
+<li>Общий каталог с&#160;текущей историей nightly-сборок: <a href="http://download.luwrain.org/nightly/">http://download.luwrain.org/nightly/</a></li>
+<li>Самая свежая nightly-сборка: <a href="http://download.luwrain.org/nightly/latest/">http://download.luwrain.org/nightly/latest/</a></li>
+</ul>
+
+<h2>Структура nightly-релизов</h2>
+
+<p>Каждый nightly-релиз состоит из&#160;нескольких компонентов,
+упакованных в&#160;отдельный файл.
+Ниже приведён их&#160;перечень с&#160;прямыми ссылками на&#160;соответствующие файлы
+в&#160;самой свежей сборке:</p>
+
+<ul>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-nightly</a>: исходные тексты LUWRAIN, использованные в&#160;ходе сборки;</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-app-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-app</a>: приложение для&#160;Microsoft Windows, готовое к&#160;запуску;</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-pkg-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-pkg</a>: сборка для&#160;создания инсталлятора для&#160;Microsoft Windows на&#160;основе JavaFXPackager;</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-nojre-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-nojre</a>: сборка для&#160;Microsoft Windows, предназначенная для&#160;запуска при&#160;помощи внешней виртуальной машины Java (JRE отсутствует в&#160;составе архива);</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-linux-pkg-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-linux-pkg</a>: сборка для&#160;создания инсталлятора для&#160;GNU/Linux на&#160;основе JavaFXPackager;</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-linux-nojre-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-linux-nojre</a>: сборка для&#160;GNU/Linux, предназначенная для&#160;запуска при&#160;помощи внешней виртуальной машины Java (JRE отсутствует в&#160;составе архива);</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-sdk-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-sdk</a>: сборка LUWRAIN&#160;SDK (включает документацию Javadoc);</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-iso-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-iso</a>: сборка для&#160;создания ISO-образов на&#160;основе Ubuntu Linux.</li>
+</ul>
+
+<p>Вы также можете загрузить контрольные суммы упомянутых выше файлов в&#160;следующих форматах:</p>
+
+<ul>
+<li><a href="http://download.luwrain.org/nightly/latest/sha1sum.txt">SHA1</a>;</li>
+<li><a href="http://download.luwrain.org/nightly/latest/md5sum.txt">MD5</a>.</li>
 </ul>
 
 <p>Несмотря на&#160;то, что мы называем эти&#160;релизы  nightly,
@@ -47,22 +80,6 @@ You can find it at the&#160;following address:</p>
 Периодически мы делаем паузы, особенно, если вносим изменения,
 затрагивающие ядро системы.
 Устаревшие версии удаляются,
-поэтому каждый релиз доступен обычно в&#160;течение двух-трёх месяцев.
-Каких-либо строгих правил, как часто  это делать, у&#160;нас нет,
-так что  это происходит, когда  на&#160;наш взгляд выпуски просто теряют  свою актуальность.</p>
-
-<p>Для&#160;вашего удобства мы дополнительно создали каталог "<em>latest</em>",
-в&#160;котором всегда доступна последняя nightly-сборка.
-Вы можете его найти по&#160;следующей ссылке:</p>
-
-<ul>
-<li><a href="http://download.luwrain.org/nightly/latest/">http://download.luwrain.org/nightly/latest/</a></li>
-</ul>
-
-<h2>См.&#160;также</h2>
-
-<ul>
-<li><a href="<?php echo luwrain_link('/doc/devel/nightly/');?>">Компиляция наших nightly-сборок</a></li>
-</ul>
+поэтому каждый релиз доступен обычно в&#160;течение двух-трёх месяцев.</p>
 <?php }?>
 <?php luwrain_end_page('/download/nightly/index.php');?>

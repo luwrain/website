@@ -2,12 +2,10 @@
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Why is LUWRAIN different than other accessibility solutions?</h1>
 
-<p>См.&#160;также:См.&#160;также:</p>
+<p>See&#160;also:</p>
 
 <ul>
-<li><p><a href="<?php echo luwrain_link('/doc/about/');?>">Что такое LUWRAIN?</a>
-See&#160;also:</p></li>
-<li><p><a href="<?php echo luwrain_link('/doc/about/');?>">What is LUWRAIN?</a></p></li>
+<li><a href="<?php echo luwrain_link('/doc/about/');?>">What is LUWRAIN?</a></li>
 </ul>
 
 <p>Самое главное отличие LUWRAIN от&#160;известных приложений, на&#160;первый взгляд  делающих очень похожие вещи, в&#160;том,

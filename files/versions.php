@@ -1,4 +1,5 @@
 <?php
+  include "/www/download/nightly/latest/version.php";
 
   function lwr_version()
   {
