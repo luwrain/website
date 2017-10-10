@@ -8,7 +8,6 @@ comm.f123e.md
 dev.compilation.md
 dev.iso.md
 dev.md
-dev.nightly.md
 dev.nightly.compilation.md
 dev.rules.md
 doc.about.md

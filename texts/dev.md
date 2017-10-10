@@ -44,7 +44,6 @@ luwrain-page-ru
 * [Правила нашего процесса разработки](local:rules/)
 * [Сборка исходного кода](local:compilation/)
 * [Сборка ISO-образа](local:iso/)
-* [Структура nightly-релизов](local:nightly/)
  * [Сборка nightly-релиза из~исходных текстов](local:nightly/compilation/)
 
 ## См.~также
