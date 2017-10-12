@@ -10,18 +10,18 @@ luwrain-page-en
 See~also:
 
 * [What is LUWRAIN?](local:/doc/about/)
+* [Frequently asked questions](local:/doc/faq/)
 
-Самое главное отличие LUWRAIN от~известных приложений, на~первый взгляд  делающих очень похожие вещи, в~том,
-что __LUWRAIN isn't a~screen reading utility__.
-LUWRAIN is a~platform  for~the~creation of~apps which aren't supposed to~be~controlled visually
+The~major difference between LUWRAIN and other software which at~first approach does the~same things 
+is that LUWRAIN is _a~platform _ for~the~creation of~apps which aren't supposed to~be~controlled visually
 (including application in~the~area of~"Internet Of~Things"),
 although support of~blind indeed is  one of~the~most important goals of~our~project.
 
 The~nature of~a~platform makes possible the~creation and distribution of~apps which were absent previously;
 with~LUWRAIN everybody can do this in~a~very cheap way.
-К~примеру, в~процессе образования правильнее иметь решение, гарантированно решающее необходимые задачи технического обеспечения,
-нежеле  пытаться адаптировать образовательный процесс под~постоянно меняющиеся и очень нестабильные утилиты экранного доступа,
-не~дающие гарантий, что  завтра не~появится новая задача, абсолютно  несовместимая с~обычными вспомогательными технологиями.
+For~example, in~education tasks  it~is~better to~have a~solution flexibly adjustable  for~current and future requirements
+than  to~adjust the~education process itself to~permanently changing and very unstable screen reading software
+without any~guarantee that tomorrow you will~not get new~tasks incompatible with~usual accessibility utilities.
 With~LUWRAIN, commercial companies can create and offer the~clients for~the~access to~their services which will be easily understandable by~the~blind ,
 and LUWRAIN  takes care that~these apps will be
 not only understandable, but comfortable as~well for~the~users.
@@ -44,6 +44,7 @@ luwrain-page-ru
 См.~также:
 
 * [Что такое LUWRAIN?](local:/doc/about/)
+* [Часто задаваемые вопросы](local:/doc/faq/)
 
 Самое главное отличие LUWRAIN от~известных приложений, на~первый взгляд  делающих очень похожие вещи, в~том,
 что __LUWRAIN~--- это не~утилита экранного доступа__.

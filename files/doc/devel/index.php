@@ -42,8 +42,7 @@ and is purposed for&#160;everybody who would like to know what our development p
 <ul>
 <li><a href="<?php echo luwrain_link('rules/');?>">Правила нашего процесса разработки</a></li>
 <li><a href="<?php echo luwrain_link('compilation/');?>">Сборка исходного кода</a></li>
-<li><a href="<?php echo luwrain_link('iso/');?>">Сборка ISO-образа</a></li>
-<li><a href="<?php echo luwrain_link('nightly/');?>">Структура nightly-релизов</a>
+<li><a href="<?php echo luwrain_link('iso/');?>">Сборка ISO-образа</a>
 <ul>
 <li><a href="<?php echo luwrain_link('nightly/compilation/');?>">Сборка nightly-релиза из&#160;исходных текстов</a></li>
 </ul></li>
