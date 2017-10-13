@@ -27,14 +27,14 @@ this makes possible for everybody to&#160;participate in&#160;LUWRAIN developmen
 <h1>Документация для&#160;разработчиков</h1>
 
 <p>Настоящий раздел содержит документацию для&#160;разработчиков,
-принимающих участие в&#160;развитии нашей платформы непосредственно.
+принимающих участие в&#160;развитии непосредственно нашей платформы.
 Ссылки на&#160;этой странице могут помочь вам лучше понять идеи и принципы, 
 принятые в&#160;команде  LUWRAIN.</p>
 
 <p>См.&#160;также:</p>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/download/nightly/');?>">Наши nightly-релизы</a></li>
+<li><a href="<?php echo luwrain_link('/download/nightly/');?>">Наши nightly-сборки</a></li>
 <li><a href="/api/">LUWRAIN API Javadoc</a></li>
 </ul>
 
@@ -43,10 +43,8 @@ this makes possible for everybody to&#160;participate in&#160;LUWRAIN developmen
 <ul>
 <li><a href="<?php echo luwrain_link('rules/');?>">Правила нашего процесса разработки</a></li>
 <li><a href="<?php echo luwrain_link('compilation/');?>">Сборка исходного кода</a></li>
-<li><a href="<?php echo luwrain_link('iso/');?>">Сборка ISO-образа</a>
-<ul>
+<li><a href="<?php echo luwrain_link('iso/');?>">Сборка ISO-образа</a></li>
 <li><a href="<?php echo luwrain_link('nightly/compilation/');?>">Сборка nightly-релиза из&#160;исходных текстов</a></li>
-</ul></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/doc/devel/index.php');?>
