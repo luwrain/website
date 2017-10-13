@@ -5,19 +5,17 @@ TARGET=doc/devel/index.php
 
 luwrain-page-en
 
-# Documents for LUWRAIN developers
+# Documentation for~LUWRAIN developers
 
-We believe that software is an~alive thing and 
-maintain smooth and persistent development process.
-In~conjunction with~our free~license,  
-this makes possible for everybody to~easily   compile 
-either our nightly build
-or our ISO-image
-or any our~application  from up-to-date sources.
-Of~cource, everybody can do this with his/her  modifications,
-if them don't violate [our~legal notes](local:/doc/legal).
-This~section covers all~of~these things 
-and is purposed for~everybody who would like to know what our development process looks like or even participate in~it.
+We believe that software is something alive and
+are always trying to~maintain a~smooth and persistent development process.
+In~conjunction with~[the~free license we use](local:/doc/legal/),
+this makes possible for everybody to~participate in~LUWRAIN development.
+
+See~also:
+
+* [Our nightly builds](local:/download/nightly/)
+* [LUWRAIN API Javadoc](/api/)
 
 ## Choose the~section you need:
 
@@ -26,26 +24,24 @@ and is purposed for~everybody who would like to know what our development proces
 * [Compiling our nightly build](local:nightly)
 * [Compiling ISO-images](local:iso/)
 
-## See also
-
-* [LUWRAIN API Javadoc](/api/)
-
 luwrain-page-ru
 
 # Документация для~разработчиков
 
 Настоящий раздел содержит документацию для~разработчиков,
-непосредственно принимающих участие в~развитии наших компонентов.
+принимающих участие в~развитии непосредственно нашей платформы.
 Ссылки на~этой странице могут помочь вам лучше понять идеи и принципы, 
 принятые в~команде  LUWRAIN.
+
+См.~также:
+
+* [Наши nightly-сборки](local:/download/nightly/)
+* [LUWRAIN API Javadoc](/api/)
 
 ## Выберите интересующий вас раздел:
 
 * [Правила нашего процесса разработки](local:rules/)
 * [Сборка исходного кода](local:compilation/)
 * [Сборка ISO-образа](local:iso/)
- * [Сборка nightly-релиза из~исходных текстов](local:nightly/compilation/)
+* [Сборка nightly-релиза из~исходных текстов](local:nightly/compilation/)
 
-## См.~также
-
-* [LUWRAIN API Javadoc](/api/)

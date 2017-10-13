@@ -21,10 +21,9 @@ You can find them at~the~following addresses:
 
 ## Structure of~our~nightly builds
 
-Каждый nightly-релиз состоит из~нескольких компонентов,
-упакованных в~отдельный файл.
-Ниже приведён их~перечень с~прямыми ссылками на~соответствующие файлы
-в~самой свежей сборке:
+Each nightly release consists of~several components;
+you can find their descriptions below
+with~the~direct links to~the~corresponding  files in~the~most recent build:
 
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-nightly</a>: the~source code used during the~compilation
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-app-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-app</a>: the~application for~Microsoft Windows prepared for~immediate launch
@@ -35,10 +34,10 @@ You can find them at~the~following addresses:
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-sdk-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-sdk</a>: LUWRAIN~SDK (with~Javadoc documentation);
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-iso-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-iso</a>: the~build for~creation of~ISO-images based on~Ubuntu Linux
 
-You~also can download files checksums in~the~following formats:
+You can also download the~files checksums in~the~following formats:
 
-* [SHA1](http://download.luwrain.org/nightly/latest/sha1sum.txt);
-* [MD5](http://download.luwrain.org/nightly/latest/md5sum.txt).
+* [SHA1](http://download.luwrain.org/nightly/latest/sha1sum.txt)
+* [MD5](http://download.luwrain.org/nightly/latest/md5sum.txt)
 
 Although we call them nightly,
 this doesn't mean that  releases must be necessarily once a~day.
