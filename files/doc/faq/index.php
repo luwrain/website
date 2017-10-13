@@ -29,11 +29,11 @@
 
 <h2>How does  the&#160;browser in&#160;LUWRAIN work?</h2>
 
-<p>Мы используем компонент (javafx.scene.web.WebEngine)[https://docs.oracle.com/javafx/2/api/javafx/scene/web/WebEngine.html] из&#160;состава JavaFX,
-поскольку он поддерживает Java&#160;Script и предоставляет доступ к&#160;структуре DOM  загруженной страницы.
-Этот компонент основан на&#160;движке (WebKit)[https://ru.wikipedia.org/wiki/WebKit],
-который является базой некоторых распространённых браузеров, например, (Google Chrome)[https://ru.wikipedia.org/wiki/Google_Chrome].
-Включение этого движка в&#160;стандартную поставку JRE &#x2014; большая удача!</p>
+<p>We use JavaFX component <a href="https://docs.oracle.com/javafx/2/api/javafx/scene/web/WebEngine.html">javafx.scene.web.WebEngine</a>, 
+which supports JavaScript and gives access to&#160;the&#160;DOM&#160;structure  of&#160;the&#160;loaded page.
+This component is&#160;based on&#160;<a href="https://en.wikipedia.org/wiki/WebKit">the&#160;WebKit&#160;engine</a>.
+WebKit goes as&#160;an&#160;engine for&#160;some popular browsers, for&#160;example for&#160;<a href="https://en.wikipedia.org/wiki/Google_Chrome">Google Chrome</a>.
+We&#160;are very lucky that this component is now a&#160;part  of&#160;JavaFX.</p>
 
 <h2>What do&#160;you take into account on&#160;decisions what services will be&#160;included in&#160;LUWRAIN?</h2>
 
@@ -83,10 +83,10 @@
 
 <h2>Как работает браузер в&#160;LUWRAIN?</h2>
 
-<p>Мы используем компонент (javafx.scene.web.WebEngine)[https://docs.oracle.com/javafx/2/api/javafx/scene/web/WebEngine.html] из&#160;состава JavaFX,
-поскольку он поддерживает Java&#160;Script и предоставляет доступ к&#160;структуре DOM  загруженной страницы.
-Этот компонент основан на&#160;движке (WebKit)[https://ru.wikipedia.org/wiki/WebKit],
-который является базой некоторых распространённых браузеров, например, (Google Chrome)[https://ru.wikipedia.org/wiki/Google_Chrome].
+<p>Мы используем компонент <a href="https://docs.oracle.com/javafx/2/api/javafx/scene/web/WebEngine.html">javafx.scene.web.WebEngine</a> из&#160;состава JavaFX,
+поскольку он поддерживает JavaScript и предоставляет доступ к&#160;структуре DOM  загруженной страницы.
+Этот компонент основан на&#160;движке <a href="https://ru.wikipedia.org/wiki/WebKit">WebKit</a>,
+который является базой некоторых распространённых браузеров, например, <a href="https://ru.wikipedia.org/wiki/Google_Chrome">Google Chrome</a>.
 Включение этого движка в&#160;стандартную поставку JRE &#x2014; большая удача!</p>
 
 <h2>На&#160;основе каких критериев вы выбираете сервисы для&#160;поддержки в&#160;LUWRAIN?</h2>

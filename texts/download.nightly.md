@@ -5,30 +5,46 @@ TARGET=download/nightly/index.php
 
 luwrain-page-en
 
-# Nightly builds 
+# Nightly builds
+
+Quick access:
+
+* [Current JUnit testing report](http://download.luwrain.org/nightly/latest/junit-report.html)
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-app-nightly-<?php echo lwr_nightly_latest_date();?>.zip">Current build as an~application for~Microsoft Windows</a>
 
 In~order to~make our~development process more transparent and smooth,
 we support publishing of~the~nightly builds.
-You can find them at~the~following address: 
+You can find them at~the~following addresses: 
 
-* [http://download.luwrain.org/nightly/](http://download.luwrain.org/nightly/)
+* Entire history of~available nightly builds: [http://download.luwrain.org/nightly/](http://download.luwrain.org/nightly/)
+* The~most recent nightly build: [http://download.luwrain.org/nightly/latest/](http://download.luwrain.org/nightly/latest/)
+
+## Structure of~our~nightly builds
+
+Каждый nightly-релиз состоит из~нескольких компонентов,
+упакованных в~отдельный файл.
+Ниже приведён их~перечень с~прямыми ссылками на~соответствующие файлы
+в~самой свежей сборке:
+
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-nightly</a>: the~source code used during the~compilation
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-app-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-app</a>: the~application for~Microsoft Windows prepared for~immediate launch
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-pkg-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-pkg</a>: the~build for~creation of~JavaFXPackager distribution for~Microsoft Windows
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-nojre-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-nojre</a>: the~build for~Microsoft Windows prepared for~launch with~external Java virtual machine (no JRE inside)
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-pkg-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-pkg</a>:  the~build for~creation of~JavaFXPackager distribution for~GNU/Linux
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-nojre-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-nojre</a>: the~build for~GNU/Linux prepared for~launch with~external Java virtual machine (no JRE inside)
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-sdk-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-sdk</a>: LUWRAIN~SDK (with~Javadoc documentation);
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-iso-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-iso</a>: the~build for~creation of~ISO-images based on~Ubuntu Linux
+
+You~also can download files checksums in~the~following formats:
+
+* [SHA1](http://download.luwrain.org/nightly/latest/sha1sum.txt);
+* [MD5](http://download.luwrain.org/nightly/latest/md5sum.txt).
 
 Although we call them nightly,
 this doesn't mean that  releases must be necessarily once a~day.
-Sometimes we take pauses, especially if having work affecting deep design of~LUWRAIN.
+Sometimes we take pauses, especially if having a~work affecting deep design of~LUWRAIN.
 Outdated versions  are deleted from this directory,
 so these releases are usually   available within a~couple  of~months.
-We do not impose any strict policy on~this~process,
-removing files just when consider them not~actual any~more.
-
-For~your convenience we also maintain the~directory with~the~latest nightly build.
-You can find it at the~following address:
-
-* [http://download.luwrain.org/nightly/latest/](http://download.luwrain.org/nightly/latest/)
-
-## See~also
-
-* [Compiling our nightly releases](local:/doc/devel/nightly/) 
 
 luwrain-page-ru
 

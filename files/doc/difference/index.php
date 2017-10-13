@@ -10,7 +10,8 @@
 </ul>
 
 <p>The&#160;major difference between LUWRAIN and other software which at&#160;first approach does the&#160;same things 
-is that LUWRAIN is _a&#160;platform _ for&#160;the&#160;creation of&#160;apps which aren't supposed to&#160;be&#160;controlled visually
+is that LUWRAIN <strong>is&#160;not a&#160;screen reading utility</strong>;
+LUWRAIN is <strong>a&#160;platform</strong> for&#160;the&#160;creation of&#160;apps which aren't supposed to&#160;be&#160;controlled visually
 (including application in&#160;the&#160;area of&#160;"Internet Of&#160;Things"),
 although support of&#160;blind indeed is  one of&#160;the&#160;most important goals of&#160;our&#160;project.</p>
 

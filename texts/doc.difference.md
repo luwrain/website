@@ -13,8 +13,9 @@ See~also:
 * [Frequently asked questions](local:/doc/faq/)
 
 The~major difference between LUWRAIN and other software which at~first approach does the~same things 
-is that LUWRAIN is _a~platform _ for~the~creation of~apps which aren't supposed to~be~controlled visually
-(including application in~the~area of~"Internet Of~Things"),
+is that LUWRAIN __is~not a~screen reading utility__;
+LUWRAIN is __a~platform__ for~the~creation of~apps which aren't supposed to~be~controlled visually
+(including the~applications in~the~area of~"Internet Of~Things"),
 although support of~blind indeed is  one of~the~most important goals of~our~project.
 
 The~nature of~a~platform makes possible the~creation and distribution of~apps which were absent previously;

@@ -32,11 +32,11 @@ See~also:
 
 ## How does  the~browser in~LUWRAIN work?
 
-Мы используем компонент (javafx.scene.web.WebEngine)[https://docs.oracle.com/javafx/2/api/javafx/scene/web/WebEngine.html] из~состава JavaFX,
-поскольку он поддерживает Java~Script и предоставляет доступ к~структуре DOM  загруженной страницы.
-Этот компонент основан на~движке (WebKit)[https://ru.wikipedia.org/wiki/WebKit],
-который является базой некоторых распространённых браузеров, например, (Google Chrome)[https://ru.wikipedia.org/wiki/Google_Chrome].
-Включение этого движка в~стандартную поставку JRE --- большая удача!
+We use JavaFX component [javafx.scene.web.WebEngine](https://docs.oracle.com/javafx/2/api/javafx/scene/web/WebEngine.html), 
+which supports JavaScript and gives access to~the~DOM~structure  of~the~loaded page.
+This component is~based on~[the~WebKit~engine](https://en.wikipedia.org/wiki/WebKit).
+WebKit goes as~an~engine for~some popular browsers, for~example for~[Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome).
+We~are very lucky that this component is now a~part  of~JavaFX.
 
 ## What do~you take into account on~decisions what services will be~included in~LUWRAIN?
 
@@ -88,10 +88,10 @@ luwrain-page-ru
 
 ## Как работает браузер в~LUWRAIN?
 
-Мы используем компонент (javafx.scene.web.WebEngine)[https://docs.oracle.com/javafx/2/api/javafx/scene/web/WebEngine.html] из~состава JavaFX,
-поскольку он поддерживает Java~Script и предоставляет доступ к~структуре DOM  загруженной страницы.
-Этот компонент основан на~движке (WebKit)[https://ru.wikipedia.org/wiki/WebKit],
-который является базой некоторых распространённых браузеров, например, (Google Chrome)[https://ru.wikipedia.org/wiki/Google_Chrome].
+Мы используем компонент [javafx.scene.web.WebEngine](https://docs.oracle.com/javafx/2/api/javafx/scene/web/WebEngine.html) из~состава JavaFX,
+поскольку он поддерживает JavaScript и предоставляет доступ к~структуре DOM  загруженной страницы.
+Этот компонент основан на~движке [WebKit](https://ru.wikipedia.org/wiki/WebKit),
+который является базой некоторых распространённых браузеров, например, [Google Chrome](https://ru.wikipedia.org/wiki/Google_Chrome).
 Включение этого движка в~стандартную поставку JRE --- большая удача!
 
 ## На~основе каких критериев вы выбираете сервисы для~поддержки в~LUWRAIN?
