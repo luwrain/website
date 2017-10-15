@@ -15,20 +15,20 @@ See~also:
 
 ## Why do you do~all of~this while there are so many screen reading software?
 
-Подход на~основе экранных чтецов, действительно, старый и проверенный,
-но, несмотря на~всё, доля людей с~нарушениями зрения, активно использующих ПК, остаётся очень невысокой.
-В~России эта~оценка колеблется в~районе 1%,
-хотя оценка доли пользователей интернета приближается к~70%.
-Мы развиваем технологию, которая будет намного понятней, удобней и быстрей в~работе,
-чем утилиты экранного доступа,
-которые и так никто не~отберёт.
+The~solutions based on~popular screen reading utilities  indeed are  very old  and deeply researched,
+meantime, the~fraction of~the~blind who feel themselves  absolutely confident with~information technologies   isn't very high.
+In~Russia this~ ~group has around 1% of~the~blind people of~the~country,
+whereas   the~group of~people who use the~Internet  constantly is~estimated  as~70%.
+We develop the~technology which is~supposed to~be more  comfortable and more~understandable than the~screen readers,
+which will remain available  regardless what we~do.
 
-## Why is~LUWRAIN suggested for~education, if, apparently, мудро to~learn the~widely usable systems?
+## Why is~LUWRAIN suggested for~education, if, apparently, it's rational to~learn the~widely  popular systems?
 
-Разумнее учить навыкам быстро приспосабливаться к~любой системе, с~которой появилась необходимость начать работать.
-Пользовательских интерфейсов много уже сейчас, в~будущем будет ещё больше.
-Когда ученик закончит школу и ВУЗ, с~большой вероятностью версия Microsoft Windows,
-на~которой его учили работать на~ПК, уже всё~равно устареет.
+It's rational  to~learn how~ understand any~new system  which  the~user is~required to~start work~on.
+We can see a~lot of~user interfaces at~the~moment,
+it'~s reasonable to~expect more of~them in~the~close future.
+When the~student graduates the~university,
+the~version of~Microsoft Windows which he or she is used to~work on   will get already outdated.
 
 ## How does  the~browser in~LUWRAIN work?
 
@@ -40,22 +40,22 @@ We~are very lucky that this component is now a~part  of~JavaFX.
 
 ## What do~you take into account on~decisions what services will be~included in~LUWRAIN?
 
-В~первую очередь мы добавляем поддержку тех~сервисов, для~которых существуют клиентские библиотеки на~Java.
-Некоторые сервисы являются критически значимыми, и даже если готовой библиотеки нет, 
-мы предпринимаем попытку установить контакт с~авторами, чтобы найти решение.
+First of~all, we take the~services with good  libraries on~Java for~access to~them.
+Some of~the~services  are highly demanded,
+so we can start  implementing  access to~them even if there is no~suitable library on~Java.
+In~this~case it~would be very fortunate, if we can get a~contact with the~authors of~~the~service.
 
-## Must LUWRAIN users pay anything ofr~LUWRAIN?
+## Must LUWRAIN users pay anything forr~LUWRAIN?
 
-Нет, базовая поставка LUWRAIN~--- это свободное ПО.
-Мы обещаем, что дистрибутив, обеспечивающий решение основных задач пользователей с~нарушениями зрения, будет оставаться таковым.
-Но среди наших продуктов могут быть и закрытые компоненты,
-если это специализированные решения или решения для~коммерческих компаний.
+NNo, the~basic LUWRAIN distribution is~Open Source
+and we promise that the~distribution covering basic everyday tasks  will remain free.
+meantime, there can be~some  proprietary components,
+if they are purposed for~solving some specific tasks or are~created for~commercial companies.
 
-## Могут~ли незрячие люди установить LUWRAIN на~жёсткий диск самостоятельно?
+## Can the~blind install LUWRAIN on~their hard~drive without sighted help?
 
-Да, у~нас есть доступная программа установки,
-но необходимо помнить, что выбор загрузочного устройства в~настройках BIOS обычно невозможен без~помощи зрячего человека. 
-
+Yes, LUWRAIN has an~accessible installation utility,
+but it's necessary to~keep in~mind that the~selection of~the~bootable media is~usually inaccessible  .
 
 
 
