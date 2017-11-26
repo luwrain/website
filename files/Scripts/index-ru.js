@@ -47,7 +47,7 @@ function ShowPart1(){
 	
 	$('#hiddenPartNumber').val('1');
 	$('#imageDiv').html('<img id="accImg" src="Images/acc.png" alt="The accessible platform" height="303" width="523"></img>');
-	$('#textUnderPic').html('Информационное общество &#x2014; доступное общество');
+	$('#textUnderPic').html('Технологии без пикселей');
 	$('#accPlatform').html('Технологии без пикселей');
 	$('#text1more').html('Команда LUWRAIN развивает инструменты доступа к информационным технологиям'+
 			     'br/>в невизуальной форме. Наша компетенция включает в себя как решение'+
@@ -100,8 +100,8 @@ function ShowPart3(){
 	
 	$('#hiddenPartNumber').val('3');
 	$('#imageDiv').html('<img id="javaImg" src="Images/java.png" alt="Java on Linux" height="199" width="332"></img>');
-	$('#textUnderPic').html('Java и Linux');
-	$('#accPlatform').html('Java и Linux');
+	$('#textUnderPic').html('Невизуальный дизайн');
+	$('#accPlatform').html('Невизуальный дизайн');
 	$('#text1more').html('Как из совокупности текста, различных цветов фона и графических примитивов'+
 			     '<br/>рождаются новые образы, воспринимаемые человеком визуально,'+
 			     '<br/>так же из речи и звуков рождаются образы, воспринимаемые на слух.'+
@@ -127,8 +127,8 @@ function ShowPart4(){
 	
 	$('#hiddenPartNumber').val('4');
 	$('#imageDiv').html('<img id="fossImg" src="Images/toss.png" alt="toss" height="229" width="254"></img>');
-	$('#textUnderPic').html('Свободное ПО');
-	$('#accPlatform').html('Свободное ПО');
+	$('#textUnderPic').html('Свободное ПО!');
+	$('#accPlatform').html('Свободное ПО!');
 	$('#text1more').html('Основные компоненты LUWRAIN являются свободным ПО'+
 			     '<br/>и созданы с активным использованием результатов других свободных проектов.'+
 			     '<br/>Мы намерены привлекать как можно больше внимания'+
