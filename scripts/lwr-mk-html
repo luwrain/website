@@ -2,7 +2,6 @@
 # Translates marked text to HTML (only Markdown is currently supported)
 # Michael Pozhidaev <michael.pozhidaev@gmail.com>
 
-
 THIS="${0##*/}"
 
 INDENT=16
