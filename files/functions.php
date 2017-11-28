@@ -1,5 +1,5 @@
 <?php
-include 'versions.php';
+  include 'versions.php';
 
 function luwrain_current_lang()
 {
@@ -19,6 +19,13 @@ function luwrain_link_ext1($path, $lang, $mode)
 function luwrain_link($path)
 {
     return luwrain_link_ext1($path, luwrain_current_lang(), luwrain_current_mode());
+    }
+
+function lwr_title($value)
+{
+if ($value == '')
+return 'LUWRAIN';
+return $value.' &#x2014; LUWRAIN';
 }
 
 function luwrain_top_menu()
@@ -84,7 +91,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <?php
-        echo '    <title>'.$title.' &#x2014; LUWRAIN</title>'."\n";
+        echo '    <title>'.lwr_title($title).'</title>'."\n";
     ?>
 </head>
 <body>
@@ -107,7 +114,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <?php
-    echo '    <title>'.$title.' &#x2014; LUWRAIN</title>'."\n";
+    echo '    <title>'.lwr_title($title).'</title>'."\n";
             ?>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
             <link type="image/x-icon" href="/Images/favicon.ico" rel="icon" />
@@ -223,7 +230,7 @@ function luwrain_adapted_main_page()
         <html>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-            <title>The accessible environment  LUWRAIN</title>
+            <title><?php echo lwr_title('');?></title>
         </head>
         <body>
             <b><a href="<?php echo luwrain_link('/products/');?>"><?php echo luwrain_current_lang() == 'ru'?'Продукты':'Products';?></a></b> |
