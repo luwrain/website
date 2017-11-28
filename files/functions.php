@@ -88,8 +88,9 @@ function luwrain_begin_page($path, $title, $isMainPage)
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="<?php echo luwrain_current_lang();?>">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <?php
         echo '    <title>'.lwr_title($title).'</title>'."\n";
     ?>
@@ -97,11 +98,11 @@ function luwrain_begin_page($path, $title, $isMainPage)
 <body>
     <b><a href="<?php echo luwrain_link('/products/');?>"><?php echo luwrain_current_lang() == 'ru'?'Продукты':'Products';?></a></b> |
     <b><a href="<?php echo luwrain_link('/doc/');?>"><?php echo luwrain_current_lang() == 'ru'?'Документация':'Documentation';?></a></b> |
-    <b><a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Интересное':'Interesting';?></a></b> |
-    <a href="<?php echo luwrain_link_ext1($path, luwrain_current_lang(), 'normal');?>"><?php echo luwrain_current_lang() == 'ru'?'Полная версия':'Normal version';?></a><br />
-    <hr />
+    <b><a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Интересное':'Interesting';?></a></b></br>
+    <hr/>
     <a href="<?php echo luwrain_link_ext1($path, 'en', luwrain_current_mode());?>">EN</a> |
-    <a href="<?php echo luwrain_link_ext1($path, 'ru', luwrain_current_mode());?>">RU</a><br />
+    <a href="<?php echo luwrain_link_ext1($path, 'ru', luwrain_current_mode());?>">RU</a> |
+    <a href="<?php echo luwrain_link_ext1($path, luwrain_current_lang(), 'normal');?>"><?php echo luwrain_current_lang() == 'ru'?'Полная версия':'Normal version';?></a><br /><br/>
     <div style="height: 16px;"></div>
         <?php
         return;
@@ -223,25 +224,10 @@ return; }?>
 <?php
 }
 
-function luwrain_adapted_main_page()
+function lwr_adapted_main_page()
 {
-        ?>
-        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-        <html>
-        <head>
-            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-            <title><?php echo lwr_title('');?></title>
-        </head>
-        <body>
-            <b><a href="<?php echo luwrain_link('/products/');?>"><?php echo luwrain_current_lang() == 'ru'?'Продукты':'Products';?></a></b> |
-    <b><a href="<?php echo luwrain_link('/doc/');?>"><?php echo luwrain_current_lang() == 'ru'?'Документация':'Documentation';?></a></b> |
-    <b><a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Сообщество':'Community';?></a></b> |
-    <a href="<?php echo luwrain_link_ext1($path, luwrain_current_lang(), 'normal');?>"><?php echo luwrain_current_lang() == 'ru'?'Полная версия':'Normal version';?></a><br />
-            <hr />
-            <a href="<?php echo luwrain_link_ext1('/index.php', 'en', luwrain_current_mode());?>">EN</a> |
-    <a href="<?php echo luwrain_link_ext1('/index.php', 'ru', luwrain_current_mode());?>">RU</a><br />
-            <div style="height: 16px;"></div>
-            <?php if (luwrain_current_lang() == 'en') {?>
+  luwrain_begin_page('index.php', luwrain_current_lang() == 'ru'?'Главная страница':'Main page', true);
+  if (luwrain_current_lang() == 'en') {?>
             <h1>&#x22;The territory of a compelling accessibility&#x22;</h1>
             <p>
                 With accessible toolkit LUWRAIN, blind and visually-impaired people have a new way to be

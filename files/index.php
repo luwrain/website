@@ -1,19 +1,17 @@
-<?php include "functions.php";?>
 <?php
+  include "functions.php";
   if (luwrain_current_mode() == 'adapted') 
-    luwrain_adapted_main_page(); else {
-      include "../functions.php";
+    lwr_adapted_main_page(); else
+    {
       luwrain_begin_page('index.php', luwrain_current_lang() == 'ru'?'Главная страница':'Main page', true);
 ?>
-
-<script type="text/javascript">
+    <script type="text/javascript">
     jQuery(document).ready(function () {
         OnReady();
         OnReadyIndex();
     });
-</script>
-
-<div id="mainPart">
+    </script>
+    <div id="mainPart">
     <input class="hidden-not-important" id="hiddenPartNumber"></input>
     <div id="accEnvir">
         <?php echo luwrain_current_lang() == 'ru'?'Информационное общество &#x2014; доступное общество':'Information technologies for the blind';?>
@@ -60,8 +58,7 @@
         </ul>
     </div>
 </div>
-
 <?php 
-      }
+    }
+  luwrain_end_page('index.php');
 ?>
-<?php luwrain_end_page('index.php');?>
