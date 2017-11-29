@@ -89,7 +89,8 @@ function luwrain_begin_page($path, $title, $isMainPage)
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="<?php echo luwrain_current_lang();?>">
   <head>
-    <meta charset="utf-8">
+    <!-- <meta charset="utf-8">-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <?php
         echo '    <title>'.lwr_title($title).'</title>'."\n";
@@ -98,7 +99,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
 <body>
     <b><a href="<?php echo luwrain_link('/products/');?>"><?php echo luwrain_current_lang() == 'ru'?'Продукты':'Products';?></a></b> |
     <b><a href="<?php echo luwrain_link('/doc/');?>"><?php echo luwrain_current_lang() == 'ru'?'Документация':'Documentation';?></a></b> |
-    <b><a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Интересное':'Interesting';?></a></b></br>
+    <b><a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Интересное':'Interesting';?></a></b><br>
     <hr/>
     <a href="<?php echo luwrain_link_ext1($path, 'en', luwrain_current_mode());?>">EN</a> |
     <a href="<?php echo luwrain_link_ext1($path, 'ru', luwrain_current_mode());?>">RU</a> |
@@ -203,11 +204,14 @@ function luwrain_end_page($path, $isMainPage)
 { 
     if (luwrain_current_mode() == 'adapted') { 
 ?>
-</body>
+    <hr/>
+    <?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2017 Разработчики LUWRAIN':'&#169; 2012&#x2013;2017 LUWRAIN developers'?><br/>
+        <a href="http://validator.w3.org/check?uri=referer">Проверить при помощи w3.org</a><br/>
+  </body>
 </html>
 <?php
-
-return; }?>
+return; }
+?>
 		</div>
 		
     <div class="row" id="footerPart">
@@ -227,102 +231,7 @@ return; }?>
 function lwr_adapted_main_page()
 {
   luwrain_begin_page('index.php', luwrain_current_lang() == 'ru'?'Главная страница':'Main page', true);
-  if (luwrain_current_lang() == 'en') {?>
-            <h1>&#x22;The territory of a compelling accessibility&#x22;</h1>
-            <p>
-                With accessible toolkit LUWRAIN, blind and visually-impaired people have a new way to be
-      involved in the incredible world of information technologies. LUWRAIN doesn&#x27;t take
-      a lot of time to learn, and aims to be useable on laptops, as well as desktop computers.
-      You can treat our new idea as one more solution for everyone who needs a reliable and accessible
-      companion for various types of work. The product is designed as a new platform for creating
-      speech-enabled applications with a set of standard tools for easy access to web services,
-      mail, news reading, etc.
-            </p>
-            <p>
-                LUWRAIN is a set of software components on Java for accessible user interface construction.
-      In contrast with widely popular screen reading solutions for graphical desktops, which
-      actually are designed for control through a mouse and other pointing devices useful only
-      for sighted users, LUWRAIN brings the information in the most suitable for the perception of
-      blind people form. That means that the LUWRAIN user will always spend significantly less
-      time than in an adapted GUI. We have created our environment for people who enjoy working
-      effectively and time-efficiently.
-            </p>
-            <p>
-                LUWRAIN can be with you everywhere! You may take it as a stand-alone operating system on
-      Linux kernel and it will turn a laptop into elegant accessory for blind people. If you,
-      your colleagues or members of your family need the operating system being already installed
-      on your PC, you may take LUWRAIN just as an application. LUWRAIN will not require you to
-      forbid the tools you used to work with previously and you can use it as a platform for
-      creating and distributing accessible applications, even if you havn&#x27;t any experience
-      in this area.
-            </p>
-            <p>
-                LUWRAIN is a completely Free Software project, no fee is involved, and no restrictions
-      of use and distribution exist, except in cases explicitly violating the terms of the GNU
-      Public License ver. 3, as it was published by the Free Software Foundation. However, financial
-      donations are still required to help us present our product across the world, and to introduce
-      it to related social and distribution organizations. The team of developers hopes that
-      LUWRAIN can increase the integration of disabled people into social life. <a href="<?php echo luwrain_link('/doc/about/');?>">Read
-      more...</a>
-            </p>
-            <h2>Choose the&#160;section you want:</h2>
-            <ul>
-                <li><a href="<?php echo luwrain_link('/doc/user/start/');?>">Getting started</a></li>
-                <li><a href="<?php echo luwrain_link('/doc/user/manual/');?>">User manual</a></li>
-                <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Subscribe to&#160;our mailing lists</a></li>
-                <li><a href="<?php echo luwrain_link('/download/iso/');?>">Bootable ISO-images</a></li>
-                <li>Distributions: <a href="<?php echo luwrain_link('/download/windows');?>">for&#160;Microsoft Windows</a>, <a href="<?php echo luwrain_link('/download/linux/');?>">for&#160;GNU/Linux</a></li>
-                <li><a href="<?php echo luwrain_link('/doc/contacts/');?>">Our&#160;contacts</a></li>
-            </ul>
-            <?php }?>
-            <?php if (luwrain_current_lang() == 'ru') {?>
-            <h1>Платформа невизуальных приложений</h1>
-            <p>
-                При помощи рабочего окружения LUWRAIN люди с нарушениями зрения могут расширить границы
-      своего доступа к&#160;грандиозному миру информационных технологий. LUWRAIN не требует много
-      времени для освоения и будет одинаково полезен на мобильных и настольных компьютерах. Мы
-      хотим, чтобы наш проект стал новым решением для всех, кто нуждается в надёжном и доступном
-      инструменте, пригодном для решения различных задач. Он проектируется как платформа для
-      создания речевых приложений с набором стандартных утилит, предназначенных для доступа к
-      веб, электронной почте, новостным ресурсам и т. д.
-            </p>
-            <p>
-                LUWRAIN предлагает набор программных компонентов Java для построения особого типа невизуального
-      интерфейса. В отличие от экранных чтецов, функционирующих в оконном окружении, ориентированного
-      на работу при помощи мыши, LUWRAIN представляет информацию в виде, адаптированном для восприятия
-      незрячих людей. Это означает, что на работу в LUWRAIN пользователю требуется времени существенно
-      меньше, чем в озвученном оконном интерфейсе. Мы создаём нашу систему для тех, кто ведёт
-      активный образ жизни и ценит экономию времени.
-            </p>
-            <p>
-                LUWRAIN будет с вами всегда! Вариант поставки в виде самостоятельной операционной системы
-      на ядре Linux превратит любой ноутбук в элегантный аксессуар для незрячего человека. Если
-      вы, ваши коллеги или члены вашей семьи используют в своей работе операционную систему,
-      которая уже установлена, вы можете запустить LUWRAIN просто как приложение. LUWRAIN не
-      потребует от&#160;вас отказа от утилит, которые вы использовали ранее, и может быть платформой
-      для создания адаптированных приложений, даже если у вас нет абсолютно никакого опыта в
-      этой сфере.
-            </p>
-            <p>
-                LUWRAIN &#x2014; это полностью свободный проект. Использование LUWRAIN не подразумевает
-      оплаты и может выполняться без&#160;ограничений, если это не&#160;нарушает требований GNU&#160;Public
-      License версии&#160;3. Авторы проекта были бы очень рады установлению новых рабочих контактов,
-      поскольку это может помочь шире представить LUWRAIN среди мировых общественных организаций.
-      <a href="<?php echo luwrain_link('/doc/about/');?>">Читать далее...</a>
-            </p>
-            <h2>Выберите интересующий вас раздел:</h2>
-            <ul>
-                <li><a href="<?php echo luwrain_link('/doc/user/start/');?>">С чего начать?</a></li>
-                <li><a href="<?php echo luwrain_link('/doc/user/manual/');?>">Руководство пользователя</a></li>
-                <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Подписаться на&#160;списки рассылок</a></li>
-                <li><a href="<?php echo luwrain_link('/download/iso/');?>">Загрузочные ISO-образы</a></li>
-                <li>Дистрибутивы: <a href="<?php echo luwrain_link('/download/windows');?>">для&#160;Microsoft Windows</a>, <a href="<?php echo luwrain_link('/download/linux/');?>">для&#160;GNU/Linux</a></li>
-                <li><a href="<?php echo luwrain_link('/doc/contacts/');?>">Наши&#160;контакты</a></li>
-            </ul>
-            <?php }?>
-        </body>
-        </html>
-<?php
+
 }
 
 function luwrain_content_not_written()

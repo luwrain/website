@@ -1,8 +1,9 @@
 <?php
   include "functions.php";
+   luwrain_begin_page('index.php', luwrain_current_lang() == 'ru'?'Главная страница':'Main page', true);
+     
   if (luwrain_current_mode() == 'adapted')
   {
-    luwrain_begin_page('index.php', luwrain_current_lang() == 'ru'?'Главная страница':'Main page', true);
     if (luwrain_current_lang() == 'en') {
 ?>
             <h1>&#x22;The territory of a compelling accessibility&#x22;</h1>
@@ -87,23 +88,20 @@
       предоставляющий доступ к&#160;огромному количеству пакетов  в&#160;свободных репозиториях
       и позволяющий людям с&#160;нарушениями зрения познакомиться с&#160;новыми возможностями  в&#160;простой форме.
       <a href="<?php echo luwrain_link('/doc/about/');?>">Читать далее...</a></p>
-      
+
     <h2>Выберите интересующий вас раздел:</h2>
     <ul>
       <li><a href="<?php echo luwrain_link('/doc/user/start/');?>">С чего начать?</a></li>
-      <li><a href="<?php echo luwrain_link('/doc/user/manual/');?>">Руководство пользователя</a></li>
-      <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Подписаться на&#160;списки рассылок</a></li>
-      <li><a href="<?php echo luwrain_link('/download/iso/');?>">Загрузочные ISO-образы</a></li>
       <li>Дистрибутивы: <a href="<?php echo luwrain_link('/download/windows');?>">для&#160;Microsoft Windows</a>, <a href="<?php echo luwrain_link('/download/linux/');?>">для&#160;GNU/Linux</a></li>
+            <li><a href="<?php echo luwrain_link('/download/iso/');?>">Загрузочные ISO-образы</a></li>
+            <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Подписаться на&#160;списки рассылок</a></li>
+            <li><a href="<?php echo luwrain_link('/doc/user/manual/');?>">Руководство пользователя</a></li>
       <li><a href="<?php echo luwrain_link('/doc/contacts/');?>">Наши&#160;контакты</a></li>
     </ul>
-            <?php }?>
-        </body>
-        </html>
 <?php
+    }
 }else
     {
-      luwrain_begin_page('index.php', luwrain_current_lang() == 'ru'?'Главная страница':'Main page', true);
 ?>
     <script type="text/javascript">
     jQuery(document).ready(function () {
