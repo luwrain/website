@@ -1,6 +1,25 @@
 <?php
   include 'versions.php';
 
+function lwr_month_en($month)
+{
+  $months = array(
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  );
+  return $months[$month - 1];
+}
+
 function luwrain_current_lang()
 {
     return array_key_exists('lang', $_GET)?$_GET['lang']:'ru';

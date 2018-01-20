@@ -66,12 +66,12 @@ __ВНИМАНИЕ:__
 Ниже приведён их~перечень с~соответствующими прямыми ссылками на~самую свежую версию:
 
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-nightly</a>: исходные тексты LUWRAIN, использованные в~ходе сборки;
-* <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-32bit</a>: 32-битная версия для~Microsoft Windows, готовое к~запуску;
-* <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-32bit</a>: 32-битная версия для~GNU/Linux (для~запуска требуется Java~SE Runtime Environment);
-* <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-64bit-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-64bit</a>: 64-битная версия для~GNU/Linux (для~запуска требуется Java~SE Runtime Environment);
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-32bit</a>: 32-битная версия для~Microsoft Windows, готовая к~запуску;
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-32bit</a>: 32-битная версия для~GNU/Linux (требует Java~SE Runtime Environment);
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-64bit-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-64bit</a>: 64-битная версия для~GNU/Linux (требует Java~SE Runtime Environment);
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-sdk-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-sdk</a>: сборка LUWRAIN~SDK (включает документацию Javadoc);
 
-Вы также можете [загрузить контрольные суммы](http://download.luwrain.org/nightly/latest/sha1sum.txt) упомянутых выше файлов в~aформате SHA1.
+Вы также можете [загрузить контрольные суммы](http://download.luwrain.org/nightly/latest/sha1sum.txt) упомянутых выше файлов в~формате SHA1.
 
 Несмотря на~то, что мы называем эти~релизы  nightly,
 их обновление необязательно происходит ежедневно.
