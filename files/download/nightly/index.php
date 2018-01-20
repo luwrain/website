@@ -55,10 +55,10 @@ so these releases are usually   available within a&#160;couple  of&#160;months.<
 
 <ul>
 <li><a href="http://download.luwrain.org/nightly/latest/junit-report.html">Текущий отчёт JUnit-тестирования</a></li>
-<li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-app-nightly-<?php echo lwr_nightly_latest_date();?>.zip">Текущая сборка в&#160;виде приложения для&#160;Microsoft Windows</a></li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.zip">Текущая сборка в&#160;виде приложения для&#160;Microsoft Windows</a></li>
 </ul>
 
-<p>Для&#160;того, чтобы сделать наш процесс разработки более прозрачным и гладким, 
+<p>Для&#160;того, чтобы сделать наш процесс разработки более прозрачным и управляемым, 
 мы поддерживаем выпуск nightly-сборок.
 Они доступны по&#160;этим ссылкам:</p>
 
@@ -67,30 +67,24 @@ so these releases are usually   available within a&#160;couple  of&#160;months.<
 <li>Самая свежая nightly-сборка: <a href="http://download.luwrain.org/nightly/latest/">http://download.luwrain.org/nightly/latest/</a></li>
 </ul>
 
+<p><strong>ВНИМАНИЕ:</strong>
+Для&#160;полностью правильного  тестирования nightly-сборки убедитесь,
+что у вас не&#160;осталось файлов каких-либо предыдущих релизов.</p>
+
 <h2>Структура nightly-релизов</h2>
 
-<p>Каждый nightly-релиз состоит из&#160;нескольких компонентов,
-упакованных в&#160;отдельный файл.
-Ниже приведён их&#160;перечень с&#160;прямыми ссылками на&#160;соответствующие файлы
-в&#160;самой свежей сборке:</p>
+<p>Каждый nightly-релиз состоит из&#160;нескольких файлов,
+Ниже приведён их&#160;перечень с&#160;соответствующими прямыми ссылками на&#160;самую свежую сборку:</p>
 
 <ul>
 <li><a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-nightly</a>: исходные тексты LUWRAIN, использованные в&#160;ходе сборки;</li>
-<li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-app-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-app</a>: приложение для&#160;Microsoft Windows, готовое к&#160;запуску;</li>
-<li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-pkg-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-pkg</a>: сборка для&#160;создания инсталлятора для&#160;Microsoft Windows на&#160;основе JavaFXPackager;</li>
-<li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-nojre-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-nojre</a>: сборка для&#160;Microsoft Windows, предназначенная для&#160;запуска при&#160;помощи внешней виртуальной машины Java (JRE отсутствует в&#160;составе архива);</li>
-<li><a href="http://download.luwrain.org/nightly/latest/luwrain-linux-pkg-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-pkg</a>: сборка для&#160;создания инсталлятора для&#160;GNU/Linux на&#160;основе JavaFXPackager;</li>
-<li><a href="http://download.luwrain.org/nightly/latest/luwrain-linux-nojre-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-nojre</a>: сборка для&#160;GNU/Linux, предназначенная для&#160;запуска при&#160;помощи внешней виртуальной машины Java (JRE отсутствует в&#160;составе архива);</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-32bit</a>: 32-битная версия для&#160;Microsoft Windows, готовое к&#160;запуску;</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-linux-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-32bit</a>: 32-битная версия для&#160;GNU/Linux (для&#160;запуска требуется Java&#160;SE Runtime Environment);</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-linux-64bit-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-32bit</a>: 64-битная версия для&#160;GNU/Linux (для&#160;запуска требуется Java&#160;SE Runtime Environment);</li>
 <li><a href="http://download.luwrain.org/nightly/latest/luwrain-sdk-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-sdk</a>: сборка LUWRAIN&#160;SDK (включает документацию Javadoc);</li>
-<li><a href="http://download.luwrain.org/nightly/latest/luwrain-iso-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-iso</a>: сборка для&#160;создания ISO-образов на&#160;основе Ubuntu Linux.</li>
 </ul>
 
-<p>Вы также можете загрузить контрольные суммы упомянутых выше файлов в&#160;следующих форматах:</p>
-
-<ul>
-<li><a href="http://download.luwrain.org/nightly/latest/sha1sum.txt">SHA1</a>;</li>
-<li><a href="http://download.luwrain.org/nightly/latest/md5sum.txt">MD5</a>.</li>
-</ul>
+<p>Вы также можете <a href="http://download.luwrain.org/nightly/latest/sha1sum.txt">загрузить контрольные суммы</a> упомянутых выше файлов в&#160;aформате SHA1.</p>
 
 <p>Несмотря на&#160;то, что мы называем эти&#160;релизы  nightly,
 это не&#160;означает, что они обновляются строго ежедневно.

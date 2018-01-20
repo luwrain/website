@@ -127,8 +127,8 @@ function ShowPart4(){
 	
 	$('#hiddenPartNumber').val('4');
 	$('#imageDiv').html('<img id="fossImg" src="Images/toss.png" alt="toss" height="229" width="254"></img>');
-	$('#textUnderPic').html('Свободное ПО!');
-	$('#accPlatform').html('Свободное ПО!');
+	$('#textUnderPic').html('Свободное ПО');
+	$('#accPlatform').html('Свободное ПО');
 	$('#text1more').html('Основные компоненты LUWRAIN являются свободным ПО'+
 			     '<br/>и созданы с активным использованием результатов других свободных проектов.'+
 			     '<br/>Мы намерены привлекать как можно больше внимания'+

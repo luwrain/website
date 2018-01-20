@@ -3,6 +3,8 @@
 <h1>Video on YouTube</h1>
 
 <ul>
+<li><a href="https://www.youtube.com/watch?v=40vfqt8ziZ4&amp;feature=youtu.be">Recording of&#160;a&#160;webinar about LUWRAIN developing</a>
+("Белая трость", Ekaterina Bikmaeva, December&#160;28,&#160;2017, Russian language)</li>
 <li><a href="https://www.youtube.com/watch?v=1Zv8xI6X3uw">"Технологии голосового экранного доступа для&#160;незрячих"</a>
 (<a href="http://inva.tv">inva.tv</a>, "Фактор жизни", Vladimir Krupennikov, March&#160;9, 2016, Russian language)</li>
 <li><a href="https://youtu.be/zrSWHd6BfMU">Presentation on&#160;meeting of&#160;expert council of&#160;"Enable technologies"</a>
@@ -25,6 +27,8 @@
 <h1>Видео на&#160;YouTube</h1>
 
 <ul>
+<li><a href="https://www.youtube.com/watch?v=40vfqt8ziZ4&amp;feature=youtu.be">Запись вебинара о&#160;разработке LUWRAIN</a>
+(АНО&#160;"Белая трость", Екатерина Бикмаева, 28&#160;декабря&#160;2017&#160;г., рус.&#160;яз.)</li>
 <li><a href="https://www.youtube.com/watch?v=1Zv8xI6X3uw">"Технологии голосового экранного доступа для&#160;незрячих"</a>
 (<a href="http://inva.tv">inva.tv</a>, "Фактор жизни", Владимир Крупенников, 9&#160;марта&#160;2016&#160;г., рус.&#160;яз.)</li>
 <li><a href="https://youtu.be/zrSWHd6BfMU">Презентация проекта на&#160;Экспертном совете Программы "Технологии возможностей"</a>

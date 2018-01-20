@@ -7,6 +7,8 @@ luwrain-page-en
 
 # Video on YouTube
 
+* [Recording of~a~webinar about LUWRAIN developing](https://www.youtube.com/watch?v=40vfqt8ziZ4&feature=youtu.be)
+("Белая трость", Ekaterina Bikmaeva, December~28,~2017, Russian language)
 * ["Технологии голосового экранного доступа для~незрячих"](https://www.youtube.com/watch?v=1Zv8xI6X3uw)
 ([inva.tv](http://inva.tv), "Фактор жизни", Vladimir Krupennikov, March~9, 2016, Russian language)
 * [Presentation on~meeting of~expert council of~"Enable technologies"](https://youtu.be/zrSWHd6BfMU)
@@ -26,6 +28,8 @@ luwrain-page-ru
 
 # Видео на~YouTube
 
+* [Запись вебинара о~разработке LUWRAIN](https://www.youtube.com/watch?v=40vfqt8ziZ4&feature=youtu.be)
+(АНО~"Белая трость", Екатерина Бикмаева, 28~декабря~2017~г., рус.~яз.)
 * ["Технологии голосового экранного доступа для~незрячих"](https://www.youtube.com/watch?v=1Zv8xI6X3uw)
 ([inva.tv](http://inva.tv), "Фактор жизни", Владимир Крупенников, 9~марта~2016~г., рус.~яз.)
 * [Презентация проекта на~Экспертном совете Программы "Технологии возможностей"](https://youtu.be/zrSWHd6BfMU)
@@ -34,9 +38,6 @@ luwrain-page-ru
 (23~октября~2015~г., рус.~яз.)
 * ["Идея фикс. Компьютер для незрячих"](http://www.youtube.com/watch?v=m-HOWJCRn7g3)
 ("Живое~ТВ", Светлана Глазырина, 3 октября 2014 г., рус.~яз.)
-
-
-
 
 См.~также:
 
