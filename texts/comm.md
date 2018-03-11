@@ -7,7 +7,7 @@ luwrain-page-en
 
 # Interesting resources related to~our~work
 
-Everybody curious about LUWRAIN is~invited to~be a~member of~our community!
+Everybody who is curious about LUWRAIN is~invited to~be a~member of~our community!
 The~community is very important since it's helpful to~know  your opinion and suggestions on~all things we do.
 With valuable feedback, we are~able to make  corresponding improvements and track known issues.
 

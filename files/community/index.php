@@ -2,7 +2,7 @@
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Interesting resources related to&#160;our&#160;work</h1>
 
-<p>Everybody curious about LUWRAIN is&#160;invited to&#160;be a&#160;member of&#160;our community!
+<p>Everybody who is curious about LUWRAIN is&#160;invited to&#160;be a&#160;member of&#160;our community!
 The&#160;community is very important since it's helpful to&#160;know  your opinion and suggestions on&#160;all things we do.
 With valuable feedback, we are&#160;able to make  corresponding improvements and track known issues.</p>
 
