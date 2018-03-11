@@ -1,14 +1,11 @@
-function OnReadyIndex() {
 
+function OnReadyIndex()
+{
 	$('#hiddenPartNumber').val(1);
-	
 	$('#part1more').addClass('hidden-not-important');
 	$('#part1').addClass('hidden-not-important');
-	
 	$('#part1').slideDown('slow');
-	
 	ShowPart1();
-
 	$('#nav1').click(function (e) {
 		e.preventDefault();
 		ShowPart1();
@@ -59,6 +56,7 @@ function ShowPart1(){
 	$('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/doc/user/start/?mode=normal&lang=ru"><span>С чего начать?</span></a>');
 	$('#secondButton').html('<span>Узнать больше</span>');
 };
+
 function ShowPart2(){
 	ChangeNavigationColor(2);
 	
@@ -86,6 +84,7 @@ function ShowPart2(){
 	$('#firstButton').html('<a href="/community/publications/?mode=normal&lang=ru"><span>Пресса о нас</span></a>');
 	$('#secondButton').html('<span>Узнать больше</span>');
 };
+
 function ShowPart3(){
 	ChangeNavigationColor(3);
 	
@@ -113,6 +112,7 @@ function ShowPart3(){
 	$('#firstButton').html('<a href="/doc/faq/?mode=normal&lang=ru"><span>FAQ</span></a>');
 	$('#secondButton').html('<span>Узнать больше</span>');
 };
+
 function ShowPart4(){
 	ChangeNavigationColor(4);
 	
@@ -141,6 +141,7 @@ function ShowPart4(){
 	$('#firstButton').html('<a href="/doc/authors/?mode=normal&lang=ru"><span>Кто мы</span></a>');
 	$('#secondButton').html('<span>Узнать больше</span>');
 };
+
 function ChangeNavigationColor(selected){
 	$('#nav1').addClass('lightGrey');
 	$('#nav1').removeClass('blueColor');

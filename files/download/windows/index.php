@@ -64,7 +64,5 @@ Clik on&#160;the&#160;direct link below to&#160;start  downloading:</p>
 <li><a href="<?php echo luwrain_link('/doc/user/start');?>">С&#160;чего начать?</a></li>
 </ul></li>
 </ul>
-
-<p><?php echo lwr_month_en(2); ?></p>
 <?php }?>
 <?php luwrain_end_page('/download/windows/index.php');?>
