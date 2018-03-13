@@ -4,7 +4,6 @@ function OnReadyIndex()
 	$('#hiddenPartNumber').val(1);
 	$('#part1more').addClass('hidden-not-important');
 	$('#part1').addClass('hidden-not-important');
-	$('#part1').slideDown('slow');
 	ShowPart1();
 	$('#nav1').click(function (e) {
 		e.preventDefault();
@@ -30,43 +29,36 @@ function OnReadyIndex()
 	});
 };
 
-function ShowPart1(){
-	ChangeNavigationColor(1);
-//		$('#part1').slideDown('slow');
-//    $('#part1more').slideUp('slow');
-    	$('#part1').slideUp('slow');
-	$('#part1more').slideDown('slow');
-    		$('#leftArrow').addClass('hidden-not-important');
-	$('#rightArrow').removeClass('hidden-not-important');
-		$('#secondButton').addClass('lightButton');
-	$('#secondButton').removeClass('lightSolidButton');
-		$('#hiddenPartNumber').val('1');
-	$('#imageDiv').html('<img id="accImg" src="Images/acc.png" alt="The accessible platform" height="303" width="523"></img>');
-	$('#textUnderPic').html('Технологии без пикселей');
-	$('#accPlatform').html('Технологии без пикселей');
-	$('#text1more').html('Команда LUWRAIN развивает инструменты доступа к информационным технологиям'+
-			     '<br/>в невизуальной форме. Наша компетенция включает в себя как решение'+
-			     '<br/>социальных задач, так и исследования новых человеко-машинных интерфейсов'+
-			     '<br/>для &#x22;Интернета вещей&#x22; и &#x22;Умного дома&#x22;.'+
-			     '<br/>Особую роль в работе играет поддержка людей с нарушениями зрения,'+
-			     '<br/>для которых мы ведём активную разработку программных продуктов'+
-			     '<br/>и методов адаптаций материалов.');
-	$('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/doc/user/start/?mode=normal&lang=ru"><span>С чего начать?</span></a>');
-    //	$('#secondButton').html('<span>Узнать больше</span>');
+function ShowPart1()
+{
+    ChangeNavigationColor(1);
+    $('#leftArrow').addClass('hidden-not-important');
+    $('#rightArrow').removeClass('hidden-not-important');
+    $('#secondButton').addClass('lightButton');
+    $('#secondButton').removeClass('lightSolidButton');
+    $('#hiddenPartNumber').val('1');
+    $('#accPlatform').html('Технологии без пикселей');
+    $('#text1more').html('Команда LUWRAIN развивает инструменты доступа к информационным технологиям'+
+			 '<br/>в невизуальной форме. Наша компетенция включает в себя как решение'+
+			 '<br/>социальных задач, так и исследования новых человеко-машинных интерфейсов'+
+			 '<br/>для &#x22;Интернета вещей&#x22; и &#x22;Умного дома&#x22;.'+
+			 '<br/>Особую роль в работе играет поддержка людей с нарушениями зрения,'+
+			 '<br/>для которых мы ведём активную разработку программных продуктов'+
+			 '<br/>и методов адаптаций материалов.');
+    $('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/doc/user/start/?mode=normal&lang=ru"><span>С чего начать?</span></a>');
+    $('#part1more').slideDown('slow');
     $('#secondButton').html('<span>Далее</span>');
 };
 
 function ShowPart2()
 {
 	ChangeNavigationColor(2);
-	$('#part1more').slideUp('slow', function(){
-		$('#leftArrow').removeClass('hidden-not-important');
+    $('#part1more').slideUp('slow', function(){
+	$('#leftArrow').removeClass('hidden-not-important');
 	$('#rightArrow').removeClass('hidden-not-important');
-		$('#secondButton').addClass('lightButton');
+	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
-		$('#hiddenPartNumber').val('2');
-	$('#imageDiv').html('<img id="textBasedImg" src="Images/textBased.png" alt="Text-based environment" height="162" width="532"></img>');
-	$('#textUnderPic').html('Работа только с текстом');
+	$('#hiddenPartNumber').val('2');
 	$('#accPlatform').html('Работа только с текстом');
 	$('#text1more').html('На основе виртуальной машины Java мы разрабатываем платформу для построения'+
 			     '<br/>эффективного невизуального интерфейса. В отличие от экранных чтецов,'+
@@ -77,21 +69,19 @@ function ShowPart2()
 			     '<br/>Мы создаём нашу систему для тех,'+
 			     '<br/>кто ведёт активный образ жизни и ценит экономию времени.');
 	$('#firstButton').html('<a href="/community/publications/?mode=normal&lang=ru"><span>Пресса о нас</span></a>');
-//    $('#secondButton').html('<span>Узнать больше</span>');
-    $('#part1more').slideDown('slow');
-});
+	$('#part1more').slideDown('slow');
+    });
 };
 
-function ShowPart3(){
-	ChangeNavigationColor(3);
+function ShowPart3()
+{
+    ChangeNavigationColor(3);
     $('#part1more').slideUp('slow', function(){
-		$('#leftArrow').removeClass('hidden-not-important');
+	$('#leftArrow').removeClass('hidden-not-important');
 	$('#rightArrow').removeClass('hidden-not-important');
-		$('#secondButton').addClass('lightButton');
+	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
-		$('#hiddenPartNumber').val('3');
-	$('#imageDiv').html('<img id="javaImg" src="Images/java.png" alt="Java on Linux" height="199" width="332"></img>');
-	$('#textUnderPic').html('Невизуальный дизайн');
+	$('#hiddenPartNumber').val('3');
 	$('#accPlatform').html('Невизуальный дизайн');
 	$('#text1more').html('Как из совокупности текста, различных цветов фона и графических примитивов'+
 			     '<br/>рождаются новые образы, воспринимаемые человеком визуально,'+
@@ -102,22 +92,19 @@ function ShowPart3(){
 			     '<br/>невизуальном интерфейсе работа может быть такой же комфортной и быстрой,'+
 			     '<br/>как и с использованием обычных графических инструментов.');
 	$('#firstButton').html('<a href="/doc/faq/?mode=normal&lang=ru"><span>FAQ</span></a>');
-//	$('#secondButton').html('<span>Узнать больше</span>');
-		$('#part1more').slideDown('slow');
+	$('#part1more').slideDown('slow');
     });
 };
 
 function ShowPart4()
 {
-	ChangeNavigationColor(4);
+    ChangeNavigationColor(4);
     $('#part1more').slideUp('slow', function(){
-		$('#leftArrow').removeClass('hidden-not-important');
+	$('#leftArrow').removeClass('hidden-not-important');
 	$('#rightArrow').addClass('hidden-not-important');
-		$('#secondButton').addClass('lightButton');
+	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
-		$('#hiddenPartNumber').val('4');
-	$('#imageDiv').html('<img id="fossImg" src="Images/toss.png" alt="toss" height="229" width="254"></img>');
-	$('#textUnderPic').html('Свободное ПО');
+	$('#hiddenPartNumber').val('4');
 	$('#accPlatform').html('Свободное ПО');
 	$('#text1more').html('Основные компоненты LUWRAIN являются свободным ПО'+
 			     '<br/>и созданы с активным использованием результатов других свободных проектов.'+
@@ -129,82 +116,83 @@ function ShowPart4()
 			     '<br/>в свободных репозиториях и позволяющий людям с нарушениями зрения'+
 			     '<br/>познакомиться с новыми возможностями в простой форме.');
 	$('#firstButton').html('<a href="/doc/authors/?mode=normal&lang=ru"><span>Кто мы</span></a>');
-	//	$('#secondButton').html('<span>Узнать больше</span>');
-		    $('#secondButton').html('<a href="/doc/about/?mode=normal&lang=ru"><span>Ещё о проекте</span></a>');
-//	    $('#secondButton').removeClass('lightButton');
-//	    $('#secondButton').addClass('lightSolidButton');
+	$('#secondButton').html('<a href="/doc/about/?mode=normal&lang=ru"><span>Ещё о проекте</span></a>');
 	$('#part1more').slideDown('slow');
     });
 };
 
 function ChangeNavigationColor(selected)
 {
-	$('#nav1').addClass('lightGrey');
-	$('#nav1').removeClass('blueColor');
-	$('#nav2').addClass('lightGrey');
-	$('#nav2').removeClass('blueColor');
-	$('#nav3').addClass('lightGrey');
-	$('#nav3').removeClass('blueColor');
-	$('#nav4').addClass('lightGrey');
-	$('#nav4').removeClass('blueColor');
-	$('#nav'+selected).addClass('blueColor');
-	$('#nav'+selected).removeClass('lightGrey');
+    $('#nav1').addClass('lightGrey');
+    $('#nav1').removeClass('blueColor');
+    $('#nav2').addClass('lightGrey');
+    $('#nav2').removeClass('blueColor');
+    $('#nav3').addClass('lightGrey');
+    $('#nav3').removeClass('blueColor');
+    $('#nav4').addClass('lightGrey');
+    $('#nav4').removeClass('blueColor');
+    $('#nav'+selected).addClass('blueColor');
+    $('#nav'+selected).removeClass('lightGrey');
 }
 
 function SecondButtonOnClick()
 {
     var partNumber = $('#hiddenPartNumber').val();
-//    $('#secondButton').html('<span>Далее</span>');
-        switch (partNumber) {
-    case "1": 
+    switch (partNumber)
+    {
+	case "1": 
 	ShowPart2();
 	break;
-    case "2":
+	case "2":
 	ShowPart3();
 	break;
-    case "3":
+	case "3":
 	ShowPart4();
 	break;
-	}
+    }
 };
 
-function ChangeContentPart(direction) {
-    switch (direction) {
-    case 1: //left
-	switch ($('#hiddenPartNumber').val()) {
-	case "1": 
-	case "12": 
+function ChangeContentPart(direction)
+{
+    switch (direction)
+    {
+	case 1: //left
+	switch ($('#hiddenPartNumber').val())
+	{
+	    case "1": 
+	    case "12": 
 	    break;
-	case "2": 
-	case "22": 
+	    case "2": 
+	    case "22": 
 	    ShowPart1();
 	    break;
-	case "3": 
-	case "32": 
+	    case "3": 
+	    case "32": 
 	    ShowPart2();
 	    break;
-	case "4": 
-	case "42": 
+	    case "4": 
+	    case "42": 
 	    ShowPart3();
 	    break;
 	}
 	break;
-    case 2: //right
-	switch ($('#hiddenPartNumber').val()) {
-	case "1":
-	case "12":
+	case 2: //right
+	switch ($('#hiddenPartNumber').val())
+	{
+	    case "1":
+	    case "12":
 	    ShowPart2();
 	    break;
-	case "2":
-	case "22":
+	    case "2":
+	    case "22":
 	    ShowPart3();
 	    break;
-	case "3":
-	case "32":
+	    case "3":
+	    case "32":
 	    ShowPart4();
 	    break;
-	case "4":
-	case "42":
+	    case "4":
+	    case "42":
 	    break;
 	}
 	break;
