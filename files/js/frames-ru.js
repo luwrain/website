@@ -32,17 +32,15 @@ function OnReadyIndex()
 
 function ShowPart1(){
 	ChangeNavigationColor(1);
-	
-	$('#part1').slideDown('slow');
-	$('#part1more').slideUp('slow');
-	
-	$('#leftArrow').addClass('hidden-not-important');
+//		$('#part1').slideDown('slow');
+//    $('#part1more').slideUp('slow');
+    	$('#part1').slideUp('slow');
+	$('#part1more').slideDown('slow');
+    		$('#leftArrow').addClass('hidden-not-important');
 	$('#rightArrow').removeClass('hidden-not-important');
-	
-	$('#secondButton').addClass('lightButton');
+		$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
-	
-	$('#hiddenPartNumber').val('1');
+		$('#hiddenPartNumber').val('1');
 	$('#imageDiv').html('<img id="accImg" src="Images/acc.png" alt="The accessible platform" height="303" width="523"></img>');
 	$('#textUnderPic').html('Технологии без пикселей');
 	$('#accPlatform').html('Технологии без пикселей');
@@ -57,19 +55,15 @@ function ShowPart1(){
 	$('#secondButton').html('<span>Узнать больше</span>');
 };
 
-function ShowPart2(){
+function ShowPart2()
+{
 	ChangeNavigationColor(2);
-	
-	$('#part1').slideDown('slow');
-	$('#part1more').slideUp('slow');
-	
-	$('#leftArrow').removeClass('hidden-not-important');
+	$('#part1more').slideUp('slow', function(){
+		$('#leftArrow').removeClass('hidden-not-important');
 	$('#rightArrow').removeClass('hidden-not-important');
-	
-	$('#secondButton').addClass('lightButton');
+		$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
-	
-	$('#hiddenPartNumber').val('2');
+		$('#hiddenPartNumber').val('2');
 	$('#imageDiv').html('<img id="textBasedImg" src="Images/textBased.png" alt="Text-based environment" height="162" width="532"></img>');
 	$('#textUnderPic').html('Работа только с текстом');
 	$('#accPlatform').html('Работа только с текстом');
@@ -82,22 +76,19 @@ function ShowPart2(){
 			     '<br/>Мы создаём нашу систему для тех,'+
 			     '<br/>кто ведёт активный образ жизни и ценит экономию времени.');
 	$('#firstButton').html('<a href="/community/publications/?mode=normal&lang=ru"><span>Пресса о нас</span></a>');
-	$('#secondButton').html('<span>Узнать больше</span>');
+    $('#secondButton').html('<span>Узнать больше</span>');
+    $('#part1more').slideDown('slow');
+});
 };
 
 function ShowPart3(){
 	ChangeNavigationColor(3);
-	
-	$('#part1').slideDown('slow');
-	$('#part1more').slideUp('slow');
-	
-	$('#leftArrow').removeClass('hidden-not-important');
+    $('#part1more').slideUp('slow', function(){
+		$('#leftArrow').removeClass('hidden-not-important');
 	$('#rightArrow').removeClass('hidden-not-important');
-	
-	$('#secondButton').addClass('lightButton');
+		$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
-	
-	$('#hiddenPartNumber').val('3');
+		$('#hiddenPartNumber').val('3');
 	$('#imageDiv').html('<img id="javaImg" src="Images/java.png" alt="Java on Linux" height="199" width="332"></img>');
 	$('#textUnderPic').html('Невизуальный дизайн');
 	$('#accPlatform').html('Невизуальный дизайн');
@@ -111,21 +102,19 @@ function ShowPart3(){
 			     '<br/>как и с использованием обычных графических инструментов.');
 	$('#firstButton').html('<a href="/doc/faq/?mode=normal&lang=ru"><span>FAQ</span></a>');
 	$('#secondButton').html('<span>Узнать больше</span>');
+		$('#part1more').slideDown('slow');
+    });
 };
 
-function ShowPart4(){
+function ShowPart4()
+{
 	ChangeNavigationColor(4);
-	
-	$('#part1').slideDown('slow');
-	$('#part1more').slideUp('slow');
-	
-	$('#leftArrow').removeClass('hidden-not-important');
+    $('#part1more').slideUp('slow', function(){
+		$('#leftArrow').removeClass('hidden-not-important');
 	$('#rightArrow').addClass('hidden-not-important');
-	
-	$('#secondButton').addClass('lightButton');
+		$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
-	
-	$('#hiddenPartNumber').val('4');
+		$('#hiddenPartNumber').val('4');
 	$('#imageDiv').html('<img id="fossImg" src="Images/toss.png" alt="toss" height="229" width="254"></img>');
 	$('#textUnderPic').html('Свободное ПО');
 	$('#accPlatform').html('Свободное ПО');
@@ -140,6 +129,8 @@ function ShowPart4(){
 			     '<br/>познакомиться с новыми возможностями в простой форме.');
 	$('#firstButton').html('<a href="/doc/authors/?mode=normal&lang=ru"><span>Кто мы</span></a>');
 	$('#secondButton').html('<span>Узнать больше</span>');
+	$('#part1more').slideDown('slow');
+    });
 };
 
 function ChangeNavigationColor(selected){
@@ -158,9 +149,10 @@ function ChangeNavigationColor(selected){
 function SecondButtonOnClick() {
     var partNumber = $('#hiddenPartNumber').val();
     if(partNumber == 1 || partNumber == 2 || partNumber == 3 ||
-       partNumber == 4) {
-	$('#part1').slideUp('slow');
-	$('#part1more').slideDown('slow');
+       partNumber == 4)
+    {
+//	$('#part1').slideUp('slow');
+//	$('#part1more').slideDown('slow');
 	$('#secondButton').html('<span>Далее</span>');
 	switch (partNumber) {
 	case "1": 
