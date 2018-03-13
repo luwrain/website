@@ -52,7 +52,8 @@ function ShowPart1(){
 			     '<br/>для которых мы ведём активную разработку программных продуктов'+
 			     '<br/>и методов адаптаций материалов.');
 	$('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/doc/user/start/?mode=normal&lang=ru"><span>С чего начать?</span></a>');
-	$('#secondButton').html('<span>Узнать больше</span>');
+    //	$('#secondButton').html('<span>Узнать больше</span>');
+    $('#secondButton').html('<span>Далее</span>');
 };
 
 function ShowPart2()
@@ -76,7 +77,7 @@ function ShowPart2()
 			     '<br/>Мы создаём нашу систему для тех,'+
 			     '<br/>кто ведёт активный образ жизни и ценит экономию времени.');
 	$('#firstButton').html('<a href="/community/publications/?mode=normal&lang=ru"><span>Пресса о нас</span></a>');
-    $('#secondButton').html('<span>Узнать больше</span>');
+//    $('#secondButton').html('<span>Узнать больше</span>');
     $('#part1more').slideDown('slow');
 });
 };
@@ -101,7 +102,7 @@ function ShowPart3(){
 			     '<br/>невизуальном интерфейсе работа может быть такой же комфортной и быстрой,'+
 			     '<br/>как и с использованием обычных графических инструментов.');
 	$('#firstButton').html('<a href="/doc/faq/?mode=normal&lang=ru"><span>FAQ</span></a>');
-	$('#secondButton').html('<span>Узнать больше</span>');
+//	$('#secondButton').html('<span>Узнать больше</span>');
 		$('#part1more').slideDown('slow');
     });
 };
@@ -128,12 +129,16 @@ function ShowPart4()
 			     '<br/>в свободных репозиториях и позволяющий людям с нарушениями зрения'+
 			     '<br/>познакомиться с новыми возможностями в простой форме.');
 	$('#firstButton').html('<a href="/doc/authors/?mode=normal&lang=ru"><span>Кто мы</span></a>');
-	$('#secondButton').html('<span>Узнать больше</span>');
+	//	$('#secondButton').html('<span>Узнать больше</span>');
+		    $('#secondButton').html('<a href="/doc/about/?mode=normal&lang=ru"><span>Ещё о проекте</span></a>');
+//	    $('#secondButton').removeClass('lightButton');
+//	    $('#secondButton').addClass('lightSolidButton');
 	$('#part1more').slideDown('slow');
     });
 };
 
-function ChangeNavigationColor(selected){
+function ChangeNavigationColor(selected)
+{
 	$('#nav1').addClass('lightGrey');
 	$('#nav1').removeClass('blueColor');
 	$('#nav2').addClass('lightGrey');
@@ -146,46 +151,21 @@ function ChangeNavigationColor(selected){
 	$('#nav'+selected).removeClass('lightGrey');
 }
 
-function SecondButtonOnClick() {
+function SecondButtonOnClick()
+{
     var partNumber = $('#hiddenPartNumber').val();
-    if(partNumber == 1 || partNumber == 2 || partNumber == 3 ||
-       partNumber == 4)
-    {
-//	$('#part1').slideUp('slow');
-//	$('#part1more').slideDown('slow');
-	$('#secondButton').html('<span>Далее</span>');
-	switch (partNumber) {
-	case "1": 
-	    $('#hiddenPartNumber').val('12');
-	    break;
-	case "2":
-	    $('#hiddenPartNumber').val('22');
-	    break;
-	case "3":
-	    $('#hiddenPartNumber').val('32');
-	    break;
-	case "4": 
-	    $('#hiddenPartNumber').val('42');
-	    $('#secondButton').html('<a href="/doc/about/?mode=normal&lang=ru"><span>Ещё о проекте</span></a>');
-	    $('#secondButton').removeClass('lightButton');
-	    $('#secondButton').addClass('lightSolidButton');
-	    break;
-	}
-	return;
-    }
-    switch (partNumber) {
-    case "12": 
+//    $('#secondButton').html('<span>Далее</span>');
+        switch (partNumber) {
+    case "1": 
 	ShowPart2();
 	break;
-    case "22":
+    case "2":
 	ShowPart3();
 	break;
-    case "32":
+    case "3":
 	ShowPart4();
 	break;
-    case "4":
-	break;
-    }
+	}
 };
 
 function ChangeContentPart(direction) {
