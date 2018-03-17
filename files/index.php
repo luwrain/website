@@ -116,12 +116,6 @@
     </div>
     <div id="picContent">
       <div id="arrowLeft"></div>
-        <!--    1    -->
-        <div id="part1">
-            <div id="imageDiv">
-            </div>
-            <div id="textUnderPic"></div>
-        </div>
         <!--    1 more   -->
         <div id="part1more" class="">
             <div id="accPlatform">
