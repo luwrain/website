@@ -1,32 +1,32 @@
 
 function OnReadyIndex()
 {
-	$('#hiddenPartNumber').val(1);
-	$('#part1more').addClass('hidden-not-important');
-	$('#part1').addClass('hidden-not-important');
+    $('#hiddenPartNumber').val(1);
+    $('#part1more').addClass('hidden-not-important');
+    $('#part1').addClass('hidden-not-important');
+    ShowPart1();
+    $('#nav1').click(function (e) {
+	e.preventDefault();
 	ShowPart1();
-	$('#nav1').click(function (e) {
-		e.preventDefault();
-		ShowPart1();
-	});
-	$('#nav2').click(function (e) {
-		e.preventDefault();
-		ShowPart2();
-	});
-	$('#nav3').click(function (e) {
-		e.preventDefault();
-		ShowPart3();
-	});
-	$('#nav4').click(function (e) {
-		e.preventDefault();
-		ShowPart4();
-	});
-	$('#arrowRight').click(function (e) {
-		ChangeContentPart(2);//right
-	});
-	$('#arrowLeft').click(function (e) {
-		ChangeContentPart(1);//left
-	});
+    });
+    $('#nav2').click(function (e) {
+	e.preventDefault();
+	ShowPart2();
+    });
+    $('#nav3').click(function (e) {
+	e.preventDefault();
+	ShowPart3();
+    });
+    $('#nav4').click(function (e) {
+	e.preventDefault();
+	ShowPart4();
+    });
+    $('#arrowRight').click(function (e) {
+	ChangeContentPart(2);//right
+    });
+    $('#arrowLeft').click(function (e) {
+	ChangeContentPart(1);//left
+    });
 };
 
 function ShowPart1()
@@ -52,7 +52,7 @@ function ShowPart1()
 
 function ShowPart2()
 {
-	ChangeNavigationColor(2);
+    ChangeNavigationColor(2);
     $('#part1more').slideUp('slow', function(){
 	$('#leftArrow').removeClass('hidden-not-important');
 	$('#rightArrow').removeClass('hidden-not-important');
