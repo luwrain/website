@@ -141,7 +141,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
             <link type="image/x-icon" href="/Images/favicon.ico" rel="icon" />
             <link media="all" rel="stylesheet" type="text/css" href="/Content/luwrain.css" />
             <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-            <script type="text/javascript" src="<?php if (luwrain_current_lang() == 'en') echo 'Scripts/index-en.js'; if (luwrain_current_lang() == 'ru') echo 'js/frames-ru.js'; ?>"></script>
+            <script type="text/javascript" src="<?php if (luwrain_current_lang() == 'en') echo 'js/frames-en.js'; if (luwrain_current_lang() == 'ru') echo 'js/frames-ru.js'; ?>"></script>
             <script type="text/javascript" src="/Scripts/core.js"></script>
             <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
             <script type="text/javascript">
@@ -163,9 +163,10 @@ function luwrain_begin_page($path, $title, $isMainPage)
                             </li>
                             <li class="linkMenu">
                                 <div id="languageSelected">
-                                    <a href="#" class="font14" id="selectedLanguageName"><?php echo luwrain_current_lang() == 'ru'?'Русский':'English';?> &#9662;</a>
+                                    <a href="<?php echo luwrain_link_ext1($path, luwrain_current_lang() == 'ru'?'en':'ru', 'normal');?>" class="font14" id="selectedLanguageName"><?php echo luwrain_current_lang() == 'ru'?'English':'Russian';?></a>
                                 </div>
-                            </li>
+				                            </li>
+<!--
                             <li class="linkMenu">
                                 <a href="#" class="font14 languageMenuItem hidden-not-important" id="closeLanguageMenu"><?php echo luwrain_current_lang() == 'ru'?'Закрыть':'Close'?> &#9652;</a>
                             </li>
@@ -175,6 +176,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
                             <li class="linkMenu">
                                 <a class="languageMenuItem hidden-not-important" href="<?php echo luwrain_link_ext1($path, 'ru', luwrain_current_mode());?>" id="russianLang">Russian</a>
                             </li>
+			    -->
                         </ul>
                     </div>
                     <div class="col-md-6">

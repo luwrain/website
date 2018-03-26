@@ -13,6 +13,7 @@ function OnReady() {
 		$('#closeMenu').addClass('hidden-not-important');
 		$('#openMenu').removeClass('hidden-not-important');
 	});
+    /*
 	$('#closeLanguageMenu').click(function (e) {
 		e.preventDefault();
 		HideLangMenuItem();
@@ -35,7 +36,10 @@ function OnReady() {
 	$('#franceLang').click(function (e) {
 		ChangeLanguage('franceLang');
 	});
+*/
 };
+
+/*
 function ShowLangMenuItem(){
 	$(".languageMenuItem").removeClass('hidden-not-important');
 }
@@ -49,3 +53,4 @@ function ChangeLanguage(langName) {
 	$('#languageSelected').removeClass('hidden-not-important');
 	$('#languageMenu').addClass('hidden-not-important');
 };
+*/
