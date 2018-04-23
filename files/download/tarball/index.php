@@ -1,19 +1,31 @@
-<?php include "../../functions.php"; luwrain_begin_page('/download/tarball/index.php', luwrain_current_lang() == 'ru'?'Tar-архивы':'Tarballs');?>
+<?php include "../../functions.php"; luwrain_begin_page('/download/tarball/index.php', luwrain_current_lang() == 'ru'?'Tar-архив':'Tarball');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-<h1>Sources tarballs</h1>
+<h1>Sources tarball</h1>
 
-<p>If you need our source code and would like to&#160;get it in&#160;single click,
-you can  take our tarball distribution available by&#160;the&#160;direct link below.
-Vaste majority of&#160;LUWRAIN materials of&#160;our project
-including scripts for preparing ISO images and binary distributions,
-go to&#160;this tarball.</p>
-
-<p>Version: <?php echo lwr_version_tarball();?></p>
-
-<p>Date of&#160;release: <?php echo lwr_release_date_tarball_en();?></p>
+<p>In&#160;order to&#160;get our source code tarball,
+please use this direct link:</p>
 
 <ul>
-<li><a href="http://download.luwrain.org/src/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a> </li>
+<li><a href="http://download.luwrain.org/src/1.x.x/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a></li>
+</ul>
+
+<p>General information:</p>
+
+<ul>
+<li>Version: <?php echo lwr_version_tarball();?></li>
+<li>Date of&#160;release: <?php echo lwr_release_date_tarball_en();?></li>
+<li>License: GNU Public License v.3</li>
+</ul>
+
+<p>This&#160;tarball contains:</p>
+
+<ul>
+<li>System core and standard controls library</li>
+<li>JavaScript engine</li>
+<li>Browser, PIM, Studio and other major components</li>
+<li>System-dependent code for&#160;Microsoft Windows and GNU/Linux</li>
+<li>Our standard applications</li>
+<li>Sound files and third-party libraries in&#160;binary form</li>
 </ul>
 
 <h2>See&#160;also</h2>
@@ -26,17 +38,30 @@ go to&#160;this tarball.</p>
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Tar-архив с&#160;исходными текстами</h1>
 
-<p>Если вам необходимы полные исходные тексты нашего проекта, и вы хотите их загрузить одним файлом,
-то вы можете воспользоваться прямой ссылкой ниже. 
-Большинство материалов LUWRAIN, включая скрипты для&#160;сборки ISO-образов и бинарных дистрибутивов,
-содержатся в&#160;этом архиве.</p>
-
-<p>Версия: <?php echo lwr_version_tarball();?></p>
-
-<p>Дата релиза: <?php echo lwr_release_date_tarball_ru();?></p>
+<p>Если вы желаете загрузить исходные тексты LUWRAIN,собранные в&#160;один файл,
+воспользуйтесь, пожалуйста, этой ссылкой:</p>
 
 <ul>
-<li><a href="http://download.luwrain.org/src/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a> </li>
+<li><a href="http://download.luwrain.org/src/1.x.x/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a></li>
+</ul>
+
+<p>Общая информация о&#160;файле:</p>
+
+<ul>
+<li>Версия: <?php echo lwr_version_tarball();?></li>
+<li>Дата релиза: <?php echo lwr_release_date_tarball_ru();?></li>
+<li>Лицензия: GNU&#160;Public License v.3</li>
+</ul>
+
+<p>В&#160;состав архива входят:</p>
+
+<ul>
+<li>ядро системы и библиотека стандартных элементов управления;</li>
+<li>движок исполнения JavaScript;</li>
+<li>браузер, PIM, студия и другие компоненты;</li>
+<li>системнозависимый код для&#160;Microsoft Windows и GNU/Linux;</li>
+<li>наши стандартные приложения;</li>
+<li>файлы звуков и сторонние библиотеки в&#160;бинарном формате.</li>
 </ul>
 
 <h2>См.&#160;также</h2>

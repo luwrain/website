@@ -30,7 +30,7 @@ Others can be&#160;useful only for&#160;developers who would like to&#160;improv
 
 <ul>
 <li><a href="<?php echo luwrain_link('sdk/');?>">LUWRAIN&#160;SDK</a> (needed for&#160;building your own application for&#160;LUWRAIN)</li>
-<li><a href="<?php echo luwrain_link('tarball/');?>">Tarball with source materials</a> (published basically to&#160;make LUWRAIN sources downloadable in&#160;single click, but there is a&#160;tarball with&#160;media files which we don't put&#160;in&#160;Git repositories)</li>
+<li><a href="<?php echo luwrain_link('tarball/');?>">Tarball with source code</a> (published basically to&#160;make LUWRAIN sources downloadable in&#160;single click)</li>
 <li><a href="<?php echo luwrain_link('git/');?>">Git&#160;repositories</a> (the&#160;entire set of&#160;repositories for&#160;tracking of&#160;changes in&#160;our&#160;project)</li>
 <li><a href="<?php echo luwrain_link('nightly/');?>">Nightly builds</a> (regular binary builds for&#160;testers)</li>
 </ul>
@@ -87,7 +87,7 @@ Besides all, you can find there:</p>
 
 <ul>
 <li><a href="<?php echo luwrain_link('sdk/');?>">LUWRAIN&#160;SDK</a> (требуется для&#160;разработки ваших собственных приложений)</li>
-<li><a href="<?php echo luwrain_link('tarball/');?>">Tar-архив с&#160;материалами проекта</a> (позволяет загрузить исходные тексты и материалы проекта одним файлом)</li>
+<li><a href="<?php echo luwrain_link('tarball/');?>">Tar-архив с&#160;исходным кодом проекта</a> (позволяет загрузить исходные тексты и материалы проекта одним файлом)</li>
 <li><a href="<?php echo luwrain_link('git/');?>">Репозитории Git</a> (полный перечень репозиториев для&#160;отслеживания изменений в&#160;наших исходных текстах)</li>
 <li><a href="<?php echo luwrain_link('nightly/');?>">Nightly-сборки</a> (регулярные сборки для&#160;тестирования изменений)</li>
 </ul>

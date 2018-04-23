@@ -8,12 +8,12 @@
 
   function lwr_release_date_en()
   {
-    return 'February 1, 2018';
+    return 'April 24, 2018';
   }
 
   function lwr_release_date_ru()
   {
-    return '1 февраля 2018 г.';
+    return '24 апреля 2018 г.';
   }
 
   function lwr_version_windows()
@@ -63,20 +63,17 @@
 
   function lwr_version_iso()
   {
-#    return lwr_version();
-    return '1.1.0pre1';
+    return lwr_version();
   }
 
   function lwr_release_date_iso_en()
   {
-#    return lwr_release_date_en();
-    return 'October 24, 2017';
+    return lwr_release_date_en();
   }
 
   function lwr_release_date_iso_ru()
   {
-#    return lwr_release_date_ru();
-    return '24 октября 2017 г.';
+    return lwr_release_date_ru();
   }
 
   function lwr_version_sdk()

@@ -31,7 +31,7 @@ of~applications for~LUWRAIN.
 Others can be~useful only for~developers who would like to~improve LUWRAIN itself.
 
 * [LUWRAIN~SDK](local:sdk/) (needed for~building your own application for~LUWRAIN)
-* [Tarball with source materials](local:tarball/) (published basically to~make LUWRAIN sources downloadable in~single click, but there is a~tarball with~media files which we don't put~in~Git repositories)
+* [Tarball with source code](local:tarball/) (published basically to~make LUWRAIN sources downloadable in~single click)
 * [Git~repositories](local:git/) (the~entire set of~repositories for~tracking of~changes in~our~project)
 * [Nightly builds](local:nightly/) (regular binary builds for~testers)
 
@@ -79,7 +79,7 @@ LUWRAIN как самостоятельная ОС на ядре Linux в~вид
 которые развиваются членами нашей команды.
 
 * [LUWRAIN~SDK](local:sdk/) (требуется для~разработки ваших собственных приложений)
-* [Tar-архив с~материалами проекта](local:tarball/) (позволяет загрузить исходные тексты и материалы проекта одним файлом)
+* [Tar-архив с~исходным кодом проекта](local:tarball/) (позволяет загрузить исходные тексты и материалы проекта одним файлом)
 * [Репозитории Git](local:git/) (полный перечень репозиториев для~отслеживания изменений в~наших исходных текстах)
 * [Nightly-сборки](local:nightly/) (регулярные сборки для~тестирования изменений)
 
