@@ -1,4 +1,5 @@
 
+
 ENTITLE='downloads'
 RUTITLE='Загрузка'
 TARGET=download/index.php
@@ -7,11 +8,11 @@ luwrain-page-en
 
 # Our downloads
 
-The~entire set of~our products and services is~concentrated around our~user environment called LUWRAIN.
-With LUWRAIN environment, the~blind users are able to~do usual  everyday tasks in~the~most comfortable and easy way.
-In~addition it~offers some~specialized applications purposed for~education of~the~blind and other important things.
+The~entire set of~our products and services is~concentrated around our~platform LUWRAIN.
+With LUWRAIN platform,
+blind users can create their own accessible applications or run the~applications
+created by~our team or other people.
 The~main distributions of~LUWRAIN are~free for~use for~everybody, since they are licensed under the~terms of~GPL~v.3.
-
 
 These options are for~people who needs LUWRAIN for~work. 
 With~the~list below, you can find a~binary distribution prepared for~OS you have already installed or 
@@ -19,10 +20,10 @@ a~ISO~image suitable for running LUWRAIN as~a~stand-alone OS (in~this~case any~p
 
 Choose the~most suitable form you need:
 
-* [As a~bootable ISO image](local:iso/) (installed OS isn't required)
 * As~an~application:
  * [For~Microsoft Windows](local:windows/)
  * [For~GNU/Linux](local:linux/)
+ * [As a~bootable ISO image](local:iso/) (installed OS isn't required)
 
 ## For~developers and testers
 
@@ -56,7 +57,7 @@ luwrain-page-ru
 Всё множество продуктов и услуг, предоставляемых командой LUWRAIN, сосредоточено вокруг нашей одноимённой платформы.
 Она представляет из~себя пользовательскую среду для людей с~нарушениями зрения, 
 подходящую для~решения большинства повседневных  задач и
-позволяющую запускать наши или сторонние невизуальные приложения. 
+позволяющую разрабатывать и запускать невизуальные приложения. 
 Среда LUWRAIN распространяется бесплатно, поскольку является ПО с~открытым исходным кодом. 
 Её можно свободно загрузить с~нашего сайта в~одной из~нескольких форм.
 
@@ -79,7 +80,7 @@ LUWRAIN как самостоятельная ОС на ядре Linux в~вид
 которые развиваются членами нашей команды.
 
 * [LUWRAIN~SDK](local:sdk/) (требуется для~разработки ваших собственных приложений)
-* [Tar-архив с~исходным кодом проекта](local:tarball/) (позволяет загрузить исходные тексты и материалы проекта одним файлом)
+* [Tar-архив с~исходным кодом проекта](local:tarball/) (позволяет загрузить исходные тексты проекта одним файлом)
 * [Репозитории Git](local:git/) (полный перечень репозиториев для~отслеживания изменений в~наших исходных текстах)
 * [Nightly-сборки](local:nightly/) (регулярные сборки для~тестирования изменений)
 
