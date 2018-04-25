@@ -7,7 +7,7 @@ luwrain-page-en
 
 # Bootable ISO images
 
-Here you can find the~direct links to~our~bootable ISO images.
+Here you can find direct links to~our~bootable ISO images.
 They will be~useful, if you'd like to~run LUWRAIN as~live~CD without installing  on~your~hard drive 
 or if you'd like to~install it as~a~stand-alone OS on~your PC.
 
@@ -16,11 +16,15 @@ They prepared as~hybrid files, suitable for~writing
 on~your flash stick or on~CD/DVD recordable media.
 We support amd64 machines only.
 
-Version: <?php echo lwr_version_iso();?>
+Select the~image by~the~preferable language:
 
-Date of~release: <?php echo lwr_release_date_iso_en();?>
+* <a href="http://download.luwrain.org/iso/luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso">English</a>
+* <a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">Russian</a>
 
-* <a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">Russian language</a>
+General information:
+
+* Version: <?php echo lwr_version_iso();?>
+* Date of~release: <?php echo lwr_release_date_iso_en();?>
 
 ## See also
 
@@ -31,21 +35,26 @@ luwrain-page-ru
 
 # Загрузочные ISO-образы 
 
-На~этой странице приведены прямые ссылки на~загрузочные ISO-образы,
-доступные на~нашем сайте.
+На~этой странице приведены прямые ссылки на~наши загрузочные ISO-образы.
 Они могут быть полезны, если вы желаете запустить LUWRAIN в~режиме live CD без~установки на~жёсткий диск 
-или установить на~ваш ПК как~самостоятельную ОС.
+или требуется установить LUWRAIN на~ваш ПК как~самостоятельную ОС.
 
-Наши образы основаны на~[Ubuntu Linux 16.04.2 (Xenial Xerus)](https://wiki.ubuntu.com/XenialXerus/ReleaseNotes).
-Они являются гибридными файлами и пригодны для~записи как~на~флэш-носитель,
+Наши образы основаны на~[Ubuntu Linux 16.04.3 (Xenial Xerus)](https://wiki.ubuntu.com/XenialXerus/ReleaseNotes).
+Они являются гибридными файлами и пригодны для~записи как~на~флеш-носитель,
 так и на~CD/DVD-диск.
 Мы поддерживаем только 64-битные компьютеры с~архитектурой amd64.
 
-Версия LUWRAIN: <?php echo lwr_version_iso();?>
+Выберите язык для~начала загрузки файла:
 
-Дата релиза: <?php echo lwr_release_date_iso_ru();?>
+* <a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">Русский</a>
+* <a href="http://download.luwrain.org/iso/luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso">Английский</a>
 
-* <a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">Русская версия</a>
+Общая информация:
+
+* Версия LUWRAIN: <?php echo lwr_version_iso();?>
+* Дата релиза: <?php echo lwr_release_date_iso_ru();?>
+
+
 
 ## См.~также
 
