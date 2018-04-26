@@ -1,7 +1,8 @@
+comm.articles.pedagogics.md
+comm.articles.progstart.md
 comm.mailing-lists.md
 comm.massmedia.md
 comm.md
-comm.pedagogics.md
 comm.podcasts.md
 comm.publications.md
 comm.video.md

@@ -60,12 +60,11 @@ Choose any&#160;section you need:</p>
 <h2>О&#160;проекте</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('about/');?>">Что&#160;такое LUWRAIN</a></li>
-<li><a href="<?php echo luwrain_link('faq/');?>">Часто задаваемые вопросы</a></li>
-<li><a href="<?php echo luwrain_link('difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
-<li><a href="<?php echo luwrain_link('legal/');?>">Правовой статус проекта</a></li>
-<li><a href="<?php echo luwrain_link('authors/');?>">Авторы проекта</a></li>
-<li><a href="<?php echo luwrain_link('contacts/');?>">Контакты</a></li>
+<li><a href="<?php echo luwrain_link('/doc/about/');?>">Что&#160;такое LUWRAIN?</a></li>
+<li><a href="<?php echo luwrain_link('/doc/faq/');?>">Часто задаваемые вопросы</a></li>
+<li><a href="<?php echo luwrain_link('/doc/difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
+<li><a href="<?php echo luwrain_link('/doc/legal/');?>">Правовой статус</a></li>
+<li><a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы проекта</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/doc/index.php');?>

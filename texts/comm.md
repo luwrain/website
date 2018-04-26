@@ -30,33 +30,39 @@ luwrain-page-ru
 
 В~этом разделе мы собираем различные материалы, 
 которые помогают больше узнать как о~нашей работе, так и о~тех проблемах,
-на~решение которых нацелен LUWRAIN..
-Мы стараемся рассказывать обо всём так, чтобы это оказалось информативно и понятно людям,
-даже предельно далёким от~ИТ и от~особенностей доступа к~ним для~людей с~нарушениями зрения.
+на~решение которых нацелен LUWRAIN.
 
-* [Видео на~YouTube](local:video/)
-* [Наш фотоальбом](local:album/)
-* [Подкасты](local:podcasts/)
-* [Пресса о~нас](local:massmedia/)
-* [Мы в Твиттере](http://twitter.com/luwrain)
-* [Мы на~GitHub](https://github.com/luwrain/)
-* [Наши публикации и презентации](local:publications/)
-* [Наш вики](http://wiki.luwrain.org)
-* [Наши списки рассылок](local:mailing-lists)
-* [Записи приветствия системы на~разных языках](http://download.luwrain.org/media/greeting/langs/)
+С~нами и нашим сообществом можно взаимодействовать через:
 
+* [списки рассылок](local:mailing-lists);
+* [наш вики](http://wiki.luwrain.org).
 
-## Общественные инициативы
+Следите за~новостями и процессом разработки:
 
+* [в Твиттере](http://twitter.com/luwrain);
+* [на~GitHub](https://github.com/luwrain/).
+
+## Ключевые статьи
+
+* [Как сделать первые шаги в~программировании сходу и сразу](local:articles/progstart/)
 * [Представляем F123e](local:f123e.php)
+
+## Материалы о~нас
+
+* [Пресса о~LUWRAIN](local:massmedia/)
+* [Наши публикации и презентации](local:publications/)
+* [Видео на~YouTube](local:video/)
+* [Подкасты](local:podcasts/)
+* [Фотоальбом](local:album/)
+
+## См.~также
+
+* [Записи приветствия системы на~разных языках](http://download.luwrain.org/media/greeting/langs/)
 
 ## О~проекте
 
-* [Что~такое LUWRAIN, и почему мы считаем, что незрячие люди нуждаются в~нём?](local:/doc/about/)
+* [Что~такое LUWRAIN?](local:/doc/about/)
 * [Часто задаваемые вопросы](local:/doc/faq/)
 * [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/)
-* [Правовой статус проекта](local:/doc/legal/)
+* [Правовой статус](local:/doc/legal/)
 * [Авторы проекта](local:/doc/authors/)
-
-
-

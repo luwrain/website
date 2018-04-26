@@ -52,10 +52,10 @@
 <h2>О&#160;проекте</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/about/');?>">Что&#160;такое LUWRAIN, и почему мы считаем, что незрячие люди нуждаются в&#160;нём?</a></li>
+<li><a href="<?php echo luwrain_link('/doc/about/');?>">Что&#160;такое LUWRAIN?</a></li>
 <li><a href="<?php echo luwrain_link('/doc/faq/');?>">Часто задаваемые вопросы</a></li>
 <li><a href="<?php echo luwrain_link('/doc/difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
-<li><a href="<?php echo luwrain_link('/doc/legal/');?>">Правовой статус проекта</a></li>
+<li><a href="<?php echo luwrain_link('/doc/legal/');?>">Правовой статус</a></li>
 <li><a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы проекта</a></li>
 </ul>
 <?php }?>

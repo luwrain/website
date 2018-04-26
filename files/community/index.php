@@ -28,36 +28,52 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 
 <p>В&#160;этом разделе мы собираем различные материалы, 
 которые помогают больше узнать как о&#160;нашей работе, так и о&#160;тех проблемах,
-на&#160;решение которых нацелен LUWRAIN..
-Мы стараемся рассказывать обо всём так, чтобы это оказалось информативно и понятно людям,
-даже предельно далёким от&#160;ИТ и от&#160;особенностей доступа к&#160;ним для&#160;людей с&#160;нарушениями зрения.</p>
+на&#160;решение которых нацелен LUWRAIN.</p>
+
+<p>С&#160;нами и нашим сообществом можно взаимодействовать через:</p>
 
 <ul>
-<li><a href="<?php echo luwrain_link('video/');?>">Видео на&#160;YouTube</a></li>
-<li><a href="<?php echo luwrain_link('album/');?>">Наш фотоальбом</a></li>
-<li><a href="<?php echo luwrain_link('podcasts/');?>">Подкасты</a></li>
-<li><a href="<?php echo luwrain_link('massmedia/');?>">Пресса о&#160;нас</a></li>
-<li><a href="http://twitter.com/luwrain">Мы в Твиттере</a></li>
-<li><a href="https://github.com/luwrain/">Мы на&#160;GitHub</a></li>
-<li><a href="<?php echo luwrain_link('publications/');?>">Наши публикации и презентации</a></li>
-<li><a href="http://wiki.luwrain.org">Наш вики</a></li>
-<li><a href="<?php echo luwrain_link('mailing-lists');?>">Наши списки рассылок</a></li>
-<li><a href="http://download.luwrain.org/media/greeting/langs/">Записи приветствия системы на&#160;разных языках</a></li>
+<li><a href="<?php echo luwrain_link('mailing-lists');?>">списки рассылок</a>;</li>
+<li><a href="http://wiki.luwrain.org">наш вики</a>.</li>
 </ul>
 
-<h2>Общественные инициативы</h2>
+<p>Следите за&#160;новостями и процессом разработки:</p>
 
 <ul>
+<li><a href="http://twitter.com/luwrain">в Твиттере</a>;</li>
+<li><a href="https://github.com/luwrain/">на&#160;GitHub</a>.</li>
+</ul>
+
+<h2>Ключевые статьи</h2>
+
+<ul>
+<li><a href="<?php echo luwrain_link('articles/progstart/');?>">Как сделать первые шаги в&#160;программировании сразу и сходу</a></li>
 <li><a href="<?php echo luwrain_link('f123e.php');?>">Представляем F123e</a></li>
+</ul>
+
+<h2>Материалы о&#160;нас</h2>
+
+<ul>
+<li><a href="<?php echo luwrain_link('massmedia/');?>">Пресса о&#160;LUWRAIN</a></li>
+<li><a href="<?php echo luwrain_link('publications/');?>">Наши публикации и презентации</a></li>
+<li><a href="<?php echo luwrain_link('video/');?>">Видео на&#160;YouTube</a></li>
+<li><a href="<?php echo luwrain_link('podcasts/');?>">Подкасты</a></li>
+<li><a href="<?php echo luwrain_link('album/');?>">Фотоальбом</a></li>
+</ul>
+
+<h2>См.&#160;также</h2>
+
+<ul>
+<li><a href="http://download.luwrain.org/media/greeting/langs/">Записи приветствия системы на&#160;разных языках</a></li>
 </ul>
 
 <h2>О&#160;проекте</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/about/');?>">Что&#160;такое LUWRAIN, и почему мы считаем, что незрячие люди нуждаются в&#160;нём?</a></li>
+<li><a href="<?php echo luwrain_link('/doc/about/');?>">Что&#160;такое LUWRAIN?</a></li>
 <li><a href="<?php echo luwrain_link('/doc/faq/');?>">Часто задаваемые вопросы</a></li>
 <li><a href="<?php echo luwrain_link('/doc/difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
-<li><a href="<?php echo luwrain_link('/doc/legal/');?>">Правовой статус проекта</a></li>
+<li><a href="<?php echo luwrain_link('/doc/legal/');?>">Правовой статус</a></li>
 <li><a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы проекта</a></li>
 </ul>
 <?php }?>

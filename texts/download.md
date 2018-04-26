@@ -94,6 +94,11 @@ LUWRAIN как самостоятельная ОС на ядре Linux в~вид
 * [Беседы на~радио и подкасты](http://download.luwrain.org/chats/)
 * [Видеозаписи выступлений и демонстраций](http://download.luwrain.org/video/)
 
-## См.~также
+## О~проекте
 
-* [Наши публикации](local:/community/publications/)
+* [Что~такое LUWRAIN?](local:/doc/about/)
+* [Часто задаваемые вопросы](local:/doc/faq/)
+* [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/)
+* [Правовой статус](local:/doc/legal/)
+* [Авторы проекта](local:/doc/authors/)
+

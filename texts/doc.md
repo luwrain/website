@@ -54,9 +54,8 @@ luwrain-page-ru
 
 ## О~проекте
 
-* [Что~такое LUWRAIN](local:about/)
-* [Часто задаваемые вопросы](local:faq/)
-* [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:difference/)
-* [Правовой статус проекта](local:legal/)
-* [Авторы проекта](local:authors/)
-* [Контакты](local:contacts/)
+* [Что~такое LUWRAIN?](local:/doc/about/)
+* [Часто задаваемые вопросы](local:/doc/faq/)
+* [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/)
+* [Правовой статус](local:/doc/legal/)
+* [Авторы проекта](local:/doc/authors/)

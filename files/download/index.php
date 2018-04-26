@@ -2,9 +2,10 @@
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Our downloads</h1>
 
-<p>The&#160;entire set of&#160;our products and services is&#160;concentrated around our&#160;user environment called LUWRAIN.
-With LUWRAIN environment, the&#160;blind users are able to&#160;do usual  everyday tasks in&#160;the&#160;most comfortable and easy way.
-In&#160;addition it&#160;offers some&#160;specialized applications purposed for&#160;education of&#160;the&#160;blind and other important things.
+<p>The&#160;entire set of&#160;our products and services is&#160;concentrated around our&#160;platform LUWRAIN.
+With LUWRAIN platform,
+blind users can create their own accessible applications or run the&#160;applications
+created by&#160;our team or other people.
 The&#160;main distributions of&#160;LUWRAIN are&#160;free for&#160;use for&#160;everybody, since they are licensed under the&#160;terms of&#160;GPL&#160;v.3.</p>
 
 <p>These options are for&#160;people who needs LUWRAIN for&#160;work. 
@@ -14,11 +15,11 @@ a&#160;ISO&#160;image suitable for running LUWRAIN as&#160;a&#160;stand-alone OS
 <p>Choose the&#160;most suitable form you need:</p>
 
 <ul>
-<li><a href="<?php echo luwrain_link('iso/');?>">As a&#160;bootable ISO image</a> (installed OS isn't required)</li>
 <li>As&#160;an&#160;application:
 <ul>
 <li><a href="<?php echo luwrain_link('windows/');?>">For&#160;Microsoft Windows</a></li>
 <li><a href="<?php echo luwrain_link('linux/');?>">For&#160;GNU/Linux</a></li>
+<li><a href="<?php echo luwrain_link('iso/');?>">As a&#160;bootable ISO image</a> (installed OS isn't required)</li>
 </ul></li>
 </ul>
 
@@ -59,7 +60,7 @@ Besides all, you can find there:</p>
 <p>Всё множество продуктов и услуг, предоставляемых командой LUWRAIN, сосредоточено вокруг нашей одноимённой платформы.
 Она представляет из&#160;себя пользовательскую среду для людей с&#160;нарушениями зрения, 
 подходящую для&#160;решения большинства повседневных  задач и
-позволяющую запускать наши или сторонние невизуальные приложения. 
+позволяющую разрабатывать и запускать невизуальные приложения. 
 Среда LUWRAIN распространяется бесплатно, поскольку является ПО с&#160;открытым исходным кодом. 
 Её можно свободно загрузить с&#160;нашего сайта в&#160;одной из&#160;нескольких форм.</p>
 
@@ -87,7 +88,7 @@ Besides all, you can find there:</p>
 
 <ul>
 <li><a href="<?php echo luwrain_link('sdk/');?>">LUWRAIN&#160;SDK</a> (требуется для&#160;разработки ваших собственных приложений)</li>
-<li><a href="<?php echo luwrain_link('tarball/');?>">Tar-архив с&#160;исходным кодом проекта</a> (позволяет загрузить исходные тексты и материалы проекта одним файлом)</li>
+<li><a href="<?php echo luwrain_link('tarball/');?>">Tar-архив с&#160;исходным кодом проекта</a> (позволяет загрузить исходные тексты проекта одним файлом)</li>
 <li><a href="<?php echo luwrain_link('git/');?>">Репозитории Git</a> (полный перечень репозиториев для&#160;отслеживания изменений в&#160;наших исходных текстах)</li>
 <li><a href="<?php echo luwrain_link('nightly/');?>">Nightly-сборки</a> (регулярные сборки для&#160;тестирования изменений)</li>
 </ul>
@@ -104,10 +105,14 @@ Besides all, you can find there:</p>
 <li><a href="http://download.luwrain.org/video/">Видеозаписи выступлений и демонстраций</a></li>
 </ul>
 
-<h2>См.&#160;также</h2>
+<h2>О&#160;проекте</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/community/publications/');?>">Наши публикации</a></li>
+<li><a href="<?php echo luwrain_link('/doc/about/');?>">Что&#160;такое LUWRAIN?</a></li>
+<li><a href="<?php echo luwrain_link('/doc/faq/');?>">Часто задаваемые вопросы</a></li>
+<li><a href="<?php echo luwrain_link('/doc/difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
+<li><a href="<?php echo luwrain_link('/doc/legal/');?>">Правовой статус</a></li>
+<li><a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы проекта</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/download/index.php');?>

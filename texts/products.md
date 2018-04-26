@@ -45,12 +45,11 @@ luwrain-page-ru
 
 * [С~чего начать?](local:/doc/user/start/)
 
+
 ## О~проекте
 
-* [Что~такое LUWRAIN, и почему мы считаем, что незрячие люди нуждаются в~нём?](local:/doc/about/)
+* [Что~такое LUWRAIN?](local:/doc/about/)
 * [Часто задаваемые вопросы](local:/doc/faq/)
 * [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/)
-* [Правовой статус проекта](local:/doc/legal/)
+* [Правовой статус](local:/doc/legal/)
 * [Авторы проекта](local:/doc/authors/)
-
-

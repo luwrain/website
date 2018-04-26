@@ -2,7 +2,7 @@
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Bootable ISO images</h1>
 
-<p>Here you can find the&#160;direct links to&#160;our&#160;bootable ISO images.
+<p>Here you can find direct links to&#160;our&#160;bootable ISO images.
 They will be&#160;useful, if you'd like to&#160;run LUWRAIN as&#160;live&#160;CD without installing  on&#160;your&#160;hard drive 
 or if you'd like to&#160;install it as&#160;a&#160;stand-alone OS on&#160;your PC.</p>
 
