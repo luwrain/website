@@ -1,7 +1,7 @@
 
 ENTITLE='Introduction to creating new extensions'
 RUTITLE='Введение в создание расширений'
-TARGET=doc/ext/intro/index.php
+TARGET=doc/devel/intro/index.php
 
 luwrain-page-en
 

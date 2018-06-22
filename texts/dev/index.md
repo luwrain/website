@@ -41,7 +41,15 @@ luwrain-page-ru
 ## Выберите интересующий вас раздел:
 
 * [Правила нашего процесса разработки](local:rules/)
-* [Сборка исходного кода](local:compilation/)
-* [Сборка ISO-образа](local:iso/)
-* [Сборка nightly-релиза из~исходных текстов](local:nightly/compilation/)
+* Разработка расширений на JavaScript:
+* [Основной интерфейс LUWRAIN для~расширений на~JavaScript](local:js/mainobj/)
+* Работа с основным исходным кодом:
+ * [Сборка исходного кода](local:compilation/)
+  * [Сборка nightly-релиза из~исходных текстов](local:nightly/compilation/)
+ * [Сборка ISO-образа](local:iso/)
 
+
+
+## См.~также
+
+* [Никита Цейковец на~Хабрахабр о~разработке приложений для~LUWRAIN](http://habrahabr.ru/post/258413/)

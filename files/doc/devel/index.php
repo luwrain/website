@@ -42,9 +42,20 @@ this makes possible for everybody to&#160;participate in&#160;LUWRAIN developmen
 
 <ul>
 <li><a href="<?php echo luwrain_link('rules/');?>">Правила нашего процесса разработки</a></li>
+<li>Разработка расширений на JavaScript:</li>
+<li><a href="<?php echo luwrain_link('js/mainobj/');?>">Основной интерфейс LUWRAIN для&#160;расширений на&#160;JavaScript</a></li>
+<li>Работа с основным исходным кодом:
+<ul>
 <li><a href="<?php echo luwrain_link('compilation/');?>">Сборка исходного кода</a></li>
-<li><a href="<?php echo luwrain_link('iso/');?>">Сборка ISO-образа</a></li>
 <li><a href="<?php echo luwrain_link('nightly/compilation/');?>">Сборка nightly-релиза из&#160;исходных текстов</a></li>
+<li><a href="<?php echo luwrain_link('iso/');?>">Сборка ISO-образа</a></li>
+</ul></li>
+</ul>
+
+<h2>См.&#160;также</h2>
+
+<ul>
+<li><a href="http://habrahabr.ru/post/258413/">Никита Цейковец на&#160;Хабрахабр о&#160;разработке приложений для&#160;LUWRAIN</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/doc/devel/index.php');?>

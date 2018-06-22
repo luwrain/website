@@ -13,8 +13,7 @@ Choose any&#160;section you need:</p>
 <li><a href="<?php echo luwrain_link('user/manual/');?>">User manual: a&#160;complete guide to&#160;work in&#160;LUWRAIN</a></li>
 <li><a href="<?php echo luwrain_link('/community/bugs/');?>">How to&#160;report a&#160;bug?</a></li>
 </ul></li>
-<li><a href="<?php echo luwrain_link('ext/');?>">How&#160;to create your own extensions and applications for&#160;LUWRAIN?</a></li>
-<li><a href="<?php echo luwrain_link('devel/');?>">Documentation for&#160;members of&#160;our team: how to&#160;work on&#160;LUWRAIN itself?</a></li>
+<li><a href="<?php echo luwrain_link('devel/');?>">Documentation for&#160;developers</a></li>
 </ul>
 
 <p>See&#160;also:</p>
@@ -49,8 +48,7 @@ Choose any&#160;section you need:</p>
 <li><a href="<?php echo luwrain_link('user/manual/');?>">Руководство пользователя: полное описание правил работы в&#160;нашей среде</a></li>
 <li><a href="<?php echo luwrain_link('/community/bugs/');?>">Как сообщить об&#160;ошибке?</a></li>
 </ul></li>
-<li><a href="<?php echo luwrain_link('ext/');?>">Как создать собственные приложения и расширения для&#160;LUWRAIN</a></li>
-<li><p><a href="<?php echo luwrain_link('devel/');?>">Документация для&#160;участников нашей команды</a></p>
+<li><p><a href="<?php echo luwrain_link('devel/');?>">Документация для&#160;разработчиков</a></p>
 
 <p>См.&#160;также:</p></li>
 <li><p><a href="http://wiki.luwrain.org">Наш вики</a></p></li>

@@ -15,8 +15,7 @@ Choose any~section you need:
  * [Installation instructions: what should you do if you'd like to~install LUWRAIN on~your computer?](local:user/installation/)
  * [User manual: a~complete guide to~work in~LUWRAIN](local:user/manual/)
  * [How to~report a~bug?](local:/community/bugs/)
-* [How~to create your own extensions and applications for~LUWRAIN?](local:ext/)
-* [Documentation for~members of~our team: how to~work on~LUWRAIN itself?](local:devel/)
+* [Documentation for~developers](local:devel/)
 
 See~also:
 
@@ -44,8 +43,7 @@ luwrain-page-ru
  * [Инструкция по~установке: как установить систему на~жёсткий диск?](local:user/installation/)
  * [Руководство пользователя: полное описание правил работы в~нашей среде](local:user/manual/)
  * [Как сообщить об~ошибке?](local:/community/bugs/)
-* [Как создать собственные приложения и расширения для~LUWRAIN](local:ext/)
-* [Документация для~участников нашей команды](local:devel/)
+* [Документация для~разработчиков](local:devel/)
 
  См.~также:
 

@@ -1,7 +1,7 @@
 
 ENTITLE='Extensions essentials'
 RUTITLE='Основные понятия расширений'
-TARGET=doc/ext/essentials/index.php
+TARGET=doc/devel/essentials/index.php
 
 luwrain-page-en
 
