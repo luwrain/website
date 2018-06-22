@@ -16,10 +16,7 @@ Choose any~section you need:
  * [User manual: a~complete guide to~work in~LUWRAIN](local:user/manual/)
  * [How to~report a~bug?](local:/community/bugs/)
 * [Documentation for~developers](local:devel/)
-
-See~also:
-
-* [LUWRAIN API Javadoc](/api/)
+ * [LUWRAIN API Javadoc](/api/)
 
 ## About the~project
 
@@ -44,11 +41,12 @@ luwrain-page-ru
  * [Руководство пользователя: полное описание правил работы в~нашей среде](local:user/manual/)
  * [Как сообщить об~ошибке?](local:/community/bugs/)
 * [Документация для~разработчиков](local:devel/)
+ * [LUWRAIN API Javadoc](/api/)
 
  См.~также:
 
 * [Наш вики](http://wiki.luwrain.org)
-* [LUWRAIN API Javadoc](/api/)
+
 
 ## О~проекте
 
