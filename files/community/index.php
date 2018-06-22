@@ -47,7 +47,7 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <h2>Ключевые статьи</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('articles/progstart/');?>">Как сделать первые шаги в&#160;программировании сразу и сходу</a></li>
+<li><a href="<?php echo luwrain_link('articles/progstart/');?>">Как сделать первые шаги в&#160;программировании сходу и сразу</a></li>
 <li><a href="<?php echo luwrain_link('f123e.php');?>">Представляем F123e</a></li>
 </ul>
 
