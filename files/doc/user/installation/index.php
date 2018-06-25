@@ -33,7 +33,7 @@ you have already installed on&#160;your PC.</p>
 как&#160;самостоятельную ОС или как&#160;приложение для&#160;ОС,
 которая у&#160;вас уже установлена.</p>
 
-<h2>Выберите подходящий для&#160;вас вариант:</h2>
+<p>Выберите подходящий для&#160;вас вариант:</p>
 
 <ul>
 <li><a href="<?php echo luwrain_link('iso/');?>">Установка LUWRAIN на&#160;компьютер в&#160;виде самостоятельной ОС</a></li>
@@ -47,7 +47,6 @@ you have already installed on&#160;your PC.</p>
 <h2>См.&#160;также</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/download/iso/');?>">Загрузка ISO-образа</a></li>
 <li><a href="<?php echo luwrain_link('/doc/user/manual/');?>">Руководство пользователя</a></li>
 </ul>
 <?php }?>
