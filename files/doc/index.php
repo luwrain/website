@@ -13,13 +13,10 @@ Choose any&#160;section you need:</p>
 <li><a href="<?php echo luwrain_link('user/manual/');?>">User manual: a&#160;complete guide to&#160;work in&#160;LUWRAIN</a></li>
 <li><a href="<?php echo luwrain_link('/community/bugs/');?>">How to&#160;report a&#160;bug?</a></li>
 </ul></li>
-<li><a href="<?php echo luwrain_link('devel/');?>">Documentation for&#160;developers</a></li>
-</ul>
-
-<p>See&#160;also:</p>
-
+<li><a href="<?php echo luwrain_link('devel/');?>">Documentation for&#160;developers</a>
 <ul>
 <li><a href="/api/">LUWRAIN API Javadoc</a></li>
+</ul></li>
 </ul>
 
 <h2>About the&#160;project</h2>
@@ -50,10 +47,13 @@ Choose any&#160;section you need:</p>
 </ul></li>
 <li><p><a href="<?php echo luwrain_link('devel/');?>">Документация для&#160;разработчиков</a></p>
 
-<p>См.&#160;также:</p></li>
-<li><p><a href="http://wiki.luwrain.org">Наш вики</a></p></li>
+<ul>
 <li><a href="/api/">LUWRAIN API Javadoc</a></li>
 </ul>
+
+<p><p>См.&#160;также:</p></li>
+<li><p><a href="http://wiki.luwrain.org">Наш вики</a></p></li>
+</ul></p>
 
 <h2>О&#160;проекте</h2>
 

@@ -7,7 +7,7 @@ luwrain-page-en
 
 # Sources tarball
 
-In~order to~get our source code tarball,
+In~order to~get a~tarball with our~source code,
 please use this direct link:
 
 * <a href="http://download.luwrain.org/src/1.x.x/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a>
@@ -20,7 +20,7 @@ General information:
 
 This~tarball contains:
 
-* System core and standard controls library
+* System core and standard controls
 * JavaScript engine
 * Browser, PIM, Studio and other major components
 * System-dependent code for~Microsoft Windows and GNU/Linux

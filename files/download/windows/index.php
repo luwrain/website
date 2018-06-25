@@ -34,18 +34,15 @@ Clik on&#160;the&#160;direct link below to&#160;start  downloading:</p>
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Дистрибутив для&#160;Microsoft Windows</h1>
 
-<p>Ниже приведены версии LUWRAIN, которые предназначены для&#160;запуска в&#160;Microsoft Windows.
-Они разделены на&#160;две группы: с&#160;программой установки и без&#160;неё.
-Программа установки упрощает запуск  и делает возможным знакомство с&#160;LUWRAIN  практически сразу после щелчка на&#160;соответствующей ссылке.
-Дистрибутив без&#160;программы установки представляет собой обычный ZIP-архив,
-который может быть более предпочтителен для&#160;опытных пользователей.
-Щёлкните по&#160;прямой ссылке ниже для&#160;начала загрузки:</p>
+<p>Ниже приведена ссылка на&#160;дистрибутив LUWRAIN для&#160;Microsoft Windows.
+Он включает в&#160;себя Java Runtime Environment (JRE),
+речевой синтезатор и
+поддерживает русский и английский языки.</p>
+
+<p>Щёлкните по&#160;прямой ссылке ниже для&#160;начала загрузки:</p>
 
 <ul>
-<li>64-битная версия с&#160;программой установки: <!&#x2013;<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-64bit-<?php echo lwr_version_windows();?>.exe">&#x2013;>luwrain-windows-64bit-<?php echo lwr_version_windows();?>.exe<!&#x2013;</a>&#x2013;></li>
-<li>32-битная версия с&#160;программой установки: <!&#x2013;<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe">&#x2013;>luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe<!&#x2013;</a>&#x2013;></li>
-<li>64-битная версия без&#160;программы установки: <!&#x2013;<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-64bit-<?php echo lwr_version_windows();?>.zip">&#x2013;>luwrain-windows-64bit-<?php echo lwr_version_windows();?>.zip<!&#x2013;</a>&#x2013;></li>
-<li>32-битная версия без&#160;программы установки: <!&#x2013;<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">&#x2013;>luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip<!&#x2013;</a>&#x2013;></li>
+<li><a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">&#x2013;>luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip<!&#x2013;</a></li>
 </ul>
 
 <p>Общая информация о&#160;релизе:</p>

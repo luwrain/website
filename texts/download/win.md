@@ -32,17 +32,14 @@ luwrain-page-ru
 
 # Дистрибутив для~Microsoft Windows
 
-Ниже приведены версии LUWRAIN, которые предназначены для~запуска в~Microsoft Windows.
-Они разделены на~две группы: с~программой установки и без~неё.
-Программа установки упрощает запуск  и делает возможным знакомство с~LUWRAIN  практически сразу после щелчка на~соответствующей ссылке.
-Дистрибутив без~программы установки представляет собой обычный ZIP-архив,
-который может быть более предпочтителен для~опытных пользователей.
+Ниже приведена ссылка на~дистрибутив LUWRAIN для~Microsoft Windows.
+Он включает в~себя Java Runtime Environment (JRE),
+речевой синтезатор и
+поддерживает русский и английский языки.
+
 Щёлкните по~прямой ссылке ниже для~начала загрузки:
 
-* 64-битная версия с~программой установки: <!--<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-64bit-<?php echo lwr_version_windows();?>.exe">-->luwrain-windows-64bit-<?php echo lwr_version_windows();?>.exe<!--</a>-->
-* 32-битная версия с~программой установки: <!--<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe">-->luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe<!--</a>-->
-* 64-битная версия без~программы установки: <!--<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-64bit-<?php echo lwr_version_windows();?>.zip">-->luwrain-windows-64bit-<?php echo lwr_version_windows();?>.zip<!--</a>-->
-* 32-битная версия без~программы установки: <!--<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">-->luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip<!--</a>-->
+* <a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">-->luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip<!--</a>
 
 Общая информация о~релизе:
 

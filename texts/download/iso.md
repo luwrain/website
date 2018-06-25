@@ -54,8 +54,6 @@ luwrain-page-ru
 * Версия LUWRAIN: <?php echo lwr_version_iso();?>
 * Дата релиза: <?php echo lwr_release_date_iso_ru();?>
 
-
-
 ## См.~также
 
 * [Запись загруженного ISO-образа на~носитель](local:writing/)

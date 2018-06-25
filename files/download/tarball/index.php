@@ -2,7 +2,7 @@
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Sources tarball</h1>
 
-<p>In&#160;order to&#160;get our source code tarball,
+<p>In&#160;order to&#160;get a&#160;tarball with our&#160;source code,
 please use this direct link:</p>
 
 <ul>
@@ -20,7 +20,7 @@ please use this direct link:</p>
 <p>This&#160;tarball contains:</p>
 
 <ul>
-<li>System core and standard controls library</li>
+<li>System core and standard controls</li>
 <li>JavaScript engine</li>
 <li>Browser, PIM, Studio and other major components</li>
 <li>System-dependent code for&#160;Microsoft Windows and GNU/Linux</li>
