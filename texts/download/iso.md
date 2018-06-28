@@ -21,7 +21,7 @@ Select the~image by~the~preferable language:
 * <a href="http://download.luwrain.org/iso/luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso">English</a>
 * <a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">Russian</a>
 
-General information:
+Release information:
 
 * Version: <?php echo lwr_version_iso();?>
 * Date of~release: <?php echo lwr_release_date_iso_en();?>
@@ -49,7 +49,7 @@ luwrain-page-ru
 * <a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">Русский</a>
 * <a href="http://download.luwrain.org/iso/luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso">Английский</a>
 
-Общая информация:
+Общая информация о~релизе:
 
 * Версия LUWRAIN: <?php echo lwr_version_iso();?>
 * Дата релиза: <?php echo lwr_release_date_iso_ru();?>

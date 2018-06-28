@@ -7,15 +7,12 @@ luwrain-page-en
 
 # Distribution for~Microsoft Windows
 
-Here~are the~releases for~Microsoft Windows
-divided onto two~groups: with and without an~installer.
-The~installer makes LUWRAIN launch very easy, but the~experienced users could prefer a~manual installation using the~files in~ZIP~archive.
+Here~is our~release for~Microsoft Windows.
+It~includes Java Runtime Environment (JRE), a~speech synthesizer and support 
+
 Clik on~the~direct link below to~start  downloading:
 
-* 64 bit release with~the~installer: <!--<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-64bit-<?php echo lwr_version_windows();?>.exe">-->luwrain-windows-64bit-<?php echo lwr_version_windows();?>.exe<!--</a>-->
-* 32 bit release with~the~installer: <!--<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe">-->luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe<!--</a>-->
-* 64 bit release without an~installer: <!--<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-64bit-<?php echo lwr_version_windows();?>.zip">-->luwrain-windows-64bit-<?php echo lwr_version_windows();?>.zip<!--</a>-->
-* 32 bit release without an~installer: <!--<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">-->luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip<!--</a>-->
+* <!--<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">-->luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip<!--</a>-->
 
 Release details:
 

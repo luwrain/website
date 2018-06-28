@@ -14,7 +14,7 @@ Click on~this direct link to~download LUWRAIN~SDK:
 
 * <a href="http://download.luwrain.org/binary/<?php echo lwr_version_sdk();?>/sdk/luwrain-sdk-<?php echo lwr_version_sdk();?>.zip">luwrain-sdk-<?php echo lwr_version_sdk();?>.zip</a>
 
-General information:
+Release information:
 
 * Version: <?php echo lwr_version_sdk();?>
 * Date of~release: <?php echo lwr_release_date_sdk_en();?>
@@ -34,7 +34,7 @@ luwrain-page-ru
 
 * <a href="http://download.luwrain.org/binary/<?php echo lwr_version_sdk();?>/sdk/luwrain-sdk-<?php echo lwr_version_sdk();?>.zip">luwrain-sdk-<?php echo lwr_version_sdk();?>.zip</a>
 
-Общая информация:
+Общая информация о~релизе:
 
 * Версия: <?php echo lwr_version_sdk();?>
 * Дата релиза: <?php echo lwr_release_date_sdk_ru();?>

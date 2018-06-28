@@ -20,7 +20,7 @@ Select the~archive by~the~preferable architecture:
 * For~64-bit systems (recommended): <a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-64bit-<?php echo lwr_version_linux();?>.tar.gz">luwrain-linux-64bit-<?php echo lwr_version_linux();?>.tar.gz</a>
 * For~32-bit systems: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-32bit-<?php echo lwr_version_linux();?>.tar.gz">luwrain-linux-32bit-<?php echo lwr_version_linux();?>.tar.gz</a>
 
-General information:
+Release information:
 
 * Version: <?php echo lwr_version_linux();?>
 * Date of~release: <?php echo lwr_release_date_linux_en();?>
@@ -49,7 +49,7 @@ luwrain-page-ru
 * Для~64-битных систем (рекомендуется): <a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-64bit-<?php echo lwr_version_linux();?>.tar.gz">luwrain-linux-64bit-<?php echo lwr_version_linux();?>.tar.gz</a>
 * Для~32-битных систем: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-32bit-<?php echo lwr_version_linux();?>.tar.gz">luwrain-linux-32bit-<?php echo lwr_version_linux();?>.tar.gz</a>
 
-Общая информация:
+Общая информация о~релизе:
 
 * Версия LUWRAIN: <?php echo lwr_version_windows();?>
 * Дата релиза: <?php echo lwr_release_date_linux_ru();?>

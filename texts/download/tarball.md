@@ -12,7 +12,7 @@ please use this direct link:
 
 * <a href="http://download.luwrain.org/src/1.x.x/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a>
 
-General information:
+Release information:
 
 * Version: <?php echo lwr_version_tarball();?>
 * Date of~release: <?php echo lwr_release_date_tarball_en();?>
@@ -41,7 +41,7 @@ luwrain-page-ru
 
 * <a href="http://download.luwrain.org/src/1.x.x/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a>
 
-Общая информация о~файле:
+Общая информация о~релизе:
 
 * Версия: <?php echo lwr_version_tarball();?>
 * Дата релиза: <?php echo lwr_release_date_tarball_ru();?>
