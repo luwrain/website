@@ -9,7 +9,7 @@ please use this direct link:</p>
 <li><a href="http://download.luwrain.org/src/1.x.x/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a></li>
 </ul>
 
-<p>General information:</p>
+<p>Release information:</p>
 
 <ul>
 <li>Version: <?php echo lwr_version_tarball();?></li>
@@ -45,7 +45,7 @@ please use this direct link:</p>
 <li><a href="http://download.luwrain.org/src/1.x.x/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a></li>
 </ul>
 
-<p>Общая информация о&#160;файле:</p>
+<p>Общая информация о&#160;релизе:</p>
 
 <ul>
 <li>Версия: <?php echo lwr_version_tarball();?></li>

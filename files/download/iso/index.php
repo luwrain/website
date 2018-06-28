@@ -18,7 +18,7 @@ We support amd64 machines only.</p>
 <li><a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">Russian</a></li>
 </ul>
 
-<p>General information:</p>
+<p>Release information:</p>
 
 <ul>
 <li>Version: <?php echo lwr_version_iso();?></li>
@@ -51,7 +51,7 @@ We support amd64 machines only.</p>
 <li><a href="http://download.luwrain.org/iso/luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso">Английский</a></li>
 </ul>
 
-<p>Общая информация:</p>
+<p>Общая информация о&#160;релизе:</p>
 
 <ul>
 <li>Версия LUWRAIN: <?php echo lwr_version_iso();?></li>

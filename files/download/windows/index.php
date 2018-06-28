@@ -2,16 +2,13 @@
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Distribution for&#160;Microsoft Windows</h1>
 
-<p>Here&#160;are the&#160;releases for&#160;Microsoft Windows
-divided onto two&#160;groups: with and without an&#160;installer.
-The&#160;installer makes LUWRAIN launch very easy, but the&#160;experienced users could prefer a&#160;manual installation using the&#160;files in&#160;ZIP&#160;archive.
-Clik on&#160;the&#160;direct link below to&#160;start  downloading:</p>
+<p>Here&#160;is our&#160;release for&#160;Microsoft Windows.
+It&#160;includes Java Runtime Environment (JRE), a&#160;speech synthesizer and support </p>
+
+<p>Clik on&#160;the&#160;direct link below to&#160;start  downloading:</p>
 
 <ul>
-<li>64 bit release with&#160;the&#160;installer: <!&#x2013;<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-64bit-<?php echo lwr_version_windows();?>.exe">&#x2013;>luwrain-windows-64bit-<?php echo lwr_version_windows();?>.exe<!&#x2013;</a>&#x2013;></li>
-<li>32 bit release with&#160;the&#160;installer: <!&#x2013;<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe">&#x2013;>luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe<!&#x2013;</a>&#x2013;></li>
-<li>64 bit release without an&#160;installer: <!&#x2013;<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-64bit-<?php echo lwr_version_windows();?>.zip">&#x2013;>luwrain-windows-64bit-<?php echo lwr_version_windows();?>.zip<!&#x2013;</a>&#x2013;></li>
-<li>32 bit release without an&#160;installer: <!&#x2013;<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">&#x2013;>luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip<!&#x2013;</a>&#x2013;></li>
+<li><!&#x2013;<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">&#x2013;>luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip<!&#x2013;</a>&#x2013;></li>
 </ul>
 
 <p>Release details:</p>
