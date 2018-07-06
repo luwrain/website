@@ -37,10 +37,11 @@ luwrain-page-ru
 * [списки рассылок](local:mailing-lists);
 * [наш вики](http://wiki.luwrain.org).
 
-Следите за~новостями и процессом разработки:
+Следите за~новостями и процессом разработки на~следующих ресурсах:
 
-* [в Твиттере](http://twitter.com/luwrain);
-* [на~GitHub](https://github.com/luwrain/).
+* [Twitter](http://twitter.com/luwrain)
+* [Instagram](local:https://www.instagram.com/luwrain/)
+* [GitHub](https://github.com/luwrain/)
 
 ## Ключевые материалы
 
@@ -52,9 +53,8 @@ luwrain-page-ru
 
 * [Пресса о~LUWRAIN](local:massmedia/)
 * [Наши публикации и презентации](local:publications/)
-* [Видео на~YouTube](local:video/)
+* [Видеоматериалы](local:video/)
 * [Подкасты](local:podcasts/)
-* [Фотоальбом](local:album/)
 
 ## См.~также
 

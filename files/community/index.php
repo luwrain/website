@@ -37,11 +37,12 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <li><a href="http://wiki.luwrain.org">наш вики</a>.</li>
 </ul>
 
-<p>Следите за&#160;новостями и процессом разработки:</p>
+<p>Следите за&#160;новостями и процессом разработки на&#160;следующих ресурсах:</p>
 
 <ul>
-<li><a href="http://twitter.com/luwrain">в Твиттере</a>;</li>
-<li><a href="https://github.com/luwrain/">на&#160;GitHub</a>.</li>
+<li><a href="http://twitter.com/luwrain">Twitter</a></li>
+<li><a href="<?php echo luwrain_link('https://www.instagram.com/luwrain/');?>">Instagram</a></li>
+<li><a href="https://github.com/luwrain/">GitHub</a></li>
 </ul>
 
 <h2>Ключевые материалы</h2>
@@ -57,9 +58,8 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <ul>
 <li><a href="<?php echo luwrain_link('massmedia/');?>">Пресса о&#160;LUWRAIN</a></li>
 <li><a href="<?php echo luwrain_link('publications/');?>">Наши публикации и презентации</a></li>
-<li><a href="<?php echo luwrain_link('video/');?>">Видео на&#160;YouTube</a></li>
+<li><a href="<?php echo luwrain_link('video/');?>">Видеоматериалы</a></li>
 <li><a href="<?php echo luwrain_link('podcasts/');?>">Подкасты</a></li>
-<li><a href="<?php echo luwrain_link('album/');?>">Фотоальбом</a></li>
 </ul>
 
 <h2>См.&#160;также</h2>

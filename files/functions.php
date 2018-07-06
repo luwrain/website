@@ -58,10 +58,10 @@ function luwrain_top_menu()
             <a href="<?php echo luwrain_link('/doc/about/');?>"><?php echo luwrain_current_lang() == 'ru'?'Всё о нас':'All about us';?></a>
             <ul class="subMenuSmall">
                 <li>
-            <a href="<?php echo luwrain_link('/community/video/');?>">YouTube</a>
+            <a href="http://twitter.com/luwrain">Twitter</a>
                 </li>
                 <li>
-            <a href="http://twitter.com/luwrain"><?php echo luwrain_current_lang() == 'ru'?'Твиттер':'Twitter';?></a>
+            <a href="https://www.instagram.com/luwrain/">Instagram</a>
                 </li>
                 <li>
             <a href="https://github.com/luwrain/">Github</a>
