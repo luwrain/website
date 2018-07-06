@@ -44,9 +44,10 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <li><a href="https://github.com/luwrain/">на&#160;GitHub</a>.</li>
 </ul>
 
-<h2>Ключевые статьи</h2>
+<h2>Ключевые материалы</h2>
 
 <ul>
+<li><a href="http://lib-api.tsu.ru">Разработка открытого API научной библиотеки ТГУ и невизуального клиента на&#160;его&#160;основе</a></li>
 <li><a href="<?php echo luwrain_link('articles/progstart/');?>">Как сделать первые шаги в&#160;программировании сходу и сразу</a></li>
 <li><a href="<?php echo luwrain_link('f123e.php');?>">Представляем F123e</a></li>
 </ul>

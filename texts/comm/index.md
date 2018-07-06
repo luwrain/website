@@ -42,8 +42,9 @@ luwrain-page-ru
 * [в Твиттере](http://twitter.com/luwrain);
 * [на~GitHub](https://github.com/luwrain/).
 
-## Ключевые статьи
+## Ключевые материалы
 
+* [Разработка открытого API научной библиотеки ТГУ и невизуального клиента на~его~основе](http://lib-api.tsu.ru)
 * [Как сделать первые шаги в~программировании сходу и сразу](local:articles/progstart/)
 * [Представляем F123e](local:f123e.php)
 
