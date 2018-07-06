@@ -78,13 +78,13 @@ function luwrain_top_menu()
             </ul>
         </div>
         <div class="col-md-4">
-            <a href="<?php echo luwrain_link('/products/education/');?>"><?php echo luwrain_current_lang() == 'ru'?'Для образования':'For education';?></a>
-            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Для коммерческих компаний':'For business';?></a>
+            <a href="<?php echo luwrain_link('/doc/devel/');?>"><?php echo luwrain_current_lang() == 'ru'?'Для разработчиков':'For developers';?></a>
+            <a href="/api/">API</a>
                         <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статус':'Legal notice';?></a>
         </div>
         <div class="col-md-4">
 <a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo luwrain_current_lang() == 'ru'?'Пресса о нас':'Mass media about us';?></a>
-            <a href="<?php echo luwrain_link('/community/album/');?>"><?php echo luwrain_current_lang() == 'ru'?'Фотоальбом':'Album';?></a>
+            <a href="<?php echo luwrain_link('/community/publications/');?>"><?php echo luwrain_current_lang() == 'ru'?'Публикации':'Publications';?></a>
                     <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo luwrain_current_lang() == 'ru'?'Контакты':'Contact us';?></a>
         </div>
     </div>

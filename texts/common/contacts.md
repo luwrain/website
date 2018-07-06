@@ -7,6 +7,11 @@ luwrain-page-en
 
 # Contact us
 
+See also:
+
+* [Project authors](local:/doc/authors/)
+
+
 Our project is going through a phase of its setup 
 and the channels for the feedback are not properly established yet.
 During this phase you can use the~e-mail mentioned below for 
@@ -20,6 +25,10 @@ The~e-mail for~contacts: luwrain _(at)_ gmail _(dot)_ com
 luwrain-page-ru
 
 # Контакты
+
+См.~также:
+
+* [Авторы проекта](local:/doc/authors/)
 
 
 Наш~проект проходит период становления,

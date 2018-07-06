@@ -51,7 +51,7 @@ luwrain-page-ru
 
 ## Материалы о~нас
 
-* [Пресса о~LUWRAIN](local:massmedia/)
+* [Пресса о~нас](local:massmedia/)
 * [Наши публикации и презентации](local:publications/)
 * [Видеоматериалы](local:video/)
 * [Подкасты](local:podcasts/)

@@ -56,7 +56,7 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <h2>Материалы о&#160;нас</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('massmedia/');?>">Пресса о&#160;LUWRAIN</a></li>
+<li><a href="<?php echo luwrain_link('massmedia/');?>">Пресса о&#160;нас</a></li>
 <li><a href="<?php echo luwrain_link('publications/');?>">Наши публикации и презентации</a></li>
 <li><a href="<?php echo luwrain_link('video/');?>">Видеоматериалы</a></li>
 <li><a href="<?php echo luwrain_link('podcasts/');?>">Подкасты</a></li>
