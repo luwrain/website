@@ -41,7 +41,6 @@
 <li><a href="<?php echo luwrain_link('/community/podcasts/');?>">Подкасты</a></li>
 <li><a href="<?php echo luwrain_link('/community/publications/');?>">Публикации и презентации</a></li>
 <li><a href="<?php echo luwrain_link('/community/massmedia/');?>">Пресса о&#160;нас</a></li>
-<li><a href="<?php echo luwrain_link('/community/album/');?>">Фотоальбом</a></li>
 <li><a href="<?php echo luwrain_link('/doc/difference/');?>">Страница преимуществ системы перед другими решениями</a></li>
 <li><a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы проекта</a></li>
 </ul>

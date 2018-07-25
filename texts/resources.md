@@ -40,7 +40,6 @@ luwrain-page-ru
 * [Подкасты](local:/community/podcasts/)
 * [Публикации и презентации](local:/community/publications/)
 * [Пресса о~нас](local:/community/massmedia/)
-* [Фотоальбом](local:/community/album/)
 * [Страница преимуществ системы перед другими решениями](local:/doc/difference/)
 * [Авторы проекта](local:/doc/authors/)
 

@@ -9,8 +9,7 @@ luwrain-page-en
 
 See~also:
 
-* [What is LUWRAIN?](local:/doc/about/)
-* [Frequently asked questions](local:/doc/faq/)
+* [Main concepts](local:/doc/user/manual/intro/)
 
 The~major difference between LUWRAIN and other software which at~first approach does the~same things 
 is that LUWRAIN __is~not a~screen reading utility__;
@@ -39,8 +38,8 @@ luwrain-page-ru
 
 См.~также:
 
-* [Что такое LUWRAIN?](local:/doc/about/)
-* [Часто задаваемые вопросы](local:/doc/faq/)
+* [Ключевые особенности системы](local:/doc/user/manual/intro/)
+
 
 На~вопрос, чем LUWRAIN отличается от~других инструментов, которые используют люди с~нарушениями зрения для~работы на~ПК,
 мы всегда отвечаем следующим образом:

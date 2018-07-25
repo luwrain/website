@@ -5,8 +5,7 @@
 <p>See&#160;also:</p>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/about/');?>">What is LUWRAIN?</a></li>
-<li><a href="<?php echo luwrain_link('/doc/faq/');?>">Frequently asked questions</a></li>
+<li><a href="<?php echo luwrain_link('/doc/user/manual/intro/');?>">Main concepts</a></li>
 </ul>
 
 <p>The&#160;major difference between LUWRAIN and other software which at&#160;first approach does the&#160;same things 
@@ -35,8 +34,7 @@ its roots  can be&#160;found in&#160;representation of&#160;information  in&#160
 <p>См.&#160;также:</p>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/about/');?>">Что такое LUWRAIN?</a></li>
-<li><a href="<?php echo luwrain_link('/doc/faq/');?>">Часто задаваемые вопросы</a></li>
+<li><a href="<?php echo luwrain_link('/doc/user/manual/intro/');?>">Ключевые особенности системы</a></li>
 </ul>
 
 <p>На&#160;вопрос, чем LUWRAIN отличается от&#160;других инструментов, которые используют люди с&#160;нарушениями зрения для&#160;работы на&#160;ПК,
