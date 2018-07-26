@@ -1,6 +1,6 @@
 
 ENTITLE='Creating a JavaScript extension'
-RUTITLE='Создание расширения на JavaScript'
+RUTITLE='Создание расширения на языке JavaScript'
 TARGET=doc/user/manual/ext-js/index.php
 
 luwrain-page-en
@@ -9,5 +9,5 @@ luwrain-page-en
 
 luwrain-page-ru
 
-# Создание расширения на~JavaScript
+# Создание расширения на~языке JavaScript
 
