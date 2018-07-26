@@ -15,6 +15,13 @@
 <ul>
 <li><a href="<?php echo luwrain_link('intro/');?>">Ключевые особенности</a></li>
 <li><a href="<?php echo luwrain_link('clipboard/');?>">Операции копирования-вставки</a></li>
+<li><a href="<?php echo luwrain_link('hotkeys/');?>">Горячие клавиши</a></li>
+<li>Работа с&#160;расширениями:
+<ul>
+<li><a href="<?php echo luwrain_link('ext-loading/');?>">Порядок загрузки расширений</a></li>
+<li><a href="<?php echo luwrain_link('ext-js/');?>">Создание расширения на&#160;JavaScript</a></li>
+<li><a href="<?php echo luwrain_link('ext-text/');?>">Создание текстового расширения</a></li>
+</ul></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/doc/user/manual/index.php');?>

@@ -20,3 +20,8 @@ luwrain-page-ru
 
 * [Ключевые особенности](local:intro/)
 * [Операции копирования-вставки](local:clipboard/)
+* [Горячие клавиши](local:hotkeys/)
+* Работа с~расширениями:
+ * [Порядок загрузки расширений](local:ext-loading/)
+ * [Создание расширения на~JavaScript](local:ext-js/)
+  * [Создание текстового расширения](local:ext-text/)
