@@ -15,6 +15,7 @@
 <ul>
 <li><a href="<?php echo luwrain_link('intro/');?>">Ключевые особенности</a></li>
 <li><a href="<?php echo luwrain_link('clipboard/');?>">Операции копирования-вставки</a></li>
+<li><a href="<?php echo luwrain_link('calc/');?>">Вычисления на&#160;калькуляторе</a></li>
 <li><a href="<?php echo luwrain_link('hotkeys/');?>">Горячие клавиши</a></li>
 <li>Работа с&#160;расширениями:
 <ul>
