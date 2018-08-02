@@ -9,7 +9,7 @@ please use this direct link:</p>
 <li><a href="http://download.luwrain.org/src/1.x.x/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a></li>
 </ul>
 
-<p>Release information:</p>
+<p>Release details:</p>
 
 <ul>
 <li>Version: <?php echo lwr_version_tarball();?></li>

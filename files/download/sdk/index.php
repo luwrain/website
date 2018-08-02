@@ -11,7 +11,7 @@ It&#160;is&#160;prepared for&#160;Java developers and provides necessary jar's, 
 <li><a href="http://download.luwrain.org/binary/<?php echo lwr_version_sdk();?>/sdk/luwrain-sdk-<?php echo lwr_version_sdk();?>.zip">luwrain-sdk-<?php echo lwr_version_sdk();?>.zip</a></li>
 </ul>
 
-<p>Release information:</p>
+<p>Release details:</p>
 
 <ul>
 <li>Version: <?php echo lwr_version_sdk();?></li>

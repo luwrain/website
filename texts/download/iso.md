@@ -18,10 +18,10 @@ We support amd64 machines only.
 
 Select the~image by~the~preferable language:
 
-* <a href="http://download.luwrain.org/iso/luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso">English</a>
-* <a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">Russian</a>
+* English language: <a href="http://download.luwrain.org/iso/luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso">luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso</a>
+* Russian language: <a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso</a>
 
-Release information:
+Release details:
 
 * Version: <?php echo lwr_version_iso();?>
 * Date of~release: <?php echo lwr_release_date_iso_en();?>
@@ -44,10 +44,10 @@ luwrain-page-ru
 так и на~CD/DVD-диск.
 Мы поддерживаем только 64-битные компьютеры с~архитектурой amd64.
 
-Выберите язык для~начала загрузки файла:
+Выберите файл для~начала загрузки файла:
 
-* <a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">Русский</a>
-* <a href="http://download.luwrain.org/iso/luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso">Английский</a>
+* Русская версия: <a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso</a>
+* Английская версия: <a href="http://download.luwrain.org/iso/luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso">luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso</a>
 
 Общая информация о~релизе:
 

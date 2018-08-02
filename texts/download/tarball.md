@@ -12,7 +12,7 @@ please use this direct link:
 
 * <a href="http://download.luwrain.org/src/1.x.x/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a>
 
-Release information:
+Release details:
 
 * Version: <?php echo lwr_version_tarball();?>
 * Date of~release: <?php echo lwr_release_date_tarball_en();?>

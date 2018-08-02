@@ -17,7 +17,7 @@ though we hope that our&#160;releases are suitable for&#160;the&#160;most of&#16
 <li>For&#160;32-bit systems: <a href="http://download.luwrain.org/binary/<?php echo lwr_version_linux();?>/linux/luwrain-linux-32bit-<?php echo lwr_version_linux();?>.tar.gz">luwrain-linux-32bit-<?php echo lwr_version_linux();?>.tar.gz</a></li>
 </ul>
 
-<p>Release information:</p>
+<p>Release details:</p>
 
 <ul>
 <li>Version: <?php echo lwr_version_linux();?></li>
