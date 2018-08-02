@@ -11,8 +11,6 @@ luwrain-page-en
  * [LUWRAIN for~Microsoft Windows](local:/download/windows/)
  * [LUWRAIN for~GNU/Linux](local:/download/linux/)
  * [Distribution as~a~Linux-based operating system](local:/download/iso/)
-* [Products for business](local:business/)
-* [Products for education](local:education/)
 
 ## See~also
 
@@ -38,8 +36,6 @@ luwrain-page-ru
  * [Дистрибутив для Microsoft Windows](local:/download/windows/)
  * [Дистрибутив для GNU/Linux](local:/download/linux/)
  * [Дистрибутив в виде операционной системы на~ядре Linux](local:/download/iso/)
-* [Продукты для коммерческих компаний](local:business/)
-* [Продукты для образования](local:education/)
 
 ## См.~также
 

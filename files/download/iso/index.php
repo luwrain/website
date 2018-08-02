@@ -44,7 +44,7 @@ We support amd64 machines only.</p>
 так и на&#160;CD/DVD-диск.
 Мы поддерживаем только 64-битные компьютеры с&#160;архитектурой amd64.</p>
 
-<p>Выберите файл для&#160;начала загрузки файла:</p>
+<p>Выберите файл для&#160;начала загрузки:</p>
 
 <ul>
 <li>Русская версия: <a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso</a></li>

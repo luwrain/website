@@ -44,7 +44,7 @@ luwrain-page-ru
 так и на~CD/DVD-диск.
 Мы поддерживаем только 64-битные компьютеры с~архитектурой amd64.
 
-Выберите файл для~начала загрузки файла:
+Выберите файл для~начала загрузки:
 
 * Русская версия: <a href="http://download.luwrain.org/iso/luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso">luwrain-ru-amd64-<?php echo lwr_version_iso();?>.iso</a>
 * Английская версия: <a href="http://download.luwrain.org/iso/luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso">luwrain-en-amd64-<?php echo lwr_version_iso();?>.iso</a>
