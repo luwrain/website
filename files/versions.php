@@ -3,17 +3,17 @@
 
   function lwr_version()
   {
-    return '1.1.0';
+    return '1.1.1';
   }
 
   function lwr_release_date_en()
   {
-    return 'April 24, 2018';
+    return 'August 1, 2018';
   }
 
   function lwr_release_date_ru()
   {
-    return '24 апреля 2018 г.';
+    return '1 августа 2018 г.';
   }
 
   function lwr_version_windows()
