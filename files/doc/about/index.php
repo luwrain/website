@@ -5,9 +5,9 @@
 <p>See&#160;also:</p>
 
 <ul>
+<li><a href="<?php echo luwrain_link('/community/publications/');?>">Our&#160;publications</a></li>
+<li><a href="<?php echo luwrain_link('/community/massmedia/');?>">Mass media about our project</a></li>
 <li><a href="<?php echo luwrain_link('/doc/difference/');?>">Why is&#160;LUWRAIN different than other accessible solutions?</a></li>
-<li><a href="<?php echo luwrain_link('/doc/faq/');?>">Frequently asked questions</a></li>
-<li><a href="<?php echo luwrain_link('/doc/legal/');?>">Legal notes</a></li>
 <li><a href="<?php echo luwrain_link('/doc/authors/');?>">Who we are?</a></li>
 </ul>
 
@@ -81,9 +81,9 @@ In&#160;addition all&#160;companies are able to&#160;ensure that LUWRAIN doesn't
 <p>См.&#160;также:</p>
 
 <ul>
+<li><a href="<?php echo luwrain_link('/community/publications/');?>">Наши публикации</a></li>
+<li><a href="<?php echo luwrain_link('/community/massmedia/');?>">Пресса о&#160;нас</a></li>
 <li><a href="<?php echo luwrain_link('/doc/difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
-<li><a href="<?php echo luwrain_link('/doc/faq/');?>">Часто задаваемые вопросы</a></li>
-<li><a href="<?php echo luwrain_link('/doc/legal/');?>">Правовой статус</a></li>
 <li><a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы проекта</a></li>
 </ul>
 

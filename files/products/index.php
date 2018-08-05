@@ -9,8 +9,6 @@
 <li><a href="<?php echo luwrain_link('/download/linux/');?>">LUWRAIN for&#160;GNU/Linux</a></li>
 <li><a href="<?php echo luwrain_link('/download/iso/');?>">Distribution as&#160;a&#160;Linux-based operating system</a></li>
 </ul></li>
-<li><a href="<?php echo luwrain_link('business/');?>">Products for business</a></li>
-<li><a href="<?php echo luwrain_link('education/');?>">Products for education</a></li>
 </ul>
 
 <h2>See&#160;also</h2>
@@ -39,8 +37,6 @@
 <li><a href="<?php echo luwrain_link('/download/linux/');?>">Дистрибутив для GNU/Linux</a></li>
 <li><a href="<?php echo luwrain_link('/download/iso/');?>">Дистрибутив в виде операционной системы на&#160;ядре Linux</a></li>
 </ul></li>
-<li><a href="<?php echo luwrain_link('business/');?>">Продукты для коммерческих компаний</a></li>
-<li><a href="<?php echo luwrain_link('education/');?>">Продукты для образования</a></li>
 </ul>
 
 <h2>См.&#160;также</h2>

@@ -9,9 +9,9 @@ luwrain-page-en
 
 See~also:
 
+* [Our~publications](local:/community/publications/)
+* [Mass media about our project](local:/community/massmedia/)
 * [Why is~LUWRAIN different than other accessible solutions?](local:/doc/difference/ )
-* [Frequently asked questions](local:/doc/faq/)
-* [Legal notes](local:/doc/legal/)
 * [Who we are?](local:/doc/authors/)
 
 ## What is LUWRAIN?
@@ -78,9 +78,9 @@ luwrain-page-ru
 
 См.~также:
 
+* [Наши публикации](local:/community/publications/)
+* [Пресса о~нас](local:/community/massmedia/)
 * [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/ )
-* [Часто задаваемые вопросы](local:/doc/faq/)
-* [Правовой статус](local:/doc/legal/)
 * [Авторы проекта](local:/doc/authors/)
 
 ## Что такое LUWRAIN?
