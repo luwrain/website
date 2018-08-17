@@ -4,5 +4,7 @@
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Чтение новостей</h1>
+
+<h2>Горячие клавиши</h2>
 <?php }?>
 <?php luwrain_end_page('/doc/user/manual/news/index.php');?>
