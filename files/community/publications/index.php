@@ -30,7 +30,7 @@
 (Montpellier, France, July 9, 2014, English language)</li>
 </ul>
 
-<p>See&#160;also:</p>
+<h2>See&#160;also</h2>
 
 <ul>
 <li><a href="<?php echo luwrain_link('/community/massmedia/');?>">Mass media about us</a></li>
@@ -69,7 +69,7 @@
 (Монпелье, Франция, 9 июля 2014&#160;г., анг.&#160;яз.)</li>
 </ul>
 
-<p>См.&#160;также:</p>
+<h2>См.&#160;также</h2>
 
 <ul>
 <li><a href="<?php echo luwrain_link('/community/massmedia/');?>">Пресса о&#160;нас</a></li>

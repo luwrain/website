@@ -29,7 +29,7 @@ luwrain-page-en
 * [Presentation for~the~report on~LSM/RMLL](http://download.luwrain.org/pdf/presentation-LSMRMLL-en-2014-07-09.pdf)
 (Montpellier, France, July 9, 2014, English language)
 
-See~also:
+## See~also
 
 * [Mass media about us](local:/community/massmedia/)
 * [Video on YouTube](local:/community/video/)
@@ -64,7 +64,7 @@ luwrain-page-ru
 (Монпелье, Франция, 9 июля 2014~г., анг.~яз.)
 
 
-См.~также:
+## См.~также
 
 * [Пресса о~нас](local:/community/massmedia/)
 * [Видео на YouTube](local:/community/video/)
