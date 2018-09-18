@@ -64,13 +64,13 @@ function luwrain_top_menu()
             <a href="https://www.instagram.com/luwrain/">Instagram</a>
                 </li>
                 <li>
+            <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a>
+                </li>
+                <li>
             <a href="https://github.com/luwrain/">Github</a>
                 </li>
                 <li>
             <a href="http://wiki.luwrain.org"><?php echo luwrain_current_lang() == 'ru'?'Вики':'Wiki';?></a>
-                </li>
-                <li>
-            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
                 </li>
                 <li>
             <a href="<?php echo luwrain_link('/resources/');?>"><?php echo luwrain_current_lang() == 'ru'?'...ещё':'...more';?></a>
