@@ -15,6 +15,7 @@
 <ul>
 <li><a href="<?php echo luwrain_link('intro/');?>">Ключевые особенности</a></li>
 <li><a href="<?php echo luwrain_link('clipboard/');?>">Операции копирования-вставки</a></li>
+<li><a href="<?php echo luwrain_link('speech/');?>">Настройка вывода речи</a></li>
 <li><a href="<?php echo luwrain_link('news/');?>">Чтение новостей</a></li>
 <li><a href="<?php echo luwrain_link('notepad/');?>">Редактирование текстовых файлов в&#160;Блокноте</a></li>
 <li><a href="<?php echo luwrain_link('reader/');?>">Просмотр документов</a></li>
