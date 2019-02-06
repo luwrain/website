@@ -42,6 +42,7 @@ this makes possible for everybody to&#160;participate in&#160;LUWRAIN developmen
 
 <ul>
 <li><a href="<?php echo luwrain_link('rules/');?>">Правила нашего процесса разработки</a></li>
+<li><a href="<?php echo luwrain_link('wininstaller/');?>">Сборка  инсталлятора для Microsoft Windows</a></li>
 <li>Разработка расширений на JavaScript:</li>
 <li><a href="<?php echo luwrain_link('js/mainobj/');?>">Основной интерфейс LUWRAIN для&#160;расширений на&#160;JavaScript</a></li>
 <li>Работа с основным исходным кодом:

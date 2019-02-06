@@ -41,6 +41,7 @@ luwrain-page-ru
 ## Выберите интересующий вас раздел:
 
 * [Правила нашего процесса разработки](local:rules/)
+* [Сборка  инсталлятора для Microsoft Windows](local:wininstaller/)
 * Разработка расширений на JavaScript:
 * [Основной интерфейс LUWRAIN для~расширений на~JavaScript](local:js/mainobj/)
 * Работа с основным исходным кодом:

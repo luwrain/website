@@ -38,7 +38,7 @@ Jar-файл должен содержать манифест, в котором
 <p>Правила написания расширений на&#160;языке JavaScript и в&#160;виде текстовых файлов  приведены в&#160;соответствующих разделах документации:</p>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/user/manual/ext-js/');?>">Создание расширения на языке JavaScript</a></li>
+<li><a href="<?php echo luwrain_link('/doc/js/');?>">Создание расширения на языке JavaScript</a></li>
 <li><a href="<?php echo luwrain_link('/doc/user/manual/ext-text/');?>">Создание текстового расширения</a></li>
 </ul>
 <?php }?>

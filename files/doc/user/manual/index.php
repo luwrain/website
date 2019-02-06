@@ -27,7 +27,6 @@
 <li>Работа с&#160;расширениями:
 <ul>
 <li><a href="<?php echo luwrain_link('ext-loading/');?>">Порядок загрузки расширений</a></li>
-<li><a href="<?php echo luwrain_link('ext-js/');?>">Создание расширения на&#160;JavaScript</a></li>
 <li><a href="<?php echo luwrain_link('ext-text/');?>">Создание текстового расширения</a></li>
 </ul></li>
 </ul>
