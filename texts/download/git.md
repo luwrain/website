@@ -117,12 +117,26 @@ luwrain-page-ru
 
 * [Компиляция наших nightly-сборок](local:/doc/devel/nightly/)
 
-Наш исходный код опубликован в~виде нескольких репозиториев Git на~сервисе [github.com](http://github.com/luwrain/).
-Они все перечислены ниже с~комментариями и разбиением на~несколько категорий.
-Пожалуйста, обратите внимание, что в~репозитории [base.git](https://github.com/luwrain/base.git) присутствует скрипт *lwr-checkout*,
+Наш исходный код опубликован в~виде серии репозиториев Git по~адресу [https://github.com/luwrain/](http://github.com/luwrain/).
+Они перечислены ниже с~краткими комментариями об~их~назначении.
+Пожалуйста, обратите внимание, что в~репозитории [base.git](https://github.com/luwrain/base.git) присутствует скрипт __lwr-checkout__,
 который выполняет автоматическое клонирование всех репозиториев, необходимых для~сборки нашего дистрибутива.
 
-## Основные репозитории
+Репозитории разбиты на~несколько категорий,
+которые определяют видимость классов в~них.
+Классы в~репозиториях  в~категории "Ключевые компоненты" экспортируются во~все приложения и в~код для~поддержки национальных языков и стандартов.
+Классы системнозависимых компонентов и приложений не~экспортируются,
+кроме кода для~поддержки национальных языков и стандартов.
+Классы в~центральных репозиториях
+[luwrain.git](https://github.com/luwrain/luwrain.git)
+и
+[base.git](https://github.com/base.git).
+доступны во~всех компонентах, приложениях и расширениях.
+Код в~репозитории
+[interaction-javafx](https://github.com/luwrain/interaction-javafx.git)
+загружается ядром системы и не~доступен для~кода в~других репозиториях.
+
+## Ядро системы
 
 * [https://github.com/luwrain/luwrain.git](https://github.com/luwrain/luwrain.git) ---
 ядро системы, стандартные элементы управления, менеджер расширений
@@ -130,30 +144,6 @@ luwrain-page-ru
 набор интерфейсов, доступных всем расширениям
 * [https://github.com/luwrain/interaction-javafx.git](https://github.com/luwrain/interaction-javafx.git) ---
 основанный на JavaFX механизм взаимодействия с~пользователем
-* [https://github.com/luwrain/doctree.git](https://github.com/luwrain/doctree.git) ---
-работа со~структурированными документами и фильтры для чтения различных форматов (DOC, FB2, HTML и~др.)
-* [https://github.com/luwrain/pim.git](https://github.com/luwrain/pim.git) ---
-менеджер личной информации
-* [https://github.com/luwrain/network.git](https://github.com/luwrain/network.git) ---
-управление сетевыми подключениями (только для GNU/Linux)
-
-## Основные приложения
-
-* [https://github.com/luwrain/app-browser.git](https://github.com/luwrain/app-browser.git) ---
-веб-браузер ([здесь](http://luwrain.org/api-browser) также доступна документация Javadoc)
-* [https://github.com/luwrain/app-commander.git](https://github.com/luwrain/app-commander.git) ---
-двухпанельный файловый менеджер для~операций над~файлами и каталогами
-* [https://github.com/luwrain/app-mail.git](https://github.com/luwrain/app-mail.git) ---
-почтовый клиент
-* [https://github.com/luwrain/app-message.git](https://github.com/luwrain/app-message.git) ---
-редактор сообщений электронной почты
-* [https://github.com/luwrain/app-reader.git](https://github.com/luwrain/app-reader.git) ---
-просмотр структурированных документов
-* [https://github.com/luwrain/app-player.git](https://github.com/luwrain/app-player.git) ---
-мультимедиа плеер
-
-## Вспомогательные репозитории
-
 * [https://github.com/luwrain/extensions.git](https://github.com/luwrain/extensions.git) ---
 набор стандартных расширений
 * [https://github.com/luwrain/i18n.git](https://github.com/luwrain/i18n.git) ---
@@ -161,33 +151,35 @@ luwrain-page-ru
 * [https://github.com/luwrain/registry.git](https://github.com/luwrain/registry.git) ---
 данные реестра
 
-## Прочие приложения
+## Ключевые компоненты
 
-* [https://github.com/luwrain/app-calc.git](https://github.com/luwrain/app-calc.git) ---
-калькулятор
-* [https://github.com/luwrain/app-calendar.git](https://github.com/luwrain/app-calendar.git) ---
-календарь
-* [https://github.com/luwrain/app-diary.git](https://github.com/luwrain/app-diary.git) ---
-персональный дневник
-* [https://github.com/luwrain/app-fetch.git](https://github.com/luwrain/app-fetch.git) ---
-доставка почты и новостей
-* [https://github.com/luwrain/app-news.git](https://github.com/luwrain/app-news.git) ---
-чтение новостей
-* [https://github.com/luwrain/app-notepad.git](https://github.com/luwrain/app-notepad.git) ---
-простейший текстовый редактор
-* [https://github.com/luwrain/app-term.git](https://github.com/luwrain/app-term.git) ---
-терминал (только для~GNU/Linux)
-* [https://github.com/luwrain/app-twitter.git](https://github.com/luwrain/app-twitter.git) ---
-клиент для~Твиттера
-* [https://github.com/luwrain/app-writer.git](https://github.com/luwrain/app-writer.git)
-редактирование документов
+* [https://github.com/luwrain/app-browser.git](https://github.com/luwrain/app-browser.git) ---
+веб-браузер, основанный на~движке WebKit
+* [https://github.com/luwrain/pim.git](https://github.com/luwrain/pim.git) ---
+менеджер личной информации
+* [https://github.com/luwrain/player.git](https://github.com/luwrain/player.git) ---
+плеер медиафайлов
+* [https://github.com/luwrain/reader.git](https://github.com/luwrain/reader.git) ---
+работа со~структурированными документами
+* [https://github.com/luwrain/studio.git](https://github.com/luwrain/studio.git) ---
+работа со~структурированными документами
+
+## Приложения
+
 * [https://github.com/luwrain/app-contacts.git](https://github.com/luwrain/app-contacts.git)
 персональная адресная книга
-* [https://github.com/luwrain/app-contacts.git](https://github.com/luwrain/app-fb.git)
-клиент для~Facebook
-* [https://github.com/luwrain/app-contacts.git](https://github.com/luwrain/app-char.git)
-мессенджер
-
+* [https://github.com/luwrain/app-commander.git](https://github.com/luwrain/app-commander.git) ---
+двухпанельный файловый менеджер для~операций над~файлами и каталогами
+* [https://github.com/luwrain/app-mail.git](https://github.com/luwrain/app-mail.git) ---
+почтовый клиент
+* [https://github.com/luwrain/app-news.git](https://github.com/luwrain/app-news.git) ---
+чтение новостей при~помощи RSS-лент
+* [https://github.com/luwrain/app-notepad.git](https://github.com/luwrain/app-notepad.git) ---
+простейший текстовый редактор
+* [https://github.com/luwrain/app-twitter.git](https://github.com/luwrain/app-twitter.git) ---
+клиент для~Твиттера
+* [https://github.com/luwrain/app-vk.git](https://github.com/luwrain/app-vk.git)
+клиент для~социальнйо сети ВКонтакте
 
 ## Системнозависимые компоненты
 
@@ -195,22 +187,4 @@ luwrain-page-ru
 для~GNU/Linux
 * [https://github.com/luwrain/windows.git](https://github.com/luwrain/windows.git) ---
 для~Microsoft Windows
-* [https://github.com/luwrain/macos.git](https://github.com/luwrain/macos.git) ---
-для Mac OS X (в~настоящий момент не~поддерживается)
 
-## Системные сервисы
-
-Несмотря на то, что мы упоминаем  эти репозитории, фактически, над~ними работы не~ведём.
-Только VoiceMan включается в~настоящий момент в~наши ISO-образы.
-Остальные репозитории существуют большей частью для~обсуждения функциональности соответствующих сервисов.
-
-* [https://github.com/luwrain/voiceman.git](https://github.com/luwrain/voiceman.git) ---
-речевой сервер
-* [https://github.com/luwrain/libdbusspeech.git](https://github.com/luwrain/libdbusspeech.git) ---
-интерфейс для~синтезаторов речи на~основе D-Bus
-* [https://github.com/luwrain/guidecraft.git](https://github.com/luwrain/guidecraft.git) ---
-клиент AT-SPI и оконный менеджер
-* [https://github.com/luwrain/pointvox.git](https://github.com/luwrain/pointvox.git) ---
-управление синтезаторами речи
-* [https://github.com/luwrain/musitorius.git](https://github.com/luwrain/musitorius.git) ---
-управление медиапроигрывателем
