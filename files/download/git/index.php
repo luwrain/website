@@ -14,6 +14,21 @@ with&#160;brief comments.
 Please note that there is the&#160;<em>lwr-checkout</em> script in&#160;<a href="https://github.com/luwrain/base.git">base.git</a>
 which clones all&#160;repositories necessary to&#160;compile our&#160;distribution.</p>
 
+<p>All&#160;repositories are divided onto several categories,
+belonging to&#160;the&#160;particular category  is dependnt on  the&#160;visibility rules for&#160;the&#160;classes inside.
+The&#160;classes in&#160;the&#160;repositories of&#160;the&#160;category  "Major components"
+are exported to&#160;all&#160;applications  and to&#160;the&#160;implementation of&#160;the&#160;national standards.
+The&#160;classes of&#160;system-dependent repositories are not&#160;accessible,
+except of&#160;the&#160;implementation of&#160;national standards.
+The&#160;classes of&#160;the&#160;central repositories
+<a href="https://github.com/luwrain/luwrain.git">luwrain.git</a>
+and
+<a href="https://github.com/base.git">base.git</a>
+are accessible in&#160;any extension, application and component.
+The&#160;code of the&#160;repository
+<a href="https://github.com/luwrain/interaction-javafx.git">interaction-javafx</a>
+is loaded by&#160;the&#160;LUWRAIN core and not&#160;available elsewhere at&#160;all.</p>
+
 <h2>Core repositories</h2>
 
 <ul>
@@ -130,17 +145,17 @@ multimedia player control</li>
 <p>Наш исходный код опубликован в&#160;виде серии репозиториев Git по&#160;адресу <a href="http://github.com/luwrain/">https://github.com/luwrain/</a>.
 Они перечислены ниже с&#160;краткими комментариями об&#160;их&#160;назначении.
 Пожалуйста, обратите внимание, что в&#160;репозитории <a href="https://github.com/luwrain/base.git">base.git</a> присутствует скрипт <strong>lwr-checkout</strong>,
-который выполняет автоматическое клонирование всех репозиториев, необходимых для&#160;сборки нашего дистрибутива.</p>
+который выполняет автоматическое клонирование всех репозиториев, необходимых для&#160;сборки дистрибутива LUWRAIN.</p>
 
 <p>Репозитории разбиты на&#160;несколько категорий,
-которые определяют видимость классов в&#160;них.
+которые определяют видимость классов.
 Классы в&#160;репозиториях  в&#160;категории "Ключевые компоненты" экспортируются во&#160;все приложения и в&#160;код для&#160;поддержки национальных языков и стандартов.
 Классы системнозависимых компонентов и приложений не&#160;экспортируются,
 кроме кода для&#160;поддержки национальных языков и стандартов.
 Классы в&#160;центральных репозиториях
 <a href="https://github.com/luwrain/luwrain.git">luwrain.git</a>
 и
-<a href="https://github.com/base.git">base.git</a>.
+<a href="https://github.com/base.git">base.git</a>
 доступны во&#160;всех компонентах, приложениях и расширениях.
 Код в&#160;репозитории
 <a href="https://github.com/luwrain/interaction-javafx.git">interaction-javafx</a>

@@ -17,8 +17,8 @@ with~brief comments.
 Please note that there is the~*lwr-checkout* script in~[base.git](https://github.com/luwrain/base.git)
 which clones all~repositories necessary to~compile our~distribution.
 
-All~repositories are divided onto several categories,
-belonging to~the~particular category  is dependnt on  the~visibility rules for~the~classes inside.
+All~repositories are divided onto several categories.
+The~belonging to~the~particular category  is dependnt on  the~visibility rules for~the~classes inside.
 The~classes in~the~repositories of~the~category  "Major components"
 are exported to~all~applications  and to~the~implementation of~the~national standards.
 The~classes of~system-dependent repositories are not~accessible,
