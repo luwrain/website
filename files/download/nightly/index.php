@@ -71,6 +71,7 @@ so these releases are usually   available within a&#160;couple  of&#160;months.<
 <ul>
 <li><a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-nightly</a>: исходные тексты LUWRAIN, использованные в&#160;ходе сборки;</li>
 <li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-32bit</a>: 32-битная версия для&#160;Microsoft Windows, готовая к&#160;запуску;</li>
+<li><a href="http://download.luwrain.org/nightly/latest/luwrain-windows-installer-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-installer-32bit</a>: 32-битная версия для&#160;Microsoft Windows с&#160;материалами для&#160;создания инсталлятора;</li>
 <li><a href="http://download.luwrain.org/nightly/latest/luwrain-linux-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-32bit</a>: 32-битная версия для&#160;GNU/Linux (требует Java&#160;SE Runtime Environment);</li>
 <li><a href="http://download.luwrain.org/nightly/latest/luwrain-linux-64bit-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-64bit</a>: 64-битная версия для&#160;GNU/Linux (требует Java&#160;SE Runtime Environment);</li>
 <li><a href="http://download.luwrain.org/nightly/latest/luwrain-sdk-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-sdk</a>: сборка LUWRAIN&#160;SDK (включает документацию Javadoc);</li>

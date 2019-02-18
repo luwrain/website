@@ -25,43 +25,40 @@ Choose the~most suitable form you need:
  * [For~GNU/Linux](local:linux/)
  * [As a~bootable ISO image](local:iso/) (installed OS isn't required)
 
-## For~developers and testers
+## LUWRAIN SDK
+
+LUWRAIN~SDK is purposed for~the~developers who are willing to create
+their own application or extension for~LUWRAIN using Java.
+
+* [Download page for~LUWRAIN~SDK](local:sdk/)
+
+## Our~source code
+
+The~source code of~LUWRAIN can be~obtained in~one~of~the~several 
 
 The~first option of~this list is purposed for~the~developers
 of~applications for~LUWRAIN.
 Others can be~useful only for~developers who would like to~improve LUWRAIN itself.
 
-* [LUWRAIN~SDK](local:sdk/) (needed for~building your own application for~LUWRAIN)
+
 * [Tarball with source code](local:tarball/) (published basically to~make LUWRAIN sources downloadable in~single click)
 * [Git~repositories](local:git/) (the~entire set of~repositories for~tracking of~changes in~our~project)
 * [Nightly builds](local:nightly/) (regular binary builds for~testers)
 
-## Host download.luwrain.org
+Please be aware that you can visit the~host [download.luwrain.org](http://download.luwrain.org) directly.
 
-Please be aware that you can visit the~host [download.luwrain.org](http://download.luwrain.org) directly 
-as~a~single and easily observable place gathering all of~our~materials for~download.
-Besides all, you can find there:
-
-* [Our pdf materials](http://download.luwrain.org/pdf/)
-* [Talks on~radio and podcasts](http://download.luwrain.org/chats/) (mostly in~Russian)
-* [Video recordings](http://download.luwrain.org/video/) (mostly in~Russian)
-
-## see~also
-
-* [Our publications](local:/community/publications/)
 
 luwrain-page-ru
 
 # Загрузка наших дистрибутивов
 
 Всё множество продуктов и услуг, предоставляемых командой LUWRAIN, сосредоточено вокруг нашей одноимённой платформы.
-Она представляет из~себя пользовательскую среду для людей с~нарушениями зрения, 
-подходящую для~решения большинства повседневных  задач и
-позволяющую разрабатывать и запускать невизуальные приложения. 
-Среда LUWRAIN распространяется бесплатно, поскольку является ПО с~открытым исходным кодом. 
-Её можно свободно загрузить с~нашего сайта в~одной из~нескольких форм.
+Это пользовательская среда для людей с~нарушениями зрения, 
+позволяющая разрабатывать и запускать невизуальные приложения. 
+Среда LUWRAIN распространяется бесплатно, поскольку является свободным ПО. 
+Её можно загрузить с~нашего сайта в~одной из~нескольких форм.
 
-LUWRAIN как самостоятельная ОС на ядре Linux в~виде ISO-образа не~требует никакого стороннего ПО на вашем компьютере  и подходит как для работы,
+LUWRAIN как самостоятельная ОС на ядре Linux в~виде ISO-образа не~требует стороннего ПО на вашем компьютере  и подходит как для работы,
 так и для ознакомления без установки на жёсткий диск.
 В~остальных случаях LUWRAIN подготовлен как~приложение для запуска в~Microsoft Windows или в~GNU/Linux.
 
@@ -72,27 +69,27 @@ LUWRAIN как самостоятельная ОС на ядре Linux в~вид
  * [Для~GNU/Linux](local:linux/)
 * [LUWRAIN в~виде загрузочного ISO-образа на ядре Linux](local:iso/)
 
-## Релизы для~разработчиков   и тестеров
+## LUWRAIN~SDK
 
-Первый вариант в~списке ниже предназначен для~разработчиков,
-желающих создать собственные приложения и расширения на~основе LUWRAIN.
-Остальные разделы позволяют получить доступ ко~всем исходным текстам и материалам,
-которые развиваются членами нашей команды.
+LUWRAIN~SDK предназначен для~разработчиков,
+желающих создать собственные приложение или расширение на~основе LUWRAIN с~использованием языка Java.
 
-* [LUWRAIN~SDK](local:sdk/) (требуется для~разработки ваших собственных приложений)
-* [Tar-архив с~исходным кодом проекта](local:tarball/) (позволяет загрузить исходные тексты проекта одним файлом)
-* [Репозитории Git](local:git/) (полный перечень репозиториев для~отслеживания изменений в~наших исходных текстах)
-* [Nightly-сборки](local:nightly/) (регулярные сборки для~тестирования изменений)
+* [Страница загрузки LUWRAIN~SDK](local:sdk/)
 
-## Узел download.luwrain.org
+## Исходный код
 
-Обратите внимание, что вы можете работать напрямую с~нашим ресурсом [download.luwrain.org](http://download.luwrain.org),
-просматривая доступные файлы и каталоге при~помощи автоматически генерируемого индекса.
-Помимо прочего, на~нём можно найти:
+Исходный код платформы LUWRAIN может быть получен несколькими способами.
+Мы рекомендуем пользоваться  nightly-сборками,
+поскольку они включают в~себя исходный код,
+максимально подготовленный для~воспроизведения текущего состояния разработки.
 
-* [Материалы в~pdf-формате](http://download.luwrain.org/pdf/) (публикации и презентации)
-* [Беседы на~радио и подкасты](http://download.luwrain.org/chats/)
-* [Видеозаписи выступлений и демонстраций](http://download.luwrain.org/video/)
+* [Nightly-сборки](local:nightly/)
+* [Репозитории Git](local:git/)
+* [Tar-архив с~исходным кодом текущей стабильной версии](local:tarball/)
+
+_ВНИМАНИЕ!_
+Вы можете работать с~нашим ресурсом [download.luwrain.org](http://download.luwrain.org) напрямую.
+
 
 ## О~проекте
 
