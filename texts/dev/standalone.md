@@ -1,2 +1,0 @@
-
-luwrain.standalone.enabled
