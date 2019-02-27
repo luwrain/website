@@ -1,4 +1,16 @@
 
+ENTITLE='List of JavaScript hooks'
+RUTITLE='Список событий JavaScript'
+TARGET=doc/js/hooks/index.php
+
+luwrain-page-en
+
+# List of JavaScript hooks
+
+luwrain-page-ru
+
+# Список событий JavaScript
+
 
 
 luwrain.speech.text.regular
