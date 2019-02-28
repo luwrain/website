@@ -1,1 +1,9 @@
+
+ENTITLE='Document for members of our team'
+RUTITLE='Документация для нашей команды разработчиков'
+TARGET=doc/devel/index.php
+
+luwrain-page-en
+
+
 https://github.com/luwrain/i18n/blob/master/ru/src/main/resources/org/luwrain/i18n/ru/constants.properties
