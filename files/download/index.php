@@ -49,7 +49,7 @@ Others can be&#160;useful only for&#160;developers who would like to&#160;improv
 <p>Please be aware that you can visit the&#160;host <a href="http://download.luwrain.org">download.luwrain.org</a> directly.</p>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-<h1>Загрузка наших дистрибутивов</h1>
+<h1>Загрузка дистрибутивов LUWRAIN</h1>
 
 <p>Всё множество продуктов и услуг, предоставляемых командой LUWRAIN, сосредоточено вокруг нашей одноимённой платформы.
 Это пользовательская среда для людей с&#160;нарушениями зрения, 

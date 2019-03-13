@@ -17,7 +17,7 @@
 ("Живое ТВ", Svetlana Glazyrina, October 3, 2014, Russian language)</li>
 </ul>
 
-<h2>See&#160;also</h2>
+<p>See&#160;also</p>
 
 <ul>
 <li><a href="<?php echo luwrain_link('/community/publications/');?>">Our publications and presentations</a></li>
@@ -43,7 +43,7 @@
 ("Живое&#160;ТВ", Светлана Глазырина, 3 октября 2014 г., рус.&#160;яз.)</li>
 </ul>
 
-<h2>См.&#160;также</h2>
+<p>См.&#160;также</p>
 
 <ul>
 <li><a href="<?php echo luwrain_link('/community/publications/');?>">Наши публикации и презентации</a></li>

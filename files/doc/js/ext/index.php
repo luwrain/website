@@ -1,4 +1,4 @@
-<?php include "../../../functions.php"; luwrain_begin_page('/doc/js/ext/index.php', luwrain_current_lang() == 'ru'?'Создание расширения на языке JavaScript':'Creating a JavaScript extension');?>
+<?php include "../../../functions.php"; luwrain_begin_page('/doc/js/ext/index.php', luwrain_current_lang() == 'ru'?'Создание расширения на JavaScript':'Creating a JavaScript extension');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Creating a&#160;JavaScript extension</h1>
 <?php }?>
@@ -8,7 +8,7 @@
 <p>Возможность исполнения скриптов на&#160;языке JavaScript включена в ядро LUWRAIN, начиная с версии 1.1.0.
 Создание подобных расширений является одним из самых простых способов дополнить функциональность стандартной поставки.</p>
 
-<p>Как&#160;описано в&#160;<a href="дlocal:/doc/user/manual/ext-loading/">соответствующем разделе</a>,
+<p>Как&#160;описано в&#160;<a href="<?php echo luwrain_link('/doc/user/manual/ext-loading/');?>">соответствующем разделе</a>,
 LUWRAIN поддерживает три типа расширений:</p>
 
 <ul>

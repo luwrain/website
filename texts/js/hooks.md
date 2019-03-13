@@ -11,31 +11,35 @@ luwrain-page-ru
 
 # Список событий JavaScript
 
+## Ядро системы
 
-luwrain.mail.summary.organize
+* luwrain.speech.text.regular
+* luwrain.i18n.ru.speech.natural
+* luwrain.i18n.ru.speech.programming
+
+## Менеджер персональной информации (PIM)
+
 luwrain.pim.message.new.save
 
+## Фоновый сервис воспроизведеняи медиафайлов
 
-luwrain.speech.text.regular
-luwrain.i18n.ru.speech.natural
-luwrain.i18n.ru.speech.programming
+* luwrain.player.album.play
+* luwrain.prop.player.track.sec
 
-luwrain.player.album.play
-"luwrain.prop.player.track.sec"
+## Медиацентр
 
+* luwrain.app.player.areas.albums.input
+* luwrain.app.player.areas.playlist.input
+* luwrain.app.player.areas.control.input
+ * событие
+ * альбом
 
-## Приложения
-### Плеер
-luwrain.app.player.areas.albums.input
-luwrain.app.player.areas.playlist.input
-luwrain.app.player.areas.control.input
+## Электронная почта
 
+* luwrain.mail.summary.organize
 
-событие
-альбом
+## Коммандер
 
-### Коммандер
-
-luwrain.app.commander.preview.local.custom
-luwrain.app.commander.preview.local.default
+* luwrain.app.commander.preview.local.custom
+* luwrain.app.commander.preview.local.default
 передаётся файл

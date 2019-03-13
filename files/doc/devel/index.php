@@ -13,7 +13,7 @@ In&#160;this section you can find various documentation describing how to&#160;w
 <li><a href="/api/">LUWRAIN API Javadoc</a></li>
 </ul>
 
-<h2>Choose the&#160;section you need:</h2>
+<p>Choose the&#160;section you need:</p>
 
 <ul>
 <li><a href="<?php echo luwrain_link('rules/');?>">Rules of our development process</a></li>
@@ -43,7 +43,7 @@ In&#160;this section you can find various documentation describing how to&#160;w
 <li><a href="/api/">LUWRAIN API Javadoc</a></li>
 </ul>
 
-<h2>Выберите интересующий вас раздел:</h2>
+<p>Выберите интересующий вас раздел:</p>
 
 <ul>
 <li><a href="<?php echo luwrain_link('rules/');?>">Правила нашего процесса разработки</a></li>

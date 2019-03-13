@@ -18,7 +18,7 @@ Our best videos:
 * ["Идея фикс. Компьютер для незрячих](http://www.youtube.com/watch?v=m-HOWJCRn7g3)
 ("Живое ТВ", Svetlana Glazyrina, October 3, 2014, Russian language)
 
-## See~also
+See~also
 
 * [Our publications and presentations](local:/community/publications/)
 * [Mass media about us](local:/community/massmedia/)
@@ -39,7 +39,7 @@ luwrain-page-ru
 * ["Идея фикс. Компьютер для незрячих"](http://www.youtube.com/watch?v=m-HOWJCRn7g3)
 ("Живое~ТВ", Светлана Глазырина, 3 октября 2014 г., рус.~яз.)
 
-## См.~также
+См.~также
 
 * [Наши публикации и презентации](local:/community/publications/)
 * [Пресса о нас](local:/community/massmedia/)

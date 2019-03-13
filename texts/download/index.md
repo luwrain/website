@@ -40,7 +40,6 @@ The~first option of~this list is purposed for~the~developers
 of~applications for~LUWRAIN.
 Others can be~useful only for~developers who would like to~improve LUWRAIN itself.
 
-
 * [Tarball with source code](local:tarball/) (published basically to~make LUWRAIN sources downloadable in~single click)
 * [Git~repositories](local:git/) (the~entire set of~repositories for~tracking of~changes in~our~project)
 * [Nightly builds](local:nightly/) (regular binary builds for~testers)
@@ -50,7 +49,7 @@ Please be aware that you can visit the~host [download.luwrain.org](http://downlo
 
 luwrain-page-ru
 
-# Загрузка наших дистрибутивов
+# Загрузка дистрибутивов LUWRAIN
 
 Всё множество продуктов и услуг, предоставляемых командой LUWRAIN, сосредоточено вокруг нашей одноимённой платформы.
 Это пользовательская среда для людей с~нарушениями зрения, 
@@ -98,4 +97,3 @@ _ВНИМАНИЕ!_
 * [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/)
 * [Правовой статус](local:/doc/legal/)
 * [Авторы проекта](local:/doc/authors/)
-
