@@ -48,7 +48,7 @@ luwrain-page-ru
 * [Список системных свойств](local:properties/)
 * [Автономный режим работы](local:standalone/)
 * Описание правил компиляции:
- * [Сборка исходного кода](local:compilation/)
+ * [Компиляция исходного кода](local:compilation/)
    * [Сборка  инсталлятора для Microsoft Windows](local:wininstaller/)
- * [Сборка nightly-релиза](local:nightly/)
+ * [Компиляция nightly-релиза](local:nightly/)
  * [Сборка ISO-образа](local:iso/)

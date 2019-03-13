@@ -1,6 +1,6 @@
-<?php include "../../../functions.php"; luwrain_begin_page('/doc/devel/compilation/index.php', luwrain_current_lang() == 'ru'?'Сборка  нашего исходного кода':'Compilation of our source code');?>
+<?php include "../../../functions.php"; luwrain_begin_page('/doc/devel/compilation/index.php', luwrain_current_lang() == 'ru'?'Компиляция исходного кода':'Compiling our source code');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-<h1>Compilation of&#160;our source code</h1>
+<h1>Compiling our&#160;source code</h1>
 
 <p>We used to&#160;build LUWRAIN in&#160;GNU/Linux environment,
 although in&#160;general it's possible to&#160;get our jars zcompiled on&#160;any machine with&#160;installed JDK&#160;1.8.
@@ -64,6 +64,6 @@ extracting them automatically.</p>
 <h2>Preparing</h2>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-<h1>Сборка нашего исходного кода</h1>
+<h1>Компиляция исходного кода</h1>
 <?php }?>
 <?php luwrain_end_page('/doc/devel/compilation/index.php');?>

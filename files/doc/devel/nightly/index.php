@@ -1,6 +1,6 @@
-<?php include "../../../functions.php"; luwrain_begin_page('/doc/devel/nightly/index.php', luwrain_current_lang() == 'ru'?'Компиляция наших nightly-сборок':'Compiling our nightly   releases');?>
+<?php include "../../../functions.php"; luwrain_begin_page('/doc/devel/nightly/index.php', luwrain_current_lang() == 'ru'?'Компиляция nightly-релизо':'Compiling nightly   releases');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-<h1>Compiling our nightly releases</h1>
+<h1>Compiling nightly releases</h1>
 
 <p>It's very easy to&#160;get our nightly build compiled 
 the&#160;same way as&#160;we&#160;do when we&#160;publish <a href="<?php echo luwrain_link('/download/nightly/');?>">them</a>  on&#160;this website.
@@ -51,6 +51,6 @@ where it&#160;does all&#160;work and where you can find the&#160;result when eve
 Tar and Zip archives, as&#160;well as MD5 and SHA1 checksums, probably, are the&#160;files you are expecting to&#160;get!</p>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-<h1>Компиляция наших nightly-сборок</h1>
+<h1>Компиляция nightly-релиза</h1>
 <?php }?>
 <?php luwrain_end_page('/doc/devel/nightly/index.php');?>

@@ -1,11 +1,11 @@
 
-ENTITLE='Compilation of our source code'
-RUTITLE='Сборка  нашего исходного кода'
+ENTITLE='Compiling our source code'
+RUTITLE='Компиляция исходного кода'
 TARGET=doc/devel/compilation/index.php
 
 luwrain-page-en
 
-# Compilation of~our source code
+# Compiling our~source code
 
 We used to~build LUWRAIN in~GNU/Linux environment,
 although in~general it's possible to~get our jars zcompiled on~any machine with~installed JDK~1.8.
@@ -67,4 +67,4 @@ extracting them automatically.
 
 luwrain-page-ru
 
-# Сборка нашего исходного кода
+# Компиляция исходного кода

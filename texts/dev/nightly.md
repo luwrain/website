@@ -1,11 +1,11 @@
 
-ENTITLE='Compiling our nightly   releases'
-RUTITLE='Компиляция наших nightly-сборок'
+ENTITLE='Compiling nightly   releases'
+RUTITLE='Компиляция nightly-релизо'
 TARGET=doc/devel/nightly/index.php
 
 luwrain-page-en
 
-# Compiling our nightly releases
+# Compiling nightly releases
 
 It's very easy to~get our nightly build compiled 
 the~same way as~we~do when we~publish [them](local:/download/nightly/)  on~this website.
@@ -53,4 +53,4 @@ Tar and Zip archives, as~well as MD5 and SHA1 checksums, probably, are the~files
 
 luwrain-page-ru
 
-# Компиляция наших nightly-сборок
+# Компиляция nightly-релиза
