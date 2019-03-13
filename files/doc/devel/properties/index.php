@@ -1,8 +1,10 @@
-<?php include "../../../functions.php"; luwrain_begin_page('/doc/devel/properties/index.php', luwrain_current_lang() == 'ru'?'Список свойств':'List of properties');?>
+<?php include "../../../functions.php"; luwrain_begin_page('/doc/devel/properties/index.php', luwrain_current_lang() == 'ru'?'Список системных свойств':'System properties');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-<h1>List of properties</h1>
+<h1>System properties</h1>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
+<h1>Список системных свойств</h1>
+
 <p>luwrain.standalone.enabled
 luwrain.registry.version
 luwrain.class.interaction

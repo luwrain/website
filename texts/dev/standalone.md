@@ -1,6 +1,6 @@
 
 ENTITLE='Standalone mode'
-RUTITLE='Режим Standalone'
+RUTITLE='Автономный режим работы'
 TARGET=doc/devel/standalone/index.php
 
 luwrain-page-en
@@ -9,7 +9,7 @@ luwrain-page-en
 
 luwrain-page-ru
 
-# Режим Standalone
+# Автономный режим работы
 
 
 luwrain.standalone.enabled

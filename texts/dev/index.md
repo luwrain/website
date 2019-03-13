@@ -1,56 +1,54 @@
 
-ENTITLE='Document for members of our team'
-RUTITLE='Документация для нашей команды разработчиков'
+ENTITLE='Documentation for developers'
+RUTITLE='Документация для разработчиков'
 TARGET=doc/devel/index.php
 
 luwrain-page-en
 
-# Documentation for~LUWRAIN developers
+# Documentation for~developers
 
-We believe that software is something alive and
-are always trying to~maintain a~smooth and persistent development process.
-In~conjunction with~[the~free license we use](local:/doc/legal/),
-this makes possible for everybody to~participate in~LUWRAIN development.
+We~are always trying to~maintain a~smooth and persistent development process.
+[The~free license we use](local:/doc/legal/) makes possible for~everybody to~contribute to~our project.
+In~this section you can find various documentation describing how to~work on~LUWRAIN source code and compile it.
 
 See~also:
 
-* [Our nightly builds](local:/download/nightly/)
+* [Our nightly releases](local:/download/nightly/)
 * [LUWRAIN API Javadoc](/api/)
 
 ## Choose the~section you need:
 
 * [Rules of our development process](local:rules/)
-* [Compiling our~source code](local:compilation/)
-* [Compiling our nightly build](local:nightly)
-* [Compiling ISO-images](local:iso/)
+* [National languages and standards support](local:i18n/)
+* [System properties](local:properties/)
+* [Standalone mode](local:standalone/)
+* Compilation rules:
+ * [Compiling our~source code](local:compilation/)
+ * [Building the~installer for~Microsoft Windows](local:wininstaller/)
+ * [Compiling nightly releases](local:nightly)
+ * [Compiling ISO-images](local:iso/)
 
 luwrain-page-ru
 
 # Документация для~разработчиков
 
-Настоящий раздел содержит документацию для~разработчиков,
-принимающих участие в~развитии непосредственно нашей платформы.
-Ссылки на~этой странице могут помочь вам лучше понять идеи и принципы, 
-принятые в~команде  LUWRAIN.
+Страницы в~этом  разделе освещают различные вопросы разработки LUWRAIN.
+Они могут помочь вам лучше понять идеи и принципы, 
+принятые в~нашей команде .
 
 См.~также:
 
-* [Наши nightly-сборки](local:/download/nightly/)
+* [Nightly-релизы](local:/download/nightly/)
 * [LUWRAIN API Javadoc](/api/)
 
 ## Выберите интересующий вас раздел:
 
 * [Правила нашего процесса разработки](local:rules/)
-* [Сборка  инсталлятора для Microsoft Windows](local:wininstaller/)
-* Разработка расширений на JavaScript:
-* [Основной интерфейс LUWRAIN для~расширений на~JavaScript](local:js/mainobj/)
-* Работа с основным исходным кодом:
+* [Реализация поддержки национальных языков и стандартов](local:i18n/)
+* [Список системных свойств](local:properties/)
+* [Автономный режим работы](local:standalone/)
+* Описание правил компиляции:
  * [Сборка исходного кода](local:compilation/)
-  * [Сборка nightly-релиза из~исходных текстов](local:nightly/compilation/)
+   * [Сборка  инсталлятора для Microsoft Windows](local:wininstaller/)
+ * [Сборка nightly-релиза](local:nightly/)
  * [Сборка ISO-образа](local:iso/)
-
-
-
-## См.~также
-
-* [Никита Цейковец на~Хабрахабр о~разработке приложений для~LUWRAIN](http://habrahabr.ru/post/258413/)

@@ -1,13 +1,15 @@
 
-ENTITLE='List of properties'
-RUTITLE='Список свойств'
+ENTITLE='System properties'
+RUTITLE='Список системных свойств'
 TARGET=doc/devel/properties/index.php
 
 luwrain-page-en
 
-# List of properties
+# System properties
 
 luwrain-page-ru
+
+# Список системных свойств
 
 luwrain.standalone.enabled
 luwrain.registry.version
