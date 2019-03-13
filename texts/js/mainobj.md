@@ -1,7 +1,7 @@
 
 ENTITLE='The main interface of LUWRAIN for JavaScript extension'
 RUTITLE='Основной интерфейс LUWRAIN для программ на JavaScript'
-TARGET=doc/devel/js/mainobj/index.php
+TARGET=doc/js/mainobj/index.php
 
 luwrain-page-en
 

@@ -1,7 +1,7 @@
 
 ENTITLE='Compiling our nightly   releases'
 RUTITLE='Компиляция наших nightly-сборок'
-TARGET=doc/devel/nightly/compilation/index.php
+TARGET=doc/devel/nightly/index.php
 
 luwrain-page-en
 

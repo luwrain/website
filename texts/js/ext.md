@@ -1,7 +1,7 @@
 
 ENTITLE='Creating a JavaScript extension'
 RUTITLE='Создание расширения на языке JavaScript'
-TARGET=doc/js/index.php
+TARGET=doc/js/ext/index.php
 
 luwrain-page-en
 

@@ -1,4 +1,4 @@
-<?php include "../../../../functions.php"; luwrain_begin_page('/doc/devel/nightly/compilation/index.php', luwrain_current_lang() == 'ru'?'Компиляция наших nightly-сборок':'Compiling our nightly   releases');?>
+<?php include "../../../functions.php"; luwrain_begin_page('/doc/devel/nightly/index.php', luwrain_current_lang() == 'ru'?'Компиляция наших nightly-сборок':'Compiling our nightly   releases');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Compiling our nightly releases</h1>
 
@@ -53,4 +53,4 @@ Tar and Zip archives, as&#160;well as MD5 and SHA1 checksums, probably, are the&
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Компиляция наших nightly-сборок</h1>
 <?php }?>
-<?php luwrain_end_page('/doc/devel/nightly/compilation/index.php');?>
+<?php luwrain_end_page('/doc/devel/nightly/index.php');?>

@@ -12,6 +12,9 @@ luwrain-page-ru
 # Список событий JavaScript
 
 
+luwrain.mail.summary.organize
+luwrain.pim.message.new.save
+
 
 luwrain.speech.text.regular
 luwrain.i18n.ru.speech.natural
