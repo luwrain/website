@@ -16,7 +16,7 @@ See~also:
 * [Our nightly releases](local:/download/nightly/)
 * [LUWRAIN API Javadoc](/api/)
 
-## Choose the~section you need:
+Choose the~section you need:
 
 * [Rules of our development process](local:rules/)
 * [National languages and standards support](local:i18n/)
@@ -41,7 +41,7 @@ luwrain-page-ru
 * [Nightly-релизы](local:/download/nightly/)
 * [LUWRAIN API Javadoc](/api/)
 
-## Выберите интересующий вас раздел:
+Выберите интересующий вас раздел:
 
 * [Правила нашего процесса разработки](local:rules/)
 * [Реализация поддержки национальных языков и стандартов](local:i18n/)
