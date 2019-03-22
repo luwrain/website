@@ -13,6 +13,8 @@ luwrain-page-ru
 
 ## Ядро системы
 
+* luwrain.startup
+* luwrain.desktop.announce
 * luwrain.speech.text.regular
 * luwrain.i18n.ru.speech.natural
 * luwrain.i18n.ru.speech.programming

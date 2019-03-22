@@ -8,6 +8,8 @@
 <h2>Ядро системы</h2>
 
 <ul>
+<li>luwrain.startup</li>
+<li>luwrain.desktop.announce</li>
 <li>luwrain.speech.text.regular</li>
 <li>luwrain.i18n.ru.speech.natural</li>
 <li>luwrain.i18n.ru.speech.programming</li>

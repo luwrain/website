@@ -12,7 +12,7 @@ It~includes Java Runtime Environment (JRE), a~speech synthesizer and support
 
 Clik on~the~direct link below to~start  downloading:
 
-* <!--<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">-->luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip<!--</a>-->
+* <a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe">luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe</a>
 
 Release details:
 
@@ -23,7 +23,6 @@ Release details:
 ## See~also
 
  * [Installation on~Microsoft Windows](local:/doc/user/installation/windows/)
-* [Getting started](local:/doc/user/start)
 
 luwrain-page-ru
 
@@ -36,7 +35,7 @@ luwrain-page-ru
 
 Щёлкните по~прямой ссылке ниже для~начала загрузки:
 
-* <a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">-->luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip<!--</a>
+* <a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe">-->luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe<!--</a>
 
 Общая информация о~релизе:
 
@@ -44,10 +43,9 @@ luwrain-page-ru
 * Дата релиза: <?php echo lwr_release_date_windows_ru();?>
 * Версия ОС: Microsoft Windows 7/8/8.1
 
-## См.~также
+##  См.~также
 
  * [Установка на~Microsoft Windows](local:/doc/user/installation/windows/)
-* [С~чего начать?](local:/doc/user/start)
 
 
 

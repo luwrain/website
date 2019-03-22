@@ -8,7 +8,7 @@ It&#160;includes Java Runtime Environment (JRE), a&#160;speech synthesizer and s
 <p>Clik on&#160;the&#160;direct link below to&#160;start  downloading:</p>
 
 <ul>
-<li><!&#x2013;<a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">&#x2013;>luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip<!&#x2013;</a>&#x2013;></li>
+<li><a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe">luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe</a></li>
 </ul>
 
 <p>Release details:</p>
@@ -22,10 +22,7 @@ It&#160;includes Java Runtime Environment (JRE), a&#160;speech synthesizer and s
 <h2>See&#160;also</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/user/installation/windows/');?>">Installation on&#160;Microsoft Windows</a>
-<ul>
-<li><a href="<?php echo luwrain_link('/doc/user/start');?>">Getting started</a></li>
-</ul></li>
+<li><a href="<?php echo luwrain_link('/doc/user/installation/windows/');?>">Installation on&#160;Microsoft Windows</a></li>
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
@@ -39,7 +36,7 @@ It&#160;includes Java Runtime Environment (JRE), a&#160;speech synthesizer and s
 <p>Щёлкните по&#160;прямой ссылке ниже для&#160;начала загрузки:</p>
 
 <ul>
-<li><a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip">&#x2013;>luwrain-windows-32bit-<?php echo lwr_version_windows();?>.zip<!&#x2013;</a></li>
+<li><a href="http://download.luwrain.org/binary/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe">&#x2013;>luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe<!&#x2013;</a></li>
 </ul>
 
 <p>Общая информация о&#160;релизе:</p>
@@ -53,10 +50,7 @@ It&#160;includes Java Runtime Environment (JRE), a&#160;speech synthesizer and s
 <h2>См.&#160;также</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('/doc/user/installation/windows/');?>">Установка на&#160;Microsoft Windows</a>
-<ul>
-<li><a href="<?php echo luwrain_link('/doc/user/start');?>">С&#160;чего начать?</a></li>
-</ul></li>
+<li><a href="<?php echo luwrain_link('/doc/user/installation/windows/');?>">Установка на&#160;Microsoft Windows</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/download/windows/index.php');?>
