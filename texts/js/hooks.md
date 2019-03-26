@@ -16,8 +16,15 @@ luwrain-page-ru
 * luwrain.startup
 * luwrain.desktop.announce
 * luwrain.speech.text.regular
-* luwrain.i18n.ru.speech.natural
+* luwrain.i18n.ru.speech.natural.pre
 * luwrain.i18n.ru.speech.programming
+
+# Просмотр документов
+
+* luwrain.reader.doc.builder
+ * contentType
+ * свойства
+ * g пусть к файлу
 
 ## Менеджер персональной информации (PIM)
 
