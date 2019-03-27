@@ -25,6 +25,9 @@ luwrain-page-ru
  * contentType
  * свойства
  * g пусть к файлу
+ * luwrain.reader.doc.error
+ * свойства
+ * исключение
 
 ## Менеджер персональной информации (PIM)
 

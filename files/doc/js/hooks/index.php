@@ -11,8 +11,22 @@
 <li>luwrain.startup</li>
 <li>luwrain.desktop.announce</li>
 <li>luwrain.speech.text.regular</li>
-<li>luwrain.i18n.ru.speech.natural</li>
+<li>luwrain.i18n.ru.speech.natural.pre</li>
 <li>luwrain.i18n.ru.speech.programming</li>
+</ul>
+
+<h1>Просмотр документов</h1>
+
+<ul>
+<li>luwrain.reader.doc.builder
+<ul>
+<li>contentType</li>
+<li>свойства</li>
+<li>g пусть к файлу</li>
+<li>luwrain.reader.doc.error</li>
+<li>свойства</li>
+<li>исключение</li>
+</ul></li>
 </ul>
 
 <h2>Менеджер персональной информации (PIM)</h2>
