@@ -13,11 +13,15 @@ luwrain-page-ru
 
 ## Ядро системы
 
+luwrain.announcement
 * luwrain.startup
 * luwrain.desktop.announce
 * luwrain.speech.text.regular
 * luwrain.i18n.ru.speech.natural.pre
 * luwrain.i18n.ru.speech.programming
+
+luwrain.linux.popups.disks.list
+
 
 # Просмотр документов
 
@@ -52,6 +56,6 @@ luwrain.pim.message.new.save
 
 ## Коммандер
 
-* luwrain.app.commander.preview.local.custom
-* luwrain.app.commander.preview.local.default
+* luwrain.commander.preview.local.custom
+* luwrain.commander.preview.local.default
 передаётся файл
