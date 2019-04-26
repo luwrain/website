@@ -59,3 +59,12 @@ luwrain.pim.message.new.save
 * luwrain.commander.preview.local.custom
 * luwrain.commander.preview.local.default
 передаётся файл
+luwrain.commander.info.local
+
+luwrain.commander.size.local.custom
+luwrain.commander.size.local
+
+
+## Википедия
+
+дluwrain.wiki.search
