@@ -7,13 +7,14 @@
 
 <h2>Ядро системы</h2>
 
-<ul>
-<li>luwrain.startup</li>
-<li>luwrain.desktop.announce</li>
-<li>luwrain.speech.text.regular</li>
-<li>luwrain.i18n.ru.speech.natural.pre</li>
-<li>luwrain.i18n.ru.speech.programming</li>
-</ul>
+<p>luwrain.announcement
+* luwrain.startup
+* luwrain.desktop.announce
+* luwrain.speech.text.regular
+* luwrain.i18n.ru.speech.natural.pre
+* luwrain.i18n.ru.speech.programming</p>
+
+<p>luwrain.linux.popups.disks.list</p>
 
 <h1>Просмотр документов</h1>
 
@@ -61,9 +62,17 @@
 <h2>Коммандер</h2>
 
 <ul>
-<li>luwrain.app.commander.preview.local.custom</li>
-<li>luwrain.app.commander.preview.local.default
-передаётся файл</li>
+<li>luwrain.commander.preview.local.custom</li>
+<li>luwrain.commander.preview.local.default
+передаётся файл
+luwrain.commander.info.local</li>
 </ul>
+
+<p>luwrain.commander.size.local.custom
+luwrain.commander.size.local</p>
+
+<h2>Википедия</h2>
+
+<p>дluwrain.wiki.search</p>
 <?php }?>
 <?php luwrain_end_page('/doc/js/hooks/index.php');?>

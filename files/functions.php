@@ -1,51 +1,6 @@
 <?php
   include 'versions.php';
-
-function lwr_month_en($month)
-{
-  $months = array(
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December',
-  );
-  return $months[$month - 1];
-}
-
-function luwrain_current_lang()
-{
-    return array_key_exists('lang', $_GET)?$_GET['lang']:'ru';
-}
-
-function luwrain_current_mode()
-{
-    return array_key_exists('mode', $_GET)?$_GET['mode']:'normal';
-}
-
-function luwrain_link_ext1($path, $lang, $mode)
-{
-    return $path.'?lang='.$lang.'&amp;mode='.$mode;
-}
-
-function luwrain_link($path)
-{
-    return luwrain_link_ext1($path, luwrain_current_lang(), luwrain_current_mode());
-    }
-
-function lwr_title($value)
-{
-if ($value == '')
-return 'LUWRAIN';
-return $value.' &#x2014; LUWRAIN';
-}
+    include 'base.php';
 
 function luwrain_top_menu()
 {
@@ -243,12 +198,6 @@ return; }
 <?php
 }
 
-function lwr_adapted_main_page()
-{
-  luwrain_begin_page('index.php', luwrain_current_lang() == 'ru'?'Главная страница':'Main page', true);
-
-}
-
 function luwrain_content_not_written()
 {
     if (luwrain_current_lang() == 'en')
@@ -265,4 +214,3 @@ function luwrain_content_being_written()
         echo '                  <p><b>ВНИМАНИЕ:</b> Эта страница находится в разработке и может предоставлять некорректную или неполную информацию.</p>'."\n";
 }
 ?>
-
