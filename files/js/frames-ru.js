@@ -59,7 +59,7 @@ function ShowPart2()
 	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
 	$('#hiddenPartNumber').val('2');
-	$('#accPlatform').html('Работа только с текстом');
+	$('#accPlatform').html('Невизуальный дизайн');
 	$('#text1more').html('В отличие от экранных чтецов, функционирующих в оконном режиме,'+
 			     '<br/>LUWRAIN обеспечивает доступ к информации в виде,'+
 			     '<br/>изначально адаптированном для восприятия людей с нарушениями зрения.'+
@@ -67,7 +67,7 @@ function ShowPart2()
 			     '<br/>который мы создаём, исходя из требований функциональной эффективности.'+
 			     '<br/>Развитие этой идеи максимально приближает нас к созданию нового направления в дизайне,'+
 			     '<br/>которое мы называем невизуальным дизайном.');
-	$('#firstButton').html('<a href="/community/publications/?mode=normal&lang=ru"><span>Пресса о нас</span></a>');
+	$('#firstButton').html('<a href="/doc/faq/?mode=normal&lang=ru"><span>FAQ</span></a>');
 	$('#part1more').slideDown('slow');
     });
 };
@@ -81,7 +81,7 @@ function ShowPart3()
 	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
 	$('#hiddenPartNumber').val('3');
-	$('#accPlatform').html('Невизуальный дизайн');
+	$('#accPlatform').html('Первый шаг');
 	$('#text1more').html('Никакие вспомогательные технологии для людей с нарушениями зрения'+
 			     '<br/>в прошлом не могли предложить уровень дистрибутивности, которым обладает LUWRAIN.'+
 			     '<br/>LUWRAIN не имеет никаких внешних зависимостей'+
@@ -89,7 +89,7 @@ function ShowPart3()
 			     '<br/>Для пользователей, у которых нет установленной операционной системы,'+
 			     '<br/>мы предлагаем дистрибутив в виде загрузочного ISO-образа,'+
 			     '<br/>который может быть развёрнут на жёстком диске без посторонней помощи зрячих людей.');
-	$('#firstButton').html('<a href="/doc/faq/?mode=normal&lang=ru"><span>FAQ</span></a>');
+	$('#firstButton').html('<a href="/doc/legal/?mode=normal&lang=ru"><span>Правовой статус</span></a>');
 	$('#part1more').slideDown('slow');
     });
 };
@@ -103,7 +103,7 @@ function ShowPart4()
 	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
 	$('#hiddenPartNumber').val('4');
-	$('#accPlatform').html('Свободное ПО');
+	$('#accPlatform').html('Java и JavaScript');
 	$('#text1more').html('Компоненты LUWRAIN великолепно интегрируются в Интернет-сервисы, формируя'+
 			     '<br/>целостное пользовательское пространство для комфортного присутствия'+
 			     '<br/>в современном цифровом мире. На основе виртуальной машины Java'+
