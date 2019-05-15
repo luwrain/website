@@ -39,21 +39,21 @@ luwrain-page-ru
 
 Следите за~новостями и процессом разработки на~следующих ресурсах:
 
+* [YouTube](https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g)
 * [Twitter](http://twitter.com/luwrain)
 * [Instagram](local:https://www.instagram.com/luwrain/)
 * [GitHub](https://github.com/luwrain/)
 
 ## Ключевые материалы
 
-* [Разработка открытого API научной библиотеки ТГУ и невизуального клиента на~его~основе](http://lib-api.tsu.ru)
-* [Как сделать первые шаги в~программировании сходу и сразу](local:articles/progstart/)
+* [Чтение Daisy-книг](local:articles/daisy-reading/)
 * [Представляем F123e](local:f123e.php)
 
 ## Материалы о~нас
 
-* [Пресса о~нас](local:massmedia/)
+* [Пресса](local:massmedia/)
 * [Наши публикации и презентации](local:publications/)
-* [Видеоматериалы](local:video/)
+* [Видео](local:video/)
 * [Подкасты](local:podcasts/)
 
 ## См.~также

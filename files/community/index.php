@@ -40,6 +40,7 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <p>Следите за&#160;новостями и процессом разработки на&#160;следующих ресурсах:</p>
 
 <ul>
+<li><a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a></li>
 <li><a href="http://twitter.com/luwrain">Twitter</a></li>
 <li><a href="<?php echo luwrain_link('https://www.instagram.com/luwrain/');?>">Instagram</a></li>
 <li><a href="https://github.com/luwrain/">GitHub</a></li>
@@ -48,17 +49,16 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <h2>Ключевые материалы</h2>
 
 <ul>
-<li><a href="http://lib-api.tsu.ru">Разработка открытого API научной библиотеки ТГУ и невизуального клиента на&#160;его&#160;основе</a></li>
-<li><a href="<?php echo luwrain_link('articles/progstart/');?>">Как сделать первые шаги в&#160;программировании сходу и сразу</a></li>
+<li><a href="<?php echo luwrain_link('articles/daisy-reading/');?>">Чтение Daisy-книг</a></li>
 <li><a href="<?php echo luwrain_link('f123e.php');?>">Представляем F123e</a></li>
 </ul>
 
 <h2>Материалы о&#160;нас</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('massmedia/');?>">Пресса о&#160;нас</a></li>
+<li><a href="<?php echo luwrain_link('massmedia/');?>">Пресса</a></li>
 <li><a href="<?php echo luwrain_link('publications/');?>">Наши публикации и презентации</a></li>
-<li><a href="<?php echo luwrain_link('video/');?>">Видеоматериалы</a></li>
+<li><a href="<?php echo luwrain_link('video/');?>">Видео</a></li>
 <li><a href="<?php echo luwrain_link('podcasts/');?>">Подкасты</a></li>
 </ul>
 
