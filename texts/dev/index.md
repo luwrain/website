@@ -18,15 +18,10 @@ See~also:
 
 Choose the~section you need:
 
-* [Rules of our development process](local:rules/)
-* [National languages and standards support](local:i18n/)
-* [System properties](local:properties/)
-* [Standalone mode](local:standalone/)
-* Compilation rules:
- * [Compiling our~source code](local:compilation/)
- * [Building the~installer for~Microsoft Windows](local:wininstaller/)
- * [Compiling nightly releases](local:nightly)
- * [Compiling ISO-images](local:iso/)
+
+* [The components for multiline text editing](local:text-editing/)
+* [Compiling our~source code](local:compilation/)
+* [Compiling nightly releases](local:nightly)
 
 luwrain-page-ru
 
@@ -43,12 +38,6 @@ luwrain-page-ru
 
 Выберите интересующий вас раздел:
 
-* [Правила нашего процесса разработки](local:rules/)
-* [Реализация поддержки национальных языков и стандартов](local:i18n/)
-* [Список системных свойств](local:properties/)
-* [Автономный режим работы](local:standalone/)
-* Описание правил компиляции:
- * [Компиляция исходного кода](local:compilation/)
-   * [Сборка  инсталлятора для Microsoft Windows](local:wininstaller/)
- * [Компиляция nightly-релиза](local:nightly/)
- * [Сборка ISO-образа](local:iso/)
+* [Компоненты для редактирования многострочного текста](local:text-editing/)
+* [Компиляция исходного кода](local:compilation/)
+* [Компиляция nightly-релиза](local:nightly/)

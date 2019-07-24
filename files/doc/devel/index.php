@@ -16,17 +16,9 @@ In&#160;this section you can find various documentation describing how to&#160;w
 <p>Choose the&#160;section you need:</p>
 
 <ul>
-<li><a href="<?php echo luwrain_link('rules/');?>">Rules of our development process</a></li>
-<li><a href="<?php echo luwrain_link('i18n/');?>">National languages and standards support</a></li>
-<li><a href="<?php echo luwrain_link('properties/');?>">System properties</a></li>
-<li><a href="<?php echo luwrain_link('standalone/');?>">Standalone mode</a></li>
-<li>Compilation rules:
-<ul>
+<li><a href="<?php echo luwrain_link('text-editing/');?>">The components for multiline text editing</a></li>
 <li><a href="<?php echo luwrain_link('compilation/');?>">Compiling our&#160;source code</a></li>
-<li><a href="<?php echo luwrain_link('wininstaller/');?>">Building the&#160;installer for&#160;Microsoft Windows</a></li>
 <li><a href="<?php echo luwrain_link('nightly');?>">Compiling nightly releases</a></li>
-<li><a href="<?php echo luwrain_link('iso/');?>">Compiling ISO-images</a></li>
-</ul></li>
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
@@ -46,17 +38,9 @@ In&#160;this section you can find various documentation describing how to&#160;w
 <p>Выберите интересующий вас раздел:</p>
 
 <ul>
-<li><a href="<?php echo luwrain_link('rules/');?>">Правила нашего процесса разработки</a></li>
-<li><a href="<?php echo luwrain_link('i18n/');?>">Реализация поддержки национальных языков и стандартов</a></li>
-<li><a href="<?php echo luwrain_link('properties/');?>">Список системных свойств</a></li>
-<li><a href="<?php echo luwrain_link('standalone/');?>">Автономный режим работы</a></li>
-<li>Описание правил компиляции:
-<ul>
+<li><a href="<?php echo luwrain_link('text-editing/');?>">Компоненты для редактирования многострочного текста</a></li>
 <li><a href="<?php echo luwrain_link('compilation/');?>">Компиляция исходного кода</a></li>
-<li><a href="<?php echo luwrain_link('wininstaller/');?>">Сборка  инсталлятора для Microsoft Windows</a></li>
 <li><a href="<?php echo luwrain_link('nightly/');?>">Компиляция nightly-релиза</a></li>
-<li><a href="<?php echo luwrain_link('iso/');?>">Сборка ISO-образа</a></li>
-</ul></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/doc/devel/index.php');?>
