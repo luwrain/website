@@ -16,18 +16,13 @@
 <li><a href="<?php echo luwrain_link('intro/');?>">Ключевые особенности</a></li>
 <li><a href="<?php echo luwrain_link('clipboard/');?>">Операции копирования-вставки</a></li>
 <li><a href="<?php echo luwrain_link('speech/');?>">Настройка вывода речи</a></li>
-<li><a href="<?php echo luwrain_link('news/');?>">Чтение новостей</a></li>
-<li><a href="<?php echo luwrain_link('notepad/');?>">Редактирование текстовых файлов в&#160;Блокноте</a></li>
 <li><a href="<?php echo luwrain_link('reader/');?>">Просмотр документов</a></li>
 <li><a href="<?php echo luwrain_link('player/');?>">Прослушивание музыки, радио и аудиокниг</a></li>
-<li><a href="<?php echo luwrain_link('download/');?>">Менеджер загрузок файлов</a></li>
-<li><a href="<?php echo luwrain_link('opds/');?>">Работа с&#160;электронными библиотеками по&#160;протоколу OPDS</a></li>
 <li><a href="<?php echo luwrain_link('calc/');?>">Вычисления на&#160;калькуляторе</a></li>
 <li><a href="<?php echo luwrain_link('hotkeys/');?>">Горячие клавиши</a></li>
-<li>Работа с&#160;расширениями:
+<li>Особенности использования в&#160;GNU/Linux
 <ul>
-<li><a href="<?php echo luwrain_link('ext-loading/');?>">Порядок загрузки расширений</a></li>
-<li><a href="<?php echo luwrain_link('ext-text/');?>">Создание текстового расширения</a></li>
+<li><a href="<?php echo luwrain_link('linux/ubuntu-repo');?>">Подключение репозитория для&#160;Ubuntu Linux</a></li>
 </ul></li>
 </ul>
 <?php }?>
