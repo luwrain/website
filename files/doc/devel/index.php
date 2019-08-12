@@ -39,6 +39,7 @@ In&#160;this section you can find various documentation describing how to&#160;w
 
 <ul>
 <li><a href="<?php echo luwrain_link('text-editing/');?>">Компоненты для редактирования многострочного текста</a></li>
+<li><a href="<?php echo luwrain_link('notepad-customizing/');?>">Создание пользовательских функций в&#160;приложении Блокнот</a></li>
 <li><a href="<?php echo luwrain_link('compilation/');?>">Компиляция исходного кода</a></li>
 <li><a href="<?php echo luwrain_link('nightly/');?>">Компиляция nightly-релиза</a></li>
 </ul>

@@ -14,7 +14,7 @@ In~this section you can find various documentation describing how to~work on~LUW
 See~also:
 
 * [Our nightly releases](local:/download/nightly/)
-* [LUWRAIN API Javadoc](/api/)
+* [LUWRAIN API Javadoc](/javadoc/)
 
 Choose the~section you need:
 
@@ -27,17 +27,18 @@ luwrain-page-ru
 
 # Документация для~разработчиков
 
-Страницы в~этом  разделе освещают различные вопросы разработки LUWRAIN.
+Страницы, перечисленные ниже, освещают различные вопросы разработки LUWRAIN.
 Они могут помочь вам лучше понять идеи и принципы, 
 принятые в~нашей команде .
 
 См.~также:
 
 * [Nightly-релизы](local:/download/nightly/)
-* [LUWRAIN API Javadoc](/api/)
+* [LUWRAIN API Javadoc](/javadoc/)
 
 Выберите интересующий вас раздел:
 
 * [Компоненты для редактирования многострочного текста](local:text-editing/)
+* [Создание пользовательских функций в~приложении Блокнот](local:notepad-customizing/)
 * [Компиляция исходного кода](local:compilation/)
 * [Компиляция nightly-релиза](local:nightly/)
