@@ -10,7 +10,7 @@ In&#160;this section you can find various documentation describing how to&#160;w
 
 <ul>
 <li><a href="<?php echo luwrain_link('/download/nightly/');?>">Our nightly releases</a></li>
-<li><a href="/api/">LUWRAIN API Javadoc</a></li>
+<li><a href="/javadoc/">LUWRAIN API Javadoc</a></li>
 </ul>
 
 <p>Choose the&#160;section you need:</p>
@@ -24,7 +24,7 @@ In&#160;this section you can find various documentation describing how to&#160;w
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Документация для&#160;разработчиков</h1>
 
-<p>Страницы в&#160;этом  разделе освещают различные вопросы разработки LUWRAIN.
+<p>Страницы, перечисленные ниже, освещают различные вопросы разработки LUWRAIN.
 Они могут помочь вам лучше понять идеи и принципы, 
 принятые в&#160;нашей команде .</p>
 
@@ -32,7 +32,7 @@ In&#160;this section you can find various documentation describing how to&#160;w
 
 <ul>
 <li><a href="<?php echo luwrain_link('/download/nightly/');?>">Nightly-релизы</a></li>
-<li><a href="/api/">LUWRAIN API Javadoc</a></li>
+<li><a href="/javadoc/">LUWRAIN API Javadoc</a></li>
 </ul>
 
 <p>Выберите интересующий вас раздел:</p>

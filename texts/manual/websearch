@@ -1,0 +1,24 @@
+
+
+
+## Duckduckgo.com
+
+Правовую возможность использовать в~безбраузерном режиме поисковую машину [duckduckgo.com](https://duckduckgo.com)
+на~основе информации с~[этой страницы](https://web.archive.org/web/20180910171034/https://duck.co/forum/thread/5251/am-i-allowed-to-automatically-parse-duckduckgo-sea):
+
+
+--- Am I allowed to automatically parse duckduckgo search results?
+
+--- sorry. We do not have the rights from our sources to let anyone do that.
+We do have an API for instant answers (https://api.duckduckgo.com), but it does not serve normal results.
+
+--- For personal/non-commercial usage too?
+
+--- Yes, afraid so.
+What did you want to do?
+
+--- Implement client-side search personalization tool. Got an algorithm that reranks search results based on
+personal search history; at the moment I'm looking for search result sources to test it.
+
+--- __Ah. Feel free to run userscripts on the site, if that works for you.__
+Beyond that, check out http://commoncrawl.org/ and http://yacy.net/

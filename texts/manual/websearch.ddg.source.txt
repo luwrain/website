@@ -1,0 +1,172 @@
+Location: https://web.archive.org/web/20180910171034/https://duck.co/forum/thread/5251/am-i-allowed-to-automatically-parse-duckduckgo-sea
+Wayback Mach
+success
+fail
+
+[https://duck.co/foru] Go    Apr  SEP  Oct 
+3 captures                   Pr   10   Ne  
+15 Apr 2014 - 10 Sep 2018    2014 2018 2019
+
+About this capture
+COLLECTED BY
+Organization: Archive Team
+                                                                                      [Archiveteam]         
+Formed in 2009, the Archive Team (not to be confused with the archive.org Archive-It Team) is a rogue
+archivist collective dedicated to saving copies of rapidly dying or deleted websites for the sake of history
+and digital heritage. The group is 100% composed of volunteers and interested parties, and has expanded into
+a large amount of related projects for saving online and digital history.
+
+History is littered with hundreds of conflicts over the future of a community, group, location or business
+that were "resolved" when one of the parties stepped ahead and destroyed what was there. With the original
+point of contention destroyed, the debates would fall to the wayside. Archive Team believes that by
+duplicated condemned data, the conversation and debate can continue, as well as the richness and insight
+gained by keeping the materials. Our projects have ranged in size from a single volunteer downloading the
+data to a small-but-critical site, to over 100 volunteers stepping forward to acquire terabytes of
+user-created data to save for future generations.
+
+The main site for Archive Team is at archiveteam.org and contains up to the date information on various
+projects, manifestos, plans and walkthroughs.
+
+This collection contains the output of many Archive Team projects, both ongoing and completed. Thanks to the
+generous providing of disk space by the Internet Archive, multi-terabyte datasets can be made available, as
+well as in use by the Wayback Machine, providing a path back to lost websites and work.
+
+Our collection has grown to the point of having sub-collections for the type of data we acquire. If you are
+seeking to browse the contents of these collections, the Wayback Machine is the best first stop. Otherwise,
+you are free to dig into the stacks to see what you may find.
+
+The Archive Team Panic Downloads are full pulldowns of currently extant websites, meant to serve as
+emergency backups for needed sites that are in danger of closing, or which will be missed dearly if suddenly
+lost due to hard drive crashes or server failures.
+
+Collection: ArchiveBot: The Archive Team Crowdsourced Crawler
+ArchiveBot is an IRC bot designed to automate the archival of smaller websites (e.g. up to a few hundred
+thousand URLs). You give it a URL to start at, and it grabs all content under that URL, records it in a
+WARC, and then uploads that WARC to ArchiveTeam servers for eventual injection into the Internet Archive (or
+other archive sites).
+
+To use ArchiveBot, drop by #archivebot on EFNet. To interact with ArchiveBot, you issue commands by typing
+it into the channel. Note you will need channel operator permissions in order to issue archiving jobs. The
+dashboard shows the sites being downloaded currently.
+
+There is a dashboard running for the archivebot process at http://www.archivebot.com.
+
+ArchiveBot's source code can be found at https://github.com/ArchiveTeam/ArchiveBot.
+TIMESTAMPS
+loading 
+DuckDuck
+
+  * Instant Answers
+  * Blog
+  * Forum
+
+Sign up Login
+Home > Forum > General Ramblings > Am I allowed to automatically parse...
+
+Am I allowed to automatically parse duckduckgo search results?
+
+<hidden> anonym
+Created: 4 years and 7 months ago • Updated: 4 years and 7 months ago
+Subject question.
+1 Comment
+
+This forum has been archived
+
+Thank you all for the many comments, questions and suggestions. Particular thanks go to user x.15a2 for
+constantly monitoring, replying and helping so many users here. To continue these discussions, please head
+over to the DuckDuckGo subreddit.
+
+------------------------------------------------------------------------------------------------------------
+crazed
+Nope; sorry. We do not have the rights from our sources to let anyone do that.
+We do have an API for instant answers (https://api.duckduckgo.com), but it does not serve normal results.
+posted by crazedpsyc • 4 years and 7 months ago • Link 
+anonym
+For personal/non-commercial usage too?
+posted by <hidden> • 4 years and 7 months ago • Link 
+crazed
+Yes, afraid so.
+What did you want to do?
+posted by crazedpsyc • 4 years and 7 months ago • Link 
+anonym
+Implement client-side search personalization tool. Got an algorithm that reranks search results based on
+personal search history; at the moment I'm looking for search result sources to test it.
+posted by <hidden> • 4 years and 7 months ago • Link 
+crazed
+Ah. Feel free to run userscripts on the site, if that works for you. Beyond that, check out 
+http://commoncrawl.org/ and http://yacy.net/
+posted by crazedpsyc • 4 years and 7 months ago • Link
+[                    ]
+Show More Links
+
+Sticky threads
+
+  * Forum Rules
+  * Great resources for Instant Answer ideas
+  * Community Leader Applications
+  * New Member Encouragement (for current members)
+  * How to submit your site to DuckDuckGo
+  * Just a tip on Metadata with EXIF when you are using Social Media.
+  * Please don't ask about a DuckDuckGo e-mail service
+  * Please don't ask about a DuckDuckGo browser
+  * Help Describe Instant Answers!
+  * Duck.co connection issues
+  * Staff notice: Forum closing in January 2017
+
+Latest comments on ...
+
+  * General Ramblings
+  * Instant Answers
+  * Company Blog
+  * Translations
+
+DuckDuckGo
+
+  * About
+  * Bangs
+  * Spread
+  * Careers
+  * Help
+
+Privacy
+
+  * Blog
+  * DontTrack.us
+  * Policy
+
+Keep in Touch
+
+  * Twitter
+  * Reddit
+
+© DuckDuckGo. The search engine that doesn't track you.
+
+Login
+
+[                    ]
+[                    ]
+Cancel    Login  or Login with Github
+
+Forgot your password?
+
+Don't have an account? Sign up
+
+Report Content
+
+Report this content for:
+
+  * ( ) Link Bait
+    Attempting to drive traffic to a website by posting off-topic links to a personal/business website.
+  * ( ) Harassment
+    Insulting or provocative (and not in a good way).
+  * ( ) Bad Language
+    Lewd or offensive language.
+  * ( ) Off Topic
+    Post is entirely unrelated to the topic being discussed.
+  * ( ) Content Farming
+    Post is likely copy/pasted from another website and was meant for blackhat SEO.
+  * ( ) Other Reasons
+    Enter your own description of the flagged post. [                    ]
+
+Cancel    Report 
+
