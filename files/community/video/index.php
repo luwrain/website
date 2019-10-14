@@ -28,19 +28,8 @@
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Видео на&#160;YouTube</h1>
 
-<p>Щёлкните на&#160;этой ссылке, чтобы открыть канал LUWRAIN на&#160;YouTube:</p>
-
-<ul>
-<li><a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g</a></li>
-</ul>
-
-<p>Лучшие видео о&#160;LUWRAIN:</p>
-
-<ul>
-<li><a href="https://www.youtube.com/watch?v=1Zv8xI6X3uw">"Технологии голосового экранного доступа для&#160;незрячих"</a>
-(<a href="http://inva.tv">inva.tv</a>, "Фактор жизни", Владимир Крупенников, 9&#160;марта&#160;2016&#160;г., рус.&#160;яз.)</li>
-<li><a href="http://www.youtube.com/watch?v=m-HOWJCRn7g3">"Идея фикс. Компьютер для незрячих"</a>
-("Живое&#160;ТВ", Светлана Глазырина, 3 октября 2014 г., рус.&#160;яз.)</li>
-</ul>
+<p><strong>ВНИМАНИЕ!</strong>
+Эта&#160;страница предназначена к&#160;удалению. 
+Её&#160;содержимое перенесено <a href="<?php echo luwrain_link('/community/massmedia/');?>">сюда</a>.</p>
 <?php }?>
 <?php luwrain_end_page('/community/video/index.php');?>

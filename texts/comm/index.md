@@ -51,19 +51,10 @@ luwrain-page-ru
 
 ## Материалы о~нас
 
-* [Пресса](local:massmedia/)
-* [Наши публикации и презентации](local:publications/)
-* [Видео](local:video/)
-* [Подкасты](local:podcasts/)
+* [СМИ и публикации](local:massmedia/)
+* [Презентации и мероприятия](local:events/)
 
 ## См.~также
 
 * [Записи приветствия системы на~разных языках](http://download.luwrain.org/media/greeting/langs/)
 
-## О~проекте
-
-* [Что~такое LUWRAIN?](local:/doc/about/)
-* [Часто задаваемые вопросы](local:/doc/faq/)
-* [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/)
-* [Правовой статус](local:/doc/legal/)
-* [Авторы проекта](local:/doc/authors/)

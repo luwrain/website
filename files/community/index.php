@@ -56,26 +56,14 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <h2>Материалы о&#160;нас</h2>
 
 <ul>
-<li><a href="<?php echo luwrain_link('massmedia/');?>">Пресса</a></li>
-<li><a href="<?php echo luwrain_link('publications/');?>">Наши публикации и презентации</a></li>
-<li><a href="<?php echo luwrain_link('video/');?>">Видео</a></li>
-<li><a href="<?php echo luwrain_link('podcasts/');?>">Подкасты</a></li>
+<li><a href="<?php echo luwrain_link('massmedia/');?>">СМИ и публикации</a></li>
+<li><a href="<?php echo luwrain_link('events/');?>">Презентации и мероприятия</a></li>
 </ul>
 
 <h2>См.&#160;также</h2>
 
 <ul>
 <li><a href="http://download.luwrain.org/media/greeting/langs/">Записи приветствия системы на&#160;разных языках</a></li>
-</ul>
-
-<h2>О&#160;проекте</h2>
-
-<ul>
-<li><a href="<?php echo luwrain_link('/doc/about/');?>">Что&#160;такое LUWRAIN?</a></li>
-<li><a href="<?php echo luwrain_link('/doc/faq/');?>">Часто задаваемые вопросы</a></li>
-<li><a href="<?php echo luwrain_link('/doc/difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
-<li><a href="<?php echo luwrain_link('/doc/legal/');?>">Правовой статус</a></li>
-<li><a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы проекта</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/community/index.php');?>

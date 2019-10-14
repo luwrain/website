@@ -26,17 +26,8 @@
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Подкасты и беседы на&#160;радио</h1>
 
-<ul>
-<li><a href="http://sdcast.ksdaemon.ru/2015/01/sdcast-17/">"в&#160;гостях Михаил Пожидаев"</a>
-("SDCast &#x2014; Подкаст о&#160;разработке ПО и его окрестностях", Константин Буркалёв, 27 января 2015&#160;г., рус.&#160;яз.)</li>
-<li><a href="http://download.luwrain.org/chats/EchoOfMoscowTomsk-2014-09-19.mp3">"Сделано в&#160;Томске"</a>
-("Эхо&#160;Москвы &#x2014; Томск", Светлана Глазырина, 19 сентября 2014&#160;г., рус.&#160;яз.)</li>
-<li>Беседа в&#160;подкасте "Доступность XXI&#160;век"
-("Радио ВОС" и портал <a href="http://tiflocomp.ru">tiflocomp.ru</a>, Владимир Довыденков и Анатолий Попко, рус.&#160;яз.)
-<ul>
-<li><a href="http://download.luwrain.org/chats/a11y21c-2014-08-30.mp3">Часть&#160;1</a> (30&#160;августа 2014&#160;г.)</li>
-<li><a href="http://download.luwrain.org/chats/a11y21c-2014-09-17.mp3">Часть&#160;2</a> (17&#160;сентября 2014&#160;г.)</li>
-</ul></li>
-</ul>
+<p><strong>ВНИМАНИЕ!</strong>
+Эта&#160;страница предназначена к&#160;удалению. 
+Её&#160;содержимое перенесено <a href="<?php echo luwrain_link('/community/massmedia/');?>">сюда</a>.</p>
 <?php }?>
 <?php luwrain_end_page('/community/podcasts/index.php');?>
