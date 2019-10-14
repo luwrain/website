@@ -12,7 +12,7 @@
 <p><a href="http://dx.doi.org/10.1145/2687233.2687234">DOI: 10.1145/2687233.2687234</a></p>
 
 <p>Полный текст статьи с&#160;материалами доклада опубликован
-в&#160;<a href="http://dl.acm.org/citation.cfm?id=2687234&amp;CFID=464939051&amp;CFTOKEN=29213994">цифровой библиотеки ACM (Association for&#160;Computing Machinery)</a></p>
+в&#160;<a href="http://dl.acm.org/citation.cfm?id=2687234&amp;CFID=464939051&amp;CFTOKEN=29213994">цифровой библиотеки ACM (Association for&#160;Computing Machinery)</a>.</p>
 
 <ul>
 <li><a href="http://marigostra.ru/materials/luwrain-secr-2014-10-23.pdf">Версия статьи для&#160;печати (анг.&#160;яз.)</a></li>

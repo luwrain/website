@@ -24,40 +24,25 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-<h1>Интересные ресурсы о&#160;нашей работе</h1>
-
-<p>В&#160;этом разделе мы собираем различные материалы, 
-которые помогают больше узнать как о&#160;нашей работе, так и о&#160;тех проблемах,
-на&#160;решение которых нацелен LUWRAIN.</p>
-
-<p>С&#160;нами и нашим сообществом можно взаимодействовать через:</p>
+<h1>Интересные ресурсы и материалы</h1>
 
 <ul>
-<li><a href="<?php echo luwrain_link('mailing-lists');?>">списки рассылок</a>;</li>
-<li><a href="http://wiki.luwrain.org">наш вики</a>.</li>
-</ul>
-
-<p>Следите за&#160;новостями и процессом разработки на&#160;следующих ресурсах:</p>
-
-<ul>
-<li><a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a></li>
-<li><a href="http://twitter.com/luwrain">Twitter</a></li>
-<li><a href="<?php echo luwrain_link('https://www.instagram.com/luwrain/');?>">Instagram</a></li>
-<li><a href="https://github.com/luwrain/">GitHub</a></li>
-</ul>
-
-<h2>Ключевые материалы</h2>
-
-<ul>
-<li><a href="<?php echo luwrain_link('articles/daisy-reading/');?>">Чтение Daisy-книг</a></li>
-<li><a href="<?php echo luwrain_link('f123e.php');?>">Представляем F123e</a></li>
-</ul>
-
-<h2>Материалы о&#160;нас</h2>
-
-<ul>
+<li><a href="http://wiki.luwrain.org">Вики</a>, <a href="https://twitter.com/luwrain">Твиттер</a>, <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a>, <a href="https://github.com/luwrain/">GitHub</a></li>
 <li><a href="<?php echo luwrain_link('massmedia/');?>">СМИ и публикации</a></li>
 <li><a href="<?php echo luwrain_link('events/');?>">Презентации и мероприятия</a></li>
+<li><a href="<?php echo luwrain_link('mailing-lists');?>">списки рассылок</a>;</li>
+</ul>
+
+<p>Разработку информационных технологий невозможно вести без&#160;построения долгосрочной стратегии развития
+или без&#160;постоянного контакта с&#160;сообществом пользователей и специалистов в&#160;смежных отраслях.
+В&#160;этом разделе мы собираем все&#160;материалы,
+отражающих наши представления о&#160;путях развития сообщества людей с&#160;нарушениями зрения и о&#160;роли технических средств в&#160;их&#160;жизни.</p>
+
+<ul>
+<li><a href="https://www.kommersant.ru/doc/4060395">Коммерсантъ: ЦБРФ открывает банки</a></li>
+<li><a href="http://www.tadviser.ru/index.php/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D1%8F:%D0%92_%D0%B1%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D1%81%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B5_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8_%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D0%B5%D1%82%D1%81%D1%8F_API-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F">Тадвайзер: В&#160;банковском секторе России начинается API-трансформация</a></li>
+<li><a href="https://www.cnews.ru/news/top/2019-09-27_tainstvennye_zloumyshlenniki_1">CNEWS: Таинственные злоумышленники проделали в Windows «общедоступную дыру» для захвата чужих ПК</a></li>
+<li><a href="<?php echo luwrain_link('f123e.php');?>">Представляем F123e</a></li>
 </ul>
 
 <h2>См.&#160;также</h2>
