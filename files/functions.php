@@ -28,12 +28,12 @@ function luwrain_top_menu()
         </div>
         <div class="col-md-4">
             <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
-            <a href="<?php echo luwrain_link('/doc/faq/');?>">FAQ</a>
-                        <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статус':'Legal notice';?></a>
+            <a href="<?php echo luwrain_link('/community/mass-media/');?>"><?php echo luwrain_current_lang() == 'ru'?'СМИ и публикации':'Mass media and publications';?></a>
+                        <a href="<?php echo luwrain_link('/community/events/');?>"><?php echo luwrain_current_lang() == 'ru'?'Презентации и мероприятия':'Presentations and events';?></a>
         </div>
         <div class="col-md-4">
-<a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo luwrain_current_lang() == 'ru'?'Пресса о нас':'Mass media about us';?></a>
-            <a href="<?php echo luwrain_link('/community/publications/');?>"><?php echo luwrain_current_lang() == 'ru'?'Публикации':'Publications';?></a>
+	            <a href="<?php echo luwrain_link('/doc/faq/');?>">FAQ</a>
+                        <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статус':'Legal notice';?></a>
                     <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo luwrain_current_lang() == 'ru'?'Контакты':'Contact us';?></a>
         </div>
     </div>
