@@ -38,13 +38,5 @@
 <li><a href="http://download.luwrain.org/chats/a11y21c-2014-09-17.mp3">Часть&#160;2</a> (17&#160;сентября 2014&#160;г.)</li>
 </ul></li>
 </ul>
-
-<p>См.&#160;также:</p>
-
-<ul>
-<li><a href="<?php echo luwrain_link('/community/publications/');?>">Наши публикации и презентации</a></li>
-<li><a href="<?php echo luwrain_link('/community/video/');?>">Видео на YouTube</a></li>
-<li><a href="<?php echo luwrain_link('/community/massmedia/');?>">Пресса о&#160;нас</a></li>
-</ul>
 <?php }?>
 <?php luwrain_end_page('/community/podcasts/index.php');?>

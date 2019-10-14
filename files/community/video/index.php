@@ -42,13 +42,5 @@
 <li><a href="http://www.youtube.com/watch?v=m-HOWJCRn7g3">"Идея фикс. Компьютер для незрячих"</a>
 ("Живое&#160;ТВ", Светлана Глазырина, 3 октября 2014 г., рус.&#160;яз.)</li>
 </ul>
-
-<p>См.&#160;также</p>
-
-<ul>
-<li><a href="<?php echo luwrain_link('/community/publications/');?>">Наши публикации и презентации</a></li>
-<li><a href="<?php echo luwrain_link('/community/massmedia/');?>">Пресса о нас</a></li>
-<li><a href="<?php echo luwrain_link('/community/podcasts/');?>">Подкасты</a></li>
-</ul>
 <?php }?>
 <?php luwrain_end_page('/community/video/index.php');?>
