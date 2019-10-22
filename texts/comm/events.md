@@ -16,7 +16,7 @@ luwrain-page-en
 
 * [Presentation for~the~conference "Smart and safe city"](http://download.luwrain.org/pdf/presentation-SmartCity-2017-06-08.pdf)
 (Netherlands, June 7--8,~2017~г., English language)
-* [Presentation for~the~report on~Hong Kong Open Source conference (HKOSCon)](http://download.luwrain.org/pdf/presentation-HongKongOSConference-en-2015-06-27.pdf)
+* [Presentation for~the~report on~Hong Kong Open Source conference (HKOSCon)](http://download.luwrain.org/pdf/presentation-en-HongKongOSConference-2015-06-27.pdf)
 (Hong Kong, June 27, 2015, English language)
 * [Presentation shared on~M-Enabling summit](http://download.luwrain.org/pdf/presentation-MEnablingWashington-en-2015-06-01.pdf)
 (Washington~D.C., US, June 1, 2015, English language)
@@ -43,19 +43,18 @@ luwrain-page-ru
 1. ["Платформа невизуальных приложений LUWRAIN как инструмент для~педагогов"](http://download.luwrain.org/pdf/presentation-ru-kindergarten-2017-04-06.pdf)
 (К-ция~"Детский сад XIX века: нестандартный" педагог в мире стандартов",
 ТГУ, 6 апреля 2017 г.)
-* [Презентация к~демонстрации на~конференции Smart and safe city](http://download.luwrain.org/pdf/presentation-SmartCity-2017-06-08.pdf)
+* [Презентация к~демонстрации на~к-ции Smart and safe city](http://download.luwrain.org/pdf/presentation-en-SmartCity-2017-06-08.pdf)
 (Нидерланды, 7--8~июня~2017~г., анг.~яз.)
 * ["Luwrain: information technologies for~the~handicapped close at~hand"](http://download.luwrain.org/pdf/presentation-en-HongKongOSConference-2015-06-27.pdf)
 (Hong~Kong Open Source conference , Гонконг, 27~июня~2015~г., анг.~яз.)
 * [Презентация для~M-Enabling summit](http://download.luwrain.org/pdf/presentation-en-MEnablingWashington-2015-06-01.pdf)
 (Вашингтон, США, 1~июня 2015~г., анг.~яз.)
-* ["Luwrain: a~text-based OS for~blind people"](http://download.luwrain.org/pdf/presentation-LSMRMLL-en-2014-07-09.pdf)
+* ["Luwrain: a~text-based OS for~blind people"](http://download.luwrain.org/pdf/presentation-en-LSMRMLL-2014-07-09.pdf)
 (LSM/RMLL, Монпелье, Франция, 9 июля 2014~г., анг.~яз.)
 
 ## Мероприятия
 
-1. Тренинг Internet+ 
-(Group of~friends on~disability, АТЭС, Гуанчжоу, КНР, 14-21 декабря 2018~г.)
-* [Конференция "Разработка~ПО~--- 2014"](local:ceesecr2014/)
-* [Саммите Сети главных городов Азии](http://download.luwrain.org/pdf/presentation-anmc-en-2014-09-05.pdf)
-(Томск, 5 сентября 2014~г., анг.~яз.)
+1. Тренинг Internet+ (Гуанчжоу, 2018)
+1. [К-ция "Разработка~ПО~--- 2014"](local:ceesecr2014/)
+1. [Саммит Сети главных городов Азии](http://download.luwrain.org/pdf/presentation-anmc-en-2014-09-05.pdf)
+

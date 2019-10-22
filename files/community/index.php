@@ -2,6 +2,14 @@
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Interesting resources related to&#160;our&#160;work</h1>
 
+<ul>
+<li><a href="<?php echo luwrain_link('massmedia/');?>">Mass&#160;media and publications</a></li>
+<li><a href="<?php echo luwrain_link('events/');?>">Presentations and events</a></li>
+<li><a href="https://twitter.com/luwrain">Twitter</a>; <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a>; <a href="https://github.com/luwrain/">GitHub</a></li>
+<li><a href="http://wiki.luwrain.org">Our wiki (mostly in&#160;Russian)</a>, </li>
+<li><a href="<?php echo luwrain_link('mailing-lists');?>">Mailing lists</a>;</li>
+</ul>
+
 <p>Everybody who is curious about LUWRAIN is&#160;invited to&#160;be a&#160;member of&#160;our community!
 The&#160;community is very important since it's helpful to&#160;know  your opinion and suggestions on&#160;all things we do.
 With valuable feedback, we are&#160;able to make  corresponding improvements and track known issues.</p>
@@ -29,29 +37,17 @@ With valuable feedback, we are&#160;able to make  corresponding improvements and
 <ul>
 <li><a href="<?php echo luwrain_link('massmedia/');?>">СМИ и публикации</a></li>
 <li><a href="<?php echo luwrain_link('events/');?>">Презентации и мероприятия</a></li>
-<li><a href="http://wiki.luwrain.org">Вики</a>, <a href="https://twitter.com/luwrain">Твиттер</a>, <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a>, <a href="https://github.com/luwrain/">GitHub</a></li>
+<li><a href="https://twitter.com/luwrain">Twitter</a>; <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a>; <a href="https://github.com/luwrain/">GitHub</a></li>
+<li><a href="http://wiki.luwrain.org">Наш&#160;вики</a>, </li>
 <li><a href="<?php echo luwrain_link('mailing-lists');?>">списки рассылок</a>;</li>
 </ul>
 
 <p>Разработку информационных технологий невозможно вести без&#160;построения долгосрочной стратегии развития
 или без&#160;постоянного контакта с&#160;сообществами пользователей и специалистов в&#160;смежных отраслях.
 В&#160;этом разделе мы собираем все&#160;материалы,
-отражающих наши представления о&#160;путях развития поддержки людей с&#160;нарушениями зрения и о&#160;роли технических средств в&#160;их&#160;жизни.</p>
+отражающих наши представления о&#160;путях поддержки людей с&#160;нарушениями зрения и о&#160;роли технических средств в&#160;их&#160;жизни.</p>
 
-<p>Как однажды очень точно заметил в&#160;одном из&#160;наших списков рассылки  Михаил Войцеховский,
-количество людей с&#160;нарушениями зрения  в&#160;масштабе государства  недостаточно большое,
-чтобы они могли порождать крупную общественную проблему
-(по&#160;данным ВОЗ в&#160;России &#160;насчитывается порядка 103&#160;тыс.&#160;человек с&#160;нарушениями зрения&#160;&#x2014; 0,07% от&#160;общего числа населения).
-Трудности, связанные с&#160;их&#160;поддержкой, образованием и социализацией, на&#160;общем фоне общественных задач невелики.</p>
-
-<p>Эффект может быть только от&#160;мероприятий,
-охватывающих решение большого числа задач,
-но выполнимых в&#160;условиях предельно ограниченных ресурсов.
-В&#160;техническом плане это заставляет вести разработку программных средств,
-максимально автоматизирующих все процессы,
-применяя как мможно больше интеллектуальных технологий,
-переживающих настоящий бум.
-Мы стараемся, чтобы это требование стало основной темой наших исследований и материалов в&#160;настоящем разделе.</p>
+<h2>Материалы СМИ</h2>
 
 <ul>
 <li><a href="https://www.kommersant.ru/doc/4060395">Коммерсантъ: ЦБРФ открывает банки</a></li>

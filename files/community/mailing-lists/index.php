@@ -1,6 +1,6 @@
 <?php include "../../functions.php"; luwrain_begin_page('/community/mailing-lists/index.php', luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists');?>
 <?php if (luwrain_current_lang() == 'en') {?>
-<h1>Our mailing lists</h1>
+<p>Mailing lists</p>
 
 <p>We have four mailing lists on&#160;<a href="http://googlegroups.com">googlegroups.com</a>.
 To&#160;subscribe to&#160;one of&#160;them send a&#160;message to&#160;the&#160;address 
@@ -43,7 +43,7 @@ mentioned at&#160;each of&#160;the&#160;options below.</p>
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-<h1>Наши списки рассылок</h1>
+<h1>Списки рассылок</h1>
 
 <p>Обсуждение нашего проекта ведётся в&#160;четырёх списках рассылок на&#160;сервере <a href="http://googlegroups.com">googlegroups.com</a>.
 Все желающие подписаться приглашаются присоединиться к обсуждениям,

@@ -5,7 +5,7 @@ TARGET=community/mailing-lists/index.php
 
 luwrain-page-en
 
-# Our mailing lists
+Mailing lists
 
 We have four mailing lists on~[googlegroups.com](http://googlegroups.com).
 To~subscribe to~one of~them send a~message to~the~address 
@@ -41,7 +41,7 @@ mentioned at~each of~the~options below.
 
 luwrain-page-ru
 
-# Наши списки рассылок
+# Списки рассылок
 
 Обсуждение нашего проекта ведётся в~четырёх списках рассылок на~сервере [googlegroups.com](http://googlegroups.com).
 Все желающие подписаться приглашаются присоединиться к обсуждениям,

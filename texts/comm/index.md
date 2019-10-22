@@ -7,6 +7,13 @@ luwrain-page-en
 
 # Interesting resources related to~our~work
 
+* [Mass~media and publications](local:massmedia/)
+* [Presentations and events](local:events/)
+* [Twitter](https://twitter.com/luwrain); [YouTube](https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g); [GitHub](https://github.com/luwrain/)
+* [Our wiki (mostly in~Russian)](http://wiki.luwrain.org), 
+* [Mailing lists](local:mailing-lists);
+
+
 Everybody who is curious about LUWRAIN is~invited to~be a~member of~our community!
 The~community is very important since it's helpful to~know  your opinion and suggestions on~all things we do.
 With valuable feedback, we are~able to make  corresponding improvements and track known issues.
@@ -30,7 +37,8 @@ luwrain-page-ru
 
 * [СМИ и публикации](local:massmedia/)
 * [Презентации и мероприятия](local:events/)
-* [Вики](http://wiki.luwrain.org), [Твиттер](https://twitter.com/luwrain), [YouTube](https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g), [GitHub](https://github.com/luwrain/)
+* [Twitter](https://twitter.com/luwrain); [YouTube](https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g); [GitHub](https://github.com/luwrain/)
+* [Наш~вики](http://wiki.luwrain.org), 
 * [списки рассылок](local:mailing-lists);
 
 Разработку информационных технологий невозможно вести без~построения долгосрочной стратегии развития
@@ -38,22 +46,7 @@ luwrain-page-ru
 В~этом разделе мы собираем все~материалы,
 отражающих наши представления о~путях поддержки людей с~нарушениями зрения и о~роли технических средств в~их~жизни.
 
-Как однажды очень точно заметил в~одном из~наших списков рассылки  Михаил Войцеховский,
-количество людей с~нарушениями зрения  в~масштабе государства  недостаточно большое,
-чтобы они могли порождать крупную общественную проблему
-(по~данным ВОЗ в~России ~насчитывается порядка 103~тыс.~человек с~нарушениями зрения~--- 0,07% от~общего числа населения).
-Трудности, связанные с~их~поддержкой, образованием и социализацией, на~общем фоне общественных задач невелики.
-
-Эффект может быть только от~мероприятий,
-охватывающих решение большого числа задач,
-но выполнимых в~условиях предельно ограниченных ресурсов.
-В~техническом плане это заставляет вести разработку программных средств,
-максимально автоматизирующих все процессы,
-применяя как мможно больше интеллектуальных технологий,
-переживающих настоящий бум.
-Мы стараемся, чтобы это требование стало основной темой наших исследований и материалов в~настоящем разделе.
-
-
+## Материалы СМИ
 
 * [Коммерсантъ: ЦБРФ открывает банки](https://www.kommersant.ru/doc/4060395)
 * [Тадвайзер: В~банковском секторе России начинается API-трансформация](http://www.tadviser.ru/index.php/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D1%8F:%D0%92_%D0%B1%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D1%81%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B5_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8_%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D0%B5%D1%82%D1%81%D1%8F_API-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F)

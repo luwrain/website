@@ -14,7 +14,7 @@
 <ul>
 <li><a href="http://download.luwrain.org/pdf/presentation-SmartCity-2017-06-08.pdf">Presentation for&#160;the&#160;conference "Smart and safe city"</a>
 (Netherlands, June 7&#x2013;8,&#160;2017&#160;г., English language)</li>
-<li><a href="http://download.luwrain.org/pdf/presentation-HongKongOSConference-en-2015-06-27.pdf">Presentation for&#160;the&#160;report on&#160;Hong Kong Open Source conference (HKOSCon)</a>
+<li><a href="http://download.luwrain.org/pdf/presentation-en-HongKongOSConference-2015-06-27.pdf">Presentation for&#160;the&#160;report on&#160;Hong Kong Open Source conference (HKOSCon)</a>
 (Hong Kong, June 27, 2015, English language)</li>
 <li><a href="http://download.luwrain.org/pdf/presentation-MEnablingWashington-en-2015-06-01.pdf">Presentation shared on&#160;M-Enabling summit</a>
 (Washington&#160;D.C., US, June 1, 2015, English language)</li>
@@ -42,24 +42,22 @@
 <li><a href="http://download.luwrain.org/pdf/presentation-ru-kindergarten-2017-04-06.pdf">"Платформа невизуальных приложений LUWRAIN как инструмент для&#160;педагогов"</a>
 (К-ция&#160;"Детский сад XIX века: нестандартный" педагог в мире стандартов",
 ТГУ, 6 апреля 2017 г.)</li>
-<li><a href="http://download.luwrain.org/pdf/presentation-SmartCity-2017-06-08.pdf">Презентация к&#160;демонстрации на&#160;конференции Smart and safe city</a>
+<li><a href="http://download.luwrain.org/pdf/presentation-en-SmartCity-2017-06-08.pdf">Презентация к&#160;демонстрации на&#160;к-ции Smart and safe city</a>
 (Нидерланды, 7&#x2013;8&#160;июня&#160;2017&#160;г., анг.&#160;яз.)</li>
 <li><a href="http://download.luwrain.org/pdf/presentation-en-HongKongOSConference-2015-06-27.pdf">"Luwrain: information technologies for&#160;the&#160;handicapped close at&#160;hand"</a>
 (Hong&#160;Kong Open Source conference , Гонконг, 27&#160;июня&#160;2015&#160;г., анг.&#160;яз.)</li>
 <li><a href="http://download.luwrain.org/pdf/presentation-en-MEnablingWashington-2015-06-01.pdf">Презентация для&#160;M-Enabling summit</a>
 (Вашингтон, США, 1&#160;июня 2015&#160;г., анг.&#160;яз.)</li>
-<li><a href="http://download.luwrain.org/pdf/presentation-LSMRMLL-en-2014-07-09.pdf">"Luwrain: a&#160;text-based OS for&#160;blind people"</a>
+<li><a href="http://download.luwrain.org/pdf/presentation-en-LSMRMLL-2014-07-09.pdf">"Luwrain: a&#160;text-based OS for&#160;blind people"</a>
 (LSM/RMLL, Монпелье, Франция, 9 июля 2014&#160;г., анг.&#160;яз.)</li>
 </ol>
 
 <h2>Мероприятия</h2>
 
 <ol>
-<li>Тренинг Internet+ 
-(Group of&#160;friends on&#160;disability, АТЭС, Гуанчжоу, КНР, 14-21 декабря 2018&#160;г.)</li>
-<li><a href="<?php echo luwrain_link('ceesecr2014/');?>">Конференция "Разработка&#160;ПО&#160;&#x2014; 2014"</a></li>
-<li><a href="http://download.luwrain.org/pdf/presentation-anmc-en-2014-09-05.pdf">Саммите Сети главных городов Азии</a>
-(Томск, 5 сентября 2014&#160;г., анг.&#160;яз.)</li>
+<li>Тренинг Internet+ (Гуанчжоу, 2018)</li>
+<li><a href="<?php echo luwrain_link('ceesecr2014/');?>">К-ция "Разработка&#160;ПО&#160;&#x2014; 2014"</a></li>
+<li><a href="http://download.luwrain.org/pdf/presentation-anmc-en-2014-09-05.pdf">Саммит Сети главных городов Азии</a></li>
 </ol>
 <?php }?>
 <?php luwrain_end_page('/community/events/index.php');?>
