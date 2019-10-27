@@ -28,7 +28,11 @@
 </ul>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-<h1>Наши продукты и услуги</h1>
+<h1>Наши продукты</h1>
+
+<p>Платформа LUWRAIN&#160;&#x2014; наш центральный продукт, развиваемый совместно с&#160;сообществом активных пользователей.
+Она предназначена как для&#160;разработки самостоятельных невизуальных приложений,
+так и для&#160;создания целостного невизуального окружения на&#160;базе различных операционных систем.</p>
 
 <ul>
 <li><a href="<?php echo luwrain_link('/download/');?>">Все релизы, включая материалы для разработчиков</a>
@@ -39,18 +43,12 @@
 </ul></li>
 </ul>
 
-<h2>См.&#160;также</h2>
-
-<ul>
-<li><a href="<?php echo luwrain_link('/doc/user/start/');?>">С&#160;чего начать?</a></li>
-</ul>
-
 <h2>О&#160;проекте</h2>
 
 <ul>
 <li><a href="<?php echo luwrain_link('/doc/about/');?>">Что&#160;такое LUWRAIN?</a></li>
-<li><a href="<?php echo luwrain_link('/doc/faq/');?>">Часто задаваемые вопросы</a></li>
 <li><a href="<?php echo luwrain_link('/doc/difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
+<li><a href="<?php echo luwrain_link('/doc/faq/');?>">Часто задаваемые вопросы</a></li>
 <li><a href="<?php echo luwrain_link('/doc/legal/');?>">Правовой статус</a></li>
 <li><a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы проекта</a></li>
 </ul>
