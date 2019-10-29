@@ -41,4 +41,5 @@ luwrain-page-ru
 * [Компоненты для редактирования многострочного текста](local:text-editing/)
 * [Создание пользовательских функций в~приложении Блокнот](local:notepad-customizing/)
 * [Компиляция исходного кода](local:compilation/)
+* [Сборка ISO-образа](local:iso/)
 * [Компиляция nightly-релиза](local:nightly/)
