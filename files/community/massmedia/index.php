@@ -48,10 +48,10 @@
 <h2>Статьи</h2>
 
 <ul>
-<li><a href="http://marigostra.ru/materials/LuwrainLinuxJournal2015.html">Introducing LUWRAIN: Accessibility Solution for the Blind</a>
-(Linux Journal, Техас, США, июль 2015, анг.&#160;яз.)</li>
-<li><a href="http://marigostra.ru/materials/LuwrainSecr2014.html">The&#160;Framework for&#160;Accessible Applications: Text-Based Case for Blind People</a>
-(Электронная библиотека ACM, США, декабрь  2014, анг.&#160;яз.)</li>
+<li><a href="http://marigostra.ru/materials/luwrain-linuxjournal-2015-07.pdf">Introducing LUWRAIN: Accessibility Solution for the Blind</a>
+(Linux Journal, Техас, США, июль&#160;2015&#160;г., анг.&#160;яз.)</li>
+<li><a href="http://marigostra.ru/materials/luwrain-secr-2014-10-23.pdf">The&#160;Framework for&#160;Accessible Applications: Text-Based Case for Blind People</a>
+(Электронная библиотека ACM, США, декабрь &#160;2014&#160;г., анг.&#160;яз.)</li>
 </ul>
 
 <h2>YouTube</h2>
@@ -61,7 +61,8 @@
 <ul>
 <li><p><a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g</a></p></li>
 <li><p><a href="https://www.youtube.com/watch?v=1Zv8xI6X3uw">"Технологии голосового экранного доступа для&#160;незрячих"</a>
-(<a href="http://inva.tv">inva.tv</a>, "Фактор жизни", Владимир Крупенников, 9&#160;марта&#160;2016&#160;г., рус.&#160;яз.)</p></li>
+(<a href="http://inva.tv">inva.tv</a>,
+"Фактор жизни", Владимир Крупенников, 9&#160;марта&#160;2016&#160;г., рус.&#160;яз.)</p></li>
 <li><a href="http://www.youtube.com/watch?v=m-HOWJCRn7g3">"Идея фикс. Компьютер для незрячих"</a>
 ("Живое&#160;ТВ", Светлана Глазырина, 3 октября 2014 г., рус.&#160;яз.)</li>
 </ul>
@@ -70,7 +71,7 @@
 
 <ul>
 <li><a href="http://sdcast.ksdaemon.ru/2015/01/sdcast-17/">"в&#160;гостях Михаил Пожидаев"</a>
-("SDCast &#x2014; Подкаст о&#160;разработке ПО и его окрестностях", Константин Буркалёв, 27 января 2015&#160;г., рус.&#160;яз.)</li>
+("SDCast&#160;&#x2014; Подкаст о&#160;разработке ПО и его окрестностях", Константин Буркалёв, 27 января 2015&#160;г., рус.&#160;яз.)</li>
 <li><a href="http://download.luwrain.org/chats/EchoOfMoscowTomsk-2014-09-19.mp3">"Сделано в&#160;Томске"</a>
 ("Эхо&#160;Москвы &#x2014; Томск", Светлана Глазырина, 19 сентября 2014&#160;г., рус.&#160;яз.)</li>
 <li>Беседа в&#160;подкасте "Доступность XXI&#160;век"
