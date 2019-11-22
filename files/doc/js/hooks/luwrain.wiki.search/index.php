@@ -1,4 +1,4 @@
-<?php include "../../../../functions.php"; luwrain_begin_page('/doc/devel/hooks/luwrain.wiki.search/index.php', luwrain_current_lang() == 'ru'?'luwrain.wiki.search':'luwrain.wiki.search');?>
+<?php include "../../../../functions.php"; luwrain_begin_page('/doc/js/hooks/luwrain.wiki.search/index.php', luwrain_current_lang() == 'ru'?'luwrain.wiki.search':'luwrain.wiki.search');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>luwrain.wiki.search</h1>
 
@@ -21,4 +21,4 @@
 
 <p><strong>Возвращаемое значение:</strong></p>
 <?php }?>
-<?php luwrain_end_page('/doc/devel/hooks/luwrain.wiki.search/index.php');?>
+<?php luwrain_end_page('/doc/js/hooks/luwrain.wiki.search/index.php');?>

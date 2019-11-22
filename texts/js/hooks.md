@@ -1,7 +1,7 @@
 
 ENTITLE='JavaScript hooks'
 RUTITLE='События JavaScript'
-TARGET=doc/devel/hooks/index.php
+TARGET=doc/js/hooks/index.php
 
 luwrain-page-en
 

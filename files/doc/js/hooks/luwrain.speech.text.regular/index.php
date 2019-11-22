@@ -1,4 +1,4 @@
-<?php include "../../../../functions.php"; luwrain_begin_page('/doc/devel/hooks/luwrain.speech.text.regular/index.php', luwrain_current_lang() == 'ru'?'luwrain.speech.text.regular':'luwrain.speech.text.regular');?>
+<?php include "../../../../functions.php"; luwrain_begin_page('/doc/js/hooks/luwrain.speech.text.regular/index.php', luwrain_current_lang() == 'ru'?'luwrain.speech.text.regular':'luwrain.speech.text.regular');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>luwrain.speech.text.regular</h1>
 
@@ -52,4 +52,4 @@ transforming.</p>
 <p>Это&#160;событие используется только для&#160;обычного взаимодействия пользователя.
 Для&#160;произношения текста сообщений и для&#160;последовательного прослушивания  текста используются другие аналогичные события.</p>
 <?php }?>
-<?php luwrain_end_page('/doc/devel/hooks/luwrain.speech.text.regular/index.php');?>
+<?php luwrain_end_page('/doc/js/hooks/luwrain.speech.text.regular/index.php');?>

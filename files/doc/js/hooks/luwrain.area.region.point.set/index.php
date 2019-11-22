@@ -1,4 +1,4 @@
-<?php include "../../../../functions.php"; luwrain_begin_page('/doc/devel/hooks/luwrain.area.region.point.set/index.php', luwrain_current_lang() == 'ru'?'luwrain.area.region.point.set':'luwrain.area.region.point.set');?>
+<?php include "../../../../functions.php"; luwrain_begin_page('/doc/js/hooks/luwrain.area.region.point.set/index.php', luwrain_current_lang() == 'ru'?'luwrain.area.region.point.set':'luwrain.area.region.point.set');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>luwrain.area.region.point.set</h1>
 
@@ -21,4 +21,4 @@
 
 <p><strong>Возвращаемое значение:</strong></p>
 <?php }?>
-<?php luwrain_end_page('/doc/devel/hooks/luwrain.area.region.point.set/index.php');?>
+<?php luwrain_end_page('/doc/js/hooks/luwrain.area.region.point.set/index.php');?>

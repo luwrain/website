@@ -1,4 +1,4 @@
-<?php include "../../../functions.php"; luwrain_begin_page('/doc/devel/hooks/index.php', luwrain_current_lang() == 'ru'?'События JavaScript':'JavaScript hooks');?>
+<?php include "../../../functions.php"; luwrain_begin_page('/doc/js/hooks/index.php', luwrain_current_lang() == 'ru'?'События JavaScript':'JavaScript hooks');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>JavaScript hooks</h1>
 
@@ -73,4 +73,4 @@
 <li><a href="<?php echo luwrain_link('luwrain.wiki.search/');?>">luwrain.wiki.search</a></li>
 </ul>
 <?php }?>
-<?php luwrain_end_page('/doc/devel/hooks/index.php');?>
+<?php luwrain_end_page('/doc/js/hooks/index.php');?>

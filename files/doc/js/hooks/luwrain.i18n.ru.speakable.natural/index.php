@@ -1,4 +1,4 @@
-<?php include "../../../../functions.php"; luwrain_begin_page('/doc/devel/hooks/luwrain.i18n.ru.speakable.natural/index.php', luwrain_current_lang() == 'ru'?'luwrain.i18n.ru.speakable.natural':'luwrain.i18n.ru.speakable.natural');?>
+<?php include "../../../../functions.php"; luwrain_begin_page('/doc/js/hooks/luwrain.i18n.ru.speakable.natural/index.php', luwrain_current_lang() == 'ru'?'luwrain.i18n.ru.speakable.natural':'luwrain.i18n.ru.speakable.natural');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>luwrain.i18n.ru.speakable.natural</h1>
 
@@ -21,4 +21,4 @@
 
 <p><strong>Возвращаемое значение:</strong></p>
 <?php }?>
-<?php luwrain_end_page('/doc/devel/hooks/luwrain.i18n.ru.speakable.natural/index.php');?>
+<?php luwrain_end_page('/doc/js/hooks/luwrain.i18n.ru.speakable.natural/index.php');?>

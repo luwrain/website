@@ -1,4 +1,4 @@
-<?php include "../../../../functions.php"; luwrain_begin_page('/doc/devel/hooks/luwrain.commander.info.local/index.php', luwrain_current_lang() == 'ru'?'luwrain.commander.info.local':'luwrain.commander.info.local');?>
+<?php include "../../../../functions.php"; luwrain_begin_page('/doc/js/hooks/luwrain.commander.info.local/index.php', luwrain_current_lang() == 'ru'?'luwrain.commander.info.local':'luwrain.commander.info.local');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>luwrain.commander.info.local</h1>
 
@@ -21,4 +21,4 @@
 
 <p><strong>Возвращаемое значение:</strong></p>
 <?php }?>
-<?php luwrain_end_page('/doc/devel/hooks/luwrain.commander.info.local/index.php');?>
+<?php luwrain_end_page('/doc/js/hooks/luwrain.commander.info.local/index.php');?>

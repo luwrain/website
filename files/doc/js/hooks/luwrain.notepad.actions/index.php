@@ -1,4 +1,4 @@
-<?php include "../../../../functions.php"; luwrain_begin_page('/doc/devel/hooks/luwrain.notepad.actions/index.php', luwrain_current_lang() == 'ru'?'luwrain.notepad.actions':'luwrain.notepad.actions');?>
+<?php include "../../../../functions.php"; luwrain_begin_page('/doc/js/hooks/luwrain.notepad.actions/index.php', luwrain_current_lang() == 'ru'?'luwrain.notepad.actions':'luwrain.notepad.actions');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>luwrain.notepad.actions</h1>
 
@@ -21,4 +21,4 @@
 
 <p><strong>Возвращаемое значение:</strong></p>
 <?php }?>
-<?php luwrain_end_page('/doc/devel/hooks/luwrain.notepad.actions/index.php');?>
+<?php luwrain_end_page('/doc/js/hooks/luwrain.notepad.actions/index.php');?>

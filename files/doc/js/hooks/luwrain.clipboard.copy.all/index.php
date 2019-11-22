@@ -1,4 +1,4 @@
-<?php include "../../../../functions.php"; luwrain_begin_page('/doc/devel/hooks/luwrain.clipboard.copy.all/index.php', luwrain_current_lang() == 'ru'?'luwrain.clipboard.copy.all':'luwrain.clipboard.copy.all');?>
+<?php include "../../../../functions.php"; luwrain_begin_page('/doc/js/hooks/luwrain.clipboard.copy.all/index.php', luwrain_current_lang() == 'ru'?'luwrain.clipboard.copy.all':'luwrain.clipboard.copy.all');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>luwrain.clipboard.copy.all</h1>
 
@@ -21,4 +21,4 @@
 
 <p><strong>Возвращаемое значение:</strong></p>
 <?php }?>
-<?php luwrain_end_page('/doc/devel/hooks/luwrain.clipboard.copy.all/index.php');?>
+<?php luwrain_end_page('/doc/js/hooks/luwrain.clipboard.copy.all/index.php');?>

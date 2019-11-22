@@ -1,4 +1,4 @@
-<?php include "../../../../functions.php"; luwrain_begin_page('/doc/devel/hooks/luwrain.prop.player.track.sec/index.php', luwrain_current_lang() == 'ru'?'luwrain.prop.player.track.sec':'luwrain.prop.player.track.sec');?>
+<?php include "../../../../functions.php"; luwrain_begin_page('/doc/js/hooks/luwrain.prop.player.track.sec/index.php', luwrain_current_lang() == 'ru'?'luwrain.prop.player.track.sec':'luwrain.prop.player.track.sec');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>luwrain.prop.player.track.sec</h1>
 
@@ -21,4 +21,4 @@
 
 <p><strong>Возвращаемое значение:</strong></p>
 <?php }?>
-<?php luwrain_end_page('/doc/devel/hooks/luwrain.prop.player.track.sec/index.php');?>
+<?php luwrain_end_page('/doc/js/hooks/luwrain.prop.player.track.sec/index.php');?>

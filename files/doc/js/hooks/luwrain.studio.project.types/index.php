@@ -1,4 +1,4 @@
-<?php include "../../../../functions.php"; luwrain_begin_page('/doc/devel/hooks/luwrain.studio.project.types/index.php', luwrain_current_lang() == 'ru'?'luwrain.studio.project.types':'luwrain.studio.project.types');?>
+<?php include "../../../../functions.php"; luwrain_begin_page('/doc/js/hooks/luwrain.studio.project.types/index.php', luwrain_current_lang() == 'ru'?'luwrain.studio.project.types':'luwrain.studio.project.types');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>luwrain.studio.project.types</h1>
 
@@ -21,4 +21,4 @@
 
 <p><strong>Возвращаемое значение:</strong></p>
 <?php }?>
-<?php luwrain_end_page('/doc/devel/hooks/luwrain.studio.project.types/index.php');?>
+<?php luwrain_end_page('/doc/js/hooks/luwrain.studio.project.types/index.php');?>

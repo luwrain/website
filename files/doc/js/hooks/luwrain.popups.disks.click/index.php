@@ -1,4 +1,4 @@
-<?php include "../../../../functions.php"; luwrain_begin_page('/doc/devel/hooks/luwrain.popups.disks.click/index.php', luwrain_current_lang() == 'ru'?'luwrain.popups.disks.click':'luwrain.popups.disks.click');?>
+<?php include "../../../../functions.php"; luwrain_begin_page('/doc/js/hooks/luwrain.popups.disks.click/index.php', luwrain_current_lang() == 'ru'?'luwrain.popups.disks.click':'luwrain.popups.disks.click');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>luwrain.popups.disks.click</h1>
 
@@ -21,4 +21,4 @@
 
 <p><strong>Возвращаемое значение:</strong></p>
 <?php }?>
-<?php luwrain_end_page('/doc/devel/hooks/luwrain.popups.disks.click/index.php');?>
+<?php luwrain_end_page('/doc/js/hooks/luwrain.popups.disks.click/index.php');?>

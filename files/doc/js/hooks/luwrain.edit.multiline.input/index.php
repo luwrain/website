@@ -1,4 +1,4 @@
-<?php include "../../../../functions.php"; luwrain_begin_page('/doc/devel/hooks/luwrain.edit.multiline.input/index.php', luwrain_current_lang() == 'ru'?'luwrain.edit.multiline.input':'luwrain.edit.multiline.input');?>
+<?php include "../../../../functions.php"; luwrain_begin_page('/doc/js/hooks/luwrain.edit.multiline.input/index.php', luwrain_current_lang() == 'ru'?'luwrain.edit.multiline.input':'luwrain.edit.multiline.input');?>
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>luwrain.edit.multiline.input</h1>
 
@@ -21,4 +21,4 @@
 
 <p><strong>Возвращаемое значение:</strong></p>
 <?php }?>
-<?php luwrain_end_page('/doc/devel/hooks/luwrain.edit.multiline.input/index.php');?>
+<?php luwrain_end_page('/doc/js/hooks/luwrain.edit.multiline.input/index.php');?>
