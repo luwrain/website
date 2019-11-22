@@ -10,3 +10,33 @@ luwrain-page-en
 luwrain-page-ru
 
 # Единый поиск в~Интернете
+
+## Правовой статус использования duckduckgo.com
+
+Поисковая машина [duckduckgo.com](http://duckduckgo.com) открыто не~содержит явного позволения подвергать скриптовой обработки свою поисковую выдачу,
+но на~форуме присутствует следующий вопрос одного из~пользователей:
+
+_---~Am I allowed to automatically parse duckduckgo search results?_
+
+_---~Nope; sorry.
+We do not have the rights from our sources to let anyone do that.
+We do have an API for instant answers, but it does not serve normal results._
+
+_---~For personal/non-commercial usage too?_
+
+_---~Yes, afraid so.
+What did you want to do?_
+
+_---~Implement client-side search personalization tool.
+Got an algorithm that reranks search results based on personal search history;
+at the moment I'm looking for search result sources to test it._
+
+_---~Ah. Feel free to run userscripts on the site, if that works for you.
+Beyond that, check out 
+http://commoncrawl.org/ and http://yacy.net/_
+
+Источник:
+[https://web.archive.org/web/20180910171034/https://duck.co/forum/thread/5251/am-i-allowed-to-automatically-parse-duckduckgo-sea](https://web.archive.org/web/20180910171034/https://duck.co/forum/thread/5251/am-i-allowed-to-automatically-parse-duckduckgo-sea)
+
+Мы полагаем, что задача обработки поисковой выдачи в~LUWRAIN не~имеет принципиальных отличий от~задачи,
+которая обсуждалась участниками беседы, и на~решение которой пользователь получил явное разрешение.
