@@ -24,7 +24,7 @@
 <li><a href="<?php echo luwrain_link('web-search/');?>">Единый поиск в&#160;Интернете</a></li>
 <li><a href="<?php echo luwrain_link('clipboard/');?>">Операции копирования-вставки</a></li>
 <li><a href="<?php echo luwrain_link('popups/');?>">Всплывающие окна</a></li>
-<li><a href="<?php echo luwrain_link('speakable-text/');?>">Режимы предобработки произносимой речи</a></li>
+<li><a href="<?php echo luwrain_link('speakable-text/');?>">Режимы предобработки речи</a></li>
 <li><a href="<?php echo luwrain_link('hotkeys/');?>">Горячие клавиши</a></li>
 </ul></li>
 <li>Работа с&#160;приложениями:
