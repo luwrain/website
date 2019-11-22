@@ -44,7 +44,7 @@ JavaScript&#160;&#x2014; популярнейший язык для&#160;раз�
 подписаться на&#160;которую можно путём отправки письма на&#160;адрес <a href="mailto:luwrain-devel-ru+subscribe@googlegroups.com">luwrain-devel-ru+subscribe@googlegroups.com</a>.</li>
 <li><a href="<?php echo luwrain_link('/doc/devel/');?>">Раздел нашего сайта, посвящённый различным вопросам разработки</a>.</li>
 <li><a href="<?php echo luwrain_link('/download/git/');?>">Список наших&#160;репозиториев Git</a>.</li>
-<li><a href="http://luwrain.org/apidocs/">Документация Javadoc с&#160;описанием классов LUWRAIN</a>.</li>
+<li><a href="http://luwrain.org/javadoc/">Документация Javadoc с&#160;описанием классов LUWRAIN</a>.</li>
 </ol>
 
 <p>См.&#160;также:</p>

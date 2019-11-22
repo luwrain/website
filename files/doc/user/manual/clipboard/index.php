@@ -45,7 +45,7 @@
 хранит два массива: массив строк и массив объектов. Отвечает за это
 класс org.luwrain.core.Clipboard, задокументированный здесь: </p>
 
-<p>http://luwrain.org/api/org/luwrain/core/Clipboard.html</p>
+<p>http://luwrain.org/javadoc/org/luwrain/core/Clipboard.html</p>
 
 <p>Основная роль принадлежит массиву объектов, но их источник может
 предоставить правильное строковое представление, если пользователь

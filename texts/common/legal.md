@@ -28,7 +28,7 @@ you still may title your project as~"LUWRAIN" in~the~case you keep  the~followin
 2. More than 90% of~source files remain untouched 
 (meaning, there is a~commit in~[the~main Git repository](https://github.com/luwrain/luwrain.git) with more than 90% of same files as in~your custom version) 
 3. LUWRAIN API remains untouched 
-(meaning, nothing what is covered by [Javadoc API documentation](/api/) is changed)
+(meaning, nothing what is covered by [Javadoc API documentation](/javadoc/) is changed)
 
 Otherwise, you may not use LUWRAIN name any~more and have~to consider some another designation.
 The~"LUWRAIN" trademark is~applied for~registration on~the~territory of~Russian Federation.

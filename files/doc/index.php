@@ -15,7 +15,7 @@ Choose the&#160;section you need:</p>
 </ul></li>
 <li><a href="<?php echo luwrain_link('devel/');?>">Documentation for&#160;developers</a>
 <ul>
-<li><a href="/api/">LUWRAIN API Javadoc</a></li>
+<li><a href="/javadoc/">LUWRAIN API Javadoc</a></li>
 </ul></li>
 </ul>
 
@@ -47,7 +47,7 @@ Choose the&#160;section you need:</p>
 <li><a href="<?php echo luwrain_link('js/');?>">Документация для&#160;разработчиков расширений JavaScript</a></li>
 <li><a href="<?php echo luwrain_link('devel/');?>">Документация для&#160;разработчиков</a>
 <ul>
-<li><a href="/api/">LUWRAIN API Javadoc</a></li>
+<li><a href="/javadoc/">LUWRAIN API Javadoc</a></li>
 </ul></li>
 </ul>
 

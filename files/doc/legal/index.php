@@ -24,7 +24,7 @@ you still may title your project as&#160;"LUWRAIN" in&#160;the&#160;case you kee
 <li>More than 90% of&#160;source files remain untouched 
 (meaning, there is a&#160;commit in&#160;<a href="https://github.com/luwrain/luwrain.git">the&#160;main Git repository</a> with more than 90% of same files as in&#160;your custom version) </li>
 <li>LUWRAIN API remains untouched 
-(meaning, nothing what is covered by <a href="/api/">Javadoc API documentation</a> is changed)</li>
+(meaning, nothing what is covered by <a href="/javadoc/">Javadoc API documentation</a> is changed)</li>
 </ol>
 
 <p>Otherwise, you may not use LUWRAIN name any&#160;more and have&#160;to consider some another designation.

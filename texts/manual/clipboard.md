@@ -49,7 +49,7 @@ LUWRAIN воспринимает несколько команд, связанн
 хранит два массива: массив строк и массив объектов. Отвечает за это
 класс org.luwrain.core.Clipboard, задокументированный здесь: 
 
-http://luwrain.org/api/org/luwrain/core/Clipboard.html
+http://luwrain.org/javadoc/org/luwrain/core/Clipboard.html
 
 Основная роль принадлежит массиву объектов, но их источник может
 предоставить правильное строковое представление, если пользователь

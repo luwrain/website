@@ -16,7 +16,7 @@ Choose the~section you need:
  * [User manual: a~complete guide to~work in~LUWRAIN](local:user/manual/)
  * [Documentation for~developers of~JavaScript extensions](local:js/)
 * [Documentation for~developers](local:devel/)
- * [LUWRAIN API Javadoc](/api/)
+ * [LUWRAIN API Javadoc](/javadoc/)
 
 ## About the~project
 
@@ -41,7 +41,7 @@ luwrain-page-ru
  * [Руководство пользователя: полное описание правил работы в~нашей среде](local:user/manual/)
 * [Документация для~разработчиков расширений JavaScript](local:js/)
 * [Документация для~разработчиков](local:devel/)
- * [LUWRAIN API Javadoc](/api/)
+ * [LUWRAIN API Javadoc](/javadoc/)
 
 ## О~проекте
 
