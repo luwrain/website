@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.wiki.search'
 RUTITLE='luwrain.wiki.search'
-TARGET=doc/devel/hooks/luwrain.wiki.search/index.php
+TARGET=doc/js/hooks/luwrain.wiki.search/index.php
 
 luwrain-page-en
 

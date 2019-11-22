@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.speech.text.regular'
 RUTITLE='luwrain.speech.text.regular'
-TARGET=doc/devel/hooks/luwrain.speech.text.regular/index.php
+TARGET=doc/js/hooks/luwrain.speech.text.regular/index.php
 
 luwrain-page-en
 

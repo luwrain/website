@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.app.player.areas.playlist.input'
 RUTITLE='luwrain.app.player.areas.playlist.input'
-TARGET=doc/devel/hooks/luwrain.app.player.areas.playlist.input/index.php
+TARGET=doc/js/hooks/luwrain.app.player.areas.playlist.input/index.php
 
 luwrain-page-en
 

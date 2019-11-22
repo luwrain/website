@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.url.open.default'
 RUTITLE='luwrain.url.open.default'
-TARGET=doc/devel/hooks/luwrain.url.open.default/index.php
+TARGET=doc/js/hooks/luwrain.url.open.default/index.php
 
 luwrain-page-en
 

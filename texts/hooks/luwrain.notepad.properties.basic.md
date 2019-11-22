@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.notepad.properties.basic'
 RUTITLE='luwrain.notepad.properties.basic'
-TARGET=doc/devel/hooks/luwrain.notepad.properties.basic/index.php
+TARGET=doc/js/hooks/luwrain.notepad.properties.basic/index.php
 
 luwrain-page-en
 

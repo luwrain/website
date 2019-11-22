@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.studio.project.types'
 RUTITLE='luwrain.studio.project.types'
-TARGET=doc/devel/hooks/luwrain.studio.project.types/index.php
+TARGET=doc/js/hooks/luwrain.studio.project.types/index.php
 
 luwrain-page-en
 

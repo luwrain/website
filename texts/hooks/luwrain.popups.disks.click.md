@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.popups.disks.click'
 RUTITLE='luwrain.popups.disks.click'
-TARGET=doc/devel/hooks/luwrain.popups.disks.click/index.php
+TARGET=doc/js/hooks/luwrain.popups.disks.click/index.php
 
 luwrain-page-en
 

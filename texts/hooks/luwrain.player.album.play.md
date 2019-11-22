@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.player.album.play'
 RUTITLE='luwrain.player.album.play'
-TARGET=doc/devel/hooks/luwrain.player.album.play/index.php
+TARGET=doc/js/hooks/luwrain.player.album.play/index.php
 
 luwrain-page-en
 

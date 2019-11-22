@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.notepad.action'
 RUTITLE='luwrain.notepad.action'
-TARGET=doc/devel/hooks/luwrain.notepad.action/index.php
+TARGET=doc/js/hooks/luwrain.notepad.action/index.php
 
 luwrain-page-en
 

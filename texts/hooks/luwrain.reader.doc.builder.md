@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.reader.doc.builder'
 RUTITLE='luwrain.reader.doc.builder'
-TARGET=doc/devel/hooks/luwrain.reader.doc.builder/index.php
+TARGET=doc/js/hooks/luwrain.reader.doc.builder/index.php
 
 luwrain-page-en
 

@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.edit.multiline.input'
 RUTITLE='luwrain.edit.multiline.input'
-TARGET=doc/devel/hooks/luwrain.edit.multiline.input/index.php
+TARGET=doc/js/hooks/luwrain.edit.multiline.input/index.php
 
 luwrain-page-en
 

@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.reader.doc.error'
 RUTITLE='luwrain.reader.doc.error'
-TARGET=doc/devel/hooks/luwrain.reader.doc.error/index.php
+TARGET=doc/js/hooks/luwrain.reader.doc.error/index.php
 
 luwrain-page-en
 

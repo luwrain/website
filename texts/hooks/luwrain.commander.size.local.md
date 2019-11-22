@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.commander.size.local'
 RUTITLE='luwrain.commander.size.local'
-TARGET=doc/devel/hooks/luwrain.commander.size.local/index.php
+TARGET=doc/js/hooks/luwrain.commander.size.local/index.php
 
 luwrain-page-en
 

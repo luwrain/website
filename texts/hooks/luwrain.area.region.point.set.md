@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.area.region.point.set'
 RUTITLE='luwrain.area.region.point.set'
-TARGET=doc/devel/hooks/luwrain.area.region.point.set/index.php
+TARGET=doc/js/hooks/luwrain.area.region.point.set/index.php
 
 luwrain-page-en
 

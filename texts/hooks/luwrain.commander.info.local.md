@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.commander.info.local'
 RUTITLE='luwrain.commander.info.local'
-TARGET=doc/devel/hooks/luwrain.commander.info.local/index.php
+TARGET=doc/js/hooks/luwrain.commander.info.local/index.php
 
 luwrain-page-en
 

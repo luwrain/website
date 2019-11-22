@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.prop.player.track.url'
 RUTITLE='luwrain.prop.player.track.url'
-TARGET=doc/devel/hooks/luwrain.prop.player.track.url/index.php
+TARGET=doc/js/hooks/luwrain.prop.player.track.url/index.php
 
 luwrain-page-en
 

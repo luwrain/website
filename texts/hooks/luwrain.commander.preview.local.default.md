@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.commander.preview.local.default'
 RUTITLE='luwrain.commander.preview.local.default'
-TARGET=doc/devel/hooks/luwrain.commander.preview.local.default/index.php
+TARGET=doc/js/hooks/luwrain.commander.preview.local.default/index.php
 
 luwrain-page-en
 

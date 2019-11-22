@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.clipboard.copy.all'
 RUTITLE='luwrain.clipboard.copy.all'
-TARGET=doc/devel/hooks/luwrain.clipboard.copy.all/index.php
+TARGET=doc/js/hooks/luwrain.clipboard.copy.all/index.php
 
 luwrain-page-en
 

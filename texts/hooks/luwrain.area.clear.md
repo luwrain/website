@@ -1,7 +1,7 @@
 
 ENTITLE='luwrain.area.clear'
 RUTITLE='luwrain.area.clear'
-TARGET=doc/devel/hooks/luwrain.area.clear/index.php
+TARGET=doc/js/hooks/luwrain.area.clear/index.php
 
 luwrain-page-en
 
