@@ -5,21 +5,40 @@
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Руководство пользователя</h1>
 
-<p>В&#160;настоящем руководстве описываются основные принципы работы в&#160;нашей системе.
-Вся&#160;приведённая здесь информация предназначена для&#160;пользователей,
-установивших и запустивших LUWRAIN на&#160;своём компьютере.
-Если вам требуются инструкции как подготовить систему к&#160;работе, вы можете найти их <a href="<?php echo luwrain_link('/doc/user/installation/');?>">здесь</a>.</p>
+<p>Страницы в&#160;этом разделе помогут вам понять основные принципы использования LUWRAIN.
+Для&#160;работы вам потребуется LUWRAIN,
+установленный на&#160;ваш компьютер.
+Если вам нужна помощь с&#160;подготовкой LUWRAIN к&#160;работе,
+перейдите в&#160;<a href="<?php echo luwrain_link('/doc/user/installation/');?>">соответствующий раздел документации</a>.</p>
 
-<p>Выберите интересующий вас раздел:</p>
+<h2>Выберите интересующий вас раздел:</h2>
 
 <ul>
+<li>Базовая информация:
+<ul>
 <li><a href="<?php echo luwrain_link('intro/');?>">Ключевые особенности</a></li>
+<li><a href="<?php echo luwrain_link('ext/');?>">Загрузка расширений</a></li>
+</ul></li>
+<li>Общие принципы работы
+<ul>
+<li><a href="<?php echo luwrain_link('web-search/');?>">Единый поиск в&#160;Интернете</a></li>
 <li><a href="<?php echo luwrain_link('clipboard/');?>">Операции копирования-вставки</a></li>
-<li><a href="<?php echo luwrain_link('speech/');?>">Настройка вывода речи</a></li>
+<li><a href="<?php echo luwrain_link('popups/');?>">Всплывающие окна</a></li>
+<li><a href="<?php echo luwrain_link('speakable-text/');?>">Режимы предобработки произносимой речи</a></li>
+<li><a href="<?php echo luwrain_link('hotkeys/');?>">Горячие клавиши</a></li>
+</ul></li>
+<li>Работа с&#160;приложениями:
+<ul>
 <li><a href="<?php echo luwrain_link('reader/');?>">Просмотр документов</a></li>
+<li>[Чтение книг в&#160;формате DAISY(local:reader/daisy/)</li>
 <li><a href="<?php echo luwrain_link('player/');?>">Прослушивание музыки, радио и аудиокниг</a></li>
 <li><a href="<?php echo luwrain_link('calc/');?>">Вычисления на&#160;калькуляторе</a></li>
-<li><a href="<?php echo luwrain_link('hotkeys/');?>">Горячие клавиши</a></li>
+</ul></li>
+<li>Конфигурирование системы:
+<ul>
+<li><a href="<?php echo luwrain_link('speech/');?>">Настройка вывода речи</a></li>
+<li>Особенности работы в&#160;различных операционных системах:</li>
+</ul></li>
 <li>Особенности использования в&#160;GNU/Linux
 <ul>
 <li><a href="<?php echo luwrain_link('linux/ubuntu-repo');?>">Подключение репозитория для&#160;Ubuntu Linux</a></li>

@@ -1,7 +1,7 @@
 
 ENTITLE='Creating a text extension'
 RUTITLE='Создание текстового расширения'
-TARGET=doc/user/manual/ext-text/index.php
+TARGET=doc/user/manual/ext/text/index.php
 
 luwrain-page-en
 

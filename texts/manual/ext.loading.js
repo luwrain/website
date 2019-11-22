@@ -1,7 +1,7 @@
 
 ENTITLE='Loading of extensions'
 RUTITLE='Порядок загрузки расширений'
-TARGET=doc/user/manual/ext-loading/index.php
+TARGET=doc/user/manual/ext/loading/index.php
 
 luwrain-page-en
 
