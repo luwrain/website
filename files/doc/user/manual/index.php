@@ -22,6 +22,7 @@
 <li>Общие принципы работы
 <ul>
 <li><a href="<?php echo luwrain_link('web-search/');?>">Единый поиск в&#160;Интернете</a></li>
+<li><a href="<?php echo luwrain_link('announcements/');?>">Управление уведомлениями</a></li>
 <li><a href="<?php echo luwrain_link('clipboard/');?>">Операции копирования-вставки</a></li>
 <li><a href="<?php echo luwrain_link('popups/');?>">Всплывающие окна</a></li>
 <li><a href="<?php echo luwrain_link('speakable-text/');?>">Режимы предобработки речи</a></li>
@@ -31,7 +32,15 @@
 <ul>
 <li><a href="<?php echo luwrain_link('reader/');?>">Просмотр документов</a></li>
 <li>[Чтение книг в&#160;формате DAISY(local:reader/daisy/)</li>
+<li><a href="<?php echo luwrain_link('studio/');?>">Работа с&#160;текстовыми материалами при помощи приложения Студия</a></li>
+<li><a href="<?php echo luwrain_link('studio/tex/');?>">Создание статей, книг и презентаций в&#160;формате TeX</a></li>
+<li><a href="studio:studio/ly/">Создание нотных партитур в&#160;формате Lilypond</a></li>
+<li><a href="<?php echo luwrain_link('mail/');?>">Чтение электронной почты</a></li>
+<li><a href="<?php echo luwrain_link('mail/message/');?>">Составление сообщений электронной почты</a></li>
+<li><a href="<?php echo luwrain_link('publisher/');?>">Создание книг в&#160;формате DAISY при&#160;помощи приложения Издатель</a></li>
 <li><a href="<?php echo luwrain_link('player/');?>">Прослушивание музыки, радио и аудиокниг</a></li>
+<li><a href="<?php echo luwrain_link('notepad/');?>">Редактирование текстовых файлов при&#160;помощи приложения Блокнот</a></li>
+<li><a href="<?php echo luwrain_link('notepad/narrating');?>">Создание звуковых файлов на&#160;основе текстов</a></li>
 <li><a href="<?php echo luwrain_link('calc/');?>">Вычисления на&#160;калькуляторе</a></li>
 </ul></li>
 <li>Конфигурирование системы:

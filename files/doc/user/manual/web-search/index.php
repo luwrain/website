@@ -33,6 +33,6 @@ http://commoncrawl.org/ and http://yacy.net/</em></p>
 <a href="https://web.archive.org/web/20180910171034/https://duck.co/forum/thread/5251/am-i-allowed-to-automatically-parse-duckduckgo-sea">https://web.archive.org/web/20180910171034/https://duck.co/forum/thread/5251/am-i-allowed-to-automatically-parse-duckduckgo-sea</a></p>
 
 <p>Мы полагаем, что задача обработки поисковой выдачи в&#160;LUWRAIN не&#160;имеет принципиальных отличий от&#160;задачи,
-которая обсуждалась участниками беседы, и на&#160;решение которой пользователь получил явное позволение.</p>
+которая обсуждалась участниками беседы, и на&#160;решение которой пользователь получил явное разрешение.</p>
 <?php }?>
 <?php luwrain_end_page('/doc/user/manual/web-search/index.php');?>
