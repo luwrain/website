@@ -3,6 +3,6 @@
 <h1>Studio</h1>
 <?php }?>
 <?php if (luwrain_current_lang() == 'ru') {?>
-<h1>Работа с&#160;текстовыми материалами при&#160;помощи приложения Студия</h1>
+<h1>Создание статей, книг и презентаций в&#160;формате Tex</h1>
 <?php }?>
 <?php luwrain_end_page('/doc/user/manual/studio/tex/index.php');?>

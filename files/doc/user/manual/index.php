@@ -14,13 +14,10 @@
 <h2>Выберите интересующий вас раздел:</h2>
 
 <ul>
-<li>Базовая информация:
+<li>Общие принципы работы:
 <ul>
 <li><a href="<?php echo luwrain_link('intro/');?>">Ключевые особенности</a></li>
-<li><a href="<?php echo luwrain_link('ext/');?>">Загрузка расширений</a></li>
-</ul></li>
-<li>Общие принципы работы
-<ul>
+<li><a href="<?php echo luwrain_link('ext/');?>">Работа с&#160;расширениями</a></li>
 <li><a href="<?php echo luwrain_link('web-search/');?>">Единый поиск в&#160;Интернете</a></li>
 <li><a href="<?php echo luwrain_link('announcements/');?>">Управление уведомлениями</a></li>
 <li><a href="<?php echo luwrain_link('clipboard/');?>">Операции копирования-вставки</a></li>
@@ -31,10 +28,10 @@
 <li>Работа с&#160;приложениями:
 <ul>
 <li><a href="<?php echo luwrain_link('reader/');?>">Просмотр документов</a></li>
-<li>[Чтение книг в&#160;формате DAISY(local:reader/daisy/)</li>
+<li><a href="<?php echo luwrain_link('reader/daisy/');?>">Чтение книг в&#160;формате DAISY</a></li>
 <li><a href="<?php echo luwrain_link('studio/');?>">Работа с&#160;текстовыми материалами при помощи приложения Студия</a></li>
 <li><a href="<?php echo luwrain_link('studio/tex/');?>">Создание статей, книг и презентаций в&#160;формате TeX</a></li>
-<li><a href="studio:studio/ly/">Создание нотных партитур в&#160;формате Lilypond</a></li>
+<li><a href="<?php echo luwrain_link('studio/ly/');?>">Создание нотных партитур в&#160;формате Lilypond</a></li>
 <li><a href="<?php echo luwrain_link('mail/');?>">Чтение электронной почты</a></li>
 <li><a href="<?php echo luwrain_link('mail/message/');?>">Составление сообщений электронной почты</a></li>
 <li><a href="<?php echo luwrain_link('publisher/');?>">Создание книг в&#160;формате DAISY при&#160;помощи приложения Издатель</a></li>
