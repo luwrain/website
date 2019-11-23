@@ -7,9 +7,6 @@ luwrain-page-en
 
 # Documentation
 
-This~page contains all~categories of~documentation on~our~website.
-Choose the~section you need:
-
 * [Users documentation](local:user/) 
  * [Getting started: speedy instructions how to~begin the~work right now](local:user/start/)
  * [Installation instructions: what should you do if you'd like to~install LUWRAIN on~your computer?](local:user/installation/)
@@ -31,17 +28,17 @@ luwrain-page-ru
 
 # Документация
 
-На~этой странице перечислены все~категории документации,
-представленные на~нашем сайте.
-Выберите интересующий вас раздел:
-
 * [Документация для~пользователей](local:user/)
- * [С чего начать?: минимальное описание необходимых действий для~быстрой установки системы  на~жёсткий диск и начала работы](local:user/start/)
+ * [С чего начать?](local:user/start/)
  * [Инструкция по~установке: как установить систему на~жёсткий диск?](local:user/installation/)
- * [Руководство пользователя: полное описание правил работы в~нашей среде](local:user/manual/)
-* [Документация для~разработчиков расширений JavaScript](local:js/)
-* [Документация для~разработчиков](local:devel/)
+ * [Руководство пользователя: полное описание правил работы в~LUWRAIN](local:user/manual/)
+* [Документация для~разработчиков расширений на~языке JavaScript](local:js/)
+* [Документация для~участников проекта](local:devel/)
  * [LUWRAIN API Javadoc](/javadoc/)
+
+См.~также:
+
+* [Наш вики](http://wiki.luwrain.org)
 
 ## О~проекте
 

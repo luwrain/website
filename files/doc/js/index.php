@@ -23,12 +23,13 @@ so you do&#160;not need a&#160;compiler for&#160;it or any other development too
 <p>JavaScript, как следует из&#160;названия, является скриптовым языком,
 и создание программ на&#160;нём не&#160;требует установки компилятора или каких-либо других средств разработки.</p>
 
-<p>Выберите интересующий вас раздел:</p>
+<h2>Выберите интересующий вас раздел:</h2>
 
 <ul>
+<li><a href="<?php echo luwrain_link('intro/');?>">Введение в&#160;программирование на&#160;JavaScript для&#160;Luwrain</a></li>
 <li><a href="<?php echo luwrain_link('ext/');?>">Создание расширения на&#160;JavaScript</a></li>
+<li><a href="<?php echo luwrain_link('mainobj/');?>">Глобальный объект <em>Luwrain</em></a></li>
 <li><a href="<?php echo luwrain_link('hooks');?>">Список событий JavaScript</a></li>
-<li><a href="<?php echo luwrain_link('mainobj/');?>">Основной интерфейс LUWRAIN для&#160;программ на&#160;JavaScript</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/doc/js/index.php');?>

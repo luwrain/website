@@ -79,6 +79,7 @@ luwrain-page-ru
 См.~также:
 
 * [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/ )
+* [Правовой статус](local:/doc/legal/)
 * [Часто задаваемые вопросы](local:/doc/faq/)
 * [Авторы проекта](local:/doc/authors/)
 

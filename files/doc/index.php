@@ -2,9 +2,6 @@
 <?php if (luwrain_current_lang() == 'en') {?>
 <h1>Documentation</h1>
 
-<p>This&#160;page contains all&#160;categories of&#160;documentation on&#160;our&#160;website.
-Choose the&#160;section you need:</p>
-
 <ul>
 <li><a href="<?php echo luwrain_link('user/');?>">Users documentation</a> 
 <ul>
@@ -33,22 +30,24 @@ Choose the&#160;section you need:</p>
 <?php if (luwrain_current_lang() == 'ru') {?>
 <h1>Документация</h1>
 
-<p>На&#160;этой странице перечислены все&#160;категории документации,
-представленные на&#160;нашем сайте.
-Выберите интересующий вас раздел:</p>
-
 <ul>
 <li><a href="<?php echo luwrain_link('user/');?>">Документация для&#160;пользователей</a>
 <ul>
-<li><a href="<?php echo luwrain_link('user/start/');?>">С чего начать?: минимальное описание необходимых действий для&#160;быстрой установки системы  на&#160;жёсткий диск и начала работы</a></li>
+<li><a href="<?php echo luwrain_link('user/start/');?>">С чего начать?</a></li>
 <li><a href="<?php echo luwrain_link('user/installation/');?>">Инструкция по&#160;установке: как установить систему на&#160;жёсткий диск?</a></li>
-<li><a href="<?php echo luwrain_link('user/manual/');?>">Руководство пользователя: полное описание правил работы в&#160;нашей среде</a></li>
+<li><a href="<?php echo luwrain_link('user/manual/');?>">Руководство пользователя: полное описание правил работы в&#160;LUWRAIN</a></li>
 </ul></li>
-<li><a href="<?php echo luwrain_link('js/');?>">Документация для&#160;разработчиков расширений JavaScript</a></li>
-<li><a href="<?php echo luwrain_link('devel/');?>">Документация для&#160;разработчиков</a>
+<li><a href="<?php echo luwrain_link('js/');?>">Документация для&#160;разработчиков расширений на&#160;языке JavaScript</a></li>
+<li><a href="<?php echo luwrain_link('devel/');?>">Документация для&#160;участников проекта</a>
 <ul>
 <li><a href="/javadoc/">LUWRAIN API Javadoc</a></li>
 </ul></li>
+</ul>
+
+<p>См.&#160;также:</p>
+
+<ul>
+<li><a href="http://wiki.luwrain.org">Наш вики</a></li>
 </ul>
 
 <h2>О&#160;проекте</h2>
