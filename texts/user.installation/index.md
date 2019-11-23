@@ -17,7 +17,7 @@ you have already installed on~your PC.
 * [Install LUWRAIN as~a~stand-alone OS](local:iso/)
 * Install LUWRAIN as~an~application for:
  * Microsoft Windows
- * [GNU/Linux](local:linux/ )
+ * [GNU/Linux](local:linux/)
 
 ## See~also
 
@@ -38,7 +38,7 @@ luwrain-page-ru
 * [Установка LUWRAIN на~компьютер в~виде самостоятельной ОС](local:iso/)
 * Установка LUWRAIN на~компьютер в~виде приложения для:
  * Microsoft Windows
- * [GNU/Linux](local:linux ) 
+ * [GNU/Linux](local:linux) 
 
 ## См.~также
 

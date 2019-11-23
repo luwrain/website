@@ -16,7 +16,7 @@ mentioned at~each of~the~options below.
 * Name: luwrain-users-en@googlegroups.com
 * Language: English
 * Description: Discussing LUWRAIN using in~English
-* Subscribe: [luwrain-users-en+subscribe@googlegroups.com](mailto:luwrain-users-en+subscribe@googlegroups.com )
+* Subscribe: [luwrain-users-en+subscribe@googlegroups.com](mailto:luwrain-users-en+subscribe@googlegroups.com)
 
 ## For~English developers
 

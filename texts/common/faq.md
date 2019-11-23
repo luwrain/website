@@ -9,7 +9,7 @@ luwrain-page-en
 
 See~also:
 
-* [Why is~LUWRAIN different than other accessible solutions?](local:/doc/difference/ )
+* [Why is~LUWRAIN different than other accessible solutions?](local:/doc/difference/)
 * [Legal notes](local:/doc/legal/)
 
 ## There~are so many screen readers, why do you~do all of this?

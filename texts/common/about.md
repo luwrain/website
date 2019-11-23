@@ -11,7 +11,7 @@ See~also:
 
 * [Our~publications](local:/community/publications/)
 * [Mass media about our project](local:/community/massmedia/)
-* [Why is~LUWRAIN different than other accessible solutions?](local:/doc/difference/ )
+* [Why is~LUWRAIN different than other accessible solutions?](local:/doc/difference/)
 * [Who we are?](local:/doc/authors/)
 
 ## What is LUWRAIN?
@@ -78,7 +78,7 @@ luwrain-page-ru
 
 См.~также:
 
-* [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/ )
+* [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/)
 * [Правовой статус](local:/doc/legal/)
 * [Часто задаваемые вопросы](local:/doc/faq/)
 * [Авторы проекта](local:/doc/authors/)
