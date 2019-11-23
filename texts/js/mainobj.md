@@ -11,15 +11,33 @@ luwrain-page-ru
 
 # Основной интерфейс LUWRAIN для~программ на~JavaScript
 
-Во~всех программах JavaScript, исполняемых внутри среды LUWRAIN, всегда доступен для~использования глобальный объект _LUWRAIN_.
-Он используется для~доступа к~функциям ядра системы и по~своей природе представляет собой обёртку к~интерфейсу [org.luwrain.core.Luwrain](http://luwrain.org/javadoc/org/luwrain/core/Luwrain.html).
-На~этой странице приведён список  объектов, доступных для~использования через объект _LUWRAIN_.
+Во~время исполнения сценариев JavaScript в~ДLUWRAIN всегда доступен глобальный объек _LUWRAIN_,
+который обеспечивает взаимодействие с~ядром системы.
+Он предоставляет доступ к~некоторым функциям интерфейса _[org.luwrain.core.Luwrain](http://luwrain.org/javadoc/org/luwrain/core/Luwrain.html)_.
+На~этой странице приведён список  доступных элементов объекта _LUWRAIN_.
+Если в~конце названия присутствуют пустые круглые скобки,
+то соответствующий элемент является функцией.
+В~противном случае это~дочерний объект.
 
-
-* _message_
-* _addCommandLineTool_
-* _addApp_ (то же самое, что и _addShortcut_)
-* _addCommand_
-* _getActiveAreaText_
-* _launchApp_
-* _runBkg_
+* [addApp()](local:addApp/):
+* [addCommand()](local:addCommand/):
+* [addHook()](local:addHook/):
+* [addShortcut()](local:addShortcut/):
+* [addWorker()](local:addWorker/):
+* [createPropertyHook()](local:createPropertyHook/):
+* [getActiveAreaText()](local:getActiveAreaText/):
+* [i18n](local:i18n/):
+* [launchApp()](local:launchApp/):
+* [message()](local:message/):
+* [openUrl()](local:openUrl/):
+* [os](local:os/):
+* [player](local:player/):
+* [popups](local:popups/):
+* [prop](local:prop/):
+* [quit()](local:quit/):
+* [registry](local:registry/):
+* [runBkg()](local:runBkg/):
+* [runWorker()](local:runWorker/):
+* [sounds](local:sounds/):
+* [speak()](local:speak/):
+* [spokenText](local:spokenText/):
