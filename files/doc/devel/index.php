@@ -26,7 +26,7 @@ In&#160;this section you can find various documentation describing how to&#160;w
 
 <p>Страницы, перечисленные ниже, освещают различные вопросы разработки LUWRAIN.
 Они могут помочь вам лучше понять идеи и принципы, 
-принятые в&#160;нашей команде .</p>
+принятые в&#160;нашей команде.</p>
 
 <p>См.&#160;также:</p>
 
@@ -38,6 +38,7 @@ In&#160;this section you can find various documentation describing how to&#160;w
 <p>Выберите интересующий вас раздел:</p>
 
 <ul>
+<li><a href="<?php echo luwrain_link('libs/');?>">Список задействованных библиотек</a></li>
 <li><a href="<?php echo luwrain_link('text-editing/');?>">Компоненты для редактирования многострочного текста</a></li>
 <li><a href="<?php echo luwrain_link('notepad-customizing/');?>">Создание пользовательских функций в&#160;приложении Блокнот</a></li>
 <li><a href="<?php echo luwrain_link('compilation/');?>">Компиляция исходного кода</a></li>
