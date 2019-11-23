@@ -46,7 +46,7 @@ luwrain-page-ru
 * [Презентация к~демонстрации на~к-ции Smart and safe city](http://download.luwrain.org/pdf/presentation-en-SmartCity-2017-06-08.pdf)
 (Нидерланды, 7--8~июня~2017~г., анг.~яз.)
 * ["Luwrain: information technologies for~the~handicapped close at~hand"](http://download.luwrain.org/pdf/presentation-en-HongKongOSConference-2015-06-27.pdf)
-(Hong~Kong Open Source conference , Гонконг, 27~июня~2015~г., анг.~яз.)
+(Hong~Kong Open Source conference, Гонконг, 27~июня~2015~г., анг.~яз.)
 * [Презентация для~M-Enabling summit](http://download.luwrain.org/pdf/presentation-en-MEnablingWashington-2015-06-01.pdf)
 (Вашингтон, США, 1~июня 2015~г., анг.~яз.)
 * ["Luwrain: a~text-based OS for~blind people"](http://download.luwrain.org/pdf/presentation-en-LSMRMLL-2014-07-09.pdf)

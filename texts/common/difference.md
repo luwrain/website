@@ -22,7 +22,7 @@ with~LUWRAIN everybody can do this in~a~very cheap way.
 For~example, in~education tasks  it~is~better to~have a~solution flexibly adjustable  for~current and future requirements
 than  to~adjust the~education process itself to~permanently changing and very unstable screen reading software
 without any~guarantee that tomorrow you will~not get new~tasks incompatible with~usual accessibility utilities.
-With~LUWRAIN, commercial companies can create and offer the~clients for~the~access to~their services which will be easily understandable by~the~blind ,
+With~LUWRAIN, commercial companies can create and offer the~clients for~the~access to~their services which will be easily understandable by~the~blind,
 and LUWRAIN  takes care that~these apps will be
 not only understandable, but comfortable as~well for~the~users.
 
