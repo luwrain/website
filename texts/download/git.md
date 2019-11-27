@@ -130,18 +130,17 @@ luwrain-page-ru
 
 См.~также:
 
-* [Компиляция наших nightly-сборок](local:/doc/devel/nightly/)
+* [Компиляция nightly-релизов](local:/doc/devel/nightly/)
 
-Наш исходный код опубликован в~виде серии репозиториев Git по~адресу [https://github.com/luwrain/](http://github.com/luwrain/).
+Наш исходный код опубликован в~репозиториях Git, собранных по-адресу [https://github.com/luwrain/](http://github.com/luwrain/).
 Они перечислены ниже с~краткими комментариями об~их~назначении.
-Пожалуйста, обратите внимание, что в~репозитории [base.git](https://github.com/luwrain/base.git) присутствует скрипт __lwr-checkout__,
-который выполняет автоматическое клонирование всех репозиториев, необходимых для~сборки дистрибутива LUWRAIN.
+Пожалуйста, обратите внимание, что в~репозитории [base.git](https://github.com/luwrain/base.git) присутствует скрипт _lwr-checkout_,
+который выполняет автоматическое клонирование всех~репозиториев, задействованных в~настоящий момент в~сборке релизов.
 
 Репозитории разбиты на~несколько категорий,
-которые определяют видимость классов.
+которые определяют видимость классов в~них.
 Классы в~репозиториях  в~категории "Ключевые компоненты" экспортируются во~все приложения и в~код для~поддержки национальных языков и стандартов.
-Классы системнозависимых компонентов и приложений не~экспортируются,
-кроме кода для~поддержки национальных языков и стандартов.
+Классы системнозависимых компонентов и приложений не~экспортируются.
 Классы в~центральных репозиториях
 [luwrain.git](https://github.com/luwrain/luwrain.git)
 и
@@ -153,53 +152,62 @@ luwrain-page-ru
 
 ## Ядро системы
 
-* [https://github.com/luwrain/luwrain.git](https://github.com/luwrain/luwrain.git):
-ядро системы, стандартные элементы управления, менеджер расширений
-* [https://github.com/luwrain/base.git](https://github.com/luwrain/base.git):
-набор интерфейсов, доступных всем расширениям
-* [https://github.com/luwrain/interaction-javafx.git](https://github.com/luwrain/interaction-javafx.git):
-основанный на JavaFX механизм взаимодействия с~пользователем
-* [https://github.com/luwrain/extensions.git](https://github.com/luwrain/extensions.git):
-набор стандартных расширений
-* [https://github.com/luwrain/i18n.git](https://github.com/luwrain/i18n.git):
-поддержка национальных языков и стандартов
-* [https://github.com/luwrain/registry.git](https://github.com/luwrain/registry.git):
+* [base.git](https://github.com/luwrain/base.git):
+код начальной загрузки системы и набор вспомогательных скриптов для~сборки проекта
+* [luwrain.git](https://github.com/luwrain/luwrain.git):
+ядро системы и стандартные элементы управления
+* [interaction-javafx.git](https://github.com/luwrain/interaction-javafx.git):
+механизм взаимодействия с~пользователем, основанный на~JavaFX 
+* [registry.git](https://github.com/luwrain/registry.git):
 данные реестра
 
 ## Ключевые компоненты
 
-* [https://github.com/luwrain/app-browser.git](https://github.com/luwrain/app-browser.git):
+* [browser.git](https://github.com/luwrain/browser.git):
 веб-браузер, основанный на~движке WebKit
-* [https://github.com/luwrain/pim.git](https://github.com/luwrain/pim.git):
-менеджер личной информации
-* [https://github.com/luwrain/player.git](https://github.com/luwrain/player.git):
-плеер медиафайлов
-* [https://github.com/luwrain/reader.git](https://github.com/luwrain/reader.git):
-работа со~структурированными документами
-* [https://github.com/luwrain/studio.git](https://github.com/luwrain/studio.git):
-работа со~структурированными документами
+* [io.git](https://github.com/luwrain/io.git):
+компоненты для~функций ввода/вывода
+* [packs.git](https://github.com/luwrain/packs.git):
+менеджер обновлений и установки расширений
+* [pim.git](https://github.com/luwrain/pim.git):
+менеджер личной информации (электронной почты, прочитанных новостей и~т.~д.)
+* [player.git](https://github.com/luwrain/player.git):
+медиаплеер
+* [reader.git](https://github.com/luwrain/reader.git):
+компоненты для~чтения и просмотра структурированных текстовых документов
+* [studio.git](https://github.com/luwrain/studio.git):
+компоненты для~редактирования исходных текстов программ и текстовых документов
 
 ## Приложения
 
-* [https://github.com/luwrain/app-contacts.git](https://github.com/luwrain/app-contacts.git):
+* [app-contacts.git](https://github.com/luwrain/app-contacts.git):
 персональная адресная книга
-* [https://github.com/luwrain/app-commander.git](https://github.com/luwrain/app-commander.git):
-двухпанельный файловый менеджер для~операций над~файлами и каталогами
-* [https://github.com/luwrain/app-mail.git](https://github.com/luwrain/app-mail.git):
+* [app-commander.git](https://github.com/luwrain/app-commander.git):
+двухпанельный файловый менеджер
+* [app-mail.git](https://github.com/luwrain/app-mail.git):
 почтовый клиент
-* [https://github.com/luwrain/app-news.git](https://github.com/luwrain/app-news.git):
-чтение новостей при~помощи RSS-лент
-* [https://github.com/luwrain/app-notepad.git](https://github.com/luwrain/app-notepad.git):
+* [app-news.git](https://github.com/luwrain/app-news.git):
+чтение RSS-лент
+* [app-notepad.git](https://github.com/luwrain/app-notepad.git):
 простейший текстовый редактор
-* [https://github.com/luwrain/app-twitter.git](https://github.com/luwrain/app-twitter.git):
-клиент для~Твиттера
-* [https://github.com/luwrain/app-vk.git](https://github.com/luwrain/app-vk.git):
+* [app-twitter.git](https://github.com/luwrain/app-twitter.git):
+клиент для~социальной сети Твиттер
+* [app-viewer.git](https://github.com/luwrain/app-viewer.git):
+просмотр файлов PDF в~графическом режиме
+* [app-vk.git](https://github.com/luwrain/app-vk.git):
 клиент для~социальной сети ВКонтакте
 
 ## Системнозависимые компоненты
 
-* [https://github.com/luwrain/linux.git](https://github.com/luwrain/linux.git):
+* [linux.git](https://github.com/luwrain/linux.git):
 для~GNU/Linux
-* [https://github.com/luwrain/windows.git](https://github.com/luwrain/windows.git):
+* [windows.git](https://github.com/luwrain/windows.git):
 для~Microsoft Windows
 
+
+## Дополнительные расширения
+
+* [extensions.git](https://github.com/luwrain/extensions.git):
+набор стандартных расширений
+* [i18n.git](https://github.com/luwrain/i18n.git):
+поддержка национальных языков и стандартов

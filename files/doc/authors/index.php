@@ -45,8 +45,7 @@
 
 <ul>
 <li><a href="http://tsu.ru">Национальный исследовательский Томский государственный университет</a></li>
-<li><a href="http://www.tspu.edu.ru">Томский государственный педагогический университет</a>
-<!&#x2013;* <a href="http://schisv1.mskobr.ru/info_edu/basics/">Школа-интернат № 1 для обучения и реабилитации слепых (г.&#160;Москва)</a>&#x2013;></li>
+<li><a href="http://www.tspu.edu.ru">Томский государственный педагогический университет</a></li>
 </ul>
 <?php }?>
 <?php luwrain_end_page('/doc/authors/index.php');?>

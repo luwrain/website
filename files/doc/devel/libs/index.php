@@ -13,15 +13,19 @@
 <ul>
 <li>Системные:
 <ul>
-<li>SQLite3: SQL-движок для&#160;хранения динамических пользовательских данных</li>
+<li><a href="https://github.com/google/guava/">guava</a>: библиотека вспомогательных утилит от&#160;компании Google</li>
+<li><a href="https://github.com/google/gson/">gson</a>: библиотека для&#160;сериализации объектов в&#160;формате JSON от&#160;компании Google</li>
+<li><a href="https://www.sqlite.org/index.html">SQLite</a>: SQL-движок для&#160;хранения динамических пользовательских данных</li>
 </ul></li>
-<li>Редактирование и просмотр текста:
+<li>Редактирование и просмотр документов
 <ul>
 <li><a href="https://github.com/languagetool-org/languagetool">languagetool</a>: библиотека проверки правописания, интегрированная в&#160;том числе в&#160;LibreOffice</li>
 <li><a href="https://github.com/apache/poi/">Apache POI</a>: библиотека для&#160;работы с&#160;популярными форматами офисных файлов</li>
+<li><a href="https://github.com › apache › pdfbox">Apache PDFBox</a>:  библиотека для&#160;получения текста из&#160;PDF-файлов и их&#160;растеризации для&#160;графического просмотра</li>
 </ul></li>
 <li>Сетевые сервисы:
 <ul>
+<li><a href="https://github.com/jhy/jsoup/">jsoup</a>: библиотека для&#160;чтения файлов в&#160;формате HTML и XML</li>
 <li>JavaMail: набор утилит для&#160;работы с&#160;электронной почтой, включая поддержку протоколов POP3, IMAP и SMTP</li>
 <li>rome: библиотека для&#160;чтения новостных лент в&#160;формате RSS</li>
 </ul></li>
@@ -32,11 +36,12 @@
 </ul></li>
 <li>Речевые синтезаторы:
 <ul>
-<li>RHVoice: синтезатор речи для&#160;русского языка</li>
+<li><a href="https://github.com/Olga-Yakovleva/RHVoice/">RHVoice</a>: синтезатор речи для&#160;русского языка</li>
 </ul></li>
 <li>Работа со&#160;звуковыми файлами:
 <ul>
 <li><a href="https://github.com/mpatric/mp3agic/">mp3agic</a>: библиотека для&#160;декодирования файлов в&#160;формате MP3</li>
+<li><a href="http://www.jcraft.com/jorbis">jorbis</a>: библиотека для&#160;декодирования файлов в&#160;формате OGG/Vorbi</li>
 </ul></li>
 </ul>
 <?php }?>
