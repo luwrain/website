@@ -92,10 +92,10 @@ function luwrain_begin_page($path, $title, $isMainPage)
             <link type="image/x-icon" href="/Images/favicon.ico" rel="icon" />
             <link media="all" rel="stylesheet" type="text/css" href="/Content/luwrain.css" />
             <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-            <script type="text/javascript" src="<?php if (luwrain_current_lang() == 'en') echo 'js/frames-en.js'; if (luwrain_current_lang() == 'ru') echo 'js/frames-ru.js'; ?>"></script>
-            <script type="text/javascript" src="/js/core.js"></script>
+            <script src="<?php if (luwrain_current_lang() == 'en') echo 'js/frames-en.js'; if (luwrain_current_lang() == 'ru') echo 'js/frames-ru.js'; ?>"></script>
+            <script src="/js/core.js"></script>
             <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
-            <script type="text/javascript">
+            <script>
                 jQuery(document).ready(function () {
                     OnReady();
                     $('#docsLink').addClass("lightBlueColor");
@@ -172,12 +172,17 @@ function luwrain_begin_page($path, $title, $isMainPage)
         <?php
 }
 
+function lwr_begin_page($path, $title)
+{
+return luwrain_begin_page($path, $title, false);
+}
+
 function luwrain_end_page($path, $isMainPage)
 { 
     if (luwrain_current_mode() == 'adapted') { 
 ?>
     <hr/>
-    <?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2019 Разработчики LUWRAIN':'&#169; 2012&#x2013;2019 LUWRAIN developers'?><br/>
+    <?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2020 Разработчики LUWRAIN':'&#169; 2012&#x2013;2020 LUWRAIN developers'?><br/>
         <a href="http://validator.w3.org/check?uri=referer">Проверить при помощи w3.org</a><br/>
   </body>
 </html>
@@ -187,7 +192,7 @@ return; }
 		</div>
 		
     <div class="row" id="footerPart">
-      <div class="col-md-4"><span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2019 Разработчики LUWRAIN':'&#169; 2012&#x2013;2019 LUWRAIN developers'?></span></div>
+      <div class="col-md-4"><span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2020 Разработчики LUWRAIN':'&#169; 2012&#x2013;2020 LUWRAIN developers'?></span></div>
       <div class="col-md-4"><a class="blueColor" href="http://validator.w3.org/check?uri=referer"><?php echo luwrain_current_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a></div>
       <div class="col-md-4"><?php echo luwrain_current_lang() == 'ru'?'Дизайн от':'Design by';?> <a href="http://strash.ru"><span class="blueColor">Strash</span></a></div>
     </div>
@@ -198,6 +203,11 @@ return; }
   </body>
 </html>
 <?php
+}
+
+function lwr_end_page($path)
+{
+return luwrain_end_page($path);
 }
 
 function luwrain_content_not_written()
