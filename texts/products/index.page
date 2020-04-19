@@ -1,0 +1,50 @@
+
+TARGET products
+TITLE EN Products
+TITLE RU Продукты
+
+luwrain-page-en
+
+# Our~products and services
+
+
+* [All releases including materials for developers](local:/download/)
+ * [LUWRAIN for~Microsoft Windows](local:/download/windows/)
+ * [LUWRAIN for~GNU/Linux](local:/download/linux/)
+ * [Distribution as~a~Linux-based operating system](local:/download/iso/)
+
+## See~also
+
+* [Getting started](local:/doc/user/start/)
+
+## About the~project
+
+* [The~free story what LUWRAIN is, and why do we think blind users need it?](local:/doc/about/)
+* [Frequently asked questions](local:/doc/faq/)
+* [Why is LUWRAIN different than other accessible solutions?](local:/doc/difference/)
+* [Legal notes](local:/doc/legal/)
+* [The~authors of~the~project](local:/doc/authors/)
+
+luwrain-page-ru
+
+# Наши~продукты и сервисы
+
+* [__LUWRAIN~Books__](local:http://books.luwrain.org): сервис для~создания и хранения аудиокниг
+* [__LUWRAIN~Reader__](local:reader/): бесплатное кроссплатформенное приложение для~чтения книг
+* [__Платформа LUWRAIN__](local:/download): открытый комплект невизуальных приложений для~людей с~нарушениями зрения:
+    * [Для~Microsoft Windows](local:/download/windows/)
+    * [Для~GNU/Linux](local:/download/linux/)
+    * [В~виде операционной системы на~ядре Linux](local:/download/iso/)
+    * [Все~дистрибутивы, включая релизы для~разработчиков](local:/download/)
+
+## См.~также
+
+* [С~чего начать?](local:/doc/user/start/)
+
+## О~проекте
+
+* [Что~такое LUWRAIN?](local:/doc/about/)
+* [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/)
+* [Часто задаваемые вопросы](local:/doc/faq/)
+* [Правовой статус](local:/doc/legal/)
+* [Авторы проекта](local:/doc/authors/)
