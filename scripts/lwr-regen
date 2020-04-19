@@ -1,12 +1,26 @@
 #!/bin/bash -e
 
+THIS="${0##*/}"
+
+[ -z "$1" ] && echo "$THIS: No destination" >&2 && exit 1
+
+DEST_DIR="$1"
+
 . config.sh
+cp -r "$BASE_DIR/." "$DEST_DIR"
+
+find "$TEXTSDIR" -iname '*.page' | while read l; do
+    ll=$(realpath "$l")
+    pushd "$DEST_DIR" > /dev/null
+    lwr-page "$ll"
+    popd > /dev/null
+done
 
 find "$TEXTSDIR" -iname '*.md' | while read l; do
-    FILE="$(./lwr-mk-page "$TARGETDIR" "$l")"
+    FILE="$(./lwr-mk-page "$DEST_DIR" "$l")"
     ./lwr-subst "$FILE"
     echo Wrote "$FILE"
 done
 
-find "$TARGETDIR" -type d -exec chmod 755 '{}' \;
-find "$TARGETDIR" -type f -exec chmod 644 '{}' \;
+find "$DEST_DIR" -type d -exec chmod 755 '{}' \;
+find "$DEST_DIR" -type f -exec chmod 644 '{}' \;
