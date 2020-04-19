@@ -82,8 +82,8 @@ In&#160;addition all&#160;companies are able to&#160;ensure that LUWRAIN doesn't
 
 <ul>
 <li><a href="<?php echo luwrain_link('/doc/difference/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
-<li><a href="<?php echo luwrain_link('/doc/legal/');?>">Правовой статус</a></li>
 <li><a href="<?php echo luwrain_link('/doc/faq/');?>">Часто задаваемые вопросы</a></li>
+<li><a href="<?php echo luwrain_link('/doc/legal/');?>">Правовой статус</a></li>
 <li><a href="<?php echo luwrain_link('/doc/authors/');?>">Авторы проекта</a></li>
 </ul>
 

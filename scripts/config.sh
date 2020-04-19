@@ -1,3 +1,3 @@
 
-TARGETDIR=../files
+BASE_DIR=../files
 TEXTSDIR=../texts

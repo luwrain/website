@@ -9,7 +9,7 @@
   {
 ?>
 
-    <script type="text/javascript">
+    <script>
     jQuery(document).ready(function () {
         OnReady();
         OnReadyIndex();
