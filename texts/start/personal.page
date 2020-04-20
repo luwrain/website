@@ -1,7 +1,7 @@
 
-ENTITLE='Getting started for personal purposes'
-RUTITLE='Как начать работать в LUWRAIN?'
-TARGET=doc/user/start/personal/index.php
+TARGET doc/user/start/personal
+TITLE EN Getting started for personal purposes
+TITLE RU Как начать работать в LUWRAIN?
 
 luwrain-page-en
 
@@ -9,7 +9,7 @@ luwrain-page-en
 
 luwrain-page-ru
 
-# Как начать работать в LUWRAIN?
+# Как начать работать в~LUWRAIN?
 
 LUWRAIN подразумевает три~варианта использования:
 

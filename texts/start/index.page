@@ -1,7 +1,7 @@
 
-ENTITLE='Getting started'
-RUTITLE='С чего начать?'
-TARGET=doc/user/start/index.php
+TARGET doc/user/start
+TITLE EN Getting started
+TITLE RU С чего начать?
 
 luwrain-page-en
 
@@ -25,7 +25,7 @@ please choose this option.](local:organizations/)
 if you  would like to~create your own application suitable for~running with~LUWRAIN,
 please choose this option.](local:developers/)
 
-See~also:
+## See~also:
 
 * [Our downloads](local:/download/)
 * [Our mailing lists](local:/community/mailing-lists/)
@@ -55,7 +55,7 @@ luwrain-page-ru
 1. [__Для~разработчиков:__ вы желаете познакомиться с~принципами разработки LUWRAIN и внести свой вклад.](local:developers/)
 1. [__Для~организаций:__ вы интересуетесь вопросами адаптации  и чтения материалов в~невизуальной форме.](local:organizations/)]
 
-См.~также:
+## См.~также
 
 * [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/)
 * [Списки рассылок](local:/community/mailing-lists/)
