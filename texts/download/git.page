@@ -1,7 +1,7 @@
 
-ENTITLE='Git repositories'
-RUTITLE='РепозиторииGit'
-TARGET=download/git/index.php
+TARGET download/git
+TITLE EN Git repositories
+TITLE RU РепозиторииGit
 
 luwrain-page-en
 
@@ -132,30 +132,17 @@ luwrain-page-ru
 
 * [Компиляция nightly-релизов](local:/doc/devel/nightly/)
 
-Наш исходный код опубликован в~репозиториях Git, собранных по-адресу [https://github.com/luwrain/](http://github.com/luwrain/).
+Исходный код LUWRAIN опубликован в~репозиториях Git, собранных по-адресу [https://github.com/luwrain/](http://github.com/luwrain/).
 Они перечислены ниже с~краткими комментариями об~их~назначении.
-Пожалуйста, обратите внимание, что в~репозитории [base.git](https://github.com/luwrain/base.git) присутствует скрипт _lwr-checkout_,
+Пожалуйста, обратите внимание, что в~репозитории [base.git](https://github.com/luwrain/base.git) присутствует скрипт ```lwr-checkout```,
 который выполняет автоматическое клонирование всех~репозиториев, задействованных в~настоящий момент в~сборке релизов.
-
-Репозитории разбиты на~несколько категорий,
-которые определяют видимость классов в~них.
-Классы в~репозиториях  в~категории "Ключевые компоненты" экспортируются во~все приложения и в~код для~поддержки национальных языков и стандартов.
-Классы системнозависимых компонентов и приложений не~экспортируются.
-Классы в~центральных репозиториях
-[luwrain.git](https://github.com/luwrain/luwrain.git)
-и
-[base.git](https://github.com/base.git)
-доступны во~всех компонентах, приложениях и расширениях.
-Код в~репозитории
-[interaction-javafx](https://github.com/luwrain/interaction-javafx.git)
-загружается ядром системы и не~доступен для~кода в~других репозиториях.
 
 ## Ядро системы
 
+* [luwrain.git](https://github.com/luwrain/luwrain.git):
+ядро системы, стандартные элементы управления и поддержка расширений JavaScript
 * [base.git](https://github.com/luwrain/base.git):
 код начальной загрузки системы и набор вспомогательных скриптов для~сборки проекта
-* [luwrain.git](https://github.com/luwrain/luwrain.git):
-ядро системы и стандартные элементы управления
 * [interaction-javafx.git](https://github.com/luwrain/interaction-javafx.git):
 механизм взаимодействия с~пользователем, основанный на~JavaFX 
 * [registry.git](https://github.com/luwrain/registry.git):
@@ -170,13 +157,13 @@ luwrain-page-ru
 * [packs.git](https://github.com/luwrain/packs.git):
 менеджер обновлений и установки расширений
 * [pim.git](https://github.com/luwrain/pim.git):
-менеджер личной информации (электронной почты, прочитанных новостей и~т.~д.)
+менеджер личной информации (электронной почты, новостей и~т.~д.)
 * [player.git](https://github.com/luwrain/player.git):
 медиаплеер
 * [reader.git](https://github.com/luwrain/reader.git):
-компоненты для~чтения и просмотра структурированных текстовых документов
+компоненты для~чтения и просмотра структурированных документов
 * [studio.git](https://github.com/luwrain/studio.git):
-компоненты для~редактирования исходных текстов программ и текстовых документов
+компоненты для~редактирования текстов программ и документов
 
 ## Приложения
 
@@ -200,14 +187,13 @@ luwrain-page-ru
 ## Системнозависимые компоненты
 
 * [linux.git](https://github.com/luwrain/linux.git):
-для~GNU/Linux
+поддержка GNU/Linux
 * [windows.git](https://github.com/luwrain/windows.git):
-для~Microsoft Windows
-
+поддержка Microsoft Windows
 
 ## Дополнительные расширения
 
 * [extensions.git](https://github.com/luwrain/extensions.git):
-набор стандартных расширений
+набор стандартных расширений, включая все расширения JavaScript
 * [i18n.git](https://github.com/luwrain/i18n.git):
 поддержка национальных языков и стандартов
