@@ -7,10 +7,6 @@ luwrain-page-en
 
 # Publications
 
-* [Introducing LUWRAIN: Accessibility Solution for the Blind](http://marigostra.com/materials/LuwrainLinuxJournal2015.html)
-(Linux Journal, Texus, US, July, 2015, English language)
-* [The Framework for Accessible Applications: Text-Based Case for Blind People](http://marigostra.com/materials/LuwrainSecr2014.html) 
-(ACM~Digital Library, US, December, 2014, English language)
 
 ## Presentations
 
