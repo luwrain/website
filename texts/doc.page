@@ -1,0 +1,48 @@
+
+TARGET doc
+TITLE EN Documentation
+TITLE RU Документация
+
+luwrain-page-en
+
+# Documentation
+
+* [User documentation](local:user/) 
+    * [Getting started](local:user/start/)
+        * [User manual](local:user/manual/)
+    * [Installation instructions](local:user/installation/)
+* Developer documentation
+    * [For~JavaScript developers](local:js/)
+    * [For~Java developers](local:devel/)
+    * [LUWRAIN API Javadoc](/javadoc/)
+
+## About the~project
+
+* [The~free story what LUWRAIN is](local:about/)
+* [Frequently asked questions](local:faq/)
+* [Why is LUWRAIN different than other accessibility solutions?](local:difference/)
+* [Legal notes](local:legal/)
+* [The project authors](local:authors/)
+* [Contact~us](local:contacts/)
+
+luwrain-page-ru
+
+# Документация
+
+* [Для~пользователей:](local:user/)
+    * [С~чего начать?](local:user/start/)
+        * [Руководство пользователя](local:user/manual/)
+    * [Как установить систему на~жёсткий диск?](local:user/installation/)
+    * [Вики](http://wiki.luwrain.org)
+* Для~разработчиков:
+    * [Для~разработчиков на~языке JavaScript](local:js/)
+    * [Для~разработчиков на~языке Java](local:devel/)
+    * [LUWRAIN API Javadoc](/javadoc/)
+
+## О~проекте
+
+* [Что~такое LUWRAIN?](local:/doc/about/)
+* [Часто задаваемые вопросы](local:/doc/faq/)
+* [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/)
+* [Правовой статус](local:/doc/legal/)
+* [Авторы проекта](local:/doc/authors/)
