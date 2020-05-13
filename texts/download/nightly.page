@@ -1,0 +1,71 @@
+
+TARGET download/nightly
+TITLE RU Nightly-релизы
+TITLE E NNightly releases
+
+luwrain-page-ru
+
+# Nightly-релизы
+
+Для~поддержки прозрачного и управляемого процесса разработки мы выпускаем nightly-релизы.
+Они доступны по~следующим ссылкам:
+
+* Общий каталог с~текущей историей nightly-релизов: [http://download.luwrain.org/nightly/](http://download.luwrain.org/nightly/)
+* Самый свежий nightly-релиз: [http://download.luwrain.org/nightly/latest/](http://download.luwrain.org/nightly/latest/)
+
+## Файлы nightly-релизов
+
+Каждый nightly-релиз состоит из~нескольких файлов.
+Их набор может различаться в~зависимости от~выполняемых в~настоящий момент работ,
+но обычно присутствуют следующие четыре~файла:
+
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-64bit-nightly-<?php echo lwr_nightly_latest_date();?>.zip"\>luwrain-windows-64bit</a>: 64-битная версия для~Microsoft Windows;
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-64bit-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz"\>luwrain-linux-64bit</a>: 64-битная версия для~GNU/Linux;
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-sdk-nightly-<?php echo lwr_nightly_latest_date();?>.zip"\>luwrain-sdk</a>: сборка LUWRAIN~SDK (включает документацию Javadoc);
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz"\>luwrain-nightly</a>: исходные тексты, использованные в~ходе сборки.
+
+Для~проверки целостности загруженных файлов [воспользуйтесь контрольными суммами в~формате SHA1](http://download.luwrain.org/nightly/latest/sha1sum.txt).
+
+Несмотря на~то, что эти~релизы  называются nightly,
+их обновление необязательно происходит ежедневно.
+Периодически в~их выпуске присутствуют паузы, особенно если ведутся работы над~ядром системы.
+Обратите внимание, что бинарные файлы хранятся только для~трёх самых свежих выпусков.
+
+luwrain-page-en
+
+
+
+# Nightly releases
+
+Quick access:
+
+* [Current JUnit testing report](http://download.luwrain.org/nightly/latest/junit-report.html)
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.zip">The~current nightly release as an~32-bit application for~Microsoft Windows</a>
+
+In~order to~make our~development process more transparent and smooth,
+we support publishing of~the~nightly releases.
+You can find them at~the~following addresses: 
+
+* Entire history of~available nightly releases: [http://download.luwrain.org/nightly/](http://download.luwrain.org/nightly/)
+* The~most recent nightly release: [http://download.luwrain.org/nightly/latest/](http://download.luwrain.org/nightly/latest/)
+
+## Structure of~our~nightly releases
+
+Each nightly release consists of~several components;
+you can find their descriptions below
+with~the~direct links to~the~corresponding  files in~the~most recent version:
+
+
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-nightly</a>: the~source code used for~the~release
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-windows-32bit</a>: a~32-bit application for~Microsoft Windows suitable for~immediate launching
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-32bit</a>: a~32-bit build for~Gnu/Linux (requires installed Java~SE Runtime Environment)
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-64bit-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz">luwrain-linux-64bit</a>:  a~64-bit build for~Gnu/Linux (requires installed Java~SE Runtime Environment)
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-sdk-nightly-<?php echo lwr_nightly_latest_date();?>.zip">luwrain-sdk</a>: the~LUWRAIN SDK
+
+You can also [download the~files checksums](http://download.luwrain.org/nightly/latest/sha1sum.txt) in~SHA1 format.
+
+Although we call them nightly,
+this doesn't mean that  releases must be necessarily once a~day.
+Sometimes we take pauses, especially if having a~work affecting deep design of~LUWRAIN.
+Outdated versions  are deleted from this directory,
+so these releases are usually   available within a~couple  of~months.
