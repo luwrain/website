@@ -27,8 +27,10 @@ luwrain-page-ru
 
 В~основную группу разработчиков входят (в~алфавитном порядке):
 
+<img src="alexey.jpg" alt="Фотография лица молодого человека" style="margin: 20px 10px 5px 0; width: 200px; height: 200px;"/><br>
 Алексей Голошумов<br>
-Кандидат педагогических наук, инженер-программист
+Кандидат педагогических наук, инженер-программист<br>
+E-mail: alexey _(at)_ luwrain.org
 
 <img src="michael.jpg" alt="Фотография лица молодого человека" style="margin: 20px 10px 5px 0; width: 200px; height: 200px;"/><br>
 Михаил Пожидаев<br>

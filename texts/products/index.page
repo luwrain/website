@@ -1,7 +1,28 @@
 
 TARGET products
-TITLE EN Products
 TITLE RU Продукты
+TITLE EN Products
+
+luwrain-page-ru
+
+# Наши~продукты
+
+* [__LUWRAIN~Books__](local:http://books.luwrain.org): сервис для~создания и хранения аудиокниг
+* [__LUWRAIN~Reader__](local:reader/): бесплатное кроссплатформенное приложение для~чтения книг
+* [__Анатомия человека__](local:anatomy/): электронное учебное пособие для~изучения анатомии человека с~представлением пространственной информации
+* [__Платформа LUWRAIN__](local:/download): открытый комплект невизуальных приложений для~людей с~нарушениями зрения:
+    * [Для~Microsoft Windows](local:/download/windows/)
+    * [Для~GNU/Linux](local:/download/linux/)
+    * [В~виде операционной системы на~ядре Linux](local:/download/iso/)
+    * [Все~дистрибутивы, включая релизы для~разработчиков](local:/download/)
+
+## См.~также
+
+* [С~чего начать?](local:/doc/user/start/)
+* [Что~такое LUWRAIN?](local:/doc/about/)
+* [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/)
+* [Часто задаваемые вопросы](local:/doc/faq/)
+* [Правовой статус](local:/doc/legal/)
 
 luwrain-page-en
 
@@ -20,23 +41,3 @@ luwrain-page-en
 * [Frequently asked questions](local:/doc/faq/)
 * [Why is LUWRAIN different than other accessible solutions?](local:/doc/difference/)
 * [Legal notes](local:/doc/legal/)
-
-luwrain-page-ru
-
-# Наши~продукты
-
-* [__LUWRAIN~Books__](local:http://books.luwrain.org): сервис для~создания и хранения аудиокниг
-* [__LUWRAIN~Reader__](local:reader/): бесплатное кроссплатформенное приложение для~чтения книг
-* [__Платформа LUWRAIN__](local:/download): открытый комплект невизуальных приложений для~людей с~нарушениями зрения:
-    * [Для~Microsoft Windows](local:/download/windows/)
-    * [Для~GNU/Linux](local:/download/linux/)
-    * [В~виде операционной системы на~ядре Linux](local:/download/iso/)
-    * [Все~дистрибутивы, включая релизы для~разработчиков](local:/download/)
-
-## См.~также
-
-* [С~чего начать?](local:/doc/user/start/)
-* [Что~такое LUWRAIN?](local:/doc/about/)
-* [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/)
-* [Часто задаваемые вопросы](local:/doc/faq/)
-* [Правовой статус](local:/doc/legal/)
