@@ -1,0 +1,16 @@
+
+TARGET products/anatomy/manual/tree
+TITLE EN Hierarchical navigation
+TITLE RU Иерархическая навигация по анатомическим понятиям
+
+luwrain-page-ru
+
+# Иерархическая навигация по~анатомическим понятиям
+
+
+* [Перейти к~предыдущему разделу: Общие понятия](local:/products/anatomy/manual/intro/)
+* [Перейти к~следующему разделу: Пространственная навигация по~анатомическим понятиям](local:/products/anatomy/manual/geom/)
+
+luwrain-page-en
+
+# Hierarchical navigation
