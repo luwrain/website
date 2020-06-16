@@ -30,8 +30,8 @@ luwrain-page-ru
 # Документация
 
 * [Для~пользователей:](local:user/)
+    * [Руководство пользователя](local:user/manual/)
     * [С~чего начать?](local:user/start/)
-        * [Руководство пользователя](local:user/manual/)
     * [Как установить систему на~жёсткий диск?](local:user/installation/)
     * [Вики](http://wiki.luwrain.org)
 * Для~разработчиков:

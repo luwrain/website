@@ -3,9 +3,6 @@ TARGET doc/user/manual
 TITLE EN User manual
 TITLE RU Руководство пользователя
 
-luwrain-page-en
-
-Sorry, this page is available in Russian only.
 
 luwrain-page-ru
 
@@ -31,6 +28,10 @@ luwrain-page-ru
     * [Телеграм](local:social/telegram)
     * [Твиттер](local:social/twitter/)
     * [ВКонтакте](local:social/vk/)
+* Образовательные приложения:
+    * [Алгоритмика](local:edu/algo/)
+    * [Анатомия человека](local:/products/anatomy/manual/)
+    * Периодическая система химических элементов и таблица растворимости
 * Работа с~приложениями:
     * [Просмотр документов](local:reader/)
         * [Чтение книг в~формате DAISY](local:reader/daisy/)
@@ -49,3 +50,8 @@ luwrain-page-ru
     * Особенности работы в~различных операционных системах:
         * Особенности использования в~GNU/Linux
         * [Подключение репозитория для~Ubuntu Linux](local:linux/ubuntu-repo)
+
+luwrain-page-en
+
+Sorry, this page is available in Russian only.
+
