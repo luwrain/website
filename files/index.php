@@ -57,6 +57,6 @@ if (lwr_current_mode() == 'adapted')
 <?php
 
 }
-luwrain_end_page('index.php');
+luwrain_end_page('index.php', true);
 
 ?>

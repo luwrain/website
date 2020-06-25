@@ -87,67 +87,67 @@ function luwrain_begin_page($path, $title, $isMainPage)
 <?php
   luwrain_top_menu();
 ?>
-    <div id="headerPart" class="row">
-      <div class="col-md-3">
-        <ul class="subMenu">
-          <li class="linkMenu">
+      <div id="headerPart" class="row">
+        <div class="col-md-3">
+          <ul class="subMenu">
+            <li class="linkMenu">
 <?php
-  echo '            <a href="'.luwrain_link_ext1($path, luwrain_current_lang(), 'adapted').'">'.(luwrain_current_lang() == 'ru'?'Версия для слабовидящих':'Adapted/mobile version')."</a>\n";
+  echo '              <a href="'.luwrain_link_ext1($path, luwrain_current_lang(), 'adapted').'">'.(luwrain_current_lang() == 'ru'?'Версия для слабовидящих':'Adapted/mobile version')."</a>\n";
 ?>
-          </li>
-          <li class="linkMenu">
-            <div id="languageSelected">
-              <a href="<?php echo luwrain_link_ext1($path, luwrain_current_lang() == 'ru'?'en':'ru', 'normal');?>" class="font14" id="selectedLanguageName"><?php echo luwrain_current_lang() == 'ru'?'English':'Russian';?></a>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <div id="logo">
-          <div onclick = "document.location = '<?php echo Luwrain_link('/index.php');?>';" id = "logoLink">
-            <ul class="subMenu" id="logoLinkUl">
-              <li>
-                <span class="font30 bold">LUWRAIN</span>
-              </li>
-              <li>
-                <span class="italic font14"><?php echo luwrain_current_lang() == 'ru'?'Платформа невизуальных приложений':'A platform for the creation of apps';?></span>
-              </li>
-              <li>
-                <span class="italic font14"><?php if (luwrain_current_lang() == 'en') echo ' for the blind and partially-sighted';?></span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div id="mainMenu">
-          <div id="mainMenuBorder">
-            <ul class="subMenu" id="mainMenuList">
-            <li class="linkMenu">
-              <a id = "downLoadLink" href="<?php echo luwrain_link('/products/');?>" class="bold font18"><?php echo luwrain_current_lang() == 'ru'?'Продукты':'Products';?></a>
             </li>
             <li class="linkMenu">
-              <a id = "docsLink" href="<?php echo luwrain_link('/doc/');?>"><?php echo luwrain_current_lang() == 'ru'?'Документация':'Documentation';?></a>
-            </li>
-            <li class="linkMenu">
-              <a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Интересное':'Interesting';?></a>
+              <div id="languageSelected">
+                <a href="<?php echo luwrain_link_ext1($path, luwrain_current_lang() == 'ru'?'en':'ru', 'normal');?>" class="font14" id="selectedLanguageName"><?php echo luwrain_current_lang() == 'ru'?'English':'Russian';?></a>
+              </div>
             </li>
           </ul>
+        </div>
+        <div class="col-md-6">
+          <div id="logo">
+            <div onclick = "document.location = '<?php echo Luwrain_link('/index.php');?>';" id = "logoLink">
+              <ul class="subMenu" id="logoLinkUl">
+                <li>
+                  <span class="font30 bold">LUWRAIN</span>
+                </li>
+                <li>
+                  <span class="italic font14"><?php echo luwrain_current_lang() == 'ru'?'Платформа невизуальных приложений':'A platform for the creation of apps';?></span>
+                </li>
+                <li>
+                  <span class="italic font14"><?php if (luwrain_current_lang() == 'en') echo ' for the blind and partially-sighted';?></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div id="mainMenu">
+            <div id="mainMenuBorder">
+              <ul class="subMenu" id="mainMenuList">
+              <li class="linkMenu">
+                <a id = "downLoadLink" href="<?php echo luwrain_link('/products/');?>" class="bold font18"><?php echo luwrain_current_lang() == 'ru'?'Продукты':'Products';?></a>
+              </li>
+              <li class="linkMenu">
+                <a id = "docsLink" href="<?php echo luwrain_link('/doc/');?>"><?php echo luwrain_current_lang() == 'ru'?'Документация':'Documentation';?></a>
+              </li>
+              <li class="linkMenu">
+                <a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Интересное':'Interesting';?></a>
+              </li>
+            </ul>
+        </div>
       </div>
     </div>
-                    </div>
-                </div>
-		                <div id="mainPart">
+  </div>
+  <div id="mainPart">
+<?php
 
-                <?php if(!$isMainPage){ ?>
-                    <div id="insidePageText">
-                <?php }?>
-        <?php
-}
-
-function lwr_begin_page($path, $title)
+if(!$isMainPage)
 {
-return luwrain_begin_page($path, $title, false);
+
+    ?>
+                    <div id="insidePageText">
+                <?php
+
+		}
 }
 
 function luwrain_end_page($path, $isMainPage)
@@ -160,27 +160,41 @@ function luwrain_end_page($path, $isMainPage)
   </body>
 </html>
 <?php
-return; }
+return;
+}
+
+if (!$isMainPage)
+{
+
 ?>
-		</div>
-		
-    <div class="row" id="footerPart">
-      <div class="col-md-4"><span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2020 Разработчики LUWRAIN':'&#169; 2012&#x2013;2020 LUWRAIN developers'?></span></div>
-      <div class="col-md-4"><a class="blueColor" href="http://validator.w3.org/check?uri=referer"><?php echo luwrain_current_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a></div>
-      <div class="col-md-4"><?php echo luwrain_current_lang() == 'ru'?'Дизайн от':'Design by';?> <a href="http://strash.ru"><span class="blueColor">Strash</span></a></div>
+</div>
+<?php
+
+}
+
+?>
+</div>
+
+  <div class="row" id="footerPart">
+    <div class="col-md-4"><span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2020 Разработчики LUWRAIN':'&#169; 2012&#x2013;2020 LUWRAIN developers'?></span></div>
+    <div class="col-md-4"><a class="blueColor" href="http://validator.w3.org/check?uri=referer"><?php echo luwrain_current_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a></div>
+    <div class="col-md-4"><?php echo luwrain_current_lang() == 'ru'?'Дизайн от':'Design by';?> <a href="http://strash.ru"><span class="blueColor">Strash</span></a></div>
     </div>
     </div>
-    <?php if(!$isMainPage){ ?>
-        </div>
-    <?php }?>
   </body>
 </html>
 <?php
 }
 
+function lwr_begin_page($path, $title)
+{
+return luwrain_begin_page($path, $title, false);
+}
+
+
 function lwr_end_page($path)
 {
-return luwrain_end_page($path);
+return luwrain_end_page($path, false);
 }
 
 function luwrain_content_not_written()
