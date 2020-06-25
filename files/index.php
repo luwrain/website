@@ -17,20 +17,15 @@ if (lwr_current_mode() == 'adapted')
   });
 </script>
 
-<!--<div id="mainPart">-->
 <input class="hidden-not-important" id="hiddenPartNumber">
-
 <div id="accEnvir">
   <?php echo lwr_current_lang() == 'ru'?'Информационное общество &#x2014; доступное общество':'Information technologies for the blind';?>
 </div>
 <div id="picContent">
   <div id="arrowLeft"></div>
-  <!--    1 more   -->
   <div id="part1more" class="">
-    <div id="accPlatform">
-    </div>
-    <div id="text1more" class="darkGrey">
-    </div>
+    <div id="accPlatform"></div>
+    <div id="text1more" class="darkGrey"></div>
   </div>
   <div id="arrowRight"></div>
 </div>
@@ -42,7 +37,7 @@ if (lwr_current_mode() == 'adapted')
   </div>
   <div class="clearfix"></div>
 </div>
-    <div id="navigation">
+<div id="navigation">
   <ul>
     <li>
       <a href="#" class="blueColor font40" id="nav1">•</a>
@@ -59,9 +54,9 @@ if (lwr_current_mode() == 'adapted')
   </ul>
 </div>
 
-<?php 
-}
+<?php
 
+}
 luwrain_end_page('index.php');
 
 ?>
