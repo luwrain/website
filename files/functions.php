@@ -1,6 +1,7 @@
 <?php
   include 'versions.php';
-    include 'base.php';
+  include 'base.php';
+  include "adapted.php";
 
 function luwrain_top_menu()
 {
@@ -136,7 +137,8 @@ function luwrain_begin_page($path, $title, $isMainPage)
     </div>
                     </div>
                 </div>
-                <div id="mainPart">
+		                <div id="mainPart">
+
                 <?php if(!$isMainPage){ ?>
                     <div id="insidePageText">
                 <?php }?>
