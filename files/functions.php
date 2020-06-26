@@ -85,7 +85,9 @@ function luwrain_begin_page($path, $title, $isMainPage)
   <body>
     <div class="container">
 <?php
-  luwrain_top_menu();
+
+luwrain_top_menu();
+
 ?>
       <div id="headerPart" class="row">
         <div class="col-md-3">
@@ -123,29 +125,29 @@ function luwrain_begin_page($path, $title, $isMainPage)
           <div id="mainMenu">
             <div id="mainMenuBorder">
               <ul class="subMenu" id="mainMenuList">
-              <li class="linkMenu">
-                <a id = "downLoadLink" href="<?php echo luwrain_link('/products/');?>" class="bold font18"><?php echo luwrain_current_lang() == 'ru'?'Продукты':'Products';?></a>
-              </li>
-              <li class="linkMenu">
-                <a id = "docsLink" href="<?php echo luwrain_link('/doc/');?>"><?php echo luwrain_current_lang() == 'ru'?'Документация':'Documentation';?></a>
-              </li>
-              <li class="linkMenu">
-                <a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Интересное':'Interesting';?></a>
-              </li>
-            </ul>
+                <li class="linkMenu">
+                  <a id = "downLoadLink" href="<?php echo luwrain_link('/products/');?>" class="bold font18"><?php echo luwrain_current_lang() == 'ru'?'Продукты':'Products';?></a>
+                </li>
+                <li class="linkMenu">
+                  <a id = "docsLink" href="<?php echo luwrain_link('/doc/');?>"><?php echo luwrain_current_lang() == 'ru'?'Документация':'Documentation';?></a>
+                </li>
+                <li class="linkMenu">
+                  <a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Интересное':'Interesting';?></a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div id="mainPart">
+      <div id="mainPart">
 <?php
 
 if(!$isMainPage)
 {
 
-    ?>
-                    <div id="insidePageText">
-                <?php
+?>
+        <div id="insidePageText">
+?php
 
 		}
 }
@@ -167,19 +169,18 @@ if (!$isMainPage)
 {
 
 ?>
-</div>
+        </div>
 <?php
 
 }
 
 ?>
-</div>
-
-  <div class="row" id="footerPart">
-    <div class="col-md-4"><span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2020 Разработчики LUWRAIN':'&#169; 2012&#x2013;2020 LUWRAIN developers'?></span></div>
-    <div class="col-md-4"><a class="blueColor" href="http://validator.w3.org/check?uri=referer"><?php echo luwrain_current_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a></div>
-    <div class="col-md-4"><?php echo luwrain_current_lang() == 'ru'?'Дизайн от':'Design by';?> <a href="http://strash.ru"><span class="blueColor">Strash</span></a></div>
-    </div>
+      </div>
+      <div class="row" id="footerPart">
+        <div class="col-md-4"><span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2020 Разработчики LUWRAIN':'&#169; 2012&#x2013;2020 LUWRAIN developers'?></span></div>
+        <div class="col-md-4"><a class="blueColor" href="http://validator.w3.org/check?uri=referer"><?php echo luwrain_current_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a></div>
+        <div class="col-md-4"><?php echo luwrain_current_lang() == 'ru'?'Дизайн от':'Design by';?> <a href="http://strash.ru"><span class="blueColor">Strash</span></a></div>
+      </div>
     </div>
   </body>
 </html>
