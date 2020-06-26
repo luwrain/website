@@ -26,7 +26,7 @@ function lwr_begin_page_adapted($path, $title)
 
 function lwr_main_page_adapted()
 {
-  if (luwrain_current_lang() == 'en') {
+  if (lwr_current_lang() == 'en') {
 ?>
             <h1>&#x22;The territory of a compelling accessibility&#x22;</h1>
             <p>
@@ -77,7 +77,7 @@ function lwr_main_page_adapted()
 	    
 <?php
   }
-  if (luwrain_current_lang() == 'ru')
+  if (lwr_current_lang() == 'ru')
   {
 ?>
 

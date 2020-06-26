@@ -31,7 +31,7 @@ function luwrain_top_menu()
         </div>
         <div class="col-md-4">
 	            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
-            <a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo luwrain_current_lang() == 'ru'?'СМИ и публикации':'Media and publications';?></a>
+            <a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo luwrain_current_lang() == 'ru'?'Статьи и СМИ':'Media and publications';?></a>
                         <a href="<?php echo luwrain_link('/community/events/');?>"><?php echo luwrain_current_lang() == 'ru'?'Презентации и мероприятия':'Presentations and events';?></a>
         </div>
         <div class="col-md-4">

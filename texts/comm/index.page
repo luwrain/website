@@ -3,26 +3,6 @@ TARGET community
 TITLE EN Interesting
 TITLE RU Интересное
 
-luwrain-page-en
-
-# Interesting resources related to~our~work
-
-* [Mailing lists](local:mailing-lists);
-* [Twitter](https://twitter.com/luwrain); [YouTube](https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g); [GitHub](https://github.com/luwrain/)
-* [Our wiki (mostly in~Russian)](http://wiki.luwrain.org), 
-* [Media and publications](local:massmedia/)
-* [Presentations and events](local:events/)
-
-
-
-Everybody who is curious about LUWRAIN is~invited to~be a~member of~our community!
-The~community is very important since it's helpful to~know  your opinion and suggestions on~all things we do.
-With valuable feedback, we are~able to make  corresponding improvements and track known issues.
-
-## Choose the~option you are interested~in:
-
-* [Introducing F123e](local:f123e.php)
-
 luwrain-page-ru
 
 # Интересные ресурсы и материалы
@@ -30,7 +10,7 @@ luwrain-page-ru
 * [списки рассылок](local:mailing-lists);
 * [Twitter](https://twitter.com/luwrain); [YouTube](https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g); [GitHub](https://github.com/luwrain/)
 * [Наш~вики](http://wiki.luwrain.org), 
-* [СМИ и публикации](local:massmedia/)
+* [Статьи и СМИ](local:massmedia/)
 * [Презентации и мероприятия](local:events/)
 
 Разработку информационных технологий невозможно вести без~построения долгосрочной стратегии развития
@@ -59,3 +39,24 @@ luwrain-page-ru
 ## См.~также
 
 * [Записи приветствия системы на~разных языках](http://download.luwrain.org/media/greeting/langs/)
+
+luwrain-page-en
+
+# Interesting resources related to~our~work
+
+* [Mailing lists](local:mailing-lists);
+* [Twitter](https://twitter.com/luwrain); [YouTube](https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g); [GitHub](https://github.com/luwrain/)
+* [Our wiki (mostly in~Russian)](http://wiki.luwrain.org), 
+* [Media and publications](local:massmedia/)
+* [Presentations and events](local:events/)
+
+
+
+Everybody who is curious about LUWRAIN is~invited to~be a~member of~our community!
+The~community is very important since it's helpful to~know  your opinion and suggestions on~all things we do.
+With valuable feedback, we are~able to make  corresponding improvements and track known issues.
+
+## Choose the~option you are interested~in:
+
+* [Introducing F123e](local:f123e.php)
+
