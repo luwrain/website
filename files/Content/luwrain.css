@@ -47,7 +47,7 @@ img { border-style: none; }
 }
 
 #mainPart #accEnvir { text-align: center; color: #808080; margin-bottom: 30px; font-size: 20px; margin-top: 10px; }
-#mainPart #picContent { text-align: center; position: relative; min-height: 370px; }
+#mainPart #picContent { text-align: center; position: relative; min-height: 230px; }
     #mainPart #picContent #textUnderPic { font-size: 36px; margin-top: 10px; text-align: center; }
     #mainPart #picContent #part1 { position: absolute; bottom: 0; width: 100%; }
 
