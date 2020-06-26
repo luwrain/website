@@ -147,7 +147,7 @@ if(!$isMainPage)
 
 ?>
         <div id="insidePageText">
-?php
+<?php
 
 		}
 }
