@@ -46,7 +46,7 @@ function ShowPart1()
 			 '<br/>Особую роль в нашей работе играет поддержка людей с нарушениями зрения,'+
 			 '<br/>для которых мы ведём активную разработку программных продуктов,'+
 '<br/>охватывающих решение разнообразных задач.');
-    $('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/doc/user/start/?mode=normal&lang=ru"><span>С чего начать?</span></a>');
+    $('#firstButton').html('<a href="/doc/authors/?mode=normal&lang=ru"><span>Кто мы</span></a>');
     $('#part1more').slideDown('slow');
     $('#secondButton').html('<span>Далее</span>');
 };
@@ -60,7 +60,7 @@ function ShowPart2()
 	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
 	$('#hiddenPartNumber').val('2');
-	$('#accPlatform').html('Невизуальный дизайн');
+	$('#accPlatform').html('Книги и DAISY в облаке');
 	$('#text1more').html('Облачный сервис LUWRAIN Books предназначен для обработки'+
 			     '<br/>массивов текстов и создания на их основе аудиокниг,'+
 			     '<br/>включая поддержку формата DAISY. Для этого используются результаты'+
@@ -83,7 +83,7 @@ function ShowPart3()
 	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
 	$('#hiddenPartNumber').val('3');
-	$('#accPlatform').html('Первый шаг');
+	$('#accPlatform').html('Открытая вселенная Java');
 	$('#text1more').html('Для построения невизуальных интерфейсов мы развиваем'+
 			     '<br/>платформу LUWRAIN. Она создаёт новый пользовательский опыт,'+
 			     '<br/>отвечающий строгим требованиям функциональной эффективности, и предлагает'+
@@ -106,7 +106,7 @@ function ShowPart4()
 	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
 	$('#hiddenPartNumber').val('4');
-	$('#accPlatform').html('Java и JavaScript');
+	$('#accPlatform').html('Только все вместе!');
 	$('#text1more').html('Наш коллектив постоянно следит за техническими средствами,'+
 			     '<br/>коммерческими моделями и новыми подходами к образованию,'+
 			     '<br/>для которых применение платформы LUWRAIN способно'+
@@ -115,7 +115,7 @@ function ShowPart4()
 			     '<br/>администраторов, популяризацияневизуального использования издательских'+
 			     '<br/>систем TeX и Lilypond, снижение числа незрячих людей, которые не смогли'+
 			     '<br/>начать использование ПК, — далеко не весь круг интересных нам проблем.');
-	$('#firstButton').html('<a href="/doc/authors/?mode=normal&lang=ru"><span>Кто мы</span></a>');
+	$('#firstButton').html('<img id="downImg" src="/js/down.png" alt="" height="18" width="15"></img><a href="/doc/user/start/?mode=normal&lang=ru"><span>С чего начать?</span></a>');
 	$('#secondButton').html('<a href="/doc/about/?mode=normal&lang=ru"><span>Ещё о проекте</span></a>');
 	$('#part1more').slideDown('slow');
     });

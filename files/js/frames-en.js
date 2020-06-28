@@ -46,7 +46,7 @@ function ShowPart1()
 			 '<br/>accessible companion for various types of work. The product is designed'+
 			 '<br/>as a new platform for creating speech-enabled applications'+
 			 '<br/>with a set of standard tools for easy access to web services, mail, news reading, etc.');
-    $('#firstButton').html('<img id="downImg" src="Images/down.png" alt="" height="18" width="15"></img><a href="/doc/user/start/?mode=normal&lang=en"><span>Getting started</span></a>');
+    $('#firstButton').html('<img id="downImg" src="/js/down.png" alt="" height="18" width="15"></img><a href="/doc/user/start/?mode=normal&lang=en"><span>Getting started</span></a>');
     $('#part1more').slideDown('slow');
     $('#secondButton').html('<span>Read more</span>');
 };
