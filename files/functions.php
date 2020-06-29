@@ -11,13 +11,8 @@ function luwrain_top_menu()
         <div class="col-md-4">
             <a href="<?php echo luwrain_link('/doc/user/start/');?>"><?php echo luwrain_current_lang() == 'ru'?'С чего начать?':'Getting started';?></a>
             <a href="<?php echo luwrain_link('/doc/user/manual/');?>"><?php echo luwrain_current_lang() == 'ru'?'Руководство пользователя':'User manual';?></a>
-            <a href="<?php echo luwrain_link('/doc/about/');?>"><?php echo luwrain_current_lang() == 'ru'?'Всё о нас':'All about us';?></a>
+            <a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Новости и материалы:':'News and materials:';?></a>
             <ul class="subMenuSmall">
-
-                <li>
-                <li>
-            <a href="http://wiki.luwrain.org"><?php echo luwrain_current_lang() == 'ru'?'Вики':'Wiki';?></a>
-                </li>
                 <li>
             <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a>
                 </li>
@@ -25,14 +20,17 @@ function luwrain_top_menu()
             <a href="http://twitter.com/luwrain">Twitter</a>
                 </li>
                 <li>
-            <a href="https://www.github.com/luwrain/">GitHub</a>
+<a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo luwrain_current_lang() == 'ru'?'Статьи и СМИ':'Media and publications';?></a>
+                </li>
+                <li>
+<a href="<?php echo luwrain_link('/community/events/');?>"><?php echo luwrain_current_lang() == 'ru'?'Презентации и мероприятия':'Presentations and events';?></a>
                 </li>
             </ul>
         </div>
         <div class="col-md-4">
-	            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
-            <a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo luwrain_current_lang() == 'ru'?'Статьи и СМИ':'Media and publications';?></a>
-                        <a href="<?php echo luwrain_link('/community/events/');?>"><?php echo luwrain_current_lang() == 'ru'?'Презентации и мероприятия':'Presentations and events';?></a>
+            	                <a href="http://wiki.luwrain.org"><?php echo luwrain_current_lang() == 'ru'?'Вики':'Wiki';?></a>
+					            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
+						    	            <a href="<?php echo luwrain_link('/download/git/');?>"><?php echo luwrain_current_lang() == 'ru'?'Репозитории Git':'Git repositories';?></a>
         </div>
         <div class="col-md-4">
 	            <a href="<?php echo luwrain_link('/doc/faq/');?>">FAQ</a>
