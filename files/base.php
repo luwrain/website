@@ -1,4 +1,11 @@
 <?php
+
+function lwr_keywords()
+{
+  return 'Java,JavaScript,Linux,API,незрячий,слепой,зрение,accessibility,вспомагательная технология,тифлопедагогика,дефектология,платформа,программирование,пользовательский интерфейс,операционная система,СПО,Open Source,GPL';
+}
+
+
 function lwr_month_en($month)
 {
   $months = array(

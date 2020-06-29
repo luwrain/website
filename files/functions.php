@@ -63,6 +63,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="<?php echo lwr_keywords();?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php
       echo '    <title>'.lwr_title($title).'</title>'."\n";

@@ -8,6 +8,7 @@ function lwr_begin_page_adapted($path, $title)
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="<?php echo lwr_keywords();?>">
 <?php
         echo '    <title>'.lwr_title($title).'</title>'."\n";
 ?>
