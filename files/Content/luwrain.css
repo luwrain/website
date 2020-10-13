@@ -89,12 +89,11 @@ img { border-style: none; }
     #mainPart #insidePageText h3 { font-size: 14px; color: #818284; }
     #mainPart #insidePageText p { color: #303030; font-weight: normal; text-decoration: none; }
     #mainPart #insidePageText ul { color: #303030; font-weight: normal; padding-left: 20px; padding-top: 5px; text-decoration: none; }
-        #mainPart #insidePageText ul li span { color: #707070; }
-        #mainPart #insidePageText a { font-size: 14px; color: #0060ff; font-weight: normal; }
-	            #mainPart #insidePageText a:hover { font-size: 14px; color: #0060ff; font-weight: normal; text-decoration: underline; }
-
+    #mainPart #insidePageText ul li span { color: #707070; }
+    #mainPart #insidePageText a { font-size: 14px; color: #0060ff; font-weight: normal; }
+    #mainPart #insidePageText a:hover { font-size: 14px; color: #0060ff; font-weight: normal; text-decoration: underline; }
     #mainPart #insidePageText li { list-style: decimal outside none; }
-#mainPart #insidePageText img { width: 100%; }
+    #mainPart #insidePageText img { width: 100%; }
 
 #footerPart { margin-top: 30px; }
     #footerPart div { text-align: center; }
