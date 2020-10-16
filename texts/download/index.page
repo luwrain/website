@@ -1,0 +1,87 @@
+
+
+TARGET download
+TITLE RU Ресурсы для загрузки
+TITLE EN Downloads
+
+luwrain-page-ru
+
+# Загрузка дистрибутивов и других материалов
+
+Ниже собраны ссылки на~различные ресурсы,
+доступные для~загрузки с~нашего сайта.
+
+## Платформа LUWRAIN
+
+* LUWRAIN в~виде приложения:
+    * [Для~Microsoft Windows](local:windows/)
+    * [Для~GNU/Linux](local:linux/)
+* [LUWRAIN в~виде загрузочного ISO-образа на ядре Linux](local:iso/)
+
+## Исходный тексты
+
+Исходные тексты платформы LUWRAIN и ряда других компонентов может быть получен несколькими способами.
+Рекомендуется пользоваться  nightly-сборками,
+поскольку они включают в~себя исходные тексты,
+максимально подготовленные для~воспроизведения текущего среза.
+
+
+* [Nightly-сборки](local:nightly/)
+* [Tar-архив с~исходным кодом текущей стабильной версии](local:tarball/)
+* [Репозитории Git](local:git/)
+
+## Материалы партнёров
+
+Ряд продуктов разрабатывается совместно с~партнёрскими компаниями и организациями.
+Обычно это невизуальные приложения для~доступа к~сетевым сервисам.
+
+* [Издательство «Директ -Медиа»](http://download.luwrain.org/partners/dm/)
+* [Национальный исследовательский Томский государственный университет](http://download.luwrain.org/partners/tsu/)
+
+## Прочие материалы
+
+* [Статьи и презентации в~формате~PDF](http://download.luwrain.org/pdf/)
+* [Беседы и подкасты в~формате~MP3](http://download.luwrain.org/chats/)
+
+luwrain-page-en
+
+# Downloads
+
+The~entire set of~our products and services is~concentrated around our~platform LUWRAIN.
+With LUWRAIN platform,
+blind users can create their own accessible applications or run the~applications
+created by~our team or other people.
+The~main distributions of~LUWRAIN are~free for~use for~everybody, since they are licensed under the~terms of~GPL~v.3.
+
+These options are for~people who needs LUWRAIN for~work. 
+With~the~list below, you can find a~binary distribution prepared for~OS you have already installed or 
+a~ISO~image suitable for running LUWRAIN as~a~stand-alone OS (in~this~case any~previously installed OS is unnecessary).
+
+Choose the~most suitable form you need:
+
+* As~an~application:
+ * [For~Microsoft Windows](local:windows/)
+ * [For~GNU/Linux](local:linux/)
+ * [As a~bootable ISO image](local:iso/) (installed OS isn't required)
+
+## LUWRAIN SDK
+
+LUWRAIN~SDK is purposed for~the~developers who are willing to create
+their own application or extension for~LUWRAIN using Java.
+
+* [Download page for~LUWRAIN~SDK](local:sdk/)
+
+## Our~source code
+
+The~source code of~LUWRAIN can be~obtained in~one~of~the~several 
+
+The~first option of~this list is purposed for~the~developers
+of~applications for~LUWRAIN.
+Others can be~useful only for~developers who would like to~improve LUWRAIN itself.
+
+* [Tarball with source code](local:tarball/) (published basically to~make LUWRAIN sources downloadable in~single click)
+* [Git~repositories](local:git/) (the~entire set of~repositories for~tracking of~changes in~our~project)
+* [Nightly builds](local:nightly/) (regular binary builds for~testers)
+
+Please be aware that you can visit the~host [download.luwrain.org](http://download.luwrain.org) directly.
+

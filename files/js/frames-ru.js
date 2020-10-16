@@ -61,7 +61,7 @@ function ShowPart2()
 	$('#secondButton').removeClass('lightSolidButton');
 	$('#hiddenPartNumber').val('2');
 	$('#accPlatform').html('Книги и DAISY в облаке');
-	$('#text1more').html('Облачный сервис <a href="http://books.luwrain.org/?mode=normal&lang=ru">LUWRAIN Books</a> предназначен для обработки'+
+	$('#text1more').html('Облачный сервис <a href=\"http://books.luwrain.org/?mode=normal&amp;lang=ru\">LUWRAIN Books</a> предназначен для обработки'+
 			     '<br/>массивов текстов и создания на их основе аудиокниг,'+
 			     '<br/>включая поддержку формата DAISY. Для этого используются результаты'+
 			     '<br/>наших исследований в области компьютерной лингвистики,'+
