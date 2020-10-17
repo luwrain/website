@@ -2,7 +2,7 @@
 
 include "functions.php";
 
-luwrain_begin_page('index.php', luwrain_current_lang() == 'ru'?'Главная страница':'Main page', true);
+luwrain_begin_page('index.php', lwr_lang() == 'ru'?'Главная страница':'Main page', true);
 if (lwr_current_mode() == 'adapted')
 {
   lwr_main_page_adapted();
@@ -30,7 +30,7 @@ if (lwr_current_mode() == 'adapted')
         <div id="buttonContent">
           <div class="row">
             <div class="col-md-5"><button class="twoButton heavyButton" id="firstButton"></button></div>
-            <div class="col-md-2"><div id="orLi"><?php echo luwrain_current_lang() == 'ru'?'или':'or';?></div></div>
+            <div class="col-md-2"><div id="orLi"><?php echo lwr_lang() == 'ru'?'или':'or';?></div></div>
             <div class="col-md-5"><button class="twoButton lightButton" id="secondButton" onclick="SecondButtonOnClick();"><span></span></button></div>
           </div>
           <div class="clearfix"></div>

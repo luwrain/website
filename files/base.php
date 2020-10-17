@@ -7,9 +7,7 @@ function lwr_keywords()
   return 'Java,JavaScript,Linux,API,незрячий,слепой,зрение,accessibility,вспомагательная технология,тифлопедагогика,дефектология,платформа,программирование,пользовательский интерфейс,операционная система,СПО,Open Source,GPL';
 }
 
-
-function lwr_month_en($month)
-{
+function lwr_month_en($month) {
   $months = array(
     'January',
     'February',
@@ -31,14 +29,9 @@ function lwr_lang() {
     return array_key_exists('lang', $_GET)?$_GET['lang']:'ru';
 }
 
-function lwr_current_lang() {
-return lwr_lang();
-}
-
-function luwrain_current_lang()
-{
-return lwr_current_lang();
-}
+//Compatibility function, to be deleted
+function lwr_current_lang() { return lwr_lang(); }
+function luwrain_current_lang() { return lwr_lang(); }
 
 function lwr_current_mode()
 {
@@ -57,13 +50,11 @@ function luwrain_link_ext1($path, $lang, $mode)
 
 function lwr_link($path)
 {
-    return luwrain_link_ext1($path, lwr_current_lang(), lwr_current_mode());
+    return luwrain_link_ext1($path, lwr_lang(), lwr_current_mode());
     }
 
-function luwrain_link($path)
-{
-return lwr_link($path);
-}
+//Compatibility function, to be deleted
+function luwrain_link($path) { return lwr_link($path); }
 
 function lwr_title($value)
 {

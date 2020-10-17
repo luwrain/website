@@ -11,44 +11,44 @@ function luwrain_top_menu() {
       <div id="topPart">
         <div class="row top-part-content">
           <div class="col-md-4">
-            <a href="<?php echo luwrain_link('/doc/user/start/');?>"><?php echo luwrain_current_lang() == 'ru'?'С чего начать?':'Getting started';?></a>
-            <a href="<?php echo luwrain_link('/doc/user/manual/');?>"><?php echo luwrain_current_lang() == 'ru'?'Руководство пользователя':'User manual';?></a>
-            <a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Новости и материалы:':'News and materials:';?></a>
+            <a href="<?php echo luwrain_link('/doc/user/start/');?>"><?php echo lwr_lang() == 'ru'?'С чего начать?':'Getting started';?></a>
+            <a href="<?php echo luwrain_link('/doc/user/manual/');?>"><?php echo lwr_lang() == 'ru'?'Руководство пользователя':'User manual';?></a>
+            <a href="<?php echo luwrain_link('/community/');?>"><?php echo lwr_lang() == 'ru'?'Новости и материалы:':'News and materials:';?></a>
             <ul class="subMenuSmall">
               <li>
-                <a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo luwrain_current_lang() == 'ru'?'Статьи и СМИ':'Media and publications';?></a>
+                <a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo lwr_lang() == 'ru'?'Статьи и СМИ':'Media and publications';?></a>
               </li>
               <li>
-                <a href="<?php echo luwrain_link('/community/events/');?>"><?php echo luwrain_current_lang() == 'ru'?'Презентации и мероприятия':'Presentations and events';?></a>
+                <a href="<?php echo luwrain_link('/community/events/');?>"><?php echo lwr_lang() == 'ru'?'Презентации и мероприятия':'Presentations and events';?></a>
               </li>
               <li>
                 <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a>
               </li>
               <li>
-                <a href="http://twitter.com/luwrain"><?php echo luwrain_current_lang() == 'ru'?'Твиттер':'Twitter';?></a>
+                <a href="http://twitter.com/luwrain"><?php echo lwr_lang() == 'ru'?'Твиттер':'Twitter';?></a>
               </li>
               <li>
-                <a href="http://wiki.luwrain.org/"><?php echo luwrain_current_lang() == 'ru'?'Вики':'Wiki';?></a>
+                <a href="http://wiki.luwrain.org/"><?php echo lwr_lang() == 'ru'?'Вики':'Wiki';?></a>
               </li>
             </ul>
           </div>
           <div class="col-md-4">
-            <a href="<?php echo lwr_link('/download/');?>"><?php echo luwrain_current_lang() == 'ru'?'Загрузить':'Downloads';?></a>
-            <a href="<?php echo luwrain_link('/doc/devel/');?>"><?php echo luwrain_current_lang() == 'ru'?'Разработчикам':'For developers';?></a>
-            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
+            <a href="<?php echo lwr_link('/download/');?>"><?php echo lwr_lang() == 'ru'?'Загрузить':'Downloads';?></a>
+            <a href="<?php echo luwrain_link('/doc/devel/');?>"><?php echo lwr_lang() == 'ru'?'Разработчикам':'For developers';?></a>
+            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo lwr_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
           </div>
           <div class="col-md-4">
             <a href="<?php echo luwrain_link('/doc/faq/');?>">FAQ</a>
-            <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статус':'Legal notice';?></a>
-            <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo luwrain_current_lang() == 'ru'?'Контакты':'Contact us';?></a>
+            <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo lwr_lang() == 'ru'?'Правовой статус':'Legal notice';?></a>
+            <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo lwr_lang() == 'ru'?'Контакты':'Contact us';?></a>
           </div>
         </div>
         <div id="menuSwitch">
           <div id="openMenu" class="menuButton">
-            <a href="#"><?php echo luwrain_current_lang() == 'ru'?'МЕНЮ':'MENU';?> &#9652;</a>
+            <a href="#"><?php echo lwr_lang() == 'ru'?'МЕНЮ':'MENU';?> &#9652;</a>
           </div>
           <div id="closeMenu" class="menuButton">
-            <a href="#"><?php echo luwrain_current_lang() == 'ru'?'ЗАКРЫТЬ':'CLOSE';?> &#9662;</a>
+            <a href="#"><?php echo lwr_lang() == 'ru'?'ЗАКРЫТЬ':'CLOSE';?> &#9662;</a>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
     <link type="image/x-icon" href="/Images/favicon.ico" rel="icon" />
     <link media="all" rel="stylesheet" type="text/css" href="/Content/luwrain.css" />
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="<?php if (luwrain_current_lang() == 'en') echo 'js/frames-en.js'; if (luwrain_current_lang() == 'ru') echo 'js/frames-ru.js'; ?>"></script>
+    <script src="<?php if (lwr_lang() == 'en') echo 'js/frames-en.js'; if (lwr_lang() == 'ru') echo 'js/frames-ru.js'; ?>"></script>
     <script src="/js/core.js"></script>
     <script>
       jQuery(document).ready(function () {
@@ -98,12 +98,12 @@ luwrain_top_menu();
           <ul class="subMenu">
             <li class="linkMenu">
 <?php
-  echo '              <a href="'.luwrain_link_ext1($path, luwrain_current_lang(), 'adapted').'">'.(luwrain_current_lang() == 'ru'?'Версия для слабовидящих':'Adapted/mobile version')."</a>\n";
+  echo '              <a href="'.luwrain_link_ext1($path, lwr_lang(), 'adapted').'">'.(lwr_lang() == 'ru'?'Версия для слабовидящих':'Adapted/mobile version')."</a>\n";
 ?>
             </li>
             <li class="linkMenu">
               <div id="languageSelected">
-                <a href="<?php echo luwrain_link_ext1($path, luwrain_current_lang() == 'ru'?'en':'ru', 'normal');?>" class="font14" id="selectedLanguageName"><?php echo luwrain_current_lang() == 'ru'?'English':'Russian';?></a>
+                <a href="<?php echo luwrain_link_ext1($path, lwr_lang() == 'ru'?'en':'ru', 'normal');?>" class="font14" id="selectedLanguageName"><?php echo lwr_lang() == 'ru'?'English':'Russian';?></a>
               </div>
             </li>
           </ul>
@@ -116,10 +116,10 @@ luwrain_top_menu();
                   <span class="font30 bold">LUWRAIN</span>
                 </li>
                 <li>
-                  <span class="italic font14"><?php echo luwrain_current_lang() == 'ru'?'Платформа невизуальных приложений':'A platform for the creation of apps';?></span>
+                  <span class="italic font14"><?php echo lwr_lang() == 'ru'?'Платформа невизуальных приложений':'A platform for the creation of apps';?></span>
                 </li>
                 <li>
-                  <span class="italic font14"><?php if (luwrain_current_lang() == 'en') echo ' for the blind and partially-sighted';?></span>
+                  <span class="italic font14"><?php if (lwr_lang() == 'en') echo ' for the blind and partially-sighted';?></span>
                 </li>
               </ul>
             </div>
@@ -130,13 +130,13 @@ luwrain_top_menu();
             <div id="mainMenuBorder">
               <ul class="subMenu" id="mainMenuList">
                 <li class="linkMenu">
-                  <a id = "downLoadLink" href="<?php echo luwrain_link('/products/');?>" class="bold font18"><?php echo luwrain_current_lang() == 'ru'?'Продукты':'Products';?></a>
+                  <a id = "downLoadLink" href="<?php echo luwrain_link('/products/');?>" class="bold font18"><?php echo lwr_lang() == 'ru'?'Продукты':'Products';?></a>
                 </li>
                 <li class="linkMenu">
-                  <a id = "docsLink" href="<?php echo luwrain_link('/doc/');?>"><?php echo luwrain_current_lang() == 'ru'?'Документация':'Documentation';?></a>
+                  <a id = "docsLink" href="<?php echo luwrain_link('/doc/');?>"><?php echo lwr_lang() == 'ru'?'Документация':'Documentation';?></a>
                 </li>
                 <li class="linkMenu">
-                  <a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Интересное':'Interesting';?></a>
+                  <a href="<?php echo luwrain_link('/community/');?>"><?php echo lwr_lang() == 'ru'?'Интересное':'Interesting';?></a>
                 </li>
               </ul>
             </div>
@@ -182,9 +182,9 @@ if (!$isMainPage)
 ?>
       </div>
       <div class="row" id="footerPart">
-        <div class="col-md-4"><span class="font14"><?php echo luwrain_current_lang() == 'ru'?'&#169; 2012&#x2013;2020 Разработчики LUWRAIN':'&#169; 2012&#x2013;2020 LUWRAIN developers'?></span></div>
-        <div class="col-md-4"><a class="blueColor" href="http://validator.w3.org/check?uri=referer"><?php echo luwrain_current_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a></div>
-        <div class="col-md-4"><?php echo luwrain_current_lang() == 'ru'?'Дизайн от':'Design by';?> <a href="http://strash.ru"><span class="blueColor">Strash</span></a></div>
+        <div class="col-md-4"><span class="font14"><?php echo lwr_lang() == 'ru'?'&#169; 2012&#x2013;2020 Разработчики LUWRAIN':'&#169; 2012&#x2013;2020 LUWRAIN developers'?></span></div>
+        <div class="col-md-4"><a class="blueColor" href="http://validator.w3.org/check?uri=referer"><?php echo lwr_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a></div>
+        <div class="col-md-4"><?php echo lwr_lang() == 'ru'?'Дизайн от':'Design by';?> <a href="http://strash.ru"><span class="blueColor">Strash</span></a></div>
       </div>
     </div>
   </body>
@@ -205,17 +205,17 @@ return luwrain_end_page($path, false);
 
 function luwrain_content_not_written()
 {
-    if (luwrain_current_lang() == 'en')
+    if (lwr_lang() == 'en')
         echo '                  <p>We apologize, but this page does not have any content yet. Please, try visit it later.</p>'."\n";
-    if (luwrain_current_lang() == 'ru')
+    if (lwr_lang() == 'ru')
         echo '                  <p>Мы приносим свои извинения, но текст этой страницы в настоящий момент не подготовлен.</p>'."\n";
 }
 
 function luwrain_content_being_written()
 {
-    if (luwrain_current_lang() == 'en')
+    if (lwr_lang() == 'en')
         echo '                  <p><b>ATTENTION:</b> This page is still in work and may provide an incorrect or incomplete information.</p>'."\n";
-    if (luwrain_current_lang() == 'ru')
+    if (lwr_lang() == 'ru')
         echo '                  <p><b>ВНИМАНИЕ:</b> Эта страница находится в разработке и может предоставлять некорректную или неполную информацию.</p>'."\n";
 }
 ?>
