@@ -1,52 +1,57 @@
 <?php
-  include 'versions.php';
+// Copyright 2012-2020 Michael Pozhidaev <msp@luwrain.org>
+// The LUWRAIN Project, GPL v.3
+
+include 'versions.php';
   include 'base.php';
   include "adapted.php";
 
-function luwrain_top_menu()
-{
+function luwrain_top_menu() {
 ?>
-<div id="topPart">
-    <div class="row top-part-content">
-        <div class="col-md-4">
+      <div id="topPart">
+        <div class="row top-part-content">
+          <div class="col-md-4">
             <a href="<?php echo luwrain_link('/doc/user/start/');?>"><?php echo luwrain_current_lang() == 'ru'?'С чего начать?':'Getting started';?></a>
             <a href="<?php echo luwrain_link('/doc/user/manual/');?>"><?php echo luwrain_current_lang() == 'ru'?'Руководство пользователя':'User manual';?></a>
             <a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Новости и материалы:':'News and materials:';?></a>
             <ul class="subMenuSmall">
-                <li>
-            <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a>
-                </li>
-                <li>
-            <a href="http://twitter.com/luwrain">Twitter</a>
-                </li>
-                <li>
-<a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo luwrain_current_lang() == 'ru'?'Статьи и СМИ':'Media and publications';?></a>
-                </li>
-                <li>
-<a href="<?php echo luwrain_link('/community/events/');?>"><?php echo luwrain_current_lang() == 'ru'?'Презентации и мероприятия':'Presentations and events';?></a>
-                </li>
+              <li>
+                <a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo luwrain_current_lang() == 'ru'?'Статьи и СМИ':'Media and publications';?></a>
+              </li>
+              <li>
+                <a href="<?php echo luwrain_link('/community/events/');?>"><?php echo luwrain_current_lang() == 'ru'?'Презентации и мероприятия':'Presentations and events';?></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a>
+              </li>
+              <li>
+                <a href="http://twitter.com/luwrain"><?php echo luwrain_current_lang() == 'ru'?'Твиттер':'Twitter';?></a>
+              </li>
+              <li>
+                <a href="http://wiki.luwrain.org/"><?php echo luwrain_current_lang() == 'ru'?'Вики':'Wiki';?></a>
+              </li>
             </ul>
+          </div>
+          <div class="col-md-4">
+            <a href="<?php echo lwr_link('/download/');?>"><?php echo luwrain_current_lang() == 'ru'?'Загрузить':'Downloads';?></a>
+            <a href="<?php echo luwrain_link('/doc/devel/');?>"><?php echo luwrain_current_lang() == 'ru'?'Разработчикам':'For developers';?></a>
+            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
+          </div>
+          <div class="col-md-4">
+            <a href="<?php echo luwrain_link('/doc/faq/');?>">FAQ</a>
+            <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статус':'Legal notice';?></a>
+            <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo luwrain_current_lang() == 'ru'?'Контакты':'Contact us';?></a>
+          </div>
         </div>
-        <div class="col-md-4">
-            	                <a href="http://wiki.luwrain.org"><?php echo luwrain_current_lang() == 'ru'?'Вики':'Wiki';?></a>
-					            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo luwrain_current_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
-						    	            <a href="<?php echo luwrain_link('/download/git/');?>"><?php echo luwrain_current_lang() == 'ru'?'Репозитории Git':'Git repositories';?></a>
-        </div>
-        <div class="col-md-4">
-	            <a href="<?php echo luwrain_link('/doc/faq/');?>">FAQ</a>
-                        <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo luwrain_current_lang() == 'ru'?'Правовой статус':'Legal notice';?></a>
-                    <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo luwrain_current_lang() == 'ru'?'Контакты':'Contact us';?></a>
-        </div>
-    </div>
-    <div id="menuSwitch">
-        <div id="openMenu" class="menuButton">
+        <div id="menuSwitch">
+          <div id="openMenu" class="menuButton">
             <a href="#"><?php echo luwrain_current_lang() == 'ru'?'МЕНЮ':'MENU';?> &#9652;</a>
-        </div>
-        <div id="closeMenu" class="menuButton">
+          </div>
+          <div id="closeMenu" class="menuButton">
             <a href="#"><?php echo luwrain_current_lang() == 'ru'?'ЗАКРЫТЬ':'CLOSE';?> &#9662;</a>
+          </div>
         </div>
-    </div>
-</div>
+      </div>
 <?php
 }
 
