@@ -18,7 +18,7 @@ if (lwr_current_mode() == 'adapted')
 
 
         <input class="hidden-not-important" id="hiddenPartNumber">
-        <div id="accEnvir"><?php echo lwr_current_lang() == 'ru'?'Информационное общество &#x2014; доступное общество':'Information technologies for the blind'; ?></div>
+        <div id="accEnvir"><?php echo lwr_lang() == 'ru'?'Информационное общество &#x2014; доступное общество':'Information technologies for the blind'; ?></div>
         <div id="picContent">
           <div id="arrowLeft"></div>
           <div id="part1more" class="">

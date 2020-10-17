@@ -1,4 +1,6 @@
 <?php
+// Copyright 2012-2020 Michael Pozhidaev <msp@luwrain.org>
+// The LUWRAIN Project, GPL v.3
 
 function lwr_keywords()
 {
@@ -25,9 +27,12 @@ function lwr_month_en($month)
   return $months[$month - 1];
 }
 
-function lwr_current_lang()
-{
+function lwr_lang() {
     return array_key_exists('lang', $_GET)?$_GET['lang']:'ru';
+}
+
+function lwr_current_lang() {
+return lwr_lang();
 }
 
 function luwrain_current_lang()

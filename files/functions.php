@@ -64,7 +64,7 @@ function luwrain_begin_page($path, $title, $isMainPage)
     }
         ?>
 <!DOCTYPE html>
-<html lang="<?php echo lwr_current_lang();?>">
+<html lang="<?php echo lwr_lang();?>">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -161,7 +161,7 @@ function luwrain_end_page($path, $isMainPage)
     if (luwrain_current_mode() == 'adapted') { 
 ?>
       <hr>
-      <?php echo lwr_current_lang() == 'ru'?'&#169; 2012&#x2013;2020 Разработчики LUWRAIN':'&#169; 2012&#x2013;2020 LUWRAIN developers'?><br/>
+      <?php echo lwr_lang() == 'ru'?'&#169; 2012&#x2013;2020 Разработчики LUWRAIN':'&#169; 2012&#x2013;2020 LUWRAIN developers'?><br/>
       <a href="http://validator.w3.org/check?uri=referer">Проверить при помощи w3.org</a><br/>
           </div>
   </body>
