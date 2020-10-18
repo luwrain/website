@@ -25,10 +25,11 @@ luwrain-page-ru
 поскольку они включают в~себя исходные тексты,
 максимально подготовленные для~воспроизведения текущего среза.
 
-
-* [Nightly-сборки](local:nightly/)
-* [Tar-архив с~исходным кодом текущей стабильной версии](local:tarball/)
+* [Исходные тексты в~архиве~tar.gz](local:tarball/)
 * [Репозитории Git](local:git/)
+* [Nightly-сборки](local:nightly/)
+
+
 
 ## Материалы партнёров
 
@@ -63,13 +64,6 @@ Choose the~most suitable form you need:
  * [For~Microsoft Windows](local:windows/)
  * [For~GNU/Linux](local:linux/)
  * [As a~bootable ISO image](local:iso/) (installed OS isn't required)
-
-## LUWRAIN SDK
-
-LUWRAIN~SDK is purposed for~the~developers who are willing to create
-their own application or extension for~LUWRAIN using Java.
-
-* [Download page for~LUWRAIN~SDK](local:sdk/)
 
 ## Our~source code
 
