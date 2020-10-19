@@ -11,7 +11,7 @@ luwrain-page-ru
 
 <div style="height: 20px;"></div>
 <ul>
-  <li><a href="http://download.luwrain.org/src/1.x.x/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a></li>
+  <li><a href="http://download.luwrain.org/releases/src/v1/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a></li>
 </ul>
 <div style="height: 20px;"></div>
 
@@ -46,7 +46,7 @@ please use this direct link:
 
 <div style="height: 20px;"></div>
 <ul>
-  <li><a href="http://download.luwrain.org/src/1.x.x/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a\></li>
+  <li><a href="http://download.luwrain.org/releases/src/v1/luwrain-<?php echo lwr_version_tarball();?>.tar.gz">luwrain-<?php echo lwr_version_tarball();?>.tar.gz</a\></li>
 </ul>
 <div style="height: 20px;"></div>
 
