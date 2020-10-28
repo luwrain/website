@@ -1,0 +1,85 @@
+
+TARGET doc/authors
+TITLE RU Авторы
+TITLE EN Authors
+
+luwrain-page-ru
+
+# Авторы проекта
+
+Проект LUWRAIN развивается при~ключевой поддержке [Национального исследовательского Томского государственного университета](http://tsu.ru).
+В~основную группу разработчиков входят:
+
+<p>
+  <img src="alexey.jpg" alt="Фотография лица молодого человека" style="margin: 20px 10px 5px 0; width: 200px; height: 200px;"/><br>
+  Алексей Голошумов<br>
+  Кандидат педагогических наук, инженер-программист<br>
+  E-mail: alexey <em>(at)</em> luwrain.org
+</p>
+
+<p>
+  <img src="michael.jpg" alt="Фотография лица молодого человека" style="margin: 20px 10px 5px 0; width: 200px; height: 200px;"/><br>
+  Михаил Пожидаев<br>
+  Кандидат технических наук, инженер-программист<br>
+  E-mail: msp <em>(at)</em> luwrain.org<br>
+  Домашняя страница: <a href="http://marigostra.ru/">marigostra.ru</a>
+</p>
+
+<p>
+  <img src="elena.jpg" alt="Фотография лица девушки" style="margin: 20px 10px 5px 0; width: 200px; height: 200px;"/><br>
+  Елена Теплых<br>
+  Психолог<br>
+  E-mail: elena <em>(at)</em> luwrain.org
+</p>
+
+## Партнёры проекта
+
+* [Издательство «Директ-Медиа»](http://directmedia.ru)
+
+### Образовательные партнёры
+
+* [Томский государственный педагогический университет](http://www.tspu.edu.ru)
+* [Томская школа-интернат для~обучающихся с~нарушениями зрения](https://33internat.tomsk.ru/)
+
+Партнёрское взаимодействие осуществляется  на~основе соглашения о~сотрудничестве
+в~сфере информационных технологий и тифлопедагогики с~целью получения практического опыта цифровой трансформации учебного процесса,
+а~также с~целью разработки образовательной методологии применения программного обеспечения
+для~повышения качества обучения детей с~нарушениями зрения.
+
+luwrain-page-en
+
+# Who we are
+
+The~project is-developing with~the~support from [National Research Tomsk State University](http://en.tsu.ru).
+Our main team includes:
+
+<p>
+  <img src="alexey.jpg" alt="Picture of a face" style="margin: 20px 10px 5px 0; width: 200px; height: 200px;"/><br>
+  Alexey Goloshumov<br>
+  Software engineer<br>
+  E-mail: alexey <em>(at)</em> luwrain.org
+</p>
+
+<p>
+  <img src="michael.jpg" alt="Picture of a face" style="margin: 20px 10px 5px 0; width: 200px; height: 200px;"/><br>
+  Michael Pozhidaev<br>
+  Software engineer<br>
+  E-mail: msp <em>(at)</em> luwrain.org<br>
+  Homepage: <a href="http://marigostra.com/">marigostra.com</a>
+</p>
+
+<p>
+  <img src="elena.jpg" alt="Picture of a face" style="margin: 20px 10px 5px 0; width: 200px; height: 200px;"/><br>
+  Elena Teplykh<br>
+  Psychologist<br>
+  E-mail: elena <em>(at)</em> luwrain.org
+</p>
+
+## Our partners
+
+* [Direct-Media](http://directmedia.ru)
+
+### Educational partners
+
+* [Tomsk State Pedagogical University](http://www.tspu.edu.ru)
+* [Tomsk school for the blind](https://33internat.tomsk.ru/)
