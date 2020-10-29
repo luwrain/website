@@ -13,9 +13,9 @@ luwrain-page-ru
 
 ## Платформа LUWRAIN
 
-* [Дистрибутив для~Microsoft Windows](local:windows/)
-* [Дистрибутив для~GNU/Linux](local:linux/)
-* [LUWRAIN в~виде загрузочного ISO-образа на ядре Linux](local:iso/)
+* [LUWRAIN для~Microsoft Windows](local:windows/)
+* [LUWRAIN для~GNU/Linux](local:linux/)
+* [LUWRAIN как~ISO-образ на~ядре Linux](local:iso/)
 
 ## Исходные тексты
 
