@@ -12,8 +12,6 @@ luwrain-page-ru
 речевой синтезатор и
 поддерживает русский и английский языки.
 
-Щёлкните по~прямой ссылке ниже для~начала загрузки:
-
 <div style="height: 20px;"></div>
 <ul>
   <li><a href="http://download.luwrain.org/releases/luwrain/<?php echo lwr_version_windows();?>/windows/luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe">luwrain-windows-32bit-<?php echo lwr_version_windows();?>.exe</a></li>
