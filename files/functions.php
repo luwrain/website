@@ -161,7 +161,7 @@ function luwrain_end_page($path, $isMainPage)
     if (luwrain_current_mode() == 'adapted') { 
 ?>
       <hr>
-      <?php echo lwr_lang() == 'ru'?'&#169; 2012&#x2013;2020 Разработчики LUWRAIN':'&#169; 2012&#x2013;2020 LUWRAIN developers'?><br/>
+      <?php echo lwr_lang() == 'ru'?'&#169; 2012&#x2013;2021 Разработчики LUWRAIN':'&#169; 2012&#x2013;2021 LUWRAIN developers'?><br/>
       <a href="http://validator.w3.org/check?uri=referer">Проверить при помощи w3.org</a><br/>
           </div>
   </body>
@@ -182,7 +182,7 @@ if (!$isMainPage)
 ?>
       </div>
       <div class="row" id="footerPart">
-        <div class="col-md-4"><span class="font14"><?php echo lwr_lang() == 'ru'?'&#169; 2012&#x2013;2020 Разработчики LUWRAIN':'&#169; 2012&#x2013;2020 LUWRAIN developers'?></span></div>
+        <div class="col-md-4"><span class="font14"><?php echo lwr_lang() == 'ru'?'&#169; 2012&#x2013;2021 Разработчики LUWRAIN':'&#169; 2012&#x2013;2021 LUWRAIN developers'?></span></div>
         <div class="col-md-4"><a class="blueColor" href="http://validator.w3.org/check?uri=referer"><?php echo lwr_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a></div>
         <div class="col-md-4"><?php echo lwr_lang() == 'ru'?'Дизайн от':'Design by';?> <a href="http://strash.ru"><span class="blueColor">Strash</span></a></div>
       </div>

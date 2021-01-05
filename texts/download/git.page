@@ -1,7 +1,92 @@
 
 TARGET download/git
-TITLE EN Git repositories
 TITLE RU РепозиторииGit
+TITLE EN Git repositories
+
+luwrain-page-ru
+
+# репозитории Git
+
+См.~также:
+
+* [Компиляция nightly-релизов](local:/doc/devel/nightly/)
+
+Исходный код LUWRAIN опубликован в~репозиториях Git, собранных по~адресу [https://github.com/luwrain/](http://github.com/luwrain/).
+Они перечислены ниже с~краткими комментариями об~их~назначении.
+Пожалуйста, обратите внимание, что в~репозитории [base.git](https://github.com/luwrain/base.git) присутствует скрипт ```lwr-checkout```,
+который выполняет автоматическое клонирование всех~репозиториев, задействованных в~настоящий момент в~сборке релизов.
+
+## Ядро системы
+
+* [luwrain.git](https://github.com/luwrain/luwrain.git):
+ядро системы, стандартные элементы управления и поддержка расширений JavaScript
+* [base.git](https://github.com/luwrain/base.git):
+код начальной загрузки системы и набор вспомогательных скриптов для~сборки проекта
+* [interaction-javafx.git](https://github.com/luwrain/interaction-javafx.git):
+механизм взаимодействия с~пользователем, основанный на~JavaFX 
+* [registry.git](https://github.com/luwrain/registry.git):
+данные реестра
+
+## Ключевые компоненты
+
+* [browser.git](https://github.com/luwrain/browser.git):
+веб-браузер, основанный на~движке WebKit
+* [io.git](https://github.com/luwrain/io.git):
+компоненты для~функций ввода/вывода
+* [packs.git](https://github.com/luwrain/packs.git):
+менеджер обновлений и установки расширений
+* [pim.git](https://github.com/luwrain/pim.git):
+менеджер личной информации (электронной почты, новостей и~т.~д.)
+* [player.git](https://github.com/luwrain/player.git):
+медиаплеер
+* [reader.git](https://github.com/luwrain/reader.git):
+компоненты для~чтения и просмотра структурированных документов
+* [studio.git](https://github.com/luwrain/studio.git):
+компоненты для~редактирования текстов программ и документов
+
+## Приложения
+
+* [app-contacts.git](https://github.com/luwrain/app-contacts.git):
+персональная адресная книга
+* [app-commander.git](https://github.com/luwrain/app-commander.git):
+двухпанельный файловый менеджер
+* [app-mail.git](https://github.com/luwrain/app-mail.git):
+почтовый клиент
+* [app-news.git](https://github.com/luwrain/app-news.git):
+чтение RSS-лент
+* [app-notepad.git](https://github.com/luwrain/app-notepad.git):
+простейший текстовый редактор
+* [app-twitter.git](https://github.com/luwrain/app-twitter.git):
+клиент для~социальной сети Твиттер
+* [app-viewer.git](https://github.com/luwrain/app-viewer.git):
+просмотр файлов PDF в~графическом режиме
+* [app-vk.git](https://github.com/luwrain/app-vk.git):
+клиент для~социальной сети ВКонтакте
+
+## Системнозависимые компоненты
+
+* [linux.git](https://github.com/luwrain/linux.git):
+поддержка GNU/Linux
+* [windows.git](https://github.com/luwrain/windows.git):
+поддержка Microsoft Windows
+
+## Дополнительные расширения
+
+* [extensions.git](https://github.com/luwrain/extensions.git):
+набор стандартных расширений, включая все расширения JavaScript
+* [i18n.git](https://github.com/luwrain/i18n.git):
+поддержка национальных языков и стандартов
+
+## Компоненты для~сервиса books.luwrain .org
+
+* [books-api-java.git](https://github.com/luwrain/books-api-java.git):
+клиентская библиотека для~работы с~открытым API сервиса [books.luwrain.org](https://books.luwrain.org) на~языке Java
+* [books-api-bash.git](https://github.com/luwrain/books-api-bash.git):
+набор скриптов на~Bash для~работы с~открытым API сервиса [books.luwrain.org](https://books.luwrain.org)
+* [runyms.git](https://github.com/luwrain/runyms.git):
+библиотека для~обработки неоднозначности прочтения омографов русского языка
+
+
 
 luwrain-page-en
 
@@ -124,76 +209,13 @@ AT-SPI client and the window manager
 * [https://github.com/luwrain/musitorius.git](https://github.com/luwrain/musitorius.git) ---
 multimedia player control
 
-luwrain-page-ru
 
-# репозитории Git
 
-См.~также:
+## Components for~books.luwrain .org
 
-* [Компиляция nightly-релизов](local:/doc/devel/nightly/)
-
-Исходный код LUWRAIN опубликован в~репозиториях Git, собранных по-адресу [https://github.com/luwrain/](http://github.com/luwrain/).
-Они перечислены ниже с~краткими комментариями об~их~назначении.
-Пожалуйста, обратите внимание, что в~репозитории [base.git](https://github.com/luwrain/base.git) присутствует скрипт ```lwr-checkout```,
-который выполняет автоматическое клонирование всех~репозиториев, задействованных в~настоящий момент в~сборке релизов.
-
-## Ядро системы
-
-* [luwrain.git](https://github.com/luwrain/luwrain.git):
-ядро системы, стандартные элементы управления и поддержка расширений JavaScript
-* [base.git](https://github.com/luwrain/base.git):
-код начальной загрузки системы и набор вспомогательных скриптов для~сборки проекта
-* [interaction-javafx.git](https://github.com/luwrain/interaction-javafx.git):
-механизм взаимодействия с~пользователем, основанный на~JavaFX 
-* [registry.git](https://github.com/luwrain/registry.git):
-данные реестра
-
-## Ключевые компоненты
-
-* [browser.git](https://github.com/luwrain/browser.git):
-веб-браузер, основанный на~движке WebKit
-* [io.git](https://github.com/luwrain/io.git):
-компоненты для~функций ввода/вывода
-* [packs.git](https://github.com/luwrain/packs.git):
-менеджер обновлений и установки расширений
-* [pim.git](https://github.com/luwrain/pim.git):
-менеджер личной информации (электронной почты, новостей и~т.~д.)
-* [player.git](https://github.com/luwrain/player.git):
-медиаплеер
-* [reader.git](https://github.com/luwrain/reader.git):
-компоненты для~чтения и просмотра структурированных документов
-* [studio.git](https://github.com/luwrain/studio.git):
-компоненты для~редактирования текстов программ и документов
-
-## Приложения
-
-* [app-contacts.git](https://github.com/luwrain/app-contacts.git):
-персональная адресная книга
-* [app-commander.git](https://github.com/luwrain/app-commander.git):
-двухпанельный файловый менеджер
-* [app-mail.git](https://github.com/luwrain/app-mail.git):
-почтовый клиент
-* [app-news.git](https://github.com/luwrain/app-news.git):
-чтение RSS-лент
-* [app-notepad.git](https://github.com/luwrain/app-notepad.git):
-простейший текстовый редактор
-* [app-twitter.git](https://github.com/luwrain/app-twitter.git):
-клиент для~социальной сети Твиттер
-* [app-viewer.git](https://github.com/luwrain/app-viewer.git):
-просмотр файлов PDF в~графическом режиме
-* [app-vk.git](https://github.com/luwrain/app-vk.git):
-клиент для~социальной сети ВКонтакте
-
-## Системнозависимые компоненты
-
-* [linux.git](https://github.com/luwrain/linux.git):
-поддержка GNU/Linux
-* [windows.git](https://github.com/luwrain/windows.git):
-поддержка Microsoft Windows
-
-## Дополнительные расширения
-
-* [extensions.git](https://github.com/luwrain/extensions.git):
-набор стандартных расширений, включая все расширения JavaScript
-* [i18n.git](https://github.com/luwrain/i18n.git):
-поддержка национальных языков и стандартов
+* [books-api-java.git](https://github.com/luwrain/books-api-java.git):
+a~client library on~Java for~access to~the~open API of~[books.luwrain.org](https://books.luwrain.org)
+* [books-api-bash.git](https://github.com/luwrain/books-api-bash.git):
+a~set of~Bash scripts for~access to~the~open API of~[books.luwrain.org](https://books.luwrain.org)
+* [runyms.git](https://github.com/luwrain/runyms.git):
+a~library for~processing of~Russian homographs
