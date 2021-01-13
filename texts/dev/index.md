@@ -38,6 +38,10 @@ luwrain-page-ru
 
 Выберите интересующий вас раздел:
 
+* Разработка расширений на~языке JavaScript
+    * [Введение в~программирование на~JavaScript для~Luwrain](local:js/intro/)
+    * [Глобальный объект _Luwrain_](local:js/mainobj/)
+    * [Создание расширения на~JavaScript](local:js/ext/)
 * [Список задействованных библиотек](local:libs/)
 * [Компоненты для редактирования многострочного текста](local:text-editing/)
 * [Создание пользовательских функций в~приложении Блокнот](local:notepad-customizing/)

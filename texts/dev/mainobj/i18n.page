@@ -1,0 +1,27 @@
+
+TARGET doc/devel/js/mainobj/i18n
+TITLE EN Luwrain.i18n
+TITLE RU Luwrain.i18n
+
+
+luwrain-page-en
+
+# Luwrain.i18n
+
+__Description:__
+
+__Arguments:__
+
+__Return value:__
+
+
+luwrain-page-ru
+
+# Luwrain.i18n 
+
+__Описание:__
+
+__Аргументы:__
+
+__Возвращаемое значение:__
+
