@@ -1,7 +1,8 @@
 
-TARGET=doc/user/manual/download/index.php
-ENTITLE='Downloading of files'
+TARGET doc/user/manual/download
 RUTITLE='Менеджер загрузок'
+ENTITLE='Downloading of files'
+
 
 
 luwrain-page-en

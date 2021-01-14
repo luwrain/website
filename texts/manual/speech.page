@@ -1,7 +1,8 @@
 
-TARGET=doc/user/manual/speech/index.php
-ENTITLE='Configuring the speech output'
+TARGET doc/user/manual/speech
 RUTITLE='Настройка вывода речи'
+ENTITLE='Configuring the speech output'
+
 
 
 luwrain-page-en

@@ -1,8 +1,7 @@
 
-TARGET=doc/user/manual/news/index.php
-ENTITLE='Reading news'
+TARGET doc/user/manual/news
 RUTITLE='Чтение новостей'
-
+ENTITLE='Reading news'
 
 luwrain-page-en
 

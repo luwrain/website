@@ -1,7 +1,8 @@
 
-TARGET=doc/user/manual/studio/tex/index.php
-ENTITLE='Studio'
+TARGET doc/user/manual/studio/tex
 RUTITLE='Студия'
+ENTITLE='Studio'
+
 
 
 luwrain-page-en

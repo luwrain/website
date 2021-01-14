@@ -1,8 +1,7 @@
 
-TARGET=doc/user/manual/calc/index.php
-ENTITLE='Calculator'
+TARGET doc/user/manual/calc
 RUTITLE='Калькулятор'
-
+ENTITLE='Calculator'
 
 luwrain-page-en
 

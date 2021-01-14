@@ -1,7 +1,8 @@
 
-TARGET=doc/user/manual/announcements/index.php
-ENTITLE='Announcements'
+TARGET doc/user/manual/announcements
 RUTITLE='Уведомления'
+ENTITLE='Announcements'
+
 
 
 luwrain-page-en

@@ -1,7 +1,8 @@
 
-TARGET=doc/user/manual/popups/index.php
-ENTITLE='Popup areas'
+TARGET doc/user/manual/popups
 RUTITLE='Всплывающие окна'
+ENTITLE='Popup areas'
+
 
 
 luwrain-page-en

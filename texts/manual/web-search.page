@@ -1,7 +1,8 @@
 
-TARGET=doc/user/manual/web-search/index.php
-ENTITLE='Web search'
+TARGET doc/user/manual/web-search
 RUTITLE='Единый поиск в Интернете'
+ENTITLE='Web search'
+
 
 
 luwrain-page-en

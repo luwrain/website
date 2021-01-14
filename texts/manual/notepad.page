@@ -1,7 +1,8 @@
 
-TARGET=doc/user/manual/notepad/index.php
-ENTITLE='Notepad'
+TARGET doc/user/manual/notepad
 RUTITLE='Блокнот'
+ENTITLE='Notepad'
+
 
 
 luwrain-page-en
