@@ -1,7 +1,8 @@
 
+TARGET=doc/user/manual/hotkeys/index.php
 ENTITLE='Hot keys'
 RUTITLE='Горячие клавиши'
-TARGET=doc/user/manual/hotkeys/index.php
+
 
 luwrain-page-en
 

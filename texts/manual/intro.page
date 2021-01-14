@@ -1,7 +1,8 @@
 
+TARGET=doc/user/manual/intro/index.php
 ENTITLE='Main concepts'
 RUTITLE='Ключевые особенности'
-TARGET=doc/user/manual/intro/index.php
+
 
 luwrain-page-en
 

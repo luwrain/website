@@ -1,7 +1,8 @@
 
+TARGET=doc/user/manual/reader/index.php
 ENTITLE='Documents preview'
 RUTITLE='Просмотр документов'
-TARGET=doc/user/manual/reader/index.php
+
 
 luwrain-page-en
 

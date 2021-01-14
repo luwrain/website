@@ -1,7 +1,8 @@
 
+TARGET=doc/user/manual/studio/index.php
 ENTITLE='Studio'
 RUTITLE='Студия'
-TARGET=doc/user/manual/studio/index.php
+
 
 luwrain-page-en
 

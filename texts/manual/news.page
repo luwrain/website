@@ -1,7 +1,8 @@
 
+TARGET=doc/user/manual/news/index.php
 ENTITLE='Reading news'
 RUTITLE='Чтение новостей'
-TARGET=doc/user/manual/mail/index.php
+
 
 luwrain-page-en
 
@@ -9,4 +10,7 @@ luwrain-page-en
 
 luwrain-page-ru
 
-# Чтение электронной почты
+# Чтение новостей
+
+## Горячие клавиши
+

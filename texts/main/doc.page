@@ -11,7 +11,7 @@ luwrain-page-en
     * [Getting started](local:user/start/)
         * [User manual](local:user/manual/)
     * [Installation instructions](local:user/installation/)
-* [Developers documentation](local:dev/)
+* [Developers documentation](local:devel/)
     * [LUWRAIN API Javadoc](/javadoc/)
 
 ## About LUWRAIN
@@ -32,7 +32,7 @@ luwrain-page-ru
     * [С~чего начать?](local:user/start/)
     * [Как установить систему на~жёсткий диск?](local:user/installation/)
     * [Вики](http://wiki.luwrain.org)
-* [Документация для~разработчиков](local:dev/)
+* [Документация для~разработчиков](local:devel/)
     * [LUWRAIN API Javadoc](/javadoc/)
 
 ## О~LUWRAIN

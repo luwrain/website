@@ -38,6 +38,7 @@ luwrain-page-ru
 
 Выберите интересующий вас раздел:
 
+* [Невизуальный дизайн](local:design/)
 * Разработка расширений на~языке JavaScript
     * [Введение в~программирование на~JavaScript для~Luwrain](local:js/intro/)
     * [Глобальный объект _Luwrain_](local:js/mainobj/)
