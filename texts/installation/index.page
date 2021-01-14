@@ -1,7 +1,9 @@
 
-ENTITLE='Installation instructions'
-RUTITLE='Установка на жёсткий диск'
-TARGET=doc/user/installation/index.php
+TARGET doc/user/installation
+TITLE RU Установка на жёсткий диск
+TITLE EN Installation instructions
+
+
 
 luwrain-page-en
 

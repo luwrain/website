@@ -1,7 +1,9 @@
 
-ENTITLE='Installation as a stand-alone OS'
-RUTITLE='Установка в виде самостоятельной ОС на жёсткий диск'
-TARGET=doc/user/installation/iso/index.php
+TARGET doc/user/installation/iso
+TITLE RU Установка в виде самостоятельной ОС на жёсткий диск
+TITLE EN Installation as a stand-alone OS
+
+
 
 luwrain-page-en
 

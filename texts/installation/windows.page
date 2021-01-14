@@ -1,7 +1,9 @@
 
-ENTITLE='Installation on Microsoft Windows'
-RUTITLE='Установка на Microsoft Windows'
-TARGET=doc/user/installation/windows/index.php
+TARGET doc/user/installation/windows
+TITLE RU Установка на Microsoft Windows
+TITLE EN Installation on Microsoft Windows
+
+
 
 luwrain-page-en
 

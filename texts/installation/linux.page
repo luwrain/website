@@ -1,7 +1,9 @@
 
-ENTITLE='Installation on GNU/Linux'
-RUTITLE='Установка в GNU/Linux'
-TARGET=doc/user/installation/linux/index.php
+TARGET doc/user/installation/linux
+TITLE RU Установка в GNU/Linux
+TITLE EN Installation on GNU/Linux
+
+
 
 luwrain-page-en
 
