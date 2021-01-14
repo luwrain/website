@@ -1,7 +1,7 @@
 
 TARGET doc/user/manual/mail/message
-RUTITLE='Чтение новостей'
-ENTITLE='Reading news'
+TITLE RU Чтение новостей'
+TITLE EN Reading news'
 
 
 

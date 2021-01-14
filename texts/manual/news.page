@@ -1,7 +1,7 @@
 
 TARGET doc/user/manual/news
-RUTITLE='Чтение новостей'
-ENTITLE='Reading news'
+TITLE RU Чтение новостей'
+TITLE EN Reading news'
 
 luwrain-page-en
 

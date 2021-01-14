@@ -1,7 +1,7 @@
 
 TARGET doc/user/manual/opds
-RUTITLE='"Электронные библиотеки'
-ENTITLE='Digital libraries'
+TITLE RU Электронные библиотеки
+TITLE EN Digital libraries'
 
 
 

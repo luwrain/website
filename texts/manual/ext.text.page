@@ -1,7 +1,7 @@
 
 TARGET doc/user/manual/ext/text
 RUTITLE='Создание текстового расширения'
-ENTITLE='Creating a text extension'
+TITLE EN Creating a text extension'
 
 
 

@@ -1,7 +1,7 @@
 
 TARGET doc/user/manual/popups/file
-RUTITLE='Медиаплеер'
-ENTITLE='Player'
+TITLE RU Медиаплеер'
+TITLE EN Player'
 
 
 

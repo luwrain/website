@@ -1,7 +1,7 @@
 
 TARGET doc/user/manual/reader
-RUTITLE='Просмотр документов'
-ENTITLE='Documents preview'
+TITLE RU Просмотр документов'
+TITLE EN Documents preview'
 
 
 

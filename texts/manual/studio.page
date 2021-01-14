@@ -1,7 +1,7 @@
 
 TARGET doc/user/manual/studio
-RUTITLE='Студия'
-ENTITLE='Studio'
+TITLE RU Студия'
+TITLE EN Studio'
 
 
 

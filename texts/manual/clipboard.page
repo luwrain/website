@@ -1,7 +1,7 @@
 
 TARGET doc/user/manual/clipboard
-RUTITLE='Операции копирования-вставки'
-ENTITLE='Clipboard operations'
+TITLE RU Операции копирования-вставки'
+TITLE EN Clipboard operations'
 
 
 

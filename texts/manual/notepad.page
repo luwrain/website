@@ -1,7 +1,7 @@
 
 TARGET doc/user/manual/notepad
-RUTITLE='Блокнот'
-ENTITLE='Notepad'
+TITLE RU Блокнот'
+TITLE EN Notepad'
 
 
 

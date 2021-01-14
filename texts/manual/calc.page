@@ -1,7 +1,7 @@
 
 TARGET doc/user/manual/calc
-RUTITLE='Калькулятор'
-ENTITLE='Calculator'
+TITLE RU Калькулятор'
+TITLE EN Calculator'
 
 luwrain-page-en
 

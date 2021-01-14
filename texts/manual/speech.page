@@ -1,7 +1,7 @@
 
 TARGET doc/user/manual/speech
-RUTITLE='Настройка вывода речи'
-ENTITLE='Configuring the speech output'
+TITLE RU Настройка вывода речи'
+TITLE EN Configuring the speech output'
 
 
 
