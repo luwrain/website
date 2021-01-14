@@ -1,7 +1,9 @@
 
-ENTITLE='Repository for Ubuntu Linux'
-RUTITLE='Репозиторий для Ubuntu Linux'
-TARGET=doc/user/manual/linux/ubuntu-repo/index.php
+TARGET doc/user/manual/linux/ubuntu-repo
+TITLE RU Репозиторий для Ubuntu Linux
+TITLE EN Repository for Ubuntu Linux
+
+
 
 luwrain-page-en
 

@@ -3,11 +3,6 @@ TARGET doc/user/installation/windows
 TITLE RU Установка на Microsoft Windows
 TITLE EN Installation on Microsoft Windows
 
-
-
-luwrain-page-en
-
-
 luwrain-page-ru
 
 # Установка на~Microsoft Windows
@@ -41,4 +36,7 @@ LUWRAIN добавляет ярлык для запуска в~главное м
 См.~также:
 
 * [Руководство пользователя](local:/doc/user/manual/)
+
+
+luwrain-page-en
 
