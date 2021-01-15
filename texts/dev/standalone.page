@@ -1,0 +1,17 @@
+
+TARGET doc/devel/standalone
+TITLE RU Автономный режим работы
+TITLE EN Standalone mode
+
+
+
+luwrain-page-ru
+
+# Автономный режим работы
+
+
+luwrain.standalone.enabled
+
+luwrain-page-en
+
+# Standalone mode

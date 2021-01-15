@@ -1,7 +1,8 @@
 
-ENTITLE='Documentation for developers'
-RUTITLE='Документация для разработчиков'
-TARGET=doc/devel/index.php
+TARGET doc/devel
+TITLE EN Documentation for developers
+TITLE RU Документация для разработчиков
+
 
 luwrain-page-en
 

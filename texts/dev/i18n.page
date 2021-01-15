@@ -1,0 +1,14 @@
+
+TARGET doc/devel/i18n
+TITLE EN Document for members of our team
+TITLE RU Документация для нашей команды разработчиков
+
+
+
+
+luwrain-page-en
+
+luwrain-page-ru
+
+
+https://github.com/luwrain/i18n/blob/master/ru/src/main/resources/org/luwrain/i18n/ru/constants.properties

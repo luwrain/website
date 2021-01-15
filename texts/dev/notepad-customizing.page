@@ -1,11 +1,7 @@
 
-ENTITLE='Customizing Notepad'
-RUTITLE='Пользовательские функции в приложении Блокнот'
 TARGET=doc/devel/notepad-customizing/index.php
-
-luwrain-page-en
-
-# Customizing Notepad
+TITLE RU Пользовательские функции в приложении Блокнот
+TITLE EN Customizing Notepad
 
 luwrain-page-ru
 
@@ -59,3 +55,7 @@ _luwrain.mode.programming_.
 но необходимо иметь в~виду, что обработчиков может быть несколько,
 и каждый из~них может не~быть первым в~списке,
 следовательно, в~случае отмены операции к~этому моменту уже могут быть выполнены изменения предшествующих обработчиков.
+
+luwrain-page-en
+
+# Customizing Notepad

@@ -1,11 +1,8 @@
 
-ENTITLE='The components for multiline text editing'
-RUTITLE='Компоненты для редактирования многострочного текста'
-TARGET=doc/devel/text-editing/index.php
+TARGET doc/devel/text-editing
+TITLE RU Компоненты для редактирования многострочного текста
+TITLE EN The components for multiline text editing
 
-luwrain-page-en
-
-# The~components for~multiline text editing
 
 luwrain-page-ru
 
@@ -134,3 +131,8 @@ luwrain-page-ru
 
 
 DirectScriptMultilineEditCorrector
+
+luwrain-page-en
+
+# The~components for~multiline text editing
+

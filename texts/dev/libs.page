@@ -1,7 +1,9 @@
 
-ENTITLE='Llibraries'
-RUTITLE='Библиотеки'
-TARGET=doc/devel/libs/index.php
+TARGET doc/devel/libs
+TITLE RU Библиотеки
+TITLE EN Llibraries
+
+
 
 luwrain-page-en
 

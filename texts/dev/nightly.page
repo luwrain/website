@@ -1,7 +1,9 @@
 
-ENTITLE='Compiling nightly   releases'
-RUTITLE='Компиляция nightly-релизо'
-TARGET=doc/devel/nightly/index.php
+TARGET doc/devel/nightly
+TITLE RU Компиляция nightly-релизо
+TITLE EN Compiling nightly   releases
+
+
 
 luwrain-page-en
 
