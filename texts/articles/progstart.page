@@ -1,7 +1,9 @@
 
-ENTITLE='How to make your first steps in software development right now'
-RUTITLE='Как сделать первые шаги в~программировании сходу и сразу'
-TARGET=community/articles/progstart/index.php
+TARGET community/articles/progstart
+TITLE RU Как сделать первые шаги в~программировании сходу и сразу
+TITLE EN How to make your first steps in software development right now
+
+
 
 luwrain-page-en
 

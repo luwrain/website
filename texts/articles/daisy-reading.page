@@ -1,7 +1,8 @@
 
-ENTITLE='Reading Daisy books'
-RUTITLE='Чтение Daisy-книг'
-TARGET=community/articles/daisy-reading/index.php
+TARGET=community/articles/daisy-reading
+TITLE RU Чтение Daisy-книг
+TITLE EN Reading Daisy books
+
 
 luwrain-page-en
 

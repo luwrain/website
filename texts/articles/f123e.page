@@ -1,7 +1,9 @@
 
-ENTITLE='Introducing F123e'
-RUTITLE='Представляем F123e'
-TARGET=community/f123e.php
+TARGET community/f123e
+TITLE RU Представляем F123e
+TITLE EN Introducing F123e
+
+
 
 luwrain-page-en
 
