@@ -1,7 +1,9 @@
 
-ENTITLE='About the project'
-RUTITLE='О проекте'
-TARGET=doc/about/index.php
+TARGET doc/about
+TITLE RU О проекте
+TITLE EN About the project
+
+
 
 luwrain-page-en
 

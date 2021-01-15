@@ -1,7 +1,9 @@
 
-ENTITLE='Library of the Tomsk State University'
-RUTITLE='>Научная библиотека ТГУ'
-TARGET=products/tsulib/index.php
+TARGET products/tsulib
+TITLE RU Научная библиотека ТГУ
+TITLE EN Library of the Tomsk State University
+
+
 
 luwrain-page-en
 

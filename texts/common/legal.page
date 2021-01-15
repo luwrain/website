@@ -1,7 +1,9 @@
 
-ENTITLE='Legal notes'
-RUTITLE='Правовой статус'
-TARGET=doc/legal/index.php
+TARGET doc/legal
+TITLE RU Правовой статус
+TITLE EN Legal notes
+
+
 
 luwrain-page-en
 

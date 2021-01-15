@@ -1,7 +1,9 @@
 
-ENTITLE='Why is LUWRAIN different than other accessible solutions?'
-RUTITLE='Чем LUWRAIN отличается от~других вспомогательных технологий?'
-TARGET=doc/difference/index.php
+TARGET doc/difference
+TITLE RU Чем LUWRAIN отличается от~других вспомогательных технологий?
+TITLE EN Why is LUWRAIN different than other accessible solutions?
+
+
 
 luwrain-page-en
 

@@ -1,7 +1,9 @@
 
-ENTITLE='CEE/SECR 2014'
-RUTITLE='CEE/SECR 2014'
-TARGET=community/events/ceesecr2014/index.php
+TARGET community/events/ceesecr2014
+TITLE RU CEE/SECR 2014
+TITLE EN CEE/SECR 2014
+
+
 
 luwrain-page-en
 
