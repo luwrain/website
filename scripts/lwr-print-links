@@ -1,7 +1,0 @@
-#!/bin/bash -e
-
-. config.sh
-
-pushd "$TEXTSDIR" > /dev/null
-egrep -orh '\(local:.*)' . | sed -e s/'(local:\(.*\))'/'\1'/
-popd > /dev/null
