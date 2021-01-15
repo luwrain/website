@@ -1,5 +1,5 @@
 
-TARGET=community/articles/daisy-reading
+TARGET community/articles/daisy-reading
 TITLE RU Чтение Daisy-книг
 TITLE EN Reading Daisy books
 

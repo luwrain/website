@@ -1,5 +1,5 @@
 
-TARGET=doc/devel/notepad-customizing/index.php
+TARGET doc/devel/notepad-customizing
 TITLE RU Пользовательские функции в приложении Блокнот
 TITLE EN Customizing Notepad
 
