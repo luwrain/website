@@ -1,63 +1,63 @@
 
 TARGET doc/devel/js/mainobj
-TITLE RU Основной интерфейс LUWRAIN для программ на JavaScript
-TITLE EN The main interface of LUWRAIN for JavaScript extension
+TITLE RU Объект Luwrain
+TITLE EN The Luwrain object
 
 luwrain-page-ru
 
-# Основной интерфейс LUWRAIN для~программ на~JavaScript
+# Основной объект LUWRAIN для~программ на~JavaScript
 
-Во~время исполнения сценариев JavaScript в~LUWRAIN всегда доступен глобальный объек _LUWRAIN_,
+При~исполнении сценариев JavaScript в~LUWRAIN всегда доступен глобальный объек ```LUWRAIN```,
 который обеспечивает взаимодействие с~ядром системы.
-Он предоставляет доступ к~некоторым функциям интерфейса _[org.luwrain.core.Luwrain](http://luwrain.org/javadoc/org/luwrain/core/Luwrain.html)_.
-На~этой странице приведён список  доступных элементов объекта _LUWRAIN_.
+Он предоставляет доступ к~некоторым функциям интерфейса [```org.luwrain.core.Luwrain```](http://luwrain.org/javadoc/org/luwrain/core/Luwrain.html).
+На~этой странице приведён список  доступных элементов объекта ```LUWRAIN```.
 Если в~конце названия присутствуют пустые круглые скобки,
 то соответствующий элемент является функцией.
 В~противном случае это~дочерний объект.
 
-* [addApp()](local:addApp/):
-регистрирует новый объект-приложенеи в системе (синоним для~_addShortcut()_)
-* [addCommand()](local:addCommand/):
+* [```addApp()```](local:addApp/):
+регистрирует новый объект-приложенеи в системе (синоним для~```addShortcut()```)
+* [```addCommand()```](local:addCommand/):
 регистрирует новую команду в~системе
-* [addHook()](local:addHook/):
+* [```addHook()```](local:addHook/):
 регистрирует новый обработчик события
-* [addShortcut()](local:addShortcut/):
+* [```addShortcut()```](local:addShortcut/):
 регистрирует новый объект-приложенеи в системе (синоним для~_addApp()_)
-* [addWorker()](local:addWorker/):
+* [```addWorker()```](local:addWorker/):
 регистрирует функцию с~автоматическим переодическим запуском
-* [createPropertyHook()](local:createPropertyHook/):
+* [```createPropertyHook()```](local:createPropertyHook/):
 создаёт новое событие на~изменение системного свойства
-* [getActiveAreaText()](local:getActiveAreaText/):
+* [```getActiveAreaText()```](local:getActiveAreaText/):
 возвращает текстовый фрагмент активной области
-* [i18n](local:i18n/):
+* [```i18n```](local:i18n/):
 предоставляет доступ к~функциям поддержки национальных языков и стандартов
-* [launchApp()](local:launchApp/):
+* [```launchApp()```](local:launchApp/):
 запускает приложение
-* [message()](local:message/):
+* [```message()```](local:message/):
 показывает сообщение пользователю
-* [openUrl()](local:openUrl/):
+* [```openUrl()```](local:openUrl/):
 открывает гиперссылку с~автоматическим выбором обработчика на~основе её типа
-* [os](local:os/):
+* [```os```](local:os/):
 предоставляет доступ к~функциям операционной системы
-* [player](local:player/):
+* [```player```](local:player/):
 предоставляет доступ к~управлению системным медиаплеером
-* [popups](local:popups/):
+* [```popups```](local:popups/):
 показывает всплывающее окно из~коллекции стандартных типов
-* [prop](local:prop/):
+* [```prop```](local:prop/):
 предоставляет доступ к~системным свойствам
-* [quit()](local:quit/):
+* [```quit()```](local:quit/):
 завершает работу в~системе
-* [registry](local:registry/):
+* [```registry```](local:registry/):
 ппредоставляет доступ к~данным реестра
-* [runBkg()](local:runBkg/):
+* [```runBkg()```](local:runBkg/):
 выполняет действие в~фоновом режиме
-* [runWorker()](local:runWorker/):
+* [```runWorker()```](local:runWorker/):
 производит явный запуск выполнения регулярной автоматической функции
-* [sounds](local:sounds/):
+* [```sounds```](local:sounds/):
 воспроизводит один из~системных звуков
-* [speak()](local:speak/):
+* [```speak()```](local:speak/):
 произносит текстовый фрагмент речевым синтезатором
-* [spokenText](local:spokenText/):
+* [```spokenText```](local:spokenText/):
 производит предообработку текста для~~последующего прочтения пользователю
 
 luwrain-page-en

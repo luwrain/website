@@ -27,7 +27,7 @@ JavaScript, как следует из~названия, является скр
 в~глобальном пространстве доступен [объект _Luwrain_](local:js/mainobj/), предоставляющий доступ к~функциям нашей системы.
 
 * [Введение в~программирование на~JavaScript для~Luwrain](local:js/intro/)
-* [Глобальный объект _Luwrain_](local:js/mainobj/)
+* [Глобальный объект ```Luwrain```](local:js/mainobj/)
 * [Создание расширения на~JavaScript](local:js/ext/)
 
 ## Примеры образовательных приложений на~JavaScript
