@@ -15,23 +15,18 @@ luwrain-page-ru
 Они могут быть запущены
 в~Microsoft Windows, GNU/Linux и в~виде самостоятельной операционной системы.
 
-* [LUWRAIN для~Microsoft Windows](local:/download/windows/)
-* [LUWRAIN для~GNU/Linux](local:/download/linux/)
-* [LUWRAIN как~ISO-образ на~ядре Linux](local:/download/iso/)
+* [LUWRAIN для~Microsoft Windows;](local:/download/windows/)
+* [LUWRAIN для~GNU/Linux;](local:/download/linux/)
+* [LUWRAIN как~ISO-образ на~ядре Linux;](local:/download/iso/)
 
-[...общая страница загрузок, содержащая отладочные сборки, ресурсы для~разработчиков и материалы партнёров.](local:/download/)
+[...общая страница загрузок с~релизами для~отладки, исходными текстами и материалами партнёров.](local:/download/)
 
 ## LUWRAIN~Books
 
-[LUWRAIN~Books (books.luwrain.org)](local:http://books.luwrain.org)~ --- это облачный сервис для~создания и хранения аудиокниг.
+[LUWRAIN~Books (books.luwrain.org)](local:https://books.luwrain.org)~ --- это облачный сервис для~создания и хранения аудиокниг.
 Он предназначен для~использования издательствами, библиотеками и всеми любителями литературы.
 Функции LUWRAIN~Books помогут в~обработке исходных материалов, проведении лингвистического аннотирования, доставке аудиокниг читателям и адаптации книг для~людей с~нарушениями зрения,
 включая поддержку формата DAISY и интеграцию с~платформой LUWRAIN.
-
-## LUWRAIN~Reader
-
-[LUWRAIN~Reader](local:reader/)~--- бесплатное кроссплатформенное приложение для~чтения книг людьми с~нарушениями зрения,
-поддерживающее интеграцию с~облачным сервисом LUWRAIN~Books.
 
 ## Невизуальная анатомия
 
@@ -51,16 +46,32 @@ luwrain-page-en
 
 # Our~products and services
 
+LUWRAIN is a platform for the creation of apps for the blind and partially-sighted.
+It provides the~access to~information resources and network services.
+LUWRAIN is~free and [published under the~terms of~the~GNU~Public License v.~3](local:/doc/legal/).
+Our~distributions do~not require any~additional software or other accessibility technologies to~be~installed on~your computer.
+LUWRAIN can be~launched on~Microsoft Windows, GNU/Linux or as~a~standalone operating system on~the~Linux kernel.
 
-* [All releases including materials for developers](local:/download/)
- * [LUWRAIN for~Microsoft Windows](local:/download/windows/)
- * [LUWRAIN for~GNU/Linux](local:/download/linux/)
- * [Distribution as~a~Linux-based operating system](local:/download/iso/)
+* [LUWRAIN for~Microsoft Windows](local:/download/windows/)
+* [LUWRAIN for~GNU/Linux](local:/download/linux/)
+* [LUWRAIN as~an~ISO~image](local:/download/iso/)
+
+[...all resources for~download, including unstable distributions, the~source code and the~materials of~our~partners.](local:/download/)
+
+## LUWRAIN~Books
+
+[LUWRAIN~Books (books.luwrain.org)](local:https://books.luwrain.org) is a~cloud service for~the~creation and storing of audiobooks.
+It~is~a~perfect tool for~publishers, libraries  and literature lovers.
+The~features of~LUWRAIN Books includes  tools for~processing of~source materials,
+linguistic annotation,
+delivering of~created books to readers
+and a~support of~the~DAISY format for~the~blind.
 
 ## See~also
 
 * [Getting started](local:/doc/user/start/)
-* [The~free story what LUWRAIN is, and why do we think blind users need it?](local:/doc/about/)
+* [The~free story what LUWRAIN is](local:/doc/about/)
+* [Why is LUWRAIN different than other accessibility solutions?](local:/doc/difference/)
 * [Frequently asked questions](local:/doc/faq/)
-* [Why is LUWRAIN different than other accessible solutions?](local:/doc/difference/)
 * [Legal notes](local:/doc/legal/)
+
