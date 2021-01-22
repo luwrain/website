@@ -30,11 +30,12 @@ luwrain-page-ru
 [Teachbase](https://teachbase.ru/),
 [WebTutor](https://www.webtutor.ru/)
 и~др.
-
 Известных решений LRS существенно меньше.
 В~этом секторе следует выделить прежде всего [Learning Locker](http://learninglocker.net),
 который согласно [открытым источникам](https://levellab.ru/blog/xapi-1) применяется в~[Сбер-университете (Корпоративном университете Сбербанка)](https://sberbank-university.ru/) и Газпроме.
 Другим примером LRS может служить проект [Veracity](https://veracity.it/).
+
+* Читать далее: [ПОнятия протокола xAPI](local:xapi)
 
 
 
@@ -45,4 +46,4 @@ luwrain-page-ru
 
 luwrain-page-en
 
-# E-learning  for~the~blind
+# Architecture and terms

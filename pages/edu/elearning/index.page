@@ -33,8 +33,7 @@ luwrain-page-ru
 и узнать о~компонентах LUWRAIN для~работы с~ними.
 
 * [Архитектура и понятия](local:terms/)
-
-* Спецификация xAPI[](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md)
+    * [Понятия протокола xAPI](local:terms/xapi/)
 
 luwrain-page-en
 
