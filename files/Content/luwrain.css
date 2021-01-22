@@ -88,8 +88,8 @@ img { border-style: none; }
     #mainPart #navigation li { margin-right: 10px; display: inline; }
 
 #mainPart #insidePageText { color: #303030; padding-top: 10px; }
-    #mainPart #insidePageText h1 { color: #000000; font-size: 36px; font-weight: normal; text-align: center; }
-    #mainPart #insidePageText h2 { font-size: 20px; color: #2e2e2e; }
+    #mainPart #insidePageText h1 { color: #000000; font-size: 22px; font-weight: normal; text-align: center; }
+    #mainPart #insidePageText h2 { font-size: 18px; color: #2e2e2e; }
     #mainPart #insidePageText h3 { font-size: 14px; color: #818284; }
     #mainPart #insidePageText p { color: #303030; font-weight: normal; text-decoration: none; }
     #mainPart #insidePageText ul { color: #303030; font-weight: normal; padding-left: 20px; padding-top: 5px; text-decoration: none; }
