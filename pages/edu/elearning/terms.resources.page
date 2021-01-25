@@ -1,0 +1,34 @@
+
+TARGET community/edu/elearning/terms/resources
+TITLE RU Интересные ресурсы
+TITLE EN Interesting resources
+
+luwrain-page-ru
+
+# Интересные ресурсы
+
+При~необходимости получить детальные спецификации стандартов и библиотек,
+развиваемых для~технического обеспечения дистанционного обучения,
+и первоисточники материалов, собранных в~нашей документации,
+воспользуйтесь ссылками ниже:
+
+* [Спецификация протокола xAPI](https://github.com/adlnet/xAPI-Spec/)
+* [Спецификация формата CMI5](https://github.com/AICC/CMI-5_Spec_Current/)
+* [Пример курса в~формате CMI5 и библиотека для~работы с~ним](https://github.com/adlnet/cmi5-Client-Library)
+
+Многие инициативы [ADL](https://adlnet.gov/) развиваются при~поддержки компании  [Rustici Software](https://rusticisoftware.com/).
+Её специалисты поддерживают работу сайта [cloud.scorm.com](https://cloud.scorm.com)
+и подготовили ряд програмнных компонентов для~приложений на~языке Java:
+
+* [Библиотека на~Java для~работы с~протоколом xAPI](https://github.com/RusticiSoftware/TinCanJava/)
+* [Библиотека на~Java для~взаимодействия с~функциями cloud.scorm.com](https://github.com/RusticiSoftware/scormcloud-api-v2-client-java)
+
+Также следует обратить внимание на~самую популярную реализацию серверной части протокола xAPI,
+которую развивает проект Learning Locker:
+
+* [Официальный сайт Learning Locker](https://learninglocker.net)
+* [Исходные тексты Learning Locker](https://github.com/learninglocker/learninglocker/)
+
+luwrain-page-en
+
+# Interesting resources
