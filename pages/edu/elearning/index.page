@@ -35,6 +35,7 @@ luwrain-page-ru
 * [Архитектура и понятия](local:terms/)
     * [Понятия протокола xAPI](local:terms/xapi/)
     * [Понятия формата CMI5](local:terms/cmi5/)
+    * [Доступность xAPI и CMI5](local:terms/accessibility/)
     * [Взаимодействие LUWRAIN и Moodle](local:terms/moodle/)
     * [Интересные ресурсы](local:terms/resources/)
 
