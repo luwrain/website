@@ -14,7 +14,8 @@ luwrain-page-ru
 
 * [Спецификация протокола xAPI](https://github.com/adlnet/xAPI-Spec/)
 * [Спецификация формата CMI5](https://github.com/AICC/CMI-5_Spec_Current/)
-* [Пример клиентской библиотеки в~формате CMI5 и библиотека для~работы с~ним](https://github.com/adlnet/cmi5-Client-Library)
+* [Пример клиентской библиотеки в~формате CMI5](https://github.com/adlnet/cmi5-Client-Library)
+* [Примеры курсов в~aформате Tin Can](https://github.com/RusticiSoftware/TinCan_Prototypes/) (предположительно устарели)
 * [Описание CMI5 на~educational technology and digital learning wiki](http://edutechwiki.unige.ch/en/Cmi5)
 
 Многие инициативы [ADL](https://adlnet.gov/) развиваются при~поддержке компании  [Rustici Software](https://rusticisoftware.com/).
