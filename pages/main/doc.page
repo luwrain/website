@@ -8,11 +8,11 @@ luwrain-page-ru
 # Документация
 
 * [С~чего начать?](local:user/start/)
-* [Документация для~пользователей](local:user/)
+* [Для~пользователей](local:user/)
     * [Руководство пользователя](local:user/manual/)
     * [Как установить систему на~жёсткий диск?](local:user/installation/)
     * [Вики](http://wiki.luwrain.org)
-* [Документация для~разработчиков](local:devel/)
+* [Для~разработчиков](local:devel/)
     * [LUWRAIN API Javadoc](/javadoc/)
 
 ## О~LUWRAIN
@@ -28,10 +28,10 @@ luwrain-page-en
 # Documentation
 
 * [Getting started](local:user/start/)
-* [Users documentation](local:user/) 
+* [For~users:](local:user/)
     * [User manual](local:user/manual/)
     * [Installation instructions](local:user/installation/)
-* [Developers documentation](local:devel/)
+* [For~developers:](local:devel/)
     * [LUWRAIN API Javadoc](/javadoc/)
 
 ## About LUWRAIN

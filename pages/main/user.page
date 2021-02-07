@@ -1,6 +1,7 @@
 
 TARGET doc/user
-TITLE RU luwrain-page-ru
+TITLE RU Документация для пользователей
+TITLE EN Users documentation
 
 luwrain-page-ru
 
@@ -22,7 +23,7 @@ luwrain-page-ru
 
 luwrain-page-en
 
-# Documentation for~users
+# Users documentation
 
 Sorry, this page is still available in~Russian language only. Please, try later.
 
