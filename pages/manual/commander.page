@@ -1,0 +1,34 @@
+
+TARGET doc/user/manual/commander
+TITLE RU Обзор файлов и папок
+TITLE EN Commander
+
+luwrain-page-ru
+
+# Обзор файлов и папок
+
+Подход к~работе с~файлами и папками  в~LUWRAIN организован в~традициях двухпанельного файлового менеджера,
+история которых начинается с~[Norton Commander](https://ru.wikipedia.org/wiki/Norton_Commander),
+а~сейчас поддерживается таким приложением, как, например, [Total Commander](https://ru.wikipedia.org/wiki/Total_Commander).
+Чтобы подчеркнуть эту~традицию, мы~называем наше приложение Коммандер.
+Его запуск осуществляется при~помощи команды ```commander```.
+
+Коммандер выполняет действия с~файлами на~локальных дисках
+(поддерживая работу с~архивами [ZIP](https://ru.wikipedia.org/wiki/ZIP) и
+[TAR](https://ru.wikipedia.org/wiki/Tar))
+и в~сетевых хранилищах по~протоколам
+[FTP](https://ru.wikipedia.org/wiki/FTP)
+и
+[WebDAV](https://ru.wikipedia.org/wiki/WebDAV).
+Пользователь имеет возможность запускать неограниченное количество операций над~файлами в~каждой копии Коммандера.
+Список всех запущенных операций с~информацией об~их статусе открывается путём нажатия клавиши _F2_.
+
+
+
+
+                                                                                                                     
+
+luwrain-page-en
+
+# Commander
+
