@@ -11,12 +11,11 @@ luwrain-page-ru
 Если LUWRAIN ещё не~установлен на~компьютер,
 [здесь](local:/doc/user/installation/) можно найти описание, как это сделать.
 
-* Общие принципы работы:
-    * [Ключевые особенности](local:intro/)
-    * [Работа с~расширениями](local:ext/)
-    * [Единый поиск в~Интернете](local:web-search/)
-    * [Управление уведомлениями](local:announcements/)
+* [Ключевые особенности](local:intro/):
+    * [Поддержка расширений](local:ext/)
     * [Операции копирования-вставки](local:clipboard/)
+    * [Управление уведомлениями](local:announcements/)
+    * [Единый поиск в~Интернете](local:web-search/)
     * [Всплывающие окна](local:popups/)
     * [Режимы предобработки речи](local:speakable-text/)
     * [Горячие клавиши](local:hotkeys/)
