@@ -24,8 +24,8 @@ function lwr_release_date_iso_en() { return 'May 22, 2019'; }
 function lwr_release_date_iso_ru() { return '22 мая 2019 г.'; }
 
 //Sources
-function lwr_version_tarball() { return lwr_version(); }
-function lwr_release_date_tarball_en() { return lwr_release_date_en(); }
-function lwr_release_date_tarball_ru() { return lwr_release_date_ru(); }
+function lwr_version_tarball() { return '1.9.1unstable'; }
+function lwr_release_date_tarball_en() { return 'February 23, 2021'; }
+function lwr_release_date_tarball_ru() { return '23 февраля 2021 г.'; }
 
 ?>
