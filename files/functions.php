@@ -16,7 +16,7 @@ function luwrain_top_menu() {
             <a href="<?php echo luwrain_link('/community/');?>"><?php echo lwr_lang() == 'ru'?'Новости и материалы:':'News and materials:';?></a>
             <ul class="subMenuSmall">
               <li>
-                <a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo lwr_lang() == 'ru'?'Статьи и СМИ':'Media and publications';?></a>
+                <a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo lwr_lang() == 'ru'?'Статьи и беседы':'Media and publications';?></a>
               </li>
               <li>
                 <a href="<?php echo luwrain_link('/community/events/');?>"><?php echo lwr_lang() == 'ru'?'Презентации и мероприятия':'Presentations and events';?></a>

@@ -20,8 +20,8 @@ luwrain-page-ru
 но обычно присутствуют следующие четыре варианта:
 
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-64bit-nightly-<?php echo lwr_nightly_latest_date();?>.zip"\>luwrain-windows-64bit</a>: 64-битная версия для~Microsoft Windows;
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.zip"\>luwrain-windows-32bit</a>: 32-битная версия для~Microsoft Windows;
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-64bit-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz"\>luwrain-linux-64bit</a>: 64-битная версия для~GNU/Linux;
-* <a href="http://download.luwrain.org/nightly/latest/luwrain-sdk-nightly-<?php echo lwr_nightly_latest_date();?>.zip"\>luwrain-sdk</a>: сборка LUWRAIN~SDK (включает документацию Javadoc);
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz"\>luwrain-nightly</a>: исходные тексты, использованные в~ходе сборки.
 
 Для~проверки целостности загруженных файлов [воспользуйтесь контрольными суммами в~формате SHA1](http://download.luwrain.org/nightly/latest/sha1sum.txt).
@@ -51,8 +51,8 @@ you can find their descriptions below
 with~the~direct links to~the~corresponding  file of~the~most recent version:
 
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-64bit-nightly-<?php echo lwr_nightly_latest_date();?>.zip"\>luwrain-windows-64bit</a>: 64-bit version for~Microsoft Windows
+* <a href="http://download.luwrain.org/nightly/latest/luwrain-windows-32bit-nightly-<?php echo lwr_nightly_latest_date();?>.zip"\>luwrain-windows-32bit</a>: 32-bit version for~Microsoft Windows
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-linux-64bit-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz"\>luwrain-linux-64bit</a>: 64-bit version for~GNU/Linux
-* <a href="http://download.luwrain.org/nightly/latest/luwrain-sdk-nightly-<?php echo lwr_nightly_latest_date();?>.zip"\>luwrain-sdk</a>: software development kit with Javadoc documentation
 * <a href="http://download.luwrain.org/nightly/latest/luwrain-nightly-<?php echo lwr_nightly_latest_date();?>.tar.gz"\>luwrain-nightly</a>: the~source code
 
 [Download the~checksum file](http://download.luwrain.org/nightly/latest/sha1sum.txt) in~the~SHA1~format for~consistency checking.
