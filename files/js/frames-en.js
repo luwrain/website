@@ -81,14 +81,15 @@ function ShowPart3()
 	$('#secondButton').removeClass('lightSolidButton');
 	$('#hiddenPartNumber').val('3');
 	$('#accPlatform').html('Java and Linux');
-	$('#text1more').html('LUWRAIN can be with you everywhere! You may take it as a stand-alone'+
-			     '<br/>operating system on Linux kernel and it will turn a laptop'+
-			     '<br/>into elegant accessory for blind people. If you, your colleagues'+
-			     '<br/>or members of your family need the operating system being already installed'+
-			     '<br/>on your PC, you may take LUWRAIN just as an application. Luwrain will not require'+
-			     '<br/>you to forbid the tools you used to work with previously and you can use it'+
-			     '<br/>as a platform for creating and distributing accessible applications,'+
-			     '<br/>even if you don\'t have any experience in this area.');
+	$('#text1more').html('The core of the LUWRAIN project is a platform' +
+			     '<br>for the creation of apps for the blind and partially-sighted.' +
+			     '<br>It brings a new user experience designed to achieve maximum efficiency.' +
+			     '<br>The LUWRAIN platform provides an open API on top of Java language,' +
+			     '<br>which helps to build accessible apps in a portable way.' +
+			     '<br>LUWRAIN, together with a set of standard utilities,' +
+			     '<br>can be launched as a standalone operating system on the Linux kernel.' +
+			     '<br>It is the most advanced approach to making' +
+			     '<br>embedded devices accessible to the blind.');
 	$('#firstButton').html('<a href="/doc/faq/?mode=normal&lang=en"><span>FAQ</span></a>');
 	$('#part1more').slideDown('slow');
     });
@@ -103,15 +104,14 @@ function ShowPart4()
 	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
 	$('#hiddenPartNumber').val('4');
-	$('#accPlatform').html('FOSS');
-	$('#text1more').html('LUWRAIN is a completely Free Software project, no fee is involved, and'+
-			     '<br/>no restrictions of use and distribution exist, except in cases'+
-			     '<br/>explicitly violating the terms of the GNU Public License ver. 3, as it'+
-			     '<br/>was published by the Free Software Foundation. However, financial'+
-			     '<br/>donations are still required to help us present our product across the'+
-			     '<br/>world, and to introduce it to related social and distribution organizations.'+
-			     '<br/>The team of developers hopes that LUWRAIN can increase the integration'+
-			     '<br/>of disabled people into social life.');
+	$('#accPlatform').html('Let\'s work together!');
+	$('#text1more').html('We are constantly looking for technical solutions,' +
+			     '<br>commercial models and new approaches to education' +
+			     '<br>which in conjunction with the LUWRAIN platform' +
+			     '<br>can improve the lives of people with eyesight disability.' +
+			     '<br>We invite everybody to collaborate with us on learning about' +
+			     '<br>blind software engineering, adapting publishing systems' +
+			     '<br>such as TeX and Lilypond, and many other things.');
 	$('#firstButton').html('<a href="/doc/authors/?mode=normal&lang=en"><span>Who we are?</span></a>');
 	$('#secondButton').html('<a href="/doc/about/?mode=normal&lang=en"><span>About the project</span></a>');
 	$('#part1more').slideDown('slow');
