@@ -37,15 +37,12 @@ function ShowPart1()
     $('#secondButton').addClass('lightButton');
     $('#secondButton').removeClass('lightSolidButton');
     $('#hiddenPartNumber').val('1');
-    $('#accPlatform').html('The accessible platform');
-    $('#text1more').html('With accessible toolkit LUWRAIN, blind and visually-impaired people have'+
-			 '<br/>a  new way to be involved in the incredible world of information'+
-			 '<br/>technologies. LUWRAIN doesn\'t take a lot of time to learn, and aims'+
-			 '<br/>to be useable on laptops, as well as desktop computers. You can treat our'+
-			 '<br/>new idea as one more solution for everyone who needs a reliable and'+
-			 '<br/>accessible companion for various types of work. The product is designed'+
-			 '<br/>as a new platform for creating speech-enabled applications'+
-			 '<br/>with a set of standard tools for easy access to web services, mail, news reading, etc.');
+    $('#accPlatform').html('Technologies without pixels!');
+    $('#text1more').html('LUWRAIN develops technologies' +
+			 '<br>which improve the accessibility of internet services and digital materials' +
+			 '<br>to people with eyesight problems. We are designing a new' +
+			 '<br>speech-enabled user interface and are researching new methods of adapting' +
+			 '<br>materials for blind people with the help of machine learning.');
     $('#firstButton').html('<img id="downImg" src="/js/down.png" alt="" height="18" width="15"></img><a href="/doc/user/start/?mode=normal&lang=en"><span>Getting started</span></a>');
     $('#part1more').slideDown('slow');
     $('#secondButton').html('<span>Read more</span>');
@@ -60,16 +57,15 @@ function ShowPart2()
 	$('#secondButton').addClass('lightButton');
 	$('#secondButton').removeClass('lightSolidButton');
 	$('#hiddenPartNumber').val('2');
-	$('#accPlatform').html('Text-based environment');
-	$('#text1more').html('LUWRAIN is a set of software components on Java for accessible'+
-			     '<br/>user interface construction. In contrast with widely popular'+
-			     '<br/>screen reading solutions for graphical desktops, which actually are'+
-			     '<br/>designed for control through a mouse and other pointing devices useful'+
-			     '<br/>only for sighted users, LUWRAIN brings the information in the most suitable'+
-			     '<br/>for the perception of blind people form. That means that the LUWRAIN user'+
-			     '<br/>will always spend significantly less time than in an adapted GUI.'+
-			     '<br/>We have created our environment for people who enjoy working effectively'+
-			     '<br/>and time-efficiently.');
+	$('#accPlatform').html('DAISY in a cloud');
+	$('#text1more').html('The cloud service LUWRAIN Books' +
+			     '<br>creates audiobooks of uploaded texts utilizing commercial' +
+			     '<br>text-to-speech engines and with the support of the DAISY format.' +
+			     '<br>This innovation was based on considerable research into the areas' +
+			     '<br>of natural language processing, parsing of source materials, and layout' +
+			     '<br>generation.' +
+			     '<br>LUWRAIN Books also takes care of delivering its audiobooks to readers' +
+			     '<br>in a way which helps them to manage bookmarks.');
 	$('#firstButton').html('<a href="/community/publications/?mode=normal&lang=en"><span>Press about us</span></a>');
 	$('#part1more').slideDown('slow');
     });

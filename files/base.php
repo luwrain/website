@@ -26,7 +26,7 @@ function lwr_month_en($month) {
 }
 
 function lwr_lang() {
-    return array_key_exists('lang', $_GET)?$_GET['lang']:'ru';
+    return array_key_exists('lang', $_GET)?$_GET['lang']:'en';
 }
 
 //Compatibility function, to be deleted
