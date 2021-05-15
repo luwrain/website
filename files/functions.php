@@ -25,7 +25,7 @@ function luwrain_top_menu() {
                 <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a>
               </li>
               <li>
-                <a href="http://twitter.com/luwrain"><?php echo lwr_lang() == 'ru'?'Твиттер':'Twitter';?></a>
+                <a href="https://twitter.com/luwrain"><?php echo lwr_lang() == 'ru'?'Твиттер':'Twitter';?></a>
               </li>
               <li>
                 <a href="http://wiki.luwrain.org/"><?php echo lwr_lang() == 'ru'?'Вики':'Wiki';?></a>

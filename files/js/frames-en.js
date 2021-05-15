@@ -43,7 +43,7 @@ function ShowPart1()
 			 '<br>to people with eyesight problems. We are designing a new' +
 			 '<br>speech-enabled user interface and are researching new methods of adapting' +
 			 '<br>materials for blind people with the help of machine learning.');
-    $('#firstButton').html('<img id="downImg" src="/js/down.png" alt="" height="18" width="15"></img><a href="/doc/user/start/?mode=normal&lang=en"><span>Getting started</span></a>');
+    $('#firstButton').html('<img id="downImg" src="/js/down.png" alt="" height="18" width="15"></img><a href="/doc/authors/?mode=normal&lang=en"><span>Who we are?</span></a>');
     $('#part1more').slideDown('slow');
     $('#secondButton').html('<span>Read more</span>');
 };
@@ -58,7 +58,7 @@ function ShowPart2()
 	$('#secondButton').removeClass('lightSolidButton');
 	$('#hiddenPartNumber').val('2');
 	$('#accPlatform').html('DAISY in a cloud');
-	$('#text1more').html('The cloud service LUWRAIN Books' +
+	$('#text1more').html('The cloud service <a href=\"https://books.luwrain.org/?mode=normal&amp;lang=en\">LUWRAIN Books</a>' +
 			     '<br>creates audiobooks of uploaded texts utilizing commercial' +
 			     '<br>text-to-speech engines and with the support of the DAISY format.' +
 			     '<br>This innovation was based on considerable research into the areas' +

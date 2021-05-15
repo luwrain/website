@@ -1,7 +1,7 @@
 
 TARGET community/massmedia
-TITLE EN Media and publications
 TITLE RU Статьи и беседы
+TITLE EN Media and talks
 
 luwrain-page-ru
 
@@ -10,97 +10,104 @@ luwrain-page-ru
 Наш~канал на~YouTube:
 [https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g](https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g)
 
-* [Репортаж о~педагогике на~основе комплекта LUWRAIN для~образования](https://youtu.be/8gUveoBflvk)
-("Час науки", ГТРК~Томск, Наталья Черткова,
-21~марта~2021~г., русский~язык)
-* [Репортаж про~создание аудиокниг](https://www.youtube.com/watch?v=BBpcVwgEQ5Y)
-("Вести~Томск", Россия-1,
-12~августа~2020~г, русский~язык.)
-* [Беседа на~"Тифлостриме"](https://www.youtube.com/watch?v=e4XwR5jUka4)
-([аудиоверсия](https://tiflo.info/Stream/ts106_20200424.mp3))
-([Информационный канал Tiflo.Info](https://tiflo.info/), Олег Шевкун,
-24~апреля~2020~г., русский~язык)
-* ["почему мы в технологическом социальном тупике"](https://te-st.ru/2019/07/10/mikhail-pozidaev-about-what-inclusion-not-work/)
-(["Теплица социальных технологий"](https://te-st.ru/), Юлия Каленкова,
-15~июля 2019~г., русский~язык)
-* ["Мы решаем технические задачи с~социальным характером"](https://zonakomfortared.wixsite.com/zonakomforta/single-post/2016/06/12/михаил-пожидаев-мы-решаем-технические-задачи-с-социальным-характером)
-("Зона комфорта", Олеся Олейник,
-13~июня~2016~г., русский~язык)
-* ["Незрячий ученый из Томска создал программу, упрощающую слепоглухим работу на компьютере"](http://tass.ru/obschestvo/3343273)
-(ТАСС, Татьяна Виноградова,
-6~июня~2016~г., русский~язык)
-* ["Технологии голосового экранного доступа для~незрячих"](https://www.youtube.com/watch?v=1Zv8xI6X3uw)
-([inva.tv](http://inva.tv), "Фактор жизни", Владимир Крупенников,
-9~марта~2016~г., русский~язык)
-* [Introducing LUWRAIN: Accessibility Solution for the Blind](http://marigostra.ru/materials/LuwrainLinuxJournal2015.html)
-(Linux Journal, Техас, США,
-июль~2015~г., английский~язык)
-* [Статьи в~рамках Impact Journalism Day ](http://marigostra.ru/materials/IJD2015.html)
-(Le Courrier de Russie, Тома Гра,
-20 июня 2015~г., французский и английский языки)
-* ["Белые буквы на~чёрном экране"](http://kot.sh/statya/127/belye-bukvy-na-chernom-ekrane)
-("Кот Шрёдингера", Светлана Соколова,
-январь-февраль 2015~г., русский~язык)
-* ["в~гостях Михаил Пожидаев"](http://sdcast.ksdaemon.ru/2015/01/sdcast-17/)
-("SDCast~--- Подкаст о~разработке ПО и его окрестностях", Константин Буркалёв,
-27 января 2015~г., русский~язык)
-* [The~Framework for~Accessible Applications: Text-Based Case for Blind People](http://marigostra.ru/materials/LuwrainSecr2014.html)
-(ACM~DL, США,
-декабрь ~2014~г., английский язык)
-* ["Сделано в~Томске"](http://download.luwrain.org/chats/EchoOfMoscowTomsk-2014-09-19.mp3)
-("Эхо~Москвы --- Томск", Светлана Глазырина,
-19 сентября 2014~г., русский~язык)
-* Беседа в~подкасте "Доступность XXI~век", ("Радио ВОС" и портал [tiflocomp.ru](http://tiflocomp.ru), Владимир Довыденков и Анатолий Попко, русский~язык)
+* [Репортаж о~педагогике на~основе комплекта LUWRAIN для~образования](https://youtu.be/8gUveoBflvk),
+"Час науки", ГТРК~Томск, Наталья Черткова,
+21~марта~2021~г., русский~язык
+* [Репортаж про~создание аудиокниг](https://www.youtube.com/watch?v=BBpcVwgEQ5Y),
+"Вести~Томск", Россия-1,
+12~августа~2020~г, русский~язык
+* [Беседа на~"Тифлостриме"](https://www.youtube.com/watch?v=e4XwR5jUka4),
+[аудиоверсия](https://tiflo.info/Stream/ts106_20200424.mp3),
+[Информационный канал Tiflo.Info](https://tiflo.info/), Олег Шевкун,
+24~апреля~2020~г., русский~язык
+* ["почему мы в технологическом социальном тупике"](https://te-st.ru/2019/07/10/mikhail-pozidaev-about-what-inclusion-not-work/),
+["Теплица социальных технологий"](https://te-st.ru/), Юлия Каленкова,
+15~июля 2019~г., русский~язык
+* ["Мы решаем технические задачи с~социальным характером"](https://zonakomfortared.wixsite.com/zonakomforta/single-post/2016/06/12/михаил-пожидаев-мы-решаем-технические-задачи-с-социальным-характером),
+"Зона комфорта", Олеся Олейник,
+13~июня~2016~г., русский~язык
+* ["Незрячий ученый из Томска создал программу, упрощающую слепоглухим работу на компьютере"](http://tass.ru/obschestvo/3343273),
+ТАСС, Татьяна Виноградова,
+6~июня~2016~г., русский~язык
+* ["Технологии голосового экранного доступа для~незрячих"](https://www.youtube.com/watch?v=1Zv8xI6X3uw),
+[inva.tv](http://inva.tv), "Фактор жизни", Владимир Крупенников,
+9~марта~2016~г., русский~язык
+* [Introducing LUWRAIN: Accessibility Solution for the Blind](https://marigostra.ru/materials/LuwrainLinuxJournal2015.html),
+Linux Journal, Техас, США,
+июль~2015~г., английский~язык
+* [Статьи в~рамках Impact Journalism Day ](https://marigostra.ru/materials/IJD2015.html),
+Le Courrier de Russie, Тома Гра,
+20 июня 2015~г., французский и английский языки
+* ["Белые буквы на~чёрном экране"](http://kot.sh/statya/127/belye-bukvy-na-chernom-ekrane),
+"Кот Шрёдингера", Светлана Соколова,
+январь-февраль 2015~г., русский~язык
+* ["в~гостях Михаил Пожидаев"](http://sdcast.ksdaemon.ru/2015/01/sdcast-17/),
+"SDCast~--- Подкаст о~разработке ПО и его окрестностях", Константин Буркалёв,
+27 января 2015~г., русский~язык
+* [The~Framework for~Accessible Applications: Text-Based Case for Blind People](shttp://marigostra.ru/materials/LuwrainSecr2014.html),
+ACM~DL, США,
+декабрь ~2014~г., английский язык
+* ["Сделано в~Томске"](http://download.luwrain.org/chats/EchoOfMoscowTomsk-2014-09-19.mp3),
+"Эхо~Москвы --- Томск", Светлана Глазырина,
+19 сентября 2014~г., русский~язык
+* Беседа в~подкасте "Доступность XXI~век", "Радио ВОС" и портал [tiflocomp.ru](http://tiflocomp.ru), Владимир Довыденков и Анатолий Попко, русский~язык,
     * [Часть~1](http://download.luwrain.org/chats/a11y21c-2014-08-30.mp3) (30~августа 2014~г.)
     * [Часть~2](http://download.luwrain.org/chats/a11y21c-2014-09-17.mp3) (17~сентября 2014~г.)
-* ["Идея фикс. Компьютер для незрячих"](http://www.youtube.com/watch?v=m-HOWJCRn7g3) ("Живое~ТВ", Светлана Глазырина,
-3 октября 2014 г., русский~язык)
+* ["Идея фикс. Компьютер для незрячих"](http://www.youtube.com/watch?v=m-HOWJCRn7g3),
+"Живое~ТВ", Светлана Глазырина,
+3 октября 2014 г., русский~язык
 
 luwrain-page-en
 
-# Media and publications
-
-* [Introducing LUWRAIN: Accessibility Solution for the Blind](http://marigostra.com/materials/LuwrainLinuxJournal2015.html)
-(Linux Journal, Texus, US, July, 2015, English language)
-* [The Framework for Accessible Applications: Text-Based Case for Blind People](http://marigostra.com/materials/LuwrainSecr2014.html) 
-(ACM~Digital Library, US, December, 2014, English language)
-
-## Media
-
-* ["почему мы в технологическом социальном тупике"](local:/community/massmedia/2019/tst/)
-(["Теплица социальных технологий"](https://te-st.ru/),
-Julia Kalenkova, July~15,~2019, Russian~language)
-* [Михаил Пожидаев: "Мы решаем технические задачи с~социальным характером"](http://goo.gl/b5duRu)
-("Зона комфорта", Olesya Oleynik, June~13, 2016, Russian language)
-* ["Незрячий ученый из Томска создал программу, упрощающую слепоглухим работу на компьютере"](http://tass.ru/obschestvo/3343273)
-(TASS, Tatiana Vinogradova, June~6, 2016, Russian language)
-* [Publications on~Impact Journalism Day](http://marigostra.com/materials/)
-(Thomas GRAS, June~20, 2015, French and English languages)
-* ["Белые буквы на~чёрном экране"](http://kot.sh/statya/127/belye-bukvy-na-chernom-ekrane)
-("Кот Шрёдингера", Svetlana Sokolova, January--February, 2015, Russian language)
-
-## YouTube
+# Media and talks
 
 Our channel on~YouTube:
 [https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g](https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g)
 
-* [Talk on~"Tiflostream"](https://www.youtube.com/watch?v=e4XwR5jUka4)
-([MP3~recording](https://tiflo.info/Stream/ts106_20200424.mp3),
-[Tiflo.Info](https://tiflo.info/),
-ОOleg Shevkun, April~24,~2020, Russian~language)
-* ["Технологии голосового экранного доступа для~незрячих"](https://www.youtube.com/watch?v=1Zv8xI6X3uw)
-([inva.tv](http://inva.tv),
-"Фактор жизни", Vladimir Krupennikov, March~9,~2016, Russian~language)
-* ["Идея фикс. Компьютер для незрячих](http://www.youtube.com/watch?v=m-HOWJCRn7g3)
-("Живое ТВ", Svetlana Glazyrina, October 3, 2014, Russian language)
+* [Report about pedagogical practice on LUWRAIN for~education](https://youtu.be/8gUveoBflvk),
+"Час науки", ГТРК~Томск, Natalya Chertkova,
+21~марта~2021~г., Russian language
+* [Репортаж про~создание аудиокниг](https://www.youtube.com/watch?v=BBpcVwgEQ5Y),
+"Вести~Томск", Россия-1,
+12~августа~2020~г, Russian language
+* [Talk on~"TifloStream"](https://www.youtube.com/watch?v=e4XwR5jUka4),
+[audio](https://tiflo.info/Stream/ts106_20200424.mp3),
+[Информационный канал Tiflo.Info](https://tiflo.info/), Олег Шевкун,
+24~апреля~2020~г., Russian language
+* ["почему мы в технологическом социальном тупике"](https://te-st.ru/2019/07/10/mikhail-pozidaev-about-what-inclusion-not-work/),
+["Теплица социальных технологий"](https://te-st.ru/), Юлия Каленкова,
+15~июля 2019~г., Russian language
+* ["Мы решаем технические задачи с~социальным характером"](https://zonakomfortared.wixsite.com/zonakomforta/single-post/2016/06/12/михаил-пожидаев-мы-решаем-технические-задачи-с-социальным-характером),
+"Зона комфорта", Olesia Oleynik,
+13~июня~2016~г., Russian language
+* ["Незрячий ученый из Томска создал программу, упрощающую слепоглухим работу на компьютере"](http://tass.ru/obschestvo/3343273),
+TASS, Tatiana Vinogradova,
+6~июня~2016~г., Russian language
+* ["Технологии голосового экранного доступа для~незрячих"](https://www.youtube.com/watch?v=1Zv8xI6X3uw),
+[inva.tv](http://inva.tv), "Фактор жизни", Владимир Крупенников,
+9~марта~2016~г., Russian language
+* [Introducing LUWRAIN: Accessibility Solution for the Blind](https://marigostra.ru/materials/LuwrainLinuxJournal2015.html),
+Linux Journal, Texus, US,
+июль~2015~г., English language
+* [Articles on~Impact Journalism Day ](https://marigostra.com/events/ImpactJournalismDay2015.html),
+Le Courrier de Russie, Thomas GRAS,
+June~20,~2015, French and English languages
+* ["Белые буквы на~чёрном экране"](http://kot.sh/statya/127/belye-bukvy-na-chernom-ekrane),
+"Кот Шрёдингера", Svetlana Sokolova,
+январь-февраль 2015~г., Russian language
+* ["в~гостях Михаил Пожидаев"](http://sdcast.ksdaemon.ru/2015/01/sdcast-17/),
+"SDCast~--- Подкаст о~разработке ПО и его окрестностях", Константин Буркалёв,
+27 января 2015~г., Russian language
+* [The~Framework for~Accessible Applications: Text-Based Case for Blind People](shttp://marigostra.com/materials/LuwrainSecr2014.html),
+ACM~DL, US,
+December~2014, English language
+* ["Сделано в~Томске"](http://download.luwrain.org/chats/EchoOfMoscowTomsk-2014-09-19.mp3),
+"Эхо~Москвы --- Томск", Светлана Глазырина,
+19 сентября 2014~г., КRussian language
+* Беседа в~подкасте "Доступность XXI~век", "Радио ВОС" и портал [tiflocomp.ru](http://tiflocomp.ru), Владимир Довыденков и Анатолий Попко, Russian language
+    * [Часть~1](http://download.luwrain.org/chats/a11y21c-2014-08-30.mp3) (30~августа 2014~г.)
+    * [Часть~2](http://download.luwrain.org/chats/a11y21c-2014-09-17.mp3) (17~сентября 2014~г.)
+* ["Идея фикс. Компьютер для незрячих"](http://www.youtube.com/watch?v=m-HOWJCRn7g3),
+"Живое~ТВ", Светлана Глазырина,
+3 октября 2014 г., Russian language
 
-## PodCasts
-
-* ["В~гостях Михаил Пожидаев"](http://sdcast.ksdaemon.ru/podlove/file/55/s/download/SDCast-17.mp3)
-(SDCast~--- Software Development podCAST, Konstantin Burkalev, January 27, 2015, Russian~language)
-* ["Сделано в~Томске"](http://download.luwrain.org/chats/EchoOfMoscowTomsk-2014-09-19.mp3)
-("Эхо~Москвы --- Томск", Svetlana Glazyrina, September~19, 2014, Russian~language)
-* Talk in~the~podcast "Accessibility 21st century"
-("Радио ВОС" and [tiflocomp.ru](http://tiflocomp.ru), Vladimir Dovydenkov and Anatoliy Popko, Russian~language)
-    * [Part~1](http://download.luwrain.org/chats/a11y21c-2014-08-30.mp3) (August~30, 2014)
-    * [Part~2](http://download.luwrain.org/chats/a11y21c-2014-09-17.mp3) (September 17, 2014)
