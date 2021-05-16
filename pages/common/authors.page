@@ -1,7 +1,7 @@
 
 TARGET doc/authors
 TITLE RU Авторы
-TITLE EN Authors
+TITLE EN Who we are
 
 luwrain-page-ru
 
@@ -22,7 +22,7 @@ luwrain-page-ru
   Михаил Пожидаев<br>
   Кандидат технических наук, инженер-программист<br>
   E-mail: msp <em>(at)</em> luwrain.org<br>
-  Домашняя страница: <a href="http://marigostra.ru/">marigostra.ru</a>
+  Домашняя страница: <a href="https://marigostra.ru/">marigostra.ru</a>
 </p>
 
 <p>
@@ -50,7 +50,8 @@ luwrain-page-en
 
 # Who we are
 
-The~project is-developing with~the~support from [National Research Tomsk State University](http://en.tsu.ru).
+The~LUWRAIN project is~developing
+with~a~major support of~[Tomsk State University](http://en.tsu.ru).
 Our main team includes:
 
 <p>
@@ -65,7 +66,7 @@ Our main team includes:
   Michael Pozhidaev<br>
   Software engineer<br>
   E-mail: msp <em>(at)</em> luwrain.org<br>
-  Homepage: <a href="http://marigostra.com/">marigostra.com</a>
+  Homepage: <a href="https://marigostra.com/">marigostra.com</a>
 </p>
 
 <p>

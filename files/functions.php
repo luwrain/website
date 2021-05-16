@@ -13,10 +13,10 @@ function luwrain_top_menu() {
           <div class="col-md-4">
             <a href="<?php echo luwrain_link('/doc/user/start/');?>"><?php echo lwr_lang() == 'ru'?'С чего начать?':'Getting started';?></a>
             <a href="<?php echo luwrain_link('/doc/user/manual/');?>"><?php echo lwr_lang() == 'ru'?'Руководство пользователя':'User manual';?></a>
-            <a href="<?php echo luwrain_link('/community/');?>"><?php echo lwr_lang() == 'ru'?'Новости и материалы:':'News and materials:';?></a>
+            <a href="<?php echo lwr_link('/community/');?>"><?php echo lwr_lang() == 'ru'?'Сообщество и материалы:':'Community and materials:';?></a>
             <ul class="subMenuSmall">
               <li>
-                <a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo lwr_lang() == 'ru'?'Статьи и беседы':'Media and publications';?></a>
+                <a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo lwr_lang() == 'ru'?'Статьи и беседы':'Media and talks';?></a>
               </li>
               <li>
                 <a href="<?php echo luwrain_link('/community/events/');?>"><?php echo lwr_lang() == 'ru'?'Презентации и мероприятия':'Presentations and events';?></a>
@@ -34,8 +34,8 @@ function luwrain_top_menu() {
           </div>
           <div class="col-md-4">
             <a href="<?php echo lwr_link('/download/');?>"><?php echo lwr_lang() == 'ru'?'Загрузить':'Downloads';?></a>
-            <a href="<?php echo luwrain_link('/doc/devel/');?>"><?php echo lwr_lang() == 'ru'?'Разработчикам':'For developers';?></a>
             <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo lwr_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
+            <a href="<?php echo luwrain_link('/doc/devel/');?>"><?php echo lwr_lang() == 'ru'?'Разработчикам':'For developers';?></a>
           </div>
           <div class="col-md-4">
             <a href="<?php echo luwrain_link('/doc/faq/');?>">FAQ</a>
@@ -57,12 +57,11 @@ function luwrain_top_menu() {
 
 function luwrain_begin_page($path, $title, $isMainPage)
 {	   
-    if (lwr_current_mode() == 'adapted')
-    {
+  if (lwr_mode() == 'adapted') {
     lwr_begin_page_adapted($path, $title);
-        return;
-    }
-        ?>
+    return;
+  }
+?>
 <!DOCTYPE html>
 <html lang="<?php echo lwr_lang();?>">
   <head>
@@ -88,18 +87,12 @@ function luwrain_begin_page($path, $title, $isMainPage)
   </head>
   <body>
     <div class="container">
-<?php
-
-luwrain_top_menu();
-
-?>
+<?php luwrain_top_menu(); ?>
       <div id="headerPart" class="row">
         <div class="col-md-3">
           <ul class="subMenu">
             <li class="linkMenu">
-<?php
-  echo '              <a href="'.luwrain_link_ext1($path, lwr_lang(), 'adapted').'">'.(lwr_lang() == 'ru'?'Версия для слабовидящих':'Adapted/mobile version')."</a>\n";
-?>
+<?php echo '              <a href="'.luwrain_link_ext1($path, lwr_lang(), 'adapted').'">'.(lwr_lang() == 'ru'?'Версия для слабовидящих':'Adapted/mobile version')."</a>\n"; ?>
             </li>
             <li class="linkMenu">
               <div id="languageSelected">
@@ -171,8 +164,8 @@ if (!$isMainPage) {
 ?>
       </div>
       <div class="row" id="footerPart">
-        <div class="col-md-4"><span class="font14"><?php echo lwr_lang() == 'ru'?'&#169; 2012&#x2013;2021 Разработчики LUWRAIN':'&#169; 2012&#x2013;2021 LUWRAIN developers'?></span></div>
-        <div class="col-md-4"><a class="blueColor" href="http://validator.w3.org/check?uri=referer"><?php echo lwr_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a></div>
+        <div class="col-md-4"><span class="font14"><?php echo lwr_lang() == 'ru'?'&#169; 2012&#x2013;2021 Проект?&#160;LUWRAIN':'&#169; 2012&#x2013;2021 The&#160;LUWRAIN project'?></span></div>
+        <div class="col-md-4"><a class="blueColor" href="<?php echo htmlspecialchars('https://validator.w3.org/nu/?doc='.urlencode('https://luwrain.org'.(strlen($path) == 0 || $path[0] != '/'?'/':'').$path.'?mode=normal&lang='.lwr_lang())); ?>"><?php echo lwr_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a></div>
         <div class="col-md-4"><?php echo lwr_lang() == 'ru'?'Дизайн от':'Design by';?> <a href="http://strash.ru"><span class="blueColor">Strash</span></a></div>
       </div>
     </div>
