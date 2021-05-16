@@ -1,5 +1,5 @@
 <?php
-// Copyright 2012-2020 Michael Pozhidaev <msp@luwrain.org>
+// Copyright 2012-2021 Michael Pozhidaev <msp@luwrain.org>
 // The LUWRAIN Project, GPL v.3
 
 include 'versions.php';
@@ -156,27 +156,16 @@ if(!$isMainPage)
 		}
 }
 
-function luwrain_end_page($path, $isMainPage)
-{ 
-    if (luwrain_current_mode() == 'adapted') { 
-?>
-      <hr>
-      <?php echo lwr_lang() == 'ru'?'&#169; 2012&#x2013;2021 Разработчики LUWRAIN':'&#169; 2012&#x2013;2021 LUWRAIN developers'?><br/>
-      <a href="http://validator.w3.org/check?uri=referer">Проверить при помощи w3.org</a><br/>
-          </div>
-  </body>
-</html>
-<?php
-return;
-}
+function luwrain_end_page($path, $isMainPage) {
+  if (lwr_mode() == 'adapted') { 
+    lwr_end_page_adapted($path);
+    return;
+  }
 
-if (!$isMainPage)
-{
-
+if (!$isMainPage) {
 ?>
         </div>
 <?php
-
 }
 
 ?>

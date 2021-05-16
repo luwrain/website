@@ -1,4 +1,6 @@
 <?php
+// Copyright 2012-2021 Michael Pozhidaev <msp@luwrain.org>
+// The LUWRAIN Project, GPL v.3
 
 function lwr_begin_page_adapted($path, $title)
 {
@@ -23,6 +25,17 @@ function lwr_begin_page_adapted($path, $title)
       <a href="<?php echo luwrain_link_ext1($path, 'ru', luwrain_current_mode());?>">RU</a> |
       <a href="<?php echo luwrain_link_ext1($path, luwrain_current_lang(), 'normal');?>"><?php echo luwrain_current_lang() == 'ru'?'ГРАФИЧЕСКАЯ ВЕРСИЯ':'GRAPHICAL VERSION';?></a><br /><br>
       <div style="height: 16px;"></div>
+<?php
+}
+
+function lwr_end_page_adapted($path) {
+?>
+      <hr>
+      <?php echo lwr_lang() == 'ru'?'&#169; 2012&#x2013;2021 Проект&#160;LUWRAIN':'&#169; 2012&#x2013;2021 The&#160;LUWRAIN&#160;project'?><br>
+      <a href="<?php echo htmlspecialchars('https://validator.w3.org/nu/?doc='.urlencode('https://luwrain.org'.(strlen($path) == 0 || $path[0] != '/'?'/':'').$path.'?mode=adapted&lang='.lwr_lang())); ?>"><?php echo lwr_lang() == 'ru'?'Проверить при помощи w3.org':'Verify with w3.org';?></a><br>
+          </div>
+  </body>
+</html>
 <?php
 }
 
