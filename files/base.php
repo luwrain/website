@@ -38,6 +38,10 @@ function lwr_current_mode()
     return array_key_exists('mode', $_GET)?$_GET['mode']:'normal';
 }
 
+function lwr_mode() {
+  return lwr_current_mode();
+}
+
 function luwrain_current_mode()
 {
 return lwr_current_mode();

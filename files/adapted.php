@@ -4,7 +4,7 @@ function lwr_begin_page_adapted($path, $title)
 {
 ?>
 <!DOCTYPE html>
-<html lang="<?php echo lwr_current_lang();?>">
+<html lang="<?php echo lwr_lang();?>">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,58 +15,39 @@ function lwr_begin_page_adapted($path, $title)
   </head>
   <body>
     <div>
-      <b><a href="<?php echo luwrain_link('/products/');?>"><?php echo luwrain_current_lang() == 'ru'?'Продукты':'Products';?></a></b> |
-      <b><a href="<?php echo luwrain_link('/doc/');?>"><?php echo luwrain_current_lang() == 'ru'?'Документация':'Documentation';?></a></b> |
-      <b><a href="<?php echo luwrain_link('/community/');?>"><?php echo luwrain_current_lang() == 'ru'?'Интересное':'Interesting';?></a></b><br>
+      <b><a href="<?php echo luwrain_link('/products/');?>"><?php echo lwr_lang() == 'ru'?'ПРОДУКТЫ':'PRODUCTS';?></a></b> |
+      <b><a href="<?php echo luwrain_link('/doc/');?>"><?php echo lwr_lang() == 'ru'?'Документация':'DOCUMENTATION';?></a></b> |
+      <b><a href="<?php echo luwrain_link('/community/');?>"><?php echo lwr_lang() == 'ru'?'ИНТЕРЕСНОЕ':'INTERESTING';?></a></b><br>
       <hr>
-      <a href="<?php echo luwrain_link_ext1($path, 'en', luwrain_current_mode());?>">EN</a> |
+      <a href="<?php echo luwrain_link_ext1($path, 'en', lwr_mode());?>">EN</a> |
       <a href="<?php echo luwrain_link_ext1($path, 'ru', luwrain_current_mode());?>">RU</a> |
-      <a href="<?php echo luwrain_link_ext1($path, luwrain_current_lang(), 'normal');?>"><?php echo luwrain_current_lang() == 'ru'?'Графическая версия':'Normal version';?></a><br /><br/>
+      <a href="<?php echo luwrain_link_ext1($path, luwrain_current_lang(), 'normal');?>"><?php echo luwrain_current_lang() == 'ru'?'ГРАФИЧЕСКАЯ ВЕРСИЯ':'GRAPHICAL VERSION';?></a><br /><br>
       <div style="height: 16px;"></div>
 <?php
 }
 
 function lwr_main_page_adapted()
 {
-  if (lwr_current_lang() == 'en') {
+  if (lwr_lang() == 'en') {
 ?>
-            <h1>&#x22;The territory of a compelling accessibility&#x22;</h1>
-            <p>
-                With accessible toolkit LUWRAIN, blind and visually-impaired people have a new way to be
-      involved in the incredible world of information technologies. LUWRAIN doesn&#x27;t take
-      a lot of time to learn, and aims to be useable on laptops, as well as desktop computers.
-      You can treat our new idea as one more solution for everyone who needs a reliable and accessible
-      companion for various types of work. The product is designed as a new platform for creating
-      speech-enabled applications with a set of standard tools for easy access to web services,
-      mail, news reading, etc.
-            </p>
-            <p>
-                LUWRAIN is a set of software components on Java for accessible user interface construction.
-      In contrast with widely popular screen reading solutions for graphical desktops, which
-      actually are designed for control through a mouse and other pointing devices useful only
-      for sighted users, LUWRAIN brings the information in the most suitable for the perception of
-      blind people form. That means that the LUWRAIN user will always spend significantly less
-      time than in an adapted GUI. We have created our environment for people who enjoy working
-      effectively and time-efficiently.
-            </p>
-            <p>
-                LUWRAIN can be with you everywhere! You may take it as a stand-alone operating system on
-      Linux kernel and it will turn a laptop into elegant accessory for blind people. If you,
-      your colleagues or members of your family need the operating system being already installed
-      on your PC, you may take LUWRAIN just as an application. LUWRAIN will not require you to
-      forbid the tools you used to work with previously and you can use it as a platform for
-      creating and distributing accessible applications, even if you havn&#x27;t any experience
-      in this area.
-            </p>
-            <p>
-                LUWRAIN is a completely Free Software project, no fee is involved, and no restrictions
-      of use and distribution exist, except in cases explicitly violating the terms of the GNU
-      Public License ver. 3, as it was published by the Free Software Foundation. However, financial
-      donations are still required to help us present our product across the world, and to introduce
-      it to related social and distribution organizations. The team of developers hopes that
-      LUWRAIN can increase the integration of disabled people into social life. <a href="<?php echo luwrain_link('/doc/about/');?>">Read
-      more...</a>
-            </p>
+            <h1>The LUWRAIN project</h1>
+            <p>LUWRAIN develops technologies which improve the&#160;accessibility of&#160;internet services and digital materials to&#160;people with&#160;eyesight problems.
+              We are designing a&#160;new speech-enabled user interface and
+              are researching new methods of&#160;adapting materials for&#160;blind people with the&#160;help of machine learning.</p>
+            <p>The&#160;cloud service <a href="https://books.luwrain.org/?lang=en&amp;mode=adapted">LUWRAIN Books</a> creates audiobooks of&#160;uploaded texts utilizing commercial text-to-speech engines
+              and with&#160;the support of&#160;the DAISY format.
+              This innovation was based on&#160;considerable research into the&#160;areas of&#160;natural language processing,
+              parsing of&#160;source materials, and layout generation.
+              LUWRAIN Books also takes care of&#160;delivering its audiobooks to&#160;readers in&#160;a&#160;way which helps them to&#160;manage bookmarks.</p>
+            <p>The&#160;core of&#160;the&#160;LUWRAIN project is&#160;a&#160;platform for&#160;the&#160;creation of&#160;apps for&#160;the&#160;blind and partially-sighted.
+              It brings a&#160;new user experience designed to&#160;achieve maximum efficiency.
+              The&#160;LUWRAIN platform provides an&#160;open API on&#160;top of&#160;Java language,
+              which helps to&#160;build accessible apps in&#160;a&#160;portable way.
+              LUWRAIN, together with&#160;a&#160;set of&#160;standard utilities, can be launched as&#160;a&#160;standalone operating system on&#160;the&#160;Linux kernel.
+              It is the&#160;most advanced approach to&#160;making embedded devices accessible to&#160;the&#160;blind.</p>
+            <p>We are constantly looking for&#160;technical solutions, commercial models and new approaches to&#160;education which in&#160;conjunction with&#160;the&#160;LUWRAIN platform
+              can improve the&#160;lives of&#160;people with&#160;eyesight disability.
+              We invite everybody to&#160;collaborate with us on&#160;learning about blind software engineering, adapting publishing systems such&#160;as&#160;TeX and Lilypond, and many other things.</p>
             <h2>Choose the&#160;section you want:</h2>
             <ul>
                 <li><a href="<?php echo luwrain_link('/doc/user/start/');?>">Getting started</a></li>
@@ -77,11 +58,9 @@ function lwr_main_page_adapted()
                 <li><a href="<?php echo luwrain_link('/doc/contacts/');?>">Our&#160;contacts</a></li>
             </ul>
 <?php
-
   }
-  if (lwr_current_lang() == 'ru')
+  if (lwr_lang() == 'ru')
   {
-
 ?>
       <h1>Платформа невизуальных приложений LUWRAIN</h1>
       <ul>
