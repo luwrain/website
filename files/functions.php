@@ -22,24 +22,24 @@ function luwrain_top_menu() {
                 <a href="<?php echo luwrain_link('/community/events/');?>"><?php echo lwr_lang() == 'ru'?'Презентации и мероприятия':'Presentations and events';?></a>
               </li>
               <li>
-                <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a>
-              </li>
-              <li>
-                <a href="https://twitter.com/luwrain"><?php echo lwr_lang() == 'ru'?'Твиттер':'Twitter';?></a>
+                <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo lwr_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
               </li>
               <li>
                 <a href="http://wiki.luwrain.org/"><?php echo lwr_lang() == 'ru'?'Вики':'Wiki';?></a>
               </li>
+              <li>
+                <a href="https://luwrain.org/javadoc/">Javadoc</a>
+              </li>
             </ul>
           </div>
           <div class="col-md-4">
-            <a href="<?php echo lwr_link('/download/');?>"><?php echo lwr_lang() == 'ru'?'Загрузить':'Downloads';?></a>
-            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo lwr_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
-            <a href="<?php echo luwrain_link('/doc/devel/');?>"><?php echo lwr_lang() == 'ru'?'Разработчикам':'For developers';?></a>
+            <a href="https://twitter.com/luwrain"><?php echo lwr_lang() == 'ru'?'Твиттер':'Twitter';?></a>
+            <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">YouTube</a>
+            <a href="https://github.com/luwrain/">GitHub</a>
           </div>
           <div class="col-md-4">
-            <a href="<?php echo luwrain_link('/doc/faq/');?>">FAQ</a>
-            <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo lwr_lang() == 'ru'?'Правовой статус':'Legal notice';?></a>
+            <a href="<?php echo lwr_link('/download/');?>"><?php echo lwr_lang() == 'ru'?'Загрузить':'Downloads';?></a>
+            <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo lwr_lang() == 'ru'?'Правовой статус':'Legal notes';?></a>
             <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo lwr_lang() == 'ru'?'Контакты':'Contact us';?></a>
           </div>
         </div>

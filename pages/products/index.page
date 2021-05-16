@@ -59,27 +59,26 @@ LUWRAIN is a platform for the creation of apps for the blind and partially-sight
 It provides the~access to~information resources and network services.
 LUWRAIN is~free and [published under the~terms of~the~GNU~Public License v.~3](local:/doc/legal/).
 Our~distributions do~not require any~additional software or other accessibility technologies to~be~installed on~your computer.
-LUWRAIN can be~launched on~Microsoft Windows, GNU/Linux or as~a~standalone operating system on~the~Linux kernel.
+Run them on~Microsoft Windows, GNU/Linux or as~a~standalone operating system on~the~Linux kernel.
 
 * [LUWRAIN for~Microsoft Windows](local:/download/windows/)
 * [LUWRAIN for~GNU/Linux](local:/download/linux/)
 * [LUWRAIN as~an~ISO~image](local:/download/iso/)
 
-[...all resources for~download, including unstable distributions, the~source code and the~materials of~our~partners.](local:/download/)
+[...all other downloads, including unstable releases, the~source code and the~materials of~our~partners.](local:/download/)
 
 ## LUWRAIN~Books
 
-[LUWRAIN~Books (books.luwrain.org)](local:https://books.luwrain.org) is a~cloud service for~the~creation and storing of audiobooks.
-It~is~a~perfect tool for~publishers, libraries  and literature lovers.
-The~features of~LUWRAIN Books includes  tools for~processing of~source materials,
-linguistic annotation,
-delivering of~created books to readers
-and a~support of~the~DAISY format for~the~blind.
+[The~cloud service LUWRAIN Books](local:https://books.luwrain.org/) creates audiobooks of~uploaded texts utilizing commercial text-to-speech engines
+and with~the support of~the DAISY format.
+This~innovation was based on~considerable research into the~areas of~natural language processing,
+parsing of~source materials, and layout generation.
+LUWRAIN Books also takes care of~delivering its audiobooks to~readers in~a~way which helps them to~manage bookmarks.
 
 ## See~also
 
 * [Getting started](local:/doc/user/start/)
-* [The~free story what LUWRAIN is](local:/doc/about/)
+* [The~What LUWRAIN is?](local:/doc/about/)
 * [Why is LUWRAIN different than other accessibility solutions?](local:/doc/difference/)
 * [Frequently asked questions](local:/doc/faq/)
 * [Legal notes](local:/doc/legal/)
