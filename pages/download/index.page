@@ -11,33 +11,22 @@ luwrain-page-ru
 Ниже собраны ссылки на~различные ресурсы,
 доступные для~загрузки с~нашего сайта.
 
+## Исходный код
+
+Исходный код платформы LUWRAIN и ряда других компонентов может быть получен несколькими способами:
+
+* [Nightly-релизы](local:nightly/)
+* [Репозитории Git](local:git/)
+* [Исходный код в~архиве~tar.gz](local:tarball/)
+
+Мы  рекомендуем пользоваться nightly-релизами как~наиболее предпочтительным способом получения исходного кода LUWRAIN,
+поскольку они наиболее свежие и не~содержат каких-либо рассогласований между компонентами.
+
 ## Платформа LUWRAIN
 
 * [LUWRAIN для~Microsoft Windows](local:windows/)
 * [LUWRAIN для~GNU/Linux](local:linux/)
-* [LUWRAIN как~ISO-образ на~ядре Linux](local:iso/)
-
-## Исходные тексты
-
-Исходные тексты платформы LUWRAIN и ряда других компонентов могут быть получены несколькими способами:
-
-* [Исходные тексты в~архиве~tar.gz](local:tarball/)
-* [Репозитории Git](local:git/)
-* [Nightly-сборки](local:nightly/)
-
-Рекомендуется пользоваться  nightly-сборками,
-поскольку они включают в~себя исходные тексты,
-максимально подготовленные для~воспроизведения текущего среза.
-
-## Материалы партнёров
-
-Ряд продуктов разрабатывается совместно с~партнёрскими компаниями и организациями.
-Обычно это невизуальные приложения для~доступа к~сетевым сервисам.
-
-* [Издательство «Директ -Медиа»](http://download.luwrain.org/partners/dm/)
-* [Национальный исследовательский Томский государственный университет](http://download.luwrain.org/partners/tsu/)
-
-
+* [LUWRAIN в~виде ISO-образа на~ядре Linux](local:iso/)
 
 ## Прочие материалы
 
@@ -48,34 +37,28 @@ luwrain-page-en
 
 # Downloads
 
-The~entire set of~our products and services is~concentrated around our~platform LUWRAIN.
-With LUWRAIN platform,
-blind users can create their own accessible applications or run the~applications
-created by~our team or other people.
-The~main distributions of~LUWRAIN are~free for~use for~everybody, since they are licensed under the~terms of~GPL~v.3.
+You can find on~this page all~our~resources  available for~download.
 
-These options are for~people who needs LUWRAIN for~work. 
-With~the~list below, you can find a~binary distribution prepared for~OS you have already installed or 
-a~ISO~image suitable for running LUWRAIN as~a~stand-alone OS (in~this~case any~previously installed OS is unnecessary).
+## Source code
 
-Choose the~most suitable form you need:
+The~source code of~the~LUWRAIN platform  can be~obtained in~several ways:
 
-* As~an~application:
- * [For~Microsoft Windows](local:windows/)
- * [For~GNU/Linux](local:linux/)
- * [As a~bootable ISO image](local:iso/) (installed OS isn't required)
+* [Nightly releases](local:nightly/)
+* [Git repositories](local:git/)
+* [Tarball](local:tarball/)
 
-## Our~source code
+We offer the~nightly releases as the~most preferable way  to~get the~source code of~LUWRAIN
+because they are the~most actual and don't contain any~inconsistencies
 
-The~source code of~LUWRAIN can be~obtained in~one~of~the~several 
+## The~LUWRAIN platform
 
-The~first option of~this list is purposed for~the~developers
-of~applications for~LUWRAIN.
-Others can be~useful only for~developers who would like to~improve LUWRAIN itself.
+* [LUWRAIN for~Microsoft Windows](local:windows/)
+* [LUWRAIN for~GNU/Linux](local:linux/)
+* [LUWRAIN as an~ISO~image on~the~Linux kernel](local:iso/)
 
-* [Tarball with source code](local:tarball/) (published basically to~make LUWRAIN sources downloadable in~single click)
-* [Git~repositories](local:git/) (the~entire set of~repositories for~tracking of~changes in~our~project)
-* [Nightly builds](local:nightly/) (regular binary builds for~testers)
+## Other materials
 
-Please be aware that you can visit the~host [download.luwrain.org](http://download.luwrain.org) directly.
+* [Papers and presentations](http://download.luwrain.org/pdf/)
+* [Talks and podcasts](http://download.luwrain.org/chats/)
+
 

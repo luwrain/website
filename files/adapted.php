@@ -18,7 +18,7 @@ function lwr_begin_page_adapted($path, $title)
   <body>
     <div>
       <b><a href="<?php echo luwrain_link('/products/');?>"><?php echo lwr_lang() == 'ru'?'ПРОДУКТЫ':'PRODUCTS';?></a></b> |
-      <b><a href="<?php echo luwrain_link('/doc/');?>"><?php echo lwr_lang() == 'ru'?'Документация':'DOCUMENTATION';?></a></b> |
+      <b><a href="<?php echo luwrain_link('/doc/');?>"><?php echo lwr_lang() == 'ru'?'ДОКУМЕНТАЦИЯ':'DOCUMENTATION';?></a></b> |
       <b><a href="<?php echo luwrain_link('/community/');?>"><?php echo lwr_lang() == 'ru'?'ИНТЕРЕСНОЕ':'INTERESTING';?></a></b><br>
       <hr>
       <a href="<?php echo luwrain_link_ext1($path, 'en', lwr_mode());?>">EN</a> |
@@ -57,7 +57,7 @@ function lwr_main_page_adapted()
               The&#160;LUWRAIN platform provides an&#160;open API on&#160;top of&#160;Java language,
               which helps to&#160;build accessible apps in&#160;a&#160;portable way.
               LUWRAIN, together with&#160;a&#160;set of&#160;standard utilities, can be launched as&#160;a&#160;standalone operating system on&#160;the&#160;Linux kernel.
-              It is the&#160;most advanced approach to&#160;making embedded devices accessible to&#160;the&#160;blind.</p>
+              It is the&#160;most advanced approach to&#160;making Raspberry&#160;Pi accessible to&#160;the&#160;blind.</p>
             <p>We are constantly looking for&#160;technical solutions, commercial models and new approaches to&#160;education which in&#160;conjunction with&#160;the&#160;LUWRAIN platform
               can improve the&#160;lives of&#160;people with&#160;eyesight disability.
               We invite everybody to&#160;collaborate with us on&#160;learning about blind software engineering, adapting publishing systems such&#160;as&#160;TeX and Lilypond, and many other things.</p>
@@ -103,7 +103,7 @@ function lwr_main_page_adapted()
         и предлагает открытый API на&#160;языке Java,
         обеспечивающий возможность разработки кроссплатформенных приложений с&#160;интеграцией в&#160;сетевые сервисы.
         LUWRAIN с&#160;комплектом стандартных программ может быть запущен как операционная система на&#160;ядре Linux,
-        превращая портативные и одноплатные ПК в&#160;удобные инструменты для незрячих людей.</p>
+        превращая портативные ПК и Raspberry&#160;Pi в&#160;удобные инструменты для незрячих людей.</p>
       <h2>Только все вместе</h2>
         <p>Наш коллектив постоянно следит за&#160;техническими средствами, коммерческими моделями и новыми подходами к&#160;образованию,
         для&#160;которых применение платформы LUWRAIN способно сделать существенный вклад в&#160;развитие людей с&#160;нарушениями зрения.

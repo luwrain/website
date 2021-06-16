@@ -3,37 +3,6 @@ TARGET doc/difference
 TITLE RU Чем LUWRAIN отличается от~других вспомогательных технологий?
 TITLE EN Why is LUWRAIN different than other accessible solutions?
 
-
-
-luwrain-page-en
-
-# Why is LUWRAIN different than other accessibility solutions?
-
-See~also:
-
-* [Main concepts](local:/doc/user/manual/intro/)
-
-The~major difference between LUWRAIN and other software which at~first approach does the~same things 
-is that LUWRAIN __is~not a~screen reading utility__;
-LUWRAIN is __a~platform__ for~the~creation of~apps which aren't supposed to~be~controlled visually
-(including the~applications in~the~area of~"Internet Of~Things"),
-although support of~blind indeed is  one of~the~most important goals of~our~project.
-
-The~nature of~a~platform makes possible the~creation and distribution of~apps which were absent previously;
-with~LUWRAIN everybody can do this in~a~very cheap way.
-For~example, in~education tasks  it~is~better to~have a~solution flexibly adjustable  for~current and future requirements
-than  to~adjust the~education process itself to~permanently changing and very unstable screen reading software
-without any~guarantee that tomorrow you will~not get new~tasks incompatible with~usual accessibility utilities.
-With~LUWRAIN, commercial companies can create and offer the~clients for~the~access to~their services which will be easily understandable by~the~blind,
-and LUWRAIN  takes care that~these apps will be
-not only understandable, but comfortable as~well for~the~users.
-
-becides that,  developing a~platform we~get a~possibility to~research
-the~better ways of~the~interaction without involving an~eyesight  and the~corresponding applications of~a~design.
-We think of~a~design  as~of~ways  to~get maximum  efficiency of~interaction with~PCs;
-its roots  can be~found in~representation of~information  in~form highly adapted for~the~perception without an~eyesight.
-
-
 luwrain-page-ru
 
 # Чем LUWRAIN отличается от~других вспомогательных технологий?
@@ -91,3 +60,45 @@ LUWRAIN может быть универсальным инструментом,
 чаще всего находятся за~пределами постоянного пристального внимания.
 Тем не~менее, они в~сумме вносят существенный вклад в~облик современного человека с~нарушениями зрения,
 делая его неизбежно уязвимым и вынужденным всегда находиться в~"серой" зоне экономики.
+
+
+
+
+luwrain-page-en
+
+# Why is LUWRAIN different than other accessible solutions?
+
+1. __Everywhere.__
+LUWRAIN does the~same things regardless the~operating system a~user is~running.
+The~level of~accessibility features is~very different depending on~the~particular platform.
+In~particular, on~GNU/Linux it~is significantly lower that on~Microsoft Windows.
+LUWRAIN uses Java and this eliminates noticeable difference,
+what is especially important for~Raspberry~Pi where Microsoft Windows cannot be launched
+or can be launched with~serious restrictions.
+1. __Comfortable interface.__
+LUWRAIN builds the~comfortable user interface specially designed for~the~blind and increases speed of~work.
+GUI is~nice for~sighted users, but the~blind cannot deal with it the~same way,
+because forced to do~everything with~a~keyboard only.
+This results in  extra exhausting which can be reduced,
+if the~interface reflects  the~particularity of~~perception  of~the~blind.
+In~addition, the~LUWRAIN interface opens information technologies for~inexperienced users.
+1. __Free__.
+LUWRAIN is~free in~itself and doesn't  imply any~fee for~other required components including an~operating system in~the~case of~running GNU/Linux.
+This means that LUWRAIN will cost nothing to everybody.
+1. __Security.__
+LUWRAIN doesn't require  superuser rights for~its work,
+so there is no risk of~any vulnerability.
+For~example, if you are using a~website of~a~bank,
+a~screen reader is~the~perfect target for~malware software,
+because screen reading software knows everything and often runs with~a~superuser privileges. 
+
+Screen reading software is very important and mus present anyway,
+but we suggest that it's a~mistake to~think
+that blind people can, or even have to, do everything  with~them only.
+For~everyday work their using is very exhaustive, and we can see a~lack of~their support  on~inexpensive systems.
+
+The~great project, bringing to~us  a~lot~of inspiration, is [Emacspeak](http://emacspeak.sourceforge.net/) by~[T.~V.~Raman](https://en.wikipedia.org/wiki/T._V._Raman).
+It~significantly  helps to~use GNU/Linux for~software developing purposes.
+We can see now that software developing moves towards GNU/Linux,
+and blind people could be very interested in~it,
+because it's a~way for~paied  work.

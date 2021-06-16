@@ -1,5 +1,5 @@
 <?php
-// Copyright 2012-2020 Michael Pozhidaev <msp@luwrain.org>
+// Copyright 2012-2021 Michael Pozhidaev <msp@luwrain.org>
 // The LUWRAIN Project, GPL v.3
 
 function lwr_keywords()
