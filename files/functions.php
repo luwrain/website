@@ -12,7 +12,7 @@ function luwrain_top_menu() {
         <div class="row top-part-content">
           <div class="col-md-4">
             <a href="<?php echo luwrain_link('/doc/user/start/');?>"><?php echo lwr_lang() == 'ru'?'С чего начать?':'Getting started';?></a>
-            <a href="<?php echo luwrain_link('/doc/user/manual/');?>"><?php echo lwr_lang() == 'ru'?'Руководство пользователя':'User manual';?></a>
+            <a href="<?php echo luwrain_link('/download/');?>"><?php echo lwr_lang() == 'ru'?'Загрузить':'Downloads';?></a>
             <a href="<?php echo lwr_link('/community/');?>"><?php echo lwr_lang() == 'ru'?'Сообщество и материалы:':'Community and materials:';?></a>
             <ul class="subMenuSmall">
               <li>
@@ -38,7 +38,7 @@ function luwrain_top_menu() {
             <a href="https://github.com/luwrain/">GitHub</a>
           </div>
           <div class="col-md-4">
-            <a href="<?php echo lwr_link('/download/');?>"><?php echo lwr_lang() == 'ru'?'Загрузить':'Downloads';?></a>
+            <a href="<?php echo lwr_link('/doc/faq/');?>"><?php echo lwr_lang() == 'ru'?'Часто задаваемые вопросы':'FAQ';?></a>
             <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo lwr_lang() == 'ru'?'Правовой статус':'Legal notes';?></a>
             <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo lwr_lang() == 'ru'?'Контакты':'Contact us';?></a>
           </div>

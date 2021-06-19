@@ -7,24 +7,26 @@ luwrain-page-ru
 
 # Для~разработчиков
 
-Ресурсы для~разработчиков~ПО и специалистов в~сфере ИТ
-содержат описание различных технических подробностей LUWRAIN и связанных с~ним компонентов.
+Нет~принципиальной разницы, являетесь~ли вы матёрым айтишником или только намерены
+погрузиться в~сферу разработки ПО~---
+материалы этой страницы расскажут вам о~разнообразных технических особенностях LUWRAIN.
 
+* [LUWRAIN API Javadoc](/javadoc/)
 * [Невизуальный дизайн](local:design/)
-* [Список задействованных библиотек](local:libs/)
+* [Создание собственного приложения LUWRAIN](local:app/essentials/)
 * [Компоненты для редактирования многострочного текста](local:text-editing/)
+* [Список задействованных библиотек](local:libs/)
 * [Создание пользовательских функций в~приложении Блокнот](local:notepad-customizing/)
 
 ## Расширения JavaScript
 
 LUWRAIN  включает в~себя интерпретатор сценариев на~языке [JavaScript](https://ru.wikipedia.org/wiki/JavaScript), основанный на~движке [GraalVM](https://ru.wikipedia.org/wiki/GraalVM).
-Он присутствует во~всех наших дистрибутивах и не~требует установки каких-либо внешних компонентов.
 При~помощи этого механизма пользователи могут гибко модифицировать функции LUWRAIN и добавлять свои собственные.
 JavaScript, как следует из~названия, является скриптовым языком,
 и создание программ на~нём не~требует установки компилятора или каких-либо других средств разработки.
-Отдалённо модель использования JavaScript в~LUWRAIN напоминает модель  его~использования в~браузерах для~обзора страниц в~Интернете.
-Разница заключается только в~том, что вместо объектов браузера, таких~как _Document_ и _Window_
-в~глобальном пространстве доступен [объект _Luwrain_](local:js/mainobj/), предоставляющий доступ к~функциям нашей системы.
+Отдалённо модель использования JavaScript в~LUWRAIN напоминает модель  его~использования в~браузерах для~обзора веб-страниц.
+Разница заключается только в~том, что вместо объектов браузера, таких~как ```Document``` и ```Window```
+в~глобальном пространстве доступен [объект ```Luwrain```](local:js/mainobj/), предоставляющий доступ к~функциям нашей системы.
 
 * [Введение в~программирование на~JavaScript для~Luwrain](local:js/intro/)
 * [Глобальный объект ```Luwrain```](local:js/mainobj/)
@@ -53,14 +55,10 @@ We~are always trying to~maintain a~smooth and persistent development process.
 [The~free license we use](local:/doc/legal/) makes possible for~everybody to~contribute to~our project.
 In~this section you can find various documentation describing how to~work on~LUWRAIN source code and compile it.
 
-See~also:
-
-* [Our nightly releases](local:/download/nightly/)
-* [LUWRAIN API Javadoc](/javadoc/)
-
 Choose the~section you need:
 
 
+* [Your own application](local:app/essentials/)
 * [The components for multiline text editing](local:text-editing/)
 * [Compiling our~source code](local:compilation/)
 * [Compiling nightly releases](local:nightly)
