@@ -68,35 +68,48 @@ luwrain-page-en
 
 # Why is LUWRAIN different than other accessible solutions?
 
+We consider the~following advantages of~LUWRAIN  as~the~most noticeable:
+
 1. __Everywhere.__
-LUWRAIN does the~same things regardless the~operating system a~user is~running.
-The~level of~accessibility features is~very different depending on~the~particular platform.
-In~particular, on~GNU/Linux it~is significantly lower that on~Microsoft Windows.
-LUWRAIN uses Java and this eliminates noticeable difference,
-what is especially important for~Raspberry~Pi where Microsoft Windows cannot be launched
-or can be launched with~serious restrictions.
+LUWRAIN does the~same things regardless the~operating system which a~user is~working~on.
+The~level of~accessibility features is~very different among various platforms.
+In~particular, on~GNU/Linux it~is significantly lower than on~Microsoft Windows.
+LUWRAIN uses Java and this eliminates any platform-dependent differences,
+what is especially important, for~example, for~Raspberry~Pi where Microsoft Windows
+can be launched only with~serious restrictions or
+cannot be launched at~all.
+1. __Special applications.__
+There is still alack of~specialized software which the~blind needs for~everyday tasks.
+LUWRAIN suits  well for~their implementation in~a~portable way.
+For~example, for~most of~blind people a~books reader is very important.
+students need a~well-organized editor for~TeX and Lilypond,
+specialized e-learning solutions can better utilize features of~such standards as xAPI and CMI5.
 1. __Comfortable interface.__
 LUWRAIN builds the~comfortable user interface specially designed for~the~blind and increases speed of~work.
-GUI is~nice for~sighted users, but the~blind cannot deal with it the~same way,
-because forced to do~everything with~a~keyboard only.
+GUI is~nice for~sighted users, but the~blind cannot deal with it in~the~same way,
+because forced to do~everything only with~a~keyboard.
 This results in  extra exhausting which can be reduced,
 if the~interface reflects  the~particularity of~~perception  of~the~blind.
-In~addition, the~LUWRAIN interface opens information technologies for~inexperienced users.
-1. __Free__.
-LUWRAIN is~free in~itself and doesn't  imply any~fee for~other required components including an~operating system in~the~case of~running GNU/Linux.
+In~addition, the~LUWRAIN interface opens information technologies for~wide range of~inexperienced users.
+1. __Freedom and no~fee.__
+LUWRAIN is~free in~itself and doesn't  imply any~fee for~other required components including an~operating system in~the~case of~running on~GNU/Linux.
 This means that LUWRAIN will cost nothing to everybody.
 1. __Security.__
 LUWRAIN doesn't require  superuser rights for~its work,
 so there is no risk of~any vulnerability.
 For~example, if you are using a~website of~a~bank,
 a~screen reader is~the~perfect target for~malware software,
-because screen reading software knows everything and often runs with~a~superuser privileges. 
+because screen reading software knows everything and often runs with~a~superuser privileges.
+1. __API.__
+LUWRAIN provides a~nice API respecting the~common design practices.
+This~API is easily understandable for~software developers which don't have enough experience of~developing software for~the~blind.
+Using LUWRAIN they can create an~portable application for~the~blind and visually-impaired.
+This reduces any barriers between sighted and blind users.
 
-Screen reading software is very important and mus present anyway,
-but we suggest that it's a~mistake to~think
+Screen reading software is very important and mus be~respected anyway,
+but we assume that it's a~mistake to~think
 that blind people can, or even have to, do everything  with~them only.
 For~everyday work their using is very exhaustive, and we can see a~lack of~their support  on~inexpensive systems.
-
 The~great project, bringing to~us  a~lot~of inspiration, is [Emacspeak](http://emacspeak.sourceforge.net/) by~[T.~V.~Raman](https://en.wikipedia.org/wiki/T._V._Raman).
 It~significantly  helps to~use GNU/Linux for~software developing purposes.
 We can see now that software developing moves towards GNU/Linux,

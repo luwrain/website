@@ -61,9 +61,9 @@ function ShowPart2()
 	$('#text1more').html('The cloud service <a href=\"https://books.luwrain.org/?mode=normal&amp;lang=en\">LUWRAIN Books</a>' +
 			     '<br>creates audiobooks of uploaded texts utilizing commercial' +
 			     '<br>text-to-speech engines and with the support of the DAISY format.' +
-			     '<br>This innovation was based on considerable research into the areas' +
-			     '<br>of natural language processing, parsing of source materials, and layout' +
-			     '<br>generation.' +
+			     '<br>This innovation was based on considerable research' +
+			     '<br>into the areas of natural language processing,' +
+			     '<br>parsing of source materials, and layout generation.' +
 			     '<br>LUWRAIN Books also takes care of delivering its audiobooks to readers' +
 			     '<br>in a way which helps them to manage bookmarks.');
 	$('#firstButton').html('<a href="/community/publications/?mode=normal&lang=en"><span>Press about us</span></a>');
