@@ -34,11 +34,11 @@ LUWRAIN может быть использован как инструмент �
 ## Какое преимущество LUWRAIN вы считаете самым важным?
 
 Кроссплатформенность~--- важнейшее преимущество LUWRAIN.
-Нам не~известны какие-либо существующие в~настоящий момент полноценные вспомогательные технологии, переносимые между разными операционными системами.
+Нам не~известны какие-либо иные полноценные вспомогательные технологии, переносимые между разными операционными системами.
 
 ## Разве LUWRAIN может быть полезен как~операционная система?
 
-LUWRAIn как~операционная система может быть очень удобным инструментом для~запуска на~малогабаритных компьютерах и на~[Raspberry~Pi](https://ru.wikipedia.org/wiki/Raspberry_Pi).
+LUWRAIN как~операционная система может быть очень удобным инструментом для~запуска на~малогабаритных компьютерах и на~[Raspberry~Pi](https://ru.wikipedia.org/wiki/Raspberry_Pi).
 
 ## Почему LUWRAIN предлагается для~образования, хотя разумнее обучать работе на~тех системах, которыми пользуются все?
 
@@ -46,7 +46,7 @@ LUWRAIn как~операционная система может быть оч�
 
 1. Основной проблемой тифлопедагогики является отсутствие адаптированных учебных материалов,
 а не~выбор тех или иных инструментов для~невизуальной работы на~ПК.
-Платформа LUWRAIN развивает интегрированный комплекс вместе с~[сервисом LUWRAIN Books](local:http://books.luwrain.org).
+Платформа LUWRAIN развивает интегрированный комплекс вместе с~[сервисом LUWRAIN Books](local:http://books.luwrain.org), предлагая полный цикл для~работы с~литературой в~формате DAISY.
 1. Специализированные программные средства лучше подходят для~применения совместно со~стандартами дистанционного обучения, такими~как [xAPI и CMI5](local:/community/edu/elearning).
 1. Когда ученик окончит школу и ВУЗ, программы, к~которым он привык, сменятся,
 разумнее учить навыкам быстро приспосабливаться к~любой системе, с~которой приходится работать.
@@ -56,7 +56,7 @@ LUWRAIn как~операционная система может быть оч�
 
 ## Если я установлю LUWRAIN, должен~ли буду отказаться от~тех программ экранного доступа, которыми пользуюсь сейчас?
 
-Нет, LLUWRAIN превосходно сочетается с~прочими вспомогательными технологиями.
+Нет, LUWRAIN превосходно сочетается с~прочими вспомогательными технологиями.
 
 ## Существует~ли LUWRAIN для~мобильных телефонов?
 
@@ -72,11 +72,6 @@ LUWRAIn как~операционная система может быть оч�
 или популярную библиотеку Max-Reader.
 Пусть Max-Reader (да и AMIS) утратили свою актуальность, но это нисколько не~уменьшает значимость их как~примера популярных самоозвученных приложений.
 
-
-## Не~стоит~ли лучше направить усилия на~улучшение доступности систем GNU/Linux?
-
-GNU/Linux занимает около 2% рынка настольных систем даже без~учёта вопросов доступности людям с~нарушениями зрения,
-мы не~можем вкладывать усилия в~разработку решений, распространение которых настолько ограничено.
 Вместе с~тем, разработка LUWRAIN только на~первый взгляд фундаментально отличается от~разработки приложений,
 озвучивание которых осуществляется при~помощи утилит экранного доступа.
 Утилиты экранного доступа не~обеспечивают абсолютной универсальности,
@@ -84,7 +79,13 @@ GNU/Linux занимает около 2% рынка настольных сис�
 В~случае LUWRAIN вместо обеспечения доступа к~графическому интерфейсу приложения (интерфейсной доступности) обеспечивается доступ к~функциональности соответствующей библиотеки Java (функциональная доступность),
 что сохраняет переносимость между разными ОС и намного гармоничнее с~точки зрения восприятия пользователя.
 В~обоих случаях требуется ручной контроль качества доступности,
-поэтому мы не~видим пренципиального преимущества интерфейсной доступности перед функциональной. 
+поэтому мы не~видим принципиального преимущества интерфейсной доступности перед функциональной. 
+
+
+## Не~стоит~ли лучше направить усилия на~улучшение доступности систем GNU/Linux?
+
+GNU/Linux занимает около 2% рынка настольных систем даже без~учёта вопросов доступности людям с~нарушениями зрения,
+мы не~можем вкладывать усилия в~разработку решений, распространение которых настолько ограничено.
 
 ## LUWRAIN развивается слишком медленно. NVDA, например, давно всех обогнал
 
@@ -105,7 +106,7 @@ LUWRAIN использует компонент [```javafx.scene.web.WebEngine``
 
 ## Утилиты экранного доступа обеспечивают возможность взаимодействия со~всеми программами, которые могут потребоваться пользователю. Не~является~ли LUWRAIN ненужным проектом?
 
-Это утверждение верно (да на~наш взгляд и неполностью) только для~Microsoft Windows.
+Это утверждение верно (да на~наш взгляд и не~полностью) только для~Microsoft Windows.
 Дополнительно хотим обратить внимание, что при~такой постановке вопроса практически всегда подразумевается сугубо нелегальное использование необходимого ПО,
 поскольку фактических прикладных функций в~утилитах экранного доступа нет.
 LUWRAIN основан на~[большом количестве открытых библиотек Java](local:/doc/devel/libs),
@@ -136,41 +137,66 @@ luwrain-page-en
 
 # Frequently asked questions
 
-## There~are so many screen readers, why do you~do all of this?
+## Microsoft Windows has all~necessary accessibility features, why blind people may want to~run~GNU/Linux?
 
-The~solutions based on~screen reading utilities  indeed are  very old  and deeply researched,
-meantime, the~fraction of~the~blind who feel themselves  absolutely confident with~information technologies   isn't very high.
-In~Russia this~group has around 10% of~the~blind people of~the~country,
-whereas   the~group of~people who use the~Internet  constantly is~estimated  as~80%.
+GNU/Linux is~very interesting for~the~following resons:
 
-## If I install LUWRAIN, must I uninstall the~screen readers I already have?
+1. With~GNU/Linux everybody can make his/her first step towards professional software developing,
+because it is~much more preferable for~such~purpose.
+It's a~perfect way to~payed work, what is~very actual for~most of~blind people.
+1. GNU/Linux is~capable of~running on~[Raspberry~Pi](https://en.wikipedia.org/wiki/Raspberry_Pi).
+GNU/Linux and Raspberry~Pi together makes the~information technologies more accessible for~wide range of~blind users.
+1. GNU/Linux is~much more cheeper, if not~free at~all.
 
-No.
-LUWRAIN can be nicely used in~conjunction with other screen reading software.
+## What can I gain from~participating in~LUWRAIN development?
 
-## Is~there LUWRAIN version for mobile phones?
+Participating in~LUWRAIN development is~the~easiest way for~the~blind to~get into ~Java technologies and GNU/Linux.
+Java is in~high demand for~software engineers over the~globe.
+So LUWRAIN is~a~wonderful way to~get the~skills for~future employment.
 
-Not yet, we work on it and appreciate any help.
+## What LUWRAIN advantage do you consider as~the~most important?
 
-
-## Why is~LUWRAIN suggested for~education, if, apparently, it's rational to~learn the~widely  popular systems?
-
-It's rational  to~learn how~ understand any~new system  which  the~user is~required to~start work~on.
-We can see a~lot of~user interfaces at~the~moment,
-it'~s reasonable to~expect more of~them in~the~close future.
-When the~student graduates the~university,
-the~version of~Microsoft Windows which he or she is used to~work on   will get already outdated.
-
-## How does  the~browser in~LUWRAIN work?
-
-We use JavaFX component [javafx.scene.web.WebEngine](https://docs.oracle.com/javafx/2/api/javafx/scene/web/WebEngine.html), 
-which supports JavaScript and gives access to~the~DOM~structure  of~the~loaded page.
-This component is~based on~[the~WebKit~engine](https://en.wikipedia.org/wiki/WebKit).
-WebKit goes as~an~engine for~some popular browsers, for~example for~[Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome).
+We consider portability over various operating systems as~the~most important advantage of~LUWRAIN.
+We don't know any other portable accessibility solutions equally suitable for~running on~Microsoft Windows and GNU/Linux
+(ChromeVox arguably the~closest to~that).
 
 
-## Can LUWRAIN users create their own scripts to~customize the~system?
+## Is LUWRAIN as~a~operating system really useful?
 
-Yes.
-LUWRAIN has the~integrated support of~users extensions on JavaScript.
-You can find [here](local:/doc/js/) more information about this.
+Yes, LUWRAIN as~an~operating system can be~rather useful for~running on~portable computers or on~[Raspberry~Pi](https://en.wikipedia.org/wiki/Raspberry_Pi).
+
+## Why LUWRAIN is suggested for~education, while it's more reasonable to~offer  the~widely used systems?
+
+1. The~major problem of~education for~the~blind is~a~lack of~educational materials, rather than an~exact interactive tool.
+LUWRAIN is~integrated with~its~cloud service [LUWRAIN~Books](local:https://books.luwrain.org/)
+providing the~full cycle of~creating and delivering of~DAISY books.
+1. LUWRAIN interface better supports such educational standards as~xAPI and CMI5.
+1. When pupils finishes a~school, the~exact tools will be~replaced with newer ones,
+so it's more reasonable to~teach using of~different computer interfaces with~easily switching from~~one to~another.
+1. In~the~United States in~2018 [Google ChromeBook has 60% of~school computers market](https://www.cnbc.com/2019/03/20/apple-google-microsoft-are-battling-for-dominance-in-education.html),
+nobody takes this~fact as~undesirable in~any~way.
+
+## If I install LUWRAIN, should I uninstall the~screen readers I currently use?
+
+No, LUWRAIN doesn't have any~conflicts with~screen reading software.
+
+## Is~there any~LUWRAIN version for~mobile phones?
+
+No, but we are thinking about LUWRAIN as~a~cloud service with a~client for~mobile phones.
+
+## Self~voicing applications are~not~popular among blind people, is~it a~really good idea to~develop this kind ofinterface?
+
+We see great self-voiced projects ([Emacspeak](http://emacspeak.sourceforge.net/), for~example)
+which get a~lot of~advantages developing this~approach.
+
+In~the~meantime, Screen readers don't voice applications fully automatically:
+this requires proper care from the~developers of~applications , often in~conjunction with custom scripts for~the~application in~the~screen reader itself.
+LUWRAIN maintain accessibility of~the~functions of~opened and portable Java libraries rather  then accessibility of~applications interface.
+In~both cases a~lot~of manual control is~needed for~proper~support of~accessibility features,
+and we don't see any~significant difference between these two~solutions.
+
+## Maybe it's more reasonable to~apply your efforts on~developing usual GNU/Linux accessibility features?
+
+LUWRAIN is~a~portable solution, while GNU/Linux has around 2% of~desktop systems.
+We think that developing of~a~portable  solution is~more effective and preferable.
+

@@ -79,10 +79,10 @@ what is especially important, for~example, for~Raspberry~Pi where Microsoft Wind
 can be launched only with~serious restrictions or
 cannot be launched at~all.
 1. __Special applications.__
-There is still alack of~specialized software which the~blind needs for~everyday tasks.
+There is still a~lack of~specialized software which the~blind needs for~everyday tasks.
 LUWRAIN suits  well for~their implementation in~a~portable way.
 For~example, for~most of~blind people a~books reader is very important.
-students need a~well-organized editor for~TeX and Lilypond,
+Students need a~well-organized editor for~TeX and Lilypond,
 specialized e-learning solutions can better utilize features of~such standards as xAPI and CMI5.
 1. __Comfortable interface.__
 LUWRAIN builds the~comfortable user interface specially designed for~the~blind and increases speed of~work.
@@ -106,7 +106,7 @@ This~API is easily understandable for~software developers which don't have enoug
 Using LUWRAIN they can create an~portable application for~the~blind and visually-impaired.
 This reduces any barriers between sighted and blind users.
 
-Screen reading software is very important and mus be~respected anyway,
+Screen reading software is very important and must be~respected anyway,
 but we assume that it's a~mistake to~think
 that blind people can, or even have to, do everything  with~them only.
 For~everyday work their using is very exhaustive, and we can see a~lack of~their support  on~inexpensive systems.
@@ -114,4 +114,4 @@ The~great project, bringing to~us  a~lot~of inspiration, is [Emacspeak](http://e
 It~significantly  helps to~use GNU/Linux for~software developing purposes.
 We can see now that software developing moves towards GNU/Linux,
 and blind people could be very interested in~it,
-because it's a~way for~paied  work.
+because it's a~way for~payed  work.
