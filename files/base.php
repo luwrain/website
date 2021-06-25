@@ -2,10 +2,9 @@
 // Copyright 2012-2021 Michael Pozhidaev <msp@luwrain.org>
 // The LUWRAIN Project, GPL v.3
 
-function lwr_keywords()
-{
-  return 'Java,JavaScript,Linux,API,незрячий,слепой,зрение,accessibility,вспомагательная технология,тифлопедагогика,дефектология,платформа,программирование,пользовательский интерфейс,операционная система,СПО,Open Source,GPL,accessibility,blind,visually-impaired,Raspberry Pi';
-}
+function lwr_keywords() {
+  return 'a11y,API,blind,braille,GPL,Java,JavaScript,Linux,Open Source,Raspberry Pi,speech,visually-impaired,брайль,вспомагательная технология,дефектология,зрение,незрячий,операционная система,платформа,пользовательский интерфейс,программирование,речь,слепой,СПО,тифлопедагогика';
+  }
 
 function lwr_month_en($month) {
   $months = array(
