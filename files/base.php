@@ -4,7 +4,7 @@
 
 function lwr_keywords()
 {
-  return 'Java,JavaScript,Linux,API,незрячий,слепой,зрение,accessibility,вспомагательная технология,тифлопедагогика,дефектология,платформа,программирование,пользовательский интерфейс,операционная система,СПО,Open Source,GPL';
+  return 'Java,JavaScript,Linux,API,незрячий,слепой,зрение,accessibility,вспомагательная технология,тифлопедагогика,дефектология,платформа,программирование,пользовательский интерфейс,операционная система,СПО,Open Source,GPL,accessibility,blind,visually-impaired,Raspberry Pi';
 }
 
 function lwr_month_en($month) {
