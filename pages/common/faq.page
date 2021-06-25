@@ -200,3 +200,42 @@ and we don't see any~significant difference between these two~solutions.
 LUWRAIN is~a~portable solution, while GNU/Linux has around 2% of~desktop systems.
 We think that developing of~a~portable  solution is~more effective and preferable.
 
+## LUWRAIN развивается слишком медленно. NVDA, например, давно всех обогнал
+
+NVDA не~содержит в~себе фактической реализации вспомогательных технологий,
+поскольку предлагает только верхнеуровневый интерфейс к~таким библиотекам, как
+UI~Automation,
+Microsoft Active Accessibility,
+IAccessible2 и the Java Access Bridge.
+Также необходимо обратить внимание, что разработка NVDA ведётся с~2006~года, то~есть он существенно старше LUWRAIN.
+Если есть желание и возможность ускорить разработку LUWRAIN, то смело присоединяйтесь к~нашей команде!
+
+## How works the~browser in~LUWRAIN?
+
+LUWRAIN uses the~JavaFX component [```javafx.scene.web.WebEngine```](https://docs.oracle.com/javafx/2/api/javafx/scene/web/WebEngine.html).
+It supports JavaScript and provides access to~DOM-structure of~the~loaded page.
+This~component is~based on~the~[WebKit](https://ru.wikipedia.org/wiki/WebKit) engine,
+also used in~some popular  browsers like [Google Chrome](https://en.wikipedia.org/wiki/Google_Chrome).
+
+## Screen readers do everything what is necessary, is LUWRAIN really needed?
+
+This~statement is~correct (but not~completely anyway) for~Microsoft Windows only.
+In~addition, such approach ignores financial questions,
+implying paying for~Microsoft Windows or~using it~illegally.
+
+## If LUWRAIN is~purposed for~blind users, does it mean that the~screen is~always empty?
+
+LUWRAIN shows a~text version of~the~controls a~user is~working with.
+The~text is~written in~contrast colours and with~monospaced font.
+This~feature is~extremely importatn important for~visually-impaired users.
+
+## If there is only a~text content on~the~screen, does it mean that graphical pictures never appears?
+
+Some applications can turn~on showing of~graphical materials on~the~screen.
+We support this~feature for~visually-impaired users and~for~demonstration purposes (showing a~presentation in~PDF~format).
+For~example, LUWRAIN browser can show graphical version of~a~page in~addition to~its textual form.
+Also PDF and image files can be drawn on~the~screen graphically.
+
+## Can LUWRAIN users create their own scripts for~adding custom features?
+
+Yes, LUWRAIN has a~script engine for~the~creation  of~extensions on~JavaScript.
