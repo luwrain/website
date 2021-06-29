@@ -146,11 +146,11 @@ because it is~much more preferable for~such~purpose.
 It's a~perfect way to~payed work, what is~very actual for~most of~blind people.
 1. GNU/Linux is~capable of~running on~[Raspberry~Pi](https://en.wikipedia.org/wiki/Raspberry_Pi).
 GNU/Linux and Raspberry~Pi together makes the~information technologies more accessible for~wide range of~blind users.
-1. GNU/Linux is~much more cheeper, if not~free at~all.
+1. GNU/Linux is~much more cheaper, if not~free at~all.
 
 ## What can I gain from~participating in~LUWRAIN development?
 
-Participating in~LUWRAIN development is~the~easiest way for~the~blind to~get into ~Java technologies and GNU/Linux.
+Participating in~LUWRAIN development is~the~easiest way for~the~blind to~get into~Java technologies and GNU/Linux.
 Java is in~high demand for~software engineers over the~globe.
 So LUWRAIN is~a~wonderful way to~get the~skills for~future employment.
 
@@ -161,7 +161,7 @@ We don't know any other portable accessibility solutions equally suitable for~ru
 (ChromeVox arguably the~closest to~that).
 
 
-## Is LUWRAIN as~a~operating system really useful?
+## Is LUWRAIN as~an~operating system really useful?
 
 Yes, LUWRAIN as~an~operating system can be~rather useful for~running on~portable computers or on~[Raspberry~Pi](https://en.wikipedia.org/wiki/Raspberry_Pi).
 
@@ -184,14 +184,15 @@ No, LUWRAIN doesn't have any~conflicts with~screen reading software.
 
 No, but we are thinking about LUWRAIN as~a~cloud service with a~client for~mobile phones.
 
-## Self~voicing applications are~not~popular among blind people, is~it a~really good idea to~develop this kind ofinterface?
+## Self~voicing applications are~not~popular among blind people, is~it a~really good idea to~develop this kind of~interface?
 
 We see great self-voiced projects ([Emacspeak](http://emacspeak.sourceforge.net/), for~example)
 which get a~lot of~advantages developing this~approach.
 
 In~the~meantime, Screen readers don't voice applications fully automatically:
-this requires proper care from the~developers of~applications , often in~conjunction with custom scripts for~the~application in~the~screen reader itself.
-LUWRAIN maintain accessibility of~the~functions of~opened and portable Java libraries rather  then accessibility of~applications interface.
+this requires proper care from the~developers of~applications,
+often in~conjunction with custom scripts for~the~application in~the~screen reader itself.
+LUWRAIN maintain accessibility of~the~functions of~opened and portable Java libraries rather  then accessibility of~applications interfaces.
 In~both cases a~lot~of manual control is~needed for~proper~support of~accessibility features,
 and we don't see any~significant difference between these two~solutions.
 
@@ -206,7 +207,7 @@ NVDA is~only a~handler of~a~number of~accessibility APIs
 (UI~Automation,
 Microsoft Active Accessibility,
 IAccessible2 and the Java Access Bridge).
-So it doesn't contain actual accessibility technologies, what makes it much more simple than LUWRAIN.
+So it doesn't contain actual accessibility technologies, what makes it much simpler  than LUWRAIN.
 In~addition, NVDA development has started in~2006, LUWRAIN is~much younger (the~first commit in~2012).
 
 ## How works the~browser in~LUWRAIN?
@@ -226,9 +227,9 @@ implying paying for~Microsoft Windows or~using it~illegally.
 
 LUWRAIN shows a~text version of~the~controls a~user is~working with.
 The~text is~written in~contrast colours and with~monospaced font.
-This~feature is~extremely importatn important for~visually-impaired users.
+This~feature is~extremely important for~visually-impaired users.
 
-## If there is only a~text content on~the~screen, does it mean that graphical pictures never appears?
+## If there is only a~text content on~the~screen, does it mean that a~graphical picture never appears?
 
 Some applications can turn~on showing of~graphical materials on~the~screen.
 We support this~feature for~visually-impaired users and~for~demonstration purposes (showing a~presentation in~PDF~format).
