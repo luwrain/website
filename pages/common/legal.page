@@ -9,7 +9,7 @@ luwrain-page-ru
 
 Проект LUWRAIN защищает идею гарантированного и бесплатного права людей с~нарушениями зрения на~получение инструментов для~работы на~ПК.
 Все~исходные тексты, созданные и опубликованные членами нашей команды,
-распространяются на~основе открытой лицензии [GNU~Public License версии~3](https://ru.wikipedia.org/wiki/GNU_General_Public_License).
+распространяются на~основе открытой лицензии [GNU~General Public License версии~3](https://ru.wikipedia.org/wiki/GNU_General_Public_License).
 Мы также просим относиться с~пониманием и соблюдать следующие  наши требования:
 
 1. __Товарный знак.__
@@ -23,7 +23,7 @@ luwrain-page-ru
 1. __Совместимость с~законодательством России.__
 На~территории Российской Федерации использование LUWRAIN разрешено в~соответствии со~[ст.~1286.1~ГК~РФ](https://ru.wikipedia.org/wiki/%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B0%D1%8F_%D0%BB%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F),
 регламентирующей понятие открытой лицензии,
-в~качестве которой выступает [GNU~Public License версии~3](https://ru.wikipedia.org/wiki/GNU_General_Public_License) без~ограничения срока действия и территории распространения.
+в~качестве которой выступает [GNU~General Public License версии~3](https://ru.wikipedia.org/wiki/GNU_General_Public_License) без~ограничения срока действия и территории распространения.
 1. __Сторонние библиотеки.__
 В~состав дистрибутивов LUWRAIN включен ряд~сторонних библиотек,
 каждая из~которых может иметь свою собственную лицензию.
@@ -42,11 +42,10 @@ luwrain-page-en
 
 # Legal notes
 
-The~LUWRAIN Project is~strongly committed to~the~absolute right of~blind people
+The~LUWRAIN Project is~committed to~the~absolute right of~blind people
 to have free~access to~the~information technologies and digital services.
-The~source code created by~the~members of~our~team  and published in~our~[Git~repositories ](local:/download/git/)
-are allowed to~be used under the~terms of~the~GNU Public License v.~3.
-You can find its full text [here](https://www.gnu.org/licenses/).
+The~source code created and published by~the~members of~our~team 
+are allowed to~be used under the~terms of~the~[GNU General Public License ver.~3](https://www.gnu.org/licenses/).
 In~addition, we kindly ask you to~respect the~following terms:
 
 1. __The~LUWRAIN trademark.__
@@ -54,22 +53,17 @@ The~trademark "LUWRAIN" is~registered in~the~Russian Federation.
 We do~not allow to~distribute any~proprietary products  and do~not allow to~publish any commercial services
 associated with LUWRAIN in~any way.
 1. __Proprietary components.__
-LUWRAIN includes few proprietary components,
-mostly of~them are~created in~collaboration with our partners.
-Due to~various reasons we are unable to~publish their source code,
-but their presence do~not impose any restrictions  on~LUWRAIN using for commercial or non-commercial purposes.
-1. __Compliance with the~law of~the~Russian Federation.__
-Whereas the~GNU Public License is~not fully compatible
-with the~law of~the~Russian Federation
-we~kindly ask you to~follow its terms,
-even if we are unable to~require this in~strict legal terms.
-1. __Сторонние библиотеки.__
-В~состав дистрибутивов LUWRAIN включен ряд~сторонних библиотек,
-каждая из~которых может иметь свою собственную лицензию.
-Мы не~включаем компоненты, для~которых не~разрешено коммерческое и некоммерческое использование с~публикацией полных исходных текстов.
+LUWRAIN may include  few proprietary components.
+Mostly of~them are~created in~collaboration with our partners.
+Due to~various reasons we are unable to~open  their source code,
+but their presence do~not impose any restrictions  on~LUWRAIN use either for~commercial or non-commercial purposes.
+1. __Third-party libraries.__
+LUWRAIN includes a~number of~third-party libraries,
+each of~them may have its own license.
+All~of~them allow commercial and non-commercial use with publishing their source code.
 1. __Java Runtime Environment.__
-Часть дистрибутивов содержит в~своём составе Java~SE Runtime Environment.
-Мы включаем этот компонент, ссылаясь на~следующее разрешение компании Oracle:
+Some of~LUWRAIN distributions include Oracle Java Runtime Environment (JRE).
+We distribute JRE according to~the~following permission by~the~Oracle corporation:
 
 _To run your application, a user needs the Java~SE Runtime Environment, which is freely available from Oracle. Or, you can redistribute
 the Java~SE Runtime Environment for free with your application, according to the terms of the Oracle Binary Code License Agreement for
