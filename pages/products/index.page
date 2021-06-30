@@ -9,7 +9,7 @@ luwrain-page-ru
 
 Платформа LUWRAIN~--- это невизуальная интерактивная среда для~людей с~нарушениями зрения,
 обеспечивающая доступ к~информационным ресурсам и сетевым сервисам.
-Платформа полностью бесплатна и [распространяется на~условиях свободной лицензии GNU~Public License версии 3.0](local:/doc/legal/).
+Платформа полностью бесплатна и [распространяется на~условиях свободной лицензии GNU~General Public License версии 3.0](local:/doc/legal/).
 Дистрибутивы LUWRAIN содержат ряд популярных приложений и
 не~требуют наличия на~компьютере каких-либо сторонних компонентов.
 Они могут быть запущены
@@ -57,7 +57,7 @@ luwrain-page-en
 
 LUWRAIN is a platform for the creation of apps for the blind and partially-sighted.
 It provides the~access to~information resources and network services.
-LUWRAIN is~free and [published under the~terms of~the~GNU~Public License v.~3](local:/doc/legal/).
+LUWRAIN is~free and [published under the~terms of~the~GNU~General Public License v.~3](local:/doc/legal/).
 Our~distributions do~not require any~additional software or other accessibility technologies to~be~installed on~your computer.
 Run them on~Microsoft Windows, GNU/Linux or as~a~standalone operating system on~the~Linux kernel.
 
