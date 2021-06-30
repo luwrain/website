@@ -7,6 +7,7 @@ luwrain-page-ru
 
 # Правовой статус
 
+<img alt="Изображение весов" src="image.png" style="height: 32px; width: 32px; vertical-align: text-bottom; margin-right: 5px;">
 Проект LUWRAIN защищает идею гарантированного и бесплатного права людей с~нарушениями зрения на~получение инструментов для~работы на~ПК.
 Все~исходные тексты, созданные и опубликованные членами нашей команды,
 распространяются на~основе открытой лицензии [GNU~General Public License версии~3](https://ru.wikipedia.org/wiki/GNU_General_Public_License).
@@ -42,6 +43,7 @@ luwrain-page-en
 
 # Legal notes
 
+<img alt="Scales" src="image.png" style="height: 32px; width: 32px; vertical-align: text-bottom; margin-right: 5px;">
 The~LUWRAIN Project is~committed to~the~absolute right of~blind people
 to have free~access to~the~information technologies and digital services.
 The~source code created and published by~the~members of~our~team  is allowed to~be used under the~terms of~the~[GNU General Public License ver.~3](https://www.gnu.org/licenses/).
