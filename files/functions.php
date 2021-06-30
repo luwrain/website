@@ -13,7 +13,7 @@ function luwrain_top_menu() {
           <div class="col-md-4">
             <a href="<?php echo luwrain_link('/doc/user/start/');?>"><?php echo lwr_lang() == 'ru'?'С чего начать?':'Getting started';?></a>
             <a href="<?php echo luwrain_link('/download/');?>"><?php echo lwr_lang() == 'ru'?'Загрузить':'Downloads';?></a>
-            <a href="<?php echo lwr_link('/community/');?>"><?php echo lwr_lang() == 'ru'?'Сообщество и материалы:':'Community and materials:';?></a>
+            <a href="<?php echo lwr_link('/doc/about/');?>"><?php echo lwr_lang() == 'ru'?'Что такое LUWRAIN?':'What is LUWRAIN?';?></a>
             <ul class="subMenuSmall">
               <li>
                 <a href="<?php echo luwrain_link('/community/massmedia/');?>"><?php echo lwr_lang() == 'ru'?'Статьи и беседы':'Media and talks';?></a>
@@ -22,13 +22,10 @@ function luwrain_top_menu() {
                 <a href="<?php echo luwrain_link('/community/events/');?>"><?php echo lwr_lang() == 'ru'?'Презентации и мероприятия':'Presentations and events';?></a>
               </li>
               <li>
-                <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo lwr_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
+                <a href="<?php echo lwr_link('/doc/faq/');?>"><?php echo lwr_lang() == 'ru'?'Часто задаваемые вопросы':'FAQ';?></a>
               </li>
               <li>
-                <a href="http://wiki.luwrain.org/"><?php echo lwr_lang() == 'ru'?'Вики':'Wiki';?></a>
-              </li>
-              <li>
-                <a href="https://luwrain.org/javadoc/">Javadoc</a>
+                <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo lwr_lang() == 'ru'?'Правовой статус':'Legal notes';?></a>
               </li>
             </ul>
           </div>
@@ -38,8 +35,8 @@ function luwrain_top_menu() {
             <a href="https://github.com/luwrain/">GitHub</a>
           </div>
           <div class="col-md-4">
-            <a href="<?php echo lwr_link('/doc/faq/');?>"><?php echo lwr_lang() == 'ru'?'Часто задаваемые вопросы':'FAQ';?></a>
-            <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo lwr_lang() == 'ru'?'Правовой статус':'Legal notes';?></a>
+            <a href="https://wiki.luwrain.org/"><?php echo lwr_lang() == 'ru'?'Вики':'Wiki';?></a>
+            <a href="<?php echo luwrain_link('/community/mailing-lists/');?>"><?php echo lwr_lang() == 'ru'?'Списки рассылок':'Mailing lists';?></a>
             <a href="<?php echo luwrain_link('/doc/contacts/');?>"><?php echo lwr_lang() == 'ru'?'Контакты':'Contact us';?></a>
           </div>
         </div>
