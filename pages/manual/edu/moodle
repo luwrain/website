@@ -1,0 +1,4 @@
+Чтобы включить Web services надо зайти в общие настройки site Administration, выбрать пункт Advanced features, найти в табличке enable Web services и поставить галку на Default:no
+Чтоб включить rest заходим в site Administration - plugins-web services - manage protocols, находим в табличке rest, там в столбце enable включаем значек глазика
+Создать токен: site Administration - plugins-web services - manage tokens
+ Там чтоб его сгенерировать вроде ввела свое имя фамилию, выбрала в пункте service:moodle mobile Web service, и он появился

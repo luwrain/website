@@ -17,11 +17,11 @@ luwrain-page-ru
 
 ## О~LUWRAIN
 
-* [Что~такое LUWRAIN?](local:/doc/about/)
-* [Часто задаваемые вопросы](local:/doc/faq/)
-* [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:/doc/difference/)
-* [Правовой статус](local:/doc/legal/)
-* [Авторы проекта](local:/doc/authors/)
+* [Что~такое LUWRAIN?](local:about/)
+* [Часто задаваемые вопросы](local:faq/)
+* [Чем LUWRAIN отличается от~других вспомогательных технологий?](local:advantages/)
+* [Правовой статус](local:legal/)
+* [Авторы проекта](local:authors/)
 
 luwrain-page-en
 
@@ -38,7 +38,7 @@ luwrain-page-en
 
 * [The~free story what LUWRAIN is](local:about/)
 * [Frequently asked questions](local:faq/)
-* [Why is LUWRAIN different than other accessibility solutions?](local:difference/)
+* [Why is LUWRAIN different than other accessibility solutions?](local:advantages/)
 * [Legal notes](local:legal/)
 * [Who we are](local:authors/)
 * [Contact~us](local:contacts/)

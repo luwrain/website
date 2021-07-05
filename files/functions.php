@@ -2,9 +2,10 @@
 // Copyright 2012-2021 Michael Pozhidaev <msp@luwrain.org>
 // The LUWRAIN Project, GPL v.3
 
+  include 'nightly.php';
 include 'versions.php';
   include 'base.php';
-  include "adapted.php";
+  include 'adapted.php';
 
 function luwrain_top_menu() {
 ?>
@@ -22,7 +23,7 @@ function luwrain_top_menu() {
                 <a href="<?php echo luwrain_link('/community/events/');?>"><?php echo lwr_lang() == 'ru'?'Презентации и мероприятия':'Presentations and events';?></a>
               </li>
               <li>
-                <a href="<?php echo lwr_link('/doc/faq/');?>"><?php echo lwr_lang() == 'ru'?'Часто задаваемые вопросы':'FAQ';?></a>
+                <a href="<?php echo lwr_link('/doc/faq/');?>"><?php echo lwr_lang() == 'ru'?'Часто задаваемые вопросы':'Frequently asked questions';?></a>
               </li>
               <li>
                 <a href="<?php echo luwrain_link('/doc/legal/');?>"><?php echo lwr_lang() == 'ru'?'Правовой статус':'Legal notes';?></a>

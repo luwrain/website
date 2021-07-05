@@ -7,17 +7,16 @@ luwrain-page-ru
 
 # репозитории Git
 
-См.~также:
+Получить исходный код LUWRAIN с~[github.com/luwrain](https://github.com/luwrain/) можно при~помощи следующей команды:
 
-* [Компиляция nightly-релизов](local:/doc/devel/nightly/)
+    git clone \-\-recursive https://github.com/luwrain/parent/
 
-Исходный код LUWRAIN опубликован в~репозиториях Git, собранных по~адресу [https://github.com/luwrain/](http://github.com/luwrain/).
-Они перечислены ниже с~краткими комментариями об~их~назначении.
-Пожалуйста, обратите внимание, что в~репозитории [base.git](https://github.com/luwrain/base.git) присутствует скрипт ```lwr-checkout```,
-который выполняет автоматическое клонирование всех~репозиториев, задействованных в~настоящий момент в~сборке релизов.
+Ниже перечислены основные репозитории нашего проекта с~краткими комментариями об~их~назначении.
 
 ## Ядро системы
 
+* [parent.git](https://github.com/luwrain/parent.git):
+родительский репозиторий с~модулями и корневым ```pom.xml```
 * [luwrain.git](https://github.com/luwrain/luwrain.git):
 ядро системы, стандартные элементы управления и поддержка расширений JavaScript
 * [base.git](https://github.com/luwrain/base.git):
@@ -86,39 +85,27 @@ luwrain-page-ru
 * [runyms.git](https://github.com/luwrain/runyms.git):
 библиотека для~обработки неоднозначности прочтения омографов русского языка
 
+## См.~также:
+
+* [Компиляция nightly-релизов](local:/doc/devel/nightly/)
+
+
 
 
 luwrain-page-en
 
 # Git repositories
 
-See~also
+You can obtain the~source~code of~LUWRAIN from~[github.com/luwrain](https://github.com/luwrain/) with~the~following command:
 
-* [Compiling our nightly releases](local:/doc/devel/nightly/)
+    git clone \-\-recursive https://github.com/luwrain/parent/
 
-Our~source code is easily accessible through ~a~set of~Git repositories on~[github.com](http://github.com/luwrain/).
-All of~these repositories are~listed here in~several categories 
-with~brief comments.
-Please note that there is the~*lwr-checkout* script in~[base.git](https://github.com/luwrain/base.git)
-which clones all~repositories necessary to~compile our~distribution.
+All~important repositories of~our~project are~listed below with~short comments about their purpose.
 
-All~repositories are divided onto several categories.
-The~belonging to~the~particular category  is dependnt on  the~visibility rules for~the~classes inside.
-The~classes in~the~repositories of~the~category  "Major components"
-are exported to~all~applications  and to~the~implementation of~the~national standards.
-The~classes of~system-dependent repositories are not~accessible,
-except of~the~implementation of~national standards.
-The~classes of~the~central repositories
-[luwrain.git](https://github.com/luwrain/luwrain.git)
-and
-[base.git](https://github.com/base.git)
-are accessible in~any extension, application and component.
-The~code of the~repository
-[interaction-javafx](https://github.com/luwrain/interaction-javafx.git)
-is loaded by~the~LUWRAIN core and not~available elsewhere at~all.
+## Core repositories
 
-## Core repositories 
-
+* [parent.git](https://github.com/luwrain/parent.git):
+a~root~repository containing modules and parent~```pom.xml```
 * [https://github.com/luwrain/luwrain.git](https://github.com/luwrain/luwrain.git) ---
 the system core, standard controls, extensions manager 
 * [https://github.com/luwrain/base.git](https://github.com/luwrain/base.git) ---
@@ -219,3 +206,8 @@ a~client library on~Java for~access to~the~open API of~[books.luwrain.org](https
 a~set of~Bash scripts for~access to~the~open API of~[books.luwrain.org](https://books.luwrain.org)
 * [runyms.git](https://github.com/luwrain/runyms.git):
 a~library for~processing of~Russian homographs
+
+## See~also
+
+* [Compiling our nightly releases](local:/doc/devel/nightly/)
+

@@ -2,8 +2,6 @@
 // Copyright 2012-2020 Michael Pozhidaev <msp@luwrain.org>
 // The LUWRAIN Project, GPL v.3
 
-include "/www/download/nightly/latest/version.php";
-
 function lwr_version() { return '1.9.0unstable'; }
 function lwr_release_date_en() { return 'October 19, 2020'; }
 function lwr_release_date_ru() { return '19 октября 2020 г.'; }

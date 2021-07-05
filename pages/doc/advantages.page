@@ -1,5 +1,5 @@
 
-TARGET doc/difference
+TARGET doc/advantages
 TITLE RU Чем LUWRAIN отличается от~других вспомогательных технологий?
 TITLE EN Why is LUWRAIN different than other accessible solutions?
 
@@ -68,6 +68,7 @@ luwrain-page-en
 
 # Why is LUWRAIN different than other accessible solutions?
 
+<?php echo lwr_intro_image32('image.png', 'Image of a list of advantages');?>
 We consider the~following advantages of~LUWRAIN  as~the~most noticeable:
 
 1. __Everywhere.__

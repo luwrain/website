@@ -2,6 +2,10 @@
 // Copyright 2012-2021 Michael Pozhidaev <msp@luwrain.org>
 // The LUWRAIN Project, GPL v.3
 
+function lwr_intro_image32($path, $alt) {
+  return '<img alt="'.htmlspecialchars($alt).'Тукс" src="'.htmlspecialchars($path).'" style="height: 32px; width: 32px; vertical-align: text-bottom; margin-right: 5px;">';
+}
+
 function lwr_keywords() {
   return 'a11y,API,blind,braille,GPL,Java,JavaScript,Linux,Open Source,Raspberry Pi,speech,visually-impaired,брайль,вспомагательная технология,дефектология,зрение,незрячий,операционная система,платформа,пользовательский интерфейс,программирование,речь,слепой,СПО,тифлопедагогика';
   }
