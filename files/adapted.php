@@ -43,33 +43,35 @@ function lwr_main_page_adapted()
 {
   if (lwr_lang() == 'en') {
 ?>
-            <h1>The LUWRAIN project</h1>
-            <p>LUWRAIN develops technologies which improve the&#160;accessibility of&#160;internet services and digital materials to&#160;people with&#160;eyesight problems.
-              We are designing a&#160;new speech-enabled user interface and
-              are researching new methods of&#160;adapting materials for&#160;blind people with the&#160;help of machine learning.</p>
-            <p>The&#160;cloud service <a href="https://books.luwrain.org/?lang=en&amp;mode=adapted">LUWRAIN Books</a> creates audiobooks of&#160;uploaded texts utilizing commercial text-to-speech engines
-              and with&#160;the support of&#160;the DAISY format.
-              This innovation was based on&#160;considerable research into the&#160;areas of&#160;natural language processing,
-              parsing of&#160;source materials, and layout generation.
-              LUWRAIN Books also takes care of&#160;delivering its audiobooks to&#160;readers in&#160;a&#160;way which helps them to&#160;manage bookmarks.</p>
-            <p>The&#160;core of&#160;the&#160;LUWRAIN project is&#160;a&#160;platform for&#160;the&#160;creation of&#160;apps for&#160;the&#160;blind and partially-sighted.
-              It brings a&#160;new user experience designed to&#160;achieve maximum efficiency.
-              The&#160;LUWRAIN platform provides an&#160;open API on&#160;top of&#160;Java language,
-              which helps to&#160;build accessible apps in&#160;a&#160;portable way.
-              LUWRAIN, together with&#160;a&#160;set of&#160;standard utilities, can be launched as&#160;a&#160;standalone operating system on&#160;the&#160;Linux kernel.
-              It is the&#160;most advanced approach to&#160;making Raspberry&#160;Pi accessible to&#160;the&#160;blind.</p>
-            <p>We are constantly looking for&#160;technical solutions, commercial models and new approaches to&#160;education which in&#160;conjunction with&#160;the&#160;LUWRAIN platform
-              can improve the&#160;lives of&#160;people with&#160;eyesight disability.
-              We invite everybody to&#160;collaborate with us on&#160;learning about blind software engineering, adapting publishing systems such&#160;as&#160;TeX and Lilypond, and many other things.</p>
-            <h2>Choose the&#160;section you want:</h2>
-            <ul>
-                <li><a href="<?php echo luwrain_link('/doc/user/start/');?>">Getting started</a></li>
-                <li><a href="<?php echo luwrain_link('/doc/user/manual/');?>">User manual</a></li>
-                <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Subscribe to&#160;our mailing lists</a></li>
-                <li><a href="<?php echo luwrain_link('/download/iso/');?>">Bootable ISO-images</a></li>
-                <li>Distributions: <a href="<?php echo luwrain_link('/download/windows');?>">for&#160;Microsoft Windows</a>, <a href="<?php echo luwrain_link('/download/linux/');?>">for&#160;GNU/Linux</a></li>
-                <li><a href="<?php echo luwrain_link('/doc/contacts/');?>">Our&#160;contacts</a></li>
-            </ul>
+      <h1>The LUWRAIN project</h1>
+
+      <ul>
+        <li>Follow&#160;us <a href="http://twitter.com/luwrain">on&#160;Twitter</a> and <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">on&#160;YouTube</a>
+        <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Subscribe to&#160;our mailing lists</a></li>
+      </ul>
+      <p>LUWRAIN develops technologies which improve the&#160;accessibility of&#160;internet services and digital materials to&#160;people with&#160;eyesight problems.
+        We are designing a&#160;new speech-enabled user interface and
+        are researching new methods of&#160;adapting materials for&#160;blind people with the&#160;help of machine learning.</p>
+      <p>The&#160;cloud service <a href="https://books.luwrain.org/?lang=en&amp;mode=adapted">LUWRAIN Books</a> creates audiobooks of&#160;uploaded texts utilizing commercial text-to-speech engines
+        and with&#160;the support of&#160;the DAISY format.
+        This innovation was based on&#160;considerable research into the&#160;areas of&#160;natural language processing,
+        parsing of&#160;source materials, and layout generation.
+        LUWRAIN Books also takes care of&#160;delivering its audiobooks to&#160;readers in&#160;a&#160;way which helps them to&#160;manage bookmarks.</p>
+      <p>The&#160;core of&#160;the&#160;LUWRAIN project is&#160;a&#160;platform for&#160;the&#160;creation of&#160;apps for&#160;the&#160;blind and partially-sighted.
+        It brings a&#160;new user experience designed to&#160;achieve maximum efficiency.
+        The&#160;LUWRAIN platform provides an&#160;open API on&#160;top of&#160;Java language,
+        which helps to&#160;build accessible apps in&#160;a&#160;portable way.
+        LUWRAIN, together with&#160;a&#160;set of&#160;standard utilities, can be launched as&#160;a&#160;standalone operating system on&#160;the&#160;Linux kernel.
+        It is the&#160;most advanced approach to&#160;making Raspberry&#160;Pi accessible to&#160;the&#160;blind.</p>
+      <p>We are constantly looking for&#160;technical solutions, commercial models and new approaches to&#160;education which in&#160;conjunction with&#160;the&#160;LUWRAIN platform
+        can improve the&#160;lives of&#160;people with&#160;eyesight disability.
+        We invite everybody to&#160;collaborate with us on&#160;learning about blind software engineering, adapting publishing systems such&#160;as&#160;TeX and Lilypond, and many other things.</p>
+      <ul>
+        <li><a href="<?php echo luwrain_link('/doc/user/start/');?>">Getting started</a></li>
+        <li>Distributions: <a href="<?php echo luwrain_link('/download/windows');?>">for&#160;Microsoft Windows</a>, <a href="<?php echo luwrain_link('/download/linux/');?>">for&#160;GNU/Linux</a></li>
+        <li><a href="<?php echo luwrain_link('/doc/advantages/');?>">Why is LUWRAIN different than other accessibility solutions?</a></li>
+        <li><a href="<?php echo luwrain_link('/doc/faq/');?>">Frequently asked questions</a></li>
+      </ul>
 <?php
   }
   if (lwr_lang() == 'ru')
@@ -112,7 +114,7 @@ function lwr_main_page_adapted()
         <li><a href="<?php echo luwrain_link('/doc/user/start/');?>">С&#160;чего начать?</a></li>
         <li>Дистрибутивы: <a href="<?php echo luwrain_link('/download/windows');?>">для&#160;Microsoft Windows</a>, <a href="<?php echo luwrain_link('/download/linux/');?>">для&#160;GNU/Linux</a></li>
         <li><a href="<?php echo luwrain_link('/doc/advantages/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
-        <li><a href="<?php echo luwrain_link('/doc/authors/');?>">Кто&#160;мы?</a></li>
+        <li><a href="<?php echo luwrain_link('/doc/faq/');?>">Часто задаваемые вопросы</a></li>
       </ul>
 <?php
 
