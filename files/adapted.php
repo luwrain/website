@@ -77,11 +77,8 @@ function lwr_main_page_adapted()
 ?>
       <h1>Платформа невизуальных приложений LUWRAIN</h1>
       <ul>
-        <li><a href="<?php echo luwrain_link('/doc/user/start/');?>">С&#160;чего начать?</a></li>
-        <li><a href="<?php echo luwrain_link('/doc/authors/');?>">Кто&#160;мы??</a></li>
         <li>Следите за&#160;нашими&#160;новостями <a href="http://twitter.com/luwrain">в&#160;Твиттере</a> и <a href="https://www.youtube.com/channel/UCY2ZRqeBTH4nhdPG1Vjl-6g">на&#160;YouTube</a>
-        <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Списки рассылок</a></li>
-        <li><a href="http://wiki.luwrain.org">Вики</a></li>
+        <li><a href="<?php echo luwrain_link('/community/mailing-lists/');?>">Подпишитесь на&#160;наши&#160;списки рассылок</a></li>
       </ul>
       <h2>Технологии без&#160;пикселей</h2>
       <p>LUWRAIN развивает инструменты доступа к&#160;информационным технологиям в&#160;невизуальной форме.
@@ -111,6 +108,12 @@ function lwr_main_page_adapted()
         популяризация невизуального использования издательских систем TeX и Lilypond,
         снижение числа незрячих людей, которые не&#160;смогли начать использование ПК,&#160;&#x2014; далеко не весь круг интересных нам проблем.
         <a href="<?php echo luwrain_link('/doc/about/');?>">Читать далее...</a></p>
+      <ul>
+        <li><a href="<?php echo luwrain_link('/doc/user/start/');?>">С&#160;чего начать?</a></li>
+        <li>Дистрибутивы: <a href="<?php echo luwrain_link('/download/windows');?>">для&#160;Microsoft Windows</a>, <a href="<?php echo luwrain_link('/download/linux/');?>">для&#160;GNU/Linux</a></li>
+        <li><a href="<?php echo luwrain_link('/doc/advantages/');?>">Чем LUWRAIN отличается от&#160;других вспомогательных технологий?</a></li>
+        <li><a href="<?php echo luwrain_link('/doc/authors/');?>">Кто&#160;мы?</a></li>
+      </ul>
 <?php
 
 }
